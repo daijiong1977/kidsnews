@@ -1,0 +1,16 @@
+/* Newsreader font - using system font fallback */
+/* For production, consider hosting actual Newsreader fonts or using system fonts */
+
+:root {
+  --font-newsreader: "Newsreader", "Georgia", "Times New Roman", serif;
+}
+
+/* Using elegant serif system fonts as fallback */
+.font-newsreader {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-optical-sizing: auto;
+}
+
+/* If you want to use actual Newsreader fonts, download them from:
+   https://fonts.google.com/specimen/Newsreader
+   and add @font-face rules here */

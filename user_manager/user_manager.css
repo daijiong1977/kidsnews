@@ -1,0 +1,442 @@
+/**
+ * User Manager Styles
+ * Styling for registration modal and user interface elements
+ */
+
+/* Modal Overlay */
+.user-modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Modal Content */
+.user-modal-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    animation: slideUp 0.3s ease;
+    position: relative;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Close Button */
+.user-modal-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.user-modal-close:hover {
+    color: #333;
+}
+
+/* Modal Header */
+.user-modal-content h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.user-modal-content > p {
+    margin: 0 0 25px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Primary Button */
+.btn-primary {
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-primary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Messages */
+.message {
+    display: none;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.message-success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.message-error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.message-info {
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+    color: #0c5460;
+}
+
+/* Modal Footer */
+.modal-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.modal-footer p {
+    margin: 0;
+    color: #666;
+    font-size: 13px;
+}
+
+.modal-footer a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.modal-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Register Button */
+.user-register-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 14px 24px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.user-register-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+}
+
+/* Sync Button */
+.user-sync-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 12px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.user-sync-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+.user-sync-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* User Info Display */
+.user-info {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    background: #f8f9fa;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+    margin-left: 15px;
+}
+
+.reading-style-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Choice Buttons */
+.choice-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* User Dropdown Menu */
+.user-dropdown {
+    position: fixed;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    min-width: 200px;
+    z-index: 10001;
+    overflow: hidden;
+    animation: dropdownFadeIn 0.2s ease;
+}
+
+@keyframes dropdownFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropdown-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #f5f5f5;
+}
+
+.dropdown-divider {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 4px 0;
+}
+
+/* Button Styles */
+.btn-text {
+    background: none;
+    border: none;
+    color: #667eea;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.btn-text:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .user-modal-content {
+        width: 95%;
+        padding: 25px;
+        margin: 20px;
+    }
+    
+    .user-register-btn,
+    .user-sync-btn {
+        bottom: 20px;
+        right: 20px;
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    
+    .user-info {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    
+    .reading-style-badge {
+        font-size: 11px;
+        padding: 3px 10px;
+    }
+    
+    .user-dropdown {
+        min-width: 180px;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .user-modal-content {
+        background-color: #2d2d2d;
+        color: #e0e0e0;
+    }
+    
+    .user-modal-content h2 {
+        color: #fff;
+    }
+    
+    .user-modal-content > p {
+        color: #b0b0b0;
+    }
+    
+    .form-group label {
+        color: #e0e0e0;
+    }
+    
+    .form-group input,
+    .form-group select {
+        background-color: #3a3a3a;
+        border-color: #555;
+        color: #e0e0e0;
+    }
+    
+    .form-group input:focus,
+    .form-group select:focus {
+        border-color: #667eea;
+        background-color: #404040;
+    }
+    
+    .user-info {
+        background: #3a3a3a;
+        color: #e0e0e0;
+    }
+    
+    .user-modal-close {
+        color: #999;
+    }
+    
+    .user-modal-close:hover {
+        color: #fff;
+    }
+    
+    .user-dropdown {
+        background: #2d2d2d;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+    
+    .dropdown-item {
+        color: #e0e0e0;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #3a3a3a;
+    }
+    
+    .dropdown-divider {
+        background-color: #555;
+    }
+}
+
