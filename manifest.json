@@ -1,1 +1,10 @@
-$(cat /tmp/test_zip/manifest.json)
+{
+  "generated_at": "2025-11-11T18:53:09.627Z",
+  "date": "2025-11-11",
+  "files": {
+    "main_payloads": 12,
+    "article_payloads": 15,
+    "images": 18,
+    "total": 75
+  }
+}
