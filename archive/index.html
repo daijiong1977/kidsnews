@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>News Archives - News Oh,Ye!</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="../assets/fonts/newsreader.css" rel="stylesheet"/>
+    <link href="../assets/fonts/material-symbols.css" rel="stylesheet"/>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-sans text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col w-17/20 max-w-6xl flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-border-light dark:border-border-dark px-6 py-3">
+<div class="flex items-center gap-4">
+<div class="text-primary size-7">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 17.4264C16.7203 18.1174 20.2244 18.5217 24 18.5217C27.7756 18.5217 31.2797 18.1174 34.1739 17.4264C36.9144 16.7722 39.9967 15.2331 41.3563 14.1648L24.8486 40.6391C24.4571 41.267 23.5429 41.267 23.1514 40.6391L6.64374 14.1648C8.00331 15.2331 11.0856 16.7722 13.8261 17.4264Z" fill="currentColor"></path>
+</svg>
+</div>
+<div class="flex flex-col gap-0.5">
+<h2 class="text-xl font-bold tracking-tight">News Archives</h2>
+<p class="text-xs text-primary font-medium">Read-Think-Learn</p>
+</div>
+</div>
+<button onclick="window.location.href='../index.html'" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold">
+<span class="truncate">Return to Main</span>
+</button>
+</header>
+<main class="flex flex-col gap-6 mt-8 px-4">
+<div class="text-center mb-6">
+<h1 class="text-3xl font-bold mb-2">News Archives</h1>
+<p class="text-subtle-light dark:text-subtle-dark">Browse articles from previous days</p>
+</div>
+<div id="archive-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+<!-- Archive dates will be loaded here -->
+</div>
+</main>
+</div>
+</div>
+</div>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {primary: "#359EFF", secondary: "#14b8a6", "background-light": "#f5f7f8", "background-dark": "#0f1923", "text-light": "#09090b", "text-dark": "#fafafa", "subtle-light": "#71717a", "subtle-dark": "#a1a1aa", "border-light": "#e4e4e7", "border-dark": "#27272a", "card-light": "#f4f4f5", "card-dark": "#27272a"}}}};</script>
+<script>
+document.addEventListener('DOMContentLoaded', async function() {
+    const container = document.getElementById('archive-list');
+    container.innerHTML = '<p class="col-span-full text-center text-subtle-light dark:text-subtle-dark">Loading archives...</p>';
+    
+    try {
+        const response = await fetch('/payloads/archive_index.json');
+        if (!response.ok) throw new Error('Archive index not found');
+        
+        const data = await response.json();
+        const dates = data.dates || [];
+        
+        if (dates.length === 0) {
+            container.innerHTML = '<p class="col-span-full text-center text-subtle-light dark:text-subtle-dark">No archives available yet.</p>';
+            return;
+        }
+        
+        container.innerHTML = '';
+        dates.forEach(archive => {
+            const dateObj = new Date(archive.date + 'T00:00:00');
+            const formattedDate = dateObj.toLocaleDateString('en-US', { 
+                weekday: 'long',
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            });
+            
+            const card = document.createElement('a');
+            card.href = `archive.html?date=${archive.date}`;
+            card.className = 'block p-6 bg-card-light dark:bg-card-dark rounded-lg hover:shadow-lg transition-all hover:-translate-y-1';
+            card.innerHTML = `
+                <div class="flex items-center gap-3 mb-2">
+                    <span class="material-symbols-outlined text-primary">calendar_today</span>
+                    <h3 class="text-lg font-bold">${formattedDate}</h3>
+                </div>
+                <p class="text-sm text-subtle-light dark:text-subtle-dark">View articles from this date</p>
+            `;
+            container.appendChild(card);
+        });
+        
+        console.log(`✓ Loaded ${dates.length} archive dates`);
+    } catch (error) {
+        console.error('Error loading archives:', error);
+        container.innerHTML = `<p class="col-span-full text-center text-red-500">Error loading archives. Please try again later.</p>`;
+    }
+});
+
+// Theme toggle
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'dark') {
+    document.documentElement.classList.add('dark');
+}
+</script>
+</body>
+</html>
