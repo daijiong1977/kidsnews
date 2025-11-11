@@ -306,8 +306,10 @@
 
     async function loadArticleFromJSON() {
         try {
-            const fetchPath = `/article_page/payload_${articleId}/${level}.json`;
-            console.log('Fetching:', fetchPath);
+            // Payloads are stored in the repo under /article_payloads/payload_<id>/<level>.json
+            // article_page is a subdirectory, so use an absolute path from site root.
+            const fetchPath = `/article_payloads/payload_${articleId}/${level}.json`;
+            console.log('Fetching article payload from:', fetchPath);
             
             const response = await fetch(fetchPath);
             if (!response.ok) {
