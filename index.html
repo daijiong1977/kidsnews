@@ -509,10 +509,11 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Load available archive dates
   let availableDates = [];
   try {
-    const response = await fetch('./main/payloads_latest/archive_available_dates.json');
+    const response = await fetch('./payloads/archive_index.json');
     if (response.ok) {
       const data = await response.json();
-      availableDates = data.dates || [];
+      // archive_index.json has dates array with {date: "YYYY-MM-DD", ...}
+      availableDates = (data.dates || []).map(d => d.date.replace(/-/g, '')); // Convert to YYYYMMDD
       console.log(`✓ Loaded ${availableDates.length} available archive dates`);
     }
   } catch (e) {
@@ -585,7 +586,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.querySelectorAll('.archive-date').forEach(btn => {
       btn.addEventListener('click', function() {
         const date = this.getAttribute('data-date');
-        window.location.href = `./main/archive.html?date=${date}`;
+        window.location.href = `./archive/archive.html?date=${date.substring(0,4)}-${date.substring(4,6)}-${date.substring(6,8)}`;
       });
     });
   }
