@@ -14,20 +14,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 2  # Need to see the previous commit
 
-      - name: Check if website.zip changed
+      - name: Check if website.zip exists
         id: check_zip
         run: |
-          if git diff HEAD^ HEAD --name-only | grep -q "website.zip"; then
-            echo "changed=true" >> $GITHUB_OUTPUT
+          if [ -f "website.zip" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
           else
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "exists=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Unpack website.zip
-        if: steps.check_zip.outputs.changed == 'true'
+        if: steps.check_zip.outputs.exists == 'true'
         run: |
           echo "📦 Unpacking website.zip..."
           
@@ -47,7 +45,7 @@ jobs:
           ls -la
 
       - name: Commit unpacked files
-        if: steps.check_zip.outputs.changed == 'true'
+        if: steps.check_zip.outputs.exists == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -64,7 +62,7 @@ jobs:
           fi
 
       - name: Summary
-        if: steps.check_zip.outputs.changed == 'true'
+        if: steps.check_zip.outputs.exists == 'true'
         run: |
           echo "### 🎉 Website Deployed!" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
