@@ -68,9 +68,10 @@ jobs:
         run: |
           echo "### 🎉 Website Deployed!" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Vercel will auto-deploy in ~30 seconds" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Files unpacked:**" >> $GITHUB_STEP_SUMMARY
           echo "- \`payloads/\`: $(ls -1 payloads/ 2>/dev/null | wc -l) files" >> $GITHUB_STEP_SUMMARY
           echo "- \`article_payloads/\`: $(ls -1 article_payloads/ 2>/dev/null | wc -l) directories" >> $GITHUB_STEP_SUMMARY
           echo "- \`article_images/\`: $(ls -1 article_images/ 2>/dev/null | wc -l) images" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Vercel will auto-deploy from this commit" >> $GITHUB_STEP_SUMMARY
+
