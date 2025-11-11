@@ -7,6 +7,9 @@ on:
     paths:
       - 'website.zip'
 
+permissions:
+  contents: write
+
 jobs:
   unpack-and-deploy:
     runs-on: ubuntu-latest
