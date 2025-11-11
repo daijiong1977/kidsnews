@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <script>
 // Dynamic article loading by category and difficulty level
-const PAYLOAD_BASE = './payloads/';
+const PAYLOAD_BASE = './main/payloads_latest/';
 
 // Template for regular levels (with Activities link)
 const CARD_TEMPLATE = `<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="{{id}}">
@@ -509,7 +509,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Load available archive dates
   let availableDates = [];
   try {
-    const response = await fetch('./payloads/archive_available_dates.json');
+    const response = await fetch('./main/payloads_latest/archive_available_dates.json');
     if (response.ok) {
       const data = await response.json();
       availableDates = data.dates || [];
