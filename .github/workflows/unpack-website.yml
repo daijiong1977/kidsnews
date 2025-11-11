@@ -1,0 +1,76 @@
+name: Unpack Website
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'website.zip'
+
+jobs:
+  unpack-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need to see the previous commit
+
+      - name: Check if website.zip changed
+        id: check_zip
+        run: |
+          if git diff HEAD^ HEAD --name-only | grep -q "website.zip"; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Unpack website.zip
+        if: steps.check_zip.outputs.changed == 'true'
+        run: |
+          echo "📦 Unpacking website.zip..."
+          
+          # Remove old dynamic files but keep static files
+          rm -rf payloads/ article_payloads/ article_images/ manifest.json
+          
+          # Unzip the new files
+          unzip -o website.zip
+          
+          # Remove the zip file itself
+          rm website.zip
+          
+          echo "✅ Unpacked successfully"
+          
+          # Show what we got
+          echo "📋 Files unpacked:"
+          ls -la
+
+      - name: Commit unpacked files
+        if: steps.check_zip.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add .
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🚀 Deploy website from zip [skip ci]"
+            git push
+            echo "✅ Changes pushed to main branch"
+          fi
+
+      - name: Summary
+        if: steps.check_zip.outputs.changed == 'true'
+        run: |
+          echo "### 🎉 Website Deployed!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Vercel will auto-deploy in ~30 seconds" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Files unpacked:**" >> $GITHUB_STEP_SUMMARY
+          echo "- \`payloads/\`: $(ls -1 payloads/ 2>/dev/null | wc -l) files" >> $GITHUB_STEP_SUMMARY
+          echo "- \`article_payloads/\`: $(ls -1 article_payloads/ 2>/dev/null | wc -l) directories" >> $GITHUB_STEP_SUMMARY
+          echo "- \`article_images/\`: $(ls -1 article_images/ 2>/dev/null | wc -l) images" >> $GITHUB_STEP_SUMMARY
