@@ -46,7 +46,56 @@ class SupabaseUserManager {
 
         // Expose to window for compatibility with existing code
         window.userManager = this;
+        
+        // Wire up the user-button if it exists
+        this.setupUserButton();
+        
         console.log('✅ SupabaseUserManager initialized');
+    }
+    
+    setupUserButton() {
+        const userButton = document.getElementById('user-button');
+        if (userButton) {
+            userButton.addEventListener('click', () => {
+                if (this.isRegistered()) {
+                    // Show user profile/logout options
+                    this.showUserMenu();
+                } else {
+                    // Show login modal
+                    this.openLoginSubscribeModal();
+                }
+            });
+        }
+    }
+    
+    showUserMenu() {
+        // Simple menu for logged-in users
+        const menuHtml = `
+            <div id="user-menu-modal" class="user-modal" style="display:flex;">
+                <div class="user-modal-content">
+                    <span class="user-modal-close" id="user-menu-close">&times;</span>
+                    <h2>Account</h2>
+                    <p><strong>Email:</strong> ${this.user?.email || 'Unknown'}</p>
+                    <p><strong>Reading Style:</strong> ${this.readingStyle}</p>
+                    <button id="user-logout-btn" class="btn-primary" style="margin-top:10px;">Logout</button>
+                </div>
+            </div>
+        `;
+        
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = menuHtml;
+        document.body.appendChild(wrapper);
+        
+        document.getElementById('user-menu-close').onclick = () => wrapper.remove();
+        document.getElementById('user-logout-btn').onclick = async () => {
+            await this.logout();
+            wrapper.remove();
+        };
+    }
+    
+    // Alias for compatibility
+    showLoginModal() {
+        this.openLoginSubscribeModal();
     }
 
     loadStats() {
