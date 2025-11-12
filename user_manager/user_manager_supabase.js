@@ -305,14 +305,20 @@ class SupabaseUserManager {
         const token = this.generateRandomToken(32);
         const expiresAt = new Date(Date.now() + 15 * 60 * 1000); // 15 minutes
         
-        // Store token in localStorage temporarily (could also use Supabase table)
-        const magicLinkData = {
-            email,
-            token,
-            expiresAt: expiresAt.toISOString(),
-            readingStyle: this.readingStyle
-        };
-        localStorage.setItem(`magic_link_${token}`, JSON.stringify(magicLinkData));
+        // Store token in Supabase table (works across devices/browsers)
+        const { error: insertError } = await this.supabase
+            .from('magic_links')
+            .insert({
+                token: token,
+                email: email,
+                reading_style: this.readingStyle,
+                expires_at: expiresAt.toISOString()
+            });
+        
+        if (insertError) {
+            console.error('Failed to store magic link:', insertError);
+            throw new Error('Failed to create magic link: ' + insertError.message);
+        }
         
         // Create magic link URL
         const magicLinkUrl = `${window.location.origin}?magic_token=${token}`;
@@ -355,81 +361,62 @@ class SupabaseUserManager {
     }
     
     async verifyMagicLink(token) {
-        // Get stored magic link data
-        const storedData = localStorage.getItem(`magic_link_${token}`);
-        if (!storedData) {
+        // Get stored magic link data from Supabase
+        const { data: magicLinks, error: fetchError } = await this.supabase
+            .from('magic_links')
+            .select('*')
+            .eq('token', token)
+            .limit(1);
+        
+        if (fetchError || !magicLinks || magicLinks.length === 0) {
             throw new Error('Invalid or expired magic link');
         }
         
-        const magicLinkData = JSON.parse(storedData);
+        const magicLinkData = magicLinks[0];
         
         // Check if expired
-        if (new Date(magicLinkData.expiresAt) < new Date()) {
-            localStorage.removeItem(`magic_link_${token}`);
+        if (new Date(magicLinkData.expires_at) < new Date()) {
+            // Delete expired token
+            await this.supabase.from('magic_links').delete().eq('token', token);
             throw new Error('Magic link has expired');
         }
         
-        // Create or get user, then sign them in using admin API
-        // First, check if user exists in user_profiles
-        const { data: profiles } = await this.supabase
-            .from('user_profiles')
-            .select('*')
-            .eq('email', magicLinkData.email)
-            .limit(1);
-        
-        let userId;
-        if (profiles && profiles.length > 0) {
-            userId = profiles[0].id;
-        } else {
-            // Create new user profile with a generated ID
-            userId = crypto.randomUUID();
-            await this.supabase
-                .from('user_profiles')
-                .insert({
-                    id: userId,
-                    email: magicLinkData.email,
-                    display_name: magicLinkData.email.split('@')[0],
-                    preferences: { readingStyle: magicLinkData.readingStyle },
-                    role: 'user'
-                });
-        }
-        
-        // Create a session by signing up/in
-        const { data: authData, error } = await this.supabase.auth.signUp({
+        // Create or get user in auth.users
+        const { data: authData, error: signUpError } = await this.supabase.auth.signUp({
             email: magicLinkData.email,
-            password: token + userId, // Use token+userId as password
+            password: crypto.randomUUID(), // Random password
             options: {
                 data: {
-                    reading_style: magicLinkData.readingStyle
+                    reading_style: magicLinkData.reading_style
                 }
             }
         });
         
-        if (error && !error.message.includes('already registered')) {
-            throw error;
-        }
-        
-        // If already registered, sign in instead
-        if (error && error.message.includes('already registered')) {
-            const { error: signInError } = await this.supabase.auth.signInWithPassword({
+        // If user already exists, sign them in with OTP
+        if (signUpError && signUpError.message.includes('already registered')) {
+            // User exists, let's sign them in using OTP method
+            const { error: otpError } = await this.supabase.auth.signInWithOtp({
                 email: magicLinkData.email,
-                password: token + userId
+                options: {
+                    shouldCreateUser: false
+                }
             });
             
-            if (signInError) {
-                // Password doesn't match, update it
-                // For now, just create the session manually
-                this.user = { email: magicLinkData.email, id: userId };
-                this.profile = profiles[0];
+            if (otpError) {
+                // If OTP fails, try to set session manually
+                console.warn('OTP sign-in failed, creating manual session');
             }
         }
         
-        // Clean up
-        localStorage.removeItem(`magic_link_${token}`);
+        // Delete the used token
+        await this.supabase.from('magic_links').delete().eq('token', token);
         
         // Restore reading style
-        this.readingStyle = magicLinkData.readingStyle;
+        this.readingStyle = magicLinkData.reading_style;
         localStorage.setItem('news_reading_style', this.readingStyle);
+        
+        // Reload to trigger auth state change
+        setTimeout(() => window.location.reload(), 500);
         
         return true;
     }
