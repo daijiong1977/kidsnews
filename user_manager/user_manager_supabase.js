@@ -326,9 +326,9 @@ class SupabaseUserManager {
             },
             body: JSON.stringify({
                 to_email: email,
-                subject: 'Sign in to Kids News',
-                message: `Hello!\n\nClick the link below to sign in to Kids News:\n\n${magicLinkUrl}\n\nThis link will expire in 15 minutes.\n\nIf you didn't request this, please ignore this email.\n\nBest regards,\nKids News Team`,
-                from_name: 'Kids News'
+                subject: 'Welcome! Sign in to News from 6ray.com',
+                message: `Hello!\n\nClick the link below to sign in:\n\n${magicLinkUrl}\n\nThis link will expire in 15 minutes.\n\nIf you didn't request this, please ignore this email.\n\nBest regards,\nNews from 6ray.com`,
+                from_name: 'admin@6ray.com'
             })
         });
         
