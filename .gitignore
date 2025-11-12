@@ -1,9 +1,6 @@
-# Production content - updated daily by pipeline
+# Production content - dynamic files only
 /payloads/*.json
 /article_payloads/*.json
-/article_images/*.jpg
-/article_images/*.png
-/article_images/*.webp
 /article_page/*.html
 
 # Keep directory structure but ignore content
@@ -14,6 +11,9 @@
 
 # Allow static assets that don't change
 !/assets/
+
+# NOTE: We now INCLUDE article_images in git since they're compressed (<60KB each)
+# and serve as CDN backup
 
 # Backups and temporary files
 *.backup
