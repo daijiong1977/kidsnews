@@ -1,5 +1,21 @@
+# Production content - updated daily by pipeline
+/payloads/*.json
+/article_payloads/*.json
+/article_images/*.jpg
+/article_images/*.png
+/article_images/*.webp
+/article_page/*.html
+
+# Keep directory structure but ignore content
+!payloads/.gitkeep
+!article_payloads/.gitkeep
+!article_images/.gitkeep
+!article_page/.gitkeep
+
+# Allow static assets that don't change
+!/assets/
+
+# Backups and temporary files
+*.backup
+*.tmp
 .DS_Store
-*.log
-node_modules/
-.env
-.env.local
