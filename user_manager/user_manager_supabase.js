@@ -318,10 +318,13 @@ class SupabaseUserManager {
         const magicLinkUrl = `${window.location.origin}?magic_token=${token}`;
         
         // Send email via your custom API
+        const sanitizedAnonKey = (this.SUPABASE_ANON_KEY || '').trim();
         const response = await fetch(`${this.SUPABASE_URL}/functions/v1/send-email`, {
             method: 'POST',
             headers: {
-                'Authorization': `Bearer ${this.SUPABASE_ANON_KEY}`,
+                // Supabase Edge Functions expect both Authorization and apikey headers with the anon key
+                'Authorization': `Bearer ${sanitizedAnonKey}`,
+                'apikey': sanitizedAnonKey,
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
