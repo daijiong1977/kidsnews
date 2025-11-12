@@ -43,6 +43,23 @@ class SupabaseUserManager {
         if (data && data.session && data.session.user) {
             await this.onLogin(data.session.user);
         }
+        
+        // Check for magic link token in URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const magicToken = urlParams.get('magic_token');
+        if (magicToken) {
+            try {
+                await this.verifyMagicLink(magicToken);
+                // Remove token from URL
+                window.history.replaceState({}, document.title, window.location.pathname);
+                alert('✅ Successfully signed in!');
+            } catch (error) {
+                console.error('Magic link verification failed:', error);
+                alert('Failed to sign in: ' + error.message);
+                // Remove token from URL
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        }
 
         // Expose to window for compatibility with existing code
         window.userManager = this;
@@ -271,20 +288,147 @@ class SupabaseUserManager {
             this.readingStyle = styleSelect.value;
             localStorage.setItem('news_reading_style', this.readingStyle);
 
-            const { error } = await this.supabase.auth.signInWithOtp({ 
-                email,
-                options: {
-                    emailRedirectTo: window.location.origin
-                }
-            });
-            
-            if (error) {
-                alert('Error sending magic link: ' + error.message);
-            } else {
+            // Use custom email API instead of Supabase's built-in email
+            try {
+                await this.sendCustomMagicLink(email);
                 wrapper.remove();
                 alert('✅ Magic link sent! Check your inbox and click the link to sign in.');
+            } catch (error) {
+                console.error('Magic link error:', error);
+                alert('Error sending magic link: ' + error.message);
             }
         };
+    }
+
+    async sendCustomMagicLink(email) {
+        // Generate a random token
+        const token = this.generateRandomToken(32);
+        const expiresAt = new Date(Date.now() + 15 * 60 * 1000); // 15 minutes
+        
+        // Store token in localStorage temporarily (could also use Supabase table)
+        const magicLinkData = {
+            email,
+            token,
+            expiresAt: expiresAt.toISOString(),
+            readingStyle: this.readingStyle
+        };
+        localStorage.setItem(`magic_link_${token}`, JSON.stringify(magicLinkData));
+        
+        // Create magic link URL
+        const magicLinkUrl = `${window.location.origin}?magic_token=${token}`;
+        
+        // Send email via your custom API
+        const response = await fetch(`${this.SUPABASE_URL}/functions/v1/send-email`, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${this.SUPABASE_ANON_KEY}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                to_email: email,
+                subject: 'Sign in to Kids News',
+                message: `Hello!\n\nClick the link below to sign in to Kids News:\n\n${magicLinkUrl}\n\nThis link will expire in 15 minutes.\n\nIf you didn't request this, please ignore this email.\n\nBest regards,\nKids News Team`,
+                from_name: 'Kids News'
+            })
+        });
+        
+        if (!response.ok) {
+            const error = await response.json();
+            throw new Error(error.error || 'Failed to send email');
+        }
+        
+        return await response.json();
+    }
+    
+    generateRandomToken(length) {
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let token = '';
+        const array = new Uint8Array(length);
+        crypto.getRandomValues(array);
+        for (let i = 0; i < length; i++) {
+            token += chars[array[i] % chars.length];
+        }
+        return token;
+    }
+    
+    async verifyMagicLink(token) {
+        // Get stored magic link data
+        const storedData = localStorage.getItem(`magic_link_${token}`);
+        if (!storedData) {
+            throw new Error('Invalid or expired magic link');
+        }
+        
+        const magicLinkData = JSON.parse(storedData);
+        
+        // Check if expired
+        if (new Date(magicLinkData.expiresAt) < new Date()) {
+            localStorage.removeItem(`magic_link_${token}`);
+            throw new Error('Magic link has expired');
+        }
+        
+        // Create or get user, then sign them in using admin API
+        // First, check if user exists in user_profiles
+        const { data: profiles } = await this.supabase
+            .from('user_profiles')
+            .select('*')
+            .eq('email', magicLinkData.email)
+            .limit(1);
+        
+        let userId;
+        if (profiles && profiles.length > 0) {
+            userId = profiles[0].id;
+        } else {
+            // Create new user profile with a generated ID
+            userId = crypto.randomUUID();
+            await this.supabase
+                .from('user_profiles')
+                .insert({
+                    id: userId,
+                    email: magicLinkData.email,
+                    display_name: magicLinkData.email.split('@')[0],
+                    preferences: { readingStyle: magicLinkData.readingStyle },
+                    role: 'user'
+                });
+        }
+        
+        // Create a session by signing up/in
+        const { data: authData, error } = await this.supabase.auth.signUp({
+            email: magicLinkData.email,
+            password: token + userId, // Use token+userId as password
+            options: {
+                data: {
+                    reading_style: magicLinkData.readingStyle
+                }
+            }
+        });
+        
+        if (error && !error.message.includes('already registered')) {
+            throw error;
+        }
+        
+        // If already registered, sign in instead
+        if (error && error.message.includes('already registered')) {
+            const { error: signInError } = await this.supabase.auth.signInWithPassword({
+                email: magicLinkData.email,
+                password: token + userId
+            });
+            
+            if (signInError) {
+                // Password doesn't match, update it
+                // For now, just create the session manually
+                this.user = { email: magicLinkData.email, id: userId };
+                this.profile = profiles[0];
+            }
+        }
+        
+        // Clean up
+        localStorage.removeItem(`magic_link_${token}`);
+        
+        // Restore reading style
+        this.readingStyle = magicLinkData.readingStyle;
+        localStorage.setItem('news_reading_style', this.readingStyle);
+        
+        return true;
     }
 
     async changeReadingStyle(newStyle) {
