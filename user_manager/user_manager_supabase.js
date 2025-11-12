@@ -220,8 +220,13 @@ class SupabaseUserManager {
 
 // Initialize when loaded as module
 window.SupabaseUserManager = SupabaseUserManager;
-// Create instance if global flags set
-if (window.AUTO_INIT_SUPABASE_USER_MANAGER) {
+
+// Auto-initialize like the old user_manager.js
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        window.userManager = new SupabaseUserManager();
+    });
+} else {
     window.userManager = new SupabaseUserManager();
 }
 
