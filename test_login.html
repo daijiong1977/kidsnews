@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Supabase Login</title>
+</head>
+<body>
+    <h1>Testing Supabase User Manager</h1>
+    <button id="user-button" style="padding: 10px 20px; font-size: 16px;">👤 Login</button>
+    
+    <div id="output" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;">
+        <p>Console output will appear here...</p>
+    </div>
+
+    <!-- Supabase Configuration -->
+    <script>
+    window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
+    window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MzMwMjcsImV4cCI6MjA3ODMwOTAyN30.2YPvOkZOWi4hDjtwZYkVt9a-RwYSnfotjV6Raj24ZjE';
+    
+    // Override console.log to show in page
+    const output = document.getElementById('output');
+    const originalLog = console.log;
+    const originalError = console.error;
+    
+    console.log = function(...args) {
+        originalLog.apply(console, args);
+        output.innerHTML += '<p style="color: green;">[LOG] ' + args.join(' ') + '</p>';
+    };
+    
+    console.error = function(...args) {
+        originalError.apply(console, args);
+        output.innerHTML += '<p style="color: red;">[ERROR] ' + args.join(' ') + '</p>';
+    };
+    
+    console.warn = function(...args) {
+        output.innerHTML += '<p style="color: orange;">[WARN] ' + args.join(' ') + '</p>';
+    };
+    </script>
+    
+    <!-- User Manager Script -->
+    <script type="module" src="http://localhost:8000/user_manager/user_manager_supabase.js"></script>
+    
+    <script>
+    // Wait a bit for module to load
+    setTimeout(() => {
+        console.log('Checking if userManager exists:', typeof window.userManager);
+        console.log('Checking if SupabaseUserManager exists:', typeof window.SupabaseUserManager);
+        
+        // Try to manually attach click handler
+        const btn = document.getElementById('user-button');
+        btn.addEventListener('click', () => {
+            console.log('Button clicked!');
+            if (window.userManager && window.userManager.showLoginModal) {
+                console.log('Calling showLoginModal...');
+                window.userManager.showLoginModal();
+            } else {
+                console.error('userManager.showLoginModal not found!');
+                console.log('userManager:', window.userManager);
+            }
+        });
+    }, 1000);
+    </script>
+</body>
+</html>

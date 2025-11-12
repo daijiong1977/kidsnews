@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+<!-- Process URL parameters IMMEDIATELY to prevent flash -->
+<script>
+(function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // Process language parameter
+    if (urlParams.has('lang')) {
+        const lang = urlParams.get('lang');
+        if (lang === 'cn') {
+            localStorage.setItem('language', 'cn');
+            sessionStorage.removeItem('pendingLevel');
+            console.log('🔧 [HEAD] Set language to CN, cleared pending level');
+        } else {
+            localStorage.setItem('language', 'en');
+            console.log('🔧 [HEAD] Set language to EN');
+        }
+    }
+    
+    // Process level parameter
+    if (urlParams.has('level')) {
+        localStorage.setItem('language', 'en');
+        // Store the level temporarily for the script to pick up
+        sessionStorage.setItem('pendingLevel', urlParams.get('level'));
+        console.log('🔧 [HEAD] Set pending level to ' + urlParams.get('level'));
+    }
+})();
+</script>
+<title>News Oh,Ye! - Stay Informed, Stay Ahead</title>
+<!-- Tailwind CSS - keeping CDN for now as it's a JavaScript runtime -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Local fonts -->
+<link href="./assets/fonts/newsreader.css" rel="stylesheet"/>
+<link href="./assets/fonts/material-symbols.css" rel="stylesheet"/>
+<!-- User Manager CSS -->
+<link href="./user_manager/user_manager.css" rel="stylesheet"/>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-sans text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col w-17/20 max-w-6xl flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-border-light dark:border-border-dark px-6 py-3 sticky top-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm z-10">
+<div class="flex items-center gap-6 text-text-light dark:text-text-dark">
+<div class="flex items-center gap-4">
+<div class="text-primary size-7">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 17.4264C16.7203 18.1174 20.2244 18.5217 24 18.5217C27.7756 18.5217 31.2797 18.1174 34.1739 17.4264C36.9144 16.7722 39.9967 15.2331 41.3563 14.1648L24.8486 40.6391C24.4571 41.267 23.5429 41.267 23.1514 40.6391L6.64374 14.1648C8.00331 15.2331 11.0856 16.7722 13.8261 17.4264Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 12.236C39.9944 12.2537 39.9875 12.2845 39.9748 12.3294C39.9436 12.4399 39.8949 12.5741 39.8346 12.7175C39.8168 12.7597 39.7989 12.8007 39.7813 12.8398C38.5103 13.7113 35.9788 14.9393 33.7095 15.4811C30.9875 16.131 27.6413 16.5217 24 16.5217C20.3587 16.5217 17.0125 16.131 14.2905 15.4811C12.0012 14.9346 9.44505 13.6897 8.18538 12.8168C8.17384 12.7925 8.16216 12.767 8.15052 12.7408C8.09919 12.6249 8.05721 12.5114 8.02977 12.411C8.00356 12.3152 8.00039 12.2667 8.00004 12.2612C8.00004 12.261 8 12.2607 8.00004 12.2612C8.00004 12.2359 8.0104 11.9233 8.68485 11.3686C9.34546 10.8254 10.4222 10.2469 11.9291 9.72276C14.9242 8.68098 19.1919 8 24 8C28.8081 8 33.0758 8.68098 36.0709 9.72276C37.5778 10.2469 38.6545 10.8254 39.3151 11.3686C39.9006 11.8501 39.9857 12.1489 39.998 12.236ZM4.95178 15.2312L21.4543 41.6973C22.6288 43.5809 25.3712 43.5809 26.5457 41.6973L43.0534 15.223C43.0709 15.1948 43.0878 15.1662 43.104 15.1371L41.3563 14.1648C43.104 15.1371 43.1038 15.1374 43.104 15.1371L43.1051 15.135L43.1065 15.1325L43.1101 15.1261L43.1199 15.1082C43.1276 15.094 43.1377 15.0754 43.1497 15.0527C43.1738 15.0075 43.2062 14.9455 43.244 14.8701C43.319 14.7208 43.4196 14.511 43.5217 14.2683C43.6901 13.8679 44 13.0689 44 12.2609C44 10.5573 43.003 9.22254 41.8558 8.2791C40.6947 7.32427 39.1354 6.55361 37.385 5.94477C33.8654 4.72057 29.133 4 24 4C18.867 4 14.1346 4.72057 10.615 5.94478C8.86463 6.55361 7.30529 7.32428 6.14419 8.27911C4.99695 9.22255 3.99999 10.5573 3.99999 12.2609C3.99999 13.1275 4.29264 13.9078 4.49321 14.3607C4.60375 14.6102 4.71348 14.8196 4.79687 14.9689C4.83898 15.0444 4.87547 15.1065 4.9035 15.1529C4.91754 15.1762 4.92954 15.1957 4.93916 15.2111L4.94662 15.223L4.95178 15.2312ZM35.9868 18.996L24 38.22L12.0131 18.996C12.4661 19.1391 12.9179 19.2658 13.3617 19.3718C16.4281 20.1039 20.0901 20.5217 24 20.5217C27.9099 20.5217 31.5719 20.1039 34.6383 19.3718C35.082 19.2658 35.5339 19.1391 35.9868 18.996Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<div class="flex flex-col gap-0.5">
+<h2 class="text-xl font-bold tracking-tight">News Oh,Ye!</h2>
+<p class="text-xs text-primary font-medium">Read-Think-Learn</p>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<button class="flex min-w-[40px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-2 bg-card-light dark:bg-card-dark text-text-light dark:text-text-dark text-sm font-bold leading-normal tracking-wide hover:bg-border-light dark:hover:bg-border-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50 dark:focus:ring-offset-background-dark" id="theme-toggle">
+<span class="material-symbols-outlined"> palette </span>
+</button>
+<button class="flex min-w-[40px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-2 bg-primary text-white text-lg font-bold leading-normal tracking-wide shadow-sm hover:bg-primary/90 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 dark:focus:ring-offset-background-dark" id="user-button" title="User Account">
+<span class="truncate">👤</span>
+</button>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-card-light dark:bg-card-dark text-text-light dark:text-text-dark text-sm font-bold leading-normal tracking-wide hover:bg-border-light dark:hover:bg-border-dark transition-colors" id="cn-toggle">
+<span class="truncate" id="cn-button-label">CN</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col gap-6 mt-4">
+<div class="px-4">
+<div class="flex justify-between items-center border-b border-border-light dark:border-border-dark">
+<div class="flex gap-8">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-primary text-primary pb-3 pt-2" href="#">
+<p class="text-lg font-bold tracking-wide">News</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-subtle-light dark:text-subtle-dark pb-3 pt-2 hover:text-text-light dark:hover:text-text-dark transition-colors" href="#">
+<p class="text-lg font-bold tracking-wide">Science</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-subtle-light dark:text-subtle-dark pb-3 pt-2 hover:text-text-light dark:hover:text-text-dark transition-colors" href="#">
+<p class="text-lg font-bold tracking-wide">Fun</p>
+</a>
+</div>
+<div class="relative">
+<select class="appearance-none cursor-pointer rounded-lg h-10 pl-4 pr-8 bg-card-light dark:bg-card-dark text-text-light dark:text-text-dark text-sm font-bold leading-normal tracking-wide hover:bg-border-light dark:hover:bg-border-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50">
+<option>Relax</option>
+<option selected>Enjoy</option>
+<option>Research</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-subtle-light dark:text-subtle-dark">
+<span class="material-symbols-outlined text-base"> expand_more </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Articles grid will be inserted here by the generator -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
+<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="2025102504">
+<a href="./article_page/article.html?id=2025102504&level=middle" class="w-full bg-center bg-no-repeat aspect-video bg-cover cursor-pointer hover:opacity-90 transition-opacity" style="background-image: url('../article_image/article_2025102504_f467cfd70f30_mobile.webp');"></a>
+<div class="flex flex-col gap-2 p-4 pt-2">
+<h3 class="text-lg font-bold leading-snug tracking-tight article-title">Kamala Harris Considers Another Presidential Run</h3>
+<div class="flex items-center gap-2 text-xs text-subtle-light dark:text-subtle-dark">
+<p>1 day ago</p>
+<span class="font-bold">·</span>
+<p>BBC News</p>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-relaxed article-summary" style="overflow-wrap: break-word; word-break: break-word;">In a significant interview with the BBC, former US Vice-President Kamala Harris strongly indicated she may launch another presidential campaign in 2028, despite her recent loss to Donald Trump. Harris dismissed unfavorable polling numbers that position her as an underdog for the Democratic nomination, even trailing behind celebrity figures like Dwayne Johnson. She expressed confidence that a woman will eventually occupy the White House and suggested she could be that candidate. The former vice-president delivered sharp criticism of Trump, labeling him a "tyrant" and asserting that her campaign warnings about his authoritarian tendencies have proven accurate. Harris pointed to specific examples of what she characterized as Trump's weaponization of government agencies, including the suspension of comedian Jimmy Kimmel following jokes about conservative figures. She argued this demonstrates Trump's intolerance of criticism and willingness to suppress media voices. While acknowledging questions about her previous campaign's effectiveness on economic issues, Harris emphasized her lifelong commitment to public service and determination to remain active in politics, stating unequivocally, "I am not done."</p>
+<div class="flex justify-end mt-2">
+<a href="./article_page/article.html?id=2025102504&level=middle" class="text-primary hover:text-primary/80 font-semibold text-sm transition-colors">
+Activities →
+</a>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="2025102505">
+<a href="./article_page/article.html?id=2025102505&level=middle" class="w-full bg-center bg-no-repeat aspect-video bg-cover cursor-pointer hover:opacity-90 transition-opacity" style="background-image: url('../article_image/article_2025102505_f1a37ecb0ae5_mobile.webp');"></a>
+<div class="flex flex-col gap-2 p-4 pt-2">
+<h3 class="text-lg font-bold leading-snug tracking-tight article-title">Labour's Leadership Shift: Powell Elected Deputy Leader Amid Party Tensions</h3>
+<div class="flex items-center gap-2 text-xs text-subtle-light dark:text-subtle-dark">
+<p>1 day ago</p>
+<span class="font-bold">·</span>
+<p>BBC News</p>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-relaxed article-summary" style="overflow-wrap: break-word; word-break: break-word;">Lucy Powell has been elected as Labour's deputy leader following a contest triggered by Angela Rayner's resignation. The Manchester Central MP defeated Education Secretary Bridget Phillipson, who was widely seen as the leadership's preferred candidate. Powell's victory represents a significant shift within the party, as she campaigned on giving grassroots members greater influence and pushing for a 'course correction' in government direction. Her election comes after she was removed from the cabinet in September, and she drew support from members dissatisfied with Sir Keir Starmer's leadership. In her victory speech, Powell emphasized the need for the party to be 'bolder' and promised to champion Labour values while helping the government succeed. She specifically addressed the challenge from Reform UK, arguing that Labour cannot win by trying to 'out-Reform' Reform but must instead reclaim the political narrative. The election occurred alongside disappointing results for Labour in Wales, where the party lost a Senedd seat it had held for a century. Prime Minister Starmer acknowledged the 'bad result' and stressed the need for visible change in communities. Phillipson congratulated Powell while expressing disappointment, emphasizing the importance of party unity ahead of upcoming elections.</p>
+<div class="flex justify-end mt-2">
+<a href="./article_page/article.html?id=2025102505&level=middle" class="text-primary hover:text-primary/80 font-semibold text-sm transition-colors">
+Activities →
+</a>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="2025102506">
+<a href="./article_page/article.html?id=2025102506&level=middle" class="w-full bg-center bg-no-repeat aspect-video bg-cover cursor-pointer hover:opacity-90 transition-opacity" style="background-image: url('../article_image/article_2025102506_68437a857f04_mobile.webp');"></a>
+<div class="flex flex-col gap-2 p-4 pt-2">
+<h3 class="text-lg font-bold leading-snug tracking-tight article-title">Trump Seeks Renewed Dialogue with North Korea's Kim Jong Un</h3>
+<div class="flex items-center gap-2 text-xs text-subtle-light dark:text-subtle-dark">
+<p>1 day ago</p>
+<span class="font-bold">·</span>
+<p>BBC News</p>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-relaxed article-summary" style="overflow-wrap: break-word; word-break: break-word;">President Donald Trump has expressed interest in meeting North Korean leader Kim Jong Un during his upcoming Asia trip, stating he has a 'great relationship' with the North Korean leader and is 'open' to face-to-face discussions. This potential meeting would continue their unusual diplomatic relationship that began during Trump's first term, when he became the first sitting US president to enter North Korean territory during their 2019 meeting at the DMZ. The two leaders have met three times previously but failed to reach agreement on denuclearization, with North Korea continuing missile tests since those summits. Trump's comments come amid his travels to Malaysia for ASEAN meetings and Japan and South Korea for APEC summits, where he will also meet Chinese President Xi Jinping amid ongoing trade tensions. Kim Jong Un has indicated willingness to meet again but insists the US must drop its 'absurd' demand for North Korea to abandon its nuclear arsenal. South Korean officials suggest a meeting is possible during Trump's South Korea visit, though US officials state no such meeting is currently scheduled.</p>
+<div class="flex justify-end mt-2">
+<a href="./article_page/article.html?id=2025102506&level=middle" class="text-primary hover:text-primary/80 font-semibold text-sm transition-colors">
+Activities →
+</a>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="2025102513">
+<a href="./article_page/article.html?id=2025102513&level=middle" class="w-full bg-center bg-no-repeat aspect-video bg-cover cursor-pointer hover:opacity-90 transition-opacity" style="background-image: url('../article_image/article_2025102513_8bc28f495e63_mobile.webp');"></a>
+<div class="flex flex-col gap-2 p-4 pt-2">
+<h3 class="text-lg font-bold leading-snug tracking-tight article-title">The Life and Legacy of Thailand's Queen Mother Sirikit</h3>
+<div class="flex items-center gap-2 text-xs text-subtle-light dark:text-subtle-dark">
+<p>1 day ago</p>
+<span class="font-bold">·</span>
+<p>PBS NewsHour</p>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-relaxed article-summary" style="overflow-wrap: break-word; word-break: break-word;">Thailand's Queen Mother Sirikit, a central figure in modern Thai history, passed away at age 93 after a lifetime of royal service. As the wife of the late King Bhumibol Adulyadej and mother of the current King Maha Vajiralongkorn, Sirikit played a significant role in Thailand's development through her supervision of royal projects focused on rural poverty alleviation, traditional craft preservation, and environmental protection. Born in 1932, the same year Thailand transitioned to constitutional monarchy, Sirikit came from aristocratic lineage and met her future husband while studying in France. Their marriage in 1950 began a partnership that would see them travel globally as goodwill ambassadors before focusing on Thailand's domestic challenges. Despite being overshadowed by her husband and son, Sirikit maintained substantial influence, with her portrait displayed nationwide and her birthday celebrated as Mother's Day. Her work extended from helping Cambodian refugees to forest conservation, though her political involvement during Thailand's turbulent decades drew scrutiny. The Queen Mother's declining health in recent years limited her public appearances, culminating in her death from a blood infection at Chulalongkorn Hospital, where she had received long-term care.</p>
+<div class="flex justify-end mt-2">
+<a href="./article_page/article.html?id=2025102513&level=middle" class="text-primary hover:text-primary/80 font-semibold text-sm transition-colors">
+Activities →
+</a>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="2025102514">
+<a href="./article_page/article.html?id=2025102514&level=middle" class="w-full bg-center bg-no-repeat aspect-video bg-cover cursor-pointer hover:opacity-90 transition-opacity" style="background-image: url('../article_image/article_2025102514_13b1290253ee_mobile.webp');"></a>
+<div class="flex flex-col gap-2 p-4 pt-2">
+<h3 class="text-lg font-bold leading-snug tracking-tight article-title">Context Matters: Analyzing the White House Ballroom Controversy</h3>
+<div class="flex items-center gap-2 text-xs text-subtle-light dark:text-subtle-dark">
+<p>1 day ago</p>
+<span class="font-bold">·</span>
+<p>PBS NewsHour</p>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-relaxed article-summary" style="overflow-wrap: break-word; word-break: break-word;">In October, leading Democratic figures including House Minority Leader Hakeem Jeffries and the House Democratic Caucus shared a five-second video clip of White House Press Secretary Karoline Leavitt stating that the ballroom construction was 'the president's main priority.' They used this clip to criticize the Trump administration, suggesting the president cared more about a $300 million ballroom than addressing pressing issues like the high cost of living, healthcare crises, and the government shutdown. However, a closer examination reveals that the Democrats selectively edited Leavitt's comments, removing crucial context. The press secretary was specifically responding to a reporter's question about White House construction projects, not discussing broader policy priorities. When viewed in full context, Leavitt clearly stated the ballroom was the main priority among construction projects on White House grounds, not among all presidential responsibilities. This incident demonstrates how political messaging can distort factual statements through selective editing and removal of context. The article serves as a case study in media literacy, showing the importance of verifying complete statements rather than relying on short, decontextualized clips that can misrepresent the original meaning.</p>
+<div class="flex justify-end mt-2">
+<a href="./article_page/article.html?id=2025102514&level=middle" class="text-primary hover:text-primary/80 font-semibold text-sm transition-colors">
+Activities →
+</a>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="2025102515">
+<a href="./article_page/article.html?id=2025102515&level=middle" class="w-full bg-center bg-no-repeat aspect-video bg-cover cursor-pointer hover:opacity-90 transition-opacity" style="background-image: url('../article_image/article_2025102515_de6054839b2f_mobile.webp');"></a>
+<div class="flex flex-col gap-2 p-4 pt-2">
+<h3 class="text-lg font-bold leading-snug tracking-tight article-title">U.S. Military Escalation in Caribbean Drug War</h3>
+<div class="flex items-center gap-2 text-xs text-subtle-light dark:text-subtle-dark">
+<p>1 day ago</p>
+<span class="font-bold">·</span>
+<p>PBS NewsHour</p>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-relaxed article-summary" style="overflow-wrap: break-word; word-break: break-word;">The Trump administration has significantly escalated its anti-drug efforts in Latin America through both military and diplomatic measures. The Pentagon deployed the Gerald Ford aircraft carrier strike group with over 6,000 service members to the Caribbean to disrupt narcotics trafficking and dismantle criminal organizations. This comes amid an unprecedented series of military strikes, with 10 missile attacks on suspected drug boats since early September, including three strikes in the past week alone. President Trump and Defense Secretary Pete Hegseth have framed this campaign as comparable to the global war on terror, explicitly comparing drug cartels to terrorist organizations like ISIS and al-Qaida. The military escalation includes recent B-1 bomber flights off Venezuela's coast, intended to pressure President Nicolas Maduro, whom the U.S. accuses of running a narco-state. In response, Venezuela launched its own military deployment, with Maduro vowing to resist American intervention. Diplomatically, the administration sanctioned Colombian President Gustavo Petro, accusing him of allowing cocaine production to surge. Petro defended his record, stating he has fought drug trafficking for decades and refusing to back down. This represents a major intensification of U.S. drug policy in the region, combining military force with economic pressure against foreign leaders.</p>
+<div class="flex justify-end mt-2">
+<a href="./article_page/article.html?id=2025102515&level=middle" class="text-primary hover:text-primary/80 font-semibold text-sm transition-colors">
+Activities →
+</a>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Archive Section -->
+<div class="flex justify-center py-8 px-4 border-t border-border-light dark:border-border-dark">
+<button id="archive-button" class="flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition-colors shadow-md">
+<span class="material-symbols-outlined">calendar_month</span>
+<span>View Old News</span>
+</button>
+</div>
+<!-- Archive Calendar Modal -->
+<div id="archive-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden items-center justify-center">
+<div class="bg-background-light dark:bg-background-dark rounded-xl shadow-2xl p-6 max-w-md w-full mx-4 border border-border-light dark:border-border-dark">
+<div class="flex justify-between items-center mb-4">
+<h3 class="text-xl font-bold text-text-light dark:text-text-dark">Select Archive Date</h3>
+<button id="close-modal" class="text-subtle-light dark:text-subtle-dark hover:text-text-light dark:hover:text-text-dark">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div id="calendar-dates" class="grid grid-cols-7 gap-2 text-center">
+<!-- Calendar will be populated here -->
+</div>
+<p class="text-xs text-subtle-light dark:text-subtle-dark text-center mt-4">Click on a date to view archived news</p>
+</div>
+</div>
+<footer class="flex flex-col gap-6 px-5 py-8 text-center mt-8 border-t border-border-light dark:border-border-dark">
+<div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+<a class="text-subtle-light dark:text-subtle-dark text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-subtle-light dark:text-subtle-dark text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact</a>
+<a class="text-subtle-light dark:text-subtle-dark text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-subtle-light dark:text-subtle-dark text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Terms of Service</a>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-normal">© 2024 News Oh,Ye!. All rights reserved.</p>
+<p class="text-subtle-light dark:text-subtle-dark text-xs font-normal leading-normal mt-1">v1.0 - Website Up Day 1 (Oct 26, 2025)</p>
+<p class="text-subtle-light dark:text-subtle-dark text-xs font-normal leading-normal italic mt-2">Dedicated to Helen, Daisy & Mattie</p>
+</footer>
+</div>
+</div>
+</div>
+</div>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {primary: "#359EFF", secondary: "#14b8a6", "background-light": "#f5f7f8", "background-dark": "#0f1923", "text-light": "#09090b", "text-dark": "#fafafa", "subtle-light": "#71717a", "subtle-dark": "#a1a1aa", "border-light": "#e4e4e7", "border-dark": "#27272a", "card-light": "#f4f4f5", "card-dark": "#27272a"}, fontFamily: {display: "Literata", sans: ["Inter", "sans-serif"]}, borderRadius: {DEFAULT: "0.5rem", lg: "1rem", xl: "1.5rem", full: "9999px"}}}};</script>
+<script>
+// Dark Mode Toggle
+document.getElementById('theme-toggle').addEventListener('click', function() {
+    const html = document.documentElement;
+    if (html.classList.contains('dark')) {
+        html.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+    } else {
+        html.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+    }
+});
+
+// Load saved theme on page load
+document.addEventListener('DOMContentLoaded', function() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+    }
+});
+</script>
+<script>
+// Dynamic article loading by category and difficulty level
+const PAYLOAD_BASE = './payloads/';
+
+// Template for regular levels (with Activities link)
+const CARD_TEMPLATE = `<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="{{id}}">
+<a href="./article_page/article.html?id={{id}}&level={{levelKey}}" class="w-full bg-center bg-no-repeat aspect-video bg-cover cursor-pointer hover:opacity-90 transition-opacity" style="{{imageStyle}}"></a>
+<div class="flex flex-col gap-2 p-4 pt-2">
+<h3 class="text-lg font-bold leading-snug tracking-tight article-title">{{title}}</h3>
+<div class="flex items-center gap-2 text-xs text-subtle-light dark:text-subtle-dark">
+<p>{{time_ago}}</p>
+<span class="font-bold">·</span>
+<p>{{source}}</p>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-relaxed article-summary" style="overflow-wrap: break-word; word-break: break-word;">{{summary}}</p>
+<div class="flex justify-end mt-2">
+<a href="./article_page/article.html?id={{id}}&level={{levelKey}}" class="text-primary hover:text-primary/80 font-semibold text-sm transition-colors">
+Activities →
+</a>
+</div>
+</div>
+</div>`;
+
+// Template for CN level (no Activities link, no clickable image)
+const CARD_TEMPLATE_CN = `<div class="flex flex-col gap-3 bg-card-light dark:bg-card-dark rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-article-id="{{id}}">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style="{{imageStyle}}"></div>
+<div class="flex flex-col gap-2 p-4 pt-2">
+<h3 class="text-lg font-bold leading-snug tracking-tight article-title">{{title}}</h3>
+<div class="flex items-center gap-2 text-xs text-subtle-light dark:text-subtle-dark">
+<p>{{time_ago}}</p>
+<span class="font-bold">·</span>
+<p>{{source}}</p>
+</div>
+<p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-relaxed article-summary" style="overflow-wrap: break-word; word-break: break-word;">{{summary}}</p>
+</div>
+</div>`;
+
+const levelMap = {
+  'Relax': 'easy',
+  'Enjoy': 'middle',
+  'Research': 'high'
+};
+
+// Track current selections
+let currentCategory = 'News';
+// Initialize reading level from localStorage or default to Enjoy
+const savedReadingStyle = localStorage.getItem('news_reading_style');
+const styleToLevelMap = { 'relax': 'Relax', 'enjoy': 'Enjoy', 'research': 'Research', 'chinese': 'CN' };
+let currentLevel = styleToLevelMap[savedReadingStyle] || 'Enjoy';
+console.log('📚 Loaded reading level from localStorage:', savedReadingStyle, '→', currentLevel);
+let isChineseMode = localStorage.getItem('language') === 'cn';
+
+// Apply pending level from URL parameter (processed in <head>)
+(function() {
+  const pendingLevel = sessionStorage.getItem('pendingLevel');
+  if (pendingLevel) {
+    const levelNameMap = {
+      'easy': 'Relax',
+      'middle': 'Enjoy',
+      'high': 'Research'
+    };
+    if (levelNameMap[pendingLevel]) {
+      currentLevel = levelNameMap[pendingLevel];
+      console.log(`🔧 Applying pending level: ${currentLevel}`);
+      
+      // Update the dropdown to show the correct level
+      const select = document.querySelector('select');
+      if (select) {
+        select.value = currentLevel;
+      }
+    }
+    // Clear pending level
+    sessionStorage.removeItem('pendingLevel');
+  }
+})();
+
+async function loadArticles(category, level) {
+  // Always read current language mode from localStorage
+  const langFromStorage = localStorage.getItem('language');
+  const isChineseMode = langFromStorage === 'cn';
+  
+  // If in Chinese mode, use 'cn' level directly; otherwise map the level
+  const levelKey = isChineseMode ? 'cn' : (levelMap[level] || 'middle');
+  const categoryLower = category.toLowerCase();
+  
+  console.log(`🔍 loadArticles called with: category=${category}, level=${level}`);
+  console.log(`📦 localStorage.language = "${langFromStorage}", isChineseMode = ${isChineseMode}`);
+  console.log(`🎯 Final: ${category} / ${isChineseMode ? 'CN' : level} (levelKey=${levelKey})`);
+  
+  try {
+    const payloadFile = `${PAYLOAD_BASE}articles_${categoryLower}_${levelKey}.json`;
+    console.log(`Fetching: ${payloadFile}`);
+    
+    const response = await fetch(payloadFile);
+    if (!response.ok) throw new Error(`HTTP ${response.status} loading ${payloadFile}`);
+    
+    const data = await response.json();
+    const articles = data.articles || [];
+    
+    // Render articles
+    const grid = document.querySelector('.grid');
+    if (!grid) {
+      console.error('Grid element not found');
+      return;
+    }
+    
+    grid.innerHTML = '';
+    articles.forEach(article => {
+      const imageStyle = article.image_url 
+        ? `background-image: url('${article.image_url}');` 
+        : 'background-color: #e4e4e7;';
+      
+      // Use CN template if level is 'cn', otherwise use regular template
+      const template = (levelKey === 'cn') ? CARD_TEMPLATE_CN : CARD_TEMPLATE;
+      
+      const html = template
+        .replace(/{{id}}/g, article.id)
+        .replace(/{{levelKey}}/g, levelKey)
+        .replace('{{imageStyle}}', imageStyle)
+        .replace('{{title}}', escapeHtml(article.title))
+        .replace('{{time_ago}}', article.time_ago)
+        .replace('{{source}}', article.source)
+        .replace('{{summary}}', escapeHtml(article.summary));
+      
+      grid.innerHTML += html;
+    });
+    
+    console.log(`✓ Loaded ${articles.length} articles for ${category}/${levelKey}`);
+  } catch (error) {
+    console.error(`Error loading articles: ${error.message}`);
+    const grid = document.querySelector('.grid');
+    if (grid) {
+      grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: red;">Error loading articles. Check browser console.</div>`;
+    }
+  }
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+// Hook into category tabs and difficulty dropdown
+document.addEventListener('DOMContentLoaded', function() {
+  // Category tabs
+  const tabs = document.querySelectorAll('a[href="#"]');
+  tabs.forEach((tab, index) => {
+    const categories = ['News', 'Science', 'Fun'];
+    if (index < 3) {
+      tab.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        // Update active tab styling
+        tabs.forEach((t, i) => {
+          if (i < 3) {
+            if (i === index) {
+              t.classList.add('border-b-primary', 'text-primary');
+              t.classList.remove('border-b-transparent', 'text-subtle-light', 'dark:text-subtle-dark');
+            } else {
+              t.classList.remove('border-b-primary', 'text-primary');
+              t.classList.add('border-b-transparent', 'text-subtle-light', 'dark:text-subtle-dark');
+            }
+          }
+        });
+        
+        currentCategory = categories[index];
+        loadArticles(currentCategory, currentLevel);
+      });
+    }
+  });
+  
+  // Difficulty dropdown
+  const select = document.querySelector('select');
+  if (select) {
+    select.addEventListener('change', function() {
+      currentLevel = this.value;
+      loadArticles(currentCategory, currentLevel);
+    });
+  }
+  
+  // CN Language Toggle Button
+  const cnButton = document.getElementById('cn-toggle');
+  if (cnButton) {
+    function updateCNButtonStyle() {
+      const isChinese = localStorage.getItem('language') === 'cn';
+      const label = document.getElementById('cn-button-label');
+      const select = document.querySelector('select');
+      
+      if (isChinese) {
+        // In Chinese mode: button shows "EN" (to switch to English)
+        cnButton.classList.remove('bg-card-light', 'dark:bg-card-dark', 'text-text-light', 'dark:text-text-dark');
+        cnButton.classList.add('bg-primary', 'text-white');
+        if (label) label.textContent = 'EN';
+        // Hide difficulty dropdown in CN mode
+        if (select) select.style.display = 'none';
+      } else {
+        // In English mode: button shows "CN" (to switch to Chinese)
+        cnButton.classList.remove('bg-primary', 'text-white');
+        cnButton.classList.add('bg-card-light', 'dark:bg-card-dark', 'text-text-light', 'dark:text-text-dark');
+        if (label) label.textContent = 'CN';
+        // Show difficulty dropdown in English mode
+        if (select) select.style.display = '';
+      }
+    }
+    
+    // Initialize CN button style (URL params already processed at script start)
+    updateCNButtonStyle();
+    // Ensure articles reflect current language on initial load
+    loadArticles(currentCategory, currentLevel);
+    
+    // CN button click handler
+    cnButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      const currentMode = localStorage.getItem('language');
+      const newMode = currentMode === 'cn' ? 'en' : 'cn';
+      localStorage.setItem('language', newMode);
+      console.log(`CN mode toggled to: ${newMode}`);
+      updateCNButtonStyle();
+      isChineseMode = (newMode === 'cn');
+      loadArticles(currentCategory, currentLevel);
+    });
+  }
+  
+  // Listen for CN mode changes (external changes to localStorage)
+  const observer = setInterval(function() {
+    const newCNMode = localStorage.getItem('language') === 'cn';
+    if (newCNMode !== isChineseMode) {
+      isChineseMode = newCNMode;
+      console.log(`⚠️ CN mode changed from ${!isChineseMode} to ${isChineseMode}`);
+      console.log(`📍 localStorage.language = "${localStorage.getItem('language')}"`);
+      console.trace('Stack trace of language change:');
+      loadArticles(currentCategory, currentLevel);
+    }
+  }, 100);
+});
+
+// Archive Calendar Modal
+document.addEventListener('DOMContentLoaded', async function() {
+  const archiveButton = document.getElementById('archive-button');
+  const modal = document.getElementById('archive-modal');
+  const closeModal = document.getElementById('close-modal');
+  const calendarDates = document.getElementById('calendar-dates');
+  
+  // Load available archive dates
+  let availableDates = [];
+  try {
+    const response = await fetch('./payloads/archive_index.json');
+    if (response.ok) {
+      const data = await response.json();
+      // archive_index.json has dates array with {date: "YYYY-MM-DD", ...}
+      availableDates = (data.dates || []).map(d => d.date.replace(/-/g, '')); // Convert to YYYYMMDD
+      console.log(`✓ Loaded ${availableDates.length} available archive dates`);
+    }
+  } catch (e) {
+    console.log('Could not load archive dates:', e);
+  }
+  
+  // Populate calendar
+  function populateCalendar() {
+    if (availableDates.length === 0) {
+      calendarDates.innerHTML = '<p class="col-span-7 text-center text-subtle-light dark:text-subtle-dark py-4">No archives available</p>';
+      return;
+    }
+    
+    // Group dates by month
+    const datesByMonth = {};
+    availableDates.forEach(dateStr => {
+      const year = dateStr.substring(0, 4);
+      const month = dateStr.substring(4, 6);
+      const day = dateStr.substring(6, 8);
+      const monthKey = `${year}-${month}`;
+      if (!datesByMonth[monthKey]) {
+        datesByMonth[monthKey] = [];
+      }
+      datesByMonth[monthKey].push({date: dateStr, day: parseInt(day)});
+    });
+    
+    // Show most recent month
+    const months = Object.keys(datesByMonth).sort().reverse();
+    const currentMonth = months[0];
+    const dates = datesByMonth[currentMonth];
+    
+    // Month header
+    const [year, month] = currentMonth.split('-');
+    const monthName = new Date(year, parseInt(month) - 1, 1).toLocaleDateString('en-US', {month: 'long', year: 'numeric'});
+    
+    calendarDates.innerHTML = `<div class="col-span-7 text-center font-bold mb-2 text-text-light dark:text-text-dark">${monthName}</div>`;
+    
+    // Weekday headers
+    ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].forEach(day => {
+      calendarDates.innerHTML += `<div class="text-xs font-semibold text-subtle-light dark:text-subtle-dark py-1">${day}</div>`;
+    });
+    
+    // Get first day of month
+    const firstDay = new Date(year, parseInt(month) - 1, 1).getDay();
+    
+    // Add empty cells for days before month starts
+    for (let i = 0; i < firstDay; i++) {
+      calendarDates.innerHTML += '<div></div>';
+    }
+    
+    // Get days in month
+    const daysInMonth = new Date(year, parseInt(month), 0).getDate();
+    
+    // Add day cells
+    for (let day = 1; day <= daysInMonth; day++) {
+      const dateStr = `${year}${month}${day.toString().padStart(2, '0')}`;
+      const hasArchive = dates.some(d => d.day === day);
+      
+      if (hasArchive) {
+        calendarDates.innerHTML += `
+          <button class="archive-date p-2 rounded-lg bg-primary text-white font-semibold hover:bg-primary/80 transition-colors" data-date="${dateStr}">
+            ${day}
+          </button>`;
+      } else {
+        calendarDates.innerHTML += `<div class="p-2 text-subtle-light dark:text-subtle-dark">${day}</div>`;
+      }
+    }
+    
+    // Add click handlers to date buttons
+    document.querySelectorAll('.archive-date').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const date = this.getAttribute('data-date');
+        window.location.href = `./archive/archive.html?date=${date.substring(0,4)}-${date.substring(4,6)}-${date.substring(6,8)}`;
+      });
+    });
+  }
+  
+  // Open modal
+  archiveButton.addEventListener('click', function() {
+    populateCalendar();
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+  });
+  
+  // Close modal
+  closeModal.addEventListener('click', function() {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  });
+  
+  // Close on outside click
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+  });
+});
+</script>
+<!-- User Manager Script -->
+<!-- Supabase Configuration -->
+<script>
+window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
+window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MzMwMjcsImV4cCI6MjA3ODMwOTAyN30.2YPvOkZOWi4hDjtwZYkVt9a-RwYSnfotjV6Raj24ZjE';
+</script>
+<script type="module" src="./user_manager/user_manager_supabase.js"></script>
+</body></html>
