@@ -69,15 +69,31 @@ class SupabaseUserManager {
     }
     
     showUserMenu() {
-        // Simple menu for logged-in users
+        // Enhanced menu for logged-in users
         const menuHtml = `
             <div id="user-menu-modal" class="user-modal" style="display:flex;">
-                <div class="user-modal-content">
+                <div class="user-modal-content" style="max-width: 360px;">
                     <span class="user-modal-close" id="user-menu-close">&times;</span>
-                    <h2>Account</h2>
-                    <p><strong>Email:</strong> ${this.user?.email || 'Unknown'}</p>
-                    <p><strong>Reading Style:</strong> ${this.readingStyle}</p>
-                    <button id="user-logout-btn" class="btn-primary" style="margin-top:10px;">Logout</button>
+                    <h2 style="margin-bottom: 16px;">👤 Account</h2>
+                    
+                    <div style="background: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 16px;">
+                        <p style="margin: 0 0 8px 0; font-size: 12px; color: #666;">Email</p>
+                        <p style="margin: 0; font-weight: 600;">${this.user?.email || 'Unknown'}</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 16px;">
+                        <label for="user-reading-style" style="display: block; margin-bottom: 8px; font-weight: 600;">Reading Style:</label>
+                        <select id="user-reading-style" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 14px;">
+                            <option value="relax" ${this.readingStyle === 'relax' ? 'selected' : ''}>😌 Relax</option>
+                            <option value="enjoy" ${this.readingStyle === 'enjoy' ? 'selected' : ''}>🎯 Enjoy</option>
+                            <option value="research" ${this.readingStyle === 'research' ? 'selected' : ''}>📚 Research</option>
+                            <option value="chinese" ${this.readingStyle === 'chinese' ? 'selected' : ''}>🇨🇳 Chinese</option>
+                        </select>
+                    </div>
+                    
+                    <button id="user-logout-btn" class="btn-primary" style="width: 100%; padding: 12px; font-size: 16px; background: #dc3545; border: none;">
+                        🚪 Logout
+                    </button>
                 </div>
             </div>
         `;
@@ -85,6 +101,11 @@ class SupabaseUserManager {
         const wrapper = document.createElement('div');
         wrapper.innerHTML = menuHtml;
         document.body.appendChild(wrapper);
+        
+        // Handle reading style change
+        document.getElementById('user-reading-style').onchange = async (e) => {
+            await this.changeReadingStyle(e.target.value);
+        };
         
         document.getElementById('user-menu-close').onclick = () => wrapper.remove();
         document.getElementById('user-logout-btn').onclick = async () => {
@@ -170,30 +191,43 @@ class SupabaseUserManager {
     }
 
     async openLoginSubscribeModal() {
-        // Simple modal offering Google and Email magic link
+        // Enhanced modal with better styling
         const modalHtml = `
             <div id="supa-login-modal" class="user-modal" style="display:flex;">
-                <div class="user-modal-content">
+                <div class="user-modal-content" style="max-width: 400px;">
                     <span class="user-modal-close" id="supa-login-close">&times;</span>
-                    <h2>Sign in</h2>
-                    <p>Use Google or email magic link.</p>
-                    <div style="display:flex;gap:8px;margin-bottom:12px;">
-                        <button id="supa-google" class="btn-primary">Continue with Google</button>
-                    </div>
-                    <form id="supa-email-form">
-                        <label for="supa-email">Email</label>
-                        <input id="supa-email" type="email" required placeholder="you@example.com" />
-                        <button type="submit" class="btn-primary">Send Magic Link</button>
-                    </form>
-                    <div style="margin-top:12px;">
-                        <label for="supa-reading-style">Reading style</label>
-                        <select id="supa-reading-style">
-                            <option value="relax">Relax</option>
-                            <option value="enjoy" selected>Enjoy</option>
-                            <option value="research">Research</option>
-                            <option value="chinese">Chinese</option>
+                    <h2 style="margin-bottom: 8px;">Welcome! 👋</h2>
+                    <p style="color: #666; margin-bottom: 20px;">Sign in to save your reading progress and preferences</p>
+                    
+                    <div style="margin-bottom: 16px;">
+                        <label for="supa-reading-style" style="display: block; margin-bottom: 8px; font-weight: 600;">Choose Reading Style:</label>
+                        <select id="supa-reading-style" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 14px; margin-bottom: 20px;">
+                            <option value="relax">😌 Relax - Simple & Easy</option>
+                            <option value="enjoy" ${this.readingStyle === 'enjoy' ? 'selected' : ''}>🎯 Enjoy - Balanced</option>
+                            <option value="research">📚 Research - Detailed</option>
+                            <option value="chinese">🇨🇳 Chinese - 中文</option>
                         </select>
                     </div>
+                    
+                    <button id="supa-google" class="btn-primary" style="width: 100%; padding: 12px; font-size: 16px; margin-bottom: 16px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.615z"/>
+                            <path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332C2.438 15.983 5.482 18 9 18z"/>
+                            <path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957C.347 6.175 0 7.55 0 9s.348 2.825.957 4.039l3.007-2.332z"/>
+                            <path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0 5.482 0 2.438 2.017.957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z"/>
+                        </svg>
+                        Continue with Google
+                    </button>
+                    
+                    <div style="text-align: center; color: #999; margin: 16px 0; font-size: 14px;">or</div>
+                    
+                    <form id="supa-email-form">
+                        <label for="supa-email" style="display: block; margin-bottom: 8px; font-weight: 600;">Email Magic Link:</label>
+                        <input id="supa-email" type="email" required placeholder="you@example.com" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 14px; margin-bottom: 12px;" />
+                        <button type="submit" class="btn-primary" style="width: 100%; padding: 12px; font-size: 16px;">📧 Send Magic Link</button>
+                    </form>
+                    
+                    <p style="font-size: 12px; color: #999; margin-top: 16px; text-align: center;">By signing in, you agree to our terms of service</p>
                 </div>
             </div>
         `;
@@ -202,27 +236,53 @@ class SupabaseUserManager {
         wrapper.innerHTML = modalHtml;
         document.body.appendChild(wrapper);
 
+        // Set current reading style
+        const styleSelect = document.getElementById('supa-reading-style');
+        styleSelect.value = this.readingStyle;
+        
+        // Update reading style when changed
+        styleSelect.onchange = () => {
+            this.readingStyle = styleSelect.value;
+            localStorage.setItem('news_reading_style', this.readingStyle);
+        };
+
         document.getElementById('supa-login-close').onclick = () => wrapper.remove();
+        
         document.getElementById('supa-google').onclick = async () => {
-            const styleEl = document.getElementById('supa-reading-style');
-            this.readingStyle = styleEl?.value || this.readingStyle;
-            await this.supabase.auth.signInWithOAuth({ provider: 'google' });
-            // Supabase will redirect to callback -- session handled in onAuthStateChange
+            // Save reading style before redirect
+            this.readingStyle = styleSelect.value;
+            localStorage.setItem('news_reading_style', this.readingStyle);
+            
+            await this.supabase.auth.signInWithOAuth({ 
+                provider: 'google',
+                options: {
+                    redirectTo: window.location.origin
+                }
+            });
         };
 
         document.getElementById('supa-email-form').onsubmit = async (e) => {
             e.preventDefault();
             const email = document.getElementById('supa-email').value.trim();
-            const styleEl = document.getElementById('supa-reading-style');
-            this.readingStyle = styleEl?.value || this.readingStyle;
-
+            
             if (!email) return alert('Please enter an email');
 
-            const { error } = await this.supabase.auth.signInWithOtp({ email });
+            // Save reading style before sending magic link
+            this.readingStyle = styleSelect.value;
+            localStorage.setItem('news_reading_style', this.readingStyle);
+
+            const { error } = await this.supabase.auth.signInWithOtp({ 
+                email,
+                options: {
+                    emailRedirectTo: window.location.origin
+                }
+            });
+            
             if (error) {
                 alert('Error sending magic link: ' + error.message);
             } else {
-                alert('Magic link sent! Check your inbox.');
+                wrapper.remove();
+                alert('✅ Magic link sent! Check your inbox and click the link to sign in.');
             }
         };
     }
