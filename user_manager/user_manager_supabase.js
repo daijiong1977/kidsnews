@@ -155,6 +155,13 @@ class SupabaseUserManager {
 
     async onLogin(user) {
         this.user = user;
+        
+        // Load reading style from localStorage (might have been set before OAuth redirect)
+        const savedReadingStyle = localStorage.getItem('news_reading_style');
+        if (savedReadingStyle) {
+            this.readingStyle = savedReadingStyle;
+        }
+        
         // fetch or create profile
         try {
             const { data: profiles } = await this.supabase
@@ -164,13 +171,24 @@ class SupabaseUserManager {
                 .limit(1);
 
             if (profiles && profiles.length) {
+                // Existing user - load their reading style from profile
                 this.profile = profiles[0];
                 if (this.profile.preferences && this.profile.preferences.readingStyle) {
                     this.readingStyle = this.profile.preferences.readingStyle;
                     console.log('Loaded reading style from profile:', this.readingStyle);
+                } else {
+                    // Profile exists but no reading style - update it with current/default
+                    await this.supabase
+                        .from('user_profiles')
+                        .update({
+                            preferences: { readingStyle: this.readingStyle },
+                            updated_at: new Date().toISOString()
+                        })
+                        .eq('id', user.id);
+                    console.log('Updated existing profile with reading style:', this.readingStyle);
                 }
             } else {
-                // Insert a new profile (upsert)
+                // New user - create profile with reading style from localStorage or default
                 const newProfile = {
                     id: user.id,
                     email: user.email,
