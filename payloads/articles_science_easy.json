@@ -1,21 +1,39 @@
 {
   "articles": [
     {
+      "id": "03b04071238bab38",
+      "title": "Medicine Helps Fight Cancer",
+      "summary": "A new study found that medicines called Wegovy and Ozempic can help people with colon cancer live longer. These drugs are used for diabetes and weight loss, but scientists discovered that patients taking them had much lower chances of dying from cancer. The researchers think the drugs work by reducing inflammation and helping the body's metabolism. Now, they want to do more tests to see if these drugs can really fight cancer. This is exciting because it could lead to new ways to treat cancer and save lives.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_03b04071238bab38_68ce33264de9.webp",
+      "category": "Science"
+    },
+    {
+      "id": "787541e73183e10c",
+      "title": "Space Telescope Finds Life's Building Blocks in a Nearby Galaxy",
+      "summary": "Scientists using the James Webb Space Telescope have discovered special molecules that are like the building blocks of life. These molecules were found frozen in ice around a young star in a galaxy close to ours called the Large Magellanic Cloud. One of these molecules, acetic acid, was seen for the first time outside our Milky Way galaxy. This discovery is exciting because it shows that the ingredients for life can form in different places in space, even in environments that are not very rich in metals, similar to the early universe. It means life might have started in more places than we thought, helping us understand how life began on Earth and possibly elsewhere.",
+      "source": "Science Daily",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_787541e73183e10c_0f370c2643de.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1f74a80dbb97f886",
+      "title": "Three Earth-Sized Planets Found Orbiting Two Suns",
+      "summary": "Astronomers have made an amazing discovery of three planets that are about the same size as Earth. These planets are orbiting two stars in a system called TOI-2267. This is the first time scientists have seen planets passing in front of both stars, which is called transiting. The system is very compact and cold, which is surprising because it doesn't match what we usually think about how planets form. In the future, powerful telescopes like the James Webb Space Telescope will help us learn more about what these planets are made of, such as if they have water or air. This finding helps us understand more about planets outside our solar system and could lead to finding other worlds like Earth.",
+      "source": "Science Daily",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_1f74a80dbb97f886_0598067c7452.webp",
+      "category": "Science"
+    },
+    {
       "id": "0259c5688f574682",
       "title": "Diamonds with Special Powers",
       "summary": "Scientists at UC Santa Barbara have made a big discovery with diamonds. They used tiny parts inside diamonds called spins and made them work together in a special way called entanglement. This helps the diamonds sense things much better than before. It's like giving the diamonds super senses! This new technology can be used to make small and powerful sensors that help in many areas, like medicine or finding hidden objects. It's a cool step forward in using quantum science to make our world better.",
       "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_0259c5688f574682_9b155ed340c6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "689addeca1c916c8",
-      "title": "Tiny Holes in Bacteria Learn Like Brains",
-      "summary": "Scientists at EPFL studied tiny holes called nanopores in bacteria. These holes can act in surprising ways, like letting ions pass through in one direction but not the other. The researchers found that this happens because of electrical charges inside the holes. They even made some nanopores that can learn and remember things, similar to how our brains work. This discovery could help create new kinds of computers that use ions instead of electricity, making them faster and more efficient. It's exciting because it shows how nature's designs can inspire new technology for the future.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_689addeca1c916c8_0cb54e872c09.webp",
+      "image_url": "/article_images/article_0259c5688f574682_9b155ed340c6.webp",
       "category": "Science"
     },
     {
@@ -25,24 +43,6 @@
       "source": "BBC Science",
       "time_ago": "1 day ago",
       "image_url": "/article_images/article_cb4c187ce2a87319_f5d0f5d96cc1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "2cf654bdd2db06ae",
-      "title": "AI Brings Back Ancient Babylonian Song",
-      "summary": "Scientists used smart computer programs called artificial intelligence to find and put together pieces of an old song from Babylon, a city from 3,000 years ago. This song talks about how beautiful and rich Babylon was, and it even says that women could be priests, which was unusual back then. People used to learn this song in school long ago, and now it helps us understand what life was like in ancient times. It's exciting because it shows how technology can help us learn about history.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_2cf654bdd2db06ae_76082eb2a9a1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c0c894be3eec49f2",
-      "title": "New Toothpaste from Hair Fights Cavities",
-      "summary": "Scientists have discovered a new way to help our teeth stay healthy. They found that a protein called keratin, which is in our hair and skin, can fix and protect tooth enamel. Enamel is the hard outer layer of our teeth that can get cavities. This new material makes a strong layer on teeth that stops decay and makes teeth stronger. It works better than the fluoride in regular toothpaste. The toothpaste is made from hair, which is a sustainable resource, meaning we can use things that would otherwise be thrown away. Soon, you might be able to buy this toothpaste or gels to keep your teeth healthy. This discovery could change how dentists help people have better teeth by using waste to heal them.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_c0c894be3eec49f2_0a75b0240d7a.webp",
       "category": "Science"
     },
     {

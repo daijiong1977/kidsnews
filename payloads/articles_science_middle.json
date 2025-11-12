@@ -1,21 +1,39 @@
 {
   "articles": [
     {
+      "id": "03b04071238bab38",
+      "title": "GLP-1 Drugs Show Promise in Reducing Cancer Mortality",
+      "summary": "A significant study from UC San Diego has revealed that GLP-1 drugs, including Wegovy and Ozempic, are associated with a substantial reduction in mortality among colon cancer patients. The research showed that patients using these medications had less than half the death rate compared to those not using them. Scientists believe that the anti-inflammatory properties and metabolic benefits of the drugs, such as improving how the body processes energy, play a key role in these improved outcomes. These drugs are commonly prescribed for type 2 diabetes and weight management, but this study suggests they might have broader applications in oncology. The findings have prompted calls for clinical trials to investigate whether the observed effects are due to a direct anti-cancer mechanism. If confirmed, this could lead to new treatment options for cancer, potentially saving many lives and advancing medical science.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_03b04071238bab38_68ce33264de9.webp",
+      "category": "Science"
+    },
+    {
+      "id": "787541e73183e10c",
+      "title": "Webb Telescope Discovers Organic Molecules in a Neighboring Galaxy",
+      "summary": "Using the James Webb Space Telescope, astronomers have detected complex organic molecules, including acetic acid, frozen in ice around a young star in the Large Magellanic Cloud, a galaxy neighboring the Milky Way. This marks the first time such molecules have been found outside our galaxy. The discovery is significant because these molecules formed in metal-poor conditions, similar to those in the early universe, indicating that the chemical precursors for life could have existed in a wider range of environments than previously thought. This challenges existing theories about where and how life's building blocks originate, suggesting that life may have emerged earlier and in more varied cosmic settings. The findings provide new insights into astrobiology and the potential for life beyond Earth, emphasizing the role of advanced telescopes in expanding our understanding of the cosmos.",
+      "source": "Science Daily",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_787541e73183e10c_0f370c2643de.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1f74a80dbb97f886",
+      "title": "Discovery of Three Earth-Sized Planets in a Binary Star System",
+      "summary": "Astronomers have identified three Earth-sized planets in the TOI-2267 system, which features two stars. This discovery is groundbreaking because it marks the first instance where planets have been observed transiting around both stars in a binary system. Transits occur when a planet passes in front of a star, causing a temporary dimming that scientists can detect. The TOI-2267 system is notably compact and cold, challenging existing theories of planetary formation that typically predict different conditions. Researchers plan to use advanced instruments like the James Webb Space Telescope (JWST) to conduct further studies, potentially revealing the composition of these planets, such as whether they have atmospheres or water. This finding not only expands our knowledge of exoplanets but also prompts revisions in astronomical models, highlighting the diversity of planetary systems in the universe.",
+      "source": "Science Daily",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_1f74a80dbb97f886_0598067c7452.webp",
+      "category": "Science"
+    },
+    {
       "id": "0259c5688f574682",
       "title": "Quantum Breakthrough in Diamond Sensing",
       "summary": "Physicists at UC Santa Barbara have developed entangled spin systems within diamonds, utilizing quantum squeezing to exceed classical sensing boundaries. This innovation involves manipulating the quantum states of spins—intrinsic properties of particles—to reduce noise and enhance measurement precision. By achieving this in diamond materials, the team has created quantum sensors that are not only more sensitive but also compact and practical for applications like medical imaging or environmental monitoring. This advancement marks a significant leap in quantum technology, potentially transforming how we detect subtle physical changes in various fields. The research demonstrates how quantum mechanics can be harnessed for real-world benefits, pushing the limits of what's possible with traditional methods.",
       "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_0259c5688f574682_9b155ed340c6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "689addeca1c916c8",
-      "title": "Bacterial Nanopores Mimic Brain Learning for Future Tech",
-      "summary": "Researchers at EPFL investigated biological nanopores, specifically the aerolysin pore from bacteria, to understand why they exhibit unpredictable behaviors like rectification and gating. They found that these effects are due to internal electrical charges interacting with ions. By engineering nanopores, the team created versions that demonstrate learning capabilities similar to neural processes in the brain. This breakthrough suggests potential applications in bio-inspired computing, where ion-based processors could offer advantages over traditional electronic systems. The study highlights how mimicking natural mechanisms can drive innovation in technology, paving the way for more efficient and adaptive computing solutions in the future.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_689addeca1c916c8_0cb54e872c09.webp",
+      "image_url": "/article_images/article_0259c5688f574682_9b155ed340c6.webp",
       "category": "Science"
     },
     {
@@ -25,24 +43,6 @@
       "source": "BBC Science",
       "time_ago": "1 day ago",
       "image_url": "/article_images/article_cb4c187ce2a87319_f5d0f5d96cc1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "2cf654bdd2db06ae",
-      "title": "AI Unearths Ancient Babylonian Hymn",
-      "summary": "Researchers have employed artificial intelligence to reconstruct a 3,000-year-old Babylonian hymn from scattered fragments discovered globally. This hymn, dating back to 1000 BCE, celebrates the splendor, wealth, and inclusive nature of Babylon, notably highlighting women's roles as priests, which is uncommon in extant texts. Originally a staple in educational settings, it now offers valuable insights into the daily life and spiritual beliefs of one of history's most influential civilizations. The use of AI in this context demonstrates how modern technology can bridge gaps in our understanding of the past, making ancient artifacts accessible and meaningful today.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_2cf654bdd2db06ae_76082eb2a9a1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c0c894be3eec49f2",
-      "title": "Innovative Toothpaste from Keratin Repairs Enamel",
-      "summary": "Researchers have identified keratin, a protein commonly found in human hair and skin, as a key component for repairing and protecting tooth enamel. This material creates a mineralized layer that effectively halts tooth decay and restores strength to teeth, showing superior performance compared to traditional fluoride-based treatments. Sourced from sustainable materials like hair, this innovation could soon be integrated into commercial toothpaste or gels. The discovery has the potential to revolutionize dentistry by transforming waste products into effective tools for tooth regeneration. This approach not only addresses dental health issues but also promotes environmental sustainability by utilizing renewable resources. If developed further, it could reduce the prevalence of cavities and enhance oral care practices globally.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_c0c894be3eec49f2_0a75b0240d7a.webp",
       "category": "Science"
     },
     {
