@@ -311,7 +311,11 @@ const levelMap = {
 
 // Track current selections
 let currentCategory = 'News';
-let currentLevel = 'Enjoy';
+// Initialize reading level from localStorage or default to Enjoy
+const savedReadingStyle = localStorage.getItem('news_reading_style');
+const styleToLevelMap = { 'relax': 'Relax', 'enjoy': 'Enjoy', 'research': 'Research', 'chinese': 'CN' };
+let currentLevel = styleToLevelMap[savedReadingStyle] || 'Enjoy';
+console.log('📚 Loaded reading level from localStorage:', savedReadingStyle, '→', currentLevel);
 let isChineseMode = localStorage.getItem('language') === 'cn';
 
 // Apply pending level from URL parameter (processed in <head>)
@@ -441,6 +445,9 @@ document.addEventListener('DOMContentLoaded', function() {
       currentLevel = this.value;
       loadArticles(currentCategory, currentLevel);
     });
+    // Set dropdown to match loaded reading level
+    select.value = currentLevel;
+    console.log("🎯 Set dropdown to:", currentLevel);
   }
   
   // CN Language Toggle Button
