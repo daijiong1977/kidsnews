@@ -167,6 +167,7 @@ class SupabaseUserManager {
                 this.profile = profiles[0];
                 if (this.profile.preferences && this.profile.preferences.readingStyle) {
                     this.readingStyle = this.profile.preferences.readingStyle;
+                    console.log('Loaded reading style from profile:', this.readingStyle);
                 }
             } else {
                 // Insert a new profile (upsert)
@@ -182,6 +183,7 @@ class SupabaseUserManager {
                     .upsert(newProfile, { returning: 'representation' });
 
                 if (inserted && inserted.length) this.profile = inserted[0];
+                console.log('Created new profile with reading style:', this.readingStyle);
             }
         } catch (err) {
             console.error('Failed to load/upsert profile', err);
@@ -189,6 +191,11 @@ class SupabaseUserManager {
 
         // Save readingStyle locally for compatibility
         localStorage.setItem('news_reading_style', this.readingStyle);
+
+        // Apply reading style to current page if method exists
+        if (typeof this.applyUserPreference === 'function') {
+            this.applyUserPreference();
+        }
 
         // If old code expects redirectToPreferredPage or applyUserPreference, keep method names
         if (typeof window.userManager !== 'undefined' && window.userManager !== this) {
@@ -381,10 +388,10 @@ class SupabaseUserManager {
             throw new Error('Magic link has expired');
         }
         
-        // Create or get user in auth.users
+        // Create or sign in user
         const { data: authData, error: signUpError } = await this.supabase.auth.signUp({
             email: magicLinkData.email,
-            password: crypto.randomUUID(), // Random password
+            password: crypto.randomUUID(), // Random password - won't be used
             options: {
                 data: {
                     reading_style: magicLinkData.reading_style
@@ -392,30 +399,61 @@ class SupabaseUserManager {
             }
         });
         
-        // If user already exists, sign them in with OTP
+        let userId = authData?.user?.id;
+        
+        // If user already exists, we need to sign them in
         if (signUpError && signUpError.message.includes('already registered')) {
-            // User exists, let's sign them in using OTP method
-            const { error: otpError } = await this.supabase.auth.signInWithOtp({
-                email: magicLinkData.email,
-                options: {
-                    shouldCreateUser: false
-                }
-            });
+            // For existing users, we can't use password auth (we don't know their password)
+            // Instead, let's just mark them as logged in locally and update their profile
+            // The proper way would be to use Supabase's magic link auth, but we're doing custom
+            console.log('User already exists, updating profile...');
+        }
+        
+        // Get or create user_profiles entry
+        if (userId || magicLinkData.email) {
+            // First try to find existing profile by email
+            const { data: existingProfiles } = await this.supabase
+                .from('user_profiles')
+                .select('*')
+                .eq('email', magicLinkData.email)
+                .limit(1);
             
-            if (otpError) {
-                // If OTP fails, try to set session manually
-                console.warn('OTP sign-in failed, creating manual session');
+            if (existingProfiles && existingProfiles.length > 0) {
+                // Update existing profile
+                userId = existingProfiles[0].id;
+                await this.supabase
+                    .from('user_profiles')
+                    .update({
+                        preferences: { readingStyle: magicLinkData.reading_style },
+                        updated_at: new Date().toISOString()
+                    })
+                    .eq('id', userId);
+                
+                console.log('Updated existing user profile:', userId);
+            } else if (userId) {
+                // Create new profile for new user
+                await this.supabase
+                    .from('user_profiles')
+                    .insert({
+                        id: userId,
+                        email: magicLinkData.email,
+                        display_name: magicLinkData.email.split('@')[0],
+                        preferences: { readingStyle: magicLinkData.reading_style },
+                        role: 'user'
+                    });
+                
+                console.log('Created new user profile:', userId);
             }
         }
         
         // Delete the used token
         await this.supabase.from('magic_links').delete().eq('token', token);
         
-        // Restore reading style
+        // Set reading style locally
         this.readingStyle = magicLinkData.reading_style;
         localStorage.setItem('news_reading_style', this.readingStyle);
         
-        // Reload to trigger auth state change
+        // Reload to trigger auth state change and load profile
         setTimeout(() => window.location.reload(), 500);
         
         return true;
