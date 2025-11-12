@@ -315,6 +315,14 @@ let currentCategory = 'News';
 const savedReadingStyle = localStorage.getItem('news_reading_style');
 const styleToLevelMap = { 'relax': 'Relax', 'enjoy': 'Enjoy', 'research': 'Research', 'chinese': 'CN' };
 let currentLevel = styleToLevelMap[savedReadingStyle] || 'Enjoy';
+// Sync language localStorage with reading style
+if (savedReadingStyle === 'chinese') {
+  localStorage.setItem('language', 'cn');
+  console.log('🔄 Synced language to cn');
+} else if (localStorage.getItem('language') === 'cn' && savedReadingStyle && savedReadingStyle !== 'chinese') {
+  localStorage.setItem('language', 'en');
+  console.log('🔄 Synced language to en');
+}
 console.log('📚 Loaded reading level from localStorage:', savedReadingStyle, '→', currentLevel);
 let isChineseMode = localStorage.getItem('language') === 'cn';
 
@@ -348,7 +356,7 @@ async function loadArticles(category, level) {
   const isChineseMode = langFromStorage === 'cn';
   
   // If in Chinese mode, use 'cn' level directly; otherwise map the level
-  const levelKey = isChineseMode ? 'cn' : (levelMap[level] || 'middle');
+  const levelKey = (isChineseMode || level === "CN") ? "cn" : (levelMap[level] || "middle");
   const categoryLower = category.toLowerCase();
   
   console.log(`🔍 loadArticles called with: category=${category}, level=${level}`);
