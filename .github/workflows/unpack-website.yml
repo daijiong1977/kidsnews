@@ -17,28 +17,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check if website.zip exists
-        id: check_zip
+      - name: Find website zip file
+        id: find_zip
         run: |
-          if [ -f "website.zip" ]; then
-            echo "exists=true" >> $GITHUB_OUTPUT
+          # Look for website-YYYY-MM-DD.zip pattern
+          ZIP_FILE=$(ls website-*.zip 2>/dev/null | head -1)
+          
+          if [ -n "$ZIP_FILE" ]; then
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo "filename=$ZIP_FILE" >> $GITHUB_OUTPUT
+            echo "✅ Found: $ZIP_FILE"
           else
-            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "found=false" >> $GITHUB_OUTPUT
+            echo "❌ No website-*.zip file found"
           fi
 
-      - name: Unpack website.zip
-        if: steps.check_zip.outputs.exists == 'true'
+      - name: Unpack website zip
+        if: steps.find_zip.outputs.found == 'true'
         run: |
-          echo "📦 Unpacking website.zip..."
+          ZIP_FILE="${{ steps.find_zip.outputs.filename }}"
+          echo "📦 Unpacking $ZIP_FILE..."
           
           # Remove old dynamic files but keep static files
           rm -rf payloads/ article_payloads/ article_images/ manifest.json
           
           # Unzip the new files
-          unzip -o website.zip
+          unzip -o "$ZIP_FILE"
           
           # Remove the zip file itself
-          rm website.zip
+          rm "$ZIP_FILE"
           
           echo "✅ Unpacked successfully"
           
@@ -47,7 +54,7 @@ jobs:
           ls -la
 
       - name: Commit unpacked files
-        if: steps.check_zip.outputs.exists == 'true'
+        if: steps.find_zip.outputs.found == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -58,15 +65,17 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🚀 Deploy website from zip [skip ci]"
+            git commit -m "🚀 Deploy website from ${{ steps.find_zip.outputs.filename }} [skip ci]"
             git push
             echo "✅ Changes pushed to main branch"
           fi
 
       - name: Summary
-        if: steps.check_zip.outputs.exists == 'true'
+        if: steps.find_zip.outputs.found == 'true'
         run: |
           echo "### 🎉 Website Deployed!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Source:** \`${{ steps.find_zip.outputs.filename }}\`" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Files unpacked:**" >> $GITHUB_STEP_SUMMARY
           echo "- \`payloads/\`: $(ls -1 payloads/ 2>/dev/null | wc -l) files" >> $GITHUB_STEP_SUMMARY
@@ -74,4 +83,3 @@ jobs:
           echo "- \`article_images/\`: $(ls -1 article_images/ 2>/dev/null | wc -l) images" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "✅ Vercel will auto-deploy from this commit" >> $GITHUB_STEP_SUMMARY
-
