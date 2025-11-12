@@ -46,12 +46,51 @@ jobs:
           echo "📋 Files unpacked:"
           ls -la
 
+      - name: Inject Supabase Configuration
+        if: steps.check_zip.outputs.exists == 'true'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          echo "🔐 Injecting Supabase credentials..."
+          
+          # Create injection snippet
+          cat > /tmp/supabase_inject.txt << 'SNIPPET'
+<!-- Supabase Configuration -->
+<script>
+  window.SUPABASE_URL = 'SUPABASE_URL_PLACEHOLDER';
+  window.SUPABASE_ANON_KEY = 'SUPABASE_ANON_KEY_PLACEHOLDER';
+  window.AUTO_INIT_SUPABASE_USER_MANAGER = true;
+</script>
+
+SNIPPET
+          
+          # Replace placeholders
+          sed -i "s|SUPABASE_URL_PLACEHOLDER|${SUPABASE_URL}|g" /tmp/supabase_inject.txt
+          sed -i "s|SUPABASE_ANON_KEY_PLACEHOLDER|${SUPABASE_ANON_KEY}|g" /tmp/supabase_inject.txt
+          
+          # Inject into HTML files
+          for file in index.html article_page/article.html admin.html; do
+            if [ -f "$file" ]; then
+              if ! grep -q "window.SUPABASE_URL" "$file"; then
+                # Find the line with "<!-- User Manager Script -->" and insert before it
+                sed -i '/<!-- User Manager Script -->/r /tmp/supabase_inject.txt' "$file"
+                echo "✅ Injected into $file"
+              else
+                echo "⏭️  Already injected: $file"
+              fi
+            else
+              echo "⚠️  File not found: $file"
+            fi
+          done
+          
+          echo "✅ Supabase configuration injected"
+
       - name: Commit unpacked files
         if: steps.check_zip.outputs.exists == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
           git add .
           
           # Check if there are changes to commit
@@ -73,5 +112,5 @@ jobs:
           echo "- \`article_payloads/\`: $(ls -1 article_payloads/ 2>/dev/null | wc -l) directories" >> $GITHUB_STEP_SUMMARY
           echo "- \`article_images/\`: $(ls -1 article_images/ 2>/dev/null | wc -l) images" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🔐 **Supabase auth configured**" >> $GITHUB_STEP_SUMMARY
           echo "✅ Vercel will auto-deploy from this commit" >> $GITHUB_STEP_SUMMARY
-
