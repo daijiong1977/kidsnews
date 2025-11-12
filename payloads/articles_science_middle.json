@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "0259c5688f574682",
+      "title": "Quantum Breakthrough in Diamond Sensing",
+      "summary": "Physicists at UC Santa Barbara have developed entangled spin systems within diamonds, utilizing quantum squeezing to exceed classical sensing boundaries. This innovation involves manipulating the quantum states of spins—intrinsic properties of particles—to reduce noise and enhance measurement precision. By achieving this in diamond materials, the team has created quantum sensors that are not only more sensitive but also compact and practical for applications like medical imaging or environmental monitoring. This advancement marks a significant leap in quantum technology, potentially transforming how we detect subtle physical changes in various fields. The research demonstrates how quantum mechanics can be harnessed for real-world benefits, pushing the limits of what's possible with traditional methods.",
+      "source": "Science Daily",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_0259c5688f574682_9b155ed340c6.webp",
+      "category": "Science"
+    },
+    {
+      "id": "689addeca1c916c8",
+      "title": "Bacterial Nanopores Mimic Brain Learning for Future Tech",
+      "summary": "Researchers at EPFL investigated biological nanopores, specifically the aerolysin pore from bacteria, to understand why they exhibit unpredictable behaviors like rectification and gating. They found that these effects are due to internal electrical charges interacting with ions. By engineering nanopores, the team created versions that demonstrate learning capabilities similar to neural processes in the brain. This breakthrough suggests potential applications in bio-inspired computing, where ion-based processors could offer advantages over traditional electronic systems. The study highlights how mimicking natural mechanisms can drive innovation in technology, paving the way for more efficient and adaptive computing solutions in the future.",
+      "source": "Science Daily",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_689addeca1c916c8_0cb54e872c09.webp",
+      "category": "Science"
+    },
+    {
+      "id": "cb4c187ce2a87319",
+      "title": "Government's Strategy to End Animal Testing",
+      "summary": "The government has outlined a detailed plan to gradually eliminate animal experiments, fulfilling a commitment from their election manifesto. Animal testing involves using animals in research to develop medical treatments and understand biological processes, but it raises ethical concerns about animal suffering. The phase-out aims to transition to alternative methods, such as computer models and cell cultures, which are considered more humane and potentially more accurate. This initiative reflects growing public and scientific support for animal welfare and could drive innovation in biomedical research. However, it may face challenges, including the need for validation of new techniques and potential delays in scientific progress. The plan underscores a shift towards ethical science and could influence global standards in research practices.",
+      "source": "BBC Science",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_cb4c187ce2a87319_f5d0f5d96cc1.webp",
+      "category": "Science"
+    },
+    {
+      "id": "2cf654bdd2db06ae",
+      "title": "AI Unearths Ancient Babylonian Hymn",
+      "summary": "Researchers have employed artificial intelligence to reconstruct a 3,000-year-old Babylonian hymn from scattered fragments discovered globally. This hymn, dating back to 1000 BCE, celebrates the splendor, wealth, and inclusive nature of Babylon, notably highlighting women's roles as priests, which is uncommon in extant texts. Originally a staple in educational settings, it now offers valuable insights into the daily life and spiritual beliefs of one of history's most influential civilizations. The use of AI in this context demonstrates how modern technology can bridge gaps in our understanding of the past, making ancient artifacts accessible and meaningful today.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_2cf654bdd2db06ae_76082eb2a9a1.webp",
+      "category": "Science"
+    },
+    {
       "id": "c0c894be3eec49f2",
       "title": "Innovative Toothpaste from Keratin Repairs Enamel",
       "summary": "Researchers have identified keratin, a protein commonly found in human hair and skin, as a key component for repairing and protecting tooth enamel. This material creates a mineralized layer that effectively halts tooth decay and restores strength to teeth, showing superior performance compared to traditional fluoride-based treatments. Sourced from sustainable materials like hair, this innovation could soon be integrated into commercial toothpaste or gels. The discovery has the potential to revolutionize dentistry by transforming waste products into effective tools for tooth regeneration. This approach not only addresses dental health issues but also promotes environmental sustainability by utilizing renewable resources. If developed further, it could reduce the prevalence of cavities and enhance oral care practices globally.",
@@ -10,48 +46,12 @@
       "category": "Science"
     },
     {
-      "id": "6a9ed14280a34bae",
-      "title": "Hidden weakness makes prostate cancer self-destruct",
-      "summary": "Researchers have discovered that prostate cancer depends on two key enzymes, PDIA1 and PDIA5, to survive and resist therapy. When blocked, these enzymes cause the androgen receptor to collapse, killing cancer cells and enhancing the effects of drugs like enzalutamide. They also disrupt the cancer’s energy system, striking it on multiple fronts. This breakthrough could open a new path to overcoming drug resistance in advanced prostate cancer.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_6a9ed14280a34bae_b3f8b7031793.webp",
-      "category": "Science"
-    },
-    {
-      "id": "9c50257b776cb2dc",
-      "title": "Brain Chemical SGK1 Connects Childhood Trauma to Depression",
-      "summary": "Researchers have identified SGK1 as a crucial brain chemical that links childhood trauma to depression and suicidal behavior. In studies, high levels of SGK1 were detected in the brains of individuals who died by suicide, as well as in people with specific genetic variants associated with early adversity. This suggests that SGK1 plays a key role in how stress from traumatic experiences during childhood can lead to mental health issues later in life. The findings are significant because they point to potential new antidepressants that target SGK1, which could help patients who do not respond to standard treatments like SSRIs. This research highlights the biological mechanisms underlying depression and offers hope for more effective therapies.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_9c50257b776cb2dc_0c13d9334dbe.webp",
-      "category": "Science"
-    },
-    {
       "id": "d093f785008e8710",
       "title": "Conservation Success: Red Kites Thrive in Spain",
       "summary": "A conservation initiative in south-west Spain is successfully reviving the red kite population. Red kites, which are birds of prey, faced decline due to habitat loss and human activities. The project involved transferring red kites from the UK, where they have been protected, to Spain to establish new breeding pairs. Recently, the arrival of mating pairs and the birth of chicks indicate positive outcomes. This effort highlights international cooperation in wildlife preservation and demonstrates how targeted actions can reverse species decline. It also raises awareness about the importance of biodiversity and ecosystem health. Scientists monitor the birds to ensure their adaptation and long-term survival.",
       "source": "BBC Science",
       "time_ago": "2 days ago",
       "image_url": "/article_images/article_d093f785008e8710_cb94a01745ae.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ca0ff547140c0c5e",
-      "title": "James Watson: DNA Pioneer and His Controversies",
-      "summary": "James Watson, a key figure in the discovery of DNA's structure, passed away at the age of 97. Along with Francis Crick, he unveiled the double helix model of DNA in 1953, which revolutionized biology by explaining how genetic information is stored and passed on. This breakthrough earned them the Nobel Prize and cemented Watson's legacy as a scientific icon. However, his career was marred by controversial statements on race and intelligence, which sparked widespread outrage and led to his removal from various positions. The article from BBC Science highlights both his monumental contributions to science and the ethical dilemmas he posed, emphasizing the complexity of evaluating historical figures. It serves as a reminder that scientific progress must be balanced with social responsibility.",
-      "source": "BBC Science",
-      "time_ago": "4 days ago",
-      "image_url": "/article_images/article_ca0ff547140c0c5e_46aafa7e5c8e.webp",
-      "category": "Science"
-    },
-    {
-      "id": "62820fd89e30a374",
-      "title": "Avian Influenza Threat: Expert Analysis for UK Farmers",
-      "summary": "A leading virology expert has issued a warning through the BBC about a highly infectious avian influenza virus spreading in the UK, which could potentially be the most severe outbreak to date. The expert emphasizes that the virus has the ability to mutate, increasing its transmissibility and possibly leading to more widespread infections among bird populations and even posing risks to human health. This situation requires immediate attention from farmers, who are advised to implement strict biosecurity measures, such as isolating flocks and monitoring for symptoms. The spread of bird flu can have significant economic impacts, including losses in poultry farming and disruptions to food supplies. Public health officials are monitoring the situation closely to prevent a larger crisis, highlighting the importance of collaboration between experts, farmers, and government agencies to mitigate the threat.",
-      "source": "BBC Science",
-      "time_ago": "5 days ago",
-      "image_url": "/article_images/article_62820fd89e30a374_39380b245b69.webp",
       "category": "Science"
     }
   ]

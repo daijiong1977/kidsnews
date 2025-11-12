@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "0259c5688f574682",
+      "title": "纠缠自旋赋予钻石量子优势",
+      "summary": "加州大学圣塔芭芭拉分校的物理学家在钻石中 engineered 纠缠自旋系统，通过量子压缩技术超越了经典传感的极限。这一突破使得下一代量子传感器变得更强大、更紧凑，并 ready 用于现实世界。纠缠自旋系统利用量子特性来减少测量噪声，提高检测物理量的精度。钻石因其稳定的氮空位中心而成为理想平台，有助于维持量子相干性。这些传感器在生物医学成像和环境监测等领域具有潜在应用，例如提升MRI的分辨率或检测微小变化。这项研究不仅展示了量子增强的实际可行性，还推动了量子力学在技术创新中的应用，标志着量子传感技术向商业化迈出了关键一步。",
+      "source": "Science Daily",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_0259c5688f574682_9b155ed340c6.webp",
+      "category": "Science"
+    },
+    {
+      "id": "689addeca1c916c8",
+      "title": "细菌纳米孔中发现类脑学习能力",
+      "summary": "EPFL的科学家们揭示了生物纳米孔（在自然和生物技术中使用的微小分子孔）有时行为不可预测的原因。通过实验工程化的细菌气溶素孔，他们发现两个关键效应——整流和门控——源于孔内部电荷与通过离子的相互作用。研究团队甚至构建了能够模仿类脑“学习”的纳米孔，暗示了未来在生物启发计算和离子基处理器中的应用。这一发现强调了利用自然机制推动技术创新的潜力，为更高效、自适应的计算解决方案铺平道路。",
+      "source": "Science Daily",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_689addeca1c916c8_0cb54e872c09.webp",
+      "category": "Science"
+    },
+    {
+      "id": "cb4c187ce2a87319",
+      "title": "政府制定逐步淘汰动物实验计划",
+      "summary": "政府已制定一项计划，逐步淘汰动物实验，这是其选举宣言中的承诺。动物实验涉及在科学研究中使用动物来测试药物和疾病，但引发了关于动物福利的伦理问题。该计划旨在过渡到替代方法，如计算机模型和细胞培养，这些方法被认为更人道且可能更准确。这一举措反映了公众和科学界对动物福利日益增长的支持，并可能推动生物医学研究的创新。然而，它可能面临挑战，包括新技术的验证需求以及可能的研究进展延迟。总体而言，该计划标志着向更伦理的科学实践转变，并可能影响全球研究标准。",
+      "source": "BBC Science",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_cb4c187ce2a87319_f5d0f5d96cc1.webp",
+      "category": "Science"
+    },
+    {
+      "id": "2cf654bdd2db06ae",
+      "title": "人工智能重现失传3000年的巴比伦赞美诗",
+      "summary": "研究人员利用人工智能技术，成功复原了一首失传约3000年的巴比伦赞美诗，该诗作可追溯至公元前1000年。这首赞美诗颂扬了古巴比伦的美丽、繁荣和包容性，特别提到了女性担任祭司的角色，这在现存文本中十分罕见。曾经是学校教材的它，如今为我们提供了了解这个曾统治世界的古城日常生活和信仰的珍贵视角。人工智能的应用不仅帮助重建了这一文化遗产，还展示了现代科技如何填补历史研究的空白，促进跨学科合作。",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_2cf654bdd2db06ae_76082eb2a9a1.webp",
+      "category": "Science"
+    },
+    {
       "id": "c0c894be3eec49f2",
       "title": "告别蛀牙？这种由头发制成的新牙膏可以修复牙釉质",
       "summary": "科学家们发现，头发和皮肤中的角蛋白可以修复和保护牙釉质。这种材料形成一层矿化层，能够阻止蛀牙并恢复牙齿强度，效果优于传统的氟化物。由头发等可持续来源制成，它可能很快在牙膏或凝胶中上市。这一发现可以通过将废物转化为强大的再生工具来改变牙科领域。角蛋白作为一种结构蛋白，在实验室研究中显示出促进牙釉质再矿化的潜力，这不仅能改善口腔健康，还能减少环境浪费。如果进一步开发，这种创新可能降低全球蛀牙发病率，并为可持续医疗解决方案开辟新途径。",
@@ -10,48 +46,12 @@
       "category": "Science"
     },
     {
-      "id": "6a9ed14280a34bae",
-      "title": "Hidden weakness makes prostate cancer self-destruct",
-      "summary": "Researchers have discovered that prostate cancer depends on two key enzymes, PDIA1 and PDIA5, to survive and resist therapy. When blocked, these enzymes cause the androgen receptor to collapse, killing cancer cells and enhancing the effects of drugs like enzalutamide. They also disrupt the cancer’s energy system, striking it on multiple fronts. This breakthrough could open a new path to overcoming drug resistance in advanced prostate cancer.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_6a9ed14280a34bae_b3f8b7031793.webp",
-      "category": "Science"
-    },
-    {
-      "id": "9c50257b776cb2dc",
-      "title": "科学家发现与创伤和抑郁相关的大脑化学物质",
-      "summary": "研究人员发现SGK1是一种关键的大脑化学物质，将童年创伤与抑郁和自杀行为联系起来。在自杀受害者的大脑中和具有与早期逆境相关的基因变异的人体中，发现了高水平的SGK1。阻断SGK1的药物可能提供一种新型抗抑郁药，特别是对那些对SSRIs（选择性5-羟色胺再摄取抑制剂）耐药的患者。这项研究揭示了压力如何通过生物机制影响心理健康，并为开发更有效的治疗方法带来了希望。",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_9c50257b776cb2dc_0c13d9334dbe.webp",
-      "category": "Science"
-    },
-    {
       "id": "d093f785008e8710",
       "title": "从边缘回归：英国红鸢援助西班牙表亲",
       "summary": "一项在西班牙西南部复兴红鸢种群的项目取得了新进展，出现了新的交配对和雏鸟。红鸢是一种猛禽，曾因栖息地丧失和人类活动而数量锐减。该项目从英国引进红鸢，旨在通过建立新的繁殖群体来促进种群恢复。最近，交配对的形成和雏鸟的诞生表明努力初见成效，突显了国际合在野生动物保护中的重要性。这一举措不仅有助于生物多样性维护，还展示了针对性行动如何逆转物种衰退。科学家们持续监测这些鸟类，以确保它们适应新环境并实现长期生存。文章强调了保护生态系统健康和促进物种可持续性的价值。",
       "source": "BBC Science",
       "time_ago": "2 days ago",
       "image_url": "/article_images/article_d093f785008e8710_cb94a01745ae.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ca0ff547140c0c5e",
-      "title": "詹姆斯·沃森：有争议的'生命秘密'发现者",
-      "summary": "詹姆斯·沃森是DNA结构的共同发现者，于97岁去世，留下了复杂的遗产。他与弗朗西斯·克里克在1953年利用罗莎琳德·富兰克林的X射线数据，揭示了DNA的双螺旋结构，这一发现彻底改变了分子生物学和遗传学，为他们赢得了诺贝尔奖，并推动了基因工程和个性化医学等进步。然而，沃森的职业生涯因其多次公开将种族与智力联系起来的言论而蒙上阴影，这些观点被广泛谴责为种族主义且缺乏科学依据，导致他被学术圈排斥和荣誉被撤销。BBC科学的这篇文章探讨了这种双重性，促使人们反思在评估科学先驱时如何平衡其成就与个人缺陷，并强调将伦理审查与科学赞誉相结合的必要性。",
-      "source": "BBC Science",
-      "time_ago": "4 days ago",
-      "image_url": "/article_images/article_ca0ff547140c0c5e_46aafa7e5c8e.webp",
-      "category": "Science"
-    },
-    {
-      "id": "62820fd89e30a374",
-      "title": "专家警告英国禽流感病毒可能最严重",
-      "summary": "一位顶尖病毒学专家通过BBC警告，一种“超级传染性”禽流感病毒正在英国传播，可能成为迄今为止最严重的疫情。专家强调，该病毒可能发生突变，增加其传播能力，导致鸟类群体中更广泛的感染，甚至对人类健康构成风险。这种情况需要农民立即关注，建议实施严格的生物安全措施，如隔离禽群和监测症状。禽流感的传播可能带来重大经济影响，包括家禽养殖损失和食品供应中断。公共卫生官员正在密切监测局势，以防止更大的危机，突显专家、农民和政府机构之间合作减轻威胁的重要性。",
-      "source": "BBC Science",
-      "time_ago": "5 days ago",
-      "image_url": "/article_images/article_62820fd89e30a374_39380b245b69.webp",
       "category": "Science"
     }
   ]
