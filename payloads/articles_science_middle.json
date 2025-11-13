@@ -1,39 +1,48 @@
 {
   "articles": [
     {
+      "id": "9b39ebca33257771",
+      "title": "Advancing Nuclear Energy: Small Reactors in Wales",
+      "summary": "The United Kingdom is set to construct its first small modular nuclear power station in north Wales, marking a significant step in the country's energy strategy. Initially, three small modular reactors (SMRs) will be installed at the site, with plans to potentially expand to eight units. SMRs are compact nuclear reactors that offer advantages such as lower costs, enhanced safety features, and faster construction times compared to traditional large-scale nuclear plants. This initiative aims to boost the UK's clean energy production, reduce reliance on fossil fuels, and cut carbon emissions to combat climate change. Additionally, the project is expected to create numerous jobs and stimulate economic growth in the local region. By adopting this technology, the UK positions itself as a leader in innovative energy solutions, addressing both environmental concerns and energy security needs. The development highlights a shift towards sustainable energy sources and could serve as a model for other countries exploring nuclear options.",
+      "source": "BBC Science",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_9b39ebca33257771_e1db6262344d.jpg",
+      "category": "Science"
+    },
+    {
+      "id": "7a945daf63d723bd",
+      "title": "Exploring a Promising Super-Earth for Alien Life",
+      "summary": "Astronomers have identified a super-Earth exoplanet located just 20 light-years from Earth, positioning it as one of the most promising targets in the search for extraterrestrial life. This planet orbits within the habitable zone of its host star, meaning it receives the right amount of stellar energy to potentially support liquid water—a key ingredient for life as we understand it. The discovery was achieved through the use of advanced spectrographs developed at Penn State, which analyze starlight to detect subtle wobbles caused by orbiting planets. Additionally, decades of observational data from various global telescopes contributed to confirming the planet's existence and characteristics. This finding is significant because it offers a relatively nearby and accessible opportunity to study atmospheric conditions and biosignatures that could indicate life. Scientists plan to employ next-generation telescopes to further investigate this super-Earth, hoping to uncover clues about its composition and habitability.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_7a945daf63d723bd_25348dfd4934.webp",
+      "category": "Science"
+    },
+    {
+      "id": "940462793dd4d973",
+      "title": "Advancing Computing with Gyromorph Metamaterials",
+      "summary": "Researchers have developed gyromorphs, a novel type of metamaterial that integrates liquid-like randomness with large-scale structural patterns to effectively block light from all directions. This breakthrough addresses key limitations in previous quasicrystal-based designs, which struggled with directional light control. By enabling omnidirectional light blocking, gyromorphs could significantly enhance photonic computing, a field that uses light particles (photons) for data processing instead of electrons. This innovation promises faster computation speeds, reduced energy consumption, and potential applications in advanced technologies like quantum computing and telecommunications. The study, published in a reputable source, highlights how material science can drive technological progress, offering a sustainable path for future computing developments.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_940462793dd4d973_6b084f367952.webp",
+      "category": "Science"
+    },
+    {
+      "id": "263913b7fa47ab38",
+      "title": "Bee-Ant Conflicts: How Invasive Species Impact Pollinators",
+      "summary": "Recent research highlights the conflicts between bumble bees and invasive Argentine ants over nectar resources. Although bumble bees are larger and typically win individual encounters with ants, these aggressive interactions lead to significant losses in foraging time. Bees often avoid feeders occupied by ants to prevent fights, but this avoidance further reduces their food collection. This issue exacerbates the pressures on bee colonies, which are already dealing with habitat loss, diseases, and pesticide exposure. The study emphasizes that while bees might prevail in direct battles, the overall effect is negative for colony health and survival. Understanding these dynamics is crucial for conservation efforts aimed at protecting pollinators from invasive species and other threats.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_263913b7fa47ab38_1279bb9fc2d2.webp",
+      "category": "Science"
+    },
+    {
       "id": "03b04071238bab38",
       "title": "GLP-1 Drugs Show Promise in Reducing Cancer Mortality",
       "summary": "A significant study from UC San Diego has revealed that GLP-1 drugs, including Wegovy and Ozempic, are associated with a substantial reduction in mortality among colon cancer patients. The research showed that patients using these medications had less than half the death rate compared to those not using them. Scientists believe that the anti-inflammatory properties and metabolic benefits of the drugs, such as improving how the body processes energy, play a key role in these improved outcomes. These drugs are commonly prescribed for type 2 diabetes and weight management, but this study suggests they might have broader applications in oncology. The findings have prompted calls for clinical trials to investigate whether the observed effects are due to a direct anti-cancer mechanism. If confirmed, this could lead to new treatment options for cancer, potentially saving many lives and advancing medical science.",
       "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_03b04071238bab38_68ce33264de9.webp",
-      "category": "Science"
-    },
-    {
-      "id": "787541e73183e10c",
-      "title": "Webb Telescope Discovers Organic Molecules in a Neighboring Galaxy",
-      "summary": "Using the James Webb Space Telescope, astronomers have detected complex organic molecules, including acetic acid, frozen in ice around a young star in the Large Magellanic Cloud, a galaxy neighboring the Milky Way. This marks the first time such molecules have been found outside our galaxy. The discovery is significant because these molecules formed in metal-poor conditions, similar to those in the early universe, indicating that the chemical precursors for life could have existed in a wider range of environments than previously thought. This challenges existing theories about where and how life's building blocks originate, suggesting that life may have emerged earlier and in more varied cosmic settings. The findings provide new insights into astrobiology and the potential for life beyond Earth, emphasizing the role of advanced telescopes in expanding our understanding of the cosmos.",
-      "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_787541e73183e10c_0f370c2643de.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1f74a80dbb97f886",
-      "title": "Discovery of Three Earth-Sized Planets in a Binary Star System",
-      "summary": "Astronomers have identified three Earth-sized planets in the TOI-2267 system, which features two stars. This discovery is groundbreaking because it marks the first instance where planets have been observed transiting around both stars in a binary system. Transits occur when a planet passes in front of a star, causing a temporary dimming that scientists can detect. The TOI-2267 system is notably compact and cold, challenging existing theories of planetary formation that typically predict different conditions. Researchers plan to use advanced instruments like the James Webb Space Telescope (JWST) to conduct further studies, potentially revealing the composition of these planets, such as whether they have atmospheres or water. This finding not only expands our knowledge of exoplanets but also prompts revisions in astronomical models, highlighting the diversity of planetary systems in the universe.",
-      "source": "Science Daily",
-      "time_ago": "12 hours ago",
-      "image_url": "/article_images/article_1f74a80dbb97f886_0598067c7452.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0259c5688f574682",
-      "title": "Quantum Breakthrough in Diamond Sensing",
-      "summary": "Physicists at UC Santa Barbara have developed entangled spin systems within diamonds, utilizing quantum squeezing to exceed classical sensing boundaries. This innovation involves manipulating the quantum states of spins—intrinsic properties of particles—to reduce noise and enhance measurement precision. By achieving this in diamond materials, the team has created quantum sensors that are not only more sensitive but also compact and practical for applications like medical imaging or environmental monitoring. This advancement marks a significant leap in quantum technology, potentially transforming how we detect subtle physical changes in various fields. The research demonstrates how quantum mechanics can be harnessed for real-world benefits, pushing the limits of what's possible with traditional methods.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_0259c5688f574682_9b155ed340c6.webp",
+      "image_url": "/article_images/article_03b04071238bab38_68ce33264de9.webp",
       "category": "Science"
     },
     {
@@ -41,17 +50,8 @@
       "title": "Government's Strategy to End Animal Testing",
       "summary": "The government has outlined a detailed plan to gradually eliminate animal experiments, fulfilling a commitment from their election manifesto. Animal testing involves using animals in research to develop medical treatments and understand biological processes, but it raises ethical concerns about animal suffering. The phase-out aims to transition to alternative methods, such as computer models and cell cultures, which are considered more humane and potentially more accurate. This initiative reflects growing public and scientific support for animal welfare and could drive innovation in biomedical research. However, it may face challenges, including the need for validation of new techniques and potential delays in scientific progress. The plan underscores a shift towards ethical science and could influence global standards in research practices.",
       "source": "BBC Science",
-      "time_ago": "1 day ago",
+      "time_ago": "2 days ago",
       "image_url": "/article_images/article_cb4c187ce2a87319_f5d0f5d96cc1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d093f785008e8710",
-      "title": "Conservation Success: Red Kites Thrive in Spain",
-      "summary": "A conservation initiative in south-west Spain is successfully reviving the red kite population. Red kites, which are birds of prey, faced decline due to habitat loss and human activities. The project involved transferring red kites from the UK, where they have been protected, to Spain to establish new breeding pairs. Recently, the arrival of mating pairs and the birth of chicks indicate positive outcomes. This effort highlights international cooperation in wildlife preservation and demonstrates how targeted actions can reverse species decline. It also raises awareness about the importance of biodiversity and ecosystem health. Scientists monitor the birds to ensure their adaptation and long-term survival.",
-      "source": "BBC Science",
-      "time_ago": "3 days ago",
-      "image_url": "/article_images/article_d093f785008e8710_cb94a01745ae.webp",
       "category": "Science"
     }
   ]
