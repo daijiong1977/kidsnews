@@ -1,11 +1,47 @@
 {
   "articles": [
     {
+      "id": "e35a8efb0b3810ce",
+      "title": "科学终于解开700年前皇室谋杀案",
+      "summary": "一项最新科学研究成功解开了关于马乔公爵贝拉死亡的长达700年的谜团。研究人员利用基因、同位素和法医证据，明确鉴定出他的遗骸，并揭示了他生活、祖先和暴力死亡的详细信息。研究表明，贝拉公爵是一位年轻的贵族，拥有斯堪的纳维亚-留里克血统，于1272年在一场协调且充满情感的攻击中被杀。这一发现不仅澄清了历史事件，还展示了现代科学在考古学和历史学中的强大作用。通过应用这些方法，科学家能够重建过去的生活，理解社会动态，并为长期未解的问题提供答案，突显了跨学科方法在填补中世纪知识空白方面的重要性。",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_e35a8efb0b3810ce_92ad5a77e043.webp",
+      "category": "Science"
+    },
+    {
+      "id": "004d8a514b749a92",
+      "title": "Hypersonic breakthrough could enable planes that fly 10 times the speed of sound",
+      "summary": "Hypersonic flight could one day make long-haul travel as quick as a short movie. Researchers are testing how turbulence behaves at extreme speeds, a critical hurdle for designing these aircraft. Their laser-based krypton experiments suggest turbulence at Mach 6 behaves more like slower airflow than expected. The results could simplify hypersonic vehicle design and accelerate progress toward ultra-fast travel.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_004d8a514b749a92_5c5aaa395594.webp",
+      "category": "Science"
+    },
+    {
+      "id": "4114dee7acf69b67",
+      "title": "科学家在中国发现巨大陨石坑，改写地球近代历史",
+      "summary": "科学家在广东发现了一个保存完好的巨大撞击坑，揭示了全新世时期一次强大的陨石撞击事件。该陨石坑直径达900米，远大于同一时期其他已知的陨石坑。冲击受损的石英证实了撞击所涉及的强烈力量。在高度侵蚀的环境中，该陨石坑的保存使其成为地质学上的稀有现象。这一发现可能重新定义地球近代历史，表明在相对较近的地质时期发生过重大撞击事件。研究人员通过分析石英的变形特征，确定了陨石撞击的证据，这有助于更好地理解撞击事件对地球环境和气候的潜在影响。该研究强调了在侵蚀强烈的地区发现此类保存完好的地质特征的重要性，为行星科学和灾害评估提供了新的见解。",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_4114dee7acf69b67_89692b6d3c9d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "ced5ff4e1b7fef3c",
+      "title": "狗类多样性可追溯至石器时代",
+      "summary": "一项新研究表明，狗类的身体变化开始的时间比我们之前认为的要早得多，可以追溯到石器时代。研究人员通过分析化石和骨骼遗骸，发现狗在大小和形状上的多样性在数千年前就已出现，这与人类社会的发展相吻合。这一发现挑战了先前认为狗类多样性主要源于近代人工选育的观点，强调了自然选择、环境压力以及早期人狗互动在塑造狗类特征中的作用。该研究不仅增进了我们对驯化过程的理解，还促使重新评估进化时间线，为进化生物学提供了新的视角。",
+      "source": "BBC Science",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_ced5ff4e1b7fef3c_dc447463f5ec.jpg",
+      "category": "Science"
+    },
+    {
       "id": "9b39ebca33257771",
       "title": "英国首座小型核电站将在北威尔士建造",
       "summary": "英国计划在北威尔士建造其首座小型模块化核电站，这标志着该国能源战略的重要进展。初步确认将安装三座小型模块化反应堆，并有可能扩展至八座。小型模块化反应堆是紧凑的核能系统，具有成本较低、安全性高和建设周期短的优势，相比传统大型核电站更灵活。这一项目旨在提升英国的清洁能源生产，减少对化石燃料的依赖，并降低碳排放以应对气候变化。此外，预计该项目将为当地创造大量就业机会，促进经济增长。通过采用这种技术，英国在创新能源解决方案方面处于领先地位，同时解决环境问题和能源安全需求。该发展突显了向可持续能源源的转变，并可能成为其他国家探索核能选项的典范。然而，项目也面临监管审批、公众接受度以及与其他低碳技术整合的挑战，需要全面评估风险和收益。",
       "source": "BBC Science",
-      "time_ago": "3 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_9b39ebca33257771_e1db6262344d.jpg",
       "category": "Science"
     },
@@ -14,44 +50,8 @@
       "title": "附近超级地球可能是寻找外星生命的最佳机会",
       "summary": "科学家发现了一颗距离地球仅20光年的超级地球，这为我们寻找太阳系外的生命提供了最有希望的机会之一。这颗系外行星位于其恒星的宜居带内，意味着它可能拥有适宜生命存在的条件，如液态水。这一发现得益于宾夕法尼亚州立大学设计的先进光谱仪以及全球望远镜数十年的观测数据。光谱仪通过分析恒星光线中的微小波动来探测行星，而长期观测确保了数据的可靠性。这颗超级地球的近距离和宜居性使其成为研究大气成分和生物标志物的理想目标，科学家计划利用新一代望远镜进一步探索，以寻找生命迹象。这一发现不仅推动了天体生物学的发展，还激发了公众对宇宙中生命可能性的兴趣。",
       "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_7a945daf63d723bd_25348dfd4934.webp",
-      "category": "Science"
-    },
-    {
-      "id": "940462793dd4d973",
-      "title": "新型“陀螺形态”材料可能使计算机速度极快",
-      "summary": "研究人员开发了“陀螺形态”，一种新型超材料，结合了液体般的随机性和大规模结构模式，可以从各个方向阻挡光线。这一创新解决了准晶体设计中的长期限制，并可能加速光子计算的进展。光子计算使用光粒子而非电子进行数据处理，提供更高的速度和能效。陀螺形态通过实现全向光阻挡，有望推动高速计算、量子信息处理和光学通信的发展，减少延迟和能耗。这项研究发表在可信的科学来源上，强调了材料科学与光子学的跨学科融合，为可持续技术演进铺平道路，满足全球对快速数据处理的需求。",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_940462793dd4d973_6b084f367952.webp",
-      "category": "Science"
-    },
-    {
-      "id": "263913b7fa47ab38",
-      "title": "蜜蜂与入侵蚂蚁的花蜜争夺战消耗蜂巢资源",
-      "summary": "最新研究表明，熊蜂与入侵的阿根廷蚂蚁在花蜜资源上发生冲突，尽管熊蜂体型较大，在一对一战斗中通常获胜，但这些遭遇会引发持久的攻击行为，导致熊蜂浪费宝贵的觅食时间。蜜蜂经常避开蚂蚁占据的喂食器，以避免争斗，但这进一步减少了它们的食物采集量。这一问题加剧了蜂群本已面临的压力，如栖息地丧失、疾病和农药暴露。研究强调，虽然蜜蜂可能在直接对抗中占优，但整体上对蜂群健康和生存产生负面影响。了解这些动态对于保护传粉昆虫免受入侵物种和其他威胁至关重要，有助于制定有效的保护策略。",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_263913b7fa47ab38_1279bb9fc2d2.webp",
-      "category": "Science"
-    },
-    {
-      "id": "03b04071238bab38",
-      "title": "Wegovy和Ozempic与癌症死亡率显著降低相关",
-      "summary": "一项由加州大学圣地亚哥分校进行的重要研究发现，GLP-1药物如Wegovy和Ozempic可能延长结肠癌患者的生命。研究显示，使用这些药物的患者死亡率不到非使用者的一半。研究人员认为，药物的抗炎和代谢效应有助于改善结果，这些效应可能通过减少慢性炎症和调节能量代谢来抑制癌症进展。这些药物通常用于治疗2型糖尿病和肥胖症，但此项研究提示它们在肿瘤学中可能有更广泛的应用。基于这些发现，科学家们呼吁进行临床试验，以验证这些关联是否反映真正的抗癌机制。如果得到证实，这可能为癌症治疗带来新选择，潜在拯救许多生命并推动医学进步。",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_03b04071238bab38_68ce33264de9.webp",
-      "category": "Science"
-    },
-    {
-      "id": "cb4c187ce2a87319",
-      "title": "政府制定逐步淘汰动物实验计划",
-      "summary": "政府已制定一项计划，逐步淘汰动物实验，这是其选举宣言中的承诺。动物实验涉及在科学研究中使用动物来测试药物和疾病，但引发了关于动物福利的伦理问题。该计划旨在过渡到替代方法，如计算机模型和细胞培养，这些方法被认为更人道且可能更准确。这一举措反映了公众和科学界对动物福利日益增长的支持，并可能推动生物医学研究的创新。然而，它可能面临挑战，包括新技术的验证需求以及可能的研究进展延迟。总体而言，该计划标志着向更伦理的科学实践转变，并可能影响全球研究标准。",
-      "source": "BBC Science",
-      "time_ago": "2 days ago",
-      "image_url": "/article_images/article_cb4c187ce2a87319_f5d0f5d96cc1.webp",
+      "image_url": "/article_images/article_7a945daf63d723bd_25348dfd4934.webp",
       "category": "Science"
     }
   ]
