@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "8579bb1da65ee634",
-      "title": "这颗小药丸可能改变我们诊断肠道健康的方式",
-      "summary": "科学家们开发出一种可吞咽的小球，内部装有经过工程改造的细菌，能够在遇到血红素时发光，从而检测肠道出血。在老鼠身上进行的早期测试表明，这可能成为一种快速、无创的监测肠道疾病的方法。传统诊断方法如内窥镜检查往往具有侵入性，可能让患者感到不适，而这种新药丸提供了一种更简单的替代方案。它利用合成生物学技术，使细菌特异性响应血红素这一血液成分，实现实时监测。如果未来在人类试验中成功，这项创新可能降低医疗成本，提高患者依从性，并促进早期发现和治疗炎症性肠病等疾病。然而，将其应用于人类还需要严格的临床试验来评估有效性、安全性以及涉及基因改造生物的伦理问题。",
+      "id": "b6d2a7c1f9ff7422",
+      "title": "AIOps: how companies can harness AI to reshape IT operations",
+      "summary": "AIOps harnesses AI to enhance enterprise security and operations\n\nWhen you purchase through links on our site, we may earn an affiliate commission. Here’s how it works.\n\nArtificial intelligence (AI) isn't just another trend – it's a powerful force reshaping the very foundation of business operations.\n\nMuch like the internet catalyzed a global transformation decades ago, AI is now leading a new digital revolution. This wave of innovation is compelling organizations to reconsider, re-envision, and reinvent every aspect of their operational strategy.\n\nAt the forefront of this transformation within the technology sector is AI for IT operations (AIOps). It represents a seismic shift in how complex technology ecosystems are managed and maintained.\n\nAIOps isn't merely about adding AI to an existing IT infrastructure management framework; it's a sophisticated practice that integrates human expertise with the analytical power of AI, machine learning (ML), and advanced operational methodologies.\n\nAVP, global strategic alliances at NETSCOUT.\n\nThe goal is to fundamentally enhance how businesses manage their operational data, support critical human decision-making, and automate tasks that were once labor-intensive.\n\nIn years gone by, every facet of IT operations – from monitoring server health to scheduling workloads – required constant human oversight.\n\nNow, with the advent of sophisticated AIOps solutions, businesses can automate a vast range of these critical functions, freeing up human talent to focus on more strategic initiatives.\n\nSign up to the TechRadar Pro newsletter to get all the top news, opinion, features and guidance your business needs to succeed!\n\nThe primary driver for AIOps adoption is its ability to directly address the shortcomings associated with conventional IT management tools. While human expertise is invaluable in interpreting complex data, it can also lead to inaccuracies and inefficiencies, particularly when handling large-scale datasets.\n\nAIOps platforms are designed to overcome these challenges. When fed with high-quality, relevant data, an AIOps system can quickly identify opportunities to improve decision-making and automate processes across IT operations, cybersecurity, and other network domains.\n\nOne of the most significant benefits is the enhancement of application performance and security. AIOps tools sift through the noise of immense data streams to pull out the crucial insights teams need to understand precisely what is occurring across their network and in their applications.\n\nThis provides a clear, comprehensive understanding of issues like performance degradation or system outages, enabling teams to make faster and more confident decisions.",
+      "source": "TechRadar",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_b6d2a7c1f9ff7422_5ffbcda14755.webp",
+      "category": "Science"
+    },
+    {
+      "id": "2e493042339037c5",
+      "title": "Rapid fault healing could rewrite earthquake physics",
+      "summary": "Earthquake faults located deep within the planet can reconnect after a seismic disturbance, according to new research from the University of California, Davis. The study, published Nov. 19 in Science Advances and supported by National Science Foundation grants, introduces a new factor that could reshape how scientists interpret fault behavior linked to major earthquakes.\n\n\"We discovered that deep faults can heal themselves within hours,\" said Amanda Thomas, professor of earth and planetary sciences at UC Davis and corresponding author on the paper. \"This prompts us to reevaluate fault rheological behavior, and if we have been neglecting something very important.\"\n\nSlow Slip Events and Shifting Stress\n\nThomas, UC Davis colleague Professor James Watkins and their team investigated slow slip events, or SSEs, which resemble extremely slow earthquakes.\n\nRegular earthquakes happen when stresses that accumulate as tectonic plates grind together over centuries or millennia are suddenly released, creating intense shaking that lasts only seconds.\n\nAround 2002, Thomas said, researchers identified a different kind of seismic activity. In a slow slip event, stresses that build for months to years are relieved in movements of only a few centimeters that occur gradually over days, weeks or months.\n\nRepeating Slip in the Cascadia Subduction Zone\n\nTo better understand these deep events, the team examined seismic data from the Cascadia Subduction Zone in the Pacific Northwest, where the Juan de Fuca plate is sliding beneath the North American plate. Slow slip events here do not behave like typical earthquakes. The same fault segment can slip again within hours or days, which indicates the fault has partially regained strength and that stress has returned very quickly.\n\nThomas noted that even small tidal forces reveal how rapidly stress can rebuild. The gravitational pull of the Sun and Moon affects the Earth's crust just as it influences ocean tides. In addition, the shifting weight of seawater also applies pressure to the rocks below.\n\nThe remaining question is how the fault manages to recover so quickly.\n\nHigh-Pressure Experiments Reveal Rapid Healing\n\nWatkins, a geochemist who specializes in the behavior of minerals at high temperature and pressure, used laboratory equipment capable of simulating the conditions found deep in the crust or beneath a volcano.\n\nTo recreate the aftermath of a slow slip event, Watkins and Thomas packed powdered quartz into a silver cylinder, sealed it, and placed it under 1 Gigapascal of pressure (10,000 times atmospheric pressure) at 500 degrees Celsius.\n\n\"We're simulating what happens in the aftermath of a slow slip event,\" Watkins said. \"We cook it and look at it.\"\n\nThe researchers measured the speed of soundwaves traveling through the treated quartz, then opened the cylinders and examined the samples using electron microscopy.",
       "source": "Science Daily",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_8579bb1da65ee634_cd0f5aed1637.webp",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_2e493042339037c5_912bdf4c74b1.webp",
       "category": "Science"
     },
     {
-      "id": "023198f10021f08f",
-      "title": "Scientists reveal what triggered Santorini 'earthquake swarm'",
-      "summary": "Thousands of earthquakes were caused by magma \"pumping through\" Earth's crust for three months, they say.",
-      "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_023198f10021f08f_488acd540d42.jpg",
-      "category": "Science"
-    },
-    {
-      "id": "5a1eea6b3c31b1d2",
-      "title": "COP30气候会谈因火灾疏散",
-      "summary": "在巴西举行的联合国COP30气候会谈期间，发生火灾，导致数千名与会者紧急疏散。这次事件发生在讨论全球气候变化战略的关键时刻，涉及减少温室气体排放和推广可再生能源等议题。消防人员迅速响应，控制火势并确保人员安全，未报告严重伤亡。火灾凸显了大型国际会议在安全和后勤方面的脆弱性，可能造成谈判延迟，但组织者预计在安全确认后恢复会谈。这一事件提醒人们，在应对气候问题和操作风险时，需要加强准备和韧性，以确保重要全球努力不受干扰。",
-      "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_5a1eea6b3c31b1d2_155f6049e4cc.jpg",
-      "category": "Science"
-    },
-    {
-      "id": "32d12e260fd72460",
-      "title": "Why saving microbes may be the most important conservation effort ever",
-      "summary": "Researchers have launched the first coordinated plan to protect microbial biodiversity, calling attention to the “invisible 99% of life” that drives essential Earth systems. The IUCN has formally recognized this effort through the creation of the Microbial Conservation Specialist Group. By developing new metrics, policies, and restoration tools, scientists aim to make microbial life a core part of global conservation action. The roadmap also outlines upcoming goals such as microbial hotspot maps and new microbe-based conservation solutions.",
+      "id": "e26535895c99811c",
+      "title": "不爆炸火山之谜终于有了答案",
+      "summary": "火山喷发的力量与岩浆中气泡的数量和形成时间密切相关。多年来，科学家认为气泡仅在岩浆上升、压力下降时形成，类似于打开香槟瓶。然而，这一经典理论无法解释某些火山的行为，例如华盛顿州的圣海伦斯火山和智利的基萨普火山，它们有时会释放缓慢、温和的熔岩流，即使岩浆富含气体。一个包括苏黎世联邦理工学院科学家的国际研究团队在《科学》杂志上发表论文，报告了剪切力作为第二种气泡形成机制。当气泡在火山通道深处形成并合并时，可以创建逃逸通道，使气体早期释放，从而导致岩浆安静地涌出表面。剪切力类似于搅拌蜂蜜时的速度差异，这一发现有助于解决长期存在的谜团，改进火山喷发预测，提升安全措施。",
       "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_32d12e260fd72460_14ce20a141ba.webp",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_e26535895c99811c_e03d74026dcd.webp",
       "category": "Science"
     },
     {
-      "id": "d526e806ae0a7ecb",
-      "title": "光隐藏了近200年的磁秘密",
-      "summary": "最新研究表明，光的磁场比科学家过去认为的要重要得多。研究团队发现，这种磁成分显著影响光通过某些材料时的旋转方式。他们的工作挑战了已有180年历史的法拉第效应的理解，并为新的光学和磁技术开辟了道路。法拉第效应由迈克尔·法拉第于1845年发现，描述了光在磁场中偏振面的旋转，但新发现表明光本身的磁特性至关重要。这一突破不仅加深了我们对电磁学的认识，还可能推动光学技术的发展，如改进的传感器、成像系统和磁设备。通过重新评估基本原理，这项研究鼓励在物理和工程领域进行进一步探索， potentially leading to innovative applications that enhance everyday technology.",
+      "id": "70f11ca0bfbc5b9b",
+      "title": "每天仅吸几支烟可对心脏造成数十年损害",
+      "summary": "一项对近二十项长期研究的大规模回顾显示，即使每天只吸少量香烟的人，其患心脏病和早逝的风险也远高于从不吸烟者。这种风险在戒烟后多年仍然存在。美国约翰斯·霍普金斯大学的迈克尔·布拉哈及其团队于11月18日在开放获取期刊《PLOS医学》上发表了这些发现。研究分析了超过30万成年人的数据，跟踪时间长达19.9年，记录了超过12.5万例死亡和5.4万起心血管事件。结果表明，每天吸2到5支烟的人，心力衰竭风险增加50%，全因死亡风险增加60%。戒烟后心血管风险在头十年内下降最显著，但 former吸烟者的风险水平在戒烟后长达三十年内仍高于终身不吸烟者。这项研究强调了低强度吸烟的持久危险，并指出完全戒烟对长期心脏健康至关重要，尤其随着更多人采取轻度吸烟习惯。",
       "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_d526e806ae0a7ecb_01296b1cd071.webp",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_70f11ca0bfbc5b9b_8a41ab985b91.webp",
       "category": "Science"
     },
     {
-      "id": "32c3c82efdcc2223",
-      "title": "MIT超声波技术从空气中快速提取饮用水",
-      "summary": "麻省理工学院的工程师开发了一种超声波设备，能够快速从吸收空气中水分的材料中释放饮用水。与依赖热量且需数小时的传统方法不同，该系统利用高频振动在几分钟内释放水滴。该设备可由小型太阳能电池供电，并可编程实现全天连续循环。这一突破有助于解决淡水获取有限的社区的水资源短缺问题，提供了一种可持续且高效的解决方案。",
+      "id": "6f50551b73db53af",
+      "title": "科学家揭示隐藏的激素开关对学习的影响",
+      "summary": "最近一项发表在《自然神经科学》杂志上的研究揭示了雌激素如何影响大脑的学习和决策功能。科学家们通过实验室大鼠的实验发现，雌激素水平的自然波动会导致多巴胺相关脑过程的变化，从而调节认知行为。多巴胺是一种与奖励和动机相关的神经递质，在学习中起着关键作用。研究中，研究人员监测了大鼠在完成学习任务时的大脑活动，这些任务涉及音频提示以获得水奖励。结果表明，雌激素通过调节多巴胺信号，为认知表现的变化提供了生物学解释。这项研究有助于理解激素如何影响神经健康，并可能为与雌激素相关的精神疾病（如情绪和认知障碍）的治疗提供新见解。总体而言，它强调了激素在大脑功能中的重要性，并为学习的分子基础提供了新的视角。",
       "source": "Science Daily",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_6f50551b73db53af_e88330bdc76c.webp",
+      "category": "Science"
+    },
+    {
+      "id": "3e7dd958c1ad37b5",
+      "title": "卢浮宫窃贼如何利用人类心理学避免怀疑及其对AI的启示",
+      "summary": "2025年10月19日，四名男子涉嫌进入巴黎卢浮宫博物馆，在几分钟内盗走了价值8800万欧元的皇冠珠宝。窃贼穿着高能见度背心，伪装成建筑工人，并使用家具升降机到达塞纳河旁的阳台，从而避免了怀疑。这一事件揭示了人类心理学的分类机制：人们往往忽略看似普通的事物。文章将这一点与人工智能（AI）联系起来，指出AI系统（如面部识别技术）同样依赖学习到的模式来识别正常或可疑行为，但这也可能导致错误，因为两者都可能错过不符合预期的威胁。社会学家欧文·戈夫曼的“自我呈现”理论被用来解释窃贼如何通过表演社会角色来隐藏自己。最终，这次盗窃暴露了安全和AI系统中的漏洞，强调了在技术设计中融入心理洞察的重要性，以提升应对意外情况的能力。",
+      "source": "Ars Science",
       "time_ago": "2 days ago",
-      "image_url": "/article_images/article_32c3c82efdcc2223_e9b3f2df6e8f.webp",
+      "image_url": "/article_images/article_3e7dd958c1ad37b5_f1d76eedb065.webp",
       "category": "Science"
     }
   ]

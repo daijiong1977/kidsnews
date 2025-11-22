@@ -1,144 +1,140 @@
 {
-  "title": "Katie Boulter's Tough Choice at the Australian Open",
-  "summary": "Katie Boulter is a tennis player from Britain who is facing a hard decision. She wants to play in the Australian Open, a big tennis tournament in January, but she is worried about her body. If she plays too much, she might get hurt and not be able to compete well. At the same time, she needs to earn points to keep her ranking high, which helps her get into more tournaments. This is like having to pick between staying healthy and doing well in her sport. It shows how athletes sometimes have to make difficult choices to follow their dreams.",
+  "title": "Katie Boulter's Tough Choice: Body or Tennis Ranking",
+  "summary": "Katie Boulter is a tennis player from Britain who has a big decision to make. Her world ranking has dropped from 23rd to 100th, and she is worried about getting into the Australian Open, a major tennis tournament. She has a hip injury and must decide if she should play in more tournaments to improve her ranking or rest her body to heal. If she plays, she might get hurt worse, but if she rests, other players could pass her in the rankings. This is hard because the entry for the Australian Open depends on rankings in December. Men players do not have this problem because their rankings are set earlier, so they can rest. Boulter thinks it is important to take breaks to avoid burnout and stay healthy.",
   "keywords": [
     {
       "term": "ranking",
-      "explanation": "a list that shows how good a player is compared to others"
-    },
-    {
-      "term": "tournament",
-      "explanation": "a sports competition where players try to win"
-    },
-    {
-      "term": "body",
-      "explanation": "a person's physical health and fitness"
-    },
-    {
-      "term": "decision",
-      "explanation": "a choice between different options"
-    },
-    {
-      "term": "athlete",
-      "explanation": "a person who plays sports professionally"
+      "explanation": "a player's position compared to others in tennis"
     },
     {
       "term": "injury",
-      "explanation": "when a part of the body gets hurt"
+      "explanation": "when a part of the body is hurt and needs time to heal"
     },
     {
-      "term": "points",
-      "explanation": "scores that help determine a player's ranking"
+      "term": "tournament",
+      "explanation": "a competition where players play matches to win"
     },
     {
-      "term": "main draw",
-      "explanation": "the main part of a tournament where top players compete"
+      "term": "Australian Open",
+      "explanation": "a big tennis event held in Australia every year"
+    },
+    {
+      "term": "burnout",
+      "explanation": "feeling very tired from too much work or play"
+    },
+    {
+      "term": "WTA",
+      "explanation": "the group that organizes women's professional tennis"
+    },
+    {
+      "term": "Grand Slam",
+      "explanation": "one of the four most important tennis tournaments"
+    },
+    {
+      "term": "protected ranking",
+      "explanation": "a special ranking given to players who were injured"
     }
   ],
   "questions": [
     {
-      "question": "Who is Katie Boulter?",
+      "question": "What is Katie Boulter's current world ranking?",
       "options": [
-        "A British tennis player",
-        "A coach",
-        "A referee",
-        "A fan"
+        "23rd",
+        "100th",
+        "50th",
+        "1st"
       ],
-      "correct_answer": "A British tennis player"
+      "correct_answer": "100th"
     },
     {
-      "question": "What is the Australian Open?",
+      "question": "Why does Boulter have to choose between her body and ranking?",
       "options": [
-        "A tennis tournament",
-        "A football game",
-        "A swimming race",
-        "A music concert"
+        "She wants to travel more",
+        "She has a hip injury and needs to rest",
+        "She does not like tennis",
+        "She is retiring"
       ],
-      "correct_answer": "A tennis tournament"
+      "correct_answer": "She has a hip injury and needs to rest"
     },
     {
-      "question": "What does Katie have to choose between?",
+      "question": "Which tournament is Boulter trying to enter?",
       "options": [
-        "Her body and her ranking",
-        "Her shoes and her racket",
-        "Her team and her family",
-        "Her diet and her sleep"
+        "Wimbledon",
+        "Australian Open",
+        "US Open",
+        "French Open"
       ],
-      "correct_answer": "Her body and her ranking"
+      "correct_answer": "Australian Open"
     },
     {
-      "question": "Why is a high ranking important for Katie?",
+      "question": "What happened to Boulter in Hong Kong?",
       "options": [
-        "It helps her get into more tournaments",
-        "It makes her famous",
-        "It gives her money",
-        "It lets her travel"
+        "She won a trophy",
+        "She tore an abductor muscle",
+        "She met friends",
+        "She changed her racket"
       ],
-      "correct_answer": "It helps her get into more tournaments"
+      "correct_answer": "She tore an abductor muscle"
     },
     {
-      "question": "When is the Australian Open held?",
+      "question": "Are male players facing the same dilemma as Boulter?",
+      "options": [
+        "Yes",
+        "No",
+        "Only some",
+        "It is not mentioned"
+      ],
+      "correct_answer": "No"
+    },
+    {
+      "question": "When is the women's Australian Open entry list based on rankings?",
       "options": [
         "In January",
-        "In July",
-        "In December",
-        "In March"
+        "On 8 December",
+        "In March",
+        "At the end of the year"
       ],
-      "correct_answer": "In January"
+      "correct_answer": "On 8 December"
     },
     {
-      "question": "What might happen if Katie plays too much?",
+      "question": "What does Boulter think is important to avoid?",
       "options": [
-        "She could get injured",
-        "She could win easily",
-        "She could change sports",
-        "She could become a coach"
+        "Winning every match",
+        "Burnout",
+        "Eating junk food",
+        "Playing in the rain"
       ],
-      "correct_answer": "She could get injured"
+      "correct_answer": "Burnout"
     },
     {
-      "question": "What is a main draw in tennis?",
+      "question": "Where might Boulter play in December to improve her ranking?",
       "options": [
-        "The main part of the tournament",
-        "A type of tennis ball",
-        "A drawing of players",
-        "A practice session"
+        "Angers, France",
+        "London, UK",
+        "New York, USA",
+        "Tokyo, Japan"
       ],
-      "correct_answer": "The main part of the tournament"
-    },
-    {
-      "question": "How does Katie feel about her choice?",
-      "options": [
-        "It is difficult",
-        "It is easy",
-        "It is fun",
-        "It is boring"
-      ],
-      "correct_answer": "It is difficult"
+      "correct_answer": "Angers, France"
     }
   ],
   "background_read": [
-    "The Australian Open is one of the four biggest tennis tournaments in the world, held every year in Melbourne, Australia. Players like Katie Boulter compete to win titles and earn ranking points. Rankings help decide which players get into tournaments without having to qualify. Sometimes, players have to balance playing to improve their ranking with resting to avoid injuries, which can be a tough decision for athletes."
+    "Tennis is a sport where players hit a ball over a net. Professional players have rankings that show how good they are. Grand Slams are the biggest tournaments, like the Australian Open. Injuries can stop players from competing, and they need to balance health with their career. The WTA is for women's tennis, and rankings help decide who gets to play in events."
   ],
   "Article_Structure": [
     "WHO: Katie Boulter, a British tennis player",
-    "WHAT: She has to choose between protecting her body and improving her ranking for the Australian Open",
-    "WHERE: At the Australian Open tournament in Australia",
-    "WHY: To avoid injury while trying to qualify for the main draw and maintain her career"
+    "WHAT: She must decide between playing tournaments to improve her ranking or resting due to a hip injury",
+    "WHERE: Involves tournaments in places like France and the Australian Open in Melbourne",
+    "WHY: To avoid missing the Australian Open and prevent burnout while healing"
   ],
   "perspectives": [
     {
-      "perspective": "Athlete's View",
-      "description": "Katie feels pressured to play even if it risks her health, to keep her ranking high."
+      "perspective": "Player's health",
+      "description": "Boulter believes resting is important to recover from injury and avoid burnout"
     },
     {
-      "perspective": "Coach's View",
-      "description": "A coach might advise her to rest to prevent long-term injuries."
-    },
-    {
-      "perspective": "Fan's View",
-      "description": "Fans want to see her play but also care about her well-being."
+      "perspective": "Competitive pressure",
+      "description": "The need to maintain rankings forces players to compete even when injured"
     }
   ],
-  "image_url": "/article_images/article_5db2fbdfda8a9ca2_84fb7517f5c7.jpg"
+  "image_url": "/article_images/article_5db2fbdfda8a9ca2_84fb7517f5c7.webp"
 }
