@@ -305,16 +305,8 @@
             const imageUrl = data.image_url || '';
             const articleImage = document.getElementById('article-image');
             if (imageUrl) {
-                // Use mobile.webp - replace the extension, handling if _mobile is already there
-                let imagePath = imageUrl;
-                if (imagePath.includes('_mobile')) {
-                    // Already has _mobile, just ensure it ends with .webp
-                    imagePath = imagePath.replace(/\.(jpg|jpeg|png|webp)$/i, '.webp');
-                } else {
-                    // Add _mobile before extension
-                    imagePath = imagePath.replace(/\.(jpg|jpeg|png|webp)$/i, '_mobile.webp');
-                }
-                articleImage.src = imagePath;
+                // Use the image URL as-is (already points to correct webp file)
+                articleImage.src = imageUrl;
                 articleImage.style.display = 'block';
             } else {
                 articleImage.style.display = 'none';
@@ -880,25 +872,19 @@
         renderQuizQuestions();
     }
 </script>
-</div>
-</div>
 
 <!-- Supabase Configuration -->
 <script>
+// Set Supabase credentials for user_manager_supabase.js
 window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
 window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MzMwMjcsImV4cCI6MjA3ODMwOTAyN30.2YPvOkZOWi4hDjtwZYkVt9a-RwYSnfotjV6Raj24ZjE';
 </script>
-<!-- User Manager Script -->
-<script type="module" src="./user_manager/user_manager_supabase.js"></script>
 
+<!-- User Manager Scripts -->
+<script src="../user_manager/user_manager.js"></script>
+<script type="module" src="../user_manager/user_manager_supabase.js"></script>
 
-<!-- Supabase Configuration -->
-<script>
-window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
-window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MzMwMjcsImV4cCI6MjA3ODMwOTAyN30.2YPvOkZOWi4hDjtwZYkVt9a-RwYSnfotjV6Raj24ZjE';
-</script>
-<!-- User Manager Script -->
-<script type="module" src="./user_manager/user_manager_supabase.js"></script>
-
+</div>
+</div>
 </body>
 </html>
