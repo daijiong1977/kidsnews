@@ -1,30 +1,30 @@
 {
   "title": "Why Bees Get a New Queen",
-  "summary": "In a honey bee colony, the queen bee is the leader who lays eggs. Sometimes, the workers bees decide to replace her in a process called supersedure. This happens when the queen gets sick from viruses, which make her lay fewer eggs and produce less of a special smell called methyl oleate. The worker bees notice this change and start raising a new queen. This is important because bees help pollinate many of the foods we eat, like fruits and vegetables. If the queen is replaced, it can cause problems for the hive and for farmers who rely on bees. Scientists found that adding the missing smell back can help keep the hive stable. This research helps beekeepers take better care of their bees.",
+  "summary": "In honey bee colonies, sometimes the queen bee gets sick and can't lay enough eggs. When this happens, the worker bees notice and decide to raise a new queen to take over. This process is called supersedure. Scientists found that viruses can make the queen's ovaries shrink, so she lays fewer eggs. She also makes less of a special smell called methyl oleate, which tells the workers she is healthy. When the smell decreases, the workers start preparing a new queen. Bees are important because they help pollinate many crops we eat, like fruits and vegetables. If the queen is replaced, it can cause problems for the hive and for beekeepers who rely on bees for honey and pollination. Researchers think adding the missing smell might help keep hives stable.",
   "keywords": [
+    {
+      "term": "queen bee",
+      "explanation": "the main female bee in a hive who lays eggs"
+    },
     {
       "term": "supersedure",
       "explanation": "when worker bees replace their queen with a new one"
     },
     {
-      "term": "queen bee",
-      "explanation": "the female bee that lays eggs and leads the colony"
+      "term": "virus",
+      "explanation": "a tiny germ that can make living things sick"
     },
     {
       "term": "pheromone",
-      "explanation": "a chemical smell that bees use to communicate"
-    },
-    {
-      "term": "methyl oleate",
-      "explanation": "a special pheromone that tells workers the queen is healthy"
+      "explanation": "a chemical smell that animals use to communicate"
     },
     {
       "term": "pollination",
-      "explanation": "how bees help plants make fruits and seeds by moving pollen"
+      "explanation": "how bees move pollen to help plants grow fruits and seeds"
     },
     {
-      "term": "virus",
-      "explanation": "a tiny germ that can make the queen sick"
+      "term": "beekeeper",
+      "explanation": "a person who takes care of bee hives"
     }
   ],
   "questions": [
@@ -36,80 +36,76 @@
         "Hibernation",
         "Swarming"
       ],
-      "correct_answer": "A"
+      "correct_answer": "Supersedure"
     },
     {
-      "question": "What happens to a queen bee when she gets a virus?",
+      "question": "What can cause a queen bee to lay fewer eggs?",
       "options": [
-        "She lays fewer eggs",
-        "She grows bigger",
-        "She flies away",
-        "She stops eating"
+        "Viruses",
+        "Lack of food",
+        "Cold weather",
+        "Too much honey"
       ],
-      "correct_answer": "A"
+      "correct_answer": "Viruses"
     },
     {
       "question": "What is methyl oleate?",
       "options": [
-        "A pheromone from the queen",
-        "A type of honey",
-        "A bee's wing",
-        "A flower scent"
+        "A pheromone",
+        "A type of bee",
+        "A kind of flower",
+        "A bee hive"
       ],
-      "correct_answer": "A"
+      "correct_answer": "A pheromone"
     },
     {
-      "question": "Why are bees important for our food?",
+      "question": "Why are bees important for food?",
       "options": [
         "They pollinate crops",
-        "They make honey only",
-        "They scare pests away",
+        "They make honey",
+        "They eat pests",
         "They build nests"
       ],
-      "correct_answer": "A"
+      "correct_answer": "They pollinate crops"
     },
     {
-      "question": "Who are the bees that decide to replace the queen?",
+      "question": "Who conducted the research on bee queens?",
       "options": [
-        "Worker bees",
-        "Drone bees",
-        "Baby bees",
-        "Other queens"
+        "University of British Columbia",
+        "Harvard University",
+        "NASA",
+        "Local farmers"
       ],
-      "correct_answer": "A"
+      "correct_answer": "University of British Columbia"
     },
     {
-      "question": "How can beekeepers help stabilize hives?",
+      "question": "What might help beekeepers stabilize hives?",
       "options": [
-        "Add synthetic pheromone",
-        "Give more sugar water",
-        "Move the hive",
-        "Paint the bees"
+        "Adding synthetic pheromone",
+        "Giving more sugar",
+        "Moving the hive",
+        "Painting the hive"
       ],
-      "correct_answer": "A"
+      "correct_answer": "Adding synthetic pheromone"
     }
   ],
   "background_read": [
-    "Bees live in groups called colonies with one queen who lays eggs. Worker bees do jobs like collecting food and caring for the hive. Pollination is when bees carry pollen from flower to flower, helping plants grow fruits and vegetables we eat. Viruses are tiny germs that can make animals sick, and in bees, they can affect the queen's health. Beekeepers are people who take care of bee hives to get honey and help with farming."
+    "Bees live in groups called colonies with a queen, workers, and drones. The queen is the mother of all bees in the hive and lays eggs. Worker bees are females that do jobs like collecting food and caring for the young. Pollination happens when bees fly from flower to flower, helping plants grow fruits and vegetables that people eat. Beekeepers manage hives to get honey and help with farming. Sometimes, the queen gets old or sick, and the workers make a new one to keep the colony strong. This article talks about how viruses can make queens weak and how scientists are finding ways to help."
   ],
   "Article_Structure": [
-    "WHO: Worker bees and the queen bee in a honey bee colony",
-    "WHAT: They replace the queen when she is sick from viruses, reducing egg-laying and pheromone production",
-    "WHERE: In bee hives around the world",
-    "WHY: To keep the colony strong and ensure pollination for food crops"
+    "WHO: Researchers at the University of British Columbia and bees in colonies",
+    "WHAT: They found viruses cause queen bees to lay fewer eggs and produce less pheromone, leading to replacement",
+    "WHERE: In honey bee hives, studied in labs and fields",
+    "WHY: To understand why queens are replaced and help beekeepers keep hives healthy for food production"
   ],
   "perspectives": [
     {
-      "perspective": "Bee colony health",
-      "description": "Replacing the queen helps the colony survive when she is weak"
+      "perspective": "Scientific view",
+      "description": "Viruses infect queens, reducing egg-laying and pheromones, triggering supersedure."
     },
     {
-      "perspective": "Beekeeper challenges",
-      "description": "Supersedure can be disruptive and costly for managing hives"
-    },
-    {
-      "perspective": "Scientific discovery",
-      "description": "Researchers found viruses cause pheromone changes that trigger queen replacement"
+      "perspective": "Beekeeper view",
+      "description": "Queen replacement is costly and disruptive, but pheromone supplements might help."
     }
   ],
   "image_url": "/article_images/article_6ad5eb12bf8a98d3_b4c022773401.webp"

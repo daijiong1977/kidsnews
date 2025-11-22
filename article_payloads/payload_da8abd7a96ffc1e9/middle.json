@@ -1,6 +1,6 @@
 {
-  "title": "Cobolli's Historic Tie-Break Victory Propels Italy to Davis Cup Final",
-  "summary": "In a thrilling Davis Cup semifinal, Italian tennis player Flavio Cobolli secured a dramatic victory over Belgium's Zizou Bergs by winning a 32-point tie-break, saving seven match points in the process. The match, held in Bologna, lasted over three hours and ended with Cobolli winning 6-3, 6-7 (5-7), 7-6 (17-15), sparking wild celebrations among the home crowd. This tie-break is the sixth-longest in Davis Cup history, highlighting the intensity of the contest. Cobolli expressed that achieving this win was one of the best moments of his life, emphasizing the emotional effort he put in for his team, family, and country. Italy's captain, Filippo Volandri, praised Cobolli's performance, noting that it was 95% heart and only 5% tactics, and highlighted the team's strong bench support, including Matteo Berrettini who won his match earlier. With this win, Italy advances to the final against Spain or Germany, aiming to become the first nation in 53 years to win three consecutive Davis Cup titles, despite missing top players like Jannik Sinner and Lorenzo Musetti.",
+  "title": "Cobolli's Epic Tie-Break Victory Propels Italy to Davis Cup Final",
+  "summary": "In a thrilling Davis Cup semifinal match, Italian tennis player Flavio Cobolli secured a dramatic victory over Belgium's Zizou Bergs by winning a 32-point tie-break, after saving seven match points. The intense contest lasted over three hours and ended with Cobolli prevailing 6-3, 6-7 (5-7), 7-6 (17-15), sparking wild celebrations among the home crowd in Bologna. Cobolli described the win as one of the best days of his life, emphasizing the significance of playing for his nation, team, and family. This victory places Italy in the final against Spain or Germany, where they aim to become the first country in over 50 years to win three consecutive Davis Cup titles. Italy's captain, Filippo Volandri, praised Cobolli's immense heart and effort, noting that tactics played a minor role compared to determination. Despite missing top players like Jannik Sinner and Lorenzo Musetti, Italy's team, supported by a sell-out crowd of 10,000 fans, showed resilience, with teammate Matteo Berrettini also contributing an earlier win. This achievement marks Italy as the first nation since Australia in 2001 to reach three straight Davis Cup finals, highlighting their growing dominance in team tennis.",
   "keywords": [
     {
       "term": "Davis Cup",
@@ -8,31 +8,19 @@
     },
     {
       "term": "tie-break",
-      "explanation": "a scoring system used in tennis to decide a set when the game score reaches a certain tie, involving a sequence of points"
+      "explanation": "a scoring system used in tennis to decide a set when the game score reaches a certain tie, often involving a sequence of points"
     },
     {
       "term": "match point",
-      "explanation": "a critical point in a match where the server or receiver can win the entire game if they score"
+      "explanation": "a critical point in a match where the leading player can secure victory if they win the next point"
     },
     {
       "term": "semifinal",
-      "explanation": "a round in a competition where the winners advance to the final match"
+      "explanation": "a stage in a competition where the winners advance to the final round"
     },
     {
-      "term": "world ranking",
-      "explanation": "a system that ranks tennis players based on their performance in tournaments"
-    },
-    {
-      "term": "captain",
-      "explanation": "the person responsible for leading and strategizing for a sports team during competitions"
-    },
-    {
-      "term": "bench support",
-      "explanation": "the role of substitute players and team members who provide encouragement and backup during matches"
-    },
-    {
-      "term": "consecutive titles",
-      "explanation": "winning a championship multiple times in a row without interruption"
+      "term": "resilience",
+      "explanation": "the ability to recover quickly from difficulties, shown by players in tough matches"
     }
   ],
   "questions": [
@@ -47,90 +35,90 @@
       "correct_answer": "7-6 (17-15)"
     },
     {
-      "question": "How long did the match approximately last?",
+      "question": "How long did the match between Cobolli and Bergs last?",
       "options": [
-        "1 hour",
-        "2 hours",
-        "over 3 hours",
+        "Under 2 hours",
+        "Over 3 hours",
+        "Exactly 2 hours",
         "4 hours"
       ],
-      "correct_answer": "over 3 hours"
+      "correct_answer": "Over 3 hours"
     },
     {
-      "question": "Who is Italy's team captain?",
+      "question": "Which country did Italy defeat to reach the final?",
+      "options": [
+        "Spain",
+        "Germany",
+        "Belgium",
+        "Australia"
+      ],
+      "correct_answer": "Belgium"
+    },
+    {
+      "question": "What did Italy's captain say about the match?",
+      "options": [
+        "It was all about tactics",
+        "It was 95% heart and 5% tactics",
+        "The players lacked effort",
+        "They should have lost"
+      ],
+      "correct_answer": "It was 95% heart and 5% tactics"
+    },
+    {
+      "question": "Who gave Italy a strong start in the semifinal?",
       "options": [
         "Jannik Sinner",
-        "Filippo Volandri",
         "Matteo Berrettini",
-        "Raphael Collignon"
-      ],
-      "correct_answer": "Filippo Volandri"
-    },
-    {
-      "question": "What ranking does Flavio Cobolli hold in the world?",
-      "options": [
-        "Number 10",
-        "Number 22",
-        "Number 50",
-        "Number 100"
-      ],
-      "correct_answer": "Number 22"
-    },
-    {
-      "question": "Which nation was the last to reach three consecutive Davis Cup finals before Italy?",
-      "options": [
-        "USA",
-        "Australia",
-        "France",
-        "Spain"
-      ],
-      "correct_answer": "Australia"
-    },
-    {
-      "question": "How many match points did Cobolli save in the tie-break?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "correct_answer": "7"
-    },
-    {
-      "question": "What did Cobolli do immediately after winning the match?",
-      "options": [
-        "He hugged his opponent",
-        "He took off his shirt",
-        "He gave a speech",
-        "He left the court"
-      ],
-      "correct_answer": "He took off his shirt"
-    },
-    {
-      "question": "Who did Matteo Berrettini defeat in his match?",
-      "options": [
-        "Zizou Bergs",
-        "Raphael Collignon",
-        "Jannik Sinner",
+        "Lorenzo Musetti",
         "Filippo Volandri"
       ],
-      "correct_answer": "Raphael Collignon"
+      "correct_answer": "Matteo Berrettini"
+    },
+    {
+      "question": "How many consecutive Davis Cup finals has Italy reached?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "3"
+    },
+    {
+      "question": "What is the historical significance of Italy potentially winning the Davis Cup?",
+      "options": [
+        "First win ever",
+        "First three-peat in 53 years",
+        "Most wins in a decade",
+        "Largest crowd"
+      ],
+      "correct_answer": "First three-peat in 53 years"
+    },
+    {
+      "question": "How did Cobolli react immediately after winning?",
+      "options": [
+        "He apologized",
+        "He tore off his shirt",
+        "He left the court",
+        "He argued with the referee"
+      ],
+      "correct_answer": "He tore off his shirt"
     }
   ],
   "background_read": [
-    "The Davis Cup is one of the premier international team events in tennis, founded in 1900 and often called the 'World Cup of Tennis.' It involves a knockout format where countries compete in ties consisting of singles and doubles matches. Italy has been successful recently, winning the last two editions, and aims for a historic third consecutive title, a feat not achieved since Australia in the late 1960s. Flavio Cobolli, ranked 22nd globally, is part of a new generation of Italian players stepping up in the absence of stars like Jannik Sinner. Tie-breaks were introduced to tennis in the 1970s to resolve sets efficiently, and long tie-breaks like this one are rare and memorable, often decided by mental toughness and clutch performance under pressure."
+    "The Davis Cup is one of the premier international team events in tennis, founded in 1900, where nations compete in a knockout format. Italy has been successful recently, winning the last two editions, and a third win would place them in rare company, as no nation has achieved this since the 1970s. Flavio Cobolli, ranked 22nd globally, is part of a new generation of Italian players stepping up in the absence of stars like Jannik Sinner. Tie-breaks were introduced to tennis in the 1970s to resolve tied sets, and long tie-breaks, like the 32-point one here, are memorable for their intensity and drama. The event in Bologna drew a full crowd, reflecting the passion for tennis in Italy and the importance of home support in team competitions."
   ],
   "Article_Structure": [
-    "This article details Flavio Cobolli's key victory in the Davis Cup semifinal, highlighting the main points of his dramatic win, including saving seven match points in a historic 32-point tie-break. The purpose is to report on Italy's advancement to the final and the emotional significance for the team, set against the backdrop of potentially winning three consecutive titles. Evidence is evaluated as reliable, sourced from the BBC with direct quotes from Cobolli and Volandri, though it lacks statistical depth. Author credibility is assumed high as BBC Sport is a reputable outlet, but specific journalist expertise isn't mentioned. Methodology involves on-the-ground reporting and interviews, providing a factual and engaging narrative of the event."
+    "This article details Flavio Cobolli's heroic win in the Davis Cup semifinal, highlighting key arguments such as his resilience in saving match points and the emotional significance for Italy. The purpose is to report on a historic sports moment, inspiring readers with tales of determination and national pride. Evidence comes from direct quotes, match statistics, and historical context, making it reliable as it cites specific scores and expert opinions like the captain's. Author credibility is implied through the BBC's reputation for accurate sports journalism, though no specific author is named. Methodology involves on-the-ground reporting, interviews with players, and use of official data, providing a comprehensive view of the event's drama and impact."
   ],
   "perspectives": [
     {
-      "perspective": "Player's emotional journey",
-      "description": "Cobolli views the win as a lifelong dream fulfilled through perseverance and team support."
+      "perspective": "Athlete's emotional journey",
+      "description": "Cobolli's personal triumph and the fulfillment of a dream through extreme effort"
     },
     {
-      "perspective": "Team leadership",
-      "description": "Captain Volandri emphasizes the role of heart and team cohesion over pure strategy in achieving success."
+      "perspective": "Team dynamics",
+      "description": "How Italy's collective spirit and support from players like Berrettini contributed to success"
     }
   ],
   "image_url": "/article_images/article_da8abd7a96ffc1e9_cb6e40dfa435.webp"

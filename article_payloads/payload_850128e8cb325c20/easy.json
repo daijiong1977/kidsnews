@@ -1,6 +1,6 @@
 {
-  "title": "A Big Newspaper Sale",
-  "summary": "The company that owns the Daily Mail newspaper has agreed to buy another newspaper called the Daily Telegraph for £500 million. This deal needs approval from a government minister to make sure it is fair. The Telegraph has had problems for over two years, and this sale could help bring stability. The buyer says the Telegraph will keep its own voice and not be controlled by the Daily Mail. They promise to invest in the newsroom and make the Telegraph famous around the world. Everyone hopes this will be good for the newspaper and its workers.",
+  "title": "Newspaper Company Buys Another Newspaper",
+  "summary": "The company that owns the Daily Mail newspaper has agreed to buy the Daily Telegraph and Sunday Telegraph newspapers for £500 million. This means the Daily Mail and General Trust (DMGT) will add the Telegraph to its group of media companies. The deal needs approval from the government's Culture Secretary, Lisa Nandy, to make sure it is fair and in the public interest. The Telegraph has been in a uncertain situation for over two years because of previous ownership issues. DMGT's chairman says he respects the Telegraph and wants to invest in it, keeping it independent from their other papers. This purchase could help the Telegraph grow into a global brand.",
   "keywords": [
     {
       "term": "publisher",
@@ -11,16 +11,16 @@
       "explanation": "an agreement between people or companies to buy or sell something"
     },
     {
-      "term": "government",
-      "explanation": "the group of people who make laws and run a country"
+      "term": "government approval",
+      "explanation": "when the government says yes to a plan to make sure it is safe and fair"
     },
     {
       "term": "newspaper",
-      "explanation": "a set of large sheets of paper with news, stories, and pictures that people read"
+      "explanation": "a printed publication with news and stories that people read daily"
     },
     {
       "term": "ownership",
-      "explanation": "when someone or a company legally owns something"
+      "explanation": "who legally owns and controls something, like a business"
     },
     {
       "term": "investment",
@@ -39,7 +39,7 @@
       "correct_answer": "Daily Mail and General Trust"
     },
     {
-      "question": "How much money is the deal for?",
+      "question": "How much is the deal worth?",
       "options": [
         "£100 million",
         "£500 million",
@@ -53,8 +53,8 @@
       "options": [
         "Culture Secretary",
         "Prime Minister",
-        "Newspaper Editor",
-        "Bank Manager"
+        "King of UK",
+        "Police"
       ],
       "correct_answer": "Culture Secretary"
     },
@@ -62,9 +62,9 @@
       "question": "What is the name of the company buying the Telegraph?",
       "options": [
         "DMGT",
-        "RedBird IMI",
         "BBC",
-        "Metro"
+        "RedBird IMI",
+        "Barclay Group"
       ],
       "correct_answer": "DMGT"
     },
@@ -72,44 +72,44 @@
       "question": "How long has the Telegraph been in limbo?",
       "options": [
         "1 year",
-        "Over 2 years",
-        "6 months",
-        "5 years"
+        "2 years",
+        "5 years",
+        "10 years"
       ],
-      "correct_answer": "Over 2 years"
+      "correct_answer": "2 years"
     },
     {
-      "question": "What will happen to the Telegraph under new ownership?",
+      "question": "What does DMGT plan to do with the Telegraph?",
       "options": [
-        "It will become editorially independent",
-        "It will merge with the Daily Mail",
-        "It will stop publishing",
-        "It will move to another country"
+        "Close it down",
+        "Keep it editorially independent",
+        "Sell it again",
+        "Merge it with BBC"
       ],
-      "correct_answer": "It will become editorially independent"
+      "correct_answer": "Keep it editorially independent"
     }
   ],
   "background_read": [
-    "Newspapers are important for sharing news and ideas. Companies sometimes buy other companies to grow bigger. In the UK, the government checks big sales to ensure they are fair and do not give too much power to one owner. The Daily Telegraph is a famous newspaper with a long history, and this sale could help it become more stable and successful."
+    "Newspapers are important for sharing news and information. Companies like DMGT own multiple newspapers to reach more readers. When one company buys another, the government checks if it's good for the public to ensure fair competition and avoid too much control by one group. The Telegraph is a famous British newspaper with a long history, and this deal aims to give it stability and help it grow."
   ],
   "Article_Structure": [
-    "WHO: Daily Mail and General Trust (DMGT) is buying the Daily Telegraph",
-    "WHAT: A deal to buy the newspaper for £500 million",
-    "WHERE: This is happening in the UK",
-    "WHY: To provide stability and grow the Telegraph as a global brand"
+    "WHO: Daily Mail and General Trust (DMGT) and RedBird IMI",
+    "WHAT: Agreement to buy the Daily and Sunday Telegraph for £500 million",
+    "WHERE: United Kingdom, involving UK government approval",
+    "WHY: To resolve uncertainty, invest in the Telegraph, and expand it as a global brand"
   ],
   "perspectives": [
     {
-      "perspective": "Buyer's view",
-      "description": "DMGT believes the deal will bring certainty and help the Telegraph grow."
-    },
-    {
       "perspective": "Government view",
-      "description": "The Culture Secretary will review the deal to protect public interest."
+      "description": "Ensures the deal is in public interest and maintains media plurality"
     },
     {
-      "perspective": "Committee view",
-      "description": "Dame Caroline Dineage hopes for a quick resolution to end uncertainty."
+      "perspective": "DMGT view",
+      "description": "Sees opportunity to grow the Telegraph and provide stability"
+    },
+    {
+      "perspective": "Employee view",
+      "description": "Hopes for job security and investment in the newsroom"
     }
   ],
   "image_url": "/article_images/article_850128e8cb325c20_e9a402179dfa.webp"

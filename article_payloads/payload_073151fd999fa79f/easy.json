@@ -1,6 +1,6 @@
 {
-  "title": "Trouble at the BBC: A Leader Under Pressure",
-  "summary": "A man named Banerji has quit his job on the BBC board early, and it might be because he is unhappy with the leader, Samir Shah. Banerji thinks Shah is not strong enough to handle disagreements among board members. Some people on the board believe the BBC news is biased, while others say it is fair. This has caused a lot of problems, with other important people leaving their jobs too. Now, everyone is wondering if Shah can keep his position as chair. The BBC is a big news company in the UK that many people trust, but these fights could hurt its reputation. It's a story about leadership and trust in the news.",
+  "title": "Is the BBC Leader in Trouble After a Board Member Quits?",
+  "summary": "A man named Banerji has left his job on the BBC board early. He was supposed to stay until the end of the year, but he quit just before other board members had to talk to politicians. This is a problem for the BBC because it has already lost its top boss and news leader. Banerji might be upset with the chair, Samir Shah, thinking he is not strong enough. Some people on the board believe the BBC is biased, while others say it is fair. This disagreement is causing trouble, and it raises questions about whether the BBC can stay trusted. The article looks at how this resignation affects Shah's leadership and the BBC's future.",
   "keywords": [
     {
       "term": "resignation",
@@ -8,7 +8,7 @@
     },
     {
       "term": "board",
-      "explanation": "a group of people who make decisions for a company"
+      "explanation": "a group of people who help run an organization"
     },
     {
       "term": "bias",
@@ -16,7 +16,7 @@
     },
     {
       "term": "chair",
-      "explanation": "the leader of a group or board"
+      "explanation": "the person in charge of a group or meeting"
     },
     {
       "term": "trust",
@@ -24,12 +24,12 @@
     },
     {
       "term": "leadership",
-      "explanation": "the ability to guide and manage a group"
+      "explanation": "the ability to guide and make decisions for a group"
     }
   ],
   "questions": [
     {
-      "question": "Who resigned from the BBC board?",
+      "question": "Who resigned from the BBC board early?",
       "options": [
         "Banerji",
         "Samir Shah",
@@ -43,72 +43,72 @@
       "options": [
         "Director General",
         "Chair",
-        "CEO of News",
+        "News CEO",
         "Board Member"
       ],
       "correct_answer": "Chair"
     },
     {
-      "question": "Why did Banerji resign early?",
+      "question": "Why did Banerji resign according to the article?",
       "options": [
+        "He was moving to a new job",
         "He was angry with the chair",
-        "His term was over",
-        "He got a new job",
-        "He was sick"
+        "He finished his term",
+        "He wanted more money"
       ],
       "correct_answer": "He was angry with the chair"
     },
     {
       "question": "What do some board members think about BBC News?",
       "options": [
-        "It is biased",
-        "It is perfect",
-        "It is boring",
-        "It is new"
+        "It is always fair",
+        "It has systemic bias",
+        "It is too expensive",
+        "It is very popular"
       ],
-      "correct_answer": "It is biased"
+      "correct_answer": "It has systemic bias"
     },
     {
-      "question": "Is BBC News trusted in the UK?",
+      "question": "How does the article describe the BBC board's situation?",
       "options": [
-        "Yes, it is the most trusted",
-        "No, it is not trusted",
-        "Only by some people",
-        "It is new"
+        "United and strong",
+        "Melting down",
+        "Very happy",
+        "Making big changes"
       ],
-      "correct_answer": "Yes, it is the most trusted"
+      "correct_answer": "Melting down"
     },
     {
-      "question": "What might happen to Samir Shah?",
+      "question": "What is the main question the article asks?",
       "options": [
-        "He might lose his job",
-        "He will get a promotion",
-        "Nothing will change",
-        "He will resign"
+        "Is the BBC growing?",
+        "Is BBC News institutionally biased?",
+        "Who will be the next chair?",
+        "How many people watch BBC?"
       ],
-      "correct_answer": "He might lose his job"
+      "correct_answer": "Is BBC News institutionally biased?"
     }
   ],
   "background_read": [
-    "The BBC is a big news organization in the UK that makes TV, radio, and online news. It is supposed to be fair and not take sides. A board helps run the BBC, and the chair is the leader of the board. Sometimes, people on the board disagree about how things should be done, which can lead to arguments and resignations. This article talks about such a situation where one member quit because he thought the leader was not handling disagreements well."
+    "The BBC is a big news company in the UK that many people trust. It has a board of people who make decisions. Recently, some leaders have left their jobs, and there are arguments about whether the news is fair. This article talks about a board member who quit and how it affects the leader, Samir Shah. It helps us understand why people might disagree and what it means for the BBC's future."
   ],
   "Article_Structure": [
     "WHO: Banerji, Samir Shah, and other BBC board members",
-    "WHAT: Banerji resigned early, possibly criticizing Shah's leadership",
+    "WHAT: Banerji resigned early from the BBC board, adding to problems for the BBC",
     "WHERE: At the BBC in the UK",
-    "WHY: Due to disagreements over bias and leadership issues"
+    "WHY: Because of disagreements about bias and leadership, making people question if the BBC is fair"
   ],
   "perspectives": [
     {
       "perspective": "Banerji's view",
-      "description": "He thinks Shah is weak and not challenging board members enough"
+      "description": "He thinks Samir Shah is weak and not challenging others enough"
     },
     {
       "perspective": "Shah's view",
       "description": "He believes the BBC is impartial and values diverse opinions"
     },
     {
-      "perspective": "Other board members",
+      "perspective": "Other board members' view",
       "description": "Some think the BBC has systemic bias, while others disagree"
     }
   ],

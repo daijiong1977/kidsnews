@@ -1,14 +1,18 @@
 {
-  "title": "Spain Advances to Davis Cup Final Against Italy After Tough Win",
-  "summary": "Spain has secured a spot in the Davis Cup final by defeating Germany in a thrilling match that went down to a deciding doubles encounter. The victory was highlighted by Pablo Carreno Busta's win in the opening singles against Jan-Lennard Struff, giving Spain an early advantage. However, Germany's Alexander Zverev, ranked third in the world, fought back to defeat Jaume Munar, leveling the tie and forcing a doubles decider. In the crucial doubles match, Marcel Granollers and Pedro Martinez, who had previously helped Spain in the quarter-finals, delivered a strong performance to beat Kevin Krawietz and Tim Puetz in three sets. This marks Spain's first final appearance since 2019, as they aim for their seventh Davis Cup title. The absence of injured world number one Carlos Alcaraz adds challenge, but the team remains motivated. They will face Italy, the two-time defending champions, in the final in Bologna. Italy, missing top players like Jannik Sinner and Lorenzo Musetti, earned their place by beating Belgium. This final is significant as it is the first Davis Cup meeting between Spain and Italy in 19 years, with team captains David Ferrer and Filippo Volandri having played in their last encounter in 2006. Ferrer expressed pride in his team's effort and excitement for the upcoming match, emphasizing the need to rest and prepare for a competitive final against Italy's skilled squad.",
+  "title": "Spain Advances to Davis Cup Final Against Italy After Hard-Fought Victory",
+  "summary": "Spain has secured a spot in the Davis Cup final by defeating Germany in a thrilling semifinal match that went down to a deciding doubles encounter. The tie began with Pablo Carreno Busta giving Spain an early advantage by winning his singles match against Jan-Lennard Struff. However, Alexander Zverev, ranked world number three, leveled the score for Germany by defeating Jaume Munar. In the crucial doubles, the Spanish pair Marcel Granollers and Pedro Martinez, who had previously helped in the quarter-finals, emerged victorious over Kevin Krawietz and Tim Puetz with a score of 6-2, 3-6, 6-3. This marks Spain's first final appearance since 2019, as they aim for a seventh Davis Cup title. Notably, both Spain and Italy are competing without their top-ranked players; Spain is missing Carlos Alcaraz due to injury, while Italy lacks Jannik Sinner and Lorenzo Musetti. The final is scheduled for Sunday in Bologna, Italy, and will be the first Davis Cup meeting between the two nations in 19 years. Spain's captain, David Ferrer, expressed pride in his team's effort and anticipation for the challenging match against Italy.",
   "keywords": [
     {
       "term": "Davis Cup",
-      "explanation": "an annual international team tennis competition organized by the ITF, featuring national teams"
+      "explanation": "an annual international team tennis competition organized by the International Tennis Federation"
     },
     {
-      "term": "deciding doubles",
-      "explanation": "the final match in a tie that determines the winner when singles matches are split"
+      "term": "semifinal",
+      "explanation": "a round in a tournament where winners advance to the final"
+    },
+    {
+      "term": "doubles match",
+      "explanation": "a tennis game played by two pairs, with each pair on opposite sides of the net"
     },
     {
       "term": "world ranking",
@@ -16,55 +20,61 @@
     },
     {
       "term": "tie",
-      "explanation": "in Davis Cup, a series of matches between two countries that can include singles and doubles"
-    },
-    {
-      "term": "defending champion",
-      "explanation": "the team that won the previous edition and is trying to retain the title"
+      "explanation": "in Davis Cup, a match between two teams consisting of singles and doubles rubbers"
     },
     {
       "term": "captain",
-      "explanation": "the leader of a national team who selects players and guides strategy"
+      "explanation": "the person responsible for leading and strategizing for a sports team"
+    },
+    {
+      "term": "defending champions",
+      "explanation": "the team that won the previous edition of a competition and is trying to retain the title"
     },
     {
       "term": "injury absence",
-      "explanation": "when key players cannot compete due to physical ailments, affecting team strength"
-    },
-    {
-      "term": "final showdown",
-      "explanation": "the ultimate match in a tournament to decide the champion"
+      "explanation": "when a player cannot participate due to physical harm, affecting team dynamics"
     }
   ],
   "questions": [
     {
       "question": "What was the score in the deciding doubles match between Spain and Germany?",
       "options": [
-        "6-2 3-6 6-3",
-        "6-4 6-4",
-        "7-5 6-2",
-        "6-3 6-3"
+        "6-2, 3-6, 6-3",
+        "6-4, 6-4",
+        "7-5, 6-2",
+        "3-6, 6-3, 6-4"
       ],
-      "correct_answer": "6-2 3-6 6-3"
+      "correct_answer": "6-2, 3-6, 6-3"
     },
     {
-      "question": "Which Spanish player won the opening singles match against Jan-Lennard Struff?",
+      "question": "How many Davis Cup titles has Spain won previously?",
       "options": [
-        "Pablo Carreno Busta",
-        "Jaume Munar",
-        "Marcel Granollers",
-        "Pedro Martinez"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
-      "correct_answer": "Pablo Carreno Busta"
+      "correct_answer": "6"
     },
     {
-      "question": "How many consecutive finals has Italy reached in the Davis Cup?",
+      "question": "Which player from Germany is ranked world number three?",
       "options": [
-        "Three",
-        "Two",
-        "Four",
-        "One"
+        "Alexander Zverev",
+        "Jan-Lennard Struff",
+        "Kevin Krawietz",
+        "Tim Puetz"
       ],
-      "correct_answer": "Three"
+      "correct_answer": "Alexander Zverev"
+    },
+    {
+      "question": "When was the last time Spain reached the Davis Cup final?",
+      "options": [
+        "2019",
+        "2020",
+        "2018",
+        "2017"
+      ],
+      "correct_answer": "2019"
     },
     {
       "question": "Who is the captain of the Spanish Davis Cup team?",
@@ -72,65 +82,55 @@
         "David Ferrer",
         "Filippo Volandri",
         "Carlos Alcaraz",
-        "Alexander Zverev"
+        "Jannik Sinner"
       ],
       "correct_answer": "David Ferrer"
     },
     {
-      "question": "What year did Spain and Italy last face each other in the Davis Cup?",
+      "question": "Which country is hosting the Davis Cup final?",
       "options": [
-        "2006",
-        "2019",
-        "2020",
-        "2015"
+        "Spain",
+        "Italy",
+        "Germany",
+        "Belgium"
       ],
-      "correct_answer": "2006"
+      "correct_answer": "Italy"
     },
     {
-      "question": "Which player is missing from Italy's team due to injury?",
+      "question": "What round did Spain play against the Czech Republic?",
       "options": [
-        "Jannik Sinner",
-        "Carlos Alcaraz",
-        "Alexander Zverev",
-        "Pablo Carreno Busta"
+        "Quarter-final",
+        "Semifinal",
+        "Final",
+        "Group stage"
       ],
-      "correct_answer": "Jannik Sinner"
+      "correct_answer": "Quarter-final"
     },
     {
-      "question": "What is the significance of Spain reaching the final after six years?",
+      "question": "How many consecutive finals has Italy reached?",
       "options": [
-        "It's their first final since 2019",
-        "They have never been in a final before",
-        "They won the last six finals",
-        "It's their tenth final appearance"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
-      "correct_answer": "It's their first final since 2019"
-    },
-    {
-      "question": "In which city is the Davis Cup final being held?",
-      "options": [
-        "Bologna",
-        "Madrid",
-        "Rome",
-        "Berlin"
-      ],
-      "correct_answer": "Bologna"
+      "correct_answer": "3"
     }
   ],
   "background_read": [
-    "The Davis Cup, founded in 1900, is the premier international team event in men's tennis, organized by the International Tennis Federation. It involves teams from over 100 countries competing in a knockout format, with ties consisting of singles and doubles matches. Spain has a rich history in the competition, having won six titles, with their last victory in 2019. Key players like Rafael Nadal have contributed to their success, but injuries to stars like Carlos Alcaraz can impact performance. Italy, as the current defending champion, has shown consistency by reaching multiple finals. Understanding team dynamics, player rankings, and the format helps appreciate the strategic elements, such as captain decisions and the importance of doubles in deciding ties."
+    "The Davis Cup is the premier international team event in men's tennis, founded in 1900. It features a format with singles and doubles matches in a tie between national teams. Spain has a rich history in the competition, with six titles, while Italy is the two-time defending champion. The absence of key players like Carlos Alcaraz and Jannik Sinner due to injuries highlights how team depth and strategy are crucial. The tournament structure involves knockout stages leading to the final, and historical rivalries, such as Spain vs. Italy, add to the excitement. Understanding player rankings and match dynamics helps appreciate the competitive nature of the event."
   ],
   "Article_Structure": [
-    "This article outlines Spain's path to the Davis Cup final after a hard-fought win over Germany, emphasizing key matches and player performances. The main points include Spain's victory in the deciding doubles, early lead from Carreno Busta, and Zverev's leveling win, highlighting the team's resilience. The purpose is to report on the semifinal outcome and build anticipation for the final against Italy, providing updates for tennis fans. Evidence comes from match scores and quotes from captain David Ferrer, sourced reliably from the BBC, though it lacks deep statistical analysis. Author credibility is assumed high as BBC Sport is a reputable outlet, but specific journalist expertise isn't detailed. Methodology involves summarizing event details and interviews, typical for sports journalism, offering a factual account without independent verification."
+    "This article reports on Spain's victory over Germany in the Davis Cup semifinal, leading to a final against Italy. Main points include Spain's path to the final through a deciding doubles win, key player performances, and the impact of missing top players. The purpose is to inform readers about the match outcomes and build anticipation for the final. Evidence is based on match results and quotes from the captain, sourced from the BBC, a credible news outlet. Author credibility is assumed through factual reporting, though specific expertise isn't detailed. Methodology relies on event coverage and interviews, providing a timely update on the tournament."
   ],
   "perspectives": [
     {
       "perspective": "Spanish perspective",
-      "description": "Focuses on pride and achievement in reaching the final despite injuries, with optimism for the upcoming match."
+      "description": "Focus on achievement and resilience in reaching the final despite injuries, with pride from the captain"
     },
     {
       "perspective": "Italian perspective",
-      "description": "Highlights their defending champion status and ability to advance without key players, showing depth in their team."
+      "description": "Emphasis on defending the title and confidence from recent successes, even with key absences"
     }
   ],
   "image_url": "/article_images/article_cdc0ca4af11c6097_623b335ae585.webp"
