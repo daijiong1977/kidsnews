@@ -1,6 +1,6 @@
 {
-  "title": "Flavio Cobolli's Amazing Tennis Win for Italy",
-  "summary": "In a very exciting tennis match, Flavio Cobolli from Italy played against Zizou Bergs from Belgium in the Davis Cup. The match was super close, and Cobolli saved seven match points, which are chances for his opponent to win. He won a long tie-break with 32 points, making it one of the longest in Davis Cup history. After winning, Cobolli took off his shirt and celebrated with the happy fans in Bologna, Italy. He said it was one of the best days of his life because he helped Italy reach the final. Italy is trying to win the Davis Cup for the third time in a row, which hasn't happened in over 50 years. The team captain, Filippo Volandri, was very proud and said Cobolli showed a lot of heart. Now, Italy will play Spain or Germany in the final to see who wins the trophy.",
+  "title": "Italy Wins Big Tennis Match to Reach Final",
+  "summary": "In an exciting tennis match, Flavio Cobolli from Italy played against Zizou Bergs from Belgium in the Davis Cup. The match was very close and went into a long tie-break, which is like a mini-game to decide the winner. Cobolli saved seven match points, which are chances for his opponent to win, and finally won after a 32-point tie-break. He was so happy that he took off his shirt to celebrate with the home fans in Bologna. This victory means Italy will play in the final against Spain or Germany. Cobolli said it was one of the best days of his life because he fought hard for his country, team, and family. Italy is trying to win the Davis Cup for the third time in a row, something no country has done in over 50 years.",
   "keywords": [
     {
       "term": "Davis Cup",
@@ -8,11 +8,11 @@
     },
     {
       "term": "tie-break",
-      "explanation": "a special part of a tennis match to decide who wins when it's tied"
+      "explanation": "a special part of a tennis match to break a tie and decide the winner"
     },
     {
-      "term": "match point",
-      "explanation": "the point where a player can win the whole match"
+      "term": "match points",
+      "explanation": "points where a player can win the match if they score"
     },
     {
       "term": "final",
@@ -24,15 +24,15 @@
     },
     {
       "term": "team",
-      "explanation": "a group of people playing together for their country"
+      "explanation": "a group of people working together, like in sports"
     },
     {
       "term": "opponent",
-      "explanation": "the person you are playing against"
+      "explanation": "the person you are playing against in a game"
     },
     {
       "term": "victory",
-      "explanation": "winning a game or match"
+      "explanation": "winning a game or competition"
     }
   ],
   "questions": [
@@ -41,20 +41,10 @@
       "options": [
         "Flavio Cobolli",
         "Zizou Bergs",
-        "Filippo Volandri",
+        "Jannik Sinner",
         "Matteo Berrettini"
       ],
       "correct_answer": "Flavio Cobolli"
-    },
-    {
-      "question": "How many match points did Cobolli save?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "correct_answer": "7"
     },
     {
       "question": "What did Cobolli do after winning the match?",
@@ -67,7 +57,17 @@
       "correct_answer": "He took off his shirt"
     },
     {
-      "question": "Where was the match held?",
+      "question": "How many match points did Cobolli save?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_answer": "7"
+    },
+    {
+      "question": "Where was the match played?",
       "options": [
         "Rome",
         "Bologna",
@@ -87,57 +87,57 @@
       "correct_answer": "A tennis tournament for countries"
     },
     {
-      "question": "How long was the tie-break in points?",
+      "question": "Who will Italy play in the final?",
       "options": [
-        "20 points",
-        "25 points",
-        "32 points",
-        "40 points"
+        "Spain or Germany",
+        "France or Belgium",
+        "USA or Australia",
+        "Brazil or Argentina"
       ],
-      "correct_answer": "32 points"
+      "correct_answer": "Spain or Germany"
     },
     {
-      "question": "Who is Italy's team captain?",
+      "question": "What did Cobolli say about the win?",
       "options": [
-        "Flavio Cobolli",
-        "Filippo Volandri",
-        "Zizou Bergs",
-        "Matteo Berrettini"
+        "It was boring",
+        "It was one of the best days of his life",
+        "He was disappointed",
+        "He wanted to quit"
       ],
-      "correct_answer": "Filippo Volandri"
+      "correct_answer": "It was one of the best days of his life"
     },
     {
-      "question": "What will Italy do next?",
+      "question": "How long has the Davis Cup been around?",
       "options": [
-        "Play in the final",
-        "Go home",
-        "Have a party only",
-        "Practice more"
+        "50 years",
+        "100 years",
+        "125 years",
+        "150 years"
       ],
-      "correct_answer": "Play in the final"
+      "correct_answer": "125 years"
     }
   ],
   "background_read": [
-    "The Davis Cup is a famous international tennis tournament that started over 100 years ago. Teams from different countries compete, and players represent their nation. Italy has won the last two Davis Cups and is trying to win a third time in a row, which is very rare. Tennis matches can have tie-breaks when sets are tied, and long tie-breaks like this one make the game exciting. Players often feel proud to play for their country and celebrate with fans."
+    "The Davis Cup is a famous international tennis tournament where teams from different countries compete. It started over 100 years ago. Italy has won it the last two years and is trying to win again, which would be a big achievement. In tennis, a tie-break happens when the score is tied in a set, and players play extra points to decide the winner. Match points are important moments where a player can win the whole match."
   ],
   "Article_Structure": [
     "WHO: Flavio Cobolli, an Italian tennis player, and his team",
-    "WHAT: He won a dramatic tennis match by saving seven match points in a long tie-break",
+    "WHAT: He won a dramatic tennis match with a long tie-break to send Italy to the Davis Cup final",
     "WHERE: In Bologna, Italy, with many fans watching",
-    "WHY: To help Italy reach the Davis Cup final and try to win the trophy for the third time in a row"
+    "WHY: To help Italy try to win the Davis Cup for the third time in a row"
   ],
   "perspectives": [
     {
       "perspective": "Player's view",
-      "description": "Cobolli felt very happy and proud, calling it one of the best days of his life."
+      "description": "Cobolli felt very happy and proud to win for his country and team."
     },
     {
-      "perspective": "Team captain's view",
-      "description": "Volandri was amazed by Cobolli's effort and said it showed a lot of heart."
+      "perspective": "Team view",
+      "description": "The Italian team, including the captain, was excited and proud of Cobolli's effort."
     },
     {
       "perspective": "Opponent's view",
-      "description": "Bergs was sad after losing such a close match."
+      "description": "Bergs from Belgium was sad after losing such a close match."
     }
   ],
   "image_url": "/article_images/article_da8abd7a96ffc1e9_cb6e40dfa435.webp"
