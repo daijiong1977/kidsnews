@@ -1,3 +1,58 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "id": "32f64ba84c6e2d09",
+      "title": "Exploring Apple TV's Black Friday Streaming Deal",
+      "summary": "This article from TechRadar highlights an exceptional Black Friday promotion for Apple TV, the streaming service formerly known as Apple TV+. Normally priced at $12.99 per month in the US and £9.99 in the UK, the deal offers a 50% discount, reducing the cost to $5.99 or £4.99 per month for six months, valid until December 1, 2025. It emphasizes the value of accessing a vast library of original content, including hit shows like 'Ted Lasso', 'Severance', and 'The Morning Show', as well as upcoming exclusives such as F1 races. The service is compatible with various devices, including Apple products, smart TVs, and gaming consoles, and includes extras like MLS games. The author recommends this as a prime opportunity to subscribe, noting the timing with Black Friday sales and recent updates to the service, such as the removal of the '+' from its name.",
+      "source": "TechRadar",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_32f64ba84c6e2d09_9c22a36b81a9.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6f0eae75d78825f8",
+      "title": "Strategic AI Partnership: Anthropic's Cloud and Investment Deal",
+      "summary": "Anthropic has entered into a major strategic partnership with Microsoft and Nvidia, involving the purchase of $30 billion in compute capacity on Microsoft Azure. This deal is complemented by a $15 billion investment from Microsoft and Nvidia, with Microsoft contributing up to $5 billion and Nvidia up to $10 billion. The agreement enables Anthropic to scale its Claude AI models across Azure infrastructure, making them accessible to enterprise clients through platforms like Microsoft Foundry. This includes models such as Claude Sonnet 4.5, Claude Opus 4.1, and Claude Haiku 4.5, integrated into Copilot products. The partnership aims to optimize performance and efficiency for AI workloads using Nvidia's advanced systems like Grace Blackwell and Vera Rubin, potentially reducing long-term costs. It positions Claude as a frontier model available on all major cloud providers, enhancing its deployment in business environments for AI tool development and integration.",
+      "source": "TechRadar",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_6f0eae75d78825f8_de25a3614e9f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6ad5eb12bf8a98d3",
+      "title": "Viral Infections and Queen Bee Replacement in Honey Bee Colonies",
+      "summary": "Honey bee colonies sometimes undergo a process called supersedure, where worker bees replace their queen. Researchers from the University of British Columbia discovered that common viruses can infect the queen, causing her ovaries to shrink and reducing her egg-laying ability. This also lowers her production of methyl oleate, a key pheromone that signals her health to the workers. When pheromone levels drop, workers detect this and start raising a new queen. Supersedure helps wild colonies adapt but can disrupt managed hives, leading to reduced pollination and honey production. Bees are crucial for pollinating about one-third of global crops, so queen health impacts food security. Beekeepers often face issues with queen failure, and this study identifies viruses as a major cause. In field trials, adding synthetic methyl oleate reduced supersedure, offering a tool to stabilize hives during critical periods like peak pollination. This research highlights how viral infections, often linked to pests like varroa mites, threaten queen longevity and colony stability.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_6ad5eb12bf8a98d3_b4c022773401.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f5dd53b68969c1fd",
+      "title": "AI Uncovers Hidden Lion Roar for Better Conservation",
+      "summary": "A groundbreaking study has revealed that African lions produce two distinct types of roars: the well-known full-throated roar and a newly identified intermediary roar. Researchers from the University of Exeter used artificial intelligence to analyze lion vocalizations, achieving a 95.4% accuracy in classification. This discovery challenges the long-held belief that lions only have one roar type and has significant implications for conservation efforts. Lions are listed as vulnerable to extinction, with populations in Africa declining by about half over the past 25 years, now estimated at 20,000 to 25,000. The AI system reduces human bias in identifying individual lions through their roars, which serve as unique signatures. This advancement supports passive acoustic monitoring, making it more reliable than traditional methods like spoor surveys or camera trapping. The research, published in Ecology and Evolution, involved collaborations with institutions such as the University of Oxford and wildlife organizations, funded by groups like the Lion Recovery Fund. It highlights the growing role of bioacoustics in ecology and could lead to improved strategies for protecting lions and other species.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_f5dd53b68969c1fd_a6125aafebb3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c5897a4513a5c505",
+      "title": "Uncovering Copper's Role in Green Ammonia Synthesis",
+      "summary": "Researchers at Tokyo Metropolitan University have made a significant discovery in green ammonia production by studying the electrochemical nitrate reduction reaction. They found that copper oxide, a catalyst, undergoes changes during the reaction, forming metallic copper particles that assist in converting nitrite ions into ammonia. This process occurs at room temperature and normal pressure, making it more environmentally friendly than the traditional Haber-Bosch method, which requires high energy and contributes to carbon emissions. Using advanced techniques like operando X-ray absorption, the team observed how voltage changes affect the catalyst, revealing that negative voltage promotes ammonia formation by enabling metallic copper to add hydrogen to nitrites. This insight could lead to improved catalysts and more efficient green ammonia production, supporting sustainable agriculture and reducing environmental impact. The research, supported by university and government programs, highlights the potential for cleaner industrial chemistry.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_c5897a4513a5c505_cb14f3d11769.webp",
+      "category": "Science"
+    },
+    {
+      "id": "2e493042339037c5",
+      "title": "Rapid Fault Healing: A New View on Earthquakes",
+      "summary": "Recent research from the University of California, Davis reveals that deep earthquake faults can heal themselves within hours after slow slip events, challenging previous understandings of fault behavior. Slow slip events are gradual movements along faults that release stress over days to months, unlike regular earthquakes that cause sudden shaking. The team studied the Cascadia Subduction Zone, where repeated slips occur, indicating rapid stress recovery. Laboratory experiments involved subjecting quartz to high pressure and temperature to simulate deep Earth conditions, showing how faults regain strength through mineral interactions. This discovery, supported by National Science Foundation grants, suggests that current models of earthquake physics may need revision, as rapid healing could influence how stress accumulates and is released, potentially affecting earthquake forecasting and risk assessment in seismic zones.",
+      "source": "Science Daily",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_2e493042339037c5_912bdf4c74b1.webp",
+      "category": "Science"
+    }
+  ]
 }

@@ -1,3 +1,58 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "id": "32f64ba84c6e2d09",
+      "title": "Critical Analysis of Apple TV's Black Friday Promotion Strategy",
+      "summary": "TechRadar's article serves as a promotional piece for Apple TV's Black Friday deal, offering a 50% discount that reduces the monthly subscription to $5.99 in the US and £4.99 in the UK for six months, expiring on December 1, 2025. It details the service's expansive content library, including acclaimed originals like 'Ted Lasso' and 'Severance', and highlights recent updates such as the rebranding from Apple TV+ and integration of live sports like MLS games. The piece emphasizes compatibility across various devices and positions the offer as an optimal entry point for new subscribers. However, it operates within the context of affiliate marketing, where TechRadar may earn commissions, potentially influencing the tone. The analysis considers broader industry trends, such as the intensifying competition among streaming services and the strategic use of limited-time promotions to boost subscriber numbers during peak shopping periods.",
+      "source": "TechRadar",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_32f64ba84c6e2d09_9c22a36b81a9.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6f0eae75d78825f8",
+      "title": "Analyzing Anthropic's Multibillion-Dollar Cloud and Investment Alliance with Microsoft and Nvidia",
+      "summary": "Anthropic has forged an expansive strategic partnership with Microsoft and Nvidia, centered on the acquisition of $30 billion in compute capacity on Microsoft Azure, coupled with a $15 billion investment split between Microsoft (up to $5 billion) and Nvidia (up to $10 billion). This arrangement facilitates the scaling of Anthropic's Claude AI models—including variants like Sonnet 4.5, Opus 4.1, and Haiku 4.5—across Azure's infrastructure, enabling enterprise deployment via Microsoft Foundry and integration into Copilot products. The partnership extends to technical collaborations aimed at optimizing AI workloads on Nvidia's current and future architectures, such as Grace Blackwell and Vera Rubin systems, with objectives to enhance performance, efficiency, and cost reduction. By positioning Claude as accessible across all major cloud providers, the deal underscores a competitive move in the AI frontier model landscape, potentially influencing market dynamics and accelerating AI adoption in corporate environments through improved tooling and distributed computing capabilities.",
+      "source": "TechRadar",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_6f0eae75d78825f8_de25a3614e9f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6ad5eb12bf8a98d3",
+      "title": "Viral Pathogenesis and Pheromonal Signaling in Honey Bee Queen Supersedure",
+      "summary": "Recent research from the University of British Columbia elucidates the mechanistic basis of supersedure in honey bee colonies, where worker bees replace their queen. The study, published in PNAS, demonstrates that common viral infections induce ovarian atrophy in queens, diminishing their fecundity and impairing the synthesis of methyl oleate, a critical queen mandibular pheromone. This pheromone serves as a biomarker of queen vitality; its decline prompts workers to initiate queen rearing, a process that, while adaptive in natural settings, poses risks in managed apiculture due to disruptions in colony productivity and pollination efficacy. Bees are indispensable pollinators for approximately one-third of global crops, underscoring the ramifications of queen health on food security. Beekeepers frequently report queen failure as a predominant factor in overwintering losses, with viral etiologies now implicated. Field experiments revealed that exogenous application of methyl oleate mitigated supersedure incidence, suggesting prophylactic interventions. Furthermore, the interplay between viruses and vectors like varroa mites exacerbates queen morbidity, highlighting multifactorial threats to colony resilience. This research advances apidology by linking pathogen-induced physiological changes to social behaviors, offering insights for sustainable beekeeping practices and broader agricultural sustainability.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_6ad5eb12bf8a98d3_b4c022773401.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f5dd53b68969c1fd",
+      "title": "Advancing Lion Conservation Through AI-Driven Bioacoustic Discovery",
+      "summary": "A seminal study published in Ecology and Evolution has identified a previously unrecognized 'intermediary roar' in African lions, complementing the established full-throated roar, through the application of artificial intelligence. Researchers from the University of Exeter developed a machine learning system that classified lion vocalizations with 95.4% accuracy, significantly mitigating human interpretive biases. This finding颠覆s conventional understanding that lions utilize only one roar type and underscores the potential of bioacoustics in ecological research. Lions, classified as vulnerable by the IUCN, have seen their African populations plummet by approximately 50% over the last 25 years, with current estimates ranging from 20,000 to 25,000 individuals. The AI-enhanced methodology facilitates passive acoustic monitoring, offering a more objective and efficient alternative to traditional techniques like spoor surveys or camera trapping. Lead author Jonathan Growcott emphasizes the necessity of a paradigm shift towards widespread adoption of acoustic methods for wildlife conservation. The study involved a multidisciplinary collaboration with entities such as the University of Oxford, Lion Landscapes, and Tanzanian authorities, supported by funding from the Lion Recovery Fund and others. This research not only advances knowledge of lion behavior but also highlights the critical role of technological innovations in addressing biodiversity crises, potentially influencing conservation strategies for other threatened species.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_f5dd53b68969c1fd_a6125aafebb3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c5897a4513a5c505",
+      "title": "Mechanistic Insights into Copper-Catalyzed Electrochemical Ammonia Synthesis",
+      "summary": "A study by Tokyo Metropolitan University elucidates the mechanistic details of the electrochemical nitrate reduction reaction for green ammonia production, revealing that copper oxide catalysts undergo dynamic transformations under applied voltage. Specifically, the research demonstrates that surface passivation by nitrate ions under positive voltage inhibits metallic copper formation, leading to nitrite production, whereas switching to negative voltage facilitates the emergence of metallic copper particles, which catalyze the hydrogenation of nitrites to ammonia. This hidden step was uncovered using operando X-ray absorption spectroscopy, allowing real-time analysis of electronic and structural changes. Compared to the energy-intensive Haber-Bosch process, which accounts for approximately 1.4% of global CO2 emissions, this electrochemical approach operates at ambient conditions, offering a sustainable pathway with potential integration of renewable energy. The findings not only enhance the fundamental understanding of electrocatalysis but also provide strategies for optimizing catalyst design to improve efficiency and scalability in industrial applications, supported by institutional funding and emphasizing the shift towards cleaner chemical production.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_c5897a4513a5c505_cb14f3d11769.webp",
+      "category": "Science"
+    },
+    {
+      "id": "2e493042339037c5",
+      "title": "Reevaluating Earthquake Dynamics Through Rapid Fault Healing",
+      "summary": "A groundbreaking study from the University of California, Davis, published in Science Advances, demonstrates that deep seismic faults can undergo rapid healing within hours following slow slip events, fundamentally challenging conventional earthquake physics. Slow slip events, characterized by gradual stress release over extended periods, were examined in the Cascadia Subduction Zone, where fault segments exhibit repeated slips indicating swift stress recovery. The research, led by Amanda Thomas and James Watkins, employed high-pressure laboratory experiments on quartz to replicate conditions at depth, revealing that mineral interactions facilitate this healing process. Supported by National Science Foundation grants, the findings suggest that current models underestimating fault resilience may need recalibration, as rapid healing influences stress accumulation and release cycles. This has profound implications for seismic hazard assessment, potentially refining predictive models and informing mitigation strategies in tectonically active regions, thereby advancing our comprehension of geophysical processes.",
+      "source": "Science Daily",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_2e493042339037c5_912bdf4c74b1.webp",
+      "category": "Science"
+    }
+  ]
 }
