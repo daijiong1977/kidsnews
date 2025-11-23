@@ -236,12 +236,24 @@
 
             // Check if admin
             const userId = sessionData.session.user.id;
+            console.log('Checking admin for user ID:', userId);
+            
             const { data: profiles, error: profileError } = await supabase
                 .from('user_profiles')
                 .select('*')
                 .eq('id', userId);
             
             console.log('Profile query result:', profiles, 'Error:', profileError);
+            
+            if (profileError) {
+                console.error('Profile query error details:', profileError);
+                document.getElementById('loadingMessage').innerHTML = `
+                    <p class="text-red-600 font-bold">Database Error</p>
+                    <p class="text-sm text-red-500 mt-2">${profileError.message}</p>
+                    <p class="text-xs text-gray-600 mt-2">Code: ${profileError.code}</p>
+                `;
+                return;
+            }
             
             const profile = profiles && profiles.length > 0 ? profiles[0] : null;
             const isAdmin = profile && profile.role === 'admin';
