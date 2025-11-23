@@ -814,10 +814,10 @@
                     <div class="space-y-1">
                         ${q.options.map((opt, optIndex) => `
                             <button 
-                                onclick="selectQuizAnswer(${qIndex}, '${opt.replace(/'/g, "\\'")}')" 
+                                onclick="selectQuizAnswer(${qIndex}, ${optIndex})" 
                                 class="quiz-option w-full text-left px-3 py-2 rounded-lg border-2 border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors text-xs flex gap-2"
                                 data-question="${qIndex}"
-                                data-answer="${opt.replace(/"/g, '&quot;')}">
+                                data-option-index="${optIndex}">
                                 <span class="font-bold text-primary">${labels[optIndex]}.</span>
                                 <span>${opt}</span>
                             </button>
@@ -828,13 +828,13 @@
         }).join('');
     }
     
-    function selectQuizAnswer(questionIndex, answer) {
-        window.quizAnswers[questionIndex] = answer;
+    function selectQuizAnswer(questionIndex, optionIndex) {
+        window.quizAnswers[questionIndex] = optionIndex;
         
         // Update UI to show selection
         const buttons = document.querySelectorAll(`[data-question="${questionIndex}"]`);
         buttons.forEach(btn => {
-            if (btn.getAttribute('data-answer') === answer) {
+            if (parseInt(btn.getAttribute('data-option-index')) === optionIndex) {
                 btn.classList.remove('border-slate-300', 'border-slate-600');
                 btn.classList.add('border-primary', 'bg-primary/10');
             } else {
@@ -849,8 +849,11 @@
         const total = window.quizQuestions.length;
         
         window.quizQuestions.forEach((q, index) => {
-            const userAnswer = window.quizAnswers[index];
-            const isCorrect = userAnswer === q.correctAnswer;
+            const userAnswerIndex = window.quizAnswers[index];
+            
+            // Find the index of the correct answer in the shuffled options
+            const correctAnswerIndex = q.options.findIndex(opt => opt === q.correctAnswer);
+            const isCorrect = userAnswerIndex === correctAnswerIndex;
             
             if (isCorrect) {
                 correct++;
@@ -859,14 +862,14 @@
             // Update UI to show correct/wrong
             const buttons = document.querySelectorAll(`[data-question="${index}"]`);
             buttons.forEach(btn => {
-                const btnAnswer = btn.getAttribute('data-answer');
+                const btnOptionIndex = parseInt(btn.getAttribute('data-option-index'));
                 btn.onclick = null; // Disable clicking
                 
-                if (btnAnswer === q.correctAnswer) {
+                if (btnOptionIndex === correctAnswerIndex) {
                     // Show correct answer in green
                     btn.classList.remove('border-slate-300', 'border-slate-600', 'border-primary', 'border-red-500');
                     btn.classList.add('border-green-500', 'bg-green-100', 'dark:bg-green-900/30');
-                } else if (btnAnswer === userAnswer && !isCorrect) {
+                } else if (btnOptionIndex === userAnswerIndex && !isCorrect) {
                     // Show wrong selection in red
                     btn.classList.remove('border-slate-300', 'border-slate-600', 'border-primary');
                     btn.classList.add('border-red-500', 'bg-red-100', 'dark:bg-red-900/30');
