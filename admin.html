@@ -440,18 +440,12 @@
 </head>
 <body>
 
-    <!-- LOGIN SCREEN -->
+    <!-- LOADING/AUTH CHECK SCREEN -->
     <div class="login-container" id="loginContainer">
         <div class="login-box">
             <h1>🔐 Admin Panel</h1>
-            <p>Enter password to access admin panel</p>
-            <div class="login-error" id="loginError"></div>
-            <form onsubmit="handleLogin(event)">
-                <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" id="passwordInput" placeholder="Enter password" autofocus>
-                </div>
-                <button type="submit" class="btn" style="width: 100%;">Login</button>
+            <div id="authMessage" style="text-align: center; color: #666; margin-top: 20px;">
+                <p>Checking authentication...</p>
             </div>
         </div>
     </div>
