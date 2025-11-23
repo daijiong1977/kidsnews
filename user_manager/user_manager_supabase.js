@@ -124,6 +124,42 @@ class SupabaseUserManager {
 
     async onLogin(user) {
         this.user = user;
+        
+        // Check if this is a fresh login (user just verified/signed in)
+        // Try to get reading style from magic_links table
+        const { data: magicLinks } = await this.supabase
+            .from('magic_links')
+            .select('reading_style')
+            .eq('email', user.email)
+            .limit(1);
+        
+        if (magicLinks && magicLinks.length > 0) {
+            const pendingStyle = magicLinks[0].reading_style;
+            console.log('Found pending reading style during onLogin:', pendingStyle);
+            this.readingStyle = pendingStyle;
+            localStorage.setItem('news_reading_style', pendingStyle);
+            
+            // Delete the used entry
+            await this.supabase.from('magic_links').delete().eq('email', user.email);
+            
+            // Redirect to the selected reading style page
+            const stylePages = {
+                'relax': '/?lang=en&level=easy',
+                'enjoy': '/?lang=en&level=middle',
+                'research': '/?lang=en&level=high',
+                'chinese': '/?lang=cn'
+            };
+            const redirectUrl = stylePages[pendingStyle] || '/';
+            
+            // Only redirect if we're not already on the right page
+            const currentUrl = window.location.href;
+            if (!currentUrl.includes(redirectUrl.substring(1))) {
+                console.log('Redirecting to:', redirectUrl);
+                window.location.href = redirectUrl;
+                return;
+            }
+        }
+        
         // fetch or create profile
         try {
             const { data: profiles } = await this.supabase
