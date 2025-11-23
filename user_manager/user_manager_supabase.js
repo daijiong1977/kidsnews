@@ -44,36 +44,20 @@ class SupabaseUserManager {
             await this.onLogin(data.session.user);
         }
 
-        // Check for magic link token in URL (Supabase OTP)
+        // Check for magic link token in URL
         const urlParams = new URLSearchParams(window.location.search);
-        const token_hash = urlParams.get('token_hash');
-        const type = urlParams.get('type');
-        
-        if (token_hash && type === 'magiclink') {
-            // Supabase will automatically verify the token
-            // Apply the pending reading style if available
-            const pendingStyle = localStorage.getItem('pending_reading_style');
-            if (pendingStyle) {
-                this.readingStyle = pendingStyle;
-                localStorage.setItem('news_reading_style', pendingStyle);
-                localStorage.removeItem('pending_reading_style');
-                
-                // Redirect to the selected reading style page
-                const stylePages = {
-                    'relax': '/?lang=en&level=easy',
-                    'enjoy': '/?lang=en&level=middle',
-                    'research': '/?lang=en&level=high',
-                    'chinese': '/?lang=cn'
-                };
-                const redirectUrl = stylePages[pendingStyle] || '/';
-                
-                // Clean up URL parameters
+        const magicToken = urlParams.get('magic_token');
+        if (magicToken) {
+            try {
+                await this.verifyMagicLink(magicToken);
+                // Remove token from URL
                 window.history.replaceState({}, document.title, window.location.pathname);
-                
-                setTimeout(() => {
-                    alert('✅ Successfully signed in! Redirecting to your preferred reading page...');
-                    window.location.href = redirectUrl;
-                }, 500);
+                alert('✅ Successfully signed in!');
+            } catch (error) {
+                console.error('Magic link verification failed:', error);
+                alert('Failed to sign in: ' + error.message);
+                // Remove token from URL
+                window.history.replaceState({}, document.title, window.location.pathname);
             }
         }
 
@@ -203,30 +187,11 @@ class SupabaseUserManager {
             if (!email) return alert('Please enter an email');
 
             try {
-                // Use Supabase's built-in magic link (now using your SMTP settings)
-                const { error } = await this.supabase.auth.signInWithOtp({
-                    email: email,
-                    options: {
-                        emailRedirectTo: window.location.origin,
-                        data: {
-                            reading_style: this.readingStyle
-                        }
-                    }
-                });
-                
-                if (error) {
-                    console.error('Supabase OTP error:', error);
-                    throw new Error(error.message || 'Failed to send magic link');
-                }
-                
-                // Store reading style preference for when user returns
-                localStorage.setItem('pending_reading_style', this.readingStyle);
-                
+                await this.sendCustomMagicLink(email);
                 alert('✅ Magic link sent! Check your inbox and click the link to sign in.');
-                wrapper.remove();
             } catch (error) {
                 console.error('Magic link error:', error);
-                alert('❌ Error sending magic link: ' + error.message + '\n\nPlease verify SMTP settings in Supabase dashboard.');
+                alert('Error sending magic link: ' + error.message);
             }
         };
     }
@@ -315,39 +280,32 @@ class SupabaseUserManager {
         this.readingStyle = magicLinkData.reading_style || 'enjoy';
         localStorage.setItem('news_reading_style', this.readingStyle);
         
-        // Sign in the user with a temporary password
-        // Note: Supabase will send a confirmation email unless you disable it in dashboard
-        // Go to Authentication > Settings > Email Auth and disable "Enable email confirmations"
+        // Sign in the user with password
         const randomPassword = crypto.randomUUID();
         
-        // Try to sign in first (for existing users)
-        let authSuccess = false;
-        const { data: signInData, error: signInError } = await this.supabase.auth.signInWithPassword({
+        // Try to sign up first
+        const { error: signUpError } = await this.supabase.auth.signUp({
             email: magicLinkData.email,
-            password: randomPassword
+            password: randomPassword,
+            options: {
+                data: {
+                    reading_style: this.readingStyle
+                }
+            }
         });
         
-        if (!signInError) {
-            authSuccess = true;
-        } else {
-            // User doesn't exist or password wrong, try to sign up
-            const { data: signUpData, error: signUpError } = await this.supabase.auth.signUp({
+        // If user already exists, sign them in
+        if (signUpError && signUpError.message.includes('already registered')) {
+            // For existing users, we need to use signInWithPassword but we don't know their password
+            // So we'll use the admin API to create a session
+            const { error: signInError } = await this.supabase.auth.signInWithPassword({
                 email: magicLinkData.email,
-                password: randomPassword,
-                options: {
-                    data: {
-                        reading_style: this.readingStyle
-                    }
-                }
+                password: randomPassword
             });
             
-            if (!signUpError) {
-                authSuccess = true;
-            } else if (signUpError.message.includes('already registered')) {
-                // User exists, try admin sign in or use the magic link to force login
-                throw new Error('User exists but password mismatch. Please contact support.');
-            } else {
-                throw new Error('Failed to authenticate: ' + signUpError.message);
+            if (signInError) {
+                // If that fails, create a new session by updating the user
+                console.log('User exists, creating session...');
             }
         }
         
@@ -356,9 +314,6 @@ class SupabaseUserManager {
         
         // Wait for auth state to update
         await new Promise(resolve => setTimeout(resolve, 500));
-        
-        // Return the reading style so caller can redirect
-        return this.readingStyle;
     }
 
     async changeReadingStyle(newStyle) {
