@@ -214,7 +214,10 @@ class SupabaseUserManager {
                     }
                 });
                 
-                if (error) throw error;
+                if (error) {
+                    console.error('Supabase OTP error:', error);
+                    throw new Error(error.message || 'Failed to send magic link');
+                }
                 
                 // Store reading style preference for when user returns
                 localStorage.setItem('pending_reading_style', this.readingStyle);
@@ -223,7 +226,7 @@ class SupabaseUserManager {
                 wrapper.remove();
             } catch (error) {
                 console.error('Magic link error:', error);
-                alert('Error sending magic link: ' + error.message);
+                alert('❌ Error sending magic link: ' + error.message + '\n\nPlease verify SMTP settings in Supabase dashboard.');
             }
         };
     }
