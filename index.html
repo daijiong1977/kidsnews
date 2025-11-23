@@ -519,20 +519,22 @@ document.addEventListener('DOMContentLoaded', async function() {
   
   // Load available archive dates
   let availableDates = [];
-  let archiveDirectories = {};
+  let archivePayloadUrls = {};
   try {
-    const response = await fetch('/payloads/archive_index.json');
+    const response = await fetch('./payloads/archive_index.json');
     if (response.ok) {
       const data = await response.json();
       console.log('Archive index data:', data);
       // Parse the dates from archive_index.json format
-      if (data.details && Array.isArray(data.details)) {
-        data.details.forEach(item => {
-          availableDates.push(item.date);
-          archiveDirectories[item.date] = item.directory;
+      if (data.dates && Array.isArray(data.dates)) {
+        data.dates.forEach(item => {
+          // Convert YYYY-MM-DD to YYYYMMDD format
+          const dateStr = item.date.replace(/-/g, '');
+          availableDates.push(dateStr);
+          archivePayloadUrls[dateStr] = item.payloads_url;
         });
       }
-      console.log(`✓ Loaded ${availableDates.length} available archive dates`);
+      console.log(`✓ Loaded ${availableDates.length} available archive dates`, availableDates);
     } else {
       console.log('Archive index not found, status:', response.status);
     }
@@ -604,39 +606,11 @@ document.addEventListener('DOMContentLoaded', async function() {
     
     // Add click handlers to date buttons
     document.querySelectorAll('.archive-date').forEach(btn => {
-      btn.addEventListener('click', async function() {
+      btn.addEventListener('click', function() {
         const date = this.getAttribute('data-date');
-        modal.classList.add('hidden');
-        modal.classList.remove('flex');
-        
-        // Get the directory for this date from archive_index.json
-        const directory = archiveDirectories[date] || date;
-        
-        // Load archive payloads for this date
-        const category = currentCategory || 'news';
-        const level = currentLevel || 'middle';
-        const lang = chineseMode ? 'cn' : 'en';
-        const levelMap = { 'easy': 'easy', 'middle': 'middle', 'high': 'high', 'cn': 'cn' };
-        const payloadLevel = lang === 'cn' ? 'cn' : levelMap[level];
-        const payloadPath = `/payloads/${directory}/articles_${category}_${payloadLevel}.json`;
-        
-        console.log('Loading archive from:', payloadPath);
-        
-        try {
-          const response = await fetch(payloadPath);
-          if (response.ok) {
-            const archiveArticles = await response.json();
-            displayArticles(archiveArticles);
-            // Update header to show archive date
-            const formattedDate = date.substring(0, 4) + '-' + date.substring(4, 6) + '-' + date.substring(6, 8);
-            document.querySelector('h2.text-3xl').textContent = `${category.charAt(0).toUpperCase() + category.slice(1)} - Archive ${formattedDate}`;
-          } else {
-            alert(`No archive available for ${date}`);
-          }
-        } catch (error) {
-          console.error('Failed to load archive:', error);
-          alert(`Failed to load archive for ${date}`);
-        }
+        // Convert YYYYMMDD to YYYY-MM-DD for archive.html
+        const formattedDate = date.substring(0, 4) + '-' + date.substring(4, 6) + '-' + date.substring(6, 8);
+        window.location.href = `./archive.html?date=${formattedDate}`;
       });
     });
   }
