@@ -638,11 +638,23 @@
                 
                 // Store questions globally for answer checking
                 window.quizQuestions = selectedQuestions.map(q => {
+                    // Handle two possible formats for correct_answer:
+                    // 1. Full text: "A magnetic sense"
+                    // 2. Letter only: "A", "B", "C", "D"
+                    let correctAnswerText = q.correct_answer;
+                    
+                    // If correct_answer is just a single letter, convert to option text
+                    if (correctAnswerText && correctAnswerText.length === 1 && /[A-D]/i.test(correctAnswerText)) {
+                        const letterMap = {'A': 0, 'B': 1, 'C': 2, 'D': 3};
+                        const index = letterMap[correctAnswerText.toUpperCase()];
+                        correctAnswerText = q.options[index];
+                    }
+                    
                     const shuffledOptions = [...(q.options || [])].sort(() => Math.random() - 0.5);
                     return {
                         question: q.question,
                         options: shuffledOptions,
-                        correctAnswer: q.correct_answer
+                        correctAnswer: correctAnswerText
                     };
                 });
                 
