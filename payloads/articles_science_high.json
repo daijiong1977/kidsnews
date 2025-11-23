@@ -1,39 +1,39 @@
 {
   "articles": [
     {
+      "id": "cd601c337d21d657",
+      "title": "GJ 251 c: A Promising Super-Earth in the Quest for Extraterrestrial Life",
+      "summary": "Astronomers from the University of California, Irvine have identified GJ 251 c, a super-Earth exoplanet situated within the habitable zone of its host M-dwarf star, approximately 18 light-years from Earth. This discovery, detailed in The Astronomical Journal, leverages high-precision radial velocity measurements from instruments like the Habitable-zone Planet Finder and NEID, which detect subtle gravitational influences on the star. The planet's rocky composition and potential for liquid water render it a prime candidate in the search for life, though challenges arise from the star's significant stellar activity, including flares and starspots that can obscure planetary signals. To address this, the team employed infrared observations and computational models, achieving statistical significance in their findings. The research underscores the necessity of next-generation telescopes, such as the Thirty Meter Telescope, for direct imaging to confirm atmospheric properties and water presence. This study not only advances exoplanetology but also highlights the interplay between technological innovation and astronomical inquiry, urging increased community investment to overcome methodological uncertainties and propel our understanding of habitable worlds.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_cd601c337d21d657_25348dfd4934.webp",
+      "category": "Science"
+    },
+    {
+      "id": "5f73ff4ea1d754b7",
+      "title": "Analyzing the Gannon Geomagnetic Superstorm: Plasmaspheric Compression and Its Implications",
+      "summary": "The Gannon geomagnetic superstorm of May 10-11, 2024, represents the most intense solar event in over two decades, providing a unique case study for space weather research. Led by Dr. Atsuki Shinbori at Nagoya University, the investigation utilized the Arase satellite and ground-based GPS receivers to document unprecedented compression of Earth's plasmasphere, which contracted from approximately 44,000 km to a record low of 9,600 km in altitude. This drastic reduction, occurring within nine hours, was followed by an anomalously slow recovery exceeding four days, attributed to a negative storm phenomenon where ionospheric heating depleted oxygen ions, hindering hydrogen particle production essential for plasmaspheric replenishment. Concurrently, the storm expanded the auroral zone to mid-latitude regions such as Japan and Mexico, illustrating the profound influence on Earth's magnetosphere. Published in Earth, Planets and Space, these findings enhance comprehension of magnetospheric-ionospheric coupling during extreme events, offering critical insights for mitigating risks to satellite operations, GPS accuracy, and global communications. The study underscores the necessity for advanced monitoring systems to predict and address the cascading effects of space weather on modern infrastructure.",
+      "source": "Science Daily",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_5f73ff4ea1d754b7_480e29665371.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9adaa7c129290f43",
+      "title": "Decoding Loggerhead Turtle Navigation: The Role of Magnetoreception in Migratory Behavior",
+      "summary": "Groundbreaking research from the University of North Carolina at Chapel Hill elucidates the mechanisms underlying loggerhead turtle navigation, demonstrating that hatchlings utilize a tactile magnetoreception system to interpret their inherited magnetic map. Published in the Journal of Experimental Biology, the study addresses a longstanding question in sensory biology: whether animals rely on light-dependent or magnetite-based detection of Earth's magnetic field. Through meticulous experimentation, researchers trained hatchlings to exhibit a conditioned dance response upon encountering specific magnetic fields associated with food rewards. By administering strong magnetic pulses to disrupt putative magnetite-based sensing, they observed a significant reduction in this behavior, indicating reliance on a feel-based mechanism for positional awareness. This complements the turtles' established magnetic compass, which aids directional orientation. The integration of these dual sensory abilities enables precise navigation during extensive migrations, underscoring the sophistication of innate biological systems. Findings contribute to broader discussions in ethology and conservation, revealing how environmental cues shape animal behavior and highlighting potential impacts of anthropogenic changes on migratory species.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_9adaa7c129290f43_2ed375436174.webp",
+      "category": "Science"
+    },
+    {
       "id": "6ad5eb12bf8a98d3",
       "title": "Viral-Induced Supersedure: Mechanisms and Implications in Apiculture",
       "summary": "Recent research from the University of British Columbia elucidates the mechanistic basis of supersedure in honey bee colonies, revealing that viral infections precipitate queen failure by inducing ovarian atrophy and diminishing methyl oleate production. This pheromone serves as a critical indicator of queen vitality; its reduction prompts worker bees to initiate queen replacement, a process essential for colony adaptation but problematic in managed apiculture due to disruptions in egg-laying, colony strength, and pollination efficacy. The study, documented in PNAS, employed biochemical and molecular analyses to demonstrate that infected queens exhibit significantly lower egg output and pheromone levels, with field validations indicating that synthetic methyl oleate supplementation can mitigate supersedure incidence. Given that bees pollinate approximately one-third of global crops, queen health is paramount for food security, and this research identifies viral pathogens as a principal factor in the escalating issue of queen failure noted by beekeepers. The findings advocate for integrated management strategies, leveraging pheromone analogs to stabilize hives during peak productivity periods, thereby addressing both biological and economic dimensions of apicultural sustainability. This work advances understanding of host-pathogen interactions in social insects and offers translational applications for enhancing agricultural resilience.",
       "source": "Science Daily",
-      "time_ago": "12 hours ago",
+      "time_ago": "20 hours ago",
       "image_url": "/article_images/article_6ad5eb12bf8a98d3_b4c022773401.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f5dd53b68969c1fd",
-      "title": "AI-Driven Discovery of a Novel Lion Roar: Implications for Conservation Science",
-      "summary": "In a seminal study published in Ecology and Evolution, researchers from the University of Exeter employed artificial intelligence to identify an 'intermediary roar' in African lions,颠覆ing the conventional wisdom that only a single roar type exists. This finding, achieved through machine learning algorithms with 95.4% classification accuracy, significantly mitigates human interpretive bias in vocal analysis, facilitating more precise individual identification and population estimation. Lions, classified as vulnerable by the IUCN with populations plummeting by approximately 50% over 25 years to 20,000-25,000 individuals, face critical conservation challenges. The research advocates for a paradigm shift towards passive acoustic monitoring, leveraging bioacoustics to surpass traditional methods like spoor surveys in reliability and efficiency. Collaborative efforts with institutions such as the University of Oxford and conservation entities, funded by sources including the Lion Recovery Fund, underscore the interdisciplinary approach. This study not only advances ecological knowledge but also highlights the transformative potential of AI in enhancing evidence-based conservation strategies for threatened species globally.",
-      "source": "Science Daily",
-      "time_ago": "13 hours ago",
-      "image_url": "/article_images/article_f5dd53b68969c1fd_a6125aafebb3.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c5897a4513a5c505",
-      "title": "Mechanistic Insights into Copper-Catalyzed Electrochemical Ammonia Production",
-      "summary": "A team at Tokyo Metropolitan University has elucidated a critical mechanistic detail in the electrochemical nitrate reduction reaction for ammonia synthesis, presenting a viable green alternative to the conventional Haber-Bosch process. Ammonia, essential for fertilizer production, is predominantly manufactured via Haber-Bosch, which operates under high temperatures and pressures, consuming substantial energy and contributing approximately 1.4% to global carbon dioxide emissions. The research, led by Professor Fumiaki Amano, investigates the role of copper oxide as an electrocatalyst in converting nitrate ions to ammonia at ambient conditions. Utilizing operando X-ray absorption spectroscopy, the researchers tracked electronic and structural transformations, revealing that under positive applied voltage, nitrate ions adsorb and passivate the catalyst surface, leading to nitrite formation. Upon shifting to negative voltage, a surge in ammonia production coincides with the emergence of metallic copper nanoparticles, facilitated by increased copper-copper bonding, which promotes hydrogenation of nitrites. This hidden catalytic switch underscores the importance of in situ material changes for reaction efficiency. The findings not only enhance understanding of electrocatalytic mechanisms but also propose strategies for optimizing catalyst design in sustainable chemistry, potentially mitigating environmental impacts of ammonia production. Support from Tokyo Metropolitan University and NEDO underscores the project's relevance to industrial and ecological advancements.",
-      "source": "Science Daily",
-      "time_ago": "14 hours ago",
-      "image_url": "/article_images/article_c5897a4513a5c505_cb14f3d11769.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d035d645a636cc66",
-      "title": "Reevaluating Shark Evolution: Early Gigantism in Mesozoic Australia",
-      "summary": "A groundbreaking study published in Communications Biology details the discovery of fossilized vertebrae from a cardabiodontid shark in northern Australia, dating back approximately 115 million years. This specimen, significantly older than previously known cardabiodontids by about 15 million years, exhibits vertebrae exceeding 12 cm in diameter, indicating a body size comparable to later giants like Megalodon. The research challenges established evolutionary paradigms by demonstrating that lamniform sharks, which originated around 135 million years ago, achieved substantial gigantism much earlier in the Cretaceous period than scientists had hypothesized. As apex predators, these sharks coexisted with massive marine reptiles such as plesiosaurs and ichthyosaurs in the Tethys Ocean, underscoring a complex marine ecosystem. The international team, comprising paleontologists, ichthyologists, and tomography specialists, employed advanced imaging techniques to analyze the mineralized vertebrae, drawing comparisons with modern species like the Great White shark. This interdisciplinary approach not only refines estimates of prehistoric shark sizes but also emphasizes the limitations of fossil records dominated by teeth due to cartilaginous skeletons. The findings contribute to a broader understanding of morphological evolution and predatory dynamics in ancient oceans, suggesting that environmental factors may have driven early size increases in elasmobranchs.",
-      "source": "Science Daily",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_d035d645a636cc66_3f78b6320f81.webp",
       "category": "Science"
     },
     {

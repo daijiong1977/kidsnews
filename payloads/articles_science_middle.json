@@ -1,39 +1,39 @@
 {
   "articles": [
     {
+      "id": "cd601c337d21d657",
+      "title": "Exploring a Nearby Super-Earth for Signs of Life",
+      "summary": "Researchers at the University of California, Irvine have identified an exoplanet named GJ 251 c, located within the habitable zone of its star, where conditions might allow for liquid water—a key ingredient for life. This super-Earth, several times more massive than our planet, orbits an M-dwarf star, which is common in the galaxy but often exhibits stellar activity like flares and starspots that can complicate detection. The team used high-precision instruments such as the Habitable-zone Planet Finder and NEID to measure radial velocity signals, revealing the planet's gravitational influence on its star. Despite challenges from stellar noise, the findings are statistically significant, highlighting GJ 251 c as a prime candidate for future direct imaging with the Thirty Meter Telescope. This telescope, currently in development, could provide clearer insights into the planet's properties, including potential water presence. The discovery underscores advancements in astronomical technology and the importance of continued investment in space research to explore habitable worlds beyond our solar system.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_cd601c337d21d657_25348dfd4934.webp",
+      "category": "Science"
+    },
+    {
+      "id": "5f73ff4ea1d754b7",
+      "title": "Solar Superstorm Compresses Earth's Plasmasphere: Insights from the Gannon Event",
+      "summary": "In May 2024, Earth experienced the Gannon solar superstorm, the most intense geomagnetic event in over two decades. Led by Dr. Atsuki Shinbori of Nagoya University, researchers used the Arase satellite and ground-based GPS receivers to observe how the storm compressed Earth's plasmasphere—a region of charged particles that protects against space radiation. The plasmasphere shrank from about 44,000 km to only 9,600 km in altitude, a record low, and took over four days to recover, much longer than usual. This slow recovery was due to a 'negative storm' effect, where intense heating reduced ionospheric particles needed for replenishment. The storm also pushed auroras to mid-latitude regions like Japan and Mexico, far from their typical polar locations. These findings, published in Earth, Planets and Space, provide crucial data for improving predictions of space weather impacts, such as satellite disruptions, GPS inaccuracies, and communication failures, highlighting the need for better monitoring and protection of technological systems.",
+      "source": "Science Daily",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_5f73ff4ea1d754b7_480e29665371.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9adaa7c129290f43",
+      "title": "Unlocking the Secrets of Turtle Navigation with Magnetic Senses",
+      "summary": "Loggerhead turtle hatchlings embark on epic migrations spanning thousands of kilometers shortly after hatching, relying on innate abilities to navigate the vast ocean. Recent research from the University of North Carolina at Chapel Hill, published in the Journal of Experimental Biology, reveals that these turtles use a feel-based magnetic sense to interpret their inherited magnetic map, crucial for determining their location. Animals can detect Earth's magnetism through two methods: one involving light-sensitive molecules for potential magnetic vision, and another using magnetite crystals to feel magnetic forces. The study involved training hatchlings to associate specific magnetic fields with food, eliciting a distinctive dance behavior. By applying strong magnetic pulses to disrupt the feel-based sense, researchers observed reduced dancing, indicating turtles rely on magnetic touch for positional awareness. This complements their directional magnetic compass, highlighting how dual senses aid in successful navigation. The findings deepen our understanding of animal migration and sensory biology, showing how young turtles use sophisticated mechanisms to survive long journeys.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_9adaa7c129290f43_2ed375436174.webp",
+      "category": "Science"
+    },
+    {
       "id": "6ad5eb12bf8a98d3",
       "title": "How Viruses Trigger Queen Bee Replacement in Hives",
       "summary": "Honey bee colonies often experience supersedure, where worker bees replace their queen when she becomes less productive. Researchers at the University of British Columbia discovered that common viruses can infect the queen, causing her ovaries to shrink and reducing her egg-laying capacity. This infection also lowers her production of methyl oleate, a pheromone that signals health to the workers. When methyl oleate levels drop, workers detect the change and initiate the process of raising a new queen. This natural mechanism helps wild colonies adapt but can disrupt managed hives, leading to issues like reduced pollination and honey production. Bees are vital for pollinating about one-third of global crops, so queen failures impact food security. The study, published in PNAS, involved experiments showing that virus-infected queens laid fewer eggs and produced less pheromone. Additionally, field trials indicated that supplementing hives with synthetic methyl oleate could reduce supersedure, offering beekeepers a tool to maintain hive stability during critical periods like peak pollination. This research highlights the interconnected roles of viruses, pheromones, and colony behavior in bee health.",
       "source": "Science Daily",
-      "time_ago": "12 hours ago",
+      "time_ago": "20 hours ago",
       "image_url": "/article_images/article_6ad5eb12bf8a98d3_b4c022773401.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f5dd53b68969c1fd",
-      "title": "AI Uncovers Hidden Lion Roar for Better Conservation",
-      "summary": "A groundbreaking study has used artificial intelligence to identify a previously unknown 'intermediary roar' in African lions, challenging the long-held belief that they only produce one type of roar. Conducted by researchers at the University of Exeter and published in Ecology and Evolution, this research applied machine learning to analyze lion vocalizations, achieving 95.4% accuracy in classification. This advancement reduces human bias in identifying individual lions, which is crucial for conservation efforts as lions are listed as vulnerable to extinction, with populations declining by about half over the past 25 years to an estimated 20,000-25,000 in Africa. The study highlights the role of bioacoustics in ecology, showing that passive acoustic monitoring can provide more reliable data than traditional methods like spoor surveys. Collaboration with institutions such as the University of Oxford and various conservation groups supported the findings, funded by organizations like the Lion Recovery Fund. This work underscores the potential for AI to transform wildlife monitoring and aid in protecting endangered species.",
-      "source": "Science Daily",
-      "time_ago": "13 hours ago",
-      "image_url": "/article_images/article_f5dd53b68969c1fd_a6125aafebb3.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c5897a4513a5c505",
-      "title": "Uncovering the Role of Copper in Green Ammonia Synthesis",
-      "summary": "Researchers at Tokyo Metropolitan University have made a significant discovery in the production of ammonia, a crucial compound for fertilizers. Currently, the Haber-Bosch process dominates ammonia manufacturing, but it is energy-intensive and accounts for about 1.4% of global CO2 emissions. The team, led by Professor Fumiaki Amano, explored an electrochemical nitrate reduction reaction as a greener alternative. This method uses copper oxide as a catalyst to convert nitrates into ammonia at room temperature and atmospheric pressure, avoiding the high energy demands of traditional methods. Through advanced techniques like operando X-ray absorption, they observed that under positive voltage, nitrate ions passivate the catalyst surface, forming nitrites, but when voltage turns negative, metallic copper particles emerge and facilitate the conversion to ammonia. This hidden step is key to efficient ammonia production, offering insights for improving electrocatalysts. The findings could advance sustainable agriculture by enabling low-carbon ammonia synthesis, supported by funding from organizations like NEDO.",
-      "source": "Science Daily",
-      "time_ago": "14 hours ago",
-      "image_url": "/article_images/article_c5897a4513a5c505_cb14f3d11769.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d035d645a636cc66",
-      "title": "Early Giant Sharks in Prehistoric Australia",
-      "summary": "Recent fossil discoveries in northern Australia have revealed that massive sharks existed as early as 115 million years ago, during the Age of Dinosaurs. These fossils, including large vertebrae, belong to a cardabiodontid shark, an early relative of modern lamniform sharks like the Great White. The vertebrae are over 12 cm wide, larger than those of adult Great Whites, indicating a body size that made it a top predator alongside giant marine reptiles. This finding challenges previous beliefs that sharks only grew to large sizes much later in their evolution. Sharks have been around for over 400 million years, with modern lineages starting about 135 million years ago. Initially small, they evolved into giants like Megalodon. The research, involving an international team of paleontologists and specialists, used tomography and detailed analysis to estimate the shark's size. Published in Communications Biology, it highlights how interdisciplinary studies can uncover details about evolutionary history, emphasizing that shark fossils are mostly teeth due to their cartilaginous skeletons, which rarely fossilize.",
-      "source": "Science Daily",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_d035d645a636cc66_3f78b6320f81.webp",
       "category": "Science"
     },
     {
