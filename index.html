@@ -687,10 +687,34 @@ document.addEventListener('DOMContentLoaded', () => {
       // Check if user is logged in
       const { data } = await userManager.supabase.auth.getSession();
       if (data && data.session && data.session.user) {
-        // Show user menu or profile
-        if (confirm(`Logged in as ${data.session.user.email}\n\nLogout?`)) {
-          await userManager.logout();
-          location.reload();
+        // Check if admin
+        const isAdmin = await userManager.isAdmin();
+        
+        // Show user menu
+        let message = `Logged in as ${data.session.user.email}\n\n`;
+        if (isAdmin) {
+          message += 'Admin Actions:\n';
+          message += '1 - Open Admin Panel\n';
+          message += '2 - Logout\n';
+          message += 'Cancel - Close\n\n';
+          message += 'Choose option:';
+        } else {
+          message += 'Logout?';
+        }
+        
+        if (isAdmin) {
+          const choice = prompt(message);
+          if (choice === '1') {
+            window.location.href = './admin.html';
+          } else if (choice === '2') {
+            await userManager.logout();
+            location.reload();
+          }
+        } else {
+          if (confirm(message)) {
+            await userManager.logout();
+            location.reload();
+          }
         }
       } else {
         // Show login modal
