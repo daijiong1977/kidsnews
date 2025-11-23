@@ -298,18 +298,28 @@
     const urlParams = new URLSearchParams(window.location.search);
     const articleId = urlParams.get('id');
     const level = urlParams.get('level') || 'middle';
+    const archiveDate = urlParams.get('date'); // e.g., "2025-11-15"
 
     if (articleId) {
-        console.log('Loading article:', articleId, 'Level:', level);
+        console.log('Loading article:', articleId, 'Level:', level, 'Date:', archiveDate);
         loadArticleFromJSON();
     }
 
     async function loadArticleFromJSON() {
         try {
-            // Payloads are stored in the repo under /article_payloads/payload_<id>/<level>.json
-            // article_page is a subdirectory, so use an absolute path from site root.
-            const fetchPath = `/article_payloads/payload_${articleId}/${level}.json`;
-            console.log('Fetching article payload from:', fetchPath);
+            let fetchPath;
+            
+            if (archiveDate) {
+                // Archive article: load from Supabase Storage
+                // First try article_payloads subdirectory
+                const supabaseBase = `https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/${archiveDate}`;
+                fetchPath = `${supabaseBase}/article_payloads/payload_${articleId}/${level}.json`;
+                console.log('Fetching archive article payload from Supabase:', fetchPath);
+            } else {
+                // Current article: load from local directory
+                fetchPath = `/article_payloads/payload_${articleId}/${level}.json`;
+                console.log('Fetching article payload from:', fetchPath);
+            }
             
             const response = await fetch(fetchPath);
             if (!response.ok) {
@@ -324,10 +334,17 @@
             document.querySelector('.text-4xl').textContent = data.title || 'Article';
             
             // Update article image
-            const imageUrl = data.image_url || '';
+            let imageUrl = data.image_url || '';
             const articleImage = document.getElementById('article-image');
             if (imageUrl) {
-                // Use image URL as-is (mining stores as article_{id}_{hash}.webp)
+                // For archive articles, check if image URL needs to be loaded from Supabase
+                if (archiveDate && imageUrl.startsWith('/article_image/')) {
+                    // Convert local path to Supabase Storage URL
+                    const imageName = imageUrl.split('/').pop();
+                    const supabaseBase = `https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/${archiveDate}`;
+                    imageUrl = `${supabaseBase}/article_images/${imageName}`;
+                    console.log('Using Supabase image URL:', imageUrl);
+                }
                 articleImage.src = imageUrl;
                 articleImage.style.display = 'block';
             } else {
