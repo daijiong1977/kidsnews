@@ -690,32 +690,63 @@ document.addEventListener('DOMContentLoaded', () => {
         // Check if admin
         const isAdmin = await userManager.isAdmin();
         
-        // Show user menu
-        let message = `Logged in as ${data.session.user.email}\n\n`;
-        if (isAdmin) {
-          message += 'Admin Actions:\n';
-          message += '1 - Open Admin Panel\n';
-          message += '2 - Logout\n';
-          message += 'Cancel - Close\n\n';
-          message += 'Choose option:';
-        } else {
-          message += 'Logout?';
+        // Remove existing dropdown if any
+        const existingDropdown = document.getElementById('user-dropdown');
+        if (existingDropdown) {
+          existingDropdown.remove();
+          return;
         }
         
+        // Create dropdown menu
+        const dropdown = document.createElement('div');
+        dropdown.id = 'user-dropdown';
+        dropdown.className = 'absolute right-0 mt-2 w-64 bg-white dark:bg-card-dark rounded-lg shadow-lg border border-border-light dark:border-border-dark overflow-hidden z-50';
+        dropdown.style.top = userButton.offsetTop + userButton.offsetHeight + 'px';
+        dropdown.style.right = '20px';
+        
+        let menuHTML = `
+          <div class="px-4 py-3 border-b border-border-light dark:border-border-dark bg-gray-50 dark:bg-background-dark">
+            <p class="text-sm font-semibold text-text-light dark:text-text-dark">${data.session.user.email}</p>
+            <p class="text-xs text-subtle-light dark:text-subtle-dark mt-1">${isAdmin ? 'Administrator' : 'Member'}</p>
+          </div>
+          <div class="py-1">
+        `;
+        
         if (isAdmin) {
-          const choice = prompt(message);
-          if (choice === '1') {
-            window.location.href = './admin.html';
-          } else if (choice === '2') {
-            await userManager.logout();
-            location.reload();
-          }
-        } else {
-          if (confirm(message)) {
-            await userManager.logout();
-            location.reload();
-          }
+          menuHTML += `
+            <button onclick="window.location.href='./admin.html'" class="w-full text-left px-4 py-2 text-sm text-text-light dark:text-text-dark hover:bg-primary/10 flex items-center gap-2">
+              <span class="material-symbols-outlined text-base">admin_panel_settings</span>
+              Admin Panel
+            </button>
+          `;
         }
+        
+        menuHTML += `
+            <button id="dropdown-logout" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20 flex items-center gap-2">
+              <span class="material-symbols-outlined text-base">logout</span>
+              Logout
+            </button>
+          </div>
+        `;
+        
+        dropdown.innerHTML = menuHTML;
+        document.body.appendChild(dropdown);
+        
+        // Close dropdown when clicking outside
+        setTimeout(() => {
+          document.addEventListener('click', function closeDropdown(e) {
+            if (!dropdown.contains(e.target) && e.target !== userButton) {
+              dropdown.remove();
+              document.removeEventListener('click', closeDropdown);
+            }
+          });
+        }, 0);
+        
+        // Handle logout
+        document.getElementById('dropdown-logout').addEventListener('click', async () => {
+          await userManager.logout();
+          location.reload();
+        });
       } else {
         // Show login modal
         userManager.openLoginSubscribeModal();
