@@ -894,8 +894,15 @@
         renderQuizQuestions();
     }
 </script>
-<!-- User Manager Script -->
-<script src="../user_manager/user_manager.js"></script>
+<!-- Supabase Configuration -->
+<script>
+// Set Supabase credentials for user_manager_supabase.js
+window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
+window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MzMwMjcsImV4cCI6MjA3ODMwOTAyN30.2YPvOkZOWi4hDjtwZYkVt9a-RwYSnfotjV6Raj24ZjE';
+</script>
+
+<!-- User Manager Script (Supabase-backed) -->
+<script type="module" src="../user_manager/user_manager_supabase.js"></script>
 <!-- Article Page User Actions Script -->
 <script>
     // Initialize user manager and article page buttons
