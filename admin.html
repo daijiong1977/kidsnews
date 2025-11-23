@@ -8,16 +8,18 @@
     <link href="./assets/fonts/newsreader.css" rel="stylesheet"/>
     <link href="./assets/fonts/material-symbols.css" rel="stylesheet"/>
     <link href="./user_manager/user_manager.css" rel="stylesheet"/>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script type="module">
-        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm'
         
-        // Initialize Supabase
+        // Initialize Supabase with correct anon key
         window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
-        window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA5NDk4NjQsImV4cCI6MjA0NjUyNTg2NH0.4f-LytJkibXB_rDmEE_lvthJlXy8x_2bV_sfDG1Kdwg';
+        window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MzMwMjcsImV4cCI6MjA3ODMwOTAyN30.2YPvOkZOWi4hDjtwZYkVt9a-RwYSnfotjV6Raj24ZjE';
         
         window.supabaseClient = createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY, {
-            auth: { persistSession: true }
+            auth: { 
+                persistSession: true,
+                autoRefreshToken: true
+            }
         });
         
         window.supabaseReady = true;
