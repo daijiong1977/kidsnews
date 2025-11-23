@@ -235,7 +235,6 @@ Activities →
 <a class="text-subtle-light dark:text-subtle-dark text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Terms of Service</a>
 </div>
 <p class="text-subtle-light dark:text-subtle-dark text-sm font-normal leading-normal">© 2024 News Oh,Ye!. All rights reserved.</p>
-<p class="text-subtle-light dark:text-subtle-dark text-xs font-normal leading-normal mt-1">v1.0 - Website Up Day 1 (Oct 26, 2025)</p>
 <p class="text-subtle-light dark:text-subtle-dark text-xs font-normal leading-normal mt-1" id="generation-date">Generated: <span class="font-mono">Loading...</span></p>
 <p class="text-subtle-light dark:text-subtle-dark text-xs font-normal leading-normal italic mt-2">Dedicated to Helen, Daisy & Mattie</p>
 </footer>
@@ -267,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Load generation date from manifest
-    fetch('https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/latest/manifest.json')
+    fetch('./manifest.json')
         .then(res => res.json())
         .then(data => {
             if (data.generated_at) {
