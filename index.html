@@ -608,9 +608,9 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.querySelectorAll('.archive-date').forEach(btn => {
       btn.addEventListener('click', function() {
         const date = this.getAttribute('data-date');
-        // Convert YYYYMMDD to YYYY-MM-DD for archive.html
+        // Convert YYYYMMDD to YYYY-MM-DD for archive page
         const formattedDate = date.substring(0, 4) + '-' + date.substring(4, 6) + '-' + date.substring(6, 8);
-        window.location.href = `./archive.html?date=${formattedDate}`;
+        window.location.href = `/archive?date=${formattedDate}`;
       });
     });
   }
