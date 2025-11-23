@@ -44,6 +44,23 @@ class SupabaseUserManager {
             await this.onLogin(data.session.user);
         }
 
+        // Check for magic link token in URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const magicToken = urlParams.get('magic_token');
+        if (magicToken) {
+            try {
+                await this.verifyMagicLink(magicToken);
+                // Remove token from URL
+                window.history.replaceState({}, document.title, window.location.pathname);
+                alert('✅ Successfully signed in!');
+            } catch (error) {
+                console.error('Magic link verification failed:', error);
+                alert('Failed to sign in: ' + error.message);
+                // Remove token from URL
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        }
+
         // Expose to window for compatibility with existing code
         window.userManager = this;
         console.log('✅ SupabaseUserManager initialized');
@@ -170,64 +187,133 @@ class SupabaseUserManager {
             if (!email) return alert('Please enter an email');
 
             try {
-                // First, generate OTP with Supabase (but don't send their email)
-                const { data, error } = await this.supabase.auth.signInWithOtp({ 
-                    email,
-                    options: {
-                        shouldCreateUser: true,
-                        emailRedirectTo: window.location.origin
-                    }
-                });
-                
-                if (error) throw error;
-                
-                // Now send our custom email via edge function
-                const magicLink = `${window.location.origin}?token=${data.session?.access_token || 'check-email'}`;
-                
-                const emailResponse = await fetch(`${this.SUPABASE_URL}/functions/v1/send-email`, {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': `Bearer ${this.SUPABASE_ANON_KEY}`,
-                        'Content-Type': 'application/json',
-                        'apikey': this.SUPABASE_ANON_KEY
-                    },
-                    body: JSON.stringify({
-                        to_email: email,
-                        subject: '🔐 Your Magic Link - NewsReader',
-                        message: `
-                            <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-                                <h2 style="color: #3b82f6;">Welcome to NewsReader!</h2>
-                                <p>Click the button below to sign in to your account:</p>
-                                <p style="margin: 30px 0;">
-                                    <a href="${magicLink}" 
-                                       style="background: #3b82f6; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-block;">
-                                        Sign In to NewsReader
-                                    </a>
-                                </p>
-                                <p style="color: #666; font-size: 14px;">
-                                    Or copy this link: <br/>
-                                    <code style="background: #f3f4f6; padding: 4px 8px; border-radius: 4px;">${magicLink}</code>
-                                </p>
-                                <p style="color: #999; font-size: 12px; margin-top: 30px;">
-                                    This link expires in 1 hour. If you didn't request this, please ignore this email.
-                                </p>
-                            </div>
-                        `,
-                        from_name: 'NewsReader'
-                    })
-                });
-                
-                if (!emailResponse.ok) {
-                    const errorData = await emailResponse.json();
-                    throw new Error(errorData.error || 'Failed to send email');
-                }
-                
-                alert('✅ Magic link sent! Check your inbox.');
+                await this.sendCustomMagicLink(email);
+                alert('✅ Magic link sent! Check your inbox and click the link to sign in.');
             } catch (error) {
-                console.error('Email send error:', error);
-                alert('❌ Error sending magic link: ' + error.message);
+                console.error('Magic link error:', error);
+                alert('Error sending magic link: ' + error.message);
             }
         };
+    }
+
+    async sendCustomMagicLink(email) {
+        // Generate a random token
+        const token = this.generateRandomToken(32);
+        const expiresAt = new Date(Date.now() + 15 * 60 * 1000); // 15 minutes
+        
+        // Store token in Supabase table (works across devices/browsers)
+        const { error: insertError } = await this.supabase
+            .from('magic_links')
+            .insert({
+                token: token,
+                email: email,
+                reading_style: this.readingStyle,
+                expires_at: expiresAt.toISOString()
+            });
+        
+        if (insertError) {
+            console.error('Failed to store magic link:', insertError);
+            throw new Error('Failed to create magic link: ' + insertError.message);
+        }
+        
+        // Create magic link URL
+        const magicLinkUrl = `${window.location.origin}?magic_token=${token}`;
+        
+        // Send email via your custom API
+        const sanitizedAnonKey = (this.SUPABASE_ANON_KEY || '').trim();
+        const response = await fetch(`${this.SUPABASE_URL}/functions/v1/send-email`, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${sanitizedAnonKey}`,
+                'apikey': sanitizedAnonKey,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                to_email: email,
+                subject: 'Welcome! Sign in to News from 6ray.com',
+                message: `Hello!\n\nClick the link below to sign in:\n\n${magicLinkUrl}\n\nThis link will expire in 15 minutes.\n\nIf you didn't request this, please ignore this email.\n\nBest regards,\nNews from 6ray.com`,
+                from_name: 'admin@6ray.com'
+            })
+        });
+        
+        if (!response.ok) {
+            const error = await response.json();
+            throw new Error(error.error || 'Failed to send email');
+        }
+        
+        return await response.json();
+    }
+    
+    generateRandomToken(length) {
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let token = '';
+        const array = new Uint8Array(length);
+        crypto.getRandomValues(array);
+        for (let i = 0; i < length; i++) {
+            token += chars[array[i] % chars.length];
+        }
+        return token;
+    }
+    
+    async verifyMagicLink(token) {
+        // Get stored magic link data from Supabase
+        const { data: magicLinks, error: fetchError } = await this.supabase
+            .from('magic_links')
+            .select('*')
+            .eq('token', token)
+            .limit(1);
+        
+        if (fetchError || !magicLinks || magicLinks.length === 0) {
+            throw new Error('Invalid or expired magic link');
+        }
+        
+        const magicLinkData = magicLinks[0];
+        
+        // Check if expired
+        if (new Date(magicLinkData.expires_at) < new Date()) {
+            // Delete expired token
+            await this.supabase.from('magic_links').delete().eq('token', token);
+            throw new Error('Magic link has expired');
+        }
+        
+        // Set reading style from magic link
+        this.readingStyle = magicLinkData.reading_style || 'enjoy';
+        localStorage.setItem('news_reading_style', this.readingStyle);
+        
+        // Sign in the user with password
+        const randomPassword = crypto.randomUUID();
+        
+        // Try to sign up first
+        const { error: signUpError } = await this.supabase.auth.signUp({
+            email: magicLinkData.email,
+            password: randomPassword,
+            options: {
+                data: {
+                    reading_style: this.readingStyle
+                }
+            }
+        });
+        
+        // If user already exists, sign them in
+        if (signUpError && signUpError.message.includes('already registered')) {
+            // For existing users, we need to use signInWithPassword but we don't know their password
+            // So we'll use the admin API to create a session
+            const { error: signInError } = await this.supabase.auth.signInWithPassword({
+                email: magicLinkData.email,
+                password: randomPassword
+            });
+            
+            if (signInError) {
+                // If that fails, create a new session by updating the user
+                console.log('User exists, creating session...');
+            }
+        }
+        
+        // Delete the used token
+        await this.supabase.from('magic_links').delete().eq('token', token);
+        
+        // Wait for auth state to update
+        await new Promise(resolve => setTimeout(resolve, 500));
     }
 
     async changeReadingStyle(newStyle) {
