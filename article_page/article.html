@@ -867,9 +867,24 @@
         let correct = 0;
         const total = window.quizQuestions.length;
         
+        console.log('=== QUIZ ANSWER CHECKING DEBUG ===');
+        console.log('Total questions:', total);
+        console.log('All quiz questions:', window.quizQuestions);
+        console.log('User answers array:', window.quizAnswers);
+        
         window.quizQuestions.forEach((q, index) => {
             const userAnswer = window.quizAnswers[index];
-            const isCorrect = userAnswer === q.correctAnswer;
+            const correctAnswer = q.correctAnswer;
+            const isCorrect = userAnswer === correctAnswer;
+            
+            console.log(`\nQuestion ${index + 1}:`);
+            console.log('  Question:', q.question);
+            console.log('  User selected:', userAnswer);
+            console.log('  Correct answer:', correctAnswer);
+            console.log('  User answer type:', typeof userAnswer, 'value:', JSON.stringify(userAnswer));
+            console.log('  Correct answer type:', typeof correctAnswer, 'value:', JSON.stringify(correctAnswer));
+            console.log('  Comparison (===):', userAnswer === correctAnswer);
+            console.log('  Match result:', isCorrect ? '✓ CORRECT' : '✗ WRONG');
             
             if (isCorrect) {
                 correct++;
@@ -880,6 +895,8 @@
             buttons.forEach(btn => {
                 const btnAnswer = btn.getAttribute('data-option-text');
                 btn.onclick = null; // Disable clicking
+                
+                console.log('  Button option:', btnAnswer, 'matches correct?', btnAnswer === q.correctAnswer);
                 
                 if (btnAnswer === q.correctAnswer) {
                     // Show correct answer in green
@@ -892,6 +909,10 @@
                 }
             });
         });
+        
+        console.log('\n=== FINAL RESULTS ===');
+        console.log('Correct answers:', correct, 'out of', total);
+        console.log('Percentage:', Math.round((correct / total) * 100) + '%');
         
         // Show results
         const percentage = Math.round((correct / total) * 100);
