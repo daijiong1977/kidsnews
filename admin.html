@@ -778,12 +778,26 @@
     <!-- Supabase Configuration (will be injected during deployment) -->
     
     <script>
-        const supabase = window.supabaseClient;
+        let supabase = null;
         let currentUser = null;
         let state = { feeds: [], categories: [], articles: [], users: [], aiProviders: [] };
 
         // Auth check
         async function checkAdminAccess() {
+            // Wait for Supabase to be ready
+            let attempts = 0;
+            while (!window.supabaseReady && attempts < 50) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                attempts++;
+            }
+            
+            if (!window.supabaseReady) {
+                document.getElementById('authMessage').innerHTML = '<p style="color: #dc3545;">Failed to load Supabase. Please refresh the page.</p>';
+                return;
+            }
+            
+            supabase = window.supabaseClient;
+            
             try {
                 const { data: { session }, error } = await supabase.auth.getSession();
                 
