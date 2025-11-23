@@ -1,35 +1,35 @@
 {
-  "title": "Spain and Italy to Play for Davis Cup Trophy",
-  "summary": "Spain has reached the Davis Cup final for the first time in six years by beating Germany in a close match. They will play against Italy, who are the defending champions. In the semifinal, Spain won the first singles match, but Germany tied it up. Then, Spain's doubles team won the deciding match. Both teams are missing their top players due to injuries, like Carlos Alcaraz for Spain and Jannik Sinner for Italy. The final will be in Bologna, Italy, on Sunday. Spain is excited to compete and try to win the Davis Cup for the seventh time. This is a big event in tennis where countries compete as teams.",
+  "title": "Spain and Italy Play for the Davis Cup Trophy",
+  "summary": "Spain has reached the Davis Cup final for the first time in six years by beating Germany in a close match. They won the deciding doubles game to set up a final against Italy. Spain is trying to win the Davis Cup for the seventh time. Italy is the two-time defending champion and also reached the final by beating Belgium. Both teams are missing their top players due to injuries, like Carlos Alcaraz for Spain and Jannik Sinner for Italy. The final will be played in Bologna, Italy, on Sunday. Spain's captain, David Ferrer, is proud of his team and says they will rest and get ready for the tough match ahead.",
   "keywords": [
     {
       "term": "Davis Cup",
-      "explanation": "a famous tennis competition where teams from different countries play against each other"
+      "explanation": "a big tennis competition where countries play against each other"
     },
     {
       "term": "final",
-      "explanation": "the last match in a tournament to decide the winner"
+      "explanation": "the last and most important game in a tournament"
     },
     {
       "term": "doubles",
-      "explanation": "a tennis match where two players on each team play together"
-    },
-    {
-      "term": "singles",
-      "explanation": "a tennis match where one player from each team plays alone"
+      "explanation": "a tennis match with two players on each team"
     },
     {
       "term": "captain",
-      "explanation": "the leader of a sports team who helps make decisions"
+      "explanation": "the leader of a sports team"
     },
     {
       "term": "injury",
-      "explanation": "when a player gets hurt and cannot play"
+      "explanation": "when a player is hurt and cannot play"
+    },
+    {
+      "term": "tournament",
+      "explanation": "a series of games to decide the best team"
     }
   ],
   "questions": [
     {
-      "question": "Which country did Spain beat to reach the Davis Cup final?",
+      "question": "Who did Spain beat to reach the Davis Cup final?",
       "options": [
         "Germany",
         "Italy",
@@ -41,71 +41,71 @@
     {
       "question": "How many times has Spain won the Davis Cup before?",
       "options": [
-        "5 times",
-        "6 times",
-        "7 times",
-        "8 times"
+        "Five times",
+        "Six times",
+        "Seven times",
+        "Eight times"
       ],
-      "correct_answer": "6 times"
+      "correct_answer": "Six times"
     },
     {
-      "question": "Who won the deciding doubles match for Spain?",
+      "question": "Where will the final match be played?",
       "options": [
-        "Marcel Granollers and Pedro Martinez",
-        "Pablo Carreno Busta and Jaume Munar",
-        "Kevin Krawietz and Tim Puetz",
-        "Alexander Zverev and Jan-Lennard Struff"
+        "Madrid",
+        "Bologna",
+        "Paris",
+        "London"
       ],
-      "correct_answer": "Marcel Granollers and Pedro Martinez"
+      "correct_answer": "Bologna"
     },
     {
-      "question": "Where will the final match be held?",
+      "question": "Which Spanish player is missing due to injury?",
       "options": [
-        "Madrid, Spain",
-        "Bologna, Italy",
-        "Berlin, Germany",
-        "Paris, France"
-      ],
-      "correct_answer": "Bologna, Italy"
-    },
-    {
-      "question": "Which top player is missing for Spain due to injury?",
-      "options": [
+        "Pablo Carreno Busta",
         "Carlos Alcaraz",
-        "Jannik Sinner",
-        "David Ferrer",
-        "Lorenzo Musetti"
+        "Jaume Munar",
+        "Marcel Granollers"
       ],
       "correct_answer": "Carlos Alcaraz"
     },
     {
-      "question": "What is the Davis Cup?",
+      "question": "What type of match decided Spain's win over Germany?",
       "options": [
-        "A tennis tournament for countries",
-        "A soccer competition",
-        "A basketball league",
-        "A swimming event"
+        "Singles match",
+        "Doubles match",
+        "Mixed doubles",
+        "Team match"
       ],
-      "correct_answer": "A tennis tournament for countries"
+      "correct_answer": "Doubles match"
+    },
+    {
+      "question": "Who is the captain of the Spanish team?",
+      "options": [
+        "David Ferrer",
+        "Filippo Volandri",
+        "Alexander Zverev",
+        "Kevin Krawietz"
+      ],
+      "correct_answer": "David Ferrer"
     }
   ],
   "background_read": [
-    "The Davis Cup is an international tennis tournament started in 1900, where national teams compete. It is one of the biggest team events in tennis. Spain has a strong history, having won it six times. Italy is the current champion. Matches include singles and doubles, and teams play in a knockout format. Injuries can affect teams, as seen here with top players missing. This makes the competition exciting and unpredictable."
+    "The Davis Cup is an international tennis tournament started in 1900 where teams from different countries compete. It is like the World Cup for tennis. Spain has won it six times before, and Italy is the current champion. Top players sometimes miss games if they are injured, which makes it harder for their teams. The final is a big event watched by many fans around the world."
   ],
   "Article_Structure": [
-    "WHO: Spain and Italy, the tennis teams, and players like Pablo Carreno Busta and Marcel Granollers",
+    "WHO: Spain and Italy tennis teams, their players and captains",
     "WHAT: Spain beat Germany to reach the Davis Cup final against Italy",
     "WHERE: The final will be in Bologna, Italy",
-    "WHY: To compete for the Davis Cup title, with both teams missing key players due to injuries"
+    "WHY: To win the Davis Cup trophy, with both teams missing key players due to injuries"
   ],
   "perspectives": [
     {
       "perspective": "Spanish team view",
-      "description": "Happy and proud to reach the final after a tough match, excited to compete even without their best player"
+      "description": "Happy to reach the final after six years and proud of their effort without top players"
     },
     {
       "perspective": "Italian team view",
-      "description": "Confident as defending champions, also missing top players but ready for the challenge"
+      "description": "Confident as defending champions, even without some star players"
     }
   ],
   "image_url": "/article_images/article_cdc0ca4af11c6097_623b335ae585.webp"

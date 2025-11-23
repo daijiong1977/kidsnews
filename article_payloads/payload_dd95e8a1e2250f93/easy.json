@@ -1,10 +1,14 @@
 {
   "title": "Famous Fashion Designer Paul Costelloe Passes Away",
-  "summary": "Paul Costelloe, a famous Irish fashion designer, has died at age 80 in London after a short illness. He was surrounded by his family. Costelloe was born in Dublin and studied fashion design in Paris. He started his own fashion label in 1979 and showed his clothes at big fashion events in London, Paris, Milan, and New York. He was the personal designer for Princess Diana, which made him very well-known. Costelloe loved using Irish fabrics like linen and tweed in his designs. He also worked with stores and was part of Ireland Fashion Week. Some people were upset when he said Irish women lacked style, but he later said Ireland had become more European. The Irish prime minister said he was sad and called Costelloe an icon who brought Irish fashion to the world.",
+  "summary": "Paul Costelloe, a famous Irish fashion designer, has died at age 80 in London after a short illness. He was surrounded by his family. Paul was born in Dublin and studied fashion in Paris. He started his own fashion label in 1979 and showed his clothes in big cities like London, Paris, Milan, and New York. He was the personal designer for Princess Diana, which made him very well-known. Paul used Irish fabrics like linen and tweed in his designs. He also worked with stores and was part of fashion events. Some people were upset when he said Irish women lacked style, but he later said Ireland had become more European. The Irish Prime Minister said he was sad about Paul's death and called him an icon who brought Irish fashion to the world.",
   "keywords": [
     {
-      "term": "fashion designer",
-      "explanation": "a person who creates new styles of clothing"
+      "term": "designer",
+      "explanation": "a person who creates clothes and fashion items"
+    },
+    {
+      "term": "fashion",
+      "explanation": "the style of clothing that is popular"
     },
     {
       "term": "label",
@@ -12,7 +16,7 @@
     },
     {
       "term": "Princess Diana",
-      "explanation": "a famous princess from Britain who was known for her style"
+      "explanation": "a famous princess from Britain who was loved by many"
     },
     {
       "term": "fabrics",
@@ -20,11 +24,7 @@
     },
     {
       "term": "illness",
-      "explanation": "being sick or not healthy"
-    },
-    {
-      "term": "icon",
-      "explanation": "a very famous and admired person"
+      "explanation": "being sick or not feeling well"
     }
   ],
   "questions": [
@@ -39,73 +39,73 @@
       "correct_answer": "80"
     },
     {
-      "question": "Where did Paul Costelloe die?",
+      "question": "Where was Paul Costelloe born?",
       "options": [
-        "Dublin",
         "London",
+        "Dublin",
         "Paris",
         "New York"
       ],
-      "correct_answer": "London"
+      "correct_answer": "Dublin"
     },
     {
       "question": "Who was Paul Costelloe's famous client?",
       "options": [
-        "Queen Elizabeth",
+        "The Queen",
         "Princess Diana",
-        "Michelle Obama",
-        "Kate Middleton"
+        "A pop star",
+        "A president"
       ],
       "correct_answer": "Princess Diana"
     },
     {
-      "question": "What Irish fabrics did Costelloe often use?",
+      "question": "What did Paul use in his designs from Ireland?",
       "options": [
-        "silk and cotton",
-        "linen and tweed",
-        "wool and polyester",
-        "denim and velvet"
+        "Silk",
+        "Cotton",
+        "Linen and tweed",
+        "Wool"
       ],
-      "correct_answer": "linen and tweed"
+      "correct_answer": "Linen and tweed"
     },
     {
-      "question": "In which city did he study fashion after Dublin?",
+      "question": "In which city did Paul die?",
       "options": [
-        "London",
-        "Milan",
+        "Dublin",
         "Paris",
-        "New York"
+        "London",
+        "Milan"
       ],
-      "correct_answer": "Paris"
+      "correct_answer": "London"
     },
     {
-      "question": "What did the Irish prime minister call Costelloe?",
+      "question": "What did the Irish Prime Minister say about Paul?",
       "options": [
-        "a friend",
-        "an icon",
-        "a critic",
-        "a teacher"
+        "He was a good cook",
+        "He was an icon of design",
+        "He was a singer",
+        "He was a teacher"
       ],
-      "correct_answer": "an icon"
+      "correct_answer": "He was an icon of design"
     }
   ],
   "background_read": [
-    "Paul Costelloe was an Irish fashion designer born in Dublin. He learned fashion design in Paris and started his own clothing brand. He became famous for designing clothes for Princess Diana and using traditional Irish materials. Fashion designers create clothes that people wear, and they often show their work at big events called fashion weeks. Costelloe's work helped people around the world learn about Irish fashion."
+    "Paul Costelloe was a fashion designer from Ireland who became famous for making clothes for Princess Diana. He learned fashion in Paris and started his own brand. He used materials from Ireland and showed his designs in big fashion weeks around the world. Sometimes he said things that upset people, but he was respected for his work."
   ],
   "Article_Structure": [
     "WHO: Paul Costelloe, an Irish fashion designer",
-    "WHAT: He died at age 80 in London after a short illness",
-    "WHERE: He died in London, was born in Dublin, and worked in cities like Paris and New York",
-    "WHY: He was a significant figure in fashion, known for dressing Princess Diana and promoting Irish fabrics"
+    "WHAT: He died at age 80 after a short illness",
+    "WHERE: He died in London and was born in Dublin",
+    "WHY: The article shares his life story and impact on fashion"
   ],
   "perspectives": [
     {
       "perspective": "Family's view",
-      "description": "They are deeply saddened by his passing and shared that he died peacefully surrounded by family."
+      "description": "They are sad about his death and remember him as a loving father and husband"
     },
     {
-      "perspective": "Public figure's view",
-      "description": "The Irish prime minister praised him as an icon who elevated Irish fashion globally."
+      "perspective": "Public view",
+      "description": "People see him as a successful designer who made Irish fashion famous worldwide"
     }
   ],
   "image_url": "/article_images/article_dd95e8a1e2250f93_16b56b693b58.webp"

@@ -1,30 +1,30 @@
 {
-  "title": "How Scientists Make Cleaner Fertilizer with Copper",
-  "summary": "Scientists in Tokyo found a cool way to make ammonia, which is used in fertilizers to help plants grow. Normally, making ammonia uses a lot of energy and creates pollution, but they used a special material called copper oxide in a reaction that works at room temperature. They discovered that tiny copper pieces form during the reaction and help turn nitrite into ammonia. This new method is better for the environment because it doesn't need high heat or pressure. Understanding this step could lead to cleaner ways to produce important chemicals for farming, helping our planet.",
+  "title": "How a Copper Switch Helps Make Clean Ammonia",
+  "summary": "Scientists in Tokyo found a special way to make ammonia, which is used in fertilizers to help plants grow. Normally, making ammonia uses a lot of energy and creates pollution. But this new method uses electricity and a material called copper oxide to change nitrates into ammonia at room temperature. They discovered that tiny copper pieces form during the reaction and help make ammonia faster. This is better for the environment because it doesn't produce as much carbon dioxide. Understanding this process could lead to cleaner ways to produce ammonia, helping farmers and reducing harm to the planet.",
   "keywords": [
+    {
+      "term": "ammonia",
+      "explanation": "a chemical used in fertilizers to help plants grow"
+    },
     {
       "term": "catalyst",
       "explanation": "a material that speeds up a chemical reaction without being used up"
-    },
-    {
-      "term": "ammonia",
-      "explanation": "a chemical used in fertilizers to help crops grow"
     },
     {
       "term": "copper oxide",
       "explanation": "a substance made of copper and oxygen that helps in reactions"
     },
     {
+      "term": "nitrate",
+      "explanation": "a type of chemical that can be changed into ammonia"
+    },
+    {
       "term": "electrochemical",
       "explanation": "using electricity to cause a chemical change"
     },
     {
-      "term": "nitrate",
-      "explanation": "a type of chemical found in soil and water that can be turned into ammonia"
-    },
-    {
-      "term": "green",
-      "explanation": "describes something that is good for the environment and uses less energy"
+      "term": "pollution",
+      "explanation": "dirty stuff in the air or water that can harm the environment"
     }
   ],
   "questions": [
@@ -39,7 +39,7 @@
       "correct_answer": "Making fertilizers"
     },
     {
-      "question": "Which material helps speed up the reaction to make ammonia?",
+      "question": "Which material acts as a catalyst in the new ammonia production method?",
       "options": [
         "Copper oxide",
         "Iron",
@@ -49,63 +49,63 @@
       "correct_answer": "Copper oxide"
     },
     {
-      "question": "How does the new method compare to the old Haber-Bosch process?",
+      "question": "How does the new method compare to the old Haber-Bosch process in terms of energy use?",
       "options": [
-        "It is cleaner and uses less energy",
-        "It is faster but more polluting",
-        "It is the same as the old way",
-        "It only works in cold places"
+        "It uses less energy",
+        "It uses more energy",
+        "It uses the same energy",
+        "It doesn't use energy"
       ],
-      "correct_answer": "It is cleaner and uses less energy"
+      "correct_answer": "It uses less energy"
     },
     {
       "question": "What forms during the reaction to help make ammonia?",
       "options": [
         "Tiny copper particles",
-        "Big rocks",
-        "Water bubbles",
-        "Air pockets"
+        "Big iron blocks",
+        "Water droplets",
+        "Air bubbles"
       ],
       "correct_answer": "Tiny copper particles"
     },
     {
-      "question": "Where did the scientists do this research?",
+      "question": "Where did the researchers conduct this study?",
       "options": [
         "Tokyo Metropolitan University",
-        "A farm in the countryside",
-        "A factory in America",
-        "A school in Europe"
+        "New York University",
+        "London School",
+        "Paris Institute"
       ],
       "correct_answer": "Tokyo Metropolitan University"
     },
     {
-      "question": "Why is finding cleaner ways to make ammonia important?",
+      "question": "Why is finding a cleaner way to make ammonia important?",
       "options": [
         "To reduce pollution and help the environment",
         "To make fertilizers cheaper",
         "To use more electricity",
-        "To grow bigger plants only"
+        "To create new metals"
       ],
       "correct_answer": "To reduce pollution and help the environment"
     }
   ],
   "background_read": [
-    "Ammonia is a key ingredient in fertilizers that help crops grow, feeding people around the world. Most ammonia is made using the Haber-Bosch process, which requires high heat and pressure and releases a lot of carbon dioxide, harming the environment. Scientists are looking for better ways, like using electricity and catalysts such as copper oxide, to make ammonia at room temperature. This new approach could reduce energy use and pollution, making farming more sustainable. Learning about these methods helps us understand how science can protect our planet."
+    "Ammonia is a key ingredient in fertilizers that help crops grow, feeding people around the world. Most ammonia is made using the Haber-Bosch process, which requires high heat and pressure, using lots of energy and releasing carbon dioxide that contributes to climate change. Scientists are looking for better ways, like using electricity and catalysts, to make ammonia without harming the environment. This article talks about a discovery in Tokyo that uses copper oxide to make ammonia more cleanly at normal temperatures, which could lead to greener farming and a healthier planet."
   ],
   "Article_Structure": [
     "WHO: Researchers at Tokyo Metropolitan University led by Professor Fumiaki Amano",
-    "WHAT: They discovered how copper oxide catalyst helps make ammonia in a cleaner way using electricity",
-    "WHERE: The research was conducted at Tokyo Metropolitan University in Japan",
-    "WHY: To develop environmentally friendly methods for ammonia production to reduce pollution from fertilizers"
+    "WHAT: They found that copper oxide catalyst helps make ammonia in a cleaner way by forming tiny copper particles during the reaction",
+    "WHERE: The study was conducted at Tokyo Metropolitan University in Japan",
+    "WHY: To develop a more environmentally friendly method for ammonia production to reduce pollution from fertilizers"
   ],
   "perspectives": [
     {
-      "perspective": "Environmental",
-      "description": "This research supports reducing carbon emissions and protecting the environment by creating greener chemical processes."
+      "perspective": "Environmental benefits",
+      "description": "This new method could reduce carbon emissions and help fight climate change."
     },
     {
-      "perspective": "Agricultural",
-      "description": "Improving ammonia production can lead to more sustainable farming practices and secure food supplies."
+      "perspective": "Agricultural impact",
+      "description": "Cleaner ammonia production might lead to more sustainable farming and better food supplies."
     }
   ],
   "image_url": "/article_images/article_c5897a4513a5c505_cb14f3d11769.webp"

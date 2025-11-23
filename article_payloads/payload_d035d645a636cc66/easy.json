@@ -1,26 +1,26 @@
 {
   "title": "Giant Shark from Dinosaur Times in Australia",
-  "summary": "Long ago, about 115 million years, a huge shark lived in the ocean near Australia. Scientists found fossils of its bones, which are like the Great White shark's but bigger. This shark was a top predator and ate other animals in the sea. It shows that big sharks existed much earlier than we thought. Fossils are old remains that help us learn about the past. This discovery helps us understand how sharks changed over time. The research was done by experts from different countries, and you can see the fossils in a museum.",
+  "summary": "Long ago, about 115 million years ago, a huge shark lived in the ocean near Australia. Scientists found fossils of its bones, which are like the Great White shark's but bigger. This shark was an early relative of today's big sharks and was a top predator, eating other animals in the sea. Sharks have been around for over 400 million years, but this one shows they grew large much earlier than we thought. Fossils are mostly teeth because shark skeletons are soft and don't fossilize well. The discovery helps us learn how sharks evolved and changed in size over time.",
   "keywords": [
     {
       "term": "fossils",
-      "explanation": "old remains of plants or animals that turned into rock"
+      "explanation": "remains of ancient plants or animals preserved in rock"
     },
     {
       "term": "shark",
-      "explanation": "a big fish that lives in the ocean and has sharp teeth"
+      "explanation": "a type of fish with a cartilaginous skeleton and sharp teeth"
     },
     {
       "term": "predator",
       "explanation": "an animal that hunts and eats other animals"
     },
     {
-      "term": "vertebrae",
-      "explanation": "the bones in the back that make up the spine"
-    },
-    {
       "term": "evolution",
       "explanation": "how living things change slowly over a long time"
+    },
+    {
+      "term": "vertebrae",
+      "explanation": "the bones that make up the spine or backbone"
     },
     {
       "term": "Australia",
@@ -39,17 +39,17 @@
       "correct_answer": "115 million years"
     },
     {
-      "question": "What part of the shark was found as fossils?",
+      "question": "What part of the shark was mostly found as fossils?",
       "options": [
         "Teeth",
-        "Vertebrae",
         "Fins",
+        "Eyes",
         "Skin"
       ],
-      "correct_answer": "Vertebrae"
+      "correct_answer": "Teeth"
     },
     {
-      "question": "Where were the fossils discovered?",
+      "question": "Where were the shark fossils discovered?",
       "options": [
         "Near Darwin, Australia",
         "In Europe",
@@ -59,53 +59,53 @@
       "correct_answer": "Near Darwin, Australia"
     },
     {
-      "question": "Why are shark fossils mostly teeth?",
+      "question": "Why do shark fossils often only include teeth?",
       "options": [
         "Their skeletons are made of cartilage",
-        "They have hard bones",
-        "They live on land",
-        "They are very small"
+        "They have no bones",
+        "Teeth are hard to find",
+        "They lived in deep water"
       ],
       "correct_answer": "Their skeletons are made of cartilage"
     },
     {
-      "question": "What ocean was near Australia long ago?",
+      "question": "What group does this giant shark belong to?",
       "options": [
-        "Tethys Ocean",
-        "Pacific Ocean",
-        "Atlantic Ocean",
-        "Indian Ocean"
+        "Lamniforms",
+        "Dinosaurs",
+        "Whales",
+        "Fish"
       ],
-      "correct_answer": "Tethys Ocean"
+      "correct_answer": "Lamniforms"
     },
     {
-      "question": "How does this discovery help scientists?",
+      "question": "How does this discovery change what scientists thought?",
       "options": [
-        "It shows big sharks lived earlier",
-        "It proves sharks are not real",
-        "It says sharks are small",
-        "It means dinosaurs lived in water"
+        "Sharks grew large earlier than believed",
+        "Sharks are older than dinosaurs",
+        "Sharks lived on land",
+        "Sharks did not exist long ago"
       ],
-      "correct_answer": "It shows big sharks lived earlier"
+      "correct_answer": "Sharks grew large earlier than believed"
     }
   ],
   "background_read": [
-    "Sharks are fish that have been around for millions of years. They have skeletons made of cartilage, which is softer than bone, so their bodies don't fossilize well. Fossils are like nature's photographs from the past, showing us what life was like long ago. In dinosaur times, the oceans were full of giant creatures like marine reptiles and big fish. Scientists study fossils to learn how animals evolved and changed over time. This helps us understand the history of life on Earth."
+    "Sharks are ancient fish that have lived for millions of years. They have skeletons made of cartilage, which is softer than bone, so their bodies don't fossilize well. Instead, we often find their teeth as fossils. This article talks about a big shark found in Australia from the time of dinosaurs, showing that sharks became huge predators long ago. Learning about fossils helps scientists understand how animals evolved and what the world was like in the past."
   ],
   "Article_Structure": [
-    "WHO: Scientists from different countries studied the fossils",
-    "WHAT: They found vertebrae from a giant shark that lived long ago",
-    "WHERE: The fossils were found near Darwin, Australia, in an ancient ocean",
-    "WHY: To learn that big sharks existed earlier than thought and how they evolved"
+    "WHO: Scientists and paleontologists studying fossils",
+    "WHAT: Discovery of a giant shark from 115 million years ago",
+    "WHERE: Near Darwin, Australia, in the ancient Tethys ocean",
+    "WHY: To learn how sharks evolved and grew large early in their history"
   ],
   "perspectives": [
     {
-      "perspective": "Scientific Discovery",
-      "description": "Finding fossils helps us know more about ancient life"
+      "perspective": "Scientific discovery",
+      "description": "Finding fossils helps us understand ancient life and evolution"
     },
     {
-      "perspective": "Evolution",
-      "description": "Sharks changed in size over millions of years"
+      "perspective": "Educational value",
+      "description": "This story teaches us about sharks and prehistoric oceans"
     }
   ],
   "image_url": "/article_images/article_d035d645a636cc66_3f78b6320f81.webp"

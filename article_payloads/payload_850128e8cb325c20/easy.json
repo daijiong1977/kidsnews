@@ -1,6 +1,6 @@
 {
-  "title": "Newspaper Company Buys Another Newspaper",
-  "summary": "The company that owns the Daily Mail newspaper has agreed to buy the Daily Telegraph and Sunday Telegraph newspapers for £500 million. This means the Daily Mail and General Trust (DMGT) will add the Telegraph to its group of media companies. The deal needs approval from the government's Culture Secretary, Lisa Nandy, to make sure it is fair and in the public interest. The Telegraph has been in a uncertain situation for over two years because of previous ownership issues. DMGT's chairman says he respects the Telegraph and wants to invest in it, keeping it independent from their other papers. This purchase could help the Telegraph grow into a global brand.",
+  "title": "A Big Newspaper Deal in the UK",
+  "summary": "The company that owns the Daily Mail newspaper has agreed to buy another newspaper called the Daily Telegraph for £500 million. This means the Daily Mail's publisher, DMGT, wants to add the Telegraph to its group of media companies. The deal needs approval from the government's Culture Secretary to make sure it is fair and in the public interest. The Telegraph has had uncertain ownership for over two years, and this purchase could bring stability. DMGT's chairman says he respects the Telegraph and will keep it independent while helping it grow. This is important because newspapers help share news and ideas in society.",
   "keywords": [
     {
       "term": "publisher",
@@ -8,7 +8,7 @@
     },
     {
       "term": "deal",
-      "explanation": "an agreement between people or companies to buy or sell something"
+      "explanation": "an agreement to buy or sell something"
     },
     {
       "term": "government approval",
@@ -16,33 +16,33 @@
     },
     {
       "term": "newspaper",
-      "explanation": "a printed publication with news and stories that people read daily"
+      "explanation": "a printed paper with news and stories that people read"
     },
     {
       "term": "ownership",
-      "explanation": "who legally owns and controls something, like a business"
+      "explanation": "who something belongs to"
     },
     {
-      "term": "investment",
-      "explanation": "putting money into something to help it grow or improve"
+      "term": "independence",
+      "explanation": "being free to make your own decisions without others controlling you"
     }
   ],
   "questions": [
     {
       "question": "Who is buying the Daily Telegraph?",
       "options": [
-        "Daily Mail and General Trust",
+        "Daily Mail publisher",
         "RedBird IMI",
         "Barclay family",
-        "UK Government"
+        "Culture Secretary"
       ],
-      "correct_answer": "Daily Mail and General Trust"
+      "correct_answer": "Daily Mail publisher"
     },
     {
-      "question": "How much is the deal worth?",
+      "question": "How much money is the deal for?",
       "options": [
-        "£100 million",
         "£500 million",
+        "£100 million",
         "£1 billion",
         "£50 million"
       ],
@@ -53,63 +53,59 @@
       "options": [
         "Culture Secretary",
         "Prime Minister",
-        "King of UK",
+        "King",
         "Police"
       ],
       "correct_answer": "Culture Secretary"
     },
     {
-      "question": "What is the name of the company buying the Telegraph?",
+      "question": "Why has the Telegraph been uncertain?",
       "options": [
-        "DMGT",
-        "BBC",
-        "RedBird IMI",
-        "Barclay Group"
+        "Ownership issues for years",
+        "No readers",
+        "Too expensive",
+        "Bad news"
       ],
-      "correct_answer": "DMGT"
+      "correct_answer": "Ownership issues for years"
     },
     {
-      "question": "How long has the Telegraph been in limbo?",
+      "question": "What does DMGT promise about the Telegraph?",
       "options": [
-        "1 year",
-        "2 years",
-        "5 years",
-        "10 years"
-      ],
-      "correct_answer": "2 years"
-    },
-    {
-      "question": "What does DMGT plan to do with the Telegraph?",
-      "options": [
-        "Close it down",
-        "Keep it editorially independent",
+        "Keep it independent",
+        "Change its name",
         "Sell it again",
-        "Merge it with BBC"
+        "Close it down"
       ],
-      "correct_answer": "Keep it editorially independent"
+      "correct_answer": "Keep it independent"
+    },
+    {
+      "question": "What other media does DMGT own?",
+      "options": [
+        "i Paper and Metro",
+        "BBC and ITV",
+        "Facebook and Twitter",
+        "Books and magazines"
+      ],
+      "correct_answer": "i Paper and Metro"
     }
   ],
   "background_read": [
-    "Newspapers are important for sharing news and information. Companies like DMGT own multiple newspapers to reach more readers. When one company buys another, the government checks if it's good for the public to ensure fair competition and avoid too much control by one group. The Telegraph is a famous British newspaper with a long history, and this deal aims to give it stability and help it grow."
+    "Newspapers are important for sharing news and opinions. In the UK, big companies often buy newspapers to grow their business. The government checks these deals to ensure no one has too much control over the news, which helps keep information fair and diverse for everyone."
   ],
   "Article_Structure": [
     "WHO: Daily Mail and General Trust (DMGT) and RedBird IMI",
-    "WHAT: Agreement to buy the Daily and Sunday Telegraph for £500 million",
-    "WHERE: United Kingdom, involving UK government approval",
-    "WHY: To resolve uncertainty, invest in the Telegraph, and expand it as a global brand"
+    "WHAT: Agreement to buy the Daily Telegraph for £500 million",
+    "WHERE: United Kingdom",
+    "WHY: To resolve ownership uncertainty and expand DMGT's media portfolio"
   ],
   "perspectives": [
     {
+      "perspective": "Business view",
+      "description": "The deal helps DMGT grow and bring stability to the Telegraph."
+    },
+    {
       "perspective": "Government view",
-      "description": "Ensures the deal is in public interest and maintains media plurality"
-    },
-    {
-      "perspective": "DMGT view",
-      "description": "Sees opportunity to grow the Telegraph and provide stability"
-    },
-    {
-      "perspective": "Employee view",
-      "description": "Hopes for job security and investment in the newsroom"
+      "description": "The government must check if the deal is good for the public and media variety."
     }
   ],
   "image_url": "/article_images/article_850128e8cb325c20_e9a402179dfa.webp"

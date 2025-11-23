@@ -1,60 +1,50 @@
 {
   "title": "AI Finds a Hidden Lion Roar",
-  "summary": "Scientists have discovered that African lions make two kinds of roars, not just one. Using artificial intelligence, researchers found a new 'intermediary roar' that helps identify lions better. This is important because lions are in danger, with only about 20,000 to 25,000 left in Africa. The AI system can tell the roars apart with high accuracy, making it easier for conservationists to track and protect these big cats. This new method reduces human mistakes and helps save lions from extinction. It shows how technology can help animals in the wild.",
+  "summary": "Scientists have discovered that African lions make two kinds of roars, not just one. Using artificial intelligence, researchers found a new 'intermediary roar' that helps identify lions better. This is important because lions are in danger, with only about 20,000 to 25,000 left in Africa. The AI system can tell the roars apart with high accuracy, making it easier for conservationists to track and protect these big cats. This new method reduces human mistakes and helps save lions from extinction. The study was done by experts from universities and wildlife groups, and it shows how technology can help animals.",
   "keywords": [
     {
-      "term": "roar",
-      "explanation": "the loud sound a lion makes"
+      "term": "AI",
+      "explanation": "a computer system that can learn and make decisions like a human"
     },
     {
-      "term": "AI",
-      "explanation": "artificial intelligence, a computer that can learn and think"
+      "term": "roar",
+      "explanation": "the loud sound a lion makes to communicate"
     },
     {
       "term": "conservation",
-      "explanation": "protecting animals and nature"
+      "explanation": "the act of protecting animals and nature"
     },
     {
       "term": "population",
-      "explanation": "the number of lions living in an area"
-    },
-    {
-      "term": "monitoring",
-      "explanation": "watching and tracking animals to learn about them"
+      "explanation": "the number of animals living in an area"
     },
     {
       "term": "extinction",
       "explanation": "when a type of animal disappears forever"
+    },
+    {
+      "term": "monitoring",
+      "explanation": "watching and tracking animals to learn about them"
     }
   ],
   "questions": [
     {
-      "question": "How many types of roars do African lions have?",
+      "question": "What did AI help discover about lion roars?",
       "options": [
-        "One",
-        "Two",
-        "Three",
-        "Four"
+        "One type of roar",
+        "Two types of roars",
+        "No roars at all",
+        "Only loud roars"
       ],
-      "correct_answer": "Two"
-    },
-    {
-      "question": "What technology was used to study lion roars?",
-      "options": [
-        "Cameras",
-        "AI",
-        "Radios",
-        "Drones"
-      ],
-      "correct_answer": "AI"
+      "correct_answer": "Two types of roars"
     },
     {
       "question": "Why is it important to study lion roars?",
       "options": [
-        "To make them louder",
+        "To make lions roar louder",
         "To track and protect lions",
-        "To scare other animals",
-        "To teach lions new sounds"
+        "To teach lions new sounds",
+        "To scare other animals"
       ],
       "correct_answer": "To track and protect lions"
     },
@@ -72,40 +62,50 @@
       "question": "What is the status of lions according to conservation groups?",
       "options": [
         "Safe",
-        "Common",
-        "Vulnerable",
-        "Extinct"
+        "Extinct",
+        "Vulnerable to extinction",
+        "Too many"
       ],
-      "correct_answer": "Vulnerable"
+      "correct_answer": "Vulnerable to extinction"
     },
     {
-      "question": "Who led the research on lion roars?",
+      "question": "Who led the study mentioned in the article?",
       "options": [
-        "Jonathan Growcott",
         "A zookeeper",
-        "A farmer",
-        "A teacher"
+        "Jonathan Growcott",
+        "A lion",
+        "A robot"
       ],
       "correct_answer": "Jonathan Growcott"
+    },
+    {
+      "question": "What does the new method reduce in lion monitoring?",
+      "options": [
+        "Human bias",
+        "Lion numbers",
+        "Roar volume",
+        "Food supply"
+      ],
+      "correct_answer": "Human bias"
     }
   ],
   "background_read": [
-    "Lions are big cats that live in Africa and are known for their loud roars. They are in danger because their numbers are going down. Scientists study them to help protect them. Artificial intelligence, or AI, is a smart computer tool that can learn from sounds and pictures. In this study, AI helped find a new type of roar that people didn't know about before. This makes it easier to count lions and keep them safe."
+    "Lions are big cats that live in Africa and are known for their loud roars. They are in danger because their numbers are going down. Conservationists work to protect them by studying how they live. Artificial intelligence, or AI, is technology that helps computers learn from data. In this study, AI was used to analyze lion sounds, which is part of a field called bioacoustics. This helps scientists understand lions better without always needing people to watch them directly."
   ],
   "Article_Structure": [
     "WHO: Researchers from the University of Exeter and other groups",
-    "WHAT: Discovered a new intermediary roar in lions using AI",
+    "WHAT: Discovered a new type of lion roar using AI",
     "WHERE: In Africa, where lions live",
-    "WHY: To improve tracking and conservation of vulnerable lion populations"
+    "WHY: To improve conservation and protect lions from extinction"
   ],
   "perspectives": [
     {
       "perspective": "Scientific",
-      "description": "Using AI to find new animal sounds helps science learn more."
+      "description": "The discovery shows how AI can reveal new animal behaviors."
     },
     {
       "perspective": "Conservation",
-      "description": "Better tracking can save lions from dying out."
+      "description": "This helps in monitoring lions more accurately to save them."
     }
   ],
   "image_url": "/article_images/article_f5dd53b68969c1fd_a6125aafebb3.webp"

@@ -1,22 +1,22 @@
 {
   "title": "Radiohead's Amazing Concert in London",
-  "summary": "Radiohead, a famous band, played a big show in London after a long break. They hadn't released new music in 10 years or played in the UK for 99 months. Fans were very excited. The band played many songs from their old albums, like The Bends and Kid A. Sometimes they made small mistakes, but overall the concert was magical. They started with Planet Telex and played hits like 2+2=5 and No Surprises. The music made people dance and nod their heads. It was a fun night for everyone who loves music.",
+  "summary": "Radiohead, a famous band, played a big concert in London at the O2 Arena. It was their first UK show in many years, and fans were very excited. The band played songs from their whole career, including old hits and new favorites. There were some small mistakes, but overall the music was powerful and fun. Thom Yorke, the singer, joked with the audience. Songs like 'Planet Telex' and 'Weird Fishes' made people happy. The rhythm section with bass and drums kept everyone moving. Even though the rhythms were tricky, fans enjoyed nodding along. It was a special night for music lovers.",
   "keywords": [
-    {
-      "term": "band",
-      "explanation": "a group of people who play music together"
-    },
     {
       "term": "concert",
       "explanation": "a live music performance for an audience"
     },
     {
-      "term": "album",
-      "explanation": "a collection of songs released together"
+      "term": "band",
+      "explanation": "a group of people who play music together"
     },
     {
       "term": "fans",
-      "explanation": "people who really like a band or singer"
+      "explanation": "people who really like and support a band or artist"
+    },
+    {
+      "term": "songs",
+      "explanation": "pieces of music with words and melodies"
     },
     {
       "term": "rhythm",
@@ -24,88 +24,88 @@
     },
     {
       "term": "encore",
-      "explanation": "an extra song played at the end of a concert"
+      "explanation": "an extra song played at the end of a concert by popular demand"
     }
   ],
   "questions": [
     {
-      "question": "How long had it been since Radiohead last released new music?",
+      "question": "Where did Radiohead play their concert?",
       "options": [
-        "5 years",
-        "10 years",
-        "15 years",
-        "20 years"
-      ],
-      "correct_answer": "10 years"
-    },
-    {
-      "question": "Where did the concert take place?",
-      "options": [
-        "Madrid",
         "London",
         "Paris",
-        "New York"
+        "New York",
+        "Tokyo"
       ],
       "correct_answer": "London"
     },
     {
-      "question": "What was the first song Radiohead played at the concert?",
+      "question": "Who is the lead singer of Radiohead?",
       "options": [
-        "No Surprises",
+        "Thom Yorke",
+        "Colin Greenwood",
+        "Chris Vatalaro",
+        "George Bush"
+      ],
+      "correct_answer": "Thom Yorke"
+    },
+    {
+      "question": "How long had it been since their last UK gig?",
+      "options": [
+        "10 years",
+        "5 years",
+        "99 months",
+        "1 year"
+      ],
+      "correct_answer": "99 months"
+    },
+    {
+      "question": "What song did they start the concert with?",
+      "options": [
         "Planet Telex",
+        "No Surprises",
         "Idioteque",
         "Lucky"
       ],
       "correct_answer": "Planet Telex"
     },
     {
-      "question": "Why were fans excited for the concert?",
+      "question": "What did fans do during the concert?",
       "options": [
-        "The band played new songs",
-        "It was their first show in a long time",
-        "They gave out free tickets",
-        "It was a birthday party"
-      ],
-      "correct_answer": "It was their first show in a long time"
-    },
-    {
-      "question": "What did some fans do during the concert?",
-      "options": [
-        "Sang along loudly",
         "Nodded their heads",
+        "Sang loudly",
         "Danced on stage",
-        "Took photos only"
+        "Left early"
       ],
       "correct_answer": "Nodded their heads"
     },
     {
       "question": "What is an encore?",
       "options": [
+        "An extra song at the end",
         "The first song",
         "A break in the show",
-        "An extra song at the end",
         "A type of instrument"
       ],
       "correct_answer": "An extra song at the end"
     }
   ],
   "background_read": [
-    "Radiohead is a popular rock band from England that started in the 1980s. They are known for their unique music that mixes rock, electronic sounds, and thoughtful lyrics. Over the years, they have made many albums that fans love, and they often play big concerts around the world. This article talks about one of their recent shows in London, which was special because they hadn't performed in the UK for a long time."
+    "Radiohead is a British rock band that started in the 1980s. They are known for their unique music that mixes rock, electronic sounds, and thoughtful lyrics. Over the years, they have released many albums and won awards. Fans love them for their creative songs and live performances. Concerts like this one are special events where bands play their music for excited audiences in big venues like arenas."
   ],
   "Article_Structure": [
-    "WHO: Radiohead, the band, and their fans",
-    "WHAT: They played a concert with many songs from their albums",
-    "WHERE: At the O2 Arena in London",
-    "WHY: To entertain fans after a long break and celebrate their music"
+    "WHO: Radiohead band and their fans",
+    "WHAT: A concert with many songs and some mistakes",
+    "WHERE: O2 Arena in London",
+    "WHY: To entertain fans after a long break"
   ],
   "perspectives": [
     {
       "perspective": "Fan excitement",
-      "description": "Fans were very happy to see the band play again after so long."
+      "description": "Fans were very happy to see the band after a long wait."
     },
     {
       "perspective": "Band performance",
-      "description": "The band played well but had some small mistakes, showing they are human."
+      "description": "The band played well overall, with a few small errors."
     }
   ],
   "image_url": "/article_images/article_0f67b3de7a9298a0_8640bd069f0c.webp"
