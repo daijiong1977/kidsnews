@@ -638,19 +638,28 @@
                 
                 // Store questions globally for answer checking
                 window.quizQuestions = selectedQuestions.map(q => {
-                    // Handle two possible formats for correct_answer:
-                    // 1. Full text: "A magnetic sense"
-                    // 2. Letter only: "A", "B", "C", "D"
+                    // IMPORTANT: q.options is the ORIGINAL unshuffled array from JSON
+                    // "correct_answer": "A" means options[0], "B" means options[1], etc.
+                    // We must get the correct text BEFORE shuffling
+                    
                     let correctAnswerText = q.correct_answer;
                     
                     // If correct_answer is just a single letter, convert to option text
+                    // from the ORIGINAL options array (before shuffle)
                     if (correctAnswerText && correctAnswerText.length === 1 && /[A-D]/i.test(correctAnswerText)) {
                         const letterMap = {'A': 0, 'B': 1, 'C': 2, 'D': 3};
                         const index = letterMap[correctAnswerText.toUpperCase()];
-                        correctAnswerText = q.options[index];
+                        correctAnswerText = q.options[index];  // Get from original array
+                        console.log(`Question: "${q.question}"`);
+                        console.log(`  Correct answer letter: ${q.correct_answer}`);
+                        console.log(`  Maps to index: ${index}`);
+                        console.log(`  Original options[${index}]: ${correctAnswerText}`);
                     }
                     
+                    // Now shuffle the options for display
                     const shuffledOptions = [...(q.options || [])].sort(() => Math.random() - 0.5);
+                    console.log('  Shuffled options:', shuffledOptions);
+                    
                     return {
                         question: q.question,
                         options: shuffledOptions,
