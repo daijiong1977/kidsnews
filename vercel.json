@@ -2,6 +2,19 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/archive",
+      "has": [
+        {
+          "type": "query",
+          "key": "date"
+        }
+      ],
+      "destination": "/archive/archive?date=:date",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/payloads/(.*)",
