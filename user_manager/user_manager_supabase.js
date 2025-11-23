@@ -50,31 +50,51 @@ class SupabaseUserManager {
         const type = urlParams.get('type');
         
         if (token_hash && type === 'magiclink') {
-            // Supabase will automatically verify the token
-            // Apply the pending reading style if available
-            const pendingStyle = localStorage.getItem('pending_reading_style');
-            if (pendingStyle) {
-                this.readingStyle = pendingStyle;
-                localStorage.setItem('news_reading_style', pendingStyle);
-                localStorage.removeItem('pending_reading_style');
+            // Wait a moment for Supabase to complete authentication
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            
+            // Get the current session to find user email
+            const { data: sessionData } = await this.supabase.auth.getSession();
+            if (sessionData && sessionData.session && sessionData.session.user) {
+                const userEmail = sessionData.session.user.email;
                 
-                // Clean up URL parameters
-                window.history.replaceState({}, document.title, window.location.pathname);
+                // Try to get reading style from magic_links table
+                const { data: magicLinks } = await this.supabase
+                    .from('magic_links')
+                    .select('reading_style')
+                    .eq('email', userEmail)
+                    .limit(1);
                 
-                // Redirect to the selected reading style page
-                const stylePages = {
-                    'relax': '/?lang=en&level=easy',
-                    'enjoy': '/?lang=en&level=middle',
-                    'research': '/?lang=en&level=high',
-                    'chinese': '/?lang=cn'
-                };
-                const redirectUrl = stylePages[pendingStyle] || '/';
-                
-                setTimeout(() => {
+                if (magicLinks && magicLinks.length > 0) {
+                    const pendingStyle = magicLinks[0].reading_style;
+                    this.readingStyle = pendingStyle;
+                    localStorage.setItem('news_reading_style', pendingStyle);
+                    
+                    // Delete the used entry
+                    await this.supabase.from('magic_links').delete().eq('email', userEmail);
+                    
+                    // Clean up URL parameters
+                    window.history.replaceState({}, document.title, window.location.pathname);
+                    
+                    // Redirect to the selected reading style page
+                    const stylePages = {
+                        'relax': '/?lang=en&level=easy',
+                        'enjoy': '/?lang=en&level=middle',
+                        'research': '/?lang=en&level=high',
+                        'chinese': '/?lang=cn'
+                    };
+                    const redirectUrl = stylePages[pendingStyle] || '/';
+                    
                     alert('✅ Successfully signed in! Redirecting to your preferred reading page...');
-                    window.location.href = redirectUrl;
-                }, 500);
+                    setTimeout(() => {
+                        window.location.href = redirectUrl;
+                    }, 500);
+                    return;
+                }
             }
+            
+            // Fallback: just clean up URL
+            window.history.replaceState({}, document.title, window.location.pathname);
         }
 
         // Expose to window for compatibility with existing code
@@ -203,6 +223,20 @@ class SupabaseUserManager {
             if (!email) return alert('Please enter an email');
 
             try {
+                // Store reading style preference in magic_links table
+                const { error: insertError } = await this.supabase
+                    .from('magic_links')
+                    .insert({
+                        token: email, // Use email as temporary key
+                        email: email,
+                        reading_style: this.readingStyle,
+                        expires_at: new Date(Date.now() + 60 * 60 * 1000).toISOString() // 1 hour
+                    });
+                
+                if (insertError && !insertError.message.includes('duplicate')) {
+                    console.error('Failed to store reading style:', insertError);
+                }
+                
                 // Use Supabase's built-in magic link with SMTP settings
                 const { error } = await this.supabase.auth.signInWithOtp({
                     email: email,
@@ -218,9 +252,6 @@ class SupabaseUserManager {
                     console.error('Supabase OTP error:', error);
                     throw new Error(error.message || 'Failed to send magic link');
                 }
-                
-                // Store reading style preference for when user returns
-                localStorage.setItem('pending_reading_style', this.readingStyle);
                 
                 alert('✅ Magic link sent! Check your inbox and click the link to sign in.');
                 wrapper.remove();
