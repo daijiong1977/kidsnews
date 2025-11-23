@@ -49,10 +49,23 @@ class SupabaseUserManager {
         const magicToken = urlParams.get('magic_token');
         if (magicToken) {
             try {
-                await this.verifyMagicLink(magicToken);
+                const readingStyle = await this.verifyMagicLink(magicToken);
                 // Remove token from URL
                 window.history.replaceState({}, document.title, window.location.pathname);
-                alert('✅ Successfully signed in!');
+                
+                // Redirect to the selected reading style page
+                const stylePages = {
+                    'relax': '/?lang=en&level=easy',
+                    'enjoy': '/?lang=en&level=middle',
+                    'research': '/?lang=en&level=high',
+                    'chinese': '/?lang=cn'
+                };
+                const redirectUrl = stylePages[readingStyle] || '/';
+                
+                alert('✅ Successfully signed in! Redirecting to your preferred reading page...');
+                setTimeout(() => {
+                    window.location.href = redirectUrl;
+                }, 1000);
             } catch (error) {
                 console.error('Magic link verification failed:', error);
                 alert('Failed to sign in: ' + error.message);
@@ -314,6 +327,9 @@ class SupabaseUserManager {
         
         // Wait for auth state to update
         await new Promise(resolve => setTimeout(resolve, 500));
+        
+        // Return the reading style so caller can redirect
+        return this.readingStyle;
     }
 
     async changeReadingStyle(newStyle) {

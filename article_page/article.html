@@ -913,6 +913,50 @@ window.userManager = userManager;
 userManager.isRegistered = function() {
     return this.user !== null && this.user !== undefined;
 };
+
+// Update user button display
+function updateUserButton() {
+  const userButton = document.getElementById('user-button');
+  if (!userButton) return;
+  
+  userManager.supabase.auth.getSession().then(({ data }) => {
+    if (data && data.session && data.session.user) {
+      const email = data.session.user.email;
+      const username = email.split('@')[0];
+      userButton.innerHTML = `<span class="truncate">${username}</span>`;
+      userButton.title = email;
+    } else {
+      userButton.innerHTML = '<span class="truncate">👤</span>';
+      userButton.title = 'User Account';
+    }
+  });
+}
+
+// Set up user button on DOM load
+document.addEventListener('DOMContentLoaded', () => {
+  const userButton = document.getElementById('user-button');
+  if (userButton) {
+    // Update button on load
+    updateUserButton();
+    
+    // Listen for auth changes
+    userManager.supabase.auth.onAuthStateChange(() => {
+      updateUserButton();
+    });
+    
+    userButton.addEventListener('click', async () => {
+      const { data } = await userManager.supabase.auth.getSession();
+      if (data && data.session && data.session.user) {
+        if (confirm(`Logged in as ${data.session.user.email}\n\nLogout?`)) {
+          await userManager.logout();
+          location.reload();
+        }
+      } else {
+        userManager.openLoginSubscribeModal();
+      }
+    });
+  }
+});
 </script>
 <!-- Article Page User Actions Script -->
 <script>

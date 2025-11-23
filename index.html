@@ -639,10 +639,36 @@ import SupabaseUserManager from './user_manager/user_manager_supabase.js';
 const userManager = new SupabaseUserManager();
 window.userManager = userManager;
 
+// Update user button display
+function updateUserButton() {
+  const userButton = document.getElementById('user-button');
+  if (!userButton) return;
+  
+  const { data } = userManager.supabase.auth.getSession().then(({ data }) => {
+    if (data && data.session && data.session.user) {
+      const email = data.session.user.email;
+      const username = email.split('@')[0];
+      userButton.innerHTML = `<span class="truncate">${username}</span>`;
+      userButton.title = email;
+    } else {
+      userButton.innerHTML = '<span class="truncate">👤</span>';
+      userButton.title = 'User Account';
+    }
+  });
+}
+
 // Attach to user button after DOM loads
 document.addEventListener('DOMContentLoaded', () => {
   const userButton = document.getElementById('user-button');
   if (userButton) {
+    // Update button on load
+    updateUserButton();
+    
+    // Listen for auth changes
+    userManager.supabase.auth.onAuthStateChange(() => {
+      updateUserButton();
+    });
+    
     userButton.addEventListener('click', async () => {
       // Check if user is logged in
       const { data } = await userManager.supabase.auth.getSession();
