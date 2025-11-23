@@ -44,20 +44,36 @@ class SupabaseUserManager {
             await this.onLogin(data.session.user);
         }
 
-        // Check for magic link token in URL
+        // Check for magic link token in URL (Supabase OTP)
         const urlParams = new URLSearchParams(window.location.search);
-        const magicToken = urlParams.get('magic_token');
-        if (magicToken) {
-            try {
-                await this.verifyMagicLink(magicToken);
-                // Remove token from URL
+        const token_hash = urlParams.get('token_hash');
+        const type = urlParams.get('type');
+        
+        if (token_hash && type === 'magiclink') {
+            // Supabase will automatically verify the token
+            // Apply the pending reading style if available
+            const pendingStyle = localStorage.getItem('pending_reading_style');
+            if (pendingStyle) {
+                this.readingStyle = pendingStyle;
+                localStorage.setItem('news_reading_style', pendingStyle);
+                localStorage.removeItem('pending_reading_style');
+                
+                // Clean up URL parameters
                 window.history.replaceState({}, document.title, window.location.pathname);
-                alert('✅ Successfully signed in!');
-            } catch (error) {
-                console.error('Magic link verification failed:', error);
-                alert('Failed to sign in: ' + error.message);
-                // Remove token from URL
-                window.history.replaceState({}, document.title, window.location.pathname);
+                
+                // Redirect to the selected reading style page
+                const stylePages = {
+                    'relax': '/?lang=en&level=easy',
+                    'enjoy': '/?lang=en&level=middle',
+                    'research': '/?lang=en&level=high',
+                    'chinese': '/?lang=cn'
+                };
+                const redirectUrl = stylePages[pendingStyle] || '/';
+                
+                setTimeout(() => {
+                    alert('✅ Successfully signed in! Redirecting to your preferred reading page...');
+                    window.location.href = redirectUrl;
+                }, 500);
             }
         }
 
@@ -187,11 +203,30 @@ class SupabaseUserManager {
             if (!email) return alert('Please enter an email');
 
             try {
-                await this.sendCustomMagicLink(email);
+                // Use Supabase's built-in magic link with SMTP settings
+                const { error } = await this.supabase.auth.signInWithOtp({
+                    email: email,
+                    options: {
+                        emailRedirectTo: window.location.origin,
+                        data: {
+                            reading_style: this.readingStyle
+                        }
+                    }
+                });
+                
+                if (error) {
+                    console.error('Supabase OTP error:', error);
+                    throw new Error(error.message || 'Failed to send magic link');
+                }
+                
+                // Store reading style preference for when user returns
+                localStorage.setItem('pending_reading_style', this.readingStyle);
+                
                 alert('✅ Magic link sent! Check your inbox and click the link to sign in.');
+                wrapper.remove();
             } catch (error) {
                 console.error('Magic link error:', error);
-                alert('Error sending magic link: ' + error.message);
+                alert('❌ Error sending magic link: ' + error.message + '\n\nPlease verify SMTP settings in Supabase dashboard.');
             }
         };
     }
