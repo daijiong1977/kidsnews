@@ -7,1092 +7,308 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="./assets/fonts/newsreader.css" rel="stylesheet"/>
     <link href="./assets/fonts/material-symbols.css" rel="stylesheet"/>
+    <link href="./user_manager/user_manager.css" rel="stylesheet"/>
     <script type="module">
         import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm'
         
+        // Initialize Supabase with correct anon key
         window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
         window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MzMwMjcsImV4cCI6MjA3ODMwOTAyN30.2YPvOkZOWi4hDjtwZYkVt9a-RwYSnfotjV6Raj24ZjE';
         
         window.supabaseClient = createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY, {
-            auth: { persistSession: true, autoRefreshToken: true }
+            auth: { 
+                persistSession: true,
+                autoRefreshToken: true
+            }
         });
         
         window.supabaseReady = true;
     </script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .login-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            z-index: 2000;
-        }
-
-        .login-container.hidden {
-            display: none;
-        }
-
-        .login-box {
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-            width: 100%;
-            max-width: 400px;
-        }
-
-        .login-box h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 10px;
-            font-size: 28px;
-        }
-
-        .login-box p {
-            text-align: center;
-            color: #666;
-            margin-bottom: 30px;
-            font-size: 14px;
-        }
-
-        .login-box .form-group {
-            margin-bottom: 20px;
-        }
-
-        .login-box label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: #333;
-        }
-
-        .login-box input {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            font-size: 14px;
-        }
-
-        .login-box input:focus {
-            outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-        }
-
-        .login-box button {
-            width: 100%;
-            padding: 12px;
-            background: #667eea;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .login-box button:hover {
-            background: #5568d3;
-            transform: translateY(-2px);
-        }
-
-        .login-error {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-            display: none;
-            font-size: 14px;
-        }
-
-        /* Main admin area */
-        .admin-container {
-            display: none;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .admin-container.show {
-            display: block;
-        }
-
-        header {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header h1 {
-            color: #333;
-            font-size: 24px;
-        }
-
-        .logout-btn {
-            padding: 8px 16px;
-            background: #dc3545;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-        }
-
-        .logout-btn:hover {
-            background: #c82333;
-        }
-
-        .tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-        }
-
-        .tab-btn {
-            padding: 10px 20px;
-            background: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 600;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-
-        .tab-btn:hover {
-            transform: translateY(-2px);
-        }
-
-        .tab-btn.active {
-            background: #667eea;
-            color: white;
-        }
-
-        .tab-content {
-            display: none;
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .tab-content.active {
-            display: block;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: #333;
-        }
-
-        input, select, textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            font-size: 14px;
-            font-family: inherit;
-        }
-
-        input:focus, select:focus, textarea:focus {
-            outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-        }
-
-        .form-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-
-        button.btn {
-            padding: 10px 20px;
-            background: #667eea;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-
-        button.btn:hover {
-            background: #5568d3;
-            transform: translateY(-2px);
-        }
-
-        button.btn-danger {
-            background: #dc3545;
-        }
-
-        button.btn-danger:hover {
-            background: #c82333;
-        }
-
-        button.btn-small {
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        .table-wrapper {
-            overflow-x: auto;
-            margin-top: 20px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th {
-            background: #f8f9fa;
-            padding: 12px;
-            text-align: left;
-            font-weight: 600;
-            color: #333;
-            border-bottom: 2px solid #ddd;
-        }
-
-        td {
-            padding: 12px;
-            border-bottom: 1px solid #eee;
-        }
-
-        tr:hover {
-            background: #f8f9fa;
-        }
-
-        .badge {
-            display: inline-block;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            font-weight: 600;
-        }
-
-        .badge-success {
-            background: #d4edda;
-            color: #155724;
-        }
-
-        .badge-danger {
-            background: #f8d7da;
-            color: #721c24;
-        }
-
-        .action-buttons {
-            display: flex;
-            gap: 8px;
-        }
-
-        .alert {
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-        }
-
-        .alert-success {
-            background: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-
-        .alert-error {
-            background: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-
-        .alert-info {
-            background: #d1ecf1;
-            color: #0c5460;
-            border: 1px solid #bee5eb;
-        }
-
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .stat-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        .stat-card h3 {
-            font-size: 32px;
-            margin-bottom: 5px;
-        }
-
-        .stat-card p {
-            font-size: 14px;
-            opacity: 0.9;
-        }
-
-        .backup-item {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .backup-info {
-            flex: 1;
-            min-width: 200px;
-        }
-
-        .backup-info strong {
-            display: block;
-            color: #333;
-            margin-bottom: 5px;
-        }
-
-        .backup-info small {
-            color: #666;
-            font-size: 12px;
-        }
-
-        .backup-actions {
-            display: flex;
-            gap: 8px;
-        }
-
-        @media (max-width: 768px) {
-            .form-row {
-                grid-template-columns: 1fr;
-            }
-
-            header {
-                flex-direction: column;
-                gap: 15px;
-                text-align: center;
-            }
-
-            .tabs {
-                flex-direction: column;
-            }
-
-            .tab-btn {
-                width: 100%;
-            }
-
-            .stats {
-                grid-template-columns: 1fr;
-            }
-
-            .backup-item {
-                flex-direction: column;
-            }
-
-            .backup-actions {
-                width: 100%;
-            }
-
-            .backup-actions button {
-                flex: 1;
-            }
-        }
-    </style>
 </head>
-<body>
-
-    <!-- LOADING/AUTH CHECK SCREEN -->
-    <div class="login-container" id="loginContainer">
-        <div class="login-box">
-            <h1>🔐 Admin Panel</h1>
-            <div id="authMessage" style="text-align: center; color: #666; margin-top: 20px;">
-                <p>Checking authentication...</p>
+<body class="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 min-h-screen">
+    <!-- Login Check Container -->
+    <div id="loginCheck" class="flex items-center justify-center min-h-screen">
+        <div class="bg-white rounded-xl shadow-2xl p-8 max-w-md w-full mx-4">
+            <h1 class="text-3xl font-bold text-center mb-4 text-gray-800">🔒 Admin Access Required</h1>
+            <p class="text-center text-gray-600 mb-6">Please sign in with your admin account</p>
+            <div id="loadingMessage" class="text-center">
+                <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto"></div>
+                <p class="mt-4 text-gray-600">Checking authentication...</p>
+            </div>
+            <div id="notAdminMessage" class="hidden">
+                <div class="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
+                    <strong class="font-bold">Access Denied!</strong>
+                    <span class="block sm:inline">Your account does not have admin privileges.</span>
+                </div>
+                <button onclick="window.location.href='../index.html'" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">
+                    Return to Homepage
+                </button>
+            </div>
+            <div id="notLoggedInMessage" class="hidden">
+                <p class="text-center text-gray-700 mb-4">You need to sign in to access the admin panel.</p>
+                <button id="loginButton" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">
+                    Sign In
+                </button>
             </div>
         </div>
     </div>
 
-    <!-- ADMIN AREA -->
-    <div class="admin-container" id="adminContainer">
-        <header>
-            <div>
-                <h1>📰 News Admin Panel</h1>
-            </div>
-            <button class="logout-btn" onclick="handleLogout()">Logout</button>
-        </header>
-
-        <div class="tabs">
-            <button class="tab-btn active" data-tab="feeds">Feeds</button>
-            <button class="tab-btn" data-tab="categories">Categories</button>
-            <button class="tab-btn" data-tab="articles">Articles</button>
-            <button class="tab-btn" data-tab="apikeys">API Keys</button>
-            <button class="tab-btn" data-tab="backup">Backup & Restore</button>
-            <button class="tab-btn" data-tab="stats">Statistics</button>
-            <button class="tab-btn" data-tab="cron">Cron Jobs</button>
-            <button class="tab-btn" data-tab="users">👥 Users</button>
-        </div>
-
-        <!-- FEEDS TAB -->
-        <div id="feeds" class="tab-content active">
-            <h2>📡 Manage Feeds</h2>
-            <p style="color: #666; margin-bottom: 20px;">Add, edit, or delete news feeds</p>
-
-            <div id="feeds-alert"></div>
-
-            <div style="margin-bottom: 30px;">
-                <h3>Add New Feed</h3>
-                <div class="form-group">
-                    <label>Feed Name</label>
-                    <input type="text" id="feed-name" placeholder="e.g., BBC News">
-                </div>
-                <div class="form-group">
-                    <label>Feed URL</label>
-                    <input type="url" id="feed-url" placeholder="https://example.com/rss">
-                </div>
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>Category</label>
-                        <select id="feed-category">
-                            <option value="">Select Category</option>
-                        </select>
+    <!-- Admin Panel Container -->
+    <div id="adminPanel" class="hidden">
+        <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+            <!-- Header -->
+            <header class="bg-white rounded-xl shadow-lg mb-8 p-6">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h1 class="text-3xl font-bold text-gray-800">📊 Admin Dashboard</h1>
+                        <p class="text-gray-600 mt-1">Manage users and system settings</p>
                     </div>
-                    <div class="form-group">
-                        <label>
-                            <input type="checkbox" id="feed-enable" checked style="width: auto; margin-right: 5px;">
-                            Enable Feed
-                        </label>
+                    <div class="flex items-center gap-4">
+                        <span id="adminName" class="text-gray-700 font-semibold"></span>
+                        <button onclick="handleLogout()" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition-colors">
+                            Logout
+                        </button>
                     </div>
                 </div>
-                <button class="btn" onclick="addFeed()">Add Feed</button>
-            </div>
+            </header>
 
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Feed ID</th>
-                            <th>Name</th>
-                            <th>Category</th>
-                            <th>Status</th>
-                            <th>Created</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody id="feeds-tbody">
-                        <tr><td colspan="6" style="text-align: center; color: #999;">Loading...</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- CATEGORIES TAB -->
-        <div id="categories" class="tab-content">
-            <h2>🏷️ Manage Categories</h2>
-            <p style="color: #666; margin-bottom: 20px;">Create and manage article categories</p>
-
-            <div id="categories-alert"></div>
-
-            <div style="margin-bottom: 30px;">
-                <h3>Add New Category</h3>
-                <div class="form-group">
-                    <label>Category Name</label>
-                    <input type="text" id="category-name" placeholder="e.g., Technology">
-                </div>
-                <button class="btn" onclick="addCategory()">Add Category</button>
-            </div>
-
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Category ID</th>
-                            <th>Name</th>
-                            <th>Feed Count</th>
-                            <th>Created</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody id="categories-tbody">
-                        <tr><td colspan="5" style="text-align: center; color: #999;">Loading...</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- ARTICLES TAB -->
-        <div id="articles" class="tab-content">
-            <h2>📝 Manage Articles</h2>
-            <p style="color: #666; margin-bottom: 20px;">View and manage processed articles</p>
-
-            <div id="articles-alert"></div>
-
-            <div style="margin-bottom: 20px;">
-                <label style="font-weight: 600; margin-right: 10px;">Filter by Source:</label>
-                <select id="article-source-filter" onchange="loadArticles()" style="padding: 8px; border-radius: 4px; border: 1px solid #ddd;">
-                    <option value="">All Sources</option>
-                </select>
-                <button class="btn btn-small" onclick="loadArticles()" style="margin-left: 10px;">🔄 Refresh</button>
-            </div>
-
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Article ID</th>
-                            <th>Pub Date</th>
-                            <th>Title</th>
-                            <th>Status</th>
-                            <th>Source</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody id="articles-tbody">
-                        <tr><td colspan="6" style="text-align: center; color: #999;">Loading...</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- API KEYS TAB -->
-        <div id="apikeys" class="tab-content">
-            <h2>🔑 Manage API Keys</h2>
-            <p style="color: #666; margin-bottom: 20px;">Add and manage API keys for external services</p>
-
-            <div id="apikeys-alert"></div>
-
-            <div style="margin-bottom: 30px;">
-                <h3>Add New API Key</h3>
-                <div class="form-group">
-                    <label>Service Name</label>
-                    <input type="text" id="apikey-service" placeholder="e.g., OpenAI, DeepSeek">
-                </div>
-                <div class="form-group">
-                    <label>API Key</label>
-                    <input type="password" id="apikey-key" placeholder="Enter API key">
-                </div>
-                <div class="form-group">
-                    <label>Description (Optional)</label>
-                    <textarea id="apikey-description" rows="3" placeholder="Optional notes about this API key"></textarea>
-                </div>
-                <button class="btn" onclick="addApiKey()">Add API Key</button>
-            </div>
-
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Service</th>
-                            <th>Key Preview</th>
-                            <th>Description</th>
-                            <th>Created</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody id="apikeys-tbody">
-                        <tr><td colspan="6" style="text-align: center; color: #999;">Loading...</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- BACKUP TAB -->
-        <div id="backup" class="tab-content">
-            <h2>💾 Backup & Restore</h2>
-            <p style="color: #666; margin-bottom: 20px;">Create and manage database backups</p>
-
-            <div id="backup-alert"></div>
-
-            <div style="margin-bottom: 30px;">
-                <h3>Create Backup</h3>
-                <p style="color: #666; margin-bottom: 15px;">Create a snapshot of the current database</p>
-                <button class="btn" onclick="createBackup()">📦 Create Backup Now</button>
-            </div>
-
-            <div>
-                <h3>Available Backups</h3>
-                <div id="backups-list">
-                    <p style="color: #999;">Loading backups...</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- STATISTICS TAB -->
-        <div id="stats" class="tab-content">
-            <h2>📊 System Statistics</h2>
-            
-            <div id="stats-alert"></div>
-
-            <div class="stats">
-                <div class="stat-card">
-                    <h3 id="stat-feeds">0</h3>
-                    <p>Active Feeds</p>
-                </div>
-                <div class="stat-card">
-                    <h3 id="stat-categories">0</h3>
-                    <p>Categories</p>
-                </div>
-                <div class="stat-card">
-                    <h3 id="stat-articles">0</h3>
-                    <p>Processed Articles</p>
-                </div>
-            </div>
-
-            <button class="btn" onclick="loadStats()">🔄 Refresh Stats</button>
-        </div>
-
-        <!-- CRON JOBS TAB -->
-        <div id="cron" class="tab-content">
-            <h2>⏰ Cron Job Management</h2>
-            <p style="color: #666; margin-bottom: 20px;">Manage scheduled pipeline execution</p>
-
-            <div id="cron-alert"></div>
-
-            <div class="stat-card" style="margin-bottom: 30px;">
-                <h3>Pipeline Schedule</h3>
-                <p style="margin: 10px 0;">Daily at <strong>1:00 PM EST (18:00 UTC)</strong></p>
-                <p style="color: #666; font-size: 14px;">Collects 3 articles per source and processes them</p>
-                <div style="margin-top: 20px;">
-                    <strong>Status:</strong> <span id="cron-status-text">Loading...</span>
-                </div>
-                <div style="margin-top: 10px;">
-                    <strong>Schedule:</strong> <code id="cron-schedule-text">-</code>
-                </div>
-            </div>
-
-            <div style="margin-bottom: 30px;">
-                <h3>⚙️ Configure Schedule</h3>
-                <div class="form-group" style="margin-top: 15px;">
-                    <label><strong>Articles per Feed:</strong></label>
-                    <input type="number" id="articles-per-seed" min="1" max="20" value="3" style="width: 100px; padding: 8px; border: 1px solid #ddd; border-radius: 6px;">
-                    <p style="color: #666; font-size: 12px; margin-top: 5px;">Number of articles to collect from each feed (1-20)</p>
+            <!-- Tabs -->
+            <div class="bg-white rounded-xl shadow-lg mb-8">
+                <div class="flex border-b border-gray-200">
+                    <button onclick="switchTab('users')" id="tab-users" class="tab-btn px-6 py-4 font-semibold text-indigo-600 border-b-2 border-indigo-600">
+                        Users
+                    </button>
+                    <button onclick="switchTab('stats')" id="tab-stats" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800">
+                        Statistics
+                    </button>
+                    <button onclick="switchTab('settings')" id="tab-settings" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800">
+                        Settings
+                    </button>
                 </div>
 
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px;">
-                    <div class="form-group">
-                        <label><strong>Hour (0-23):</strong></label>
-                        <input type="number" id="cron-hour" min="0" max="23" value="13" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 6px;">
-                        <p style="color: #666; font-size: 12px; margin-top: 5px;">0 = Midnight, 13 = 1:00 PM EST</p>
+                <!-- Users Tab -->
+                <div id="content-users" class="tab-content p-6">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800">User Management</h2>
+                        <button onclick="loadUsers()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg">
+                            <span class="material-symbols-outlined inline-block align-middle">refresh</span>
+                            Refresh
+                        </button>
                     </div>
-                    <div class="form-group">
-                        <label><strong>Minute (0-59):</strong></label>
-                        <input type="number" id="cron-minute" min="0" max="59" value="0" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 6px;">
-                        <p style="color: #666; font-size: 12px; margin-top: 5px;">0 = Top of hour</p>
+
+                    <div id="usersLoading" class="text-center py-8">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto"></div>
+                        <p class="mt-4 text-gray-600">Loading users...</p>
+                    </div>
+
+                    <div id="usersTable" class="hidden overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Email</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Role</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Reading Style</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Joined</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="usersTableBody" class="bg-white divide-y divide-gray-200">
+                                <!-- Users will be inserted here -->
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
-                <div style="margin-top: 15px; background: #f5f5f5; padding: 12px; border-radius: 6px;">
-                    <p style="color: #333; font-weight: 600;">⏰ Preview:</p>
-                    <p id="cron-preview" style="color: #667eea; font-size: 14px; margin-top: 5px;">Daily at 13:00 EST with 3 articles per feed</p>
+                <!-- Statistics Tab -->
+                <div id="content-stats" class="tab-content p-6 hidden">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">System Statistics</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                        <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl shadow-lg p-6 text-white">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-blue-100 text-sm font-semibold uppercase">Total Users</p>
+                                    <p id="totalUsers" class="text-4xl font-bold mt-2">-</p>
+                                </div>
+                                <span class="material-symbols-outlined text-5xl opacity-50">group</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-xl shadow-lg p-6 text-white">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-green-100 text-sm font-semibold uppercase">Active Users (7d)</p>
+                                    <p id="activeUsers" class="text-4xl font-bold mt-2">-</p>
+                                </div>
+                                <span class="material-symbols-outlined text-5xl opacity-50">trending_up</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl shadow-lg p-6 text-white">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-purple-100 text-sm font-semibold uppercase">New Users (30d)</p>
+                                    <p id="newUsers" class="text-4xl font-bold mt-2">-</p>
+                                </div>
+                                <span class="material-symbols-outlined text-5xl opacity-50">person_add</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Reading Style Distribution</h3>
+                        <div id="readingStyleChart" class="space-y-4">
+                            <!-- Chart will be inserted here -->
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div style="margin-bottom: 30px;">
-                <h3>Control</h3>
-                <div style="display: flex; gap: 10px; margin-top: 15px;">
-                    <button class="btn" onclick="enableCronWithSettings()" id="enable-cron-btn">✅ Save & Enable</button>
-                    <button class="btn" onclick="disableCron()" id="disable-cron-btn" style="background: #dc3545;">❌ Disable Cron Job</button>
-                    <button class="btn" onclick="loadCronStatus()" style="background: #6c757d;">🔄 Refresh Status</button>
+                <!-- Settings Tab -->
+                <div id="content-settings" class="tab-content p-6 hidden">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">System Settings</h2>
+                    
+                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <span class="material-symbols-outlined text-yellow-400">warning</span>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-yellow-700">
+                                    Settings management is currently limited to Supabase database direct access.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h3 class="font-bold text-gray-800 mb-2">Database Connection</h3>
+                            <p class="text-gray-600 text-sm mb-2">Supabase Project: <code class="bg-gray-100 px-2 py-1 rounded">lfknsvavhiqrsasdfyrs</code></p>
+                            <p class="text-gray-600 text-sm">Status: <span class="text-green-600 font-semibold">✓ Connected</span></p>
+                        </div>
+
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h3 class="font-bold text-gray-800 mb-2">Admin Users</h3>
+                            <p class="text-gray-600 text-sm mb-2">Current admin: <code class="bg-gray-100 px-2 py-1 rounded">daedal@daijiong.com</code></p>
+                            <p class="text-gray-600 text-sm">To add more admins, run SQL in Supabase:</p>
+                            <pre class="bg-gray-800 text-green-400 p-3 rounded mt-2 text-xs overflow-x-auto">UPDATE user_profiles SET role = 'admin' WHERE email = 'user@example.com';</pre>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div>
-                <h3>Recent Logs</h3>
-                <div id="cron-logs-list" style="margin-top: 15px;">
-                    <p style="color: #666;">Loading logs...</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- USERS TAB -->
-        <div id="users" class="tab-content">
-            <h2>👥 User Management</h2>
-            <p style="color: #666; margin-bottom: 20px;">View and manage user subscriptions</p>
-
-            <div id="users-alert"></div>
-
-            <div style="margin-bottom: 20px;">
-                <button class="btn" onclick="loadUsers()" style="background: #6c757d;">🔄 Refresh Users</button>
-            </div>
-
-            <div class="table-wrapper">
-                <table id="users-table">
-                    <thead>
-                        <tr>
-                            <th>Email</th>
-                            <th>Name</th>
-                            <th>Reading Style</th>
-                            <th>Verified</th>
-                            <th>Created</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody id="users-list">
-                        <tr>
-                            <td colspan="6" style="text-align: center; color: #666;">Loading users...</td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
         </div>
     </div>
 
-    <!-- Supabase Configuration (will be injected during deployment) -->
-    
     <script>
-        let supabase = null;
+        let supabase;
         let currentUser = null;
-        let state = { feeds: [], categories: [], articles: [], users: [], aiProviders: [] };
 
-        // Auth check
-        async function checkAdminAccess() {
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async function() {
+            console.log('Admin panel initializing...');
+            
             // Wait for Supabase to be ready
             let attempts = 0;
             while (!window.supabaseReady && attempts < 50) {
                 await new Promise(resolve => setTimeout(resolve, 100));
                 attempts++;
             }
+
+            if (!window.supabaseClient) {
+                document.getElementById('loadingMessage').innerHTML = '<p class="text-red-600">Failed to load authentication system</p>';
+                return;
+            }
+
+            supabase = window.supabaseClient;
+
+            // Check authentication
+            const { data: sessionData } = await supabase.auth.getSession();
+            const isLoggedIn = sessionData && sessionData.session && sessionData.session.user;
             
-            if (!window.supabaseReady) {
-                document.getElementById('authMessage').innerHTML = '<p style="color: #dc3545;">Failed to load Supabase. Please refresh the page.</p>';
+            if (!isLoggedIn) {
+                // Not logged in
+                document.getElementById('loadingMessage').classList.add('hidden');
+                document.getElementById('notLoggedInMessage').classList.remove('hidden');
+                document.getElementById('loginButton').addEventListener('click', async () => {
+                    // Redirect to main page to login
+                    window.location.href = './index.html';
+                });
+                return;
+            }
+
+            // Check if admin
+            const userId = sessionData.session.user.id;
+            console.log('Checking admin for user ID:', userId);
+            
+            const { data: profiles, error: profileError } = await supabase
+                .from('user_profiles')
+                .select('*')
+                .eq('id', userId);
+            
+            console.log('Profile query result:', profiles, 'Error:', profileError);
+            
+            if (profileError) {
+                console.error('Profile query error details:', profileError);
+                document.getElementById('loadingMessage').innerHTML = `
+                    <p class="text-red-600 font-bold">Database Error</p>
+                    <p class="text-sm text-red-500 mt-2">${profileError.message}</p>
+                    <p class="text-xs text-gray-600 mt-2">Code: ${profileError.code}</p>
+                `;
                 return;
             }
             
-            supabase = window.supabaseClient;
+            const profile = profiles && profiles.length > 0 ? profiles[0] : null;
+            const isAdmin = profile && profile.role === 'admin';
             
-            try {
-                const { data: { session }, error } = await supabase.auth.getSession();
-                
-                if (error || !session) {
-                    document.getElementById('authMessage').innerHTML = 
-                        '<p style="color: #dc3545;">Please sign in with your admin account</p>' +
-                        '<button onclick="window.location.href=\'/\'" style="margin-top: 20px; padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 6px; cursor: pointer;">Go to Home</button>';
-                    return;
-                }
-
-                const userId = session.user.id;
-                currentUser = session.user;
-
-                const { data: profiles, error: profileError } = await supabase
-                    .from('user_profiles')
-                    .select('*')
-                    .eq('id', userId)
-                    .single();
-
-                if (profileError || !profiles || profiles.role !== 'admin') {
-                    document.getElementById('authMessage').innerHTML = 
-                        '<p style="color: #dc3545;">Access Denied - Not an admin</p>' +
-                        '<button onclick="window.location.href=\'/\'" style="margin-top: 20px; padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 6px; cursor: pointer;">Go to Home</button>';
-                    return;
-                }
-
-                // Success
-                document.querySelector('.login-container').classList.add('hidden');
-                document.querySelector('.admin-container').style.display = 'block';
-                loadAll();
-            } catch (error) {
-                document.getElementById('authMessage').innerHTML = '<p style="color: #dc3545;">Error: ' + error.message + '</p>';
+            console.log('Is admin:', isAdmin, 'Profile:', profile);
+            
+            if (!isAdmin) {
+                // Logged in but not admin
+                document.getElementById('loadingMessage').classList.add('hidden');
+                document.getElementById('notAdminMessage').classList.remove('hidden');
+                console.error('Admin check failed. Profile:', profile);
+                return;
             }
-        }
+
+            // Admin access granted
+            currentUser = profile;
+            document.getElementById('loginCheck').classList.add('hidden');
+            document.getElementById('adminPanel').classList.remove('hidden');
+            document.getElementById('adminName').textContent = currentUser.email;
+
+            // Load initial data
+            loadUsers();
+        });
 
         async function handleLogout() {
             await supabase.auth.signOut();
-            window.location.href = '/';
+            window.location.href = './index.html';
         }
 
-        async function loadAll() {
-            await Promise.all([
-                loadFeeds(),
-                loadCategories(),
-                loadArticles(),
-                loadUsers(),
-                loadAiProviders(),
-                loadStats()
-            ]);
-        }
-
-        // Tab switching
-        document.addEventListener('DOMContentLoaded', () => {
+        function switchTab(tabName) {
+            // Update tab buttons
             document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-                    document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
-                    btn.classList.add('active');
-                    const tabId = btn.getAttribute('data-tab');
-                    document.getElementById(tabId).style.display = 'block';
-                });
+                btn.classList.remove('text-indigo-600', 'border-b-2', 'border-indigo-600');
+                btn.classList.add('text-gray-600');
             });
-            
-            checkAdminAccess();
-        });
+            document.getElementById(`tab-${tabName}`).classList.add('text-indigo-600', 'border-b-2', 'border-indigo-600');
+            document.getElementById(`tab-${tabName}`).classList.remove('text-gray-600');
 
-        // FEEDS
-        async function loadFeeds() {
-            try {
-                const { data: feeds, error } = await supabase
-                    .from('feeds')
-                    .select('*, categories(category_name)')
-                    .order('created_at', { ascending: false });
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.add('hidden');
+            });
+            document.getElementById(`content-${tabName}`).classList.remove('hidden');
 
-                if (error) throw error;
-                state.feeds = feeds;
-
-                const tbody = document.getElementById('feeds-tbody');
-                if (feeds.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: #666;">No feeds found</td></tr>';
-                    return;
-                }
-
-                tbody.innerHTML = feeds.map(feed => `
-                    <tr>
-                        <td>${feed.feed_id}</td>
-                        <td>${escapeHtml(feed.feed_name)}</td>
-                        <td>${feed.categories ? feed.categories.category_name : 'N/A'}</td>
-                        <td><span class="status ${feed.enable ? 'enabled' : 'disabled'}">${feed.enable ? '✅ Enabled' : '❌ Disabled'}</span></td>
-                        <td>${formatDate(feed.created_at)}</td>
-                        <td>
-                            <button class="btn btn-small" onclick="toggleFeedStatus(${feed.feed_id}, ${feed.enable})">${feed.enable ? 'Disable' : 'Enable'}</button>
-                            <button class="btn btn-small" onclick="deleteFeed(${feed.feed_id}, '${escapeHtml(feed.feed_name).replace(/'/g, "\\'")}')" style="background: #dc3545;">Delete</button>
-                        </td>
-                    </tr>
-                `).join('');
-
-                populateCategorySelect();
-                showAlert('feeds-alert', '✅ Loaded ' + feeds.length + ' feeds', 'success');
-            } catch (error) {
-                showAlert('feeds-alert', '❌ Error: ' + error.message, 'error');
-            }
+            // Load data for tab
+            if (tabName === 'users') loadUsers();
+            else if (tabName === 'stats') loadStats();
         }
 
-        async function addFeed() {
-            const name = document.getElementById('feed-name').value;
-            const url = document.getElementById('feed-url').value;
-            const categoryId = document.getElementById('feed-category').value;
-            const enable = document.getElementById('feed-enable').checked;
-
-            if (!name || !url || !categoryId) {
-                showAlert('feeds-alert', '❌ Please fill all fields', 'error');
-                return;
-            }
-
-            try {
-                const { error } = await supabase.from('feeds').insert([{
-                    feed_name: name,
-                    feed_url: url,
-                    category_id: parseInt(categoryId),
-                    enable: enable
-                }]);
-
-                if (error) throw error;
-
-                showAlert('feeds-alert', '✅ Feed added!', 'success');
-                document.getElementById('feed-name').value = '';
-                document.getElementById('feed-url').value = '';
-                await loadFeeds();
-            } catch (error) {
-                showAlert('feeds-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        async function toggleFeedStatus(feedId, currentStatus) {
-            try {
-                const { error } = await supabase
-                    .from('feeds')
-                    .update({ enable: !currentStatus })
-                    .eq('feed_id', feedId);
-
-                if (error) throw error;
-                showAlert('feeds-alert', '✅ Feed updated!', 'success');
-                await loadFeeds();
-            } catch (error) {
-                showAlert('feeds-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        async function deleteFeed(feedId, feedName) {
-            if (!confirm('Delete feed "' + feedName + '"?')) return;
-
-            try {
-                const { error } = await supabase.from('feeds').delete().eq('feed_id', feedId);
-                if (error) throw error;
-                showAlert('feeds-alert', '✅ Feed deleted!', 'success');
-                await loadFeeds();
-            } catch (error) {
-                showAlert('feeds-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        // CATEGORIES
-        async function loadCategories() {
-            try {
-                const { data: categories, error } = await supabase
-                    .from('categories')
-                    .select('*')
-                    .order('created_at', { ascending: false });
-
-                if (error) throw error;
-                state.categories = categories;
-
-                const tbody = document.getElementById('categories-tbody');
-                if (categories.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: #666;">No categories found</td></tr>';
-                    return;
-                }
-
-                tbody.innerHTML = categories.map(cat => `
-                    <tr>
-                        <td>${cat.category_id}</td>
-                        <td>${escapeHtml(cat.category_name)}</td>
-                        <td>-</td>
-                        <td>${formatDate(cat.created_at)}</td>
-                        <td>
-                            <button class="btn btn-small" onclick="deleteCategory(${cat.category_id}, '${escapeHtml(cat.category_name).replace(/'/g, "\\'")}')" style="background: #dc3545;">Delete</button>
-                        </td>
-                    </tr>
-                `).join('');
-
-                showAlert('categories-alert', '✅ Loaded ' + categories.length + ' categories', 'success');
-            } catch (error) {
-                showAlert('categories-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        async function addCategory() {
-            const name = document.getElementById('category-name').value;
-
-            if (!name) {
-                showAlert('categories-alert', '❌ Please enter category name', 'error');
-                return;
-            }
-
-            try {
-                const { error } = await supabase.from('categories').insert([{ category_name: name }]);
-                if (error) throw error;
-
-                showAlert('categories-alert', '✅ Category added!', 'success');
-                document.getElementById('category-name').value = '';
-                await loadCategories();
-                await loadFeeds();
-            } catch (error) {
-                showAlert('categories-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        async function deleteCategory(categoryId, categoryName) {
-            if (!confirm('Delete category "' + categoryName + '"?')) return;
-
-            try {
-                const { error } = await supabase.from('categories').delete().eq('category_id', categoryId);
-                if (error) throw error;
-                showAlert('categories-alert', '✅ Category deleted!', 'success');
-                await loadCategories();
-                await loadFeeds();
-            } catch (error) {
-                showAlert('categories-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        // ARTICLES
-        async function loadArticles() {
-            try {
-                const sourceFilter = document.getElementById('article-source-filter').value;
-                let query = supabase
-                    .from('articles')
-                    .select('*')
-                    .order('pub_date', { ascending: false })
-                    .limit(100);
-
-                if (sourceFilter) query = query.eq('source', sourceFilter);
-
-                const { data: articles, error } = await query;
-                if (error) throw error;
-                state.articles = articles;
-
-                const sources = [...new Set(articles.map(a => a.source))];
-                const sourceFilterEl = document.getElementById('article-source-filter');
-                const currentValue = sourceFilterEl.value;
-                sourceFilterEl.innerHTML = '<option value="">All Sources</option>' +
-                    sources.map(s => '<option value="' + s + '" ' + (s === currentValue ? 'selected' : '') + '>' + s + '</option>').join('');
-
-                const tbody = document.getElementById('articles-tbody');
-                if (articles.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: #666;">No articles found</td></tr>';
-                    return;
-                }
-
-                tbody.innerHTML = articles.map(article => `
-                    <tr>
-                        <td style="font-family: monospace; font-size: 11px;">${article.id.substring(0, 8)}...</td>
-                        <td>${formatDate(article.pub_date)}</td>
-                        <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis;">${escapeHtml(article.title)}</td>
-                        <td><span class="status ${article.deepseek_processed ? 'enabled' : 'disabled'}">${article.deepseek_processed ? '✅ Processed' : '⏳ Pending'}</span></td>
-                        <td>${escapeHtml(article.source)}</td>
-                        <td>
-                            <a href="${article.url}" target="_blank" class="btn btn-small" style="background: #6c757d;">View</a>
-                            <button class="btn btn-small" onclick="deleteArticle('${article.id}')" style="background: #dc3545;">Delete</button>
-                        </td>
-                    </tr>
-                `).join('');
-
-                showAlert('articles-alert', '✅ Loaded ' + articles.length + ' articles', 'success');
-            } catch (error) {
-                showAlert('articles-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        async function deleteArticle(articleId) {
-            if (!confirm('Delete this article?')) return;
-
-            try {
-                const { error } = await supabase.from('articles').delete().eq('id', articleId);
-                if (error) throw error;
-                showAlert('articles-alert', '✅ Article deleted!', 'success');
-                await loadArticles();
-            } catch (error) {
-                showAlert('articles-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        // USERS
         async function loadUsers() {
+            document.getElementById('usersLoading').classList.remove('hidden');
+            document.getElementById('usersTable').classList.add('hidden');
+
             try {
                 const { data: users, error } = await supabase
                     .from('user_profiles')
@@ -1100,202 +316,149 @@
                     .order('created_at', { ascending: false });
 
                 if (error) throw error;
-                state.users = users;
 
-                const tbody = document.getElementById('users-list');
-                if (users.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: #666;">No users found</td></tr>';
-                    return;
-                }
+                const tbody = document.getElementById('usersTableBody');
+                tbody.innerHTML = '';
 
-                tbody.innerHTML = users.map(user => `
-                    <tr>
-                        <td>${escapeHtml(user.email || 'N/A')}</td>
-                        <td>${escapeHtml(user.display_name || '-')}</td>
-                        <td>
-                            <select onchange="updateUserReadingStyle('${user.id}', this.value)" style="padding: 5px;">
-                                <option value="relax" ${user.preferences?.readingStyle === 'relax' ? 'selected' : ''}>Relax</option>
-                                <option value="enjoy" ${user.preferences?.readingStyle === 'enjoy' ? 'selected' : ''}>Enjoy</option>
-                                <option value="research" ${user.preferences?.readingStyle === 'research' ? 'selected' : ''}>Research</option>
-                                <option value="chinese" ${user.preferences?.readingStyle === 'chinese' ? 'selected' : ''}>Chinese</option>
-                            </select>
+                users.forEach(user => {
+                    const tr = document.createElement('tr');
+                    tr.className = 'hover:bg-gray-50';
+                    
+                    const roleColor = user.role === 'admin' ? 'bg-red-100 text-red-800' : 'bg-blue-100 text-blue-800';
+                    const styleColor = {
+                        'chinese': 'bg-yellow-100 text-yellow-800',
+                        'enjoy': 'bg-green-100 text-green-800',
+                        'relax': 'bg-blue-100 text-blue-800',
+                        'research': 'bg-purple-100 text-purple-800'
+                    }[user.reading_style] || 'bg-gray-100 text-gray-800';
+
+                    tr.innerHTML = `
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${escapeHtml(user.email)}</td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${roleColor}">
+                                ${user.role || 'user'}
+                            </span>
                         </td>
-                        <td><span class="status ${user.role === 'admin' ? 'enabled' : 'disabled'}">${user.role === 'admin' ? '👑 Admin' : '👤 User'}</span></td>
-                        <td>${formatDate(user.created_at)}</td>
-                        <td>
-                            ${user.role !== 'admin' ? '<button class="btn btn-small" onclick="toggleUserRole(\'+ user.id + '\', \'user\')">Make Admin</button>' : 
-                              '<button class="btn btn-small" onclick="toggleUserRole(\'+ user.id + '\', \'admin\')" style="background: #6c757d;">Remove Admin</button>'}
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${styleColor}">
+                                ${user.reading_style || 'none'}
+                            </span>
                         </td>
-                    </tr>
-                `).join('');
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            ${new Date(user.created_at).toLocaleDateString()}
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                            ${user.role !== 'admin' ? `
+                                <button onclick="makeAdmin('${user.id}', '${escapeHtml(user.email)}')" 
+                                    class="text-indigo-600 hover:text-indigo-900 mr-3">
+                                    Make Admin
+                                </button>
+                            ` : '<span class="text-gray-400">Admin</span>'}
+                        </td>
+                    `;
+                    
+                    tbody.appendChild(tr);
+                });
 
-                showAlert('users-alert', '✅ Loaded ' + users.length + ' users', 'success');
+                document.getElementById('usersLoading').classList.add('hidden');
+                document.getElementById('usersTable').classList.remove('hidden');
+
             } catch (error) {
-                showAlert('users-alert', '❌ Error: ' + error.message, 'error');
+                console.error('Error loading users:', error);
+                document.getElementById('usersLoading').innerHTML = `
+                    <div class="text-red-600">
+                        <p class="font-bold">Error loading users</p>
+                        <p class="text-sm mt-2">${error.message}</p>
+                    </div>
+                `;
             }
         }
 
-        async function updateUserReadingStyle(userId, newStyle) {
+        async function makeAdmin(userId, email) {
+            if (!confirm(`Make ${email} an admin?`)) return;
+
             try {
                 const { error } = await supabase
                     .from('user_profiles')
-                    .update({ preferences: { readingStyle: newStyle } })
+                    .update({ role: 'admin', updated_at: new Date().toISOString() })
                     .eq('id', userId);
 
                 if (error) throw error;
-                showAlert('users-alert', '✅ Updated reading style', 'success');
+
+                alert(`✓ ${email} is now an admin`);
+                loadUsers();
             } catch (error) {
-                showAlert('users-alert', '❌ Error: ' + error.message, 'error');
-                await loadUsers();
+                alert(`Error: ${error.message}`);
             }
         }
 
-        async function toggleUserRole(userId, currentRole) {
-            const newRole = currentRole === 'admin' ? 'user' : 'admin';
-            if (!confirm('Change user role to ' + newRole + '?')) return;
-
-            try {
-                const { error } = await supabase
-                    .from('user_profiles')
-                    .update({ role: newRole })
-                    .eq('id', userId);
-
-                if (error) throw error;
-                showAlert('users-alert', '✅ User role updated', 'success');
-                await loadUsers();
-            } catch (error) {
-                showAlert('users-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        // AI PROVIDERS
-        async function loadAiProviders() {
-            try {
-                const { data: providers, error } = await supabase
-                    .from('ai_providers')
-                    .select('*')
-                    .order('created_at', { ascending: false });
-
-                if (error) throw error;
-                state.aiProviders = providers;
-
-                const tbody = document.getElementById('apikeys-tbody');
-                if (providers.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: #666;">No AI providers configured</td></tr>';
-                    return;
-                }
-
-                tbody.innerHTML = providers.map(p => `
-                    <tr>
-                        <td>${p.id}</td>
-                        <td>${escapeHtml(p.name)}</td>
-                        <td>••••${p.api_key ? p.api_key.substring(p.api_key.length - 4) : '****'}</td>
-                        <td>${escapeHtml(p.provider_type || 'N/A')}</td>
-                        <td>${formatDate(p.created_at)}</td>
-                        <td>
-                            <button class="btn btn-small" onclick="deleteAiProvider(${p.id}, '${escapeHtml(p.name).replace(/'/g, "\\'")}')" style="background: #dc3545;">Delete</button>
-                        </td>
-                    </tr>
-                `).join('');
-
-                showAlert('apikeys-alert', '✅ Loaded ' + providers.length + ' AI providers', 'success');
-            } catch (error) {
-                showAlert('apikeys-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        async function addApiKey() {
-            const service = document.getElementById('apikey-service').value;
-            const key = document.getElementById('apikey-key').value;
-            const description = document.getElementById('apikey-description').value;
-
-            if (!service || !key) {
-                showAlert('apikeys-alert', '❌ Please fill required fields', 'error');
-                return;
-            }
-
-            try {
-                const { error } = await supabase.from('ai_providers').insert([{
-                    name: service,
-                    provider_type: service.toLowerCase(),
-                    api_key: key,
-                    enabled: 1,
-                    created_at: new Date().toISOString(),
-                    updated_at: new Date().toISOString()
-                }]);
-
-                if (error) throw error;
-
-                showAlert('apikeys-alert', '✅ AI Provider added!', 'success');
-                document.getElementById('apikey-service').value = '';
-                document.getElementById('apikey-key').value = '';
-                document.getElementById('apikey-description').value = '';
-                await loadAiProviders();
-            } catch (error) {
-                showAlert('apikeys-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        async function deleteAiProvider(providerId, providerName) {
-            if (!confirm('Delete AI provider "' + providerName + '"?')) return;
-
-            try {
-                const { error } = await supabase.from('ai_providers').delete().eq('id', providerId);
-                if (error) throw error;
-                showAlert('apikeys-alert', '✅ AI Provider deleted!', 'success');
-                await loadAiProviders();
-            } catch (error) {
-                showAlert('apikeys-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        // STATS
         async function loadStats() {
             try {
-                const [feedsResult, categoriesResult, articlesResult, usersResult] = await Promise.all([
-                    supabase.from('feeds').select('*', { count: 'exact', head: true }),
-                    supabase.from('categories').select('*', { count: 'exact', head: true }),
-                    supabase.from('articles').select('*', { count: 'exact', head: true }),
-                    supabase.from('user_profiles').select('*', { count: 'exact', head: true })
-                ]);
+                // Total users
+                const { data: allUsers, error: userError } = await supabase
+                    .from('user_profiles')
+                    .select('id, created_at, reading_style');
 
-                document.getElementById('stat-feeds').textContent = feedsResult.count || 0;
-                document.getElementById('stat-categories').textContent = categoriesResult.count || 0;
-                document.getElementById('stat-articles').textContent = articlesResult.count || 0;
+                if (userError) throw userError;
 
-                showAlert('stats-alert', '✅ Statistics refreshed', 'success');
+                document.getElementById('totalUsers').textContent = allUsers.length;
+
+                // New users in last 30 days
+                const thirtyDaysAgo = new Date();
+                thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+                const newUsers = allUsers.filter(u => new Date(u.created_at) > thirtyDaysAgo);
+                document.getElementById('newUsers').textContent = newUsers.length;
+
+                // Active users (users with stats activity in last 7 days)
+                const sevenDaysAgo = new Date();
+                sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+                const { data: recentStats, error: statsError } = await supabase
+                    .from('user_stats_sync')
+                    .select('user_id')
+                    .gte('updated_at', sevenDaysAgo.toISOString());
+
+                if (!statsError) {
+                    const uniqueActiveUsers = new Set(recentStats.map(s => s.user_id));
+                    document.getElementById('activeUsers').textContent = uniqueActiveUsers.size;
+                } else {
+                    document.getElementById('activeUsers').textContent = '-';
+                }
+
+                // Reading style distribution
+                const styleCounts = {};
+                allUsers.forEach(u => {
+                    const style = u.reading_style || 'none';
+                    styleCounts[style] = (styleCounts[style] || 0) + 1;
+                });
+
+                const chartDiv = document.getElementById('readingStyleChart');
+                chartDiv.innerHTML = '';
+                
+                Object.entries(styleCounts).forEach(([style, count]) => {
+                    const percentage = ((count / allUsers.length) * 100).toFixed(1);
+                    const bar = document.createElement('div');
+                    bar.className = 'mb-4';
+                    bar.innerHTML = `
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-semibold text-gray-700">${style}</span>
+                            <span class="text-sm text-gray-600">${count} (${percentage}%)</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-indigo-600 h-2.5 rounded-full" style="width: ${percentage}%"></div>
+                        </div>
+                    `;
+                    chartDiv.appendChild(bar);
+                });
+
             } catch (error) {
-                showAlert('stats-alert', '❌ Error: ' + error.message, 'error');
-            }
-        }
-
-        // UTILITY
-        function populateCategorySelect() {
-            const select = document.getElementById('feed-category');
-            select.innerHTML = '<option value="">Select Category</option>' + 
-                state.categories.map(c => '<option value="' + c.category_id + '">' + c.category_name + '</option>').join('');
-        }
-
-        function showAlert(elementId, message, type) {
-            const alert = document.getElementById(elementId);
-            if (alert) {
-                alert.innerHTML = '<div class="alert alert-' + type + '">' + message + '</div>';
-                setTimeout(() => { if (alert.children.length) alert.removeChild(alert.children[0]); }, 5000);
+                console.error('Error loading stats:', error);
             }
         }
 
         function escapeHtml(text) {
-            if (!text) return '';
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
-        }
-
-        function formatDate(dateString) {
-            if (!dateString) return 'N/A';
-            const date = new Date(dateString);
-            if (isNaN(date.getTime()) || date.getFullYear() < 2000) return 'N/A';
-            return date.toLocaleDateString();
         }
     </script>
 </body>
