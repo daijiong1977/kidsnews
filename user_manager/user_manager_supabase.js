@@ -293,32 +293,39 @@ class SupabaseUserManager {
         this.readingStyle = magicLinkData.reading_style || 'enjoy';
         localStorage.setItem('news_reading_style', this.readingStyle);
         
-        // Sign in the user with password
+        // Sign in the user with a temporary password
+        // Note: Supabase will send a confirmation email unless you disable it in dashboard
+        // Go to Authentication > Settings > Email Auth and disable "Enable email confirmations"
         const randomPassword = crypto.randomUUID();
         
-        // Try to sign up first
-        const { error: signUpError } = await this.supabase.auth.signUp({
+        // Try to sign in first (for existing users)
+        let authSuccess = false;
+        const { data: signInData, error: signInError } = await this.supabase.auth.signInWithPassword({
             email: magicLinkData.email,
-            password: randomPassword,
-            options: {
-                data: {
-                    reading_style: this.readingStyle
-                }
-            }
+            password: randomPassword
         });
         
-        // If user already exists, sign them in
-        if (signUpError && signUpError.message.includes('already registered')) {
-            // For existing users, we need to use signInWithPassword but we don't know their password
-            // So we'll use the admin API to create a session
-            const { error: signInError } = await this.supabase.auth.signInWithPassword({
+        if (!signInError) {
+            authSuccess = true;
+        } else {
+            // User doesn't exist or password wrong, try to sign up
+            const { data: signUpData, error: signUpError } = await this.supabase.auth.signUp({
                 email: magicLinkData.email,
-                password: randomPassword
+                password: randomPassword,
+                options: {
+                    data: {
+                        reading_style: this.readingStyle
+                    }
+                }
             });
             
-            if (signInError) {
-                // If that fails, create a new session by updating the user
-                console.log('User exists, creating session...');
+            if (!signUpError) {
+                authSuccess = true;
+            } else if (signUpError.message.includes('already registered')) {
+                // User exists, try admin sign in or use the magic link to force login
+                throw new Error('User exists but password mismatch. Please contact support.');
+            } else {
+                throw new Error('Failed to authenticate: ' + signUpError.message);
             }
         }
         
