@@ -521,9 +521,10 @@ document.addEventListener('DOMContentLoaded', async function() {
   let availableDates = [];
   let archiveDirectories = {};
   try {
-    const response = await fetch('./payloads/archive_index.json');
+    const response = await fetch('/payloads/archive_index.json');
     if (response.ok) {
       const data = await response.json();
+      console.log('Archive index data:', data);
       // Parse the dates from archive_index.json format
       if (data.details && Array.isArray(data.details)) {
         data.details.forEach(item => {
@@ -532,6 +533,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         });
       }
       console.log(`✓ Loaded ${availableDates.length} available archive dates`);
+    } else {
+      console.log('Archive index not found, status:', response.status);
     }
   } catch (e) {
     console.log('Could not load archive dates:', e);
@@ -615,7 +618,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         const lang = chineseMode ? 'cn' : 'en';
         const levelMap = { 'easy': 'easy', 'middle': 'middle', 'high': 'high', 'cn': 'cn' };
         const payloadLevel = lang === 'cn' ? 'cn' : levelMap[level];
-        const payloadPath = `./payloads/${directory}/articles_${category}_${payloadLevel}.json`;
+        const payloadPath = `/payloads/${directory}/articles_${category}_${payloadLevel}.json`;
         
         console.log('Loading archive from:', payloadPath);
         
