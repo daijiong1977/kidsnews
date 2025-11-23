@@ -340,7 +340,7 @@
                 // For archive articles, check if image URL needs to be loaded from Supabase
                 if (archiveDate) {
                     // Check if it's a local/relative path or a full URL pointing to kidsnews.6ray.com
-                    if (imageUrl.startsWith('/article_image/') || imageUrl.includes('kidsnews.6ray.com/article_images/')) {
+                    if (imageUrl.startsWith('/article_image') || imageUrl.includes('kidsnews.6ray.com/article_image')) {
                         // Extract just the filename
                         const imageName = imageUrl.split('/').pop();
                         const supabaseBase = `https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/${archiveDate}`;
