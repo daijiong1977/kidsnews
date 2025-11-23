@@ -57,24 +57,25 @@ class SupabaseUserManager {
             const { data: sessionData } = await this.supabase.auth.getSession();
             if (sessionData && sessionData.session && sessionData.session.user) {
                 const userEmail = sessionData.session.user.email;
+                console.log('Magic link login for:', userEmail);
                 
                 // Try to get reading style from magic_links table
-                const { data: magicLinks } = await this.supabase
+                const { data: magicLinks, error: fetchError } = await this.supabase
                     .from('magic_links')
                     .select('reading_style')
                     .eq('email', userEmail)
                     .limit(1);
                 
+                console.log('Retrieved reading style:', magicLinks);
+                
                 if (magicLinks && magicLinks.length > 0) {
                     const pendingStyle = magicLinks[0].reading_style;
+                    console.log('Applying reading style:', pendingStyle);
                     this.readingStyle = pendingStyle;
                     localStorage.setItem('news_reading_style', pendingStyle);
                     
                     // Delete the used entry
                     await this.supabase.from('magic_links').delete().eq('email', userEmail);
-                    
-                    // Clean up URL parameters
-                    window.history.replaceState({}, document.title, window.location.pathname);
                     
                     // Redirect to the selected reading style page
                     const stylePages = {
@@ -84,11 +85,10 @@ class SupabaseUserManager {
                         'chinese': '/?lang=cn'
                     };
                     const redirectUrl = stylePages[pendingStyle] || '/';
+                    console.log('Redirecting to:', redirectUrl);
                     
-                    alert('✅ Successfully signed in! Redirecting to your preferred reading page...');
-                    setTimeout(() => {
-                        window.location.href = redirectUrl;
-                    }, 500);
+                    // Clean up URL parameters and redirect immediately
+                    window.location.href = redirectUrl;
                     return;
                 }
             }
