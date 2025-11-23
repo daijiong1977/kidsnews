@@ -169,11 +169,63 @@ class SupabaseUserManager {
 
             if (!email) return alert('Please enter an email');
 
-            const { error } = await this.supabase.auth.signInWithOtp({ email });
-            if (error) {
-                alert('Error sending magic link: ' + error.message);
-            } else {
-                alert('Magic link sent! Check your inbox.');
+            try {
+                // First, generate OTP with Supabase (but don't send their email)
+                const { data, error } = await this.supabase.auth.signInWithOtp({ 
+                    email,
+                    options: {
+                        shouldCreateUser: true,
+                        emailRedirectTo: window.location.origin
+                    }
+                });
+                
+                if (error) throw error;
+                
+                // Now send our custom email via edge function
+                const magicLink = `${window.location.origin}?token=${data.session?.access_token || 'check-email'}`;
+                
+                const emailResponse = await fetch(`${this.SUPABASE_URL}/functions/v1/send-email`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${this.SUPABASE_ANON_KEY}`,
+                        'Content-Type': 'application/json',
+                        'apikey': this.SUPABASE_ANON_KEY
+                    },
+                    body: JSON.stringify({
+                        to_email: email,
+                        subject: '🔐 Your Magic Link - NewsReader',
+                        message: `
+                            <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+                                <h2 style="color: #3b82f6;">Welcome to NewsReader!</h2>
+                                <p>Click the button below to sign in to your account:</p>
+                                <p style="margin: 30px 0;">
+                                    <a href="${magicLink}" 
+                                       style="background: #3b82f6; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-block;">
+                                        Sign In to NewsReader
+                                    </a>
+                                </p>
+                                <p style="color: #666; font-size: 14px;">
+                                    Or copy this link: <br/>
+                                    <code style="background: #f3f4f6; padding: 4px 8px; border-radius: 4px;">${magicLink}</code>
+                                </p>
+                                <p style="color: #999; font-size: 12px; margin-top: 30px;">
+                                    This link expires in 1 hour. If you didn't request this, please ignore this email.
+                                </p>
+                            </div>
+                        `,
+                        from_name: 'NewsReader'
+                    })
+                });
+                
+                if (!emailResponse.ok) {
+                    const errorData = await emailResponse.json();
+                    throw new Error(errorData.error || 'Failed to send email');
+                }
+                
+                alert('✅ Magic link sent! Check your inbox.');
+            } catch (error) {
+                console.error('Email send error:', error);
+                alert('❌ Error sending magic link: ' + error.message);
             }
         };
     }
