@@ -44,12 +44,13 @@ class SupabaseUserManager {
             await this.onLogin(data.session.user);
         }
 
-        // Check for magic link token in URL (Supabase OTP)
+        // Check for magic link token in URL (Supabase OTP or signup verification)
         const urlParams = new URLSearchParams(window.location.search);
         const token_hash = urlParams.get('token_hash');
         const type = urlParams.get('type');
         
-        if (token_hash && type === 'magiclink') {
+        if (token_hash && (type === 'magiclink' || type === 'signup')) {
+            console.log('Detected auth callback, type:', type);
             // Wait a moment for Supabase to complete authentication
             await new Promise(resolve => setTimeout(resolve, 1000));
             
@@ -57,7 +58,7 @@ class SupabaseUserManager {
             const { data: sessionData } = await this.supabase.auth.getSession();
             if (sessionData && sessionData.session && sessionData.session.user) {
                 const userEmail = sessionData.session.user.email;
-                console.log('Magic link login for:', userEmail);
+                console.log('Auth successful for:', userEmail);
                 
                 // Try to get reading style from magic_links table
                 const { data: magicLinks, error: fetchError } = await this.supabase
@@ -90,6 +91,8 @@ class SupabaseUserManager {
                     // Clean up URL parameters and redirect immediately
                     window.location.href = redirectUrl;
                     return;
+                } else {
+                    console.log('No reading style found in magic_links table, using default');
                 }
             }
             
