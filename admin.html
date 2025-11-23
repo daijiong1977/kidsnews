@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Admin Panel</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="../assets/fonts/newsreader.css" rel="stylesheet"/>
-    <link href="../assets/fonts/material-symbols.css" rel="stylesheet"/>
-    <link href="../user_manager/user_manager.css" rel="stylesheet"/>
+    <link href="./assets/fonts/newsreader.css" rel="stylesheet"/>
+    <link href="./assets/fonts/material-symbols.css" rel="stylesheet"/>
+    <link href="./user_manager/user_manager.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="../user_manager/user_manager_supabase.js"></script>
+    <script type="module">
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
+        
+        // Initialize Supabase
+        window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
+        window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA5NDk4NjQsImV4cCI6MjA0NjUyNTg2NH0.4f-LytJkibXB_rDmEE_lvthJlXy8x_2bV_sfDG1Kdwg';
+        
+        window.supabaseClient = createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY, {
+            auth: { persistSession: true }
+        });
+        
+        window.supabaseReady = true;
+    </script>
 </head>
 <body class="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 min-h-screen">
     <!-- Login Check Container -->
@@ -193,37 +205,44 @@
         document.addEventListener('DOMContentLoaded', async function() {
             console.log('Admin panel initializing...');
             
-            // Wait for UserManager to be available
+            // Wait for Supabase to be ready
             let attempts = 0;
-            while (!window.userManager && attempts < 50) {
+            while (!window.supabaseReady && attempts < 50) {
                 await new Promise(resolve => setTimeout(resolve, 100));
                 attempts++;
             }
 
-            if (!window.userManager) {
+            if (!window.supabaseClient) {
                 document.getElementById('loadingMessage').innerHTML = '<p class="text-red-600">Failed to load authentication system</p>';
                 return;
             }
 
-            supabase = window.userManager.supabase;
+            supabase = window.supabaseClient;
 
             // Check authentication
-            const isLoggedIn = window.userManager.isRegistered();
+            const { data: sessionData } = await supabase.auth.getSession();
+            const isLoggedIn = sessionData && sessionData.session && sessionData.session.user;
             
             if (!isLoggedIn) {
                 // Not logged in
                 document.getElementById('loadingMessage').classList.add('hidden');
                 document.getElementById('notLoggedInMessage').classList.remove('hidden');
                 document.getElementById('loginButton').addEventListener('click', async () => {
-                    await window.userManager.openLoginSubscribeModal();
-                    // Reload page after login
-                    setTimeout(() => location.reload(), 2000);
+                    // Redirect to main page to login
+                    window.location.href = './index.html';
                 });
                 return;
             }
 
             // Check if admin
-            const isAdmin = await window.userManager.isAdmin();
+            const userId = sessionData.session.user.id;
+            const { data: profile, error: profileError } = await supabase
+                .from('user_profiles')
+                .select('*')
+                .eq('id', userId)
+                .single();
+            
+            const isAdmin = profile && profile.role === 'admin';
             
             if (!isAdmin) {
                 // Logged in but not admin
@@ -233,7 +252,7 @@
             }
 
             // Admin access granted
-            currentUser = window.userManager.profile;
+            currentUser = profile;
             document.getElementById('loginCheck').classList.add('hidden');
             document.getElementById('adminPanel').classList.remove('hidden');
             document.getElementById('adminName').textContent = currentUser.email;
@@ -243,8 +262,8 @@
         });
 
         async function handleLogout() {
-            await window.userManager.logout();
-            window.location.href = '../index.html';
+            await supabase.auth.signOut();
+            window.location.href = './index.html';
         }
 
         function switchTab(tabName) {
