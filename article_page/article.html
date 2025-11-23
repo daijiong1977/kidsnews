@@ -327,16 +327,8 @@
             const imageUrl = data.image_url || '';
             const articleImage = document.getElementById('article-image');
             if (imageUrl) {
-                // Use mobile.webp - replace the extension, handling if _mobile is already there
-                let imagePath = imageUrl;
-                if (imagePath.includes('_mobile')) {
-                    // Already has _mobile, just ensure it ends with .webp
-                    imagePath = imagePath.replace(/\.(jpg|jpeg|png|webp)$/i, '.webp');
-                } else {
-                    // Add _mobile before extension
-                    imagePath = imagePath.replace(/\.(jpg|jpeg|png|webp)$/i, '_mobile.webp');
-                }
-                articleImage.src = imagePath;
+                // Use image URL as-is (mining stores as article_{id}_{hash}.webp)
+                articleImage.src = imageUrl;
                 articleImage.style.display = 'block';
             } else {
                 articleImage.style.display = 'none';
