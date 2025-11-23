@@ -519,11 +519,18 @@ document.addEventListener('DOMContentLoaded', async function() {
   
   // Load available archive dates
   let availableDates = [];
+  let archiveDirectories = {};
   try {
-    const response = await fetch('./payloads/archive_available_dates.json');
+    const response = await fetch('./payloads/archive_index.json');
     if (response.ok) {
       const data = await response.json();
-      availableDates = data.dates || [];
+      // Parse the dates from archive_index.json format
+      if (data.details && Array.isArray(data.details)) {
+        data.details.forEach(item => {
+          availableDates.push(item.date);
+          archiveDirectories[item.date] = item.directory;
+        });
+      }
       console.log(`✓ Loaded ${availableDates.length} available archive dates`);
     }
   } catch (e) {
@@ -599,13 +606,18 @@ document.addEventListener('DOMContentLoaded', async function() {
         modal.classList.add('hidden');
         modal.classList.remove('flex');
         
+        // Get the directory for this date from archive_index.json
+        const directory = archiveDirectories[date] || date;
+        
         // Load archive payloads for this date
         const category = currentCategory || 'news';
         const level = currentLevel || 'middle';
         const lang = chineseMode ? 'cn' : 'en';
         const levelMap = { 'easy': 'easy', 'middle': 'middle', 'high': 'high', 'cn': 'cn' };
         const payloadLevel = lang === 'cn' ? 'cn' : levelMap[level];
-        const payloadPath = `./payloads/${date}/articles_${category}_${payloadLevel}.json`;
+        const payloadPath = `./payloads/${directory}/articles_${category}_${payloadLevel}.json`;
+        
+        console.log('Loading archive from:', payloadPath);
         
         try {
           const response = await fetch(payloadPath);
@@ -613,7 +625,8 @@ document.addEventListener('DOMContentLoaded', async function() {
             const archiveArticles = await response.json();
             displayArticles(archiveArticles);
             // Update header to show archive date
-            document.querySelector('h2.text-3xl').textContent = `${category.charAt(0).toUpperCase() + category.slice(1)} - Archive ${date}`;
+            const formattedDate = date.substring(0, 4) + '-' + date.substring(4, 6) + '-' + date.substring(6, 8);
+            document.querySelector('h2.text-3xl').textContent = `${category.charAt(0).toUpperCase() + category.slice(1)} - Archive ${formattedDate}`;
           } else {
             alert(`No archive available for ${date}`);
           }
