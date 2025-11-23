@@ -338,12 +338,15 @@
             const articleImage = document.getElementById('article-image');
             if (imageUrl) {
                 // For archive articles, check if image URL needs to be loaded from Supabase
-                if (archiveDate && imageUrl.startsWith('/article_image/')) {
-                    // Convert local path to Supabase Storage URL
-                    const imageName = imageUrl.split('/').pop();
-                    const supabaseBase = `https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/${archiveDate}`;
-                    imageUrl = `${supabaseBase}/article_images/${imageName}`;
-                    console.log('Using Supabase image URL:', imageUrl);
+                if (archiveDate) {
+                    // Check if it's a local/relative path or a full URL pointing to kidsnews.6ray.com
+                    if (imageUrl.startsWith('/article_image/') || imageUrl.includes('kidsnews.6ray.com/article_images/')) {
+                        // Extract just the filename
+                        const imageName = imageUrl.split('/').pop();
+                        const supabaseBase = `https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/${archiveDate}`;
+                        imageUrl = `${supabaseBase}/article_images/${imageName}`;
+                        console.log('Using Supabase image URL:', imageUrl);
+                    }
                 }
                 articleImage.src = imageUrl;
                 articleImage.style.display = 'block';
