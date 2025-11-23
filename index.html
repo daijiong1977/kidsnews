@@ -311,19 +311,7 @@ const levelMap = {
 
 // Track current selections
 let currentCategory = 'News';
-// Initialize reading level from localStorage or default to Enjoy
-const savedReadingStyle = localStorage.getItem('news_reading_style');
-const styleToLevelMap = { 'relax': 'Relax', 'enjoy': 'Enjoy', 'research': 'Research', 'chinese': 'CN' };
-let currentLevel = styleToLevelMap[savedReadingStyle] || 'Enjoy';
-// Sync language localStorage with reading style
-if (savedReadingStyle === 'chinese') {
-  localStorage.setItem('language', 'cn');
-  console.log('🔄 Synced language to cn');
-} else if (localStorage.getItem('language') === 'cn' && savedReadingStyle && savedReadingStyle !== 'chinese') {
-  localStorage.setItem('language', 'en');
-  console.log('🔄 Synced language to en');
-}
-console.log('📚 Loaded reading level from localStorage:', savedReadingStyle, '→', currentLevel);
+let currentLevel = 'Enjoy';
 let isChineseMode = localStorage.getItem('language') === 'cn';
 
 // Apply pending level from URL parameter (processed in <head>)
@@ -356,7 +344,7 @@ async function loadArticles(category, level) {
   const isChineseMode = langFromStorage === 'cn';
   
   // If in Chinese mode, use 'cn' level directly; otherwise map the level
-  const levelKey = (isChineseMode || level === "CN") ? "cn" : (levelMap[level] || "middle");
+  const levelKey = isChineseMode ? 'cn' : (levelMap[level] || 'middle');
   const categoryLower = category.toLowerCase();
   
   console.log(`🔍 loadArticles called with: category=${category}, level=${level}`);
@@ -453,9 +441,6 @@ document.addEventListener('DOMContentLoaded', function() {
       currentLevel = this.value;
       loadArticles(currentCategory, currentLevel);
     });
-    // Set dropdown to match loaded reading level
-    select.value = currentLevel;
-    console.log("🎯 Set dropdown to:", currentLevel);
   }
   
   // CN Language Toggle Button
@@ -495,6 +480,17 @@ document.addEventListener('DOMContentLoaded', function() {
       const newMode = currentMode === 'cn' ? 'en' : 'cn';
       localStorage.setItem('language', newMode);
       console.log(`CN mode toggled to: ${newMode}`);
+      
+      // When switching from CN to EN, reset dropdown to "Enjoy" (default)
+      if (newMode === 'en') {
+        currentLevel = 'Enjoy';
+        const select = document.querySelector('select');
+        if (select) {
+          select.value = 'Enjoy';
+        }
+        console.log(`Reset level to Enjoy when switching to EN mode`);
+      }
+      
       updateCNButtonStyle();
       isChineseMode = (newMode === 'cn');
       loadArticles(currentCategory, currentLevel);
@@ -524,11 +520,10 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Load available archive dates
   let availableDates = [];
   try {
-    const response = await fetch('./payloads/archive_index.json');
+    const response = await fetch('./payloads/archive_available_dates.json');
     if (response.ok) {
       const data = await response.json();
-      // archive_index.json has dates array with {date: "YYYY-MM-DD", ...}
-      availableDates = (data.dates || []).map(d => d.date.replace(/-/g, '')); // Convert to YYYYMMDD
+      availableDates = data.dates || [];
       console.log(`✓ Loaded ${availableDates.length} available archive dates`);
     }
   } catch (e) {
@@ -601,7 +596,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.querySelectorAll('.archive-date').forEach(btn => {
       btn.addEventListener('click', function() {
         const date = this.getAttribute('data-date');
-        window.location.href = `./archive/archive.html?date=${date.substring(0,4)}-${date.substring(4,6)}-${date.substring(6,8)}`;
+        window.location.href = `./main/archive.html?date=${date}`;
       });
     });
   }
@@ -628,11 +623,15 @@ document.addEventListener('DOMContentLoaded', async function() {
   });
 });
 </script>
-<!-- User Manager Script -->
+
 <!-- Supabase Configuration -->
 <script>
+// Set Supabase credentials for user_manager_supabase.js
 window.SUPABASE_URL = 'https://lfknsvavhiqrsasdfyrs.supabase.co';
 window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxma25zdmF2aGlxcnNhc2RmeXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MzMwMjcsImV4cCI6MjA3ODMwOTAyN30.2YPvOkZOWi4hDjtwZYkVt9a-RwYSnfotjV6Raj24ZjE';
 </script>
+
+<!-- User Manager Script -->
+<script src="./user_manager/user_manager.js"></script>
 <script type="module" src="./user_manager/user_manager_supabase.js"></script>
 </body></html>
