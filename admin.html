@@ -74,16 +74,177 @@
 
             <!-- Tabs -->
             <div class="bg-white rounded-xl shadow-lg mb-8">
-                <div class="flex border-b border-gray-200">
-                    <button onclick="switchTab('users')" id="tab-users" class="tab-btn px-6 py-4 font-semibold text-indigo-600 border-b-2 border-indigo-600">
-                        Users
+                <div class="flex border-b border-gray-200 overflow-x-auto">
+                    <button onclick="switchTab('feeds')" id="tab-feeds" class="tab-btn px-6 py-4 font-semibold text-indigo-600 border-b-2 border-indigo-600 whitespace-nowrap">
+                        📡 Feeds
                     </button>
-                    <button onclick="switchTab('stats')" id="tab-stats" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800">
-                        Statistics
+                    <button onclick="switchTab('categories')" id="tab-categories" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800 whitespace-nowrap">
+                        🏷️ Categories
                     </button>
-                    <button onclick="switchTab('settings')" id="tab-settings" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800">
-                        Settings
+                    <button onclick="switchTab('articles')" id="tab-articles" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800 whitespace-nowrap">
+                        📝 Articles
                     </button>
+                    <button onclick="switchTab('users')" id="tab-users" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800 whitespace-nowrap">
+                        👥 Users
+                    </button>
+                    <button onclick="switchTab('ai')" id="tab-ai" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800 whitespace-nowrap">
+                        🤖 AI Providers
+                    </button>
+                    <button onclick="switchTab('stats')" id="tab-stats" class="tab-btn px-6 py-4 font-semibold text-gray-600 hover:text-gray-800 whitespace-nowrap">
+                        📊 Statistics
+                    </button>
+                </div>
+
+                <!-- Feeds Tab -->
+                <div id="content-feeds" class="tab-content p-6">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800">Feed Management</h2>
+                        <button onclick="loadFeeds()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg">
+                            <span class="material-symbols-outlined inline-block align-middle">refresh</span>
+                            Refresh
+                        </button>
+                    </div>
+
+                    <!-- Add Feed Form -->
+                    <div class="bg-gray-50 rounded-lg p-6 mb-6">
+                        <h3 class="font-bold text-gray-800 mb-4">Add New Feed</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <input type="text" id="feedName" placeholder="Feed Name" class="border border-gray-300 rounded px-4 py-2">
+                            <input type="url" id="feedUrl" placeholder="Feed URL (https://...)" class="border border-gray-300 rounded px-4 py-2">
+                            <select id="feedCategory" class="border border-gray-300 rounded px-4 py-2">
+                                <option value="">Select Category</option>
+                            </select>
+                            <div class="flex items-center">
+                                <label class="flex items-center">
+                                    <input type="checkbox" id="feedEnabled" checked class="mr-2">
+                                    <span class="text-gray-700">Enable Feed</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button onclick="addFeed()" class="mt-4 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg">
+                            Add Feed
+                        </button>
+                    </div>
+
+                    <div id="feedsTable" class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">ID</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Category</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="feedsTableBody" class="bg-white divide-y divide-gray-200">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Categories Tab -->
+                <div id="content-categories" class="tab-content p-6 hidden">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800">Category Management</h2>
+                        <button onclick="loadCategories()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg">
+                            <span class="material-symbols-outlined inline-block align-middle">refresh</span>
+                            Refresh
+                        </button>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg p-6 mb-6">
+                        <h3 class="font-bold text-gray-800 mb-4">Add New Category</h3>
+                        <div class="flex gap-4">
+                            <input type="text" id="categoryName" placeholder="Category Name" class="flex-1 border border-gray-300 rounded px-4 py-2">
+                            <button onclick="addCategory()" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg">
+                                Add Category
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="categoriesTable" class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">ID</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Feeds Count</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="categoriesTableBody" class="bg-white divide-y divide-gray-200">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Articles Tab -->
+                <div id="content-articles" class="tab-content p-6 hidden">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800">Articles (Latest 100)</h2>
+                        <button onclick="loadArticles()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg">
+                            <span class="material-symbols-outlined inline-block align-middle">refresh</span>
+                            Refresh
+                        </button>
+                    </div>
+
+                    <div id="articlesTable" class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Title</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Source</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Published</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="articlesTableBody" class="bg-white divide-y divide-gray-200">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- AI Providers Tab -->
+                <div id="content-ai" class="tab-content p-6 hidden">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800">AI Provider Management</h2>
+                        <button onclick="loadAiProviders()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg">
+                            <span class="material-symbols-outlined inline-block align-middle">refresh</span>
+                            Refresh
+                        </button>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg p-6 mb-6">
+                        <h3 class="font-bold text-gray-800 mb-4">Add New AI Provider</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <input type="text" id="aiName" placeholder="Provider Name (e.g., OpenAI)" class="border border-gray-300 rounded px-4 py-2">
+                            <input type="text" id="aiType" placeholder="Provider Type (e.g., openai)" class="border border-gray-300 rounded px-4 py-2">
+                            <input type="password" id="aiKey" placeholder="API Key" class="border border-gray-300 rounded px-4 py-2 md:col-span-2">
+                            <input type="text" id="aiModel" placeholder="Model (optional)" class="border border-gray-300 rounded px-4 py-2">
+                            <input type="url" id="aiBaseUrl" placeholder="Base URL (optional)" class="border border-gray-300 rounded px-4 py-2">
+                        </div>
+                        <button onclick="addAiProvider()" class="mt-4 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg">
+                            Add Provider
+                        </button>
+                    </div>
+
+                    <div id="aiProvidersTable" class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Type</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Model</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="aiProvidersTableBody" class="bg-white divide-y divide-gray-200">
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
 
                 <!-- Users Tab -->
@@ -277,7 +438,8 @@
             document.getElementById('adminName').textContent = currentUser.email;
 
             // Load initial data
-            loadUsers();
+            loadFeeds();
+            loadCategories();
         });
 
         async function handleLogout() {
@@ -301,8 +463,338 @@
             document.getElementById(`content-${tabName}`).classList.remove('hidden');
 
             // Load data for tab
-            if (tabName === 'users') loadUsers();
+            if (tabName === 'feeds') loadFeeds();
+            else if (tabName === 'categories') loadCategories();
+            else if (tabName === 'articles') loadArticles();
+            else if (tabName === 'users') loadUsers();
+            else if (tabName === 'ai') loadAiProviders();
             else if (tabName === 'stats') loadStats();
+        }
+
+        // ===== FEEDS MANAGEMENT =====
+        async function loadFeeds() {
+            try {
+                const { data: feeds, error } = await supabase
+                    .from('feeds')
+                    .select('*, categories(category_name)')
+                    .order('created_at', { ascending: false });
+
+                if (error) throw error;
+
+                const tbody = document.getElementById('feedsTableBody');
+                tbody.innerHTML = feeds.map(feed => `
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-6 py-4 text-sm text-gray-900">${feed.feed_id}</td>
+                        <td class="px-6 py-4 text-sm text-gray-900">${escapeHtml(feed.feed_name)}</td>
+                        <td class="px-6 py-4 text-sm text-gray-600">${feed.categories ? feed.categories.category_name : 'N/A'}</td>
+                        <td class="px-6 py-4">
+                            <span class="px-2 py-1 text-xs font-semibold rounded-full ${feed.enable ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}">
+                                ${feed.enable ? '✓ Enabled' : '✗ Disabled'}
+                            </span>
+                        </td>
+                        <td class="px-6 py-4 text-sm">
+                            <button onclick="toggleFeed(${feed.feed_id}, ${feed.enable})" class="text-blue-600 hover:text-blue-900 mr-2">
+                                ${feed.enable ? 'Disable' : 'Enable'}
+                            </button>
+                            <button onclick="deleteFeed(${feed.feed_id}, '${escapeHtml(feed.feed_name).replace(/'/g, "\\'")}')" class="text-red-600 hover:text-red-900">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                `).join('');
+
+                // Populate category select
+                const { data: categories } = await supabase.from('categories').select('*').order('category_name');
+                if (categories) {
+                    document.getElementById('feedCategory').innerHTML = '<option value="">Select Category</option>' +
+                        categories.map(c => `<option value="${c.category_id}">${c.category_name}</option>`).join('');
+                }
+            } catch (error) {
+                console.error('Error loading feeds:', error);
+                alert('Error loading feeds: ' + error.message);
+            }
+        }
+
+        async function addFeed() {
+            const name = document.getElementById('feedName').value.trim();
+            const url = document.getElementById('feedUrl').value.trim();
+            const categoryId = document.getElementById('feedCategory').value;
+            const enabled = document.getElementById('feedEnabled').checked;
+
+            if (!name || !url || !categoryId) {
+                alert('Please fill in all required fields');
+                return;
+            }
+
+            try {
+                const { error } = await supabase.from('feeds').insert([{
+                    feed_name: name,
+                    feed_url: url,
+                    category_id: parseInt(categoryId),
+                    enable: enabled
+                }]);
+
+                if (error) throw error;
+
+                alert('✓ Feed added successfully');
+                document.getElementById('feedName').value = '';
+                document.getElementById('feedUrl').value = '';
+                document.getElementById('feedCategory').value = '';
+                document.getElementById('feedEnabled').checked = true;
+                loadFeeds();
+            } catch (error) {
+                alert('Error adding feed: ' + error.message);
+            }
+        }
+
+        async function toggleFeed(feedId, currentStatus) {
+            try {
+                const { error } = await supabase
+                    .from('feeds')
+                    .update({ enable: !currentStatus })
+                    .eq('feed_id', feedId);
+
+                if (error) throw error;
+                alert('✓ Feed updated');
+                loadFeeds();
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        async function deleteFeed(feedId, feedName) {
+            if (!confirm(`Delete feed "${feedName}"?`)) return;
+
+            try {
+                const { error } = await supabase.from('feeds').delete().eq('feed_id', feedId);
+                if (error) throw error;
+                alert('✓ Feed deleted');
+                loadFeeds();
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        // ===== CATEGORIES MANAGEMENT =====
+        async function loadCategories() {
+            try {
+                const { data: categories, error } = await supabase
+                    .from('categories')
+                    .select('*')
+                    .order('category_name');
+
+                if (error) throw error;
+
+                // Get feed counts
+                const { data: feeds } = await supabase.from('feeds').select('category_id');
+                const feedCounts = {};
+                if (feeds) {
+                    feeds.forEach(f => {
+                        feedCounts[f.category_id] = (feedCounts[f.category_id] || 0) + 1;
+                    });
+                }
+
+                const tbody = document.getElementById('categoriesTableBody');
+                tbody.innerHTML = categories.map(cat => `
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-6 py-4 text-sm text-gray-900">${cat.category_id}</td>
+                        <td class="px-6 py-4 text-sm text-gray-900">${escapeHtml(cat.category_name)}</td>
+                        <td class="px-6 py-4 text-sm text-gray-600">${feedCounts[cat.category_id] || 0}</td>
+                        <td class="px-6 py-4 text-sm">
+                            <button onclick="deleteCategory(${cat.category_id}, '${escapeHtml(cat.category_name).replace(/'/g, "\\'")}')" class="text-red-600 hover:text-red-900">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading categories:', error);
+                alert('Error loading categories: ' + error.message);
+            }
+        }
+
+        async function addCategory() {
+            const name = document.getElementById('categoryName').value.trim();
+
+            if (!name) {
+                alert('Please enter a category name');
+                return;
+            }
+
+            try {
+                const { error } = await supabase.from('categories').insert([{ category_name: name }]);
+                if (error) throw error;
+
+                alert('✓ Category added');
+                document.getElementById('categoryName').value = '';
+                loadCategories();
+                loadFeeds(); // Refresh feed category dropdown
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        async function deleteCategory(categoryId, categoryName) {
+            if (!confirm(`Delete category "${categoryName}"?`)) return;
+
+            try {
+                const { error } = await supabase.from('categories').delete().eq('category_id', categoryId);
+                if (error) throw error;
+                alert('✓ Category deleted');
+                loadCategories();
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        // ===== ARTICLES MANAGEMENT =====
+        async function loadArticles() {
+            try {
+                const { data: articles, error } = await supabase
+                    .from('articles')
+                    .select('*')
+                    .order('pub_date', { ascending: false })
+                    .limit(100);
+
+                if (error) throw error;
+
+                const tbody = document.getElementById('articlesTableBody');
+                tbody.innerHTML = articles.map(article => `
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-6 py-4 text-sm text-gray-900 max-w-xs truncate">${escapeHtml(article.title)}</td>
+                        <td class="px-6 py-4 text-sm text-gray-600">${escapeHtml(article.source)}</td>
+                        <td class="px-6 py-4 text-sm text-gray-600">${article.pub_date ? new Date(article.pub_date).toLocaleDateString() : 'N/A'}</td>
+                        <td class="px-6 py-4">
+                            <span class="px-2 py-1 text-xs font-semibold rounded-full ${article.deepseek_processed ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'}">
+                                ${article.deepseek_processed ? '✓ Processed' : '⏳ Pending'}
+                            </span>
+                        </td>
+                        <td class="px-6 py-4 text-sm">
+                            <a href="${article.url}" target="_blank" class="text-blue-600 hover:text-blue-900 mr-2">View</a>
+                            <button onclick="deleteArticle('${article.id}')" class="text-red-600 hover:text-red-900">Delete</button>
+                        </td>
+                    </tr>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading articles:', error);
+                alert('Error loading articles: ' + error.message);
+            }
+        }
+
+        async function deleteArticle(articleId) {
+            if (!confirm('Delete this article?')) return;
+
+            try {
+                const { error } = await supabase.from('articles').delete().eq('id', articleId);
+                if (error) throw error;
+                alert('✓ Article deleted');
+                loadArticles();
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        // ===== AI PROVIDERS MANAGEMENT =====
+        async function loadAiProviders() {
+            try {
+                const { data: providers, error } = await supabase
+                    .from('ai_providers')
+                    .select('*')
+                    .order('created_at', { ascending: false });
+
+                if (error) throw error;
+
+                const tbody = document.getElementById('aiProvidersTableBody');
+                tbody.innerHTML = providers.map(provider => `
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-6 py-4 text-sm text-gray-900">${escapeHtml(provider.name)}</td>
+                        <td class="px-6 py-4 text-sm text-gray-600">${escapeHtml(provider.provider_type)}</td>
+                        <td class="px-6 py-4 text-sm text-gray-600">${escapeHtml(provider.model || 'N/A')}</td>
+                        <td class="px-6 py-4">
+                            <span class="px-2 py-1 text-xs font-semibold rounded-full ${provider.enabled ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}">
+                                ${provider.enabled ? '✓ Enabled' : '✗ Disabled'}
+                            </span>
+                        </td>
+                        <td class="px-6 py-4 text-sm">
+                            <button onclick="toggleAiProvider(${provider.id}, ${provider.enabled})" class="text-blue-600 hover:text-blue-900 mr-2">
+                                ${provider.enabled ? 'Disable' : 'Enable'}
+                            </button>
+                            <button onclick="deleteAiProvider(${provider.id}, '${escapeHtml(provider.name).replace(/'/g, "\\'")}')" class="text-red-600 hover:text-red-900">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading AI providers:', error);
+                alert('Error loading AI providers: ' + error.message);
+            }
+        }
+
+        async function addAiProvider() {
+            const name = document.getElementById('aiName').value.trim();
+            const type = document.getElementById('aiType').value.trim();
+            const key = document.getElementById('aiKey').value.trim();
+            const model = document.getElementById('aiModel').value.trim();
+            const baseUrl = document.getElementById('aiBaseUrl').value.trim();
+
+            if (!name || !type || !key) {
+                alert('Please fill in required fields (Name, Type, API Key)');
+                return;
+            }
+
+            try {
+                const { error } = await supabase.from('ai_providers').insert([{
+                    name: name,
+                    provider_type: type,
+                    api_key: key,
+                    model: model || null,
+                    base_url: baseUrl || null,
+                    enabled: 1,
+                    created_at: new Date().toISOString(),
+                    updated_at: new Date().toISOString()
+                }]);
+
+                if (error) throw error;
+
+                alert('✓ AI Provider added');
+                document.getElementById('aiName').value = '';
+                document.getElementById('aiType').value = '';
+                document.getElementById('aiKey').value = '';
+                document.getElementById('aiModel').value = '';
+                document.getElementById('aiBaseUrl').value = '';
+                loadAiProviders();
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        async function toggleAiProvider(providerId, currentStatus) {
+            try {
+                const { error } = await supabase
+                    .from('ai_providers')
+                    .update({ enabled: currentStatus ? 0 : 1 })
+                    .eq('id', providerId);
+
+                if (error) throw error;
+                alert('✓ AI Provider updated');
+                loadAiProviders();
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        async function deleteAiProvider(providerId, providerName) {
+            if (!confirm(`Delete AI provider "${providerName}"?`)) return;
+
+            try {
+                const { error } = await supabase.from('ai_providers').delete().eq('id', providerId);
+                if (error) throw error;
+                alert('✓ AI Provider deleted');
+                loadAiProviders();
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
         }
 
         async function loadUsers() {
