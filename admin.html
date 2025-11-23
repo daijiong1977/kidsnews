@@ -236,18 +236,23 @@
 
             // Check if admin
             const userId = sessionData.session.user.id;
-            const { data: profile, error: profileError } = await supabase
+            const { data: profiles, error: profileError } = await supabase
                 .from('user_profiles')
                 .select('*')
-                .eq('id', userId)
-                .single();
+                .eq('id', userId);
             
+            console.log('Profile query result:', profiles, 'Error:', profileError);
+            
+            const profile = profiles && profiles.length > 0 ? profiles[0] : null;
             const isAdmin = profile && profile.role === 'admin';
+            
+            console.log('Is admin:', isAdmin, 'Profile:', profile);
             
             if (!isAdmin) {
                 // Logged in but not admin
                 document.getElementById('loadingMessage').classList.add('hidden');
                 document.getElementById('notAdminMessage').classList.remove('hidden');
+                console.error('Admin check failed. Profile:', profile);
                 return;
             }
 
