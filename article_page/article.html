@@ -902,12 +902,29 @@ window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXB
 </script>
 
 <!-- User Manager Script (Supabase-backed) -->
-<script type="module" src="../user_manager/user_manager_supabase.js"></script>
+<script type="module">
+import SupabaseUserManager from '../user_manager/user_manager_supabase.js';
+
+// Initialize user manager
+const userManager = new SupabaseUserManager();
+window.userManager = userManager;
+
+// Add isRegistered method for backward compatibility
+userManager.isRegistered = function() {
+    return this.user !== null && this.user !== undefined;
+};
+</script>
 <!-- Article Page User Actions Script -->
 <script>
     // Initialize user manager and article page buttons
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', async function() {
         // Wait for UserManager to be available
+        let retries = 0;
+        while (typeof window.userManager === 'undefined' && retries < 50) {
+            await new Promise(resolve => setTimeout(resolve, 100));
+            retries++;
+        }
+        
         if (typeof window.userManager === 'undefined') {
             console.warn('UserManager not loaded on article page');
             return;
@@ -915,6 +932,9 @@ window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXB
         
         const syncBtn = document.getElementById('article-sync-btn');
         const loginBtn = document.getElementById('article-login-btn');
+        
+        // Wait for supabase session check
+        await new Promise(resolve => setTimeout(resolve, 500));
         
         // Check if user is logged in
         const isLoggedIn = window.userManager.isRegistered();

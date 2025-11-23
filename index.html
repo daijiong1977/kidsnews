@@ -632,5 +632,32 @@ window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXB
 </script>
 
 <!-- User Manager Script (Supabase-backed) -->
-<script type="module" src="./user_manager/user_manager_supabase.js"></script>
+<script type="module">
+import SupabaseUserManager from './user_manager/user_manager_supabase.js';
+
+// Initialize user manager
+const userManager = new SupabaseUserManager();
+window.userManager = userManager;
+
+// Attach to user button after DOM loads
+document.addEventListener('DOMContentLoaded', () => {
+  const userButton = document.getElementById('user-button');
+  if (userButton) {
+    userButton.addEventListener('click', async () => {
+      // Check if user is logged in
+      const { data } = await userManager.supabase.auth.getSession();
+      if (data && data.session && data.session.user) {
+        // Show user menu or profile
+        if (confirm(`Logged in as ${data.session.user.email}\n\nLogout?`)) {
+          await userManager.logout();
+          location.reload();
+        }
+      } else {
+        // Show login modal
+        userManager.openLoginSubscribeModal();
+      }
+    });
+  }
+});
+</script>
 </body></html>
