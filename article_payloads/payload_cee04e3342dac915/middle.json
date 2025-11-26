@@ -1,0 +1,137 @@
+{
+  "title": "Boiling Oceans: The Dynamics of Icy Moons",
+  "summary": "A recent study in Nature Astronomy explores how the formation of subsurface oceans on icy moons can lead to boiling waters. Icy moons, such as Enceladus and Europa, are known for their potential hidden oceans, often created by tidal heating from gravitational interactions. However, these forces are not constant; they vary over time due to orbital cycles, causing moons to melt and refreeze periodically. When ice melts into water, the moon's interior shrinks because water is denser than ice, creating a low-pressure zone beneath the icy shell. For smaller moons with weak gravity, this low pressure can cause the ocean surface to boil, releasing dissolved gases as bubbles. Researchers used a general model with an elastic ice shell, viscous ice, a liquid ocean, and a rocky core to simulate these processes. They found that on larger moons like Europa, gravity might maintain liquid water or cause surface collapse, but on smaller moons, boiling is feasible. This study highlights the dynamic nature of moons and the importance of size and gravity in determining ocean behavior, offering insights into geological features and potential habitability.",
+  "keywords": [
+    {
+      "term": "tidal heating",
+      "explanation": "heat generated inside a moon from gravitational stretching and friction"
+    },
+    {
+      "term": "density",
+      "explanation": "how much mass something has for its size; water is denser than ice"
+    },
+    {
+      "term": "elastic surface",
+      "explanation": "a material that can stretch and bend without breaking"
+    },
+    {
+      "term": "low pressure",
+      "explanation": "reduced force in an area, which can lower boiling points"
+    },
+    {
+      "term": "orbital cycles",
+      "explanation": "long-term changes in the path of moons around planets"
+    },
+    {
+      "term": "viscous ice",
+      "explanation": "ice that flows slowly like a thick fluid"
+    },
+    {
+      "term": "geysers",
+      "explanation": "jets of water or steam erupting from a moon's surface"
+    },
+    {
+      "term": "gravitational stress",
+      "explanation": "forces from gravity that can cause flexing and heating"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What causes the low pressure under the ice shell on icy moons?",
+      "options": [
+        "Shrinking from melting ice",
+        "Increased solar radiation",
+        "Impact from asteroids",
+        "Volcanic activity"
+      ],
+      "correct_answer": "Shrinking from melting ice"
+    },
+    {
+      "question": "Which journal published the study discussed in the article?",
+      "options": [
+        "Nature Astronomy",
+        "Science Journal",
+        "Astrophysical Review",
+        "Planetary Science"
+      ],
+      "correct_answer": "Nature Astronomy"
+    },
+    {
+      "question": "What role does gravity play in preventing boiling on larger moons?",
+      "options": [
+        "It maintains higher pressure",
+        "It increases temperature",
+        "It thickens the ice shell",
+        "It reduces ocean size"
+      ],
+      "correct_answer": "It maintains higher pressure"
+    },
+    {
+      "question": "How do orbital cycles affect icy moons?",
+      "options": [
+        "They cause periodic melting and refreezing",
+        "They make moons move faster",
+        "They increase surface temperature",
+        "They destroy the ice shell"
+      ],
+      "correct_answer": "They cause periodic melting and refreezing"
+    },
+    {
+      "question": "What is released when water boils on small moons?",
+      "options": [
+        "Dissolved gases as bubbles",
+        "Solid ice crystals",
+        "Liquid methane",
+        "Radioactive particles"
+      ],
+      "correct_answer": "Dissolved gases as bubbles"
+    },
+    {
+      "question": "What type of model did researchers use in their study?",
+      "options": [
+        "General model with elastic ice shell",
+        "Specific model for Europa only",
+        "Computer simulation of geysers",
+        "Physical experiment on Earth"
+      ],
+      "correct_answer": "General model with elastic ice shell"
+    },
+    {
+      "question": "Why is the difference in density between ice and water important?",
+      "options": [
+        "It causes shrinkage during melting",
+        "It makes ice float on water",
+        "It increases gravitational pull",
+        "It prevents ocean formation"
+      ],
+      "correct_answer": "It causes shrinkage during melting"
+    },
+    {
+      "question": "What can happen if the ice shell fails on larger moons?",
+      "options": [
+        "Surface collapse",
+        "Complete evaporation",
+        "Formation of new moons",
+        "Increase in ocean size"
+      ],
+      "correct_answer": "Surface collapse"
+    }
+  ],
+  "background_read": [
+    "Icy moons are celestial bodies with surfaces covered in ice, orbiting gas giants like Jupiter and Saturn. They are of interest because subsurface oceans might exist, warmed by tidal forces from gravitational interactions with their planets and other moons. Tidal heating occurs when a moon's orbit is elliptical, causing it to flex and generate internal heat. Water and ice have different densities; ice is less dense, so when it melts, the volume decreases, leading to internal changes. Pressure affects boiling points—lower pressure means water boils at lower temperatures. This study builds on previous research about moon geology, such as geysers on Enceladus, and uses modeling to predict behaviors under varying conditions. Understanding these processes helps assess the potential for life, as liquid water and energy sources are key ingredients."
+  ],
+  "Article_Structure": [
+    "The article's main points focus on how melting ice in icy moons creates low pressure that can cause boiling, especially on small moons with weak gravity. Its purpose is to inform about dynamic geological processes and challenge static views of moon oceans. Evidence evaluation shows reliance on a peer-reviewed study in Nature Astronomy, using computational models, which are standard but simplified. Author credibility is implied through the reputable source, Ars Technica, citing experts. Methodology involves elastic and viscous modeling to simulate pressure changes, providing a theoretical basis, though it lacks direct observational data, highlighting the need for future missions to verify findings."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Research perspective",
+      "description": "Emphasizes model-based predictions to understand moon interiors and boiling phenomena."
+    },
+    {
+      "perspective": "Astrobiological perspective",
+      "description": "Considers how boiling oceans might impact the potential for life by altering chemical environments."
+    }
+  ],
+  "image_url": "/article_images/article_cee04e3342dac915_5a83cfc612d1.webp"
+}
