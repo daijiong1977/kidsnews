@@ -1,0 +1,112 @@
+{
+  "title": "A Smart Helper for Chemists",
+  "summary": "Chemists have been trying for a long time to make a special chemical reaction work with common molecules called alkyl ketones. These molecules are found in many things, like medicines, but they are hard to change. A team of scientists from Hokkaido University created a smart helper called a catalyst that uses light to make this reaction happen. They used computers to find the best helper from many options. This new method helps chemists make new medicines and other important chemicals more easily. It's like finding a key to unlock a door that was stuck for years.",
+  "keywords": [
+    {
+      "term": "catalyst",
+      "explanation": "a helper that makes a chemical reaction happen faster"
+    },
+    {
+      "term": "ketones",
+      "explanation": "common molecules found in many chemicals"
+    },
+    {
+      "term": "radicals",
+      "explanation": "very active parts of molecules that can form new bonds"
+    },
+    {
+      "term": "ligand",
+      "explanation": "a part that attaches to a metal to help in reactions"
+    },
+    {
+      "term": "computer screening",
+      "explanation": "using computers to test many options quickly"
+    },
+    {
+      "term": "light-activated",
+      "explanation": "using light to start a reaction"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did the scientists create to help with the chemical reaction?",
+      "options": [
+        "A smart catalyst",
+        "A new medicine",
+        "A big machine",
+        "A type of food"
+      ],
+      "correct_answer": "A smart catalyst"
+    },
+    {
+      "question": "What type of molecules were hard to change in the reaction?",
+      "options": [
+        "Alkyl ketones",
+        "Water molecules",
+        "Sugar molecules",
+        "Metal atoms"
+      ],
+      "correct_answer": "Alkyl ketones"
+    },
+    {
+      "question": "How did the scientists find the best helper?",
+      "options": [
+        "Using computers",
+        "By guessing",
+        "Asking other chemists",
+        "Using a microscope"
+      ],
+      "correct_answer": "Using computers"
+    },
+    {
+      "question": "What university did the scientists work at?",
+      "options": [
+        "Hokkaido University",
+        "Tokyo University",
+        "Harvard University",
+        "Oxford University"
+      ],
+      "correct_answer": "Hokkaido University"
+    },
+    {
+      "question": "What is used to start the reaction?",
+      "options": [
+        "Light",
+        "Heat",
+        "Sound",
+        "Electricity"
+      ],
+      "correct_answer": "Light"
+    },
+    {
+      "question": "Why are alkyl ketyl radicals useful?",
+      "options": [
+        "For making medicines",
+        "For cooking food",
+        "For building houses",
+        "For writing books"
+      ],
+      "correct_answer": "For making medicines"
+    }
+  ],
+  "background_read": [
+    "Chemistry is the study of substances and how they change. Ketones are a type of molecule that chemists often work with to create new things like drugs. Radicals are very reactive parts that can help form new bonds. Catalysts are special helpers that make reactions happen without being used up. Scientists use computers to simulate experiments and save time. This article talks about a breakthrough where scientists solved a long-standing problem in chemistry."
+  ],
+  "Article_Structure": [
+    "WHO: A team of chemists at Hokkaido University",
+    "WHAT: Developed a smart catalyst that enables chemical reactions with alkyl ketones using light",
+    "WHERE: At WPI-ICReDD in Hokkaido University",
+    "WHY: To make it easier to create medicines and other chemicals by solving a problem that stumped chemists for decades"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific Achievement",
+      "description": "This is a big step forward in chemistry that could lead to new discoveries."
+    },
+    {
+      "perspective": "Environmental Impact",
+      "description": "Using computers to screen options reduces chemical waste, which is better for the environment."
+    }
+  ],
+  "image_url": "/article_images/article_85552675e8a7cbbd_2e4ba2ba1383.webp"
+}

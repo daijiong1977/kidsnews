@@ -1,0 +1,141 @@
+{
+  "title": "Asahi's Data Breach: A Cybersecurity Crisis",
+  "summary": "Asahi, a major Japanese beer producer, disclosed a significant cyber-attack in September that may have exposed the personal details of over 1.5 million customers. The ransomware attack disrupted the company's operations, forcing employees to resort to manual methods like pen and paper for orders. Asahi's investigation revealed that hackers infiltrated their network, encrypted data, and deployed ransomware, potentially leaking names, genders, addresses, and contact information. Additionally, data from employees, their families, and external contacts were at risk, though credit card information was not involved. The company has delayed its financial results to address the incident and is notifying affected individuals. While the attack is limited to systems in Japan, and no evidence of data release has been confirmed, the event highlights vulnerabilities in corporate cybersecurity.",
+  "keywords": [
+    {
+      "term": "cyber-attack",
+      "explanation": "an unauthorized intrusion into computer systems to steal or compromise data"
+    },
+    {
+      "term": "ransomware",
+      "explanation": "malicious software that encrypts files and demands payment for their release"
+    },
+    {
+      "term": "data breach",
+      "explanation": "an incident where sensitive information is accessed without authorization"
+    },
+    {
+      "term": "personal information",
+      "explanation": "private details about individuals that can identify them"
+    },
+    {
+      "term": "encryption",
+      "explanation": "the process of converting data into a code to prevent unauthorized access"
+    },
+    {
+      "term": "investigation",
+      "explanation": "a systematic inquiry to uncover facts about an event"
+    },
+    {
+      "term": "fallout",
+      "explanation": "the negative consequences or aftermath of an event"
+    },
+    {
+      "term": "disruption",
+      "explanation": "an interruption that hinders normal operations"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What type of cyber-attack did Asahi experience?",
+      "options": [
+        "Ransomware",
+        "Phishing",
+        "Virus",
+        "Spyware"
+      ],
+      "correct_answer": "Ransomware"
+    },
+    {
+      "question": "How many customers' data was potentially exposed?",
+      "options": [
+        "1.5 million",
+        "1 million",
+        "2 million",
+        "500,000"
+      ],
+      "correct_answer": "1.5 million"
+    },
+    {
+      "question": "When was the disruption at the data centre discovered?",
+      "options": [
+        "29 September",
+        "15 September",
+        "1 October",
+        "10 September"
+      ],
+      "correct_answer": "29 September"
+    },
+    {
+      "question": "What did Asahi delay due to the attack?",
+      "options": [
+        "Financial results",
+        "Product launches",
+        "Employee bonuses",
+        "Marketing campaigns"
+      ],
+      "correct_answer": "Financial results"
+    },
+    {
+      "question": "Which group claimed responsibility for the attack?",
+      "options": [
+        "Qilin",
+        "Anonymous",
+        "Lazarus",
+        "APT28"
+      ],
+      "correct_answer": "Qilin"
+    },
+    {
+      "question": "What personal details were potentially leaked?",
+      "options": [
+        "Names and addresses",
+        "Credit card numbers",
+        "Social security numbers",
+        "Medical records"
+      ],
+      "correct_answer": "Names and addresses"
+    },
+    {
+      "question": "How did the attack affect Asahi's operations?",
+      "options": [
+        "Employees used pen and paper",
+        "Factories shut down completely",
+        "Sales increased",
+        "No impact"
+      ],
+      "correct_answer": "Employees used pen and paper"
+    },
+    {
+      "question": "Is the attack confirmed to have released data publicly?",
+      "options": [
+        "No",
+        "Yes",
+        "Partially",
+        "Unknown"
+      ],
+      "correct_answer": "No"
+    }
+  ],
+  "background_read": [
+    "Cybersecurity involves protecting computer systems from attacks. Ransomware is a growing threat where hackers lock data and demand ransoms. Companies store vast amounts of personal data, making them targets. Data breaches can lead to identity theft and financial loss. Asahi's incident shows the importance of robust security measures and quick response to minimize damage."
+  ],
+  "Article_Structure": [
+    "The article details a ransomware attack on Asahi, highlighting key points like the potential leak of 1.5 million customers' data and operational disruptions. Its purpose is to inform the public about the breach and Asahi's response. Evidence comes from company statements and BBC reporting, which is credible but relies on preliminary findings. Author credibility is high as BBC is a reputable news source. Methodology involves summarizing official investigations and claims, though it lacks independent verification, emphasizing the need for caution in assessing the full impact."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Corporate perspective",
+      "description": "Asahi is managing the crisis by investigating and communicating with stakeholders"
+    },
+    {
+      "perspective": "Cybersecurity expert view",
+      "description": "Highlights the need for better defenses against ransomware attacks"
+    },
+    {
+      "perspective": "Consumer perspective",
+      "description": "Concerns about privacy and potential misuse of personal data"
+    }
+  ],
+  "image_url": "/article_images/article_b2a3a0672a83e129_4005d3892808.webp"
+}
