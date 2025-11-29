@@ -1,0 +1,137 @@
+{
+  "title": "Toxic Metal Contamination in Plastic Toys: A Health Risk Study",
+  "summary": "Researchers from the University of São Paulo and Federal University of Alfenas conducted a detailed study on 70 plastic toys in Brazil, revealing high levels of toxic metals like barium, lead, chromium, and antimony. Many toys exceeded safety limits set by Brazilian and European standards, with barium levels up to 15 times higher than allowed, posing risks such as heart issues and neurological damage. The team used advanced methods like inductively coupled plasma mass spectrometry to detect 21 toxic elements and simulated how metals might leach into saliva. Findings showed that while only small amounts are released, the high concentrations in toys are concerning, especially for children who put toys in their mouths. The study highlights a lack of control in toy production and recommends stricter enforcement, including regular testing and better certifications for imported items to protect children's health.",
+  "keywords": [
+    {
+      "term": "barium",
+      "explanation": "a toxic metal that can cause heart arrhythmias and nervous system damage"
+    },
+    {
+      "term": "lead",
+      "explanation": "a heavy metal linked to irreversible neurological harm and reduced IQ in children"
+    },
+    {
+      "term": "chromium",
+      "explanation": "a carcinogenic metal that can increase cancer risk"
+    },
+    {
+      "term": "antimony",
+      "explanation": "a metalloid that may lead to gastrointestinal problems"
+    },
+    {
+      "term": "ICP-MS",
+      "explanation": "a precise method used to measure tiny amounts of elements in samples"
+    },
+    {
+      "term": "bioavailability",
+      "explanation": "the extent to which a substance can be absorbed and cause effects in the body"
+    },
+    {
+      "term": "contamination",
+      "explanation": "the presence of harmful substances in products due to poor manufacturing"
+    },
+    {
+      "term": "enforcement",
+      "explanation": "actions taken to ensure rules and safety standards are followed"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What percentage of toy samples had barium levels above the permitted limit?",
+      "options": [
+        "44.3%",
+        "32.9%",
+        "24.3%",
+        "20%"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Which organization's safety requirements did many toys fail to meet?",
+      "options": [
+        "INMETRO and EU",
+        "FDA only",
+        "WHO only",
+        "UNICEF"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What method did researchers use to detect metals in the toys?",
+      "options": [
+        "ICP-MS",
+        "Microscopy",
+        "X-rays",
+        "Weighing"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "How many toxic elements were identified in the study?",
+      "options": [
+        "21",
+        "10",
+        "30",
+        "5"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What was the range of extraction rates for substances in gastric juice tests?",
+      "options": [
+        "0.11% to 7.33%",
+        "1% to 10%",
+        "5% to 15%",
+        "0% to 100%"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What common origin did nickel, cobalt, and manganese suggest?",
+      "options": [
+        "Manufacturing process",
+        "Natural decay",
+        "Child's saliva",
+        "Packaging"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Who led the research mentioned in the article?",
+      "options": [
+        "Bruno Alves Rocha",
+        "A government official",
+        "A toy maker",
+        "A parent"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What did the study recommend to improve toy safety?",
+      "options": [
+        "Stricter enforcement and testing",
+        "Banning all plastic toys",
+        "Using only local products",
+        "Increasing toy prices"
+      ],
+      "correct_answer": "A"
+    }
+  ],
+  "background_read": [
+    "Plastic toys are widely used by children, but they can contain hazardous chemicals from manufacturing processes. Metals like lead and barium are often added for color or durability but are toxic if ingested. Regulatory bodies like INMETRO in Brazil and the European Union set limits on these substances to protect health. Exposure to high levels can lead to serious conditions, such as neurological disorders or cancer. This study builds on previous research about product safety, emphasizing the need for better quality control and awareness among consumers and manufacturers to prevent health risks in vulnerable populations like children."
+  ],
+  "Article_Structure": [
+    "The article's main points highlight the detection of toxic metals in Brazilian plastic toys, with key arguments on health risks and regulatory failures. Its purpose is to raise awareness and advocate for stricter safety measures. Evidence is strong, using rigorous methods like ICP-MS and bioavailability tests, though limited to one country. Author credibility is high, as researchers from reputable universities conducted the study, supported by FAPESP. Methodology involved systematic toy selection and advanced analytical techniques, ensuring reliable data on contamination levels."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Public health",
+      "description": "Focuses on the risks to children and the need for protective measures."
+    },
+    {
+      "perspective": "Regulatory",
+      "description": "Emphasizes gaps in safety standards and calls for better enforcement."
+    }
+  ],
+  "image_url": "/article_images/article_8f0a4b4a4387d9d1_d6770f0b6c5a.webp"
+}

@@ -1,11 +1,47 @@
 {
   "articles": [
     {
+      "id": "6ce2b1a9f1dd23b6",
+      "title": "Unlocking the Secrets of Beer Foam Stability",
+      "summary": "A seven-year study by researchers at ETH Zurich, led by Professor Jan Vermant, has revealed the scientific principles behind why some beers maintain a stable foam longer than others. Published in Physics of Fluids, the research analyzed Belgian ales such as Tripel, Dubbel, and Singel, finding that Tripel beers have the most durable foam due to unique physical forces, while Singel beers have the least stable foam because of milder fermentation and lower alcohol content. The team also examined lagers from Swiss breweries, noting that while some can match the foam stability of ales, the underlying mechanisms differ. Previously, it was thought that protein-rich layers alone stabilized foam, but this study shows that factors like surface viscoelasticity and Marangoni stresses play key roles. For instance, in lagers, higher protein levels increase surface stiffness, aiding foam longevity, whereas in Tripel beers, Marangoni stresses—caused by surface tension variations—help maintain foam. This research not only advances our understanding of fluid dynamics but also provides practical insights for brewers to enhance beer quality through controlled brewing processes.",
+      "source": "Science Daily - Technology",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_6ce2b1a9f1dd23b6_be8d298854e8.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "572dc10960c7153d",
+      "title": "Drag Race UK Winner's Prize Money Plans",
+      "summary": "Bones emerged as the winner of RuPaul's Drag Race UK series seven, securing a £25,000 cash prize after a intense lip-sync battle against Elle Vosque. In an interview with BBC Newsbeat, Bones expressed overwhelming happiness and described the win as the cherry on top of her journey. She revealed a pact with fellow finalist Elle from west Belfast to take each other on a holiday if either won, with potential destinations including Europe, the Caribbean, or a cruise. Originally from Stalybridge, Greater Manchester, Bones has been involved in drag for seven years and is now a prominent figure in London's Soho drag scene. She plans to use the prize money to enhance her drag performances, noting that drag is an expensive art form requiring significant investment in costumes and creativity. Additionally, Bones commented on the growing popularity and saturation of drag, emphasizing that queens must now proactively create opportunities for themselves. This marks the second year the UK edition has offered a cash prize since its 2019 launch, reflecting the show's evolving impact on the drag community.",
+      "source": "BBC Entertainment",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_572dc10960c7153d_eab259e828ee.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "72427c63556e47d5",
+      "title": "Tax Changes and Their Impact on Small Businesses",
+      "summary": "The article discusses the effects of recent business rates changes announced in the UK Budget, focusing on Phil Thorley, who runs a pub chain in south east England. His costs are set to rise by £62,000 annually due to increases in business rates for 17 of his 18 pubs. Business rates are taxes based on the rental value of commercial properties, and the government, through Chancellor Rachel Reeves, had promised lower taxes for retail, leisure, and hospitality sectors by shifting the burden to high-value properties like those used by online giants. However, the implementation has led to higher rateable values for many firms, combined with the phasing out of a 40% Covid-era discount. Analysis by Ryan, a tax advisory firm, indicates average increases of 42% for small shops, 45% for restaurants, and 66% for pubs. Thorley argues that this, along with previous hikes in employer national insurance and the minimum wage, puts immense pressure on his business, potentially reducing employment and investment. The government claims it is saving typical pubs £4,800 yearly, but the net result for many is significant cost hikes, raising concerns about the survival of small businesses.",
+      "source": "BBC Business",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_72427c63556e47d5_ef1fc38bf786.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "f0d1ab8ebf91e38d",
+      "title": "Tax Exemption for State Pension-Only Recipients",
+      "summary": "Chancellor Rachel Reeves has confirmed that individuals whose sole income is from the state pension will not be required to pay income tax before 2030. This decision comes as the state pension amount is projected to exceed the income tax threshold of £12,570 by April 2027, due to planned increases and frozen tax thresholds. Currently, the state pension for those under the new system is £12,547.60, just below this limit. The policy aims to prevent administrative burdens for vulnerable pensioners, as tax collection typically involves the Simple Assessment process where HMRC calculates and issues tax demands. However, this move raises concerns about fairness and complexity, as about three-quarters of pensioners already pay tax because they have additional income from private pensions or other sources. Experts, including former pensions minister Steve Webb, highlight that it could lead to unequal treatment, favoring those on the new state pension over workers with similar incomes or pensioners on the old system. The Conservatives had previously made a similar pledge, indicating cross-party attention to pensioner welfare, but critics argue it may complicate the tax system and create winners and losers.",
+      "source": "BBC Business",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_f0d1ab8ebf91e38d_a886885bdf24.webp",
+      "category": "Fun"
+    },
+    {
       "id": "c687fb54b344d188",
       "title": "Olivia Dean's Fight Against High Ticket Resale Prices",
       "summary": "Olivia Dean, a rising music star, has publicly criticized Ticketmaster and AXS for what she calls an 'exploitative' and unequal ticketing system. After tickets for her North American tour were resold at prices over 14 times the original face value, reaching above $1,000, Dean wrote an open letter denouncing the practice as 'disgusting' and 'vile.' In response, Ticketmaster announced it would cap future resale rates for her tour and refund fans for any markups paid on their platform. The CEO of Live Nation Entertainment, Ticketmaster's parent company, expressed agreement with Dean's goal of keeping live music accessible. Dean emphasized on Instagram that the secondary ticket market is unregulated and urged the industry to allow artists to cap resale at face value. This issue is part of a broader movement, as the UK government plans to outlaw excessive ticket resale prices following appeals from major artists like Coldplay and Dua Lipa. Dean's actions highlight the power of artists in advocating for fan rights and fair pricing in the entertainment industry.",
       "source": "BBC Entertainment",
-      "time_ago": "3 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_c687fb54b344d188_757b913bd6e2.webp",
       "category": "Fun"
     },
@@ -14,44 +50,8 @@
       "title": "Unveiling Molecular Dynamics with X-Ray Imaging and Lasers",
       "summary": "Researchers have advanced our understanding of molecular behavior under intense laser fields by using X-ray diffraction to create movies of Buckminsterfullerene (C60) disintegration. This football-shaped molecule, composed of 60 carbon atoms, was exposed to powerful infrared lasers at the Linac Coherent Light Source. By analyzing X-ray patterns, scientists measured parameters like radius and Guinier amplitude to track expansion and fragmentation. At low laser intensity, the molecule expands before fragmenting, while at high intensity, rapid electron loss causes immediate breakdown. The study involved international collaboration and combined experimental data with theoretical models, though discrepancies highlighted the need for improved theories. This work is crucial for guiding chemical reactions with light and exploring quantum processes in complex molecules.",
       "source": "Science Daily - Technology",
-      "time_ago": "4 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_a694d36c36886194_332445cade6c.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "4dca59dd3f4e6ddb",
-      "title": "La Voix Embarks on Annie UK Tour as Miss Hannigan",
-      "summary": "La Voix, a well-known drag queen and former Strictly Come Dancing contestant, has announced her role as Miss Hannigan in the upcoming UK tour of the Annie musical, starting in May 2026. The tour will commence in Wimbledon and extend to cities including Birmingham, Manchester, Plymouth, Canterbury, Cardiff, Milton Keynes, and Edinburgh, with additional performances planned for 2027 in Norwich, Sheffield, and Glasgow. La Voix expressed immense excitement, describing Miss Hannigan as a loud, chaotic, and glamorous character that she feels destined to portray. This role has been previously held by notable figures such as Paul O'Grady, Craig Revel Horwood, and Miranda Hart. The article also touches on La Voix's recent departure from Strictly Come Dancing due to an injury, highlighting her resilience and transition to this new venture. Overall, it covers her career move, the tour's schedule, and her personal enthusiasm for the role.",
-      "source": "BBC Entertainment",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_4dca59dd3f4e6ddb_dcf0f16f8013.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "0985e10833ed3c6e",
-      "title": "Preserving Robert Burns' Legacy at Ellisland Farm",
-      "summary": "Campaigners are launching a major effort to save Ellisland Farm, the historic site where Robert Burns composed 'Auld Lang Syne', by raising £12 million for restoration. The farm, located north of Dumfries, has faced serious issues like damp and structural decay, threatening its future. The Robert Burns Ellisland Trust, led by chair Duncan Dornan and project director Joan McAlpine, aims to transform it into a world-class cultural destination with a museum, visitor accommodation, and a centre for song. This initiative coincides with a new film premiere to highlight the farm's significance. The trust has already secured £500,000 and plans to reveal detailed restoration plans early next year. They argue that reviving Ellisland will not only preserve Burns' heritage but also boost the local economy through tourism and sustainability. McAlpine emphasized that extensive research and consultation have shown the potential for the site to generate income and support regional regeneration, drawing on Dornan's past success with the Burrell Renaissance project.",
-      "source": "BBC Entertainment",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_0985e10833ed3c6e_06b25de55c5b.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "ebfb82d21a5e16e6",
-      "title": "Elle Vosque's Second Place Finish in Drag Race UK Highlights Belfast's Drag Scene",
-      "summary": "Elle Vosque, a drag artist from Northern Ireland, secured the runner-up position in the seventh series finale of Ru Paul's Drag Race UK, competing against finalists like Silllexa Dixon, Catrin Feelings, and the winner Bones. The event was marked by a watch party at Union Street bar in Belfast, where supporters gathered to cheer for Elle. This competition marked her debut performance outside Northern Ireland, showcasing her talent on a national platform. Trudy Scrumptious, who hosted the viewing, expressed excitement about Elle's representation of Belfast, emphasizing the city's vibrant drag community. Friends, including The Only Sassie, praised Elle's authenticity and artistic craft, noting their long-standing friendship and her impact on the local scene. Aisling Campbell highlighted Elle as a symbol of Belfast's alternative and fashion-forward drag, underscoring the region's contributions to the art form. The article illustrates how Elle's journey has fostered community pride and visibility for Northern Irish drag.",
-      "source": "BBC Entertainment",
-      "time_ago": "14 hours ago",
-      "image_url": "/article_images/article_ebfb82d21a5e16e6_1fafcf4c2d78.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "a1deb3bbc260bbaa",
-      "title": "Innovative Recycling Breakthrough for Teflon",
-      "summary": "Researchers from Newcastle University and the University of Birmingham have developed a groundbreaking method to recycle Teflon, also known as PTFE, which is notoriously difficult to break down due to its strong carbon-fluorine bonds. Teflon is widely used in non-stick cookware, electronics, and industrial applications, but its disposal often leads to environmental issues, such as the release of harmful 'forever chemicals' when incinerated. The new process involves mechanochemistry, where Teflon is shaken with sodium metal in a ball mill at room temperature, breaking it down into sodium fluoride and carbon without toxic solvents. This not only prevents pollution but also upcycles the fluorine into valuable products like those used in medicines and toothpaste. Published in the Journal of the American Chemical Society, this approach offers a sustainable alternative to traditional fluorine mining, highlighting how waste can be transformed into resources while conserving energy and reducing ecological harm.",
-      "source": "Science Daily - Technology",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_a1deb3bbc260bbaa_a5fde839fe4f.webp",
       "category": "Fun"
     }
   ]

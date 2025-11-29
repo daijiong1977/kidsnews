@@ -1,21 +1,48 @@
 {
   "articles": [
     {
-      "id": "56502075cc0689bc",
-      "title": "Air Pollution's Hidden Toll on Exercise Benefits",
-      "summary": "A recent international study involving experts from UCL and other institutions reveals that long-term exposure to polluted air can diminish the health advantages of regular physical activity. The research, published in BMC Medicine, analyzed data from over 1.5 million adults across multiple countries over a decade. It found that individuals in high-pollution areas experienced a smaller reduction in death risk from causes like cancer and heart disease, even with adequate exercise. The study focused on PM2.5 particles, which are fine pollutants that penetrate deep into the body. Benefits from exercise declined significantly when PM2.5 levels reached 25 μg/m3 or higher, affecting nearly half the global population. Lead researchers emphasized that while exercise remains beneficial, enhancing air quality could amplify these gains, highlighting the need for policies to curb pollution for better public health outcomes.",
+      "id": "e9065fd4d25fa49b",
+      "title": "Investigating Cannabis Store Clusters and Emergency Health Impacts",
+      "summary": "A recent study published in Annals of Internal Medicine explored the relationship between proximity to cannabis retail stores and cannabis-related emergency department visits in Ontario, Canada. Researchers analyzed data from over 6 million residents across 10,574 neighborhoods from 2017 to 2022, following cannabis legalization in 2018. They defined exposure as living within 1000 meters of a cannabis store and compared these areas to those farther away. Findings revealed that exposed neighborhoods, often in urban and lower-income areas, had a 12% higher rate of cannabis-attributable ED visits compared to unexposed ones. Additionally, neighborhoods with multiple stores within close proximity showed even greater increases in ED visits. The study suggests that retail expansion post-legalization may amplify public health risks, recommending policies to limit store clusters or restrict placements in certain zones to mitigate harms. This research highlights the need for careful urban planning to balance legal access with health safety.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_56502075cc0689bc_a33e7ed88366.webp",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_e9065fd4d25fa49b_3c93cf9254e3.webp",
       "category": "Science"
     },
     {
-      "id": "d77afb43ca5608d5",
-      "title": "The Science Behind Warm-Ups: Boosting Speed and Power",
-      "summary": "Recent research from Edith Cowan University highlights the critical role of warm-ups in enhancing exercise performance. The study found that increasing muscle temperature by just 1°C can improve performance by approximately 3.5%, particularly in speed and power-related activities, though not necessarily in maximum strength. Researchers compared passive warm-ups, which use external heat sources like pads, with active warm-ups involving light exercises such as cycling. Surprisingly, both methods yielded similar benefits, but the key insight is that warm-ups should mimic the actual exercise to maximize gains. For instance, practicing with lighter weights before heavy lifting helps the nervous system activate muscles more efficiently. Experts emphasize that any movement, from walking to specific drills, can raise temperature and improve coordination, with sweating often indicating readiness. This evidence underscores the importance of tailored warm-ups for athletes and fitness enthusiasts to achieve better outcomes in their workouts.",
+      "id": "14470af3b6260cd2",
+      "title": "Investigating How Repeated Head Trauma Disrupts Brain Waste Clearance",
+      "summary": "A recent study focused on professional boxers and mixed martial arts fighters with cognitive impairment, revealing that repeated head impacts can compromise the brain's glymphatic system, which is responsible for clearing out waste. Researchers used diffusion tensor imaging along the perivascular space (DTI-ALPS), an advanced MRI technique, to measure glymphatic function through the ALPS index. They analyzed data from 280 athletes in the Professional Athletes Brain Health Study, including 95 with cognitive issues and 20 healthy controls. Surprisingly, impaired fighters initially showed higher ALPS values, suggesting the brain boosts its cleaning efforts in response to injury, but this function declined sharply with more knockouts. This decline is linked to the accumulation of toxic proteins associated with neurodegenerative diseases like Alzheimer's and Parkinson's. The findings highlight the long-term risks of head trauma in contact sports and emphasize the need for preventive measures to safeguard brain health.",
       "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_d77afb43ca5608d5_a22a2ab2e53a.webp",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_14470af3b6260cd2_727c9f47760f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8f0a4b4a4387d9d1",
+      "title": "Toxic Metal Contamination in Plastic Toys: A Health Risk Study",
+      "summary": "Researchers from the University of São Paulo and Federal University of Alfenas conducted a detailed study on 70 plastic toys in Brazil, revealing high levels of toxic metals like barium, lead, chromium, and antimony. Many toys exceeded safety limits set by Brazilian and European standards, with barium levels up to 15 times higher than allowed, posing risks such as heart issues and neurological damage. The team used advanced methods like inductively coupled plasma mass spectrometry to detect 21 toxic elements and simulated how metals might leach into saliva. Findings showed that while only small amounts are released, the high concentrations in toys are concerning, especially for children who put toys in their mouths. The study highlights a lack of control in toy production and recommends stricter enforcement, including regular testing and better certifications for imported items to protect children's health.",
+      "source": "Science Daily",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_8f0a4b4a4387d9d1_d6770f0b6c5a.webp",
+      "category": "Science"
+    },
+    {
+      "id": "341c9aca9bd5cd7f",
+      "title": "Unlocking Graphene's Quantum Potential with Light Control",
+      "summary": "Graphene, a single-layer carbon material known for its strength and excellent electrical conductivity, has revealed new quantum capabilities through recent research. A study led by the University of Göttingen, in collaboration with institutions in Braunschweig, Bremen, and Fribourg, provides direct evidence of Floquet effects in graphene. Using femtosecond momentum microscopy, scientists illuminated graphene samples with rapid light pulses and observed changes in electron behavior over ultrashort timescales. This confirms that Floquet engineering—a method where light alters material properties—works in metallic and semi-metallic quantum materials like graphene. The findings, published in Nature Physics, demonstrate that this technique can precisely control electronic states, potentially enabling advancements in electronics, computers, and sensors. Researchers highlight the excitement around investigating topological properties, which could support the development of reliable quantum computers and innovative sensors. Supported by the German Research Foundation, this study opens new avenues for manipulating quantum materials with light, pushing the boundaries of future technology.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_341c9aca9bd5cd7f_3a66675feeaf.webp",
+      "category": "Science"
+    },
+    {
+      "id": "14d2d77949b93eb2",
+      "title": "Unraveling the Effects of Reintroduced Carnivores on Ecosystems",
+      "summary": "The reintroduction of gray wolves to Yellowstone National Park in 1995 sparked scientific interest in how predators influence ecosystems. Initially, wolves were hunted to near-extinction, leading to overpopulation of elk that overgrazed riparian vegetation, causing erosion and lower water tables. This disrupted habitats for beavers and other species. After wolves returned, some studies suggested they triggered a trophic cascade by making elk avoid certain areas, allowing willows and aspens to regenerate. However, recent research indicates the effects are more nuanced. A new paper by Chris Wilmers and colleagues reviews decades of data and finds that trophic cascades are not always strong or clear. For example, in Yellowstone, the connection between wolves and vegetation change is debated, with factors like beaver activity and human hunting playing roles. Studies from places like Isle Royale show clearer cascades, but in larger ecosystems like Yellowstone, the impacts are weaker. This highlights the complexity of ecological restoration and the need for long-term studies to understand how carnivores shape environments.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_14d2d77949b93eb2_428445b38862.webp",
       "category": "Science"
     },
     {
@@ -23,35 +50,8 @@
       "title": "Unraveling the Late Domestication of Cats",
       "summary": "Recent scientific research has revealed that the domestication of cats occurred much later than previously believed, around 3,500 to 4,000 years ago, and originated in northern Africa rather than the Levant. This challenges earlier ideas that linked cat domestication to the dawn of agriculture. The study, led by Prof Greger Larson from the University of Oxford, analyzed DNA from ancient cat bones found at archaeological sites across Europe, North Africa, and Anatolia. By comparing this DNA with modern cats, researchers determined that all domestic cats descend from the African wildcat. The domestication process began in Egypt, where cats were revered and depicted in art, and then spread globally. Cats were valued as pest controllers on ships and in settlements, facilitating their movement with humans, such as the Romans who brought them to Europe about 2,000 years ago. Additionally, evidence suggests a wild cat interacted with people in China before domestic cats arrived. This study highlights how genetic and archaeological methods can reshape our understanding of animal domestication and human history.",
       "source": "BBC Science",
-      "time_ago": "16 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_5a1440c0523fca28_74d8679ea2cd.webp",
-      "category": "Science"
-    },
-    {
-      "id": "5720e06335dec607",
-      "title": "The Threat to Global Beaches: Climate Change and Human Impact",
-      "summary": "Scientists, led by Uruguayan marine expert Omar Defeo, are raising alarms that nearly half of the world's beaches could vanish by the end of the century due to a combination of climate-driven sea level rise and expanding coastal development. This erosion not only threatens the diverse ecosystems that depend on sandy shores but also disrupts local economies reliant on fishing and tourism, while increasing the vulnerability of coastal cities to flooding. Defeo explained that coastal systems consist of three interconnected zones: the dune, which acts as a natural buffer against storms; the beach face, exposed at low tide; and the submerged foreshore, where waves break. Human activities, such as urbanization and high visitor numbers, disrupt the natural sediment exchange between these zones, leading to biodiversity loss. Research from Brazil, published in Marine Pollution Bulletin, found that factors like mechanical cleaning and construction reduce species richness and biomass, particularly in submerged areas. A global study in Frontiers in Marine Science assessed 315 beaches and identified severe erosion in one-fifth, exacerbated by human actions on reflective and intermediate beaches. The symposium emphasized the need for international collaboration to address these challenges and promote sustainable coastal management.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_5720e06335dec607_4acc7ce9fa39.webp",
-      "category": "Science"
-    },
-    {
-      "id": "6d90c7578be39a19",
-      "title": "Long-Term Study Links Cleaner Water to Reduced Disease Deaths",
-      "summary": "A comprehensive 20-year study in Bangladesh involving nearly 11,000 adults demonstrated that decreasing arsenic levels in drinking water resulted in up to a 50% reduction in mortality from chronic diseases such as cancer and heart disease. Conducted by researchers from Columbia University and New York University, the study tracked participants' health and arsenic exposure through urine samples, providing robust evidence that lowering exposure reduces death risks. Arsenic, a tasteless and odorless contaminant in groundwater, affects millions globally, including over 100 million people in the U.S. relying on private wells. The research highlighted that even individuals with long-term exposure benefited from switching to safer water sources, as community efforts to label wells and install new ones created natural comparison groups. This longitudinal approach strengthened the findings, showing persistent health improvements and underscoring the importance of public health interventions to address water contamination.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_6d90c7578be39a19_17301272e240.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c61955170cf7777b",
-      "title": "Discovery of Ancient Pits Near Stonehenge Reveals Prehistoric Engineering",
-      "summary": "Archaeologists have uncovered a series of massive Neolithic pits at the Stonehenge World Heritage Site in Wiltshire, England. These pits, each about ten meters in diameter and over five meters deep, are arranged in a precise circle and date back more than 4,000 years. Led by Professor Vince Gaffney from the University of Bradford, the research confirms that the pits are man-made and form one of the largest prehistoric structures in Britain. The discovery, published in the Internet Archaeology Journal, involved surveying a large area and using narrow boreholes to collect samples since the pits are no longer visible. Analysis of DNA from the samples revealed animal remains, such as sheep and cattle, and luminescence dating showed the pits were constructed around 4,000 years ago and remained open for about 1,000 years. This indicates that ancient societies had advanced skills in measuring and aligning structures, possibly for cosmological or ritual purposes, highlighting their ability to inscribe beliefs into the landscape. The findings add to evidence of counting and organization in Neolithic cultures, showing how they transformed the environment with significant effort.",
-      "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_c61955170cf7777b_d95f96d09d85.webp",
       "category": "Science"
     }
   ]

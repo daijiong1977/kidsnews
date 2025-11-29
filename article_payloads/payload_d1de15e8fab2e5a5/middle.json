@@ -1,0 +1,145 @@
+{
+  "title": "Airbus Plane Groundings and Recovery from Solar Radiation Issue",
+  "summary": "Approximately 6,000 Airbus A320 planes were temporarily grounded due to a warning that solar radiation could interfere with their flight control computers, posing potential safety risks. Airbus, based in France, addressed the issue by rolling out software updates for most aircraft, while around 900 older models required computer replacements. French Transport Minister Philippe Tabarot reported that over 5,000 planes were updated smoothly, with fewer than 100 remaining. Disruptions varied globally: in the US, the timing during Thanksgiving exacerbated delays, with American Airlines noting 340 affected planes and expecting operational issues, while Delta anticipated limited impact. In the UK, airports like Heathrow saw no cancellations, but Gatwick had some disruptions. Airlines such as Easyjet and Wizz Air completed updates and resumed normal operations. However, in Australia, Jetstar cancelled 90 flights due to a third of its fleet being impacted. The problem was identified after a JetBlue flight emergency landed in October, injuring 15 people, leading Airbus to discover that solar radiation could corrupt elevation data at high altitudes. Efforts are ongoing to restore full normalcy.",
+  "keywords": [
+    {
+      "term": "solar radiation",
+      "explanation": "high-energy particles from the sun that can disrupt electronic systems, potentially causing data corruption in aircraft computers"
+    },
+    {
+      "term": "flight control computers",
+      "explanation": "systems that manage aircraft navigation and stability, critical for safe flight operations"
+    },
+    {
+      "term": "software update",
+      "explanation": "a process to install new code that fixes bugs or vulnerabilities in computer systems"
+    },
+    {
+      "term": "grounded aircraft",
+      "explanation": "planes that are prohibited from flying due to safety concerns or technical issues"
+    },
+    {
+      "term": "operational delays",
+      "explanation": "disruptions in flight schedules caused by factors like maintenance or external events"
+    },
+    {
+      "term": "emergency landing",
+      "explanation": "an unplanned landing made due to an immediate threat to safety"
+    },
+    {
+      "term": "data corruption",
+      "explanation": "errors in digital information that can lead to incorrect calculations or system failures"
+    },
+    {
+      "term": "aviation safety",
+      "explanation": "measures and protocols to ensure the security and reliability of air travel"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the primary cause of the Airbus plane groundings?",
+      "options": [
+        "Mechanical failure",
+        "Solar radiation interference",
+        "Pilot error",
+        "Fuel contamination"
+      ],
+      "correct_answer": "Solar radiation interference"
+    },
+    {
+      "question": "How many Airbus A320 planes were affected by the issue?",
+      "options": [
+        "1000",
+        "3000",
+        "6000",
+        "9000"
+      ],
+      "correct_answer": "6000"
+    },
+    {
+      "question": "What did the older Airbus planes require instead of a software update?",
+      "options": [
+        "New engines",
+        "Replacement computers",
+        "Additional pilots",
+        "Extra fuel tanks"
+      ],
+      "correct_answer": "Replacement computers"
+    },
+    {
+      "question": "Which country's transport minister reported smooth updates for over 5,000 planes?",
+      "options": [
+        "USA",
+        "UK",
+        "France",
+        "Australia"
+      ],
+      "correct_answer": "France"
+    },
+    {
+      "question": "Why was the disruption more complicated in the US?",
+      "options": [
+        "Due to bad weather",
+        "Because of the Thanksgiving holiday",
+        "Lack of software updates",
+        "Pilot strikes"
+      ],
+      "correct_answer": "Because of the Thanksgiving holiday"
+    },
+    {
+      "question": "How many flights did Jetstar cancel due to the issue?",
+      "options": [
+        "50",
+        "90",
+        "200",
+        "340"
+      ],
+      "correct_answer": "90"
+    },
+    {
+      "question": "What incident led Airbus to identify the software problem?",
+      "options": [
+        "A test flight in France",
+        "A JetBlue emergency landing",
+        "A solar storm warning",
+        "A computer hack"
+      ],
+      "correct_answer": "A JetBlue emergency landing"
+    },
+    {
+      "question": "What specific data was corrupted by solar radiation in the flight computers?",
+      "options": [
+        "Fuel levels",
+        "Passenger information",
+        "Elevation calculations",
+        "Weather data"
+      ],
+      "correct_answer": "Elevation calculations"
+    }
+  ],
+  "background_read": [
+    "Aviation relies heavily on advanced computer systems for flight control, which can be vulnerable to environmental factors like solar radiation. Solar flares and cosmic rays can cause single-event upsets in electronics, leading to data errors. Airbus is a leading aircraft manufacturer, and its A320 series is widely used by airlines globally. When safety issues arise, regulatory bodies and companies collaborate on fixes, such as software patches, to prevent accidents. This incident highlights the importance of continuous monitoring and updates in aviation technology to ensure passenger safety, especially during peak travel times when disruptions can have widespread effects."
+  ],
+  "Article_Structure": [
+    "This article details the grounding of Airbus planes due to solar radiation risks, with main points including the scale of affected aircraft, the implementation of software updates, and global disruption variations. Its purpose is to inform the public about aviation safety measures and recovery efforts. Evidence comes from official statements and airline reports, evaluated as reliable from credible sources like ministers and companies. Author credibility is assumed high as BBC News is a reputable outlet, though specific expertise isn't detailed. Methodology involves gathering updates from multiple stakeholders, providing a balanced view of the situation's impact and resolution."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Airbus and manufacturers",
+      "description": "Focused on identifying and fixing technical flaws to maintain safety and trust."
+    },
+    {
+      "perspective": "Airlines and operators",
+      "description": "Concerned with minimizing operational disruptions and ensuring passenger satisfaction during updates."
+    },
+    {
+      "perspective": "Regulators and governments",
+      "description": "Emphasized oversight and communication to manage public safety and coordinate responses."
+    },
+    {
+      "perspective": "Passengers and the public",
+      "description": "Affected by travel delays but reassured by proactive safety measures."
+    }
+  ],
+  "image_url": "/article_images/article_d1de15e8fab2e5a5_934ff8e67e03.webp"
+}

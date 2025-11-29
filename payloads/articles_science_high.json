@@ -1,21 +1,48 @@
 {
   "articles": [
     {
-      "id": "56502075cc0689bc",
-      "title": "The Interplay of Air Pollution and Physical Activity on Mortality Risks",
-      "summary": "An extensive international study, co-authored by researchers from UCL and National Chung Hsing University, investigates how long-term exposure to air pollution mitigates the protective effects of regular physical activity on mortality. Published in BMC Medicine, the research synthesizes data from over 1.5 million adults across diverse countries, tracked for more than a decade. Findings indicate that in regions with elevated PM2.5 levels—fine particulate matter capable of infiltrating the respiratory and circulatory systems—the reduction in all-cause, cancer, and cardiovascular mortality risks associated with exercise is substantially attenuated. Specifically, when annual PM2.5 concentrations reach 25 μg/m3 or higher, the mortality risk reduction drops from 30% to 12-15% for highly active individuals. The study underscores that while physical activity remains advantageous, its efficacy is compromised in polluted environments, affecting nearly half the global population. Researchers conclude that synergistic efforts to improve air quality are essential to optimize public health benefits, advocating for evidence-based policies to address environmental determinants of health.",
+      "id": "e9065fd4d25fa49b",
+      "title": "Analyzing the Correlation Between Cannabis Retail Density and Public Health Emergencies",
+      "summary": "A comprehensive study published in Annals of Internal Medicine investigated the association between residential proximity to cannabis retail stores and rates of cannabis-attributable emergency department visits in Ontario, Canada. Utilizing a population-based natural experiment design, researchers analyzed longitudinal data from 6,140,595 individuals across 10,574 neighborhoods from April 2017 to December 2022, encompassing the period before and after cannabis legalization in October 2018. Exposure was defined as neighborhoods within 1000 meters of a cannabis store, with unexposed areas serving as controls. The analysis revealed that exposed neighborhoods, disproportionately located in major urban centers and the lowest income quintile, exhibited a 12% increase in the absolute rate of ED visits compared to unexposed neighborhoods. Furthermore, neighborhoods with multiple stores within 1000 meters experienced amplified effects, suggesting that retail clustering compounds public health risks. The authors conclude that legalization coupled with retail expansion introduces distinct hazards, advocating for policy interventions such as limiting store numbers or implementing zoning restrictions to mitigate adverse health outcomes. This research underscores the importance of integrating public health considerations into cannabis regulation frameworks to address socioeconomic disparities and prevent escalations in healthcare utilization.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_56502075cc0689bc_a33e7ed88366.webp",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_e9065fd4d25fa49b_3c93cf9254e3.webp",
       "category": "Science"
     },
     {
-      "id": "d77afb43ca5608d5",
-      "title": "Analyzing Warm-Up Efficacy: Muscle Temperature and Performance Enhancement",
-      "summary": "A comprehensive study from Edith Cowan University investigates the physiological mechanisms by which warm-up routines augment exercise performance, specifically focusing on muscle temperature elevations. The research demonstrates that a 1°C increase in intramuscular temperature correlates with an approximate 3.5% enhancement in performance, predominantly in domains requiring rapid force production and power, while maximal strength remains unaffected. The study delineates between passive warm-ups, utilizing external thermal sources, and active warm-ups involving submaximal exercises, revealing negligible differential effects between the two modalities. However, it underscores the criticality of exercise specificity; warm-ups that emulate the subsequent activity facilitate neuromuscular adaptations, optimizing motor unit recruitment and movement efficiency. Contributors such as Dr. Cody Wilson and JP Nunes elucidate that this specificity aids in nervous system calibration, potentially reducing latency in muscle activation. Professor Tony Blazevich adds practical insights, noting that physiological indicators like perspiration can signal adequate preparation. This analysis not only reinforces the foundational role of warm-ups in athletic preparation but also prompts a reevaluation of warm-up protocols to align with task-specific demands, offering implications for training regimens across various sports disciplines.",
+      "id": "14470af3b6260cd2",
+      "title": "The Degradation of Glymphatic Function Under Repeated Traumatic Head Impacts",
+      "summary": "This article details a groundbreaking study investigating the effects of repeated head impacts on the glymphatic system in professional boxers and mixed martial arts fighters with cognitive impairment. Researchers employed diffusion tensor imaging along the perivascular space (DTI-ALPS), a sophisticated MRI-based methodology, to quantify glymphatic activity via the ALPS index. Analysis of baseline data from the Professional Athletes Brain Health Study, involving 280 participants including 95 cognitively impaired fighters and 20 controls, revealed an unexpected pattern: impaired athletes exhibited elevated ALPS values initially, indicating a compensatory upregulation of waste clearance, but this function deteriorated significantly with increasing knockouts. This decline correlates with the accumulation of pathogenic proteins, such as those implicated in Alzheimer's and Parkinson's diseases, underscoring the mechanistic link between head trauma and neurodegenerative pathways. The study, presented at the Radiological Society of North America, advances understanding of glymphatic dynamics and highlights the critical need for longitudinal monitoring and preventive strategies in high-impact sports to mitigate long-term cognitive deficits.",
       "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_d77afb43ca5608d5_a22a2ab2e53a.webp",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_14470af3b6260cd2_727c9f47760f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8f0a4b4a4387d9d1",
+      "title": "Analysis of Toxic Element Contamination in Plastic Toys: Implications for Child Health and Regulation",
+      "summary": "A comprehensive study by researchers from the University of São Paulo and Federal University of Alfenas investigated chemical contamination in 70 plastic toys across Brazil, identifying 21 toxic elements, including barium, lead, chromium, and antimony. Findings revealed that a significant proportion of samples exceeded regulatory limits, with barium concentrations up to 15 times the allowable level, linked to potential cardiovascular and neurological effects. The research employed inductively coupled plasma mass spectrometry (ICP-MS) and microwave-assisted acid digestion to quantify metal release, simulating oral exposure scenarios. Although bioavailability tests indicated low extraction rates (0.11% to 7.33%), the high total concentrations pose substantial health risks, particularly for children who engage in mouthing behaviors. The study critiques current regulatory frameworks, suggesting deficiencies in enforcement and traceability, especially for imported goods. Recommendations include enhanced laboratory analyses and certifications to mitigate exposure, underscoring the broader issue of industrial contamination in consumer products and its public health consequences.",
+      "source": "Science Daily",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_8f0a4b4a4387d9d1_d6770f0b6c5a.webp",
+      "category": "Science"
+    },
+    {
+      "id": "341c9aca9bd5cd7f",
+      "title": "Advancing Quantum Control in Graphene via Floquet Engineering and Ultrafast Spectroscopy",
+      "summary": "Recent research spearheaded by the University of Göttingen, in collaboration with institutions in Braunschweig, Bremen, and Fribourg, has elucidated the manifestation of Floquet effects in graphene, a seminal two-dimensional carbon material. Employing femtosecond momentum microscopy, the team subjected graphene samples to rapid light pulses, enabling direct observation of altered electronic states over femtosecond timescales. This empirical evidence confirms that Floquet engineering—a theoretical framework involving periodic perturbations to modulate quantum properties—is efficacious in metallic and semi-metallic quantum materials. Published in Nature Physics, the study addresses a protracted scientific inquiry, demonstrating that light-induced modifications can precisely tailor electronic behaviors. The implications are profound, potentially catalyzing developments in quantum computing, advanced sensors, and next-generation electronics by facilitating targeted electron manipulation. Investigators emphasize the exploration of topological properties, which confer robustness against perturbations and are pivotal for fault-tolerant quantum systems. Funded by the German Research Foundation, this work not only validates Floquet mechanisms but also propels the frontier of quantum material engineering, underscoring the synergy between ultrafast spectroscopy and material science for technological innovation.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_341c9aca9bd5cd7f_3a66675feeaf.webp",
+      "category": "Science"
+    },
+    {
+      "id": "14d2d77949b93eb2",
+      "title": "Complex Ecological Dynamics of Reintroduced Carnivores in Yellowstone",
+      "summary": "The reintroduction of gray wolves to Yellowstone National Park in 1995 has been a focal point for studying trophic cascades and ecosystem restoration. Initially, human-driven extirpation of wolves led to overgrazing by elk, degrading riparian vegetation and altering hydrology, such as increased stream erosion and lowered water tables. Early research posited that wolf reintroduction induced a trophic cascade by modifying elk behavior, facilitating the regeneration of willows and aspens, and potentially aiding beaver recovery. However, contemporary analyses, including a recent paper by Chris Wilmers et al., challenge the magnitude of these effects, indicating that trophic cascades are context-dependent and often weaker in complex ecosystems like Yellowstone. The study expands the scope to include other carnivores like pumas and bears, reviewing extensive historical data to conclude that evidence for cascades is limited. For instance, research from Isle Royale demonstrates clearer impacts, whereas in Yellowstone, factors such as beaver activity, human hunting, and alternative stable states complicate the narrative. A 2024 study highlighted that willow growth improved primarily with simulated beaver dams and exclusion of grazers, not solely from wolf presence. This underscores the intricacies of ecological interactions and the limitations of single-species approaches in conservation biology.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_14d2d77949b93eb2_428445b38862.webp",
       "category": "Science"
     },
     {
@@ -23,35 +50,8 @@
       "title": "Reevaluating Feline Domestication: Insights from Genetic and Archaeological Evidence",
       "summary": "A groundbreaking study utilizing advanced genetic and archaeological methodologies has fundamentally altered the narrative of cat domestication, indicating that it commenced approximately 3,500 to 4,000 years ago in northern Africa, specifically Egypt, rather than the previously hypothesized Levant region at the dawn of agriculture. Led by Prof Greger Larson of the University of Oxford, this research involved comprehensive DNA analysis of feline remains from various archaeological sites across Europe, North Africa, and Anatolia, juxtaposed with the gene pool of contemporary domestic cats. The findings confirm that all modern cats descend from the African wildcat and suggest that domestication was a more recent phenomenon, potentially driven by mutual benefits such as pest control in human settlements. This process facilitated the global dispersal of cats, with their introduction to Europe around 2,000 years ago via Roman expansions and subsequent spread along trade routes like the Silk Road to China. Intriguingly, evidence of a wild cat cohabiting with humans in China predates the arrival of domestic varieties, adding complexity to the domestication timeline. The study underscores the efficacy of interdisciplinary approaches in revising historical paradigms and highlights the dynamic interplay between human societies and animal species.",
       "source": "BBC Science",
-      "time_ago": "16 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_5a1440c0523fca28_74d8679ea2cd.webp",
-      "category": "Science"
-    },
-    {
-      "id": "5720e06335dec607",
-      "title": "Global Beach Erosion: Integrating Climate Science and Human Dimensions",
-      "summary": "A compelling body of research, spearheaded by Uruguayan marine scientist Omar Defeo, indicates that approximately half of the world's beaches face potential disappearance by the century's end, primarily due to synergistic effects of climate-induced sea level rise and anthropogenic coastal development. This phenomenon not only jeopardizes intricate coastal ecosystems—comprising dunes, beach faces, and foreshores that facilitate vital sediment exchanges—but also undermines socioeconomic stability in regions dependent on fisheries and tourism, while exacerbating urban vulnerability to storm surges. Defeo's elucidations at the FAPESP Day Uruguay symposium detailed how urbanization disrupts these interconnected zones, with empirical studies, such as one published in Marine Pollution Bulletin, demonstrating that heightened human presence significantly diminishes species richness and biomass, particularly in submerged areas. Concurrently, a global analysis in Frontiers in Marine Science of 315 beaches identified severe erosion in one-fifth of cases, attributing it to factors like altered wind patterns and wave behaviors, with human activities intensifying impacts on reflective and intermediate beach types. The symposium underscored the imperative for cross-border scientific collaboration, as evidenced by partnerships between Uruguayan and Brazilian institutions, to devise sustainable management strategies that address both environmental integrity and human welfare in the face of escalating climatic pressures.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_5720e06335dec607_4acc7ce9fa39.webp",
-      "category": "Science"
-    },
-    {
-      "id": "6d90c7578be39a19",
-      "title": "Decades-Long Research Confirms Arsenic Reduction Drives Significant Mortality Declines",
-      "summary": "A rigorous 20-year longitudinal investigation in Bangladesh, encompassing nearly 11,000 adults, established that diminishing arsenic concentrations in drinking water correlates with up to a 50% decrease in mortality from chronic conditions such as cancer and heart disease. Spearheaded by scientists from Columbia University and New York University, this study employed repeated urinary arsenic measurements as biomarkers to precisely track exposure and health outcomes, reinforcing causal inferences. Arsenic, a pervasive groundwater contaminant devoid of sensory cues, poses a silent threat to millions worldwide, including substantial populations in the United States dependent on private wells. The research elucidated that mortality risks aligned with exposure reductions, as individuals transitioning from high to low arsenic levels exhibited death rates comparable to those with sustained low exposure. Community-driven initiatives, including well labeling and alternative water source adoption, facilitated a natural experiment, enabling robust comparisons. These findings underscore the efficacy of sustained public health interventions in mitigating long-term arsenic toxicity, highlighting the profound implications for global water safety policies and chronic disease prevention strategies.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_6d90c7578be39a19_17301272e240.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c61955170cf7777b",
-      "title": "Unearthing Neolithic Cosmology: The Durrington Walls Pits and Their Implications for Prehistoric Britain",
-      "summary": "A groundbreaking archaeological study has confirmed the existence of a series of monumental Neolithic pits at Durrington Walls within the Stonehenge World Heritage Site in Wiltshire, England. These pits, approximately ten meters in diameter and over five meters deep, are arranged in a precise circular formation and date to over 4,000 years ago, potentially constituting one of Britain's largest prehistoric structures. Research led by Professor Vince Gaffney of the University of Bradford, published in the Internet Archaeology Journal, employed advanced techniques such as landscape surveying across 12 square kilometers and narrow borehole sampling to analyze the features, which are no longer visible superficially. Luminescence dating conducted by Dr. Tim Kinnaird from the University of St Andrews provided chronological data, indicating construction around 4,000 years ago and a usage span of approximately 1,000 years, reflecting evolving cultural practices. DNA extraction from sediment samples uncovered faunal remains, including sheep and cattle, suggesting ritualistic or subsistence activities. The pits' alignment and accuracy imply sophisticated knowledge of geometry and cosmology, as Prof. Gaffney notes they may represent the inscription of belief systems into the landscape. This discovery enhances understanding of Neolithic societal complexity, demonstrating capabilities in large-scale engineering and symbolic expression, while raising questions about the purposes and meanings embedded in such structures.",
-      "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_c61955170cf7777b_d95f96d09d85.webp",
       "category": "Science"
     }
   ]
