@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "6ecb8ba0adf6317f",
+      "title": "The Wiggles' Response to Unauthorized Video Featuring Drug References",
+      "summary": "The Wiggles, an Australian children's entertainment group, faced controversy when two members, Anthony Field and his nephew Dominic Field, appeared in a music video for Keli Holiday's song 'Ecstasy,' which includes lyrics alluding to drug use. The video was shared on TikTok and garnered over 92,000 views before being removed. The Wiggles issued a public statement clarifying that they do not condone drug use in any form and that the video was created without their approval or knowledge. They emphasized that their performances at the TikTok Awards were family-friendly and that the video was edited separately. This incident raised concerns among parents and professionals about the group's image and the potential impact on young audiences. The Wiggles have taken steps to address the issue by requesting the removal of the video and explaining the situation to reassure their fans.",
+      "source": "BBC Entertainment",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_6ecb8ba0adf6317f_ca2e0b9c815a.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "9faef04bd9a463c3",
+      "title": "Remembering Sir Tom Stoppard: A Legacy of Wit and Wisdom",
+      "summary": "Sir Tom Stoppard, a renowned British playwright, has passed away at the age of 88, as announced by his agents. He died peacefully at his home in Dorset, surrounded by family. Stoppard was celebrated for his extensive career spanning over six decades, during which he wrote influential plays like Rosencrantz and Guildenstern are Dead and The Real Thing, as well as screenplays such as Shakespeare In Love, for which he won an Oscar and a Golden Globe. Tributes poured in from notable figures, including King Charles III and Queen Camilla, who expressed deep sadness and highlighted his ability to challenge and inspire audiences with his wit and personal history. Sir Mick Jagger called him his favorite playwright, emphasizing his intellectual and amusing body of work. Stoppard's later work, Leopoldstadt, a semi-autobiographical play set in early 20th century Vienna, earned him Olivier and Tony awards. Born in Czechoslovakia, he fled Nazi occupation as a child, and his experiences influenced his writing, which often explored philosophical and political themes. His agents and Faber Books praised his humanity, generosity, and love for the English language, cementing his legacy as one of the greatest playwrights of his time.",
+      "source": "BBC Entertainment",
+      "time_ago": "15 hours ago",
+      "image_url": "/article_images/article_9faef04bd9a463c3_efe7fa8102fe.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "a66283b0daec40a1",
+      "title": "Exploring Sir Tom Stoppard's Intellectual Playwriting",
+      "summary": "Sir Tom Stoppard, who passed away at 88, was a renowned British playwright celebrated for his witty and intellectually engaging works. His writing skillfully blended humor with serious philosophical and political themes, making complex ideas accessible and entertaining. Stoppard had a successful parallel career in Hollywood, where he contributed to film scripts and earned an Oscar for Shakespeare in Love. Born in Czechoslovakia, he experienced a tumultuous childhood, fleeing Nazi occupation and later Japanese invasion, which influenced his worldview. He began as a journalist before achieving fame with Rosencrantz and Guildenstern are Dead, a play that reimagined minor characters from Hamlet. This work, along with others like Jumpers and Arcadia, often featured intellectual conceits, wordplay, and explorations of topics such as academia, espionage, and science. While some critics argued that his early plays lacked emotional depth, his later works showed more human sympathy. Stoppard's unique style reflected his mixed background of European intellect and English culture, and he wrote not just to express ideas but to discover them through the creative process.",
+      "source": "BBC Entertainment",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_a66283b0daec40a1_3b0f5fcd40c0.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "488ce673f734bdbf",
+      "title": "Advancing Quantum Communication Through Photon Teleportation",
+      "summary": "Researchers at the University of Stuttgart have achieved a breakthrough in quantum communication by teleporting information between photons from distinct quantum dots, marking a world-first accomplishment. This study, published in Nature Communications, addresses key challenges in developing a quantum internet, which aims to use quantum physics for ultra-secure data transmission. Quantum communication relies on photons to encode information in polarization states, making interception detectable due to quantum mechanics principles. However, current fiber-optic networks limit transmission distances because quantum information cannot be amplified like conventional signals. To overcome this, the team developed quantum repeaters that use teleportation to transfer information between photons without copying it. They employed semiconductor quantum dots to produce nearly identical photons and used quantum frequency converters to align their properties. This progress is part of the QR.N project and involves collaboration with other German institutes. It paves the way for longer-distance quantum networks that could enhance cybersecurity against evolving threats from AI and criminals.",
+      "source": "Science Daily - Technology",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_488ce673f734bdbf_ae18f1820d8d.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "cd13ce9a3dcd1368",
+      "title": "Unraveling the Mystery of JWST's Red Dots",
+      "summary": "In 2022, the James Webb Space Telescope (JWST) detected numerous small, red objects in space that were unexpected and extremely distant, with light traveling 12 billion years to reach us. These 'little red dots' appear red because they emit light at long wavelengths in the mid-infrared, which JWST is designed to observe, unlike Hubble. Astronomers are puzzled because the dots don't fit existing models of known objects like stars or typical galaxies. Early theories suggest they could be massive, young galaxies packed with stars and dust, with densities far exceeding anything in the Milky Way, potentially challenging galaxy formation theories. Alternatively, some propose they are active galactic nuclei—regions around supermassive black holes—obscured by dust, but this idea faces issues with spectral mismatches and the high number of such objects. To resolve the debate, scientists are gathering more data through programs like RUBIES, which uses spectra to analyze light properties. This discovery highlights JWST's ability to reveal new cosmic phenomena and could lead to revisions in astronomical understanding.",
+      "source": "Science Daily - Technology",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_cd13ce9a3dcd1368_79c9da933b1c.webp",
+      "category": "Fun"
+    },
+    {
       "id": "6ce2b1a9f1dd23b6",
       "title": "Unlocking the Secrets of Beer Foam Stability",
       "summary": "A seven-year study by researchers at ETH Zurich, led by Professor Jan Vermant, has revealed the scientific principles behind why some beers maintain a stable foam longer than others. Published in Physics of Fluids, the research analyzed Belgian ales such as Tripel, Dubbel, and Singel, finding that Tripel beers have the most durable foam due to unique physical forces, while Singel beers have the least stable foam because of milder fermentation and lower alcohol content. The team also examined lagers from Swiss breweries, noting that while some can match the foam stability of ales, the underlying mechanisms differ. Previously, it was thought that protein-rich layers alone stabilized foam, but this study shows that factors like surface viscoelasticity and Marangoni stresses play key roles. For instance, in lagers, higher protein levels increase surface stiffness, aiding foam longevity, whereas in Tripel beers, Marangoni stresses—caused by surface tension variations—help maintain foam. This research not only advances our understanding of fluid dynamics but also provides practical insights for brewers to enhance beer quality through controlled brewing processes.",
       "source": "Science Daily - Technology",
-      "time_ago": "2 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_6ce2b1a9f1dd23b6_be8d298854e8.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "572dc10960c7153d",
-      "title": "Drag Race UK Winner's Prize Money Plans",
-      "summary": "Bones emerged as the winner of RuPaul's Drag Race UK series seven, securing a £25,000 cash prize after a intense lip-sync battle against Elle Vosque. In an interview with BBC Newsbeat, Bones expressed overwhelming happiness and described the win as the cherry on top of her journey. She revealed a pact with fellow finalist Elle from west Belfast to take each other on a holiday if either won, with potential destinations including Europe, the Caribbean, or a cruise. Originally from Stalybridge, Greater Manchester, Bones has been involved in drag for seven years and is now a prominent figure in London's Soho drag scene. She plans to use the prize money to enhance her drag performances, noting that drag is an expensive art form requiring significant investment in costumes and creativity. Additionally, Bones commented on the growing popularity and saturation of drag, emphasizing that queens must now proactively create opportunities for themselves. This marks the second year the UK edition has offered a cash prize since its 2019 launch, reflecting the show's evolving impact on the drag community.",
-      "source": "BBC Entertainment",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_572dc10960c7153d_eab259e828ee.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "72427c63556e47d5",
-      "title": "Tax Changes and Their Impact on Small Businesses",
-      "summary": "The article discusses the effects of recent business rates changes announced in the UK Budget, focusing on Phil Thorley, who runs a pub chain in south east England. His costs are set to rise by £62,000 annually due to increases in business rates for 17 of his 18 pubs. Business rates are taxes based on the rental value of commercial properties, and the government, through Chancellor Rachel Reeves, had promised lower taxes for retail, leisure, and hospitality sectors by shifting the burden to high-value properties like those used by online giants. However, the implementation has led to higher rateable values for many firms, combined with the phasing out of a 40% Covid-era discount. Analysis by Ryan, a tax advisory firm, indicates average increases of 42% for small shops, 45% for restaurants, and 66% for pubs. Thorley argues that this, along with previous hikes in employer national insurance and the minimum wage, puts immense pressure on his business, potentially reducing employment and investment. The government claims it is saving typical pubs £4,800 yearly, but the net result for many is significant cost hikes, raising concerns about the survival of small businesses.",
-      "source": "BBC Business",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_72427c63556e47d5_ef1fc38bf786.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "f0d1ab8ebf91e38d",
-      "title": "Tax Exemption for State Pension-Only Recipients",
-      "summary": "Chancellor Rachel Reeves has confirmed that individuals whose sole income is from the state pension will not be required to pay income tax before 2030. This decision comes as the state pension amount is projected to exceed the income tax threshold of £12,570 by April 2027, due to planned increases and frozen tax thresholds. Currently, the state pension for those under the new system is £12,547.60, just below this limit. The policy aims to prevent administrative burdens for vulnerable pensioners, as tax collection typically involves the Simple Assessment process where HMRC calculates and issues tax demands. However, this move raises concerns about fairness and complexity, as about three-quarters of pensioners already pay tax because they have additional income from private pensions or other sources. Experts, including former pensions minister Steve Webb, highlight that it could lead to unequal treatment, favoring those on the new state pension over workers with similar incomes or pensioners on the old system. The Conservatives had previously made a similar pledge, indicating cross-party attention to pensioner welfare, but critics argue it may complicate the tax system and create winners and losers.",
-      "source": "BBC Business",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_f0d1ab8ebf91e38d_a886885bdf24.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "c687fb54b344d188",
-      "title": "Olivia Dean's Fight Against High Ticket Resale Prices",
-      "summary": "Olivia Dean, a rising music star, has publicly criticized Ticketmaster and AXS for what she calls an 'exploitative' and unequal ticketing system. After tickets for her North American tour were resold at prices over 14 times the original face value, reaching above $1,000, Dean wrote an open letter denouncing the practice as 'disgusting' and 'vile.' In response, Ticketmaster announced it would cap future resale rates for her tour and refund fans for any markups paid on their platform. The CEO of Live Nation Entertainment, Ticketmaster's parent company, expressed agreement with Dean's goal of keeping live music accessible. Dean emphasized on Instagram that the secondary ticket market is unregulated and urged the industry to allow artists to cap resale at face value. This issue is part of a broader movement, as the UK government plans to outlaw excessive ticket resale prices following appeals from major artists like Coldplay and Dua Lipa. Dean's actions highlight the power of artists in advocating for fan rights and fair pricing in the entertainment industry.",
-      "source": "BBC Entertainment",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_c687fb54b344d188_757b913bd6e2.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "a694d36c36886194",
-      "title": "Unveiling Molecular Dynamics with X-Ray Imaging and Lasers",
-      "summary": "Researchers have advanced our understanding of molecular behavior under intense laser fields by using X-ray diffraction to create movies of Buckminsterfullerene (C60) disintegration. This football-shaped molecule, composed of 60 carbon atoms, was exposed to powerful infrared lasers at the Linac Coherent Light Source. By analyzing X-ray patterns, scientists measured parameters like radius and Guinier amplitude to track expansion and fragmentation. At low laser intensity, the molecule expands before fragmenting, while at high intensity, rapid electron loss causes immediate breakdown. The study involved international collaboration and combined experimental data with theoretical models, though discrepancies highlighted the need for improved theories. This work is crucial for guiding chemical reactions with light and exploring quantum processes in complex molecules.",
-      "source": "Science Daily - Technology",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_a694d36c36886194_332445cade6c.webp",
       "category": "Fun"
     }
   ]

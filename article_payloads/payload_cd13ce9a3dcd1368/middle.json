@@ -1,0 +1,137 @@
+{
+  "title": "Unraveling the Mystery of JWST's Red Dots",
+  "summary": "In 2022, the James Webb Space Telescope (JWST) detected numerous small, red objects in space that were unexpected and extremely distant, with light traveling 12 billion years to reach us. These 'little red dots' appear red because they emit light at long wavelengths in the mid-infrared, which JWST is designed to observe, unlike Hubble. Astronomers are puzzled because the dots don't fit existing models of known objects like stars or typical galaxies. Early theories suggest they could be massive, young galaxies packed with stars and dust, with densities far exceeding anything in the Milky Way, potentially challenging galaxy formation theories. Alternatively, some propose they are active galactic nuclei—regions around supermassive black holes—obscured by dust, but this idea faces issues with spectral mismatches and the high number of such objects. To resolve the debate, scientists are gathering more data through programs like RUBIES, which uses spectra to analyze light properties. This discovery highlights JWST's ability to reveal new cosmic phenomena and could lead to revisions in astronomical understanding.",
+  "keywords": [
+    {
+      "term": "James Webb Space Telescope",
+      "explanation": "a space observatory designed to observe infrared light, allowing it to see distant and red objects"
+    },
+    {
+      "term": "mid-infrared",
+      "explanation": "a range of light wavelengths longer than visible light, which JWST can detect to study cool or dusty objects"
+    },
+    {
+      "term": "active galactic nuclei",
+      "explanation": "bright regions at the centers of galaxies where material falls into supermassive black holes, emitting intense radiation"
+    },
+    {
+      "term": "spectra",
+      "explanation": "detailed measurements of how much light an object emits at different wavelengths, used to identify its composition and properties"
+    },
+    {
+      "term": "RUBIES program",
+      "explanation": "a scientific survey focused on studying unknown red objects in space to understand their nature through spectral analysis"
+    },
+    {
+      "term": "galaxy formation",
+      "explanation": "the process by which galaxies develop from early universe conditions, which these discoveries might challenge"
+    },
+    {
+      "term": "supermassive black holes",
+      "explanation": "extremely large black holes at galaxy centers that can influence their evolution"
+    },
+    {
+      "term": "light-year",
+      "explanation": "the distance light travels in one year, used to measure vast cosmic distances"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the primary reason JWST can detect the red dots while Hubble cannot?",
+      "options": [
+        "JWST observes mid-infrared wavelengths",
+        "JWST is closer to the objects",
+        "Hubble is older",
+        "JWST has better cameras"
+      ],
+      "correct_answer": "JWST observes mid-infrared wavelengths"
+    },
+    {
+      "question": "How far away are the closest red dots, in terms of light travel time?",
+      "options": [
+        "12 billion years",
+        "1 billion years",
+        "100 million years",
+        "5 billion years"
+      ],
+      "correct_answer": "12 billion years"
+    },
+    {
+      "question": "What early theory suggests the red dots are galaxies with high star density?",
+      "options": [
+        "Massive young galaxies",
+        "Active galactic nuclei",
+        "Dwarf stars",
+        "Nebulae"
+      ],
+      "correct_answer": "Massive young galaxies"
+    },
+    {
+      "question": "What problem arises if the red dots are active galactic nuclei?",
+      "options": [
+        "Their spectra don't match known types",
+        "They are too bright",
+        "They are too close",
+        "They move too fast"
+      ],
+      "correct_answer": "Their spectra don't match known types"
+    },
+    {
+      "question": "What does the RUBIES program aim to do?",
+      "options": [
+        "Study the red dots with spectra",
+        "Take more images",
+        "Build new telescopes",
+        "Map the Milky Way"
+      ],
+      "correct_answer": "Study the red dots with spectra"
+    },
+    {
+      "question": "Why might the red dots challenge galaxy formation theories?",
+      "options": [
+        "They suggest rapid star formation early in the universe",
+        "They are too small",
+        "They are not red",
+        "They are in our galaxy"
+      ],
+      "correct_answer": "They suggest rapid star formation early in the universe"
+    },
+    {
+      "question": "What is a key difference between the galaxy and active galactic nuclei theories?",
+      "options": [
+        "One involves stars, the other involves black holes",
+        "One is about color, the other about size",
+        "One is proven, the other is not",
+        "One uses Hubble data"
+      ],
+      "correct_answer": "One involves stars, the other involves black holes"
+    },
+    {
+      "question": "How do spectra help in understanding the red dots?",
+      "options": [
+        "By revealing light composition and properties",
+        "By measuring distance directly",
+        "By counting the number of dots",
+        "By taking pictures"
+      ],
+      "correct_answer": "By revealing light composition and properties"
+    }
+  ],
+  "background_read": [
+    "The James Webb Space Telescope, launched in 2021, is a successor to Hubble and excels in infrared astronomy, allowing it to peer through cosmic dust and observe the early universe. Astronomers use it to study galaxy evolution, star formation, and black holes. The discovery of 'little red dots' emerged from JWST's early data, prompting theories about extreme galactic objects. If confirmed as dense galaxies or active nuclei, this could reshape models of cosmic history, emphasizing the need for advanced tools like spectra from programs such as RUBIES to analyze light and resolve scientific debates."
+  ],
+  "Article_Structure": [
+    "The article discusses the discovery of mysterious red dots by JWST, highlighting main points like their unexpected nature and distance. Its purpose is to inform about new astronomical findings and the ongoing scientific debate. Evidence evaluation shows reliance on JWST data and spectra, but limitations include incomplete spectral data. Author credibility is implied through references to institutions like Penn State and Max Planck Institute. Methodology involves telescopic observations and comparative analysis with existing models, though more data is needed for conclusive results."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Galaxy theory",
+      "description": "Proposes the red dots are extremely dense galaxies with rapid star formation, challenging existing models."
+    },
+    {
+      "perspective": "Active galactic nuclei theory",
+      "description": "Suggests the dots are dust-obscured black hole regions, but faces spectral inconsistencies."
+    }
+  ],
+  "image_url": "/article_images/article_cd13ce9a3dcd1368_79c9da933b1c.webp"
+}

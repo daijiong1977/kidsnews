@@ -1,0 +1,112 @@
+{
+  "title": "Scientists Teleport Information with Light",
+  "summary": "Scientists have made a big step in making the internet safer by teleporting information using light. This is part of something called quantum communication, which uses tiny particles called photons to send messages securely. A team at the University of Stuttgart worked with quantum dots, which are like tiny sources of light, to send information between photons from different places. This helps in building a quantum internet that can protect data from hackers. Quantum teleportation lets information move without being copied, so no one can sneak a peek. The scientists used special devices to make the photons match perfectly. This discovery could lead to better ways to keep our online information safe in the future.",
+  "keywords": [
+    {
+      "term": "photon",
+      "explanation": "a tiny particle of light that carries energy"
+    },
+    {
+      "term": "quantum dot",
+      "explanation": "a very small semiconductor that can emit light"
+    },
+    {
+      "term": "teleportation",
+      "explanation": "moving information from one place to another without physical travel"
+    },
+    {
+      "term": "polarization",
+      "explanation": "the direction in which light waves vibrate"
+    },
+    {
+      "term": "entangled",
+      "explanation": "when two particles are connected and affect each other instantly"
+    },
+    {
+      "term": "quantum internet",
+      "explanation": "a future internet that uses quantum physics for super-secure communication"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did scientists teleport using light?",
+      "options": [
+        "Information",
+        "Objects",
+        "Sounds",
+        "Colors"
+      ],
+      "correct_answer": "Information"
+    },
+    {
+      "question": "Where did the scientists work on this project?",
+      "options": [
+        "University of Stuttgart",
+        "Harvard University",
+        "NASA",
+        "Toyota"
+      ],
+      "correct_answer": "University of Stuttgart"
+    },
+    {
+      "question": "What are quantum dots used for?",
+      "options": [
+        "Emitting photons",
+        "Storing water",
+        "Making food",
+        "Driving cars"
+      ],
+      "correct_answer": "Emitting photons"
+    },
+    {
+      "question": "Why is quantum communication secure?",
+      "options": [
+        "It leaves traces if hacked",
+        "It uses passwords",
+        "It is very fast",
+        "It is free"
+      ],
+      "correct_answer": "It leaves traces if hacked"
+    },
+    {
+      "question": "What does entangled mean for photons?",
+      "options": [
+        "They are connected and share states",
+        "They are heavy",
+        "They change color",
+        "They break easily"
+      ],
+      "correct_answer": "They are connected and share states"
+    },
+    {
+      "question": "What device helped match photon frequencies?",
+      "options": [
+        "Quantum frequency converter",
+        "Microscope",
+        "Radio",
+        "Computer"
+      ],
+      "correct_answer": "Quantum frequency converter"
+    }
+  ],
+  "background_read": [
+    "Quantum physics is a branch of science that studies very small particles like atoms and photons. It helps explain how things work at tiny scales. In communication, we usually send data as zeros and ones, but quantum communication uses photons to make it super secure. This is important because hackers can steal information online. Scientists are trying to build a quantum internet that uses light to protect messages. The recent discovery by researchers in Germany shows how information can be teleported between photons from different sources, which is a big step toward making this secure internet a reality."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the University of Stuttgart and other institutes",
+    "WHAT: Teleported quantum information between photons from different quantum dots",
+    "WHERE: At research labs in Germany, including the University of Stuttgart",
+    "WHY: To help build a secure quantum internet that prevents eavesdropping"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific Innovation",
+      "description": "This research shows how new technologies can advance science and make communication safer."
+    },
+    {
+      "perspective": "Security Benefits",
+      "description": "Quantum communication could protect personal data from cyber attacks in the future."
+    }
+  ],
+  "image_url": "/article_images/article_488ce673f734bdbf_ae18f1820d8d.webp"
+}
