@@ -1,0 +1,108 @@
+{
+  "title": "How Scientists Check if Quantum Computers Are Right",
+  "summary": "Quantum computers are super-fast machines that can solve hard problems regular computers can't. Scientists are working to make them reliable for things like medicine and security. A big challenge is checking if their answers are correct, especially for problems that would take supercomputers billions of years to solve. Researchers at Swinburne University found a new way to test a type of quantum computer called a Gaussian Boson Sampler. This machine uses light particles called photons to do calculations. The new method can quickly find errors in the results using just a laptop. This helps make sure quantum computers work properly and can be trusted for important tasks in the future.",
+  "keywords": [
+    {
+      "term": "Quantum computer",
+      "explanation": "A very fast computer that uses tiny particles to solve problems."
+    },
+    {
+      "term": "Photon",
+      "explanation": "A tiny particle of light used in some quantum computers."
+    },
+    {
+      "term": "Error",
+      "explanation": "A mistake in the computer's answer that needs to be fixed."
+    },
+    {
+      "term": "Supercomputer",
+      "explanation": "A powerful regular computer that is slower than quantum computers for some tasks."
+    },
+    {
+      "term": "Validate",
+      "explanation": "To check if something is correct or working right."
+    },
+    {
+      "term": "Gaussian Boson Sampler",
+      "explanation": "A type of quantum computer that uses light to do math."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is a quantum computer?",
+      "options": [
+        "A fast computer using tiny particles",
+        "A regular laptop",
+        "A type of phone",
+        "A game console"
+      ],
+      "correct_answer": "A fast computer using tiny particles"
+    },
+    {
+      "question": "What do Gaussian Boson Samplers use to do calculations?",
+      "options": [
+        "Photons (light particles)",
+        "Electricity",
+        "Water",
+        "Sound waves"
+      ],
+      "correct_answer": "Photons (light particles)"
+    },
+    {
+      "question": "Why is it hard to check quantum computer answers?",
+      "options": [
+        "Some problems take supercomputers too long to solve",
+        "They are always wrong",
+        "They use too much power",
+        "They are too small"
+      ],
+      "correct_answer": "Some problems take supercomputers too long to solve"
+    },
+    {
+      "question": "What did the researchers develop?",
+      "options": [
+        "A method to check for errors quickly",
+        "A new quantum computer",
+        "A faster supercomputer",
+        "A video game"
+      ],
+      "correct_answer": "A method to check for errors quickly"
+    },
+    {
+      "question": "Where did the researchers work?",
+      "options": [
+        "Swinburne University",
+        "A school",
+        "A hospital",
+        "A factory"
+      ],
+      "correct_answer": "Swinburne University"
+    },
+    {
+      "question": "What might reliable quantum computers help with?",
+      "options": [
+        "Drug development and security",
+        "Making toys",
+        "Driving cars",
+        "Cooking food"
+      ],
+      "correct_answer": "Drug development and security"
+    }
+  ],
+  "background_read": [
+    "Quantum computers are advanced machines that use the rules of quantum physics to process information much faster than regular computers. They can help solve complex problems in science, medicine, and technology. However, because they work differently, it's tricky to know if their answers are correct, especially for tasks that would take supercomputers an extremely long time. This article talks about new tools scientists made to check these answers quickly and find mistakes, which is important for building trustworthy quantum computers in the future."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists from Swinburne University",
+    "WHAT: Developed a method to check if quantum computers are correct and find errors",
+    "WHERE: In research labs, using experiments with Gaussian Boson Samplers",
+    "WHY: To make quantum computers reliable for uses like drug development and security"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific progress",
+      "description": "The research helps advance technology by ensuring quantum computers work accurately."
+    }
+  ],
+  "image_url": "/article_images/article_9ca1d324d89bb7b3_c337553ad6de.webp"
+}
