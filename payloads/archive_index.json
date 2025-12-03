@@ -1,6 +1,13 @@
 {
-  "generated_at": "2025-12-02T13:00:34.329Z",
+  "generated_at": "2025-12-03T13:00:02.540Z",
   "dates": [
+    {
+      "date": "2025-12-03",
+      "supabase_path": "website/2025-12-03",
+      "payloads_url": "https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/2025-12-03/payloads/",
+      "images_url": "https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/2025-12-03/article_images/",
+      "article_payloads_url": "https://lfknsvavhiqrsasdfyrs.supabase.co/storage/v1/object/public/shared-storage/website/2025-12-03/article_payloads/"
+    },
     {
       "date": "2025-12-02",
       "supabase_path": "website/2025-12-02",
