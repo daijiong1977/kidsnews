@@ -1,0 +1,108 @@
+{
+  "title": "A Cool New Tool Helps Scientists See Space Ripples Better",
+  "summary": "Scientists have made a new tool called FROSTI that helps LIGO, a special observatory, see gravitational waves better. Gravitational waves are tiny ripples in space made by big things like black holes crashing together. LIGO uses lasers and mirrors to detect these waves, but sometimes the lasers heat the mirrors and make them wobbly, which hides the waves. FROSTI fixes this by warming the mirrors in a controlled way to keep them smooth. This lets LIGO use stronger lasers without problems, so it can see more black holes and neutron stars far away in space. The tool was made by physicist Jonathan Richardson and his team, and it might be used in future observatories like Cosmic Explorer to explore the universe deeper.",
+  "keywords": [
+    {
+      "term": "gravitational waves",
+      "explanation": "tiny ripples in space caused by big objects moving fast"
+    },
+    {
+      "term": "LIGO",
+      "explanation": "a big observatory that detects gravitational waves using lasers"
+    },
+    {
+      "term": "FROSTI",
+      "explanation": "a new tool that helps keep LIGO's mirrors smooth by warming them"
+    },
+    {
+      "term": "mirrors",
+      "explanation": "special parts in LIGO that reflect lasers to detect waves"
+    },
+    {
+      "term": "black holes",
+      "explanation": "very dense objects in space that can crash and make waves"
+    },
+    {
+      "term": "laser",
+      "explanation": "a strong beam of light used in LIGO to measure waves"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does LIGO detect?",
+      "options": [
+        "Gravitational waves",
+        "Sound waves",
+        "Light waves",
+        "Radio waves"
+      ],
+      "correct_answer": "Gravitational waves"
+    },
+    {
+      "question": "What is FROSTI designed to do?",
+      "options": [
+        "Cool the mirrors",
+        "Warm the mirrors to keep them smooth",
+        "Make the lasers weaker",
+        "Stop vibrations"
+      ],
+      "correct_answer": "Warm the mirrors to keep them smooth"
+    },
+    {
+      "question": "Who led the development of FROSTI?",
+      "options": [
+        "Albert Einstein",
+        "Jonathan Richardson",
+        "A robot",
+        "A student"
+      ],
+      "correct_answer": "Jonathan Richardson"
+    },
+    {
+      "question": "Why do LIGO's mirrors need to be very still?",
+      "options": [
+        "To look pretty",
+        "To detect tiny ripples in space",
+        "To reflect light better",
+        "To save energy"
+      ],
+      "correct_answer": "To detect tiny ripples in space"
+    },
+    {
+      "question": "What might FROSTI help future observatories like Cosmic Explorer do?",
+      "options": [
+        "See deeper into the universe",
+        "Make more mirrors",
+        "Stop black holes",
+        "Create new stars"
+      ],
+      "correct_answer": "See deeper into the universe"
+    },
+    {
+      "question": "What are gravitational waves made by?",
+      "options": [
+        "Stars shining",
+        "Black holes colliding",
+        "Planets moving",
+        "Sunlight"
+      ],
+      "correct_answer": "Black holes colliding"
+    }
+  ],
+  "background_read": [
+    "Gravitational waves are like ripples in a pond but in space, caused by big things like black holes or neutron stars crashing. LIGO is a special machine with lasers and mirrors that can feel these ripples, helping scientists learn about space. Sometimes, the lasers heat the mirrors and make them wobbly, so FROSTI was invented to warm the mirrors gently and keep them smooth, allowing LIGO to see more waves from far away."
+  ],
+  "Article_Structure": [
+    "WHO: Physicist Jonathan Richardson and his team at the University of California, Riverside",
+    "WHAT: They created FROSTI, a tool that controls laser wavefronts to keep LIGO's mirrors smooth at high power",
+    "WHERE: Used in LIGO observatories in Washington and Louisiana, and planned for future ones like Cosmic Explorer",
+    "WHY: To improve gravitational-wave detection by reducing distortions, allowing scientists to see more black hole and neutron star mergers in the universe"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific innovation",
+      "description": "FROSTI represents a breakthrough in adaptive optics that could advance astronomy by enabling more precise observations of gravitational waves."
+    }
+  ],
+  "image_url": "/article_images/article_3fafd9c363f1cc31_ce3f26201950.webp"
+}
