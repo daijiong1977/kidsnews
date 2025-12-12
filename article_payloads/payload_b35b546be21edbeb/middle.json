@@ -1,0 +1,125 @@
+{
+  "title": "Uncovering Stationary Atoms in Liquid Metals",
+  "summary": "Researchers have made a groundbreaking discovery in materials science by observing that not all atoms move within a liquid, even at high temperatures. Using transmission electron microscopy, scientists from the University of Nottingham and the University of Ulm studied molten metal nanoparticles, such as platinum and gold, supported on graphene. They found that some atoms remain stationary, strongly bonded to point defects in the graphene. These motionless atoms significantly influence solidification processes: when few are pinned, crystals can grow and solidify the metal, but when many are fixed, they disrupt crystal formation, leading to a corralled supercooled liquid state. This research sheds light on the complex behavior of liquids, which has been less understood compared to gases and solids. The findings have implications for various technologies, including aviation, construction, and electronics, as solidification determines material properties. Additionally, the study utilized the SALVE instrument to explore wave-particle duality of electrons, revealing how electrons can both image materials as waves and fix atoms as particles. This work builds on previous achievements in filming chemical reactions at the atomic level, advancing our ability to control and understand material transformations.",
+  "keywords": [
+    {
+      "term": "transmission electron microscopy",
+      "explanation": "a technique that uses electrons to create detailed images of tiny structures"
+    },
+    {
+      "term": "point defects",
+      "explanation": "specific spots in a material where atoms are missing or out of place"
+    },
+    {
+      "term": "solidification",
+      "explanation": "the process by which a liquid turns into a solid"
+    },
+    {
+      "term": "corralled supercooled liquid",
+      "explanation": "a phase where a liquid remains liquid below its freezing point due to blocked crystal growth"
+    },
+    {
+      "term": "wave-particle duality",
+      "explanation": "the concept that electrons can behave as both waves and particles"
+    },
+    {
+      "term": "SALVE instrument",
+      "explanation": "a specialized low-voltage microscope used for atomic-scale imaging"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What technique did researchers use to observe molten metal nanoparticles?",
+      "options": [
+        "Optical microscopy",
+        "Transmission electron microscopy",
+        "X-ray diffraction",
+        "Magnetic resonance imaging"
+      ],
+      "correct_answer": "Transmission electron microscopy"
+    },
+    {
+      "question": "What material was used as a support for the metal nanoparticles?",
+      "options": [
+        "Silicon",
+        "Copper",
+        "Graphene",
+        "Aluminum"
+      ],
+      "correct_answer": "Graphene"
+    },
+    {
+      "question": "How do stationary atoms affect solidification when many are pinned?",
+      "options": [
+        "They speed up crystal growth",
+        "They have no effect",
+        "They block crystal formation",
+        "They turn the metal into gas"
+      ],
+      "correct_answer": "They block crystal formation"
+    },
+    {
+      "question": "What is the name of the instrument used for low-voltage electron microscopy?",
+      "options": [
+        "TEM",
+        "SALVE",
+        "SEM",
+        "AFM"
+      ],
+      "correct_answer": "SALVE"
+    },
+    {
+      "question": "What concept did the study help illustrate regarding electrons?",
+      "options": [
+        "Quantum entanglement",
+        "Wave-particle duality",
+        "Relativity",
+        "Thermodynamics"
+      ],
+      "correct_answer": "Wave-particle duality"
+    },
+    {
+      "question": "Which universities were involved in this research?",
+      "options": [
+        "Harvard and MIT",
+        "University of Nottingham and University of Ulm",
+        "Stanford and Cambridge",
+        "Tokyo and Oxford"
+      ],
+      "correct_answer": "University of Nottingham and University of Ulm"
+    },
+    {
+      "question": "What state of matter is created when crystal growth is blocked?",
+      "options": [
+        "Solid crystal",
+        "Gas plasma",
+        "Corralled supercooled liquid",
+        "Bose-Einstein condensate"
+      ],
+      "correct_answer": "Corralled supercooled liquid"
+    },
+    {
+      "question": "Why is understanding solidification important for industries?",
+      "options": [
+        "It helps design better clothing",
+        "It improves material properties in aviation and electronics",
+        "It makes food production faster",
+        "It reduces energy costs"
+      ],
+      "correct_answer": "It improves material properties in aviation and electronics"
+    }
+  ],
+  "background_read": [
+    "This article discusses advanced research in physics and materials science, focusing on the behavior of atoms in liquids. Solidification is a critical process in nature and technology, influencing everything from ice formation to metal manufacturing. The study builds on prior work by the same team, who have filmed chemical reactions at the atomic level. Using cutting-edge tools like transmission electron microscopy and the SALVE instrument, scientists explored atomic motion in molten metals, revealing unexpected stationary atoms. This discovery challenges traditional views of liquids and opens new avenues for controlling material properties. The research highlights the interdisciplinary nature of science, combining chemistry, physics, and engineering to address practical challenges in industries such as pharmaceuticals and construction."
+  ],
+  "Article_Structure": [
+    "This 100-word analysis covers the main points: researchers discovered stationary atoms in molten metals using transmission electron microscopy, affecting solidification by either allowing crystal growth or creating a corralled supercooled liquid. The purpose is to advance understanding of liquid behavior and improve material technologies. Evidence evaluation is strong, based on direct imaging with advanced instruments. Author credibility is high, involving professors from reputable universities with prior achievements in atomic-scale filming. Methodology includes experimental techniques with graphene supports and the SALVE instrument, providing reliable data on atomic interactions."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological advancement",
+      "description": "The discovery enables better control over material solidification for industrial applications"
+    }
+  ],
+  "image_url": "/article_images/article_b35b546be21edbeb_b53e0d1d6c94.webp"
+}
