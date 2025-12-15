@@ -1,0 +1,145 @@
+{
+  "title": "AI-Driven Imaging Biomarker Reveals Chronic Stress in CT Scans",
+  "summary": "A groundbreaking study utilizes a deep learning artificial intelligence model to establish the first imaging-based biomarker for chronic stress, detectable in routine chest CT scans. Chronic stress, known to exacerbate conditions such as cardiovascular disease, depression, and immune dysfunction, has historically been assessed through subjective questionnaires or cumbersome biochemical markers like cortisol. Researchers, led by Dr. Elena Ghotbi at Johns Hopkins University, analyzed a cohort of 2,842 participants from the Multi-Ethnic Study of Atherosclerosis, integrating CT imaging, salivary cortisol measurements, allostatic load indices, and psychosocial assessments. The AI model automated the measurement of adrenal gland volume, deriving an Adrenal Volume Index (AVI) that correlated significantly with cortisol exposure, allostatic load, and stress questionnaire scores. Longitudinal data revealed that elevated AVI values were associated with increased risks of heart failure and mortality, independent of traditional risk factors. Presented at the Radiological Society of North America, this research demonstrates the potential of leveraging existing imaging data for large-scale stress evaluation, offering a novel tool for cardiovascular risk stratification and personalized preventive strategies without additional testing.",
+  "keywords": [
+    {
+      "term": "deep learning artificial intelligence",
+      "explanation": "an advanced AI technique using neural networks to analyze complex data patterns"
+    },
+    {
+      "term": "imaging-based biomarker",
+      "explanation": "a measurable sign of a biological state derived from medical images"
+    },
+    {
+      "term": "Adrenal Volume Index",
+      "explanation": "a quantitative measure of adrenal gland volume normalized to height, serving as a stress indicator"
+    },
+    {
+      "term": "allostatic load",
+      "explanation": "the cumulative physiological burden from chronic stress, measured via multiple biomarkers"
+    },
+    {
+      "term": "cardiovascular risk stratification",
+      "explanation": "the process of categorizing individuals based on their likelihood of heart disease"
+    },
+    {
+      "term": "longitudinal data",
+      "explanation": "information collected over an extended period to track changes and outcomes"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the primary innovation of this study regarding stress assessment?",
+      "options": [
+        "An imaging-based biomarker using AI",
+        "A new cortisol test method",
+        "A stress questionnaire app",
+        "A genetic marker for stress"
+      ],
+      "correct_answer": "An imaging-based biomarker using AI"
+    },
+    {
+      "question": "Which cohort study provided the data for this research?",
+      "options": [
+        "Multi-Ethnic Study of Atherosclerosis",
+        "Framingham Heart Study",
+        "National Health and Nutrition Examination Survey",
+        "UK Biobank"
+      ],
+      "correct_answer": "Multi-Ethnic Study of Atherosclerosis"
+    },
+    {
+      "question": "How does AVI differ from traditional cortisol measurements?",
+      "options": [
+        "AVI reflects chronic stress over time, while cortisol is point-in-time",
+        "AVI is cheaper to obtain",
+        "AVI requires blood samples",
+        "AVI is less accurate"
+      ],
+      "correct_answer": "AVI reflects chronic stress over time, while cortisol is point-in-time"
+    },
+    {
+      "question": "What statistical relationship was found between AVI and cardiovascular outcomes?",
+      "options": [
+        "Higher AVI increased heart failure and death risk",
+        "AVI decreased heart disease risk",
+        "No significant correlation",
+        "AVI only affected mental health"
+      ],
+      "correct_answer": "Higher AVI increased heart failure and death risk"
+    },
+    {
+      "question": "What methodology was used to validate the AI model's findings?",
+      "options": [
+        "Correlation with cortisol, allostatic load, and stress questionnaires",
+        "Only imaging analysis",
+        "Animal studies",
+        "Theoretical models"
+      ],
+      "correct_answer": "Correlation with cortisol, allostatic load, and stress questionnaires"
+    },
+    {
+      "question": "What is the significance of using existing CT scans for this biomarker?",
+      "options": [
+        "Enables large-scale stress evaluation without extra tests",
+        "Reduces image quality",
+        "Increases radiation exposure",
+        "Limits to research settings"
+      ],
+      "correct_answer": "Enables large-scale stress evaluation without extra tests"
+    },
+    {
+      "question": "Who is the senior author of the study?",
+      "options": [
+        "Dr. Shadpour Demehri",
+        "Dr. Elena Ghotbi",
+        "Dr. John Hopkins",
+        "Dr. Radiological Society"
+      ],
+      "correct_answer": "Dr. Shadpour Demehri"
+    },
+    {
+      "question": "What does allostatic load incorporate in its calculation?",
+      "options": [
+        "Biomarkers like BMI, creatinine, and blood pressure",
+        "Only cortisol levels",
+        "Only imaging data",
+        "Only psychological scores"
+      ],
+      "correct_answer": "Biomarkers like BMI, creatinine, and blood pressure"
+    },
+    {
+      "question": "How long was the follow-up period for participants in this study?",
+      "options": [
+        "Up to 10 years",
+        "1 year",
+        "5 years",
+        "No follow-up"
+      ],
+      "correct_answer": "Up to 10 years"
+    },
+    {
+      "question": "What potential application does this biomarker have in healthcare?",
+      "options": [
+        "Guiding preventive care and risk assessment",
+        "Replacing all stress tests",
+        "Curing chronic stress",
+        "Only for research purposes"
+      ],
+      "correct_answer": "Guiding preventive care and risk assessment"
+    }
+  ],
+  "background_read": [
+    "Chronic stress is a multifactorial condition linked to adverse health outcomes, traditionally assessed through subjective measures or limited biochemical markers. Advances in AI and medical imaging have enabled the extraction of novel biomarkers from routine data. This study builds on epidemiological research like the Multi-Ethnic Study of Atherosclerosis, which combines imaging and biochemical data, to validate a stress indicator that could transform clinical practice by integrating stress assessment into standard care protocols."
+  ],
+  "Article_Structure": [
+    "Main Points: The study establishes an AI-derived Adrenal Volume Index from CT scans as a validated biomarker for chronic stress, correlating with biochemical and psychosocial measures and predicting cardiovascular risks. Purpose: To address limitations in current stress assessment by providing an objective, scalable tool using existing imaging data for improved clinical outcomes. Evidence Evaluation: Robust evidence from a large, diverse cohort with longitudinal follow-up, though potential biases in retrospective analysis and generalizability exist. Author Credibility: Experts from Johns Hopkins University with backgrounds in radiology and stress research, enhancing reliability. Methodology: Employed deep learning on CT scans, integrated with multi-modal data including cortisol and allostatic load, using statistical correlations to validate findings. Critical Assessment: Strengths include innovative use of AI and existing data, but limitations involve cohort specificity and need for prospective validation in broader populations."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological",
+      "description": "Emphasizes the role of AI in advancing medical diagnostics and personalized medicine."
+    }
+  ],
+  "image_url": "/article_images/article_1767fd84a962b8e0_950876c48f54.webp"
+}

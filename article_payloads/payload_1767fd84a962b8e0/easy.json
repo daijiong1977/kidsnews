@@ -1,0 +1,104 @@
+{
+  "title": "AI Spots Stress in Body Scans",
+  "summary": "Scientists have created a smart computer program called AI that can find signs of long-term stress in pictures from CT scans, which are common medical tests. Stress can make people feel sad or sick, leading to problems like heart disease. The researchers used the AI to look at CT scans from thousands of people and measure their adrenal glands, small organs in the body. They found that bigger adrenal glands mean more stress, and this can help doctors predict heart issues without extra tests. This discovery was shared at a big medical meeting and could help many people stay healthier by checking stress easily.",
+  "keywords": [
+    {
+      "term": "AI",
+      "explanation": "a smart computer program that learns from data"
+    },
+    {
+      "term": "CT scans",
+      "explanation": "pictures taken inside the body using special machines"
+    },
+    {
+      "term": "adrenal glands",
+      "explanation": "small organs that help the body handle stress"
+    },
+    {
+      "term": "stress",
+      "explanation": "feeling worried or pressured for a long time"
+    },
+    {
+      "term": "heart disease",
+      "explanation": "a sickness that affects the heart"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does AI stand for in this article?",
+      "options": [
+        "Artificial Intelligence",
+        "Advanced Imaging",
+        "Adrenal Index",
+        "Automatic Indicator"
+      ],
+      "correct_answer": "Artificial Intelligence"
+    },
+    {
+      "question": "What medical test did the AI use to find stress?",
+      "options": [
+        "CT scans",
+        "X-rays",
+        "Blood tests",
+        "Ultrasounds"
+      ],
+      "correct_answer": "CT scans"
+    },
+    {
+      "question": "What part of the body did the AI measure to check stress?",
+      "options": [
+        "Adrenal glands",
+        "Heart",
+        "Brain",
+        "Lungs"
+      ],
+      "correct_answer": "Adrenal glands"
+    },
+    {
+      "question": "Why is finding stress important according to the article?",
+      "options": [
+        "It can help predict heart problems",
+        "It makes people happier",
+        "It cures diseases",
+        "It stops all stress"
+      ],
+      "correct_answer": "It can help predict heart problems"
+    },
+    {
+      "question": "Where was this discovery presented?",
+      "options": [
+        "At a medical meeting",
+        "In a school",
+        "On TV",
+        "In a book"
+      ],
+      "correct_answer": "At a medical meeting"
+    },
+    {
+      "question": "What can bigger adrenal glands indicate?",
+      "options": [
+        "More stress",
+        "Less stress",
+        "No change",
+        "Better health"
+      ],
+      "correct_answer": "More stress"
+    }
+  ],
+  "background_read": [
+    "Stress is a feeling that everyone experiences, and it can affect our bodies over time. Doctors use tools like CT scans to see inside the body, and now AI helps them spot stress signs in these scans to keep people healthy."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists and doctors from Johns Hopkins University",
+    "WHAT: Used AI to find stress in CT scans by measuring adrenal glands",
+    "WHERE: In the United States, presented at a medical meeting",
+    "WHY: To help predict heart problems and improve health without extra tests"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Medical",
+      "description": "Doctors see this as a new way to detect stress and prevent heart disease."
+    }
+  ],
+  "image_url": "/article_images/article_1767fd84a962b8e0_950876c48f54.webp"
+}
