@@ -1,0 +1,125 @@
+{
+  "title": "The Perception Gap: How We Overestimate Online Toxicity",
+  "summary": "A recent study reveals that Americans significantly overestimate the prevalence of toxic behavior on social media platforms. Researchers surveyed 1,090 American adults to compare their beliefs about harmful online content with actual data from previous large-scale studies. For instance, participants estimated that 43% of Reddit users post highly toxic comments, whereas research indicates the true figure is only about 3%, meaning they believed toxic commenters were 13 times more common than reality. Similarly, on Facebook, people guessed that 47% of users share false or misleading news, but existing studies suggest it's closer to 8.5%. This perception gap is not due to an inability to identify toxic content, as shown in a signal detection task where many participants correctly recognized toxic posts. Instead, it stems from a mistaken belief about how widespread such behavior is, possibly because social media algorithms amplify extreme content, making it seem more common. The researchers also conducted an experiment where they provided accurate information about the rarity of severe online toxicity. After learning the truth, participants reported feeling more optimistic and less concerned about societal moral decline, and they were less likely to believe that most Americans condone harmful online behavior. The study concludes that a vocal minority of highly active accounts produces most toxic content, creating an illusion of widespread negativity, and correcting this misperception can enhance social cohesion by reminding people that the majority of users are not engaging in bad behavior.",
+  "keywords": [
+    {
+      "term": "perception gap",
+      "explanation": "the difference between what people believe is true and what actual data shows"
+    },
+    {
+      "term": "toxic behavior",
+      "explanation": "actions online that are cruel, aggressive, or abusive, such as posting harmful comments"
+    },
+    {
+      "term": "signal detection task",
+      "explanation": "a psychological test used to measure how accurately people can identify specific signals, like toxic posts, amid other content"
+    },
+    {
+      "term": "social media algorithms",
+      "explanation": "computer programs that decide what content to show users, often amplifying attention-grabbing posts"
+    },
+    {
+      "term": "vocal minority",
+      "explanation": "a small group of people who are very active and loud, making their views seem more common than they are"
+    },
+    {
+      "term": "social cohesion",
+      "explanation": "the sense of unity and cooperation among people in a society"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the main goal of the researchers' survey of American adults?",
+      "options": [
+        "To compare beliefs about online toxicity with real data",
+        "To measure how many people post toxic comments",
+        "To study social media algorithms",
+        "To test new psychological tasks"
+      ],
+      "correct_answer": "To compare beliefs about online toxicity with real data"
+    },
+    {
+      "question": "On Reddit, how many times more common did participants believe toxic commenters were compared to the real figure?",
+      "options": [
+        "13 times",
+        "3 times",
+        "47 times",
+        "8.5 times"
+      ],
+      "correct_answer": "13 times"
+    },
+    {
+      "question": "What percentage of Facebook users do participants guess share false news, according to the study?",
+      "options": [
+        "47%",
+        "8.5%",
+        "43%",
+        "3%"
+      ],
+      "correct_answer": "47%"
+    },
+    {
+      "question": "What did the signal detection task show about participants' ability to identify toxic content?",
+      "options": [
+        "Many could correctly recognize it",
+        "Most could not recognize it",
+        "It was not tested",
+        "It varied by platform"
+      ],
+      "correct_answer": "Many could correctly recognize it"
+    },
+    {
+      "question": "How did providing accurate information about online toxicity affect participants' attitudes?",
+      "options": [
+        "They felt more optimistic",
+        "They felt more pessimistic",
+        "No change occurred",
+        "They posted more toxic comments"
+      ],
+      "correct_answer": "They felt more optimistic"
+    },
+    {
+      "question": "What creates the illusion that toxic behavior is widespread online?",
+      "options": [
+        "A vocal minority of active accounts",
+        "Most users posting toxic content",
+        "Lack of research data",
+        "Government regulations"
+      ],
+      "correct_answer": "A vocal minority of active accounts"
+    },
+    {
+      "question": "What platform was used for the online research in this study?",
+      "options": [
+        "CloudResearch Connect",
+        "Reddit",
+        "Facebook",
+        "PNAS Nexus"
+      ],
+      "correct_answer": "CloudResearch Connect"
+    },
+    {
+      "question": "What broader effect can correcting misperceptions about online toxicity have?",
+      "options": [
+        "Improve social cohesion",
+        "Increase toxic posts",
+        "Decrease social media use",
+        "Change algorithms"
+      ],
+      "correct_answer": "Improve social cohesion"
+    }
+  ],
+  "background_read": [
+    "This article discusses a study published in PNAS Nexus that investigates why Americans overestimate the prevalence of toxic behavior on social media. Researchers used surveys and experiments to explore the gap between perception and reality, focusing on platforms like Reddit and Facebook. The study highlights how social media algorithms may contribute to this misperception by amplifying extreme content, and it examines the psychological and societal impacts, such as increased pessimism. By correcting these beliefs, the research suggests that people can develop more positive attitudes toward society, emphasizing the role of a vocal minority in shaping online narratives. This context is important for understanding modern digital communication and its effects on public opinion."
+  ],
+  "Article_Structure": [
+    "Main Points: The study shows that Americans overestimate online toxicity, with beliefs about toxic commenters on Reddit being 13 times higher than reality and similar overestimations on Facebook for misinformation. Purpose: To understand the disconnect between perception and actual data on harmful online behavior and its societal impacts. Evidence Evaluation: The research uses surveys of 1,090 adults, comparison with previous large-scale studies, and a signal detection task, providing robust quantitative data. Author Credibility: Researchers Angela Y. Lee and Eric Neumann conducted the study, likely with expertise in psychology or social sciences, as indicated by their use of psychological tests and publication in PNAS Nexus. Methodology: Employed online surveys via CloudResearch Connect, experimental interventions to test attitude changes, and analysis of existing social media data, ensuring a comprehensive approach."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Psychological View",
+      "description": "Focuses on how cognitive biases, such as vivid memory of extreme posts, lead to overestimation of online toxicity and affect societal attitudes."
+    }
+  ],
+  "image_url": "/article_images/article_60dbdc612382bb9d_2f064b261dea.webp"
+}
