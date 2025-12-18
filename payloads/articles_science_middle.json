@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "8c13546c1ecfefca",
-      "title": "Advancing Alzheimer's Detection Through Brain Metabolism and Microvesicles",
-      "summary": "Researchers at Northern Arizona University are developing a novel test that could detect Alzheimer's disease before symptoms manifest, potentially slowing its progression. Led by Assistant Professor Travis Gibbons, the study focuses on brain metabolism, specifically how the brain utilizes glucose for functions like thinking and emotion. In Alzheimer's, brain metabolism slows down, serving as an early indicator. Historically, measuring glucose metabolism required invasive procedures, such as inserting catheters into neck veins, but Gibbons' team is exploring a less invasive method using microvesicles in the bloodstream. Microvesicles are small vesicles that originate from neurons and carry biomarkers, acting as messengers from the brain. By analyzing these with commercial kits, researchers can assess brain health without invasive sampling. The research involves validating the approach in healthy volunteers before comparing it to individuals with mild cognitive impairment and Alzheimer's patients. This could lead to a routine checkup tool for tracking disease progression. Gibbons emphasizes the potential to manage brain health proactively, similar to cardiovascular disease prevention through lifestyle changes. The study is supported by the Arizona Alzheimer's Association and involves collaboration with other scientists, aiming to reduce the societal burden of aging populations.",
-      "source": "Science Daily",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_8c13546c1ecfefca_81180fcb7ac6.webp",
+      "id": "53024d37be133768",
+      "title": "Uncovering a Bronze Age Mass Burial Mystery in Scotland",
+      "summary": "Recent archaeological excavations in southern Scotland have uncovered a mysterious mass burial site dating back approximately 3,300 years to the Bronze Age. The discovery was made during construction for the Twentyshilling Wind Farm near Sanquhar in Dumfries and Galloway. Guard Archaeology, led by Thomas Muir, found a barrow containing five tightly packed urns with the cremated remains of at least eight individuals, all buried simultaneously between 1439 and 1287 BC. This contrasts with typical Bronze Age practices where bodies were often exposed before burial. Muir suggests that a catastrophic event, such as famine, likely caused the deaths, as indicated by similar stress evidence in regional sites. The findings provide insights into community dynamics and environmental challenges during this period, highlighting the significance of immediate cremation and burial as a response to sudden tragedy.",
+      "source": "BBC Science",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_53024d37be133768_6d332a370cc5.webp",
       "category": "Science"
     },
     {
-      "id": "9a4a81c857c82281",
-      "title": "Unraveling the Mystery of Hot Exozodiacal Dust",
-      "summary": "Astronomers have long been puzzled by Kappa Tucanae A, a star located approximately 70 light-years from Earth, which is surrounded by hot exozodiacal dust heated to over 1,000 degrees Fahrenheit. This dust should not survive under such extreme conditions, as intense stellar radiation typically evaporates or disperses it quickly. Researchers at the University of Arizona, led by Thomas Stuber, used advanced interferometry with the MATISSE instrument to achieve high-contrast detections. They discovered a companion star on an elongated orbit that periodically passes close to the main star, potentially explaining the dust's persistence by replenishing or stabilizing it. This finding is significant because hot exozodiacal dust poses a major challenge for detecting Earth-like planets, as it causes coronagraphic leakage that obscures planetary signals. The study, published in The Astronomical Journal, provides a natural laboratory for understanding dust dynamics and will aid future missions like NASA's Habitable Worlds Observatory in improving planet-hunting techniques.",
+      "id": "04456595f79ccf85",
+      "title": "AI in Pathology: Detecting Cancer and Demographic Bias",
+      "summary": "Pathology is a medical field where experts examine tissue samples under microscopes to diagnose cancer, determining its type and stage. Traditionally, this process is objective, with pathologists focusing solely on disease indicators without knowing patient identities. However, the integration of artificial intelligence (AI) into pathology labs has revealed unexpected challenges. A study led by Harvard Medical School researchers shows that AI models, designed to identify cancer from tissue slides, can infer demographic details such as race, gender, and age from the images. This ability introduces bias, as the AI's diagnostic accuracy varies across different patient groups. For instance, the models performed less accurately in distinguishing lung cancer subtypes for African American and male patients, and in classifying breast cancer subtypes for younger patients. These disparities occurred in about 29% of diagnostic tasks analyzed. The bias arises because AI extracts demographic patterns from tissue and uses them in decision-making, contrary to the assumption that pathology is purely objective. To address this, the researchers developed FAIR-Path, a framework that significantly reduced bias in tested models. This work highlights the importance of fairness in medical AI, as biased systems can impact diagnostic outcomes and patient care. The study, supported by federal funding, was published in Cell Reports Medicine, emphasizing the need for ongoing evaluation and improvement of AI tools in healthcare.",
       "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_9a4a81c857c82281_338f9c971291.webp",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_04456595f79ccf85_2cf66ed833a0.webp",
       "category": "Science"
     },
     {
-      "id": "4f71be875a80cb67",
-      "title": "NASA Completes Roman Space Telescope After Challenges and Delays",
-      "summary": "NASA has completed assembly of the Nancy Grace Roman Space Telescope, a new observatory named after NASA's first chief astronomer. Technicians in Maryland finished connecting its inner and outer portions, marking a milestone with launch planned for fall 2026. The telescope underwent rigorous testing, including thermal vacuum chambers, to ensure it can withstand rocket launch conditions. Compared to the James Webb Space Telescope, which faced over 10 years of delays and cost $11 billion, Roman is less complex with a smaller mirror but offers a wider field of view. It will conduct a cosmic census of billions of stars and galaxies, aiding research into dark matter and dark energy, which constitute about 95% of the universe. Roman features advanced detectors in its Wide Field Instrument, forming a 300-megapixel camera sensitive to visible and near-infrared light, similar to night vision goggles. This technology allows it to capture images with resolution comparable to Hubble but over a much larger area, such as expanding Hubble's Ultra Deep Field by 100 times. Additionally, Roman includes a coronagraph to photograph faint planets around stars. The project faced ordinary challenges, according to officials, and represents a significant step in space exploration.",
+      "id": "acd9c0b44a6990ad",
+      "title": "How a Helper Protein Regulates Appetite and Energy Balance",
+      "summary": "Recent research reveals that MRAP2, a helper protein, is crucial for the function of MC3R, an appetite-regulating protein that controls energy storage and use in the body. Scientists from the University of Birmingham conducted a study using cell models to observe how MRAP2 interacts with MC3R. They found that when MRAP2 is present in equal amounts, it strengthens cellular signaling, enhancing MC3R's ability to balance energy intake and expenditure. The study also investigated genetic mutations in MRAP2 linked to obesity, showing that these mutations impair its support for MC3R, leading to disrupted appetite regulation. This discovery provides insights into how genetic factors contribute to obesity by interfering with hormonal systems. Lead author Dr. Caroline Gorvin emphasized that understanding MRAP2's role offers new clues for obesity risk and potential treatments. The research, part of a collaborative effort in metabolism and cell signaling, aims to develop future drugs that could target MRAP2 to improve feelings of fullness and energy balance, offering new options for weight management.",
+      "source": "Science Daily",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_acd9c0b44a6990ad_ba0d7e112af3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "e5b4b60bb3b639ef",
+      "title": "Breakthrough in Quantum Communication: Uplink Signals from Earth to Satellites",
+      "summary": "Researchers have demonstrated that quantum signals can be transmitted from Earth to satellites, reversing the traditional downlink approach where signals are sent from space to ground. This uplink method was previously considered impractical due to challenges like atmospheric interference, light scattering, and signal loss. However, a team led by Professor Simon Devitt and Professor Alexander Solntsev from the University of Technology Sydney used detailed modeling to show feasibility, accounting for real-world factors such as background light and optical misalignment. The study, published in Physical Review Research, highlights advantages like greater power availability and simpler maintenance on Earth, which could enable stronger signals. This breakthrough could support the development of scalable quantum networks, linking quantum computers via satellites as relays. Recent milestones, such as China's Micius and Jinan-1 satellites, have advanced downlink quantum communication, but the uplink strategy offers a practical path for high-bandwidth applications beyond cryptography. The researchers propose testing with drones or balloons as a step toward large-scale implementation using low Earth orbit satellites.",
+      "source": "Science Daily",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_e5b4b60bb3b639ef_1a4c91b79337.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c1e7ec7e79196fa9",
+      "title": "Trump Administration Targets Climate Research Center for Breakup",
+      "summary": "The Trump administration, through Office of Management and Budget head Russell Vought, has announced plans to break up the National Center for Atmospheric Research (NCAR), a key institution for climate and weather research. Vought criticized NCAR as a major source of 'climate alarmism' and targeted its diversity initiatives, termed 'woke' activities, which aim to include underrepresented groups in science. NCAR, based in Boulder, Colorado, with a supercomputing center in Wyoming, is funded by the National Science Foundation and managed by the University Corporation for Atmospheric Research. The administration intends to move certain research activities to other institutions, focusing on what it calls 'green new scam research,' while preserving other functions. However, the legal authority for such changes is unclear, as NCAR's management agreement may not allow direct government orders. The NSF has indicated compliance, planning to divest resources like supercomputers and research aircraft, excluding climate change from critical functions. Scientists, including Katharine Hayhoe and Gavin Schmidt, express dismay, warning that dismantling NCAR would severely impact climate science and research infrastructure. Past court rulings have blocked similar 'arbitrary and capricious' actions, but the administration persists, potentially disrupting research during legal battles. The article highlights the ideological conflict between the administration's skepticism of climate science and the scientific community's reliance on evidence-based research.",
       "source": "Ars Science",
-      "time_ago": "15 hours ago",
-      "image_url": "/article_images/article_4f71be875a80cb67_45eaf5edaf5e.webp",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_c1e7ec7e79196fa9_4babcf6873a7.webp",
       "category": "Science"
     },
     {
-      "id": "a593007c9c0500a7",
-      "title": "Balancing Housing Needs and Nature Protection in England",
-      "summary": "The UK government has announced changes to Biodiversity Net Gain (BNG) rules in England, exempting housing developments under 2,000 square meters from requirements to improve wildlife habitats. This move aims to boost housing construction as part of a broader plan to build 1.5 million new homes during the current Parliament. The revisions, introduced by Housing Minister Matthew Pennycook, are intended to streamline planning processes and address the housing crisis, which he described as an emergency in some areas. However, nature charities and conservation groups have expressed strong criticism, warning that weakening BNG could undermine nature recovery efforts. Richard Benwell of Wildlife and Countryside Link called it 'damage limitation' rather than positive leadership. On the other hand, critics like Rico Wojtulewicz from the National Federation of Builders argue that BNG has made building more costly and complex, particularly for smaller developers. Additional reforms include a 'default yes' for planning applications near railway stations, even on green belt land, and mandates for nature-friendly features like swift bricks in new builds. The government estimates the exemption will apply to about 12,500 homes annually, with previous proposals considering larger site exemptions up to 10,000 square meters.",
-      "source": "BBC Science",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_a593007c9c0500a7_3407efc01fbb.webp",
-      "category": "Science"
-    },
-    {
-      "id": "585136de9fa600ad",
-      "title": "Ancient Dinosaur Footprints Reveal Herd Behavior in Italy",
-      "summary": "A remarkable discovery of thousands of dinosaur footprints, dating back 210 million years to the Triassic period, has been made in the Stelvio national park in northern Italy. The footprints, some measuring up to 40cm in diameter, belong to prosauropods—herbivorous dinosaurs with long necks and sharp claws. They were found aligned in parallel rows on a vertical mountain wall, indicating that these dinosaurs moved in herds. The site, originally a tidal flat during the Triassic, now forms part of the Alpine chain. Paleontologist Cristiano Dal Sasso described it as an 'immense scientific treasure,' noting evidence of complex behaviors such as animals gathering in circles, possibly for defense. Photographer Elio Della Ferrera, who spotted the footprints, hopes this find encourages reflection on our limited knowledge of Earth's history. Due to the remote location, drones and remote sensing will be used for further study, with the Italian culture ministry linking the discovery to the upcoming Winter Olympics as a symbolic connection between nature and sport.",
-      "source": "BBC Science",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_585136de9fa600ad_f768d2d36f2a.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d9b386e5e6ee212d",
-      "title": "Uncovering Roman Glassmakers' Marks Through a Simple Turn",
-      "summary": "Hallie Meredith, an art history professor and glassblower at Washington State University, made a significant discovery about ancient Roman glass cage cups while studying them at the Metropolitan Museum of Art. In 2023, she turned one of these cups around and noticed abstract shapes and inscriptions on the back that had been overlooked. Previously considered mere decorations, Meredith interprets these as makers' marks used by workshops to identify their production. Her research, published in academic journals, reveals that these symbols appear on multiple vessels from the 4th to 6th centuries CE, indicating a shared system among glassworkers. She found evidence that teams of artisans, including engravers and polishers, collaborated in workshops to create these complex objects, challenging earlier theories focused solely on techniques. Meredith's hands-on experience as a glassblower informs her work, helping her understand the physical demands of glassmaking. She teaches courses where students recreate artifacts to foster empathy for ancient craftworkers. Her forthcoming book expands on these ideas, aiming to restore visibility to the social history of Roman glass production.",
+      "id": "7234ff298e97b8ea",
+      "title": "Breakthrough in Quantum Spin Liquids: Solving a Decades-Old Mystery",
+      "summary": "A global research team led by Rice University physicist Pengcheng Dai has verified the presence of emergent photons and fractionalized spin excitations in cerium zirconium oxide (Ce2Zr2O7), identifying it as a clean three-dimensional quantum spin ice. Reported in Nature Physics, this discovery resolves a long-standing debate in condensed matter physics. Quantum spin liquids are exotic materials where magnetic moments remain quantum-entangled and in constant motion at near-absolute zero temperatures, avoiding conventional magnetic order. They hold potential for transformative technologies such as quantum computing and dissipationless energy transmission. The team used advanced polarized neutron scattering to isolate magnetic signals and filter out noise, enabling precise measurements as temperatures approached zero. Additional evidence from specific heat measurements supported the dispersion of emergent photons, resembling sound waves in solids. This work overcomes earlier challenges from technical noise and incomplete data through improved sample preparation and international collaboration. The findings confirm decades of theoretical expectations and provide a robust platform for studying next-generation quantum phenomena, encouraging deeper exploration into unique materials for technological advancements.",
       "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_d9b386e5e6ee212d_95070496e0e5.webp",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_7234ff298e97b8ea_0fdd46881939.webp",
       "category": "Science"
     }
   ]

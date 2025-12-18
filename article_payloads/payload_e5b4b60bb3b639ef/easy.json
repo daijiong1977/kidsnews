@@ -1,0 +1,108 @@
+{
+  "title": "Scientists Make a Surprising Discovery About Sending Quantum Signals to Space",
+  "summary": "Scientists have found a new way to send special signals called quantum signals from Earth up to satellites in space. Before, people thought this was too hard because the signals could get lost or mixed up when traveling through the air. Quantum signals use tiny particles of light to make very secure connections, like secret codes for messages. Usually, satellites send these signals down to Earth, but now researchers say we can do it the other way around. This is exciting because equipment on Earth is easier to power and fix, and it can make stronger signals. This could help build a future network that connects quantum computers through satellites, making communication faster and safer. The scientists used computer models to show it might work, and they plan to test it with drones or balloons soon.",
+  "keywords": [
+    {
+      "term": "quantum signals",
+      "explanation": "special signals using tiny light particles for secure communication"
+    },
+    {
+      "term": "satellites",
+      "explanation": "machines that orbit Earth in space"
+    },
+    {
+      "term": "Earth",
+      "explanation": "our planet where we live"
+    },
+    {
+      "term": "secure connections",
+      "explanation": "safe links that keep information private"
+    },
+    {
+      "term": "computer models",
+      "explanation": "simulations on computers to test ideas"
+    },
+    {
+      "term": "drones",
+      "explanation": "flying robots used for testing"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did scientists discover about sending quantum signals?",
+      "options": [
+        "They can send them from Earth to satellites",
+        "They can only send them from satellites to Earth",
+        "They are too weak to work",
+        "They are not useful"
+      ],
+      "correct_answer": "They can send them from Earth to satellites"
+    },
+    {
+      "question": "Why was sending signals from Earth to space thought to be hard?",
+      "options": [
+        "Signals could get lost in the air",
+        "Satellites are too far away",
+        "Earth has no power",
+        "Signals are too fast"
+      ],
+      "correct_answer": "Signals could get lost in the air"
+    },
+    {
+      "question": "What is one advantage of using equipment on Earth?",
+      "options": [
+        "It can use more power",
+        "It is smaller",
+        "It is in space",
+        "It is cheaper to build"
+      ],
+      "correct_answer": "It can use more power"
+    },
+    {
+      "question": "What could this discovery help build in the future?",
+      "options": [
+        "A network for quantum computers",
+        "A new type of car",
+        "A bigger satellite",
+        "A faster airplane"
+      ],
+      "correct_answer": "A network for quantum computers"
+    },
+    {
+      "question": "How did scientists test if the idea might work?",
+      "options": [
+        "They used computer models",
+        "They sent real signals to space",
+        "They asked astronauts",
+        "They built a satellite"
+      ],
+      "correct_answer": "They used computer models"
+    },
+    {
+      "question": "What might be used to test the idea soon?",
+      "options": [
+        "Drones or balloons",
+        "Rockets only",
+        "Submarines",
+        "Trains"
+      ],
+      "correct_answer": "Drones or balloons"
+    }
+  ],
+  "background_read": [
+    "Quantum communication is a way to send information using light particles in a special state called entanglement, which makes it very hard for others to spy on. It's like having a secret code that only the sender and receiver can understand. Satellites are machines that go around Earth and help with things like TV, weather, and now quantum signals. Scientists are always looking for new ways to make communication faster and safer, and this discovery could be a big step toward connecting computers across the world through space."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists from the University of Technology Sydney",
+    "WHAT: They found that quantum signals can be sent from Earth to satellites, which was thought to be impossible",
+    "WHERE: From ground stations on Earth to satellites in space",
+    "WHY: To make communication more secure and help build a future quantum internet"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific breakthrough",
+      "description": "This discovery challenges old ideas and opens new possibilities for quantum technology."
+    }
+  ],
+  "image_url": "/article_images/article_e5b4b60bb3b639ef_1a4c91b79337.webp"
+}
