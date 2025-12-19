@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "53024d37be133768",
-      "title": "Uncovering a Bronze Age Mass Burial Mystery in Scotland",
-      "summary": "Recent archaeological excavations in southern Scotland have uncovered a mysterious mass burial site dating back approximately 3,300 years to the Bronze Age. The discovery was made during construction for the Twentyshilling Wind Farm near Sanquhar in Dumfries and Galloway. Guard Archaeology, led by Thomas Muir, found a barrow containing five tightly packed urns with the cremated remains of at least eight individuals, all buried simultaneously between 1439 and 1287 BC. This contrasts with typical Bronze Age practices where bodies were often exposed before burial. Muir suggests that a catastrophic event, such as famine, likely caused the deaths, as indicated by similar stress evidence in regional sites. The findings provide insights into community dynamics and environmental challenges during this period, highlighting the significance of immediate cremation and burial as a response to sudden tragedy.",
-      "source": "BBC Science",
+      "id": "e138ecafb91db0c2",
+      "title": "Uncovering Invisible Cosmic Explosions: The Science of Touchdown Airbursts",
+      "summary": "Touchdown airbursts are cosmic impacts where objects such as comets explode in Earth's atmosphere without forming craters, yet they can cause significant destruction through intense heat and shockwaves. Professor James Kennett and his research team argue that these events are understudied despite their potential impact. Recent studies provide evidence for multiple airbursts in the past, identified through markers like rare elements, meltglass, spherical particles, and shocked quartz found in diverse locations including North Atlantic ocean sediments and ancient desert ruins. A key focus is the Younger Dryas Impact Hypothesis, which suggests that around 12,800 years ago, comet fragments triggered airbursts leading to global cooling, widespread fires, and a distinctive black mat layer rich in materials like platinum and iridium. This hypothesis is supported by marine sediment findings in Baffin Bay, marking the first marine evidence for such an event. Unlike crater-forming impacts like Chicxulub, airbursts leave minimal surface evidence, making detection challenging. However, researchers are investigating a potential crater in Louisiana linked to the Younger Dryas, highlighting ongoing efforts to confirm these invisible explosions and their historical effects on climate and ecosystems.",
+      "source": "Science Daily",
       "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_53024d37be133768_6d332a370cc5.webp",
+      "image_url": "/article_images/article_e138ecafb91db0c2_114f81a83cd0.webp",
       "category": "Science"
     },
     {
-      "id": "04456595f79ccf85",
-      "title": "AI in Pathology: Detecting Cancer and Demographic Bias",
-      "summary": "Pathology is a medical field where experts examine tissue samples under microscopes to diagnose cancer, determining its type and stage. Traditionally, this process is objective, with pathologists focusing solely on disease indicators without knowing patient identities. However, the integration of artificial intelligence (AI) into pathology labs has revealed unexpected challenges. A study led by Harvard Medical School researchers shows that AI models, designed to identify cancer from tissue slides, can infer demographic details such as race, gender, and age from the images. This ability introduces bias, as the AI's diagnostic accuracy varies across different patient groups. For instance, the models performed less accurately in distinguishing lung cancer subtypes for African American and male patients, and in classifying breast cancer subtypes for younger patients. These disparities occurred in about 29% of diagnostic tasks analyzed. The bias arises because AI extracts demographic patterns from tissue and uses them in decision-making, contrary to the assumption that pathology is purely objective. To address this, the researchers developed FAIR-Path, a framework that significantly reduced bias in tested models. This work highlights the importance of fairness in medical AI, as biased systems can impact diagnostic outcomes and patient care. The study, supported by federal funding, was published in Cell Reports Medicine, emphasizing the need for ongoing evaluation and improvement of AI tools in healthcare.",
+      "id": "e4433df6cbc03fbe",
+      "title": "Using Gravitational Waves to Detect Dark Matter Around Black Holes",
+      "summary": "Researchers at the University of Amsterdam have developed a new method to detect dark matter by analyzing gravitational waves from black hole systems. Their study focuses on extreme mass-ratio inspirals (EMRIs), where a small black hole orbits a much larger one, emitting gravitational waves over long periods. By creating a fully relativistic model based on Einstein's theory of general relativity, they can more accurately predict how dark matter around black holes affects these waves. This model improves upon previous simplified approximations by including important physical effects. The research aims to identify dark matter 'spikes'—dense regions of dark matter that form near massive black holes—which would leave distinct signatures in gravitational wave signals. Future space missions like the European Space Agency's LISA, launching in 2035, are expected to observe these signals for months or years, providing detailed data. This work is a step toward mapping dark matter distribution and understanding its nature, as dark matter constitutes most of the universe's matter but remains invisible and poorly understood.",
       "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_04456595f79ccf85_2cf66ed833a0.webp",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_e4433df6cbc03fbe_c92d68c2c19c.webp",
       "category": "Science"
     },
     {
-      "id": "acd9c0b44a6990ad",
-      "title": "How a Helper Protein Regulates Appetite and Energy Balance",
-      "summary": "Recent research reveals that MRAP2, a helper protein, is crucial for the function of MC3R, an appetite-regulating protein that controls energy storage and use in the body. Scientists from the University of Birmingham conducted a study using cell models to observe how MRAP2 interacts with MC3R. They found that when MRAP2 is present in equal amounts, it strengthens cellular signaling, enhancing MC3R's ability to balance energy intake and expenditure. The study also investigated genetic mutations in MRAP2 linked to obesity, showing that these mutations impair its support for MC3R, leading to disrupted appetite regulation. This discovery provides insights into how genetic factors contribute to obesity by interfering with hormonal systems. Lead author Dr. Caroline Gorvin emphasized that understanding MRAP2's role offers new clues for obesity risk and potential treatments. The research, part of a collaborative effort in metabolism and cell signaling, aims to develop future drugs that could target MRAP2 to improve feelings of fullness and energy balance, offering new options for weight management.",
-      "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_acd9c0b44a6990ad_ba0d7e112af3.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e5b4b60bb3b639ef",
-      "title": "Breakthrough in Quantum Communication: Uplink Signals from Earth to Satellites",
-      "summary": "Researchers have demonstrated that quantum signals can be transmitted from Earth to satellites, reversing the traditional downlink approach where signals are sent from space to ground. This uplink method was previously considered impractical due to challenges like atmospheric interference, light scattering, and signal loss. However, a team led by Professor Simon Devitt and Professor Alexander Solntsev from the University of Technology Sydney used detailed modeling to show feasibility, accounting for real-world factors such as background light and optical misalignment. The study, published in Physical Review Research, highlights advantages like greater power availability and simpler maintenance on Earth, which could enable stronger signals. This breakthrough could support the development of scalable quantum networks, linking quantum computers via satellites as relays. Recent milestones, such as China's Micius and Jinan-1 satellites, have advanced downlink quantum communication, but the uplink strategy offers a practical path for high-bandwidth applications beyond cryptography. The researchers propose testing with drones or balloons as a step toward large-scale implementation using low Earth orbit satellites.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_e5b4b60bb3b639ef_1a4c91b79337.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c1e7ec7e79196fa9",
-      "title": "Trump Administration Targets Climate Research Center for Breakup",
-      "summary": "The Trump administration, through Office of Management and Budget head Russell Vought, has announced plans to break up the National Center for Atmospheric Research (NCAR), a key institution for climate and weather research. Vought criticized NCAR as a major source of 'climate alarmism' and targeted its diversity initiatives, termed 'woke' activities, which aim to include underrepresented groups in science. NCAR, based in Boulder, Colorado, with a supercomputing center in Wyoming, is funded by the National Science Foundation and managed by the University Corporation for Atmospheric Research. The administration intends to move certain research activities to other institutions, focusing on what it calls 'green new scam research,' while preserving other functions. However, the legal authority for such changes is unclear, as NCAR's management agreement may not allow direct government orders. The NSF has indicated compliance, planning to divest resources like supercomputers and research aircraft, excluding climate change from critical functions. Scientists, including Katharine Hayhoe and Gavin Schmidt, express dismay, warning that dismantling NCAR would severely impact climate science and research infrastructure. Past court rulings have blocked similar 'arbitrary and capricious' actions, but the administration persists, potentially disrupting research during legal battles. The article highlights the ideological conflict between the administration's skepticism of climate science and the scientific community's reliance on evidence-based research.",
+      "id": "4d3251a072789ff4",
+      "title": "DiskSats: A Revolutionary Satellite Design for Space Exploration",
+      "summary": "NASA and the U.S. Space Force have launched a mission to test DiskSats, a new type of satellite designed by the Aerospace Corporation. These satellites are flat, disc-shaped, and about the size of a large pizza, made from composite carbon fiber. They were launched on a Rocket Lab Electron rocket from NASA's Wallops Flight Facility in Virginia and are now in orbit at 340 miles altitude. DiskSats aim to improve upon CubeSats, which are cube-shaped satellites commonly used for small missions. Key advantages include a higher power-to-weight ratio, more surface area for solar panels and payloads, and a stackable design that makes them easier to launch. The mission is a proof of concept to evaluate their performance for future rideshare launches, potentially enhancing space exploration and military applications. The Aerospace Corporation, with a history of supporting NASA and the military, developed DiskSats after identifying gaps in current satellite technology, inspired by alternatives to CubeSats.",
       "source": "Ars Science",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_c1e7ec7e79196fa9_4babcf6873a7.webp",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_4d3251a072789ff4_8168b7d3eece.webp",
       "category": "Science"
     },
     {
-      "id": "7234ff298e97b8ea",
-      "title": "Breakthrough in Quantum Spin Liquids: Solving a Decades-Old Mystery",
-      "summary": "A global research team led by Rice University physicist Pengcheng Dai has verified the presence of emergent photons and fractionalized spin excitations in cerium zirconium oxide (Ce2Zr2O7), identifying it as a clean three-dimensional quantum spin ice. Reported in Nature Physics, this discovery resolves a long-standing debate in condensed matter physics. Quantum spin liquids are exotic materials where magnetic moments remain quantum-entangled and in constant motion at near-absolute zero temperatures, avoiding conventional magnetic order. They hold potential for transformative technologies such as quantum computing and dissipationless energy transmission. The team used advanced polarized neutron scattering to isolate magnetic signals and filter out noise, enabling precise measurements as temperatures approached zero. Additional evidence from specific heat measurements supported the dispersion of emergent photons, resembling sound waves in solids. This work overcomes earlier challenges from technical noise and incomplete data through improved sample preparation and international collaboration. The findings confirm decades of theoretical expectations and provide a robust platform for studying next-generation quantum phenomena, encouraging deeper exploration into unique materials for technological advancements.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_7234ff298e97b8ea_0fdd46881939.webp",
+      "id": "f2d666e6907d2dd3",
+      "title": "Parasitic Infections Among Roman Soldiers at Hadrian's Wall",
+      "summary": "A recent study published in Parasitology reveals that Roman soldiers stationed at Hadrian's Wall during the third century CE suffered from parasitic infections, including roundworm, whipworm, and Giardia duodenalis. Researchers analyzed sediment samples from sewer drains at the Vindolanda fort, located south of Hadrian's Wall, which were collected in 2019. They found that 28% of the samples contained eggs from roundworms or whipworms, intestinal parasites spread through poor sanitation via contaminated food, water, or hands. Additionally, using biomolecular methods, they detected Giardia duodenalis, a microscopic protozoan that causes diarrhea and malnutrition. This indicates that soldiers regularly experienced gastrointestinal issues despite having communal latrines and a sewer system. The study highlights the challenges of ancient sanitation and medical knowledge, as Roman doctors had limited ability to treat such infections. By comparing with prior research on fecal parasites from other sites like Jerusalem and Sicily, this paper contributes to understanding health conditions in Roman military outposts and the broader impact of parasitic diseases on historical populations.",
+      "source": "Ars Science",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_f2d666e6907d2dd3_147d129d2cf1.webp",
+      "category": "Science"
+    },
+    {
+      "id": "0514f7348516ead6",
+      "title": "Perseverance Rover's Extended Mission and Mars Sample Return Challenges",
+      "summary": "NASA's Perseverance rover, which landed on Mars in 2021, is exceeding expectations with excellent health and has driven 40 kilometers, double its original certification. Engineers at JPL are certifying it to drive up to 100 kilometers to explore the rim of Jezero Crater and potentially return to a rendezvous site for a sample retrieval mission. The rover uses a plutonium power source, ensuring long-term operation until at least 2031, with its wheels and robotic arm as potential limiting factors. Perseverance has collected 33 titanium sample tubes, depositing some on Mars and retaining others. However, the Mars Sample Return (MSR) mission, originally planned for the late 2020s, is delayed due to cost overruns up to $11 billion and may not launch until the 2030s, leaving the rover to wait longer. Despite this uncertainty, NASA remains optimistic about Perseverance's ability to support future missions, as highlighted by deputy project manager Steve Lee, who emphasized the rover's operational systems and redundancy. The article discusses the challenges of MSR and the rover's role in ongoing exploration.",
+      "source": "Ars Science",
+      "time_ago": "18 hours ago",
+      "image_url": "/article_images/article_0514f7348516ead6_ef0851b858f1.webp",
+      "category": "Science"
+    },
+    {
+      "id": "5c45074085aebf6b",
+      "title": "The Science Behind How Swearing Boosts Strength and Reduces Pain",
+      "summary": "Recent scientific studies indicate that swearing can have measurable benefits, including reducing pain and enhancing physical performance. Researchers, led by psychologist Richard Stephens, conducted experiments where participants immersed their hands in ice water or performed chair push-ups while either swearing or using neutral words. Results showed that swearing led to less reported pain, longer endurance in ice water, and increased strength in exercises. This effect, known as the hypoalgesic effect, may stem from disinhibition, where swearing helps individuals overcome social constraints and focus better. Studies suggest it works best for those who swear infrequently, possibly due to higher emotional impact. The findings propose swearing as a low-cost tool for improving performance in challenging situations, though mechanisms like distraction or catharsis are still debated.",
+      "source": "Ars Science",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_5c45074085aebf6b_a2a42028269d.webp",
       "category": "Science"
     }
   ]
