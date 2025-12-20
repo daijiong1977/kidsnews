@@ -1,0 +1,112 @@
+{
+  "title": "A Coal Plant Stays Open: A Story About Energy and Decisions",
+  "summary": "In Washington state, a coal power plant was supposed to close and switch to natural gas to reduce pollution, as planned for 15 years. But the Trump administration's Energy Secretary, Chris Wright, said there is an electricity emergency and ordered the plant to keep burning coal for 90 more days. State leaders like Governor Bob Ferguson disagree, saying there is no real emergency and the plant is almost shut down. Meanwhile, Washington is dealing with a real emergency from heavy rain and floods. The article also talks about how the region uses a lot of electricity for things like data centers and electric cars, which might cause future power shortages. People are arguing about whether keeping the coal plant open is the right choice.",
+  "keywords": [
+    {
+      "term": "coal plant",
+      "explanation": "a place that burns coal to make electricity"
+    },
+    {
+      "term": "emergency",
+      "explanation": "a sudden serious situation that needs quick action"
+    },
+    {
+      "term": "pollution",
+      "explanation": "dirty stuff in the air or water that can harm the environment"
+    },
+    {
+      "term": "natural gas",
+      "explanation": "a cleaner fuel than coal used to make electricity"
+    },
+    {
+      "term": "state leaders",
+      "explanation": "people like the governor who help run the state"
+    },
+    {
+      "term": "electricity",
+      "explanation": "power that makes lights and machines work"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the coal plant in Washington state supposed to do at the end of the year?",
+      "options": [
+        "Close and switch to natural gas",
+        "Stay open and burn more coal",
+        "Move to a different state",
+        "Become a data center"
+      ],
+      "correct_answer": "Close and switch to natural gas"
+    },
+    {
+      "question": "Who ordered the coal plant to stay open?",
+      "options": [
+        "Energy Secretary Chris Wright",
+        "Governor Bob Ferguson",
+        "A local community group",
+        "The plant workers"
+      ],
+      "correct_answer": "Energy Secretary Chris Wright"
+    },
+    {
+      "question": "How long did the order say the plant must keep burning coal?",
+      "options": [
+        "90 more days",
+        "1 year",
+        "5 years",
+        "Forever"
+      ],
+      "correct_answer": "90 more days"
+    },
+    {
+      "question": "What do state leaders say about the electricity emergency?",
+      "options": [
+        "There is no real emergency",
+        "There is a big emergency",
+        "They agree with the order",
+        "They don't know"
+      ],
+      "correct_answer": "There is no real emergency"
+    },
+    {
+      "question": "What real emergency is happening in Washington state?",
+      "options": [
+        "Heavy rain and floods",
+        "A coal shortage",
+        "Too much electricity",
+        "A data center problem"
+      ],
+      "correct_answer": "Heavy rain and floods"
+    },
+    {
+      "question": "Why might the region have future power shortages?",
+      "options": [
+        "Because of data centers and electric cars",
+        "Because coal plants are closing",
+        "Because of too much rain",
+        "Because people use less electricity"
+      ],
+      "correct_answer": "Because of data centers and electric cars"
+    }
+  ],
+  "background_read": [
+    "This article is about a decision to keep a coal power plant open in Washington state. Coal plants burn coal to make electricity, but they can cause air pollution. Many places are switching to cleaner energy like natural gas or renewable sources to help the environment. The Trump administration wanted to support coal, while state leaders in Washington had laws to reduce coal use. The region also faces challenges with growing electricity demand from technology and weather changes. Understanding this helps see why people disagree about energy choices."
+  ],
+  "Article_Structure": [
+    "WHO: Energy Secretary Chris Wright and state leaders like Governor Bob Ferguson",
+    "WHAT: An order to keep a coal plant open vs. plans to close it",
+    "WHERE: Washington state in the Pacific Northwest",
+    "WHY: Arguments about an electricity emergency and future power needs"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Trump administration view",
+      "description": "Believes there is an electricity emergency and keeping coal plants open is needed to ensure power supply."
+    },
+    {
+      "perspective": "State leaders view",
+      "description": "Argues there is no real emergency, the plant should close as planned to reduce pollution and follow state law."
+    }
+  ],
+  "image_url": "/article_images/article_ae96f504464a3b08_bb2088693ba3.webp"
+}

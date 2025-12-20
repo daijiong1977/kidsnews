@@ -1,0 +1,133 @@
+{
+  "title": "Unlocking the Secrets of Non-Coding DNA: How Enhancers in Astrocytes Connect to Alzheimer's Disease",
+  "summary": "DNA consists of genes that code for proteins, but they make up only about 2% of the human genome. The remaining 98%, often termed 'junk DNA' or the non-coding genome, includes regulatory elements like enhancers that control gene expression without coding for proteins themselves. Researchers from UNSW Sydney focused on astrocytes, supportive brain cells implicated in Alzheimer's disease, to investigate these enhancers. Using advanced techniques such as CRISPRi and single-cell RNA sequencing, they tested nearly 1000 potential enhancers in lab-grown human astrocytes. CRISPRi allowed them to deactivate specific DNA segments without cutting, while single-cell RNA sequencing measured gene activity at the cellular level. The study identified approximately 150 functional enhancers that influence gene expression, with a significant portion regulating genes associated with Alzheimer's. This discovery narrows the search for genetic factors in the non-coding genome related to the disease. The findings also provide a valuable reference for interpreting genetic studies on other conditions like hypertension and diabetes, where changes often occur in non-coding regions. Overall, this research highlights the importance of non-coding DNA in disease mechanisms and suggests that similar studies in other cell types could further elucidate the functional landscape of the genome.",
+  "keywords": [
+    {
+      "term": "non-coding genome",
+      "explanation": "the part of DNA that does not contain genes but includes regulatory elements like enhancers"
+    },
+    {
+      "term": "enhancers",
+      "explanation": "DNA sequences that regulate gene expression by turning genes on or off, often located far from the genes they control"
+    },
+    {
+      "term": "astrocytes",
+      "explanation": "glial cells in the brain that support neurons and are involved in neurodegenerative diseases like Alzheimer's"
+    },
+    {
+      "term": "CRISPRi",
+      "explanation": "a genetic tool used to inhibit gene expression by deactivating DNA segments without cutting them"
+    },
+    {
+      "term": "single-cell RNA sequencing",
+      "explanation": "a technique that measures gene activity in individual cells to understand cellular functions"
+    },
+    {
+      "term": "gene expression",
+      "explanation": "the process by which information from a gene is used to produce functional products like proteins"
+    },
+    {
+      "term": "Alzheimer's disease",
+      "explanation": "a progressive neurodegenerative disorder characterized by memory loss and cognitive decline"
+    },
+    {
+      "term": "genetic clues",
+      "explanation": "hints or indicators in DNA that help explain the causes or mechanisms of diseases"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What percentage of the human genome is composed of non-coding DNA?",
+      "options": [
+        "2%",
+        "50%",
+        "98%",
+        "75%"
+      ],
+      "correct_answer": "98%"
+    },
+    {
+      "question": "Which brain cell type was the focus of this study on enhancers?",
+      "options": [
+        "Neurons",
+        "Astrocytes",
+        "Microglia",
+        "Oligodendrocytes"
+      ],
+      "correct_answer": "Astrocytes"
+    },
+    {
+      "question": "What two techniques did researchers combine to test enhancers in astrocytes?",
+      "options": [
+        "PCR and gel electrophoresis",
+        "CRISPRi and single-cell RNA sequencing",
+        "Microscopy and staining",
+        "DNA sequencing and cloning"
+      ],
+      "correct_answer": "CRISPRi and single-cell RNA sequencing"
+    },
+    {
+      "question": "Approximately how many functional enhancers were identified from the nearly 1000 tested?",
+      "options": [
+        "About 150",
+        "Nearly 500",
+        "20,000",
+        "None"
+      ],
+      "correct_answer": "About 150"
+    },
+    {
+      "question": "What role do enhancers play in gene regulation?",
+      "options": [
+        "They code for proteins",
+        "They turn genes on or off from a distance",
+        "They repair damaged DNA",
+        "They replicate DNA"
+      ],
+      "correct_answer": "They turn genes on or off from a distance"
+    },
+    {
+      "question": "How does this research help in understanding Alzheimer's disease?",
+      "options": [
+        "By identifying genes that cause Alzheimer's",
+        "By finding enhancers that control Alzheimer's-related genes",
+        "By curing Alzheimer's in lab cells",
+        "By proving junk DNA is useless"
+      ],
+      "correct_answer": "By finding enhancers that control Alzheimer's-related genes"
+    },
+    {
+      "question": "What broader implication do the findings have for genetic research?",
+      "options": [
+        "They show all DNA is functional",
+        "They provide a reference for studying other diseases",
+        "They eliminate the need for gene studies",
+        "They focus only on Alzheimer's"
+      ],
+      "correct_answer": "They provide a reference for studying other diseases"
+    },
+    {
+      "question": "Why is the non-coding genome important for disease studies?",
+      "options": [
+        "It contains most disease-related changes",
+        "It has no role in diseases",
+        "It only affects physical traits",
+        "It is easy to study"
+      ],
+      "correct_answer": "It contains most disease-related changes"
+    }
+  ],
+  "background_read": [
+    "DNA is divided into coding regions (genes) and non-coding regions, with genes making up only about 2% of the human genome. The non-coding portion, once dismissed as 'junk DNA,' includes regulatory elements like enhancers that control when and how genes are expressed. Enhancers can be located far from the genes they regulate, making them challenging to study. In this research, scientists from UNSW Sydney investigated enhancers in astrocytes, brain cells that support neurons and are linked to Alzheimer's disease. They used CRISPRi, a technique to deactivate DNA segments, and single-cell RNA sequencing to measure gene activity, allowing them to test nearly 1000 enhancers at once. The study identified functional enhancers that influence genes associated with Alzheimer's, providing insights into the disease's genetic basis. This work underscores the significance of non-coding DNA in health and disease, suggesting that similar approaches could be applied to other cell types and conditions."
+  ],
+  "Article_Structure": [
+    "Main Points: The study reveals that non-coding DNA, specifically enhancers in astrocytes, regulates genes linked to Alzheimer's disease, with about 150 functional enhancers identified from nearly 1000 tested. Purpose: To elucidate the role of non-coding DNA in disease mechanisms and provide a reference for genetic research on conditions like hypertension and diabetes. Evidence Evaluation: High-quality evidence from controlled lab experiments using CRISPRi and single-cell RNA sequencing on human astrocytes, published in a reputable journal. Author Credibility: Researchers from UNSW Sydney, with lead author Dr. Nicole Green and oversight by Professor Irina Voineagu, experts in biotechnology and genetics. Methodology: Combined CRISPRi to deactivate enhancers with single-cell RNA sequencing to assess gene expression effects in a large-scale test."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Biotechnological Advancement",
+      "description": "This research demonstrates how cutting-edge tools like CRISPRi and single-cell sequencing can uncover functional elements in the non-coding genome, advancing our understanding of complex diseases."
+    }
+  ],
+  "image_url": "/article_images/article_9a71cbda7ffe909b_8d216c8c9214.webp"
+}

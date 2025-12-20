@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "e138ecafb91db0c2",
-      "title": "Uncovering Invisible Cosmic Explosions: The Science of Touchdown Airbursts",
-      "summary": "Touchdown airbursts are cosmic impacts where objects such as comets explode in Earth's atmosphere without forming craters, yet they can cause significant destruction through intense heat and shockwaves. Professor James Kennett and his research team argue that these events are understudied despite their potential impact. Recent studies provide evidence for multiple airbursts in the past, identified through markers like rare elements, meltglass, spherical particles, and shocked quartz found in diverse locations including North Atlantic ocean sediments and ancient desert ruins. A key focus is the Younger Dryas Impact Hypothesis, which suggests that around 12,800 years ago, comet fragments triggered airbursts leading to global cooling, widespread fires, and a distinctive black mat layer rich in materials like platinum and iridium. This hypothesis is supported by marine sediment findings in Baffin Bay, marking the first marine evidence for such an event. Unlike crater-forming impacts like Chicxulub, airbursts leave minimal surface evidence, making detection challenging. However, researchers are investigating a potential crater in Louisiana linked to the Younger Dryas, highlighting ongoing efforts to confirm these invisible explosions and their historical effects on climate and ecosystems.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_e138ecafb91db0c2_114f81a83cd0.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e4433df6cbc03fbe",
-      "title": "Using Gravitational Waves to Detect Dark Matter Around Black Holes",
-      "summary": "Researchers at the University of Amsterdam have developed a new method to detect dark matter by analyzing gravitational waves from black hole systems. Their study focuses on extreme mass-ratio inspirals (EMRIs), where a small black hole orbits a much larger one, emitting gravitational waves over long periods. By creating a fully relativistic model based on Einstein's theory of general relativity, they can more accurately predict how dark matter around black holes affects these waves. This model improves upon previous simplified approximations by including important physical effects. The research aims to identify dark matter 'spikes'—dense regions of dark matter that form near massive black holes—which would leave distinct signatures in gravitational wave signals. Future space missions like the European Space Agency's LISA, launching in 2035, are expected to observe these signals for months or years, providing detailed data. This work is a step toward mapping dark matter distribution and understanding its nature, as dark matter constitutes most of the universe's matter but remains invisible and poorly understood.",
-      "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_e4433df6cbc03fbe_c92d68c2c19c.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4d3251a072789ff4",
-      "title": "DiskSats: A Revolutionary Satellite Design for Space Exploration",
-      "summary": "NASA and the U.S. Space Force have launched a mission to test DiskSats, a new type of satellite designed by the Aerospace Corporation. These satellites are flat, disc-shaped, and about the size of a large pizza, made from composite carbon fiber. They were launched on a Rocket Lab Electron rocket from NASA's Wallops Flight Facility in Virginia and are now in orbit at 340 miles altitude. DiskSats aim to improve upon CubeSats, which are cube-shaped satellites commonly used for small missions. Key advantages include a higher power-to-weight ratio, more surface area for solar panels and payloads, and a stackable design that makes them easier to launch. The mission is a proof of concept to evaluate their performance for future rideshare launches, potentially enhancing space exploration and military applications. The Aerospace Corporation, with a history of supporting NASA and the military, developed DiskSats after identifying gaps in current satellite technology, inspired by alternatives to CubeSats.",
+      "id": "7f1563696d2ffd70",
+      "title": "Ant Evolution: Trading Armor for Colony Size",
+      "summary": "This article explores how ants evolved to prioritize colony size over individual armor, based on a study by international researchers. Using 3D X-ray microtomography scans from a global database called Antscan, scientists analyzed over 880 ant specimens from 500 species to measure their exoskeleton investment. They discovered that ants with larger colonies invest less in their cuticles—the protective exoskeleton—because in a colony of thousands, losing a few workers to predators has minimal impact. This trade-off allows colonies to allocate resources like nitrogen and minerals toward producing more ants rather than reinforcing each individual. Factors such as diet and temperature influenced cuticle size, but colony size was the strongest predictor. Interestingly, this reduction in armor correlated with higher diversification rates, meaning ants with thinner exoskeletons could evolve and adapt to new environments more quickly. The study highlights how social insects like ants balance quality versus quantity, demonstrating that collective success can drive evolutionary changes by favoring numerical advantage over individual defense mechanisms.",
       "source": "Ars Science",
-      "time_ago": "9 hours ago",
-      "image_url": "/article_images/article_4d3251a072789ff4_8168b7d3eece.webp",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_7f1563696d2ffd70_1c40fec48983.webp",
       "category": "Science"
     },
     {
-      "id": "f2d666e6907d2dd3",
-      "title": "Parasitic Infections Among Roman Soldiers at Hadrian's Wall",
-      "summary": "A recent study published in Parasitology reveals that Roman soldiers stationed at Hadrian's Wall during the third century CE suffered from parasitic infections, including roundworm, whipworm, and Giardia duodenalis. Researchers analyzed sediment samples from sewer drains at the Vindolanda fort, located south of Hadrian's Wall, which were collected in 2019. They found that 28% of the samples contained eggs from roundworms or whipworms, intestinal parasites spread through poor sanitation via contaminated food, water, or hands. Additionally, using biomolecular methods, they detected Giardia duodenalis, a microscopic protozoan that causes diarrhea and malnutrition. This indicates that soldiers regularly experienced gastrointestinal issues despite having communal latrines and a sewer system. The study highlights the challenges of ancient sanitation and medical knowledge, as Roman doctors had limited ability to treat such infections. By comparing with prior research on fecal parasites from other sites like Jerusalem and Sicily, this paper contributes to understanding health conditions in Roman military outposts and the broader impact of parasitic diseases on historical populations.",
-      "source": "Ars Science",
-      "time_ago": "12 hours ago",
-      "image_url": "/article_images/article_f2d666e6907d2dd3_147d129d2cf1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0514f7348516ead6",
-      "title": "Perseverance Rover's Extended Mission and Mars Sample Return Challenges",
-      "summary": "NASA's Perseverance rover, which landed on Mars in 2021, is exceeding expectations with excellent health and has driven 40 kilometers, double its original certification. Engineers at JPL are certifying it to drive up to 100 kilometers to explore the rim of Jezero Crater and potentially return to a rendezvous site for a sample retrieval mission. The rover uses a plutonium power source, ensuring long-term operation until at least 2031, with its wheels and robotic arm as potential limiting factors. Perseverance has collected 33 titanium sample tubes, depositing some on Mars and retaining others. However, the Mars Sample Return (MSR) mission, originally planned for the late 2020s, is delayed due to cost overruns up to $11 billion and may not launch until the 2030s, leaving the rover to wait longer. Despite this uncertainty, NASA remains optimistic about Perseverance's ability to support future missions, as highlighted by deputy project manager Steve Lee, who emphasized the rover's operational systems and redundancy. The article discusses the challenges of MSR and the rover's role in ongoing exploration.",
+      "id": "ae96f504464a3b08",
+      "title": "Energy Policy Clash: Trump Administration Orders Washington Coal Plant to Stay Open",
+      "summary": "In Washington state, the Centralia coal-fired power plant was scheduled to shut down by year-end and convert to natural gas, a move mandated by state law to cut carbon emissions by half after 15 years of planning. However, Energy Secretary Chris Wright of the Trump administration declared an energy emergency in the Pacific Northwest, ordering the plant to continue burning coal for at least 90 days to prevent electricity shortages. State officials, including Governor Bob Ferguson, countered that no such emergency exists, noting the plant is nearly shut down, workers have transitioned, and coal supplies are depleted. They accused the administration of ignoring facts and state law, with potential legal challenges ahead. Concurrently, Washington faces a real emergency from record rainfall and flooding, adding irony to the situation. The article highlights broader energy issues: the Pacific Northwest, while currently stable, faces long-term supply challenges due to rising demand from data centers, electric vehicles, and air conditioning, with projections of a 9-gigawatt shortfall by 2030. Hydroelectric power, a major source, is becoming less reliable due to drought and climate change, complicating energy planning. This conflict underscores debates over coal reliance, environmental policy, and energy security in a changing climate.",
       "source": "Ars Science",
       "time_ago": "18 hours ago",
-      "image_url": "/article_images/article_0514f7348516ead6_ef0851b858f1.webp",
+      "image_url": "/article_images/article_ae96f504464a3b08_bb2088693ba3.webp",
       "category": "Science"
     },
     {
-      "id": "5c45074085aebf6b",
-      "title": "The Science Behind How Swearing Boosts Strength and Reduces Pain",
-      "summary": "Recent scientific studies indicate that swearing can have measurable benefits, including reducing pain and enhancing physical performance. Researchers, led by psychologist Richard Stephens, conducted experiments where participants immersed their hands in ice water or performed chair push-ups while either swearing or using neutral words. Results showed that swearing led to less reported pain, longer endurance in ice water, and increased strength in exercises. This effect, known as the hypoalgesic effect, may stem from disinhibition, where swearing helps individuals overcome social constraints and focus better. Studies suggest it works best for those who swear infrequently, possibly due to higher emotional impact. The findings propose swearing as a low-cost tool for improving performance in challenging situations, though mechanisms like distraction or catharsis are still debated.",
+      "id": "9a71cbda7ffe909b",
+      "title": "Unlocking the Secrets of Non-Coding DNA: How Enhancers in Astrocytes Connect to Alzheimer's Disease",
+      "summary": "DNA consists of genes that code for proteins, but they make up only about 2% of the human genome. The remaining 98%, often termed 'junk DNA' or the non-coding genome, includes regulatory elements like enhancers that control gene expression without coding for proteins themselves. Researchers from UNSW Sydney focused on astrocytes, supportive brain cells implicated in Alzheimer's disease, to investigate these enhancers. Using advanced techniques such as CRISPRi and single-cell RNA sequencing, they tested nearly 1000 potential enhancers in lab-grown human astrocytes. CRISPRi allowed them to deactivate specific DNA segments without cutting, while single-cell RNA sequencing measured gene activity at the cellular level. The study identified approximately 150 functional enhancers that influence gene expression, with a significant portion regulating genes associated with Alzheimer's. This discovery narrows the search for genetic factors in the non-coding genome related to the disease. The findings also provide a valuable reference for interpreting genetic studies on other conditions like hypertension and diabetes, where changes often occur in non-coding regions. Overall, this research highlights the importance of non-coding DNA in disease mechanisms and suggests that similar studies in other cell types could further elucidate the functional landscape of the genome.",
+      "source": "Science Daily",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_9a71cbda7ffe909b_8d216c8c9214.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f8917439a456a586",
+      "title": "Historic Dual Organ Transplant Saves 11-Year-Old's Life",
+      "summary": "Children's Hospital Colorado achieved a medical milestone by performing its first-ever dual heart and liver transplant on an 11-year-old patient, Gracie Greenlaw. Gracie was born with hypoplastic left heart syndrome (HLHS), a congenital condition where her heart had only one functioning pumping chamber. She underwent three major surgeries in early childhood—the Norwood, Glenn, and Fontan procedures—to improve blood circulation. However, these interventions and HLHS itself led to long-term complications, including liver damage and eventual liver failure. To manage such cases, the hospital established the Fontan Multidisciplinary Clinic in 2016, providing coordinated care for patients with single ventricle conditions. Gracie's condition worsened over time, with symptoms like plastic bronchitis and signs of liver failure, prompting her medical team to recommend a dual transplant. After being placed on the waitlist in April, compatible donor organs became available less than a month later. The 16-hour surgery involved dozens of specialists: heart surgeons performed the heart transplant first, while the donor liver was preserved on a TransMedics Organ Care System, a device that mimics normal liver function. Then, liver transplant surgeons completed the procedure. This complex operation required careful planning for challenges like blood volume and electrolyte management. Nationally, only 38 pediatric patients have received such dual transplants, highlighting the rarity and significance of this achievement. The success underscores years of preparation, teamwork, and advanced medical technology in pediatric transplant care.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_f8917439a456a586_35fd6902129d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9ed6d483162752d4",
+      "title": "Space Industry Updates: Rocket Launches and Satellite Innovations in 2025",
+      "summary": "This article provides a roundup of recent developments in the global space industry, focusing on rocket launches and satellite missions in 2025. It highlights key achievements, including the successful debut flights of Blue Origin's New Glenn rocket, which landed on an offshore platform, and China's Zhuque-3, a methane-fueled reusable rocket. Rocket Lab launched an Electron rocket from Virginia, carrying DiskSat satellites for a NASA and Space Force demonstration mission to test a new compact, disc-shaped design optimized for rideshare launches. SpaceX raised concerns about a close approach between a Chinese Kinetica-1 rocket satellite and a Starlink satellite, emphasizing the need for better coordination among operators. Additionally, South Korean startup Innospace is preparing to launch its Hanbit-Nano rocket from Brazil, aiming to deploy small payloads into low-Earth orbit. The article underscores advancements in reusable rockets, innovative satellite technology, and ongoing challenges in space traffic management.",
       "source": "Ars Science",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_5c45074085aebf6b_a2a42028269d.webp",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_9ed6d483162752d4_655ba260f147.webp",
+      "category": "Science"
+    },
+    {
+      "id": "19ae3cdb44bd6434",
+      "title": "Neural Adaptation: How Surviving Cells Restore Vision After Brain Injury",
+      "summary": "A recent study published in JNeurosci challenges the long-held belief that neurons cannot regenerate after damage. Researchers at Johns Hopkins University, led by Athanasios Alexandris, investigated recovery in the visual system of mice following traumatic brain injury. They focused on the connections between eye cells and brain neurons, which are crucial for vision. Instead of observing new neuron growth, the team found that surviving cells underwent a process called sprouting, where they grew additional branches to form more connections with brain neurons. This compensatory mechanism allowed the visual system to restore functional pathways, enabling mice to regain vision. Interestingly, the study revealed sex differences: male mice showed robust recovery through sprouting, while female mice experienced slower or incomplete repair, with connections not fully returning to preinjury levels. These findings align with clinical observations in humans, where women often have more persistent symptoms after brain injuries. The research suggests that understanding the biological factors behind these sex differences could lead to targeted therapies to enhance neural recovery after trauma, such as concussions.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_19ae3cdb44bd6434_90728dccaec1.webp",
       "category": "Science"
     }
   ]
