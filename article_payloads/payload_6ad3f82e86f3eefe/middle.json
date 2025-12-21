@@ -1,0 +1,121 @@
+{
+  "title": "Exploring Dark Matter and Dark Energy Through Galaxy Distortions",
+  "summary": "Astrophysicists are investigating the invisible components of the universe, primarily dark matter and dark energy, which constitute about 95% of the cosmos but remain poorly understood. To study these, researchers employ weak gravitational lensing, a phenomenon where light from distant galaxies is slightly distorted as it passes through matter, including dark matter. The Dark Energy Survey (DES), conducted from 2013 to 2019 using the Dark Energy Camera in Chile, measured shapes of over 150 million galaxies across a significant portion of the sky. Recently, scientists from the University of Chicago expanded this dataset by incorporating additional observations, nearly doubling the number of galaxies analyzed. This allowed them to test the Lambda-CDM (LCDM) model, the standard cosmological framework that includes dark energy, dark matter, ordinary matter, neutrinos, and radiation. By measuring galaxy shapes and distances through redshift analysis, the team found that the growth of cosmic structures aligns with LCDM predictions and agrees with early universe data from the cosmic microwave background. This work addresses inconsistencies in previous studies and provides independent verification, enhancing our understanding of how the universe evolves and the roles of dark matter and dark energy.",
+  "keywords": [
+    {
+      "term": "dark matter",
+      "explanation": "an invisible form of matter that exerts gravitational force, influencing galaxy formation and clustering"
+    },
+    {
+      "term": "dark energy",
+      "explanation": "a mysterious force driving the accelerated expansion of the universe, linked to its large-scale structure"
+    },
+    {
+      "term": "weak gravitational lensing",
+      "explanation": "a technique where slight distortions in galaxy shapes reveal the distribution of mass, including dark matter"
+    },
+    {
+      "term": "Lambda-CDM model",
+      "explanation": "the standard cosmological model that describes the universe's composition and evolution, incorporating dark energy and dark matter"
+    },
+    {
+      "term": "cosmic microwave background",
+      "explanation": "radiation leftover from the Big Bang, used as a reference for early universe conditions"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What percentage of the universe is made up of dark matter and dark energy according to the summary?",
+      "options": [
+        "About 95%",
+        "About 50%",
+        "About 10%",
+        "About 1%"
+      ],
+      "correct_answer": "About 95%"
+    },
+    {
+      "question": "What technique do astrophysicists use to study dark matter by analyzing galaxy shapes?",
+      "options": [
+        "Weak gravitational lensing",
+        "Spectroscopy",
+        "Photometry",
+        "Radio astronomy"
+      ],
+      "correct_answer": "Weak gravitational lensing"
+    },
+    {
+      "question": "Which project measured galaxy shapes from 2013 to 2019 using a camera in Chile?",
+      "options": [
+        "Dark Energy Survey",
+        "Hubble Space Telescope",
+        "James Webb Space Telescope",
+        "Kepler Mission"
+      ],
+      "correct_answer": "Dark Energy Survey"
+    },
+    {
+      "question": "What model did the researchers test with their expanded dataset?",
+      "options": [
+        "Lambda-CDM model",
+        "Newtonian physics",
+        "Quantum mechanics",
+        "General relativity"
+      ],
+      "correct_answer": "Lambda-CDM model"
+    },
+    {
+      "question": "How did the researchers estimate galaxy distances in their study?",
+      "options": [
+        "By analyzing redshift",
+        "By measuring brightness",
+        "By counting stars",
+        "By using radar"
+      ],
+      "correct_answer": "By analyzing redshift"
+    },
+    {
+      "question": "What did the DECADE results show about cosmic structure growth?",
+      "options": [
+        "It matches LCDM predictions",
+        "It contradicts all models",
+        "It is unpredictable",
+        "It only occurs in nearby galaxies"
+      ],
+      "correct_answer": "It matches LCDM predictions"
+    },
+    {
+      "question": "What early universe data did the researchers compare their findings to?",
+      "options": [
+        "Cosmic microwave background",
+        "Solar flares",
+        "Black hole emissions",
+        "Asteroid impacts"
+      ],
+      "correct_answer": "Cosmic microwave background"
+    },
+    {
+      "question": "Why is the expanded dataset from DECADE considered valuable?",
+      "options": [
+        "It provides independent verification of earlier inconsistencies",
+        "It discovered new galaxies",
+        "It ended the DES project",
+        "It focused only on visible matter"
+      ],
+      "correct_answer": "It provides independent verification of earlier inconsistencies"
+    }
+  ],
+  "background_read": [
+    "Cosmology studies the universe's origin and evolution, with dark matter and dark energy as key mysteries. Weak gravitational lensing allows scientists to infer mass distribution by observing slight distortions in galaxy shapes. The Lambda-CDM model is a widely accepted framework that incorporates these elements. Projects like the Dark Energy Survey collect vast amounts of data to test this model, using tools like redshift to measure distances. Understanding these concepts helps explain how cosmic structures form and change over time."
+  ],
+  "Article_Structure": [
+    "The article presents main points on mapping dark matter and dark energy via weak lensing, with the purpose of testing cosmological models and resolving inconsistencies. Evidence evaluation shows robust data from DES and DECADE, using statistical methods for weak lensing signals. Author credibility is supported by affiliations with the University of Chicago and roles in major projects. Methodology involves observational data from telescopes, shape measurements, and redshift analysis, providing a comprehensive approach to cosmological research."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Cosmological verification",
+      "description": "Using expanded datasets to independently test and confirm standard models of the universe"
+    }
+  ],
+  "image_url": "/article_images/article_6ad3f82e86f3eefe_de9a9c18d336.webp"
+}

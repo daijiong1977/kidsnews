@@ -1,11 +1,38 @@
 {
   "articles": [
     {
+      "id": "92eb70fcf2cbc404",
+      "title": "Unlocking the Secrets of High-Pressure Superconductors",
+      "summary": "Scientists have made a breakthrough in understanding superconductors, materials that conduct electricity with zero resistance, which is crucial for applications like efficient power grids and quantum computing. Traditionally, superconductivity required extremely low temperatures, limiting practical use. However, recent discoveries of hydrogen-rich superconductors, such as hydrogen sulfide (H3S) and lanthanum decahydride (LaH10), operate at higher temperatures above liquid nitrogen's boiling point, classifying them as high-temperature superconductors. A key feature, the superconducting gap, indicates how electrons pair up to enable superconductivity, but measuring it in hydrogen-rich materials was challenging due to the need for immense pressures exceeding a million times atmospheric pressure. Researchers at the Max Planck Institute developed a new planar electron tunneling spectroscopy method to study these materials under extreme conditions. They successfully measured the superconducting gap in H3S, finding it to be about 60 millielectronvolts, and compared it to deuterium sulfide (D3S), which had a smaller gap. This difference confirmed that electron-phonon interactions drive superconductivity in these compounds, supporting theoretical models and advancing the quest for room-temperature superconductivity.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_92eb70fcf2cbc404_1f7a493dd002.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6ad3f82e86f3eefe",
+      "title": "Exploring Dark Matter and Dark Energy Through Galaxy Distortions",
+      "summary": "Astrophysicists are investigating the invisible components of the universe, primarily dark matter and dark energy, which constitute about 95% of the cosmos but remain poorly understood. To study these, researchers employ weak gravitational lensing, a phenomenon where light from distant galaxies is slightly distorted as it passes through matter, including dark matter. The Dark Energy Survey (DES), conducted from 2013 to 2019 using the Dark Energy Camera in Chile, measured shapes of over 150 million galaxies across a significant portion of the sky. Recently, scientists from the University of Chicago expanded this dataset by incorporating additional observations, nearly doubling the number of galaxies analyzed. This allowed them to test the Lambda-CDM (LCDM) model, the standard cosmological framework that includes dark energy, dark matter, ordinary matter, neutrinos, and radiation. By measuring galaxy shapes and distances through redshift analysis, the team found that the growth of cosmic structures aligns with LCDM predictions and agrees with early universe data from the cosmic microwave background. This work addresses inconsistencies in previous studies and provides independent verification, enhancing our understanding of how the universe evolves and the roles of dark matter and dark energy.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_6ad3f82e86f3eefe_de9a9c18d336.webp",
+      "category": "Science"
+    },
+    {
+      "id": "322aefce08ee1beb",
+      "title": "Military Air Samples Reveal Climate-Driven Shifts in Moss Spore Timing",
+      "summary": "Researchers at Lund University in Sweden have uncovered significant ecological changes by analyzing DNA from decades-old air samples originally collected by the Swedish Armed Forces for monitoring nuclear fallout. These samples, dating back to the 1960s, preserved biological material such as pollen and spores, providing a unique archive for studying long-term environmental shifts. The study focused on 16 moss species and revealed that moss spores are now released approximately four weeks earlier on average compared to 1990, with peak dispersal occurring six weeks sooner. This shift is primarily driven by warmer autumn temperatures, which allow mosses more time to develop spore capsules before winter, rather than immediate spring conditions. Surprisingly, climate conditions from the previous year were found to be more influential than current-year weather. The findings demonstrate rapid ecological responses to climate warming and introduce a novel DNA-based method for tracking changes in airborne biological particles over time. This approach can be applied to other species and locations, offering insights into broader ecological trends and potentially contributing to future IPCC reports on documented climate change effects.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_322aefce08ee1beb_a3329b8d062d.webp",
+      "category": "Science"
+    },
+    {
       "id": "7f1563696d2ffd70",
       "title": "Ant Evolution: Trading Armor for Colony Size",
       "summary": "This article explores how ants evolved to prioritize colony size over individual armor, based on a study by international researchers. Using 3D X-ray microtomography scans from a global database called Antscan, scientists analyzed over 880 ant specimens from 500 species to measure their exoskeleton investment. They discovered that ants with larger colonies invest less in their cuticles—the protective exoskeleton—because in a colony of thousands, losing a few workers to predators has minimal impact. This trade-off allows colonies to allocate resources like nitrogen and minerals toward producing more ants rather than reinforcing each individual. Factors such as diet and temperature influenced cuticle size, but colony size was the strongest predictor. Interestingly, this reduction in armor correlated with higher diversification rates, meaning ants with thinner exoskeletons could evolve and adapt to new environments more quickly. The study highlights how social insects like ants balance quality versus quantity, demonstrating that collective success can drive evolutionary changes by favoring numerical advantage over individual defense mechanisms.",
       "source": "Ars Science",
-      "time_ago": "14 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_7f1563696d2ffd70_1c40fec48983.webp",
       "category": "Science"
     },
@@ -14,7 +41,7 @@
       "title": "Energy Policy Clash: Trump Administration Orders Washington Coal Plant to Stay Open",
       "summary": "In Washington state, the Centralia coal-fired power plant was scheduled to shut down by year-end and convert to natural gas, a move mandated by state law to cut carbon emissions by half after 15 years of planning. However, Energy Secretary Chris Wright of the Trump administration declared an energy emergency in the Pacific Northwest, ordering the plant to continue burning coal for at least 90 days to prevent electricity shortages. State officials, including Governor Bob Ferguson, countered that no such emergency exists, noting the plant is nearly shut down, workers have transitioned, and coal supplies are depleted. They accused the administration of ignoring facts and state law, with potential legal challenges ahead. Concurrently, Washington faces a real emergency from record rainfall and flooding, adding irony to the situation. The article highlights broader energy issues: the Pacific Northwest, while currently stable, faces long-term supply challenges due to rising demand from data centers, electric vehicles, and air conditioning, with projections of a 9-gigawatt shortfall by 2030. Hydroelectric power, a major source, is becoming less reliable due to drought and climate change, complicating energy planning. This conflict underscores debates over coal reliance, environmental policy, and energy security in a changing climate.",
       "source": "Ars Science",
-      "time_ago": "18 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_ae96f504464a3b08_bb2088693ba3.webp",
       "category": "Science"
     },
@@ -23,35 +50,8 @@
       "title": "Unlocking the Secrets of Non-Coding DNA: How Enhancers in Astrocytes Connect to Alzheimer's Disease",
       "summary": "DNA consists of genes that code for proteins, but they make up only about 2% of the human genome. The remaining 98%, often termed 'junk DNA' or the non-coding genome, includes regulatory elements like enhancers that control gene expression without coding for proteins themselves. Researchers from UNSW Sydney focused on astrocytes, supportive brain cells implicated in Alzheimer's disease, to investigate these enhancers. Using advanced techniques such as CRISPRi and single-cell RNA sequencing, they tested nearly 1000 potential enhancers in lab-grown human astrocytes. CRISPRi allowed them to deactivate specific DNA segments without cutting, while single-cell RNA sequencing measured gene activity at the cellular level. The study identified approximately 150 functional enhancers that influence gene expression, with a significant portion regulating genes associated with Alzheimer's. This discovery narrows the search for genetic factors in the non-coding genome related to the disease. The findings also provide a valuable reference for interpreting genetic studies on other conditions like hypertension and diabetes, where changes often occur in non-coding regions. Overall, this research highlights the importance of non-coding DNA in disease mechanisms and suggests that similar studies in other cell types could further elucidate the functional landscape of the genome.",
       "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_9a71cbda7ffe909b_8d216c8c9214.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f8917439a456a586",
-      "title": "Historic Dual Organ Transplant Saves 11-Year-Old's Life",
-      "summary": "Children's Hospital Colorado achieved a medical milestone by performing its first-ever dual heart and liver transplant on an 11-year-old patient, Gracie Greenlaw. Gracie was born with hypoplastic left heart syndrome (HLHS), a congenital condition where her heart had only one functioning pumping chamber. She underwent three major surgeries in early childhood—the Norwood, Glenn, and Fontan procedures—to improve blood circulation. However, these interventions and HLHS itself led to long-term complications, including liver damage and eventual liver failure. To manage such cases, the hospital established the Fontan Multidisciplinary Clinic in 2016, providing coordinated care for patients with single ventricle conditions. Gracie's condition worsened over time, with symptoms like plastic bronchitis and signs of liver failure, prompting her medical team to recommend a dual transplant. After being placed on the waitlist in April, compatible donor organs became available less than a month later. The 16-hour surgery involved dozens of specialists: heart surgeons performed the heart transplant first, while the donor liver was preserved on a TransMedics Organ Care System, a device that mimics normal liver function. Then, liver transplant surgeons completed the procedure. This complex operation required careful planning for challenges like blood volume and electrolyte management. Nationally, only 38 pediatric patients have received such dual transplants, highlighting the rarity and significance of this achievement. The success underscores years of preparation, teamwork, and advanced medical technology in pediatric transplant care.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_f8917439a456a586_35fd6902129d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "9ed6d483162752d4",
-      "title": "Space Industry Updates: Rocket Launches and Satellite Innovations in 2025",
-      "summary": "This article provides a roundup of recent developments in the global space industry, focusing on rocket launches and satellite missions in 2025. It highlights key achievements, including the successful debut flights of Blue Origin's New Glenn rocket, which landed on an offshore platform, and China's Zhuque-3, a methane-fueled reusable rocket. Rocket Lab launched an Electron rocket from Virginia, carrying DiskSat satellites for a NASA and Space Force demonstration mission to test a new compact, disc-shaped design optimized for rideshare launches. SpaceX raised concerns about a close approach between a Chinese Kinetica-1 rocket satellite and a Starlink satellite, emphasizing the need for better coordination among operators. Additionally, South Korean startup Innospace is preparing to launch its Hanbit-Nano rocket from Brazil, aiming to deploy small payloads into low-Earth orbit. The article underscores advancements in reusable rockets, innovative satellite technology, and ongoing challenges in space traffic management.",
-      "source": "Ars Science",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_9ed6d483162752d4_655ba260f147.webp",
-      "category": "Science"
-    },
-    {
-      "id": "19ae3cdb44bd6434",
-      "title": "Neural Adaptation: How Surviving Cells Restore Vision After Brain Injury",
-      "summary": "A recent study published in JNeurosci challenges the long-held belief that neurons cannot regenerate after damage. Researchers at Johns Hopkins University, led by Athanasios Alexandris, investigated recovery in the visual system of mice following traumatic brain injury. They focused on the connections between eye cells and brain neurons, which are crucial for vision. Instead of observing new neuron growth, the team found that surviving cells underwent a process called sprouting, where they grew additional branches to form more connections with brain neurons. This compensatory mechanism allowed the visual system to restore functional pathways, enabling mice to regain vision. Interestingly, the study revealed sex differences: male mice showed robust recovery through sprouting, while female mice experienced slower or incomplete repair, with connections not fully returning to preinjury levels. These findings align with clinical observations in humans, where women often have more persistent symptoms after brain injuries. The research suggests that understanding the biological factors behind these sex differences could lead to targeted therapies to enhance neural recovery after trauma, such as concussions.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_19ae3cdb44bd6434_90728dccaec1.webp",
+      "image_url": "/article_images/article_9a71cbda7ffe909b_8d216c8c9214.webp",
       "category": "Science"
     }
   ]
