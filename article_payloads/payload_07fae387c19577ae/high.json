@@ -1,0 +1,161 @@
+{
+  "title": "Decoding Oncogenic Networks: RNACOREX as an Explainable AI Platform for Cancer Genomics",
+  "summary": "RNACOREX, developed by researchers at the University of Navarra's Institute of Data Science and Artificial Intelligence, is an open-source computational platform designed to elucidate gene regulation networks implicated in cancer survival. This software employs advanced algorithms to analyze high-throughput omics data, focusing on interactions between microRNAs and messenger RNAs within complex regulatory frameworks. By integrating curated biological databases with real-world gene expression data from The Cancer Genome Atlas, RNACOREX ranks biologically significant miRNA-mRNA interactions and constructs probabilistic models that map tumor functionality. Evaluated across thirteen diverse tumor types, including breast and lung carcinomas, the tool demonstrates survival prediction accuracy comparable to sophisticated AI systems while providing transparent, interpretable explanations—addressing the 'black-box' problem in genomics. Beyond prognostication, RNACOREX identifies networks associated with clinical outcomes, detects cross-tumor molecular patterns, and highlights biomedically relevant molecules, thereby facilitating hypothesis generation and target prioritization in oncology research. Funded by initiatives like ANDIA 2021 and ERA PerMed, and accessible via GitHub and PyPI, the platform exemplifies interdisciplinary convergence of biomedicine, AI, and data science, with ongoing expansions planned for pathway analysis and enhanced interaction layers to further unravel tumorigenic mechanisms.",
+  "keywords": [
+    {
+      "term": "RNACOREX",
+      "explanation": "an open-source software platform for analyzing gene regulation networks in cancer using explainable AI"
+    },
+    {
+      "term": "gene regulation networks",
+      "explanation": "complex systems of molecular interactions, such as between miRNAs and mRNAs, that control gene expression and are dysregulated in cancer"
+    },
+    {
+      "term": "omics data",
+      "explanation": "large-scale biological datasets encompassing genomics, transcriptomics, and other molecular profiles"
+    },
+    {
+      "term": "The Cancer Genome Atlas",
+      "explanation": "a comprehensive international consortium that provides genomic, epigenomic, and clinical data for multiple cancer types"
+    },
+    {
+      "term": "probabilistic models",
+      "explanation": "mathematical frameworks used to represent uncertainty and predict outcomes based on statistical inferences"
+    },
+    {
+      "term": "explainable AI",
+      "explanation": "artificial intelligence systems designed to provide transparent and interpretable results, contrasting with opaque 'black-box' models"
+    },
+    {
+      "term": "interdisciplinary research",
+      "explanation": "collaborative approaches that integrate fields like biomedicine, data science, and artificial intelligence to address complex problems"
+    },
+    {
+      "term": "tumorigenic mechanisms",
+      "explanation": "biological processes and pathways that drive the initiation and progression of tumors"
+    },
+    {
+      "term": "clinical outcomes",
+      "explanation": "measurable results in patient care, such as survival rates or treatment efficacy, linked to biological markers"
+    },
+    {
+      "term": "open-source platform",
+      "explanation": "software that is publicly accessible, modifiable, and distributable, fostering collaboration and innovation in research"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the primary methodological approach of RNACOREX in analyzing cancer data?",
+      "options": [
+        "Integrating curated databases with gene expression data",
+        "Using only clinical records",
+        "Relying on patient interviews",
+        "Focusing on environmental factors"
+      ],
+      "correct_answer": "Integrating curated databases with gene expression data"
+    },
+    {
+      "question": "How does RNACOREX address a key limitation in current AI applications for genomics?",
+      "options": [
+        "By providing explainable results instead of black-box outputs",
+        "By reducing computational costs",
+        "By using only historical data",
+        "By eliminating the need for validation"
+      ],
+      "correct_answer": "By providing explainable results instead of black-box outputs"
+    },
+    {
+      "question": "Which funding sources supported the development of RNACOREX?",
+      "options": [
+        "ANDIA 2021 and ERA PerMed JTC2022 PORTRAIT",
+        "National Institutes of Health only",
+        "Private corporations",
+        "Crowdfunding campaigns"
+      ],
+      "correct_answer": "ANDIA 2021 and ERA PerMed JTC2022 PORTRAIT"
+    },
+    {
+      "question": "What types of molecular interactions does RNACOREX specifically focus on?",
+      "options": [
+        "miRNA-mRNA interactions",
+        "Protein-protein interactions only",
+        "DNA methylation patterns",
+        "Lipid metabolism pathways"
+      ],
+      "correct_answer": "miRNA-mRNA interactions"
+    },
+    {
+      "question": "In what journal was RNACOREX published?",
+      "options": [
+        "PLOS Computational Biology",
+        "Nature",
+        "Science",
+        "Cell"
+      ],
+      "correct_answer": "PLOS Computational Biology"
+    },
+    {
+      "question": "What is a key advantage of RNACOREX's probabilistic models?",
+      "options": [
+        "They represent uncertainty and predict disease behavior",
+        "They are faster than all other models",
+        "They require no data input",
+        "They are proprietary and closed-source"
+      ],
+      "correct_answer": "They represent uncertainty and predict disease behavior"
+    },
+    {
+      "question": "How does RNACOREX contribute to cancer research beyond survival prediction?",
+      "options": [
+        "By identifying regulatory networks and molecular patterns for hypothesis generation",
+        "By curing cancer directly",
+        "By replacing all laboratory experiments",
+        "By focusing only on drug development"
+      ],
+      "correct_answer": "By identifying regulatory networks and molecular patterns for hypothesis generation"
+    },
+    {
+      "question": "What is the significance of RNACOREX being open-source?",
+      "options": [
+        "It enables global collaboration and accessibility in research",
+        "It makes it more expensive",
+        "It limits use to academic institutions",
+        "It reduces software quality"
+      ],
+      "correct_answer": "It enables global collaboration and accessibility in research"
+    },
+    {
+      "question": "Who is identified as the first author of the study on RNACOREX?",
+      "options": [
+        "Aitor Oviedo-Madrid",
+        "Rubén Armañanzas",
+        "A generic team name",
+        "The University of Navarra"
+      ],
+      "correct_answer": "Aitor Oviedo-Madrid"
+    },
+    {
+      "question": "What future expansions are planned for RNACOREX?",
+      "options": [
+        "Pathway analysis and new interaction layers",
+        "Mobile app development",
+        "Focus on non-cancer diseases only",
+        "Commercial licensing"
+      ],
+      "correct_answer": "Pathway analysis and new interaction layers"
+    }
+  ],
+  "background_read": [
+    "Cancer genomics involves studying genetic alterations and regulatory networks that drive oncogenesis, with tools like RNACOREX leveraging high-throughput sequencing data from projects such as The Cancer Genome Atlas. Gene regulation networks, including miRNA-mRNA interactions, play critical roles in cellular homeostasis and are frequently disrupted in malignancies. Explainable AI is an emerging field aimed at making machine learning models transparent and interpretable, which is crucial for clinical adoption in biomedicine. Open-source software promotes reproducibility and innovation in scientific research by allowing peer review and modification. Interdisciplinary approaches combining computational biology, data science, and clinical oncology are essential for translating genomic insights into therapeutic advances."
+  ],
+  "Article_Structure": [
+    "Main Points: RNACOREX utilizes explainable AI to decode gene regulation networks in cancer, offering survival predictions and molecular insights through transparent models. Purpose: To bridge the gap between complex omics data and clinical practice by providing an interpretable tool that enhances research efficiency and target discovery. Evidence Evaluation: Based on robust data from TCGA and tested across multiple cancers, with results validated against AI benchmarks, though limited to retrospective analysis. Author Credibility: Experts from DATAI with backgrounds in computational biology and digital medicine, supported by peer-reviewed publication. Methodology: Integrates bioinformatics databases with expression data to rank interactions and build probabilistic networks, employing open-source frameworks for accessibility. Critical Assessment: Strengths include interpretability and cross-cancer applicability, but limitations involve dependence on existing datasets and need for prospective clinical trials to confirm utility."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Advancing precision oncology through computational tools",
+      "description": "RNACOREX exemplifies how explainable AI can transform cancer research by making genomic data actionable, though challenges remain in clinical integration and validation"
+    }
+  ],
+  "image_url": "/article_images/article_07fae387c19577ae_9b73ecd40021.webp"
+}

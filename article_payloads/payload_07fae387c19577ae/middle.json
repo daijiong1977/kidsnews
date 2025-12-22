@@ -1,0 +1,133 @@
+{
+  "title": "Unveiling Cancer's Hidden Networks with RNACOREX",
+  "summary": "Researchers at the University of Navarra in Spain have developed RNACOREX, an open-source software platform that identifies gene regulation networks associated with cancer survival. This tool analyzes biological molecules like microRNAs and messenger RNAs to detect complex interactions often missed by traditional methods. By integrating data from international databases and The Cancer Genome Atlas, RNACOREX creates interpretable molecular maps that predict patient survival with accuracy comparable to advanced AI models, but with clearer explanations. It has been tested on thirteen tumor types, including breast and lung cancers, and can identify networks linked to clinical outcomes and shared patterns across cancers. As a freely available tool on GitHub, RNACOREX aims to accelerate cancer research by providing reliable insights into tumor biology and potential treatment targets, positioning itself as an explainable alternative to black-box AI systems in genomics.",
+  "keywords": [
+    {
+      "term": "RNACOREX",
+      "explanation": "an open-source software for analyzing gene regulation networks in cancer"
+    },
+    {
+      "term": "gene regulation networks",
+      "explanation": "systems where molecules like miRNAs and mRNAs interact to control cell functions"
+    },
+    {
+      "term": "The Cancer Genome Atlas",
+      "explanation": "an international project that collects genetic data from cancer patients"
+    },
+    {
+      "term": "molecular map",
+      "explanation": "a visual representation of interactions between biological molecules"
+    },
+    {
+      "term": "open-source",
+      "explanation": "software that is free to use and modify by anyone"
+    },
+    {
+      "term": "survival prediction",
+      "explanation": "estimating how long patients might live based on biological data"
+    },
+    {
+      "term": "AI models",
+      "explanation": "computer programs that use artificial intelligence to analyze data"
+    },
+    {
+      "term": "clinical outcomes",
+      "explanation": "results related to patient health, such as survival or treatment response"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the main purpose of RNACOREX?",
+      "options": [
+        "To identify gene regulation networks in cancer",
+        "To cure cancer directly",
+        "To replace all AI models",
+        "To study weather patterns"
+      ],
+      "correct_answer": "To identify gene regulation networks in cancer"
+    },
+    {
+      "question": "Which organization provided data for testing RNACOREX?",
+      "options": [
+        "The Cancer Genome Atlas",
+        "World Health Organization",
+        "NASA",
+        "Local hospitals"
+      ],
+      "correct_answer": "The Cancer Genome Atlas"
+    },
+    {
+      "question": "How many tumor types were used to evaluate RNACOREX?",
+      "options": [
+        "13",
+        "5",
+        "20",
+        "50"
+      ],
+      "correct_answer": "13"
+    },
+    {
+      "question": "What advantage does RNACOREX have over some AI models?",
+      "options": [
+        "It provides interpretable explanations",
+        "It is more expensive",
+        "It works faster",
+        "It uses less data"
+      ],
+      "correct_answer": "It provides interpretable explanations"
+    },
+    {
+      "question": "Where is RNACOREX available for download?",
+      "options": [
+        "GitHub and PyPI",
+        "App Store",
+        "Amazon",
+        "University website only"
+      ],
+      "correct_answer": "GitHub and PyPI"
+    },
+    {
+      "question": "What type of molecules does RNACOREX analyze?",
+      "options": [
+        "microRNAs and messenger RNAs",
+        "proteins only",
+        "DNA only",
+        "vitamins"
+      ],
+      "correct_answer": "microRNAs and messenger RNAs"
+    },
+    {
+      "question": "What does RNACOREX help researchers prioritize?",
+      "options": [
+        "new biological targets for cancer",
+        "patient diets",
+        "exercise routines",
+        "hospital locations"
+      ],
+      "correct_answer": "new biological targets for cancer"
+    },
+    {
+      "question": "Who is one of the lead authors mentioned in the article?",
+      "options": [
+        "Rubén Armañanzas",
+        "Albert Einstein",
+        "Marie Curie",
+        "Steve Jobs"
+      ],
+      "correct_answer": "Rubén Armañanzas"
+    }
+  ],
+  "background_read": [
+    "Cancer is a complex disease caused by genetic mutations and dysregulated cellular processes. Gene regulation involves interactions between molecules like miRNAs and mRNAs that control gene expression; when these networks malfunction, it can lead to tumor growth. The Cancer Genome Atlas is a large-scale effort to catalog genetic changes in cancers, providing valuable data for research. Open-source software allows collaborative development and accessibility in scientific communities. Artificial intelligence is increasingly used in genomics to analyze big data, but interpretability remains a challenge for clinical application."
+  ],
+  "Article_Structure": [
+    "Main Points: RNACOREX identifies gene regulation networks in cancer using molecular data to predict survival and provide interpretable maps. Purpose: To advance cancer research by offering an explainable tool that overcomes limitations of black-box AI models. Evidence Evaluation: Based on data from The Cancer Genome Atlas and tested on thirteen cancers, showing reliable performance. Author Credibility: Developed by researchers at the University of Navarra's DATAI institute, with expertise in data science and biomedicine. Methodology: Integrates curated databases with gene expression data to rank meaningful interactions and build probabilistic models."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological innovation in medicine",
+      "description": "RNACOREX represents progress in using computational tools to decode cancer biology, enhancing research efficiency and clinical insights"
+    }
+  ],
+  "image_url": "/article_images/article_07fae387c19577ae_9b73ecd40021.webp"
+}
