@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "adcf30d364425d46",
+      "title": "Climate Adviser Urges Action as 2025 Poised to Set UK Heat Record",
+      "summary": "Professor Rachel Kyte, a leading UK government climate adviser, has issued a stark warning that 2025 is on track to become the hottest year in UK history, with an average temperature projected at 10.05°C, slightly above the 2022 record of 10.03°C. She attributes this trend to human-caused climate change driven by decades of carbon dioxide pollution, which is making higher temperatures the new normal. The Met Office supports this view, noting that the UK's ten warmest years have all occurred in the last two decades, and anthropogenic factors are accelerating warming globally. Kyte highlights the impacts, such as increased vulnerability to droughts and wildfires due to lack of rainfall and persistent warmth, and stresses the urgency of building resilience through investments in nature and infrastructure. She argues that failing to adapt now will lead to higher costs in the future. While the Met Office's projection is based on observed data and assumes cooler conditions in late December, making it not certain, it represents the most likely outcome, underscoring the ongoing challenge of climate change.",
+      "source": "BBC Science",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_adcf30d364425d46_672cefbaa587.webp",
+      "category": "Science"
+    },
+    {
+      "id": "cc8b67cad9b4a283",
+      "title": "Breakthrough in Synthesizing a Cancer-Fighting Molecule After 50 Years",
+      "summary": "MIT chemists have successfully synthesized verticillin A, a fungal molecule identified over 50 years ago, for the first time in a laboratory. This molecule has potential as an anticancer agent but was notoriously difficult to produce due to its intricate chemical structure. The challenge arose from subtle differences, such as two oxygen atoms, which made the molecule fragile and sensitive during synthesis. In tests, a derivative of verticillin A showed promise against diffuse midline glioma, a pediatric brain cancer, though further clinical testing is required. The research team, led by Mohammad Movassaghi and Jun Qi, had to redesign the synthesis process, changing the order of bond-forming events to achieve success. This breakthrough enables the creation of variants for detailed studies, advancing cancer research. The work highlights the importance of methodological advances in chemistry and could lead to new therapeutic options.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_cc8b67cad9b4a283_aa712cc8558c.webp",
+      "category": "Science"
+    },
+    {
+      "id": "0a2ab9119ad71370",
+      "title": "The Trade-Off: How Ants Sacrifice Protection for Colony Size",
+      "summary": "A recent study published in Science Advances explores how ant species evolve to prioritize colony size over individual protection. Researchers analyzed over 500 ant species using 3D X-ray scans to measure their cuticle investment—the hard exoskeleton that provides defense and structural support. They discovered that ants with thinner cuticles, using fewer nutrients like nitrogen, tend to form larger colonies. This trade-off allows colonies to produce more workers, even if each is less robust, enhancing collective strength. The findings address a key question in biology: how individuals simplify as societies grow more complex. For example, in social insects like ants, tasks are shared, reducing the need for each ant to be highly specialized. Lead author Arthur Matte and senior author Evan Economo emphasized that this strategy explains the success of massive ant colonies and offers insights into social evolution in other species, including humans. The research highlights the balance between quality and quantity in evolutionary adaptations.",
+      "source": "Science Daily",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_0a2ab9119ad71370_ef0d26321dfe.webp",
+      "category": "Science"
+    },
+    {
+      "id": "75ff81172e4a3329",
+      "title": "Octopus Boom in UK Waters: Climate Change and Marine Impacts",
+      "summary": "The Wildlife Trusts has declared 2025 the 'Year of the Blooming Octopus' following a significant increase in octopus sightings along the south-west coast of England. Their annual marine review indicates that octopus numbers reached their highest level since 1950 this summer, attributed to warmer winters associated with climate change. This population spike, known as a 'bloom', is supported by official data showing over 1,200 tonnes of octopus caught by UK fishermen in 2025, a dramatic rise from previous years where catches rarely exceeded 200 tonnes. Most sightings involve Octopus vulgaris, a species typically found in the Mediterranean Sea, with volunteers in Cornwall and Devon reporting a surge of over 1,500% compared to 2023. Experts, such as Matt Slater from Cornwall Wildlife Trust, describe exceptional behaviors like jet-propelling and camouflage. However, it remains uncertain whether this increase is permanent or cyclical. The octopuses' diet includes shellfish like lobster and crab, prompting warnings from the Wildlife Trusts about potential impacts on fishing industries. Ruth Williams highlights that while this affects shellfish populations and fishing, opportunities exist for adaptation through research. The review also notes environmental disasters, including plastic spills in the North Sea and Sussex, underscoring broader marine challenges.",
+      "source": "BBC Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_75ff81172e4a3329_315eb5996a53.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9b36fbcc4e0d8972",
+      "title": "The Health Impact of Walking Patterns: Longer Sessions vs. Short Bursts",
+      "summary": "A large population-based study investigated how the accumulation of daily steps influences long-term health outcomes, independent of total step count. Focusing on adults with low activity levels (walking fewer than 8,000 steps per day), the research analyzed data from 33,560 participants in the UK Biobank. Participants were categorized based on their typical walking session durations: less than 5 minutes, 5-10 minutes, 10-15 minutes, and 15 minutes or longer. Results showed a clear trend: individuals who walked in longer, uninterrupted sessions had significantly lower risks of all-cause mortality and cardiovascular disease compared to those with shorter, fragmented walks. Over a 9.5-year follow-up, mortality risk decreased from 4.36% for those with sessions under 5 minutes to 0.80% for those with sessions of 15 minutes or more. Cardiovascular disease risk showed an even stronger pattern, dropping from 13.03% to 4.39% across the same categories. The benefits were particularly pronounced for the most sedentary adults (those taking fewer than 5,000 steps daily), suggesting that prioritizing longer walking bouts can enhance health without increasing total steps.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_9b36fbcc4e0d8972_72b4c9be2c0b.webp",
+      "category": "Science"
+    },
+    {
       "id": "6068f127599f594b",
       "title": "Breakthrough Simulation Models Black Hole Accretion with Full Physics",
       "summary": "A recent study has achieved a major milestone in astrophysics by developing the most detailed simulation yet of black hole accretion, the process where black holes attract surrounding matter and emit intense radiation. Using advanced supercomputers, researchers successfully modeled this phenomenon by fully incorporating Einstein's theory of general relativity and the effects of radiation, without relying on simplifying approximations. This marks the first time such calculations have been done under radiation-dominated conditions in full general relativity, providing new insights into extreme black hole environments. Led by Lizhong Zhang from the Institute for Advanced Study and Flatiron Institute, the research was published in The Astrophysical Journal. The simulation helps explain observations of black hole systems like ultraluminous X-ray sources and X-ray binaries, offering a virtual 'observation' tool that complements telescope data. This breakthrough addresses previous limitations where models used fluid-like approximations for radiation, now enabling more accurate predictions of black hole behavior.",
       "source": "Science Daily",
-      "time_ago": "2 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_6068f127599f594b_982632719199.webp",
-      "category": "Science"
-    },
-    {
-      "id": "95081a685e092017",
-      "title": "England's Plan to Ban Animal Cages and Improve Welfare",
-      "summary": "The government in England has announced plans to ban hen cages and pig farrowing crates as part of a comprehensive animal welfare strategy. Hen cages, including larger colony cages, will be prohibited, building on existing bans on battery cages. Pig farrowing crates, used to protect piglets during birth, will also be outlawed. Additionally, the proposals include bans on trail hunting and puppy farming. Environment Secretary Emma Reynolds described this as the most ambitious animal welfare strategy in a generation. However, the National Farmers' Union expressed concerns, urging that imported food must meet the same standards to prevent unfair competition for British farmers. Animal welfare organizations like Compassion in World Farming and the RSPCA support the measures, highlighting benefits for farmed animals. The RSPCA noted that removing the remaining caged hens should not cause major commercial issues. Critics, including the Conservatives, argue that Labour does not care about rural Britain. The government is also considering bans on fast-growing chicken breeds, termed 'Frankenchickens' by campaigners. Overall, this initiative aims to raise welfare standards while addressing economic impacts on farmers.",
-      "source": "BBC Science",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_95081a685e092017_7917ca5c3388.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ba27c21cf66e4f5d",
-      "title": "Exploring the Link Between Full-Fat Dairy and Reduced Dementia Risk",
-      "summary": "A recent study published in Neurology in December 2025 suggests that consuming higher amounts of full-fat cheese and cream may be associated with a lower risk of developing dementia later in life. Conducted by researchers at Lund University in Sweden, the study analyzed data from 27,670 adults over approximately 25 years, starting when participants were around 58 years old. During this period, 3,208 individuals were diagnosed with dementia. The research focused on high-fat dairy products, defining high-fat cheese as having over 20% fat (e.g., cheddar, Brie) and high-fat cream as containing 30-40% fat (e.g., whipping cream). Participants recorded their food intake for a week and answered questions about long-term eating habits. Results showed that those consuming 50 grams or more of high-fat cheese daily had a 13% lower dementia risk compared to those eating less than 15 grams, with a stronger association for vascular dementia (29% lower risk). High-fat cream consumption of 20 grams or more daily was linked to a 16% lower risk. The study notes that this is an association, not proof of causation, and highlights how it challenges previous dietary guidelines that often limited high-fat foods. Factors like age, sex, education, and overall diet were adjusted for in the analysis.",
-      "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_ba27c21cf66e4f5d_b7354766b35f.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0722a92d0dc1aab0",
-      "title": "The Surprising Link Between Global Warming and Ice Ages",
-      "summary": "Researchers at UC Riverside have uncovered a critical gap in Earth's carbon recycling system, suggesting that global warming could paradoxically trigger an ice age. Traditionally, scientists believed rock weathering regulated climate by absorbing carbon dioxide as temperatures rose, cooling the planet gradually. However, geological evidence indicates ancient ice ages were extreme, covering nearly the entire planet, which cannot be explained by this slow balancing act. The new study highlights an additional process involving oceans, nutrients, and plankton. As warming increases rainfall, more nutrients like phosphorus flow into the ocean, boosting plankton growth. These microscopic organisms absorb carbon dioxide through photosynthesis and, upon death, sink to the ocean floor, burying carbon in sediments. In warmer conditions, this can create a feedback loop: increased plankton growth depletes oxygen, releasing phosphorus back into the water to fuel more growth, leading to massive carbon burial and significant cooling. This overshoot mechanism explains how climate systems can swing from warming to freezing, offering insights into past extreme ice ages and potential future climate shifts.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_0722a92d0dc1aab0_b841026360ae.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7d1ade4a80e4b883",
-      "title": "Investigating Seismic Signals to Assess Tsunami Risks from Alaska's Barry Landslide",
-      "summary": "Researchers have installed monitoring instruments around the Barry Landslide in Alaska's Prince William Sound since 2020 to track seismic activity and detect early warning signs for potential tsunamis. By analyzing seismic data, they identified a new type of signal characterized by sharp, high-frequency pulses that occur more frequently from late summer to mid-winter and stop in late winter or early spring. Gabrielle Davy and her team from the University of Alaska Fairbanks, publishing in Seismological Research Letters, propose these signals result from water freezing and thawing within tiny cracks in the rock beneath the nearby Cascade Glacier. Although these signals do not indicate landslide movement, they offer insights into changes in underground water conditions that could influence slope stability. The Barry Landslide poses a significant risk due to its large size—approximately 500 million cubic meters—and unstable setting with weak bedrock and loss of support from the retreating Barry Glacier. A rapid collapse could trigger a tsunami affecting kayakers, cruise ships, and communities like Whittier. The study involved manually reviewing a year of seismic recordings to establish a baseline of normal signals, helping distinguish unusual events for future detection algorithms and enhancing public safety through better hazard understanding.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_7d1ade4a80e4b883_fc044dc87462.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7f1563696d2ffd70",
-      "title": "Ant Evolution: Trading Armor for Colony Size",
-      "summary": "This article explores how ants evolved to prioritize colony size over individual armor, based on a study by international researchers. Using 3D X-ray microtomography scans from a global database called Antscan, scientists analyzed over 880 ant specimens from 500 species to measure their exoskeleton investment. They discovered that ants with larger colonies invest less in their cuticles—the protective exoskeleton—because in a colony of thousands, losing a few workers to predators has minimal impact. This trade-off allows colonies to allocate resources like nitrogen and minerals toward producing more ants rather than reinforcing each individual. Factors such as diet and temperature influenced cuticle size, but colony size was the strongest predictor. Interestingly, this reduction in armor correlated with higher diversification rates, meaning ants with thinner exoskeletons could evolve and adapt to new environments more quickly. The study highlights how social insects like ants balance quality versus quantity, demonstrating that collective success can drive evolutionary changes by favoring numerical advantage over individual defense mechanisms.",
-      "source": "Ars Science",
-      "time_ago": "2 days ago",
-      "image_url": "/article_images/article_7f1563696d2ffd70_1c40fec48983.webp",
       "category": "Science"
     }
   ]
