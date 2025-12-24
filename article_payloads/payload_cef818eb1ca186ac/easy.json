@@ -1,0 +1,108 @@
+{
+  "title": "Scientists Make Heat Rules Work for Tiny Quantum Things",
+  "summary": "Long ago, a scientist named Count Rumford watched cannons being made and saw that friction made them hot, leading to the idea that heat comes from motion. This helped create thermodynamics, the science of heat and energy. Today, thermodynamics has rules like energy staying the same and disorder always increasing, which work well for big things like engines. But for tiny quantum systems, like light trapped between mirrors, these rules get tricky because heat and work are hard to tell apart. Researchers at the University of Basel found a new way to define work and heat for laser light in quantum systems. They studied how coherent light (waves in sync) can do work, like charging a quantum battery, while incoherent light (waves out of sync) acts as heat. By counting only the coherent part as work, they showed that thermodynamics can still work in the quantum world, helping future technology.",
+  "keywords": [
+    {
+      "term": "thermodynamics",
+      "explanation": "the science of heat and energy, with rules about how they change"
+    },
+    {
+      "term": "quantum systems",
+      "explanation": "very tiny things that follow special physics rules"
+    },
+    {
+      "term": "coherent light",
+      "explanation": "light waves that move together in sync, like in lasers"
+    },
+    {
+      "term": "incoherent light",
+      "explanation": "light waves that are out of sync and more disordered"
+    },
+    {
+      "term": "work",
+      "explanation": "useful energy that can do things like charge a battery"
+    },
+    {
+      "term": "heat",
+      "explanation": "disordered energy that makes things warm"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who first observed that heat comes from motion by watching cannons?",
+      "options": [
+        "Benjamin Thompson",
+        "Albert Einstein",
+        "Isaac Newton",
+        "Marie Curie"
+      ],
+      "correct_answer": "Benjamin Thompson"
+    },
+    {
+      "question": "What science studies heat and energy with rules like energy staying the same?",
+      "options": [
+        "Thermodynamics",
+        "Biology",
+        "Chemistry",
+        "Astronomy"
+      ],
+      "correct_answer": "Thermodynamics"
+    },
+    {
+      "question": "Why are thermodynamics rules tricky for tiny quantum systems?",
+      "options": [
+        "Heat and work are hard to tell apart",
+        "They are too big",
+        "They don't use energy",
+        "They are always cold"
+      ],
+      "correct_answer": "Heat and work are hard to tell apart"
+    },
+    {
+      "question": "What did researchers at the University of Basel study to solve the quantum challenge?",
+      "options": [
+        "Laser light in cavity resonators",
+        "Water boiling",
+        "Steam engines",
+        "Metal heating"
+      ],
+      "correct_answer": "Laser light in cavity resonators"
+    },
+    {
+      "question": "What type of light can do work like charging a quantum battery?",
+      "options": [
+        "Coherent light",
+        "Incoherent light",
+        "Dark light",
+        "Slow light"
+      ],
+      "correct_answer": "Coherent light"
+    },
+    {
+      "question": "How did the researchers make thermodynamics work for quantum systems?",
+      "options": [
+        "By counting only coherent light as work",
+        "By ignoring heat",
+        "By using bigger systems",
+        "By changing the rules"
+      ],
+      "correct_answer": "By counting only coherent light as work"
+    }
+  ],
+  "background_read": [
+    "Thermodynamics started with Count Rumford in 1798, who saw that friction from drilling cannons made heat, showing heat comes from motion. This led to rules about energy and disorder that power things like steam engines. Today, scientists use these rules for big systems, but tiny quantum things, like particles of light, behave differently, making it hard to apply thermodynamics. Researchers are finding new ways to adapt these rules for quantum technology, which could help build better devices in the future."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the University of Basel, led by Professor Patrick Potts, with students like Aaron Daniel and Max Schrauwen.",
+    "WHAT: They found a way to make thermodynamics rules work for tiny quantum systems by studying laser light and defining work and heat differently.",
+    "WHERE: The research was done at the University of Basel and published in Physical Review Letters.",
+    "WHY: To solve the problem of applying thermodynamics to quantum systems, which could help advance quantum technology like batteries."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific Innovation",
+      "description": "The research shows how old science rules can be updated for new discoveries in quantum physics."
+    }
+  ],
+  "image_url": "/article_images/article_cef818eb1ca186ac_04d2d663de69.webp"
+}

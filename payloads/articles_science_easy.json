@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "bd151cb4d727973b",
+      "title": "Finding New Animals and Plants Every Day",
+      "summary": "Scientists are discovering more new species than ever before. A long time ago, a man named Carl Linnaeus started naming plants and animals. Today, researchers find over 16,000 new species each year, like insects, plants, and frogs. This is good news because it means we are learning about Earth's biodiversity faster than species are going extinct. The discoveries help us protect these species and can lead to new medicines and inventions. Scientists use tools to look at traits and genes to find species that look alike but are different. They think there might be millions more species to discover, showing we live in a golden age of finding new life.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_bd151cb4d727973b_5c8cd99a94f9.webp",
+      "category": "Science"
+    },
+    {
+      "id": "4fee008dad1fcbdd",
+      "title": "A New 3D Chip for Faster Computers",
+      "summary": "Scientists from universities like Stanford and MIT worked with a company called SkyWater Technology to make a new computer chip. This chip is special because it is built in 3D, like a tall building with many floors stacked on top of each other. Most chips today are flat and 2D, which can slow down computers because data has to travel long distances. The 3D chip has many fast connections between its layers, so it can move data quickly and avoid waiting times. This helps make artificial intelligence (AI) systems like ChatGPT work faster. The chip was tested and found to be much better than flat chips. It was made in a factory that builds chips for real use, not just in a lab. This could lead to new innovations in technology and help the U.S. make more chips at home.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_4fee008dad1fcbdd_9b1b017a82ae.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7e5f5a8149ab098b",
+      "title": "Farm Tax Change: Helping Family Farms",
+      "summary": "The government wanted to tax farms when they are passed down in families, but after many farmers protested, they changed their plan. Originally, farms worth over £1 million would have a 20% tax starting in 2026, but now only farms worth over £2.5 million will be taxed. This means more family farms won't have to pay this tax. The Environment Secretary said they listened to farmers to protect ordinary families. Farmers are happy because it helps them, but some still worry because farms with expensive land or machines might still be taxed. Protests happened outside Parliament, and some politicians disagreed with the tax. This change is a step to support farmers who grow food for Britain.",
+      "source": "BBC Science",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_7e5f5a8149ab098b_752f6445d80d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "cef818eb1ca186ac",
+      "title": "Scientists Make Heat Rules Work for Tiny Quantum Things",
+      "summary": "Long ago, a scientist named Count Rumford watched cannons being made and saw that friction made them hot, leading to the idea that heat comes from motion. This helped create thermodynamics, the science of heat and energy. Today, thermodynamics has rules like energy staying the same and disorder always increasing, which work well for big things like engines. But for tiny quantum systems, like light trapped between mirrors, these rules get tricky because heat and work are hard to tell apart. Researchers at the University of Basel found a new way to define work and heat for laser light in quantum systems. They studied how coherent light (waves in sync) can do work, like charging a quantum battery, while incoherent light (waves out of sync) acts as heat. By counting only the coherent part as work, they showed that thermodynamics can still work in the quantum world, helping future technology.",
+      "source": "Science Daily",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_cef818eb1ca186ac_04d2d663de69.webp",
+      "category": "Science"
+    },
+    {
+      "id": "ca2fa4ece500cef8",
+      "title": "Cleaning Light for Better Computers",
+      "summary": "Scientists at the University of Iowa have found a new way to clean light particles called photons. Photons are tiny bits of light that are used in special computers called quantum computers and in secure communication systems. The problem is that sometimes, when scientists try to make single photons, extra unwanted photons are created. This is like having too many students in a line, making it messy and slow. The scientists discovered that the extra photons look similar to the laser light used to make them. By adjusting the laser light carefully, they can cancel out the extra photons, leaving only the clean, single ones. This could help make quantum computers faster and communication safer. The idea is still in theory, and they plan to test it in experiments soon.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_ca2fa4ece500cef8_293a09bfd79a.webp",
+      "category": "Science"
+    },
+    {
       "id": "adcf30d364425d46",
       "title": "Climate Expert Warns of Hotter Years Ahead in the UK",
       "summary": "A climate expert in the UK says that 2025 might be the hottest year ever recorded there. She warns that rising temperatures are becoming normal because of climate change, which is caused by pollution from human activities like burning fuels. This heat can lead to problems like droughts and wildfires. The expert, Professor Rachel Kyte, says we need to prepare by investing in things like better infrastructure and nature to handle the heat. She explains that if we don't act now, it will cost more later. Scientists from the Met Office, which tracks weather, agree that human actions are making the UK warmer, and they expect more hot years in the future. They use data to predict temperatures, but it's not certain yet if 2025 will break the record.",
       "source": "BBC Science",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_adcf30d364425d46_672cefbaa587.webp",
-      "category": "Science"
-    },
-    {
-      "id": "cc8b67cad9b4a283",
-      "title": "Scientists Build a Special Molecule to Fight Cancer",
-      "summary": "Scientists at MIT have made a special molecule called verticillin A in their lab for the first time. This molecule comes from fungi and was discovered over 50 years ago. It is very hard to build because it has a tricky shape, but it might help fight cancer. In tests, a version of this molecule worked well against a type of brain cancer in kids. The scientists say more tests are needed to see if it can be used as a medicine. They had to change the way they built the molecule step by step to make it work. This discovery could lead to new cancer treatments in the future.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_cc8b67cad9b4a283_aa712cc8558c.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0a2ab9119ad71370",
-      "title": "Why Ants Make Many Workers Instead of Strong Ones",
-      "summary": "Scientists studied ants to learn how they build big colonies. They found that some ants make many workers with thin, soft shells instead of fewer workers with hard, strong shells. The hard shell is called a cuticle, and it protects ants from enemies and helps them stay healthy. But making a thick cuticle uses a lot of food and nutrients. By making thin shells, ants save those nutrients to make more baby ants. This helps the colony grow bigger with lots of ants working together. Even though each ant is weaker, having many ants helps the whole group survive better. This idea is like choosing between having many small toys or a few big, tough ones. The research shows how ants change to live in big groups, which can teach us about other animals and even people.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_0a2ab9119ad71370_ef0d26321dfe.webp",
-      "category": "Science"
-    },
-    {
-      "id": "75ff81172e4a3329",
-      "title": "The Year of the Octopus: A Surge in Sea Creatures",
-      "summary": "In 2025, a wildlife charity called the Wildlife Trusts named it the 'Year of the Blooming Octopus' because many octopuses were seen off the south-west coast of England. This is a record high number since 1950. Warmer winters, which are linked to climate change, helped the octopus population grow, called a 'bloom'. Fishermen caught over 1,200 tonnes of octopus in UK waters, much more than before. Volunteers in Cornwall and Devon reported many more sightings. The octopuses are mostly Octopus vulgaris, a type from the Mediterranean Sea. They eat shellfish like crabs and lobsters, which might affect fishing. Experts are not sure if this increase will last or if numbers will go back to normal. The article also mentions some environmental problems like spills in the sea.",
-      "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_75ff81172e4a3329_315eb5996a53.webp",
-      "category": "Science"
-    },
-    {
-      "id": "9b36fbcc4e0d8972",
-      "title": "Walking Longer is Healthier Than Walking Short",
-      "summary": "A big study looked at how people walk every day and if it affects their health. It found that walking in long sessions without stopping is better for your health than walking in many short bursts. The study included over 33,000 adults who walked less than 8,000 steps per day. People who walked for longer times, like 15 minutes or more at once, had lower risks of dying or getting heart disease. This was especially true for people who were not very active. So, if you don't move much, try to walk for longer periods to stay healthier, even if you don't walk more steps overall.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_9b36fbcc4e0d8972_72b4c9be2c0b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "6068f127599f594b",
-      "title": "A New Computer Model Shows What Happens Near Black Holes",
-      "summary": "Scientists have made a big step in studying black holes by creating a detailed computer model. Black holes are space objects with very strong gravity that pull in matter and give off bright light. This new model uses powerful supercomputers to show how matter falls into black holes, including both gravity and light effects, without using shortcuts. It helps us understand black holes better, like those seen in space with X-rays. The research was led by Lizhong Zhang and published in a science journal. This is exciting because it lets scientists 'observe' black holes through computers, not just telescopes.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_6068f127599f594b_982632719199.webp",
       "category": "Science"
     }
   ]

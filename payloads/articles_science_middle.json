@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "bd151cb4d727973b",
+      "title": "The Accelerating Discovery of Earth's Species",
+      "summary": "A recent study reveals that we are in a golden age of species discovery, with scientists identifying over 16,000 new species annually, the highest rate ever recorded. Led by researchers at the University of Arizona and published in Science Advances, the study challenges the idea that discovery is slowing down. By analyzing taxonomic records of about 2 million species from 2015 to 2020, the team found that new discoveries outpace extinctions, which are estimated at about 10 per year. These findings include diverse groups like arthropods, plants, fungi, and vertebrates. The researchers project that many more species exist than currently known, such as up to 115,000 fish species compared to 42,000 described. Advances in molecular techniques are aiding discovery by identifying genetically distinct species that appear similar. Discovering new species is crucial for conservation, as species must be documented to be protected, and it also benefits human health through natural products like medicines inspired by organisms such as Gila monsters. Overall, the study emphasizes the importance of ongoing exploration to understand and preserve Earth's biodiversity.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_bd151cb4d727973b_5c8cd99a94f9.webp",
+      "category": "Science"
+    },
+    {
+      "id": "4fee008dad1fcbdd",
+      "title": "Breaking AI Bottlenecks with a 3D Chip Innovation",
+      "summary": "A collaborative team from Stanford University, Carnegie Mellon University, University of Pennsylvania, MIT, and SkyWater Technology has developed a groundbreaking 3D computer chip designed to overcome major limitations in AI hardware. Unlike traditional 2D chips, which are flat and cause data bottlenecks due to long travel distances between memory and computing units, this prototype features a vertical architecture with stacked layers and dense vertical connections. This design allows for rapid data movement, akin to elevators in a skyscraper, significantly reducing delays known as the 'memory wall.' In tests, the chip outperformed 2D chips by about ten times. Notably, it was manufactured in a commercial foundry, marking a shift from academic experiments to practical production. The researchers highlight that this monolithic 3D integration method builds layers directly on top of each other at low temperatures, enabling tighter packing and more connections. This advancement addresses both the memory wall and the miniaturization wall, where shrinking transistors is hitting physical limits, and could drive domestic semiconductor innovation and meet future AI demands for thousand-fold performance improvements.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_4fee008dad1fcbdd_9b1b017a82ae.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7e5f5a8149ab098b",
+      "title": "Revised Inheritance Tax on Farms: Balancing Policy and Protests",
+      "summary": "The UK government has revised its proposal to tax inherited farmland, increasing the threshold from £1 million to £2.5 million after facing significant opposition. Initially announced in last year's Budget, the plan aimed to impose a 20% tax on agricultural assets above £1 million from April 2026, ending long-standing tax relief. This climbdown followed months of protests by farmers and concerns from Labour backbenchers in rural areas. Environment Secretary Emma Reynolds stated that the change protects more ordinary family farms while ensuring larger estates contribute more. The National Farmers' Union welcomed the adjustment, noting it removes many family farms from tax liability, but the Country Land and Business Association cautioned that some businesses with high-value assets might still face unaffordable burdens due to narrow profit margins. Farmer Ben Ardern viewed it as a positive step but argued for exempting family farms entirely and targeting corporations that invest in land for tax avoidance. The political fallout included a suspended MP for voting against the government, highlighting internal dissent. This revision reflects the government's responsiveness to public pressure but leaves ongoing debates about fairness and economic impact in rural communities.",
+      "source": "BBC Science",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_7e5f5a8149ab098b_752f6445d80d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "cef818eb1ca186ac",
+      "title": "Bridging Thermodynamics and Quantum Physics: A New Framework for Tiny Systems",
+      "summary": "In 1798, Benjamin Thompson, also known as Count Rumford, observed that friction from drilling cannon barrels produced continuous heat, challenging the idea of heat as a substance and laying the foundation for thermodynamics. This field, developed in the 19th century, established core laws: energy conservation in closed systems and entropy increase, which drove the Industrial Revolution by optimizing heat-to-work conversion in engines. However, these classical principles face challenges in quantum systems, where microscopic scales blur distinctions between work (useful macroscopic energy) and heat (disordered microscopic motion). Researchers at the University of Basel, led by Professor Patrick Potts, addressed this by studying cavity resonators that trap laser light. They focused on coherence—the synchronization of light waves—as a key factor. Coherent light can perform work, such as charging quantum batteries by exciting atoms, while incoherent light, with lost coherence, represents heat. The team proposed defining work as only the coherent portion of exiting light, treating the incoherent part as heat. This approach maintains the validity of thermodynamic laws, offering a self-consistent framework for quantum systems. Their findings, published in Physical Review Letters, suggest implications for advancing quantum technologies by clarifying energy transfer at tiny scales.",
+      "source": "Science Daily",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_cef818eb1ca186ac_04d2d663de69.webp",
+      "category": "Science"
+    },
+    {
+      "id": "ca2fa4ece500cef8",
+      "title": "Harnessing Laser Scatter to Purify Photons for Quantum Tech",
+      "summary": "Researchers at the University of Iowa have developed a theoretical method to purify photons, which are fundamental particles of light used in quantum technologies like photonic quantum computers and secure communication networks. The main challenges in generating reliable single photons include laser scatter, where unwanted extra photons are produced when a laser interacts with an atom, and multi-photon emission, where atoms occasionally release more than one photon at a time. These issues disrupt the precise flow needed for quantum operations. Graduate student Matthew Nelson discovered that the wavelength spectrum and waveform of multi-photon emissions closely resemble those of the laser scatter. This similarity allows scientists to adjust the laser beam parameters—such as angle and shape—to cancel out the unwanted photons. Assistant professor Ravitej Uppu explains that this approach turns a nuisance into a tool, potentially addressing two barriers simultaneously. A pure stream of single photons is crucial for efficient and scalable photonic computing, as it enhances performance and security by reducing interference risks. The method is currently theoretical and awaits experimental testing, but it could accelerate advancements in quantum computing and secure communications by improving control over photon production.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_ca2fa4ece500cef8_293a09bfd79a.webp",
+      "category": "Science"
+    },
+    {
       "id": "adcf30d364425d46",
       "title": "Climate Adviser Urges Action as 2025 Poised to Set UK Heat Record",
       "summary": "Professor Rachel Kyte, a leading UK government climate adviser, has issued a stark warning that 2025 is on track to become the hottest year in UK history, with an average temperature projected at 10.05°C, slightly above the 2022 record of 10.03°C. She attributes this trend to human-caused climate change driven by decades of carbon dioxide pollution, which is making higher temperatures the new normal. The Met Office supports this view, noting that the UK's ten warmest years have all occurred in the last two decades, and anthropogenic factors are accelerating warming globally. Kyte highlights the impacts, such as increased vulnerability to droughts and wildfires due to lack of rainfall and persistent warmth, and stresses the urgency of building resilience through investments in nature and infrastructure. She argues that failing to adapt now will lead to higher costs in the future. While the Met Office's projection is based on observed data and assumes cooler conditions in late December, making it not certain, it represents the most likely outcome, underscoring the ongoing challenge of climate change.",
       "source": "BBC Science",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_adcf30d364425d46_672cefbaa587.webp",
-      "category": "Science"
-    },
-    {
-      "id": "cc8b67cad9b4a283",
-      "title": "Breakthrough in Synthesizing a Cancer-Fighting Molecule After 50 Years",
-      "summary": "MIT chemists have successfully synthesized verticillin A, a fungal molecule identified over 50 years ago, for the first time in a laboratory. This molecule has potential as an anticancer agent but was notoriously difficult to produce due to its intricate chemical structure. The challenge arose from subtle differences, such as two oxygen atoms, which made the molecule fragile and sensitive during synthesis. In tests, a derivative of verticillin A showed promise against diffuse midline glioma, a pediatric brain cancer, though further clinical testing is required. The research team, led by Mohammad Movassaghi and Jun Qi, had to redesign the synthesis process, changing the order of bond-forming events to achieve success. This breakthrough enables the creation of variants for detailed studies, advancing cancer research. The work highlights the importance of methodological advances in chemistry and could lead to new therapeutic options.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_cc8b67cad9b4a283_aa712cc8558c.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0a2ab9119ad71370",
-      "title": "The Trade-Off: How Ants Sacrifice Protection for Colony Size",
-      "summary": "A recent study published in Science Advances explores how ant species evolve to prioritize colony size over individual protection. Researchers analyzed over 500 ant species using 3D X-ray scans to measure their cuticle investment—the hard exoskeleton that provides defense and structural support. They discovered that ants with thinner cuticles, using fewer nutrients like nitrogen, tend to form larger colonies. This trade-off allows colonies to produce more workers, even if each is less robust, enhancing collective strength. The findings address a key question in biology: how individuals simplify as societies grow more complex. For example, in social insects like ants, tasks are shared, reducing the need for each ant to be highly specialized. Lead author Arthur Matte and senior author Evan Economo emphasized that this strategy explains the success of massive ant colonies and offers insights into social evolution in other species, including humans. The research highlights the balance between quality and quantity in evolutionary adaptations.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_0a2ab9119ad71370_ef0d26321dfe.webp",
-      "category": "Science"
-    },
-    {
-      "id": "75ff81172e4a3329",
-      "title": "Octopus Boom in UK Waters: Climate Change and Marine Impacts",
-      "summary": "The Wildlife Trusts has declared 2025 the 'Year of the Blooming Octopus' following a significant increase in octopus sightings along the south-west coast of England. Their annual marine review indicates that octopus numbers reached their highest level since 1950 this summer, attributed to warmer winters associated with climate change. This population spike, known as a 'bloom', is supported by official data showing over 1,200 tonnes of octopus caught by UK fishermen in 2025, a dramatic rise from previous years where catches rarely exceeded 200 tonnes. Most sightings involve Octopus vulgaris, a species typically found in the Mediterranean Sea, with volunteers in Cornwall and Devon reporting a surge of over 1,500% compared to 2023. Experts, such as Matt Slater from Cornwall Wildlife Trust, describe exceptional behaviors like jet-propelling and camouflage. However, it remains uncertain whether this increase is permanent or cyclical. The octopuses' diet includes shellfish like lobster and crab, prompting warnings from the Wildlife Trusts about potential impacts on fishing industries. Ruth Williams highlights that while this affects shellfish populations and fishing, opportunities exist for adaptation through research. The review also notes environmental disasters, including plastic spills in the North Sea and Sussex, underscoring broader marine challenges.",
-      "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_75ff81172e4a3329_315eb5996a53.webp",
-      "category": "Science"
-    },
-    {
-      "id": "9b36fbcc4e0d8972",
-      "title": "The Health Impact of Walking Patterns: Longer Sessions vs. Short Bursts",
-      "summary": "A large population-based study investigated how the accumulation of daily steps influences long-term health outcomes, independent of total step count. Focusing on adults with low activity levels (walking fewer than 8,000 steps per day), the research analyzed data from 33,560 participants in the UK Biobank. Participants were categorized based on their typical walking session durations: less than 5 minutes, 5-10 minutes, 10-15 minutes, and 15 minutes or longer. Results showed a clear trend: individuals who walked in longer, uninterrupted sessions had significantly lower risks of all-cause mortality and cardiovascular disease compared to those with shorter, fragmented walks. Over a 9.5-year follow-up, mortality risk decreased from 4.36% for those with sessions under 5 minutes to 0.80% for those with sessions of 15 minutes or more. Cardiovascular disease risk showed an even stronger pattern, dropping from 13.03% to 4.39% across the same categories. The benefits were particularly pronounced for the most sedentary adults (those taking fewer than 5,000 steps daily), suggesting that prioritizing longer walking bouts can enhance health without increasing total steps.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_9b36fbcc4e0d8972_72b4c9be2c0b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "6068f127599f594b",
-      "title": "Breakthrough Simulation Models Black Hole Accretion with Full Physics",
-      "summary": "A recent study has achieved a major milestone in astrophysics by developing the most detailed simulation yet of black hole accretion, the process where black holes attract surrounding matter and emit intense radiation. Using advanced supercomputers, researchers successfully modeled this phenomenon by fully incorporating Einstein's theory of general relativity and the effects of radiation, without relying on simplifying approximations. This marks the first time such calculations have been done under radiation-dominated conditions in full general relativity, providing new insights into extreme black hole environments. Led by Lizhong Zhang from the Institute for Advanced Study and Flatiron Institute, the research was published in The Astrophysical Journal. The simulation helps explain observations of black hole systems like ultraluminous X-ray sources and X-ray binaries, offering a virtual 'observation' tool that complements telescope data. This breakthrough addresses previous limitations where models used fluid-like approximations for radiation, now enabling more accurate predictions of black hole behavior.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_6068f127599f594b_982632719199.webp",
       "category": "Science"
     }
   ]

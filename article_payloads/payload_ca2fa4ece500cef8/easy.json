@@ -1,0 +1,108 @@
+{
+  "title": "Cleaning Light for Better Computers",
+  "summary": "Scientists at the University of Iowa have found a new way to clean light particles called photons. Photons are tiny bits of light that are used in special computers called quantum computers and in secure communication systems. The problem is that sometimes, when scientists try to make single photons, extra unwanted photons are created. This is like having too many students in a line, making it messy and slow. The scientists discovered that the extra photons look similar to the laser light used to make them. By adjusting the laser light carefully, they can cancel out the extra photons, leaving only the clean, single ones. This could help make quantum computers faster and communication safer. The idea is still in theory, and they plan to test it in experiments soon.",
+  "keywords": [
+    {
+      "term": "photons",
+      "explanation": "tiny particles of light"
+    },
+    {
+      "term": "quantum computers",
+      "explanation": "special computers that use light to work faster"
+    },
+    {
+      "term": "laser",
+      "explanation": "a strong beam of light used in science"
+    },
+    {
+      "term": "cancel out",
+      "explanation": "to make something go away by using another thing"
+    },
+    {
+      "term": "secure communication",
+      "explanation": "sending messages safely without others listening"
+    },
+    {
+      "term": "single photons",
+      "explanation": "one photon at a time, like one student in a line"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are photons?",
+      "options": [
+        "Tiny particles of light",
+        "Big pieces of metal",
+        "Types of sound waves",
+        "Kinds of water droplets"
+      ],
+      "correct_answer": "Tiny particles of light"
+    },
+    {
+      "question": "Where do the scientists work?",
+      "options": [
+        "University of Iowa",
+        "A school in China",
+        "A factory in Japan",
+        "A park in Australia"
+      ],
+      "correct_answer": "University of Iowa"
+    },
+    {
+      "question": "What problem do extra photons cause?",
+      "options": [
+        "They make the light messy and slow",
+        "They make the light brighter",
+        "They help computers work better",
+        "They create more colors"
+      ],
+      "correct_answer": "They make the light messy and slow"
+    },
+    {
+      "question": "How do scientists plan to cancel out extra photons?",
+      "options": [
+        "By adjusting the laser light",
+        "By turning off the lights",
+        "By using magnets",
+        "By adding more photons"
+      ],
+      "correct_answer": "By adjusting the laser light"
+    },
+    {
+      "question": "What could this new method improve?",
+      "options": [
+        "Quantum computers and secure communication",
+        "Cars and airplanes",
+        "Food and drinks",
+        "Toys and games"
+      ],
+      "correct_answer": "Quantum computers and secure communication"
+    },
+    {
+      "question": "Is this idea tested in experiments yet?",
+      "options": [
+        "No, it's still in theory",
+        "Yes, it's already working",
+        "No, it was never thought of",
+        "Yes, but it failed"
+      ],
+      "correct_answer": "No, it's still in theory"
+    }
+  ],
+  "background_read": [
+    "Light is made of tiny particles called photons. Scientists use lasers to make single photons for special computers called quantum computers, which can be faster than regular ones. Sometimes, extra photons are made by mistake, causing problems. This article talks about a new way to clean up these extra photons by using the laser light itself to cancel them out, which might help make better technology in the future."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the University of Iowa",
+    "WHAT: Found a way to clean photons by canceling extra ones with laser light",
+    "WHERE: At a university in Iowa",
+    "WHY: To make quantum computers faster and communication safer"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific innovation",
+      "description": "Using a problem (laser scatter) to solve another problem (extra photons) shows creative thinking in science."
+    }
+  ],
+  "image_url": "/article_images/article_ca2fa4ece500cef8_293a09bfd79a.webp"
+}
