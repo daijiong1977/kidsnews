@@ -1,21 +1,39 @@
 {
   "articles": [
     {
+      "id": "08c03032c87d1b68",
+      "title": "Scientists Find a Way to Help Brains with Dementia",
+      "summary": "Scientists at the University of Vermont have found a new way to help people with dementia. Dementia is a brain problem that makes it hard to remember things and think clearly. It affects millions of people around the world. The scientists discovered that a missing substance called PIP2 in the blood can cause poor blood flow in the brain. Blood flow is important because it brings oxygen and nutrients to brain cells. When PIP2 is low, a protein called Piezo1 becomes too active and messes up the blood flow. By adding PIP2 back, the scientists could fix the blood flow in tests. This could lead to new treatments to help people with dementia feel better and think better. The research is still in early stages, but it gives hope for future medicines.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_08c03032c87d1b68_9452ecf322ee.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6bbaccad069df42a",
+      "title": "Space Rocks and What They're Made Of",
+      "summary": "Asteroids are rocky objects in space that might have valuable metals and old materials from when the solar system formed. Scientists study them to learn about space history and see if we can use them for resources in the future. A team of scientists looked at special space rocks called carbonaceous chondrites that come from C-type asteroids. These rocks are rare and often found in deserts like the Sahara or Antarctica. By studying these rocks, scientists can figure out what asteroids are made of and if mining them for materials like metals could work. This helps plan space missions and protect Earth's environment by reducing mining here. The research was done by a group called ICE-CSIC, who used tools to measure the chemicals in the rocks. They found that asteroids could be good sources of materials, but it's tricky to collect them on a large scale.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_6bbaccad069df42a_3f6a042c2813.webp",
+      "category": "Science"
+    },
+    {
+      "id": "95a0dc78b2e7edf3",
+      "title": "Scientists Make a Super Material to Clean Up Forever Chemicals",
+      "summary": "Scientists at Rice University have made a new material that can quickly clean up forever chemicals from water. Forever chemicals, called PFAS, are man-made substances that don't break down easily and can make people sick. They are found in things like Teflon pans and waterproof clothes. The new material is made from copper and aluminum and works much faster and better than old methods. It can remove PFAS in minutes, which is 100 times faster than carbon filters. The scientists tested it in river water, tap water, and wastewater, and it worked well everywhere. This could help make water safer for everyone.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_95a0dc78b2e7edf3_3f6c78b4bf89.webp",
+      "category": "Science"
+    },
+    {
       "id": "bd151cb4d727973b",
       "title": "Finding New Animals and Plants Every Day",
       "summary": "Scientists are discovering more new species than ever before. A long time ago, a man named Carl Linnaeus started naming plants and animals. Today, researchers find over 16,000 new species each year, like insects, plants, and frogs. This is good news because it means we are learning about Earth's biodiversity faster than species are going extinct. The discoveries help us protect these species and can lead to new medicines and inventions. Scientists use tools to look at traits and genes to find species that look alike but are different. They think there might be millions more species to discover, showing we live in a golden age of finding new life.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_bd151cb4d727973b_5c8cd99a94f9.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4fee008dad1fcbdd",
-      "title": "A New 3D Chip for Faster Computers",
-      "summary": "Scientists from universities like Stanford and MIT worked with a company called SkyWater Technology to make a new computer chip. This chip is special because it is built in 3D, like a tall building with many floors stacked on top of each other. Most chips today are flat and 2D, which can slow down computers because data has to travel long distances. The 3D chip has many fast connections between its layers, so it can move data quickly and avoid waiting times. This helps make artificial intelligence (AI) systems like ChatGPT work faster. The chip was tested and found to be much better than flat chips. It was made in a factory that builds chips for real use, not just in a lab. This could lead to new innovations in technology and help the U.S. make more chips at home.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_4fee008dad1fcbdd_9b1b017a82ae.webp",
       "category": "Science"
     },
     {
@@ -23,26 +41,8 @@
       "title": "Farm Tax Change: Helping Family Farms",
       "summary": "The government wanted to tax farms when they are passed down in families, but after many farmers protested, they changed their plan. Originally, farms worth over £1 million would have a 20% tax starting in 2026, but now only farms worth over £2.5 million will be taxed. This means more family farms won't have to pay this tax. The Environment Secretary said they listened to farmers to protect ordinary families. Farmers are happy because it helps them, but some still worry because farms with expensive land or machines might still be taxed. Protests happened outside Parliament, and some politicians disagreed with the tax. This change is a step to support farmers who grow food for Britain.",
       "source": "BBC Science",
-      "time_ago": "19 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_7e5f5a8149ab098b_752f6445d80d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "cef818eb1ca186ac",
-      "title": "Scientists Make Heat Rules Work for Tiny Quantum Things",
-      "summary": "Long ago, a scientist named Count Rumford watched cannons being made and saw that friction made them hot, leading to the idea that heat comes from motion. This helped create thermodynamics, the science of heat and energy. Today, thermodynamics has rules like energy staying the same and disorder always increasing, which work well for big things like engines. But for tiny quantum systems, like light trapped between mirrors, these rules get tricky because heat and work are hard to tell apart. Researchers at the University of Basel found a new way to define work and heat for laser light in quantum systems. They studied how coherent light (waves in sync) can do work, like charging a quantum battery, while incoherent light (waves out of sync) acts as heat. By counting only the coherent part as work, they showed that thermodynamics can still work in the quantum world, helping future technology.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_cef818eb1ca186ac_04d2d663de69.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ca2fa4ece500cef8",
-      "title": "Cleaning Light for Better Computers",
-      "summary": "Scientists at the University of Iowa have found a new way to clean light particles called photons. Photons are tiny bits of light that are used in special computers called quantum computers and in secure communication systems. The problem is that sometimes, when scientists try to make single photons, extra unwanted photons are created. This is like having too many students in a line, making it messy and slow. The scientists discovered that the extra photons look similar to the laser light used to make them. By adjusting the laser light carefully, they can cancel out the extra photons, leaving only the clean, single ones. This could help make quantum computers faster and communication safer. The idea is still in theory, and they plan to test it in experiments soon.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_ca2fa4ece500cef8_293a09bfd79a.webp",
       "category": "Science"
     },
     {
@@ -50,7 +50,7 @@
       "title": "Climate Expert Warns of Hotter Years Ahead in the UK",
       "summary": "A climate expert in the UK says that 2025 might be the hottest year ever recorded there. She warns that rising temperatures are becoming normal because of climate change, which is caused by pollution from human activities like burning fuels. This heat can lead to problems like droughts and wildfires. The expert, Professor Rachel Kyte, says we need to prepare by investing in things like better infrastructure and nature to handle the heat. She explains that if we don't act now, it will cost more later. Scientists from the Met Office, which tracks weather, agree that human actions are making the UK warmer, and they expect more hot years in the future. They use data to predict temperatures, but it's not certain yet if 2025 will break the record.",
       "source": "BBC Science",
-      "time_ago": "1 day ago",
+      "time_ago": "2 days ago",
       "image_url": "/article_images/article_adcf30d364425d46_672cefbaa587.webp",
       "category": "Science"
     }

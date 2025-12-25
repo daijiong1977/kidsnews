@@ -1,21 +1,39 @@
 {
   "articles": [
     {
+      "id": "08c03032c87d1b68",
+      "title": "New Research on Restoring Brain Blood Flow in Dementia",
+      "summary": "Scientists from the University of Vermont have made a significant discovery in dementia research, focusing on how to restore normal brain blood flow. Dementia, including Alzheimer's disease, affects millions globally and involves reduced blood circulation in the brain, which harms cognitive function. The study, published in Proceedings of the National Academy of Sciences, examines the role of a protein called Piezo1 and a phospholipid named PIP2. Piezo1, found in blood vessel cells, senses pressure and helps regulate blood flow. The researchers found that in dementia conditions, PIP2 levels drop, causing Piezo1 to become overactive and disrupt blood flow. By adding PIP2 back in preclinical tests, they restored healthy circulation, suggesting a potential treatment strategy. This work highlights the importance of molecular signals in neurovascular health and opens avenues for future therapies targeting these mechanisms to alleviate dementia symptoms.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_08c03032c87d1b68_9452ecf322ee.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6bbaccad069df42a",
+      "title": "Analyzing Asteroids: Unlocking the Secrets of Space Resources",
+      "summary": "Scientists are investigating the composition of small asteroids, particularly C-type asteroids rich in carbon, to assess their potential as sources of space resources. A research team led by the Institute of Space Sciences (ICE-CSIC) analyzed carbonaceous chondrites, rare meteorites that originate from these asteroids and account for only about 5% of meteorite falls. These meteorites are often found in desert environments like the Sahara or Antarctica due to favorable preservation conditions. Using mass spectrometry, the team measured the chemical makeup of six common types of carbonaceous chondrites to determine if extracting materials from their parent asteroids could be viable. The study, published in the Monthly Notices of the Royal Astronomical Society, aims to identify where these meteorites came from and support planning for future space missions and resource extraction technologies. Researchers note that while asteroids contain valuable metals and ancient material from the solar system's formation, most have low abundances of precious elements, making large-scale extraction challenging. However, exploring asteroid resources could minimize the environmental impact of terrestrial mining. The team emphasizes the need for careful classification of asteroids in the main belt to understand their resource potential.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_6bbaccad069df42a_3f6a042c2813.webp",
+      "category": "Science"
+    },
+    {
+      "id": "95a0dc78b2e7edf3",
+      "title": "Breakthrough Material Rapidly Removes Toxic PFAS from Water",
+      "summary": "Researchers at Rice University, in collaboration with international partners, have developed an environmentally friendly technology using a layered double hydroxide (LDH) material to efficiently trap and break down per- and polyfluoroalkyl substances (PFAS), commonly known as 'forever chemicals,' in water. PFAS are synthetic chemicals used since the 1940s in products like Teflon and waterproof clothing due to their resistance to heat and water, but they persist in the environment and are linked to health issues such as liver damage and cancer. Current removal methods, like adsorption with activated carbon, are slow, inefficient, and produce secondary waste. The new LDH material, made from copper and aluminum, adsorbs PFAS over 1,000 times better and 100 times faster than commercial carbon filters, removing large amounts within minutes. It was tested successfully in river water, tap water, and wastewater, showing potential for use in water treatment systems. This advancement addresses a major global pollution challenge by offering a sustainable and highly effective solution.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_95a0dc78b2e7edf3_3f6c78b4bf89.webp",
+      "category": "Science"
+    },
+    {
       "id": "bd151cb4d727973b",
       "title": "The Accelerating Discovery of Earth's Species",
       "summary": "A recent study reveals that we are in a golden age of species discovery, with scientists identifying over 16,000 new species annually, the highest rate ever recorded. Led by researchers at the University of Arizona and published in Science Advances, the study challenges the idea that discovery is slowing down. By analyzing taxonomic records of about 2 million species from 2015 to 2020, the team found that new discoveries outpace extinctions, which are estimated at about 10 per year. These findings include diverse groups like arthropods, plants, fungi, and vertebrates. The researchers project that many more species exist than currently known, such as up to 115,000 fish species compared to 42,000 described. Advances in molecular techniques are aiding discovery by identifying genetically distinct species that appear similar. Discovering new species is crucial for conservation, as species must be documented to be protected, and it also benefits human health through natural products like medicines inspired by organisms such as Gila monsters. Overall, the study emphasizes the importance of ongoing exploration to understand and preserve Earth's biodiversity.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_bd151cb4d727973b_5c8cd99a94f9.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4fee008dad1fcbdd",
-      "title": "Breaking AI Bottlenecks with a 3D Chip Innovation",
-      "summary": "A collaborative team from Stanford University, Carnegie Mellon University, University of Pennsylvania, MIT, and SkyWater Technology has developed a groundbreaking 3D computer chip designed to overcome major limitations in AI hardware. Unlike traditional 2D chips, which are flat and cause data bottlenecks due to long travel distances between memory and computing units, this prototype features a vertical architecture with stacked layers and dense vertical connections. This design allows for rapid data movement, akin to elevators in a skyscraper, significantly reducing delays known as the 'memory wall.' In tests, the chip outperformed 2D chips by about ten times. Notably, it was manufactured in a commercial foundry, marking a shift from academic experiments to practical production. The researchers highlight that this monolithic 3D integration method builds layers directly on top of each other at low temperatures, enabling tighter packing and more connections. This advancement addresses both the memory wall and the miniaturization wall, where shrinking transistors is hitting physical limits, and could drive domestic semiconductor innovation and meet future AI demands for thousand-fold performance improvements.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_4fee008dad1fcbdd_9b1b017a82ae.webp",
       "category": "Science"
     },
     {
@@ -23,26 +41,8 @@
       "title": "Revised Inheritance Tax on Farms: Balancing Policy and Protests",
       "summary": "The UK government has revised its proposal to tax inherited farmland, increasing the threshold from £1 million to £2.5 million after facing significant opposition. Initially announced in last year's Budget, the plan aimed to impose a 20% tax on agricultural assets above £1 million from April 2026, ending long-standing tax relief. This climbdown followed months of protests by farmers and concerns from Labour backbenchers in rural areas. Environment Secretary Emma Reynolds stated that the change protects more ordinary family farms while ensuring larger estates contribute more. The National Farmers' Union welcomed the adjustment, noting it removes many family farms from tax liability, but the Country Land and Business Association cautioned that some businesses with high-value assets might still face unaffordable burdens due to narrow profit margins. Farmer Ben Ardern viewed it as a positive step but argued for exempting family farms entirely and targeting corporations that invest in land for tax avoidance. The political fallout included a suspended MP for voting against the government, highlighting internal dissent. This revision reflects the government's responsiveness to public pressure but leaves ongoing debates about fairness and economic impact in rural communities.",
       "source": "BBC Science",
-      "time_ago": "19 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_7e5f5a8149ab098b_752f6445d80d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "cef818eb1ca186ac",
-      "title": "Bridging Thermodynamics and Quantum Physics: A New Framework for Tiny Systems",
-      "summary": "In 1798, Benjamin Thompson, also known as Count Rumford, observed that friction from drilling cannon barrels produced continuous heat, challenging the idea of heat as a substance and laying the foundation for thermodynamics. This field, developed in the 19th century, established core laws: energy conservation in closed systems and entropy increase, which drove the Industrial Revolution by optimizing heat-to-work conversion in engines. However, these classical principles face challenges in quantum systems, where microscopic scales blur distinctions between work (useful macroscopic energy) and heat (disordered microscopic motion). Researchers at the University of Basel, led by Professor Patrick Potts, addressed this by studying cavity resonators that trap laser light. They focused on coherence—the synchronization of light waves—as a key factor. Coherent light can perform work, such as charging quantum batteries by exciting atoms, while incoherent light, with lost coherence, represents heat. The team proposed defining work as only the coherent portion of exiting light, treating the incoherent part as heat. This approach maintains the validity of thermodynamic laws, offering a self-consistent framework for quantum systems. Their findings, published in Physical Review Letters, suggest implications for advancing quantum technologies by clarifying energy transfer at tiny scales.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_cef818eb1ca186ac_04d2d663de69.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ca2fa4ece500cef8",
-      "title": "Harnessing Laser Scatter to Purify Photons for Quantum Tech",
-      "summary": "Researchers at the University of Iowa have developed a theoretical method to purify photons, which are fundamental particles of light used in quantum technologies like photonic quantum computers and secure communication networks. The main challenges in generating reliable single photons include laser scatter, where unwanted extra photons are produced when a laser interacts with an atom, and multi-photon emission, where atoms occasionally release more than one photon at a time. These issues disrupt the precise flow needed for quantum operations. Graduate student Matthew Nelson discovered that the wavelength spectrum and waveform of multi-photon emissions closely resemble those of the laser scatter. This similarity allows scientists to adjust the laser beam parameters—such as angle and shape—to cancel out the unwanted photons. Assistant professor Ravitej Uppu explains that this approach turns a nuisance into a tool, potentially addressing two barriers simultaneously. A pure stream of single photons is crucial for efficient and scalable photonic computing, as it enhances performance and security by reducing interference risks. The method is currently theoretical and awaits experimental testing, but it could accelerate advancements in quantum computing and secure communications by improving control over photon production.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_ca2fa4ece500cef8_293a09bfd79a.webp",
       "category": "Science"
     },
     {
@@ -50,7 +50,7 @@
       "title": "Climate Adviser Urges Action as 2025 Poised to Set UK Heat Record",
       "summary": "Professor Rachel Kyte, a leading UK government climate adviser, has issued a stark warning that 2025 is on track to become the hottest year in UK history, with an average temperature projected at 10.05°C, slightly above the 2022 record of 10.03°C. She attributes this trend to human-caused climate change driven by decades of carbon dioxide pollution, which is making higher temperatures the new normal. The Met Office supports this view, noting that the UK's ten warmest years have all occurred in the last two decades, and anthropogenic factors are accelerating warming globally. Kyte highlights the impacts, such as increased vulnerability to droughts and wildfires due to lack of rainfall and persistent warmth, and stresses the urgency of building resilience through investments in nature and infrastructure. She argues that failing to adapt now will lead to higher costs in the future. While the Met Office's projection is based on observed data and assumes cooler conditions in late December, making it not certain, it represents the most likely outcome, underscoring the ongoing challenge of climate change.",
       "source": "BBC Science",
-      "time_ago": "1 day ago",
+      "time_ago": "2 days ago",
       "image_url": "/article_images/article_adcf30d364425d46_672cefbaa587.webp",
       "category": "Science"
     }
