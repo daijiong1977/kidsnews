@@ -1,0 +1,108 @@
+{
+  "title": "A New Superconductor That Breaks the Rules",
+  "summary": "Scientists have found a special material called platinum-bismuth-two (PtBi2) that acts in a surprising way. This shiny gray crystal has electrons that behave differently than in other materials. At low temperatures, electrons on the top and bottom surfaces pair up to flow without resistance, making it a superconductor, while the inside stays normal. This creates a sandwich-like structure. The electrons pair in a unique pattern with six directions, which has never been seen before. This discovery could help build better quantum computers in the future by using elusive particles called Majorana particles. The research was done by a team in Germany using high-tech measurements to study the material's properties.",
+  "keywords": [
+    {
+      "term": "superconductor",
+      "explanation": "a material that lets electricity flow without any resistance"
+    },
+    {
+      "term": "electrons",
+      "explanation": "tiny particles that carry electricity"
+    },
+    {
+      "term": "surface",
+      "explanation": "the outside layer of something"
+    },
+    {
+      "term": "pair up",
+      "explanation": "when two things join together"
+    },
+    {
+      "term": "quantum computers",
+      "explanation": "very powerful computers that use special rules"
+    },
+    {
+      "term": "Majorana particles",
+      "explanation": "special particles that could help make computers better"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the material studied in the article?",
+      "options": [
+        "Platinum-bismuth-two",
+        "Copper",
+        "Gold",
+        "Silver"
+      ],
+      "correct_answer": "Platinum-bismuth-two"
+    },
+    {
+      "question": "Where do the electrons pair up to become superconducting?",
+      "options": [
+        "On the top and bottom surfaces",
+        "Inside the material",
+        "On the edges",
+        "Nowhere"
+      ],
+      "correct_answer": "On the top and bottom surfaces"
+    },
+    {
+      "question": "What does the material create when it becomes superconducting?",
+      "options": [
+        "A sandwich structure",
+        "A ball shape",
+        "A tube",
+        "A flat sheet"
+      ],
+      "correct_answer": "A sandwich structure"
+    },
+    {
+      "question": "How many directions do the electrons pair in on the surface?",
+      "options": [
+        "Six",
+        "Four",
+        "Two",
+        "Eight"
+      ],
+      "correct_answer": "Six"
+    },
+    {
+      "question": "What could this discovery help build in the future?",
+      "options": [
+        "Quantum computers",
+        "Regular computers",
+        "Cars",
+        "Toys"
+      ],
+      "correct_answer": "Quantum computers"
+    },
+    {
+      "question": "Who did the research on this material?",
+      "options": [
+        "Scientists in Germany",
+        "Scientists in the USA",
+        "Scientists in China",
+        "Scientists in Japan"
+      ],
+      "correct_answer": "Scientists in Germany"
+    }
+  ],
+  "background_read": [
+    "Superconductors are materials that can conduct electricity perfectly without losing energy, usually at very cold temperatures. They are used in things like MRI machines and maglev trains. Quantum computers are advanced machines that use quantum bits to solve problems much faster than regular computers. Majorana particles are special particles that might make quantum computers more reliable. This article talks about a new superconductor that could help improve technology."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists from IFW Dresden and the Cluster of Excellence ct.qmat in Germany",
+    "WHAT: They discovered a material called PtBi2 that becomes superconducting on its surfaces with a unique electron pairing pattern",
+    "WHERE: In laboratories in Germany",
+    "WHY: To understand new superconductors and help build better quantum computers"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "This shows how scientists are finding new materials that break old rules, which could lead to technological advances."
+    }
+  ],
+  "image_url": "/article_images/article_5d37751b96999d66_9f12e64bc1d5.webp"
+}
