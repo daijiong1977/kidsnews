@@ -1,0 +1,108 @@
+{
+  "title": "Mini Brains Show Brain Signals for Schizophrenia and Bipolar Disorder",
+  "summary": "Scientists have grown tiny brains in a lab to study schizophrenia and bipolar disorder, which are mental health conditions that affect many people but are hard to diagnose. These mini brains, called organoids, are made from cells of patients and healthy people. Researchers looked at the electrical signals in the mini brains and found special patterns that can tell if someone has schizophrenia or bipolar disorder. This could help doctors diagnose these conditions better in the future and find the right medicines. The study used machine learning and microchips to track the brain signals, and the mini brains were about the size of a pea.",
+  "keywords": [
+    {
+      "term": "organoids",
+      "explanation": "tiny brains grown in a lab from human cells"
+    },
+    {
+      "term": "schizophrenia",
+      "explanation": "a mental health condition that affects how people think and feel"
+    },
+    {
+      "term": "bipolar disorder",
+      "explanation": "a mental health condition that causes mood swings"
+    },
+    {
+      "term": "electrical signals",
+      "explanation": "messages that brain cells send to each other"
+    },
+    {
+      "term": "diagnose",
+      "explanation": "to find out what illness someone has"
+    },
+    {
+      "term": "machine learning",
+      "explanation": "a computer tool that helps analyze data"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did scientists grow in the lab to study mental health conditions?",
+      "options": [
+        "Tiny brains",
+        "Big hearts",
+        "Small lungs",
+        "Large stomachs"
+      ],
+      "correct_answer": "Tiny brains"
+    },
+    {
+      "question": "Which mental health conditions are studied using mini brains?",
+      "options": [
+        "Schizophrenia and bipolar disorder",
+        "Cold and flu",
+        "Broken bones",
+        "Skin rashes"
+      ],
+      "correct_answer": "Schizophrenia and bipolar disorder"
+    },
+    {
+      "question": "What do brain cells use to communicate with each other?",
+      "options": [
+        "Electrical signals",
+        "Sound waves",
+        "Light beams",
+        "Water drops"
+      ],
+      "correct_answer": "Electrical signals"
+    },
+    {
+      "question": "What tool did researchers use to analyze the brain signals?",
+      "options": [
+        "Machine learning",
+        "A microscope",
+        "A ruler",
+        "A calculator"
+      ],
+      "correct_answer": "Machine learning"
+    },
+    {
+      "question": "How big were the mini brains when fully grown?",
+      "options": [
+        "About the size of a pea",
+        "As big as a basketball",
+        "Like a grain of sand",
+        "The size of a car"
+      ],
+      "correct_answer": "About the size of a pea"
+    },
+    {
+      "question": "Why is it hard to diagnose schizophrenia and bipolar disorder?",
+      "options": [
+        "No specific brain part shows clear signs",
+        "They are easy to see",
+        "Doctors always know right away",
+        "They cause visible marks on the skin"
+      ],
+      "correct_answer": "No specific brain part shows clear signs"
+    }
+  ],
+  "background_read": [
+    "Schizophrenia and bipolar disorder are mental health conditions that make it hard for people to think clearly or feel stable. Doctors often struggle to diagnose them because there are no simple tests like for other diseases. Scientists are now using mini brains grown from patient cells to study the electrical activity in the brain, hoping to find better ways to identify and treat these conditions."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists and researchers led by Annie Kathuria at Johns Hopkins University",
+    "WHAT: Grew mini brains to study electrical signals in schizophrenia and bipolar disorder",
+    "WHERE: In a lab, using cells from patients and healthy individuals",
+    "WHY: To help improve diagnosis and treatment of mental health conditions"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific view",
+      "description": "Using organoids and technology to understand brain diseases better"
+    }
+  ],
+  "image_url": "/article_images/article_ff3befafa5fc188a_3d9d64b07cf2.webp"
+}

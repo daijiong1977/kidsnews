@@ -1,0 +1,121 @@
+{
+  "title": "James Webb Telescope Captures Distant Supernova from Cosmic Dawn",
+  "summary": "Astronomers have achieved a significant breakthrough by using the James Webb Space Telescope (JWST) to detect a supernova at an unprecedented distance, occurring when the universe was approximately 730 million years old during the reionisation era. The discovery began with a long-duration gamma-ray burst (GRB) detected by the SVOM monitor, which led to follow-up observations with the ESO/VLT and JWST. JWST's Near Infrared Camera enabled researchers to isolate the supernova's fading light from its host galaxy, confirming its nature. This supernova, named SN in GRB 250314A, closely resembles SN 1998bw, a known supernova from a gamma-ray burst, suggesting that massive stars in the early universe died similarly to those today. The findings challenge previous assumptions that early star explosions would be brighter or different, indicating consistency across cosmic time. Future JWST observations are planned to further study the host galaxy and refine understanding of stellar evolution in the early universe.",
+  "keywords": [
+    {
+      "term": "supernova",
+      "explanation": "the explosive death of a massive star, releasing immense energy"
+    },
+    {
+      "term": "James Webb Space Telescope (JWST)",
+      "explanation": "a space-based observatory that observes in infrared to study distant cosmic objects"
+    },
+    {
+      "term": "gamma-ray burst (GRB)",
+      "explanation": "a high-energy flash of radiation often associated with stellar explosions like supernovae"
+    },
+    {
+      "term": "reionisation era",
+      "explanation": "a period in the early universe when the first stars and galaxies formed, ionizing the gas"
+    },
+    {
+      "term": "host galaxy",
+      "explanation": "the galaxy where a star or supernova is located"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What telescope was used to observe the distant supernova?",
+      "options": [
+        "James Webb Space Telescope",
+        "Hubble Space Telescope",
+        "Very Large Telescope",
+        "Keck Observatory"
+      ],
+      "correct_answer": "James Webb Space Telescope"
+    },
+    {
+      "question": "How old was the universe when this supernova occurred?",
+      "options": [
+        "730 million years",
+        "1 billion years",
+        "500 million years",
+        "2 billion years"
+      ],
+      "correct_answer": "730 million years"
+    },
+    {
+      "question": "What event first signaled the supernova's presence?",
+      "options": [
+        "A gamma-ray burst",
+        "A supernova flash",
+        "A meteor impact",
+        "A solar flare"
+      ],
+      "correct_answer": "A gamma-ray burst"
+    },
+    {
+      "question": "What instrument on JWST helped separate the supernova from its galaxy?",
+      "options": [
+        "Near Infrared Camera",
+        "Ultraviolet Spectrometer",
+        "Radio Antenna",
+        "X-ray Detector"
+      ],
+      "correct_answer": "Near Infrared Camera"
+    },
+    {
+      "question": "Which known supernova does this distant one resemble?",
+      "options": [
+        "SN 1998bw",
+        "SN 1987A",
+        "SN 1604",
+        "SN 1054"
+      ],
+      "correct_answer": "SN 1998bw"
+    },
+    {
+      "question": "What era in cosmic history does this supernova belong to?",
+      "options": [
+        "Reionisation era",
+        "Dark Ages",
+        "Modern era",
+        "Big Bang era"
+      ],
+      "correct_answer": "Reionisation era"
+    },
+    {
+      "question": "What does the similarity to nearby supernovae suggest about early stars?",
+      "options": [
+        "They died in similar ways",
+        "They were much brighter",
+        "They formed differently",
+        "They never exploded"
+      ],
+      "correct_answer": "They died in similar ways"
+    },
+    {
+      "question": "What are future plans for studying this supernova?",
+      "options": [
+        "More JWST observations",
+        "Building a new telescope",
+        "Sending a probe",
+        "Ending the study"
+      ],
+      "correct_answer": "More JWST observations"
+    }
+  ],
+  "background_read": [
+    "Supernovae are catastrophic explosions marking the end of massive stars, crucial for enriching the universe with elements. The James Webb Space Telescope, launched in 2021, excels in infrared astronomy to peer into the early universe. Gamma-ray bursts are intense emissions from cosmic events, often linked to supernovae or black holes. The reionisation era, around 400 million to 1 billion years after the Big Bang, saw the formation of the first luminous objects. Studying distant supernovae helps astronomers understand stellar evolution and cosmic history."
+  ],
+  "Article_Structure": [
+    "Main Points: Astronomers used JWST to detect a supernova at a record distance from the reionisation era, identified via a gamma-ray burst and confirmed by isolating its light from the host galaxy. Purpose: To study stellar deaths in the early universe and challenge assumptions about early star explosions. Evidence Evaluation: High-quality data from JWST and supporting telescopes provide reliable confirmation, with comparisons to known supernovae like SN 1998bw. Author Credibility: Led by astronomers and astrophysicists, with findings published in a peer-reviewed journal. Methodology: Combined detection of a GRB with follow-up observations using ESO/VLT and JWST's infrared imaging."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Astronomical breakthrough",
+      "description": "This discovery advances our understanding of early universe stellar processes by providing direct evidence of supernovae from cosmic dawn."
+    }
+  ],
+  "image_url": "/article_images/article_7d0fa82b95ae9968_b2980b462bf7.webp"
+}
