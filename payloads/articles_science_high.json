@@ -1,21 +1,39 @@
 {
   "articles": [
     {
+      "id": "4a029eda89c83930",
+      "title": "Quantifying the Synergistic Risk: Low-Dose Alcohol and Tobacco in Mouth Cancer Etiology in India",
+      "summary": "A seminal comparative study published in BMJ Global Health investigates the association between low-dose daily alcohol consumption and the elevated risk of buccal mucosa cancer in India, revealing that intake of just 9 grams of alcohol per day—equivalent to one standard drink—correlates with a 50% increase in risk. Mouth cancer, predominantly affecting the buccal mucosa, represents the second most prevalent malignancy in India, with escalating incidence rates and dismal five-year survival outcomes of 43%. The research elucidates a synergistic effect when alcohol use is combined with tobacco chewing, estimating that this dual exposure may be responsible for 62% of all buccal mucosa cancer cases. Utilizing a case-control design, the study enrolled 1,803 individuals diagnosed with cancer and 1,903 controls from 2010 to 2021, employing detailed questionnaires to assess alcohol types (including 30 locally brewed variants) and tobacco habits. Findings indicate that locally brewed alcoholic beverages, particularly common in rural settings, confer the highest risk, and cancer patients exhibited longer tobacco use durations and higher daily alcohol consumption. This analysis underscores the critical need for nuanced public health interventions targeting the co-use of alcohol and tobacco to mitigate the burgeoning mouth cancer epidemic in India.",
+      "source": "Science Daily",
+      "time_ago": "10 hours ago",
+      "image_url": "/article_images/article_4a029eda89c83930_4c521d5b6369.webp",
+      "category": "Science"
+    },
+    {
+      "id": "3bad7d2a3bb54b4b",
+      "title": "Relativistic Timekeeping on Mars: Precision Calculations for Interplanetary Coordination",
+      "summary": "In a groundbreaking study published in The Astronomical Journal, physicists at the National Institute of Standards and Technology (NIST) have quantified the relativistic time differential between Earth and Mars, determining that Martian clocks tick an average of 477 microseconds faster per day. This phenomenon arises from Einstein's general theory of relativity, wherein weaker gravitational fields on Mars accelerate time passage, compounded by orbital eccentricities and gravitational perturbations from massive solar system bodies like the Sun and Jupiter, causing daily variations up to 226 microseconds. The research, extending a 2024 framework for lunar timekeeping, utilizes empirical data from Mars missions to model surface gravity and relativistic effects, addressing the complexities of interplanetary time synchronization. With Mars exhibiting a sol (day) approximately 40 minutes longer than Earth's and a year spanning 687 Earth days, precise chronometry is imperative for NASA's forthcoming exploration initiatives, facilitating accurate navigation, communication protocols, and operational coordination across astronomical distances. This advancement underscores the intersection of theoretical physics and practical aerospace engineering, pivotal for realizing sustained human presence beyond Earth.",
+      "source": "Science Daily",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_3bad7d2a3bb54b4b_6357e0c90bca.webp",
+      "category": "Science"
+    },
+    {
+      "id": "e654616fc79a2329",
+      "title": "Tectonic Architecture and Hydrothermal Dynamics: A Comprehensive Analysis of the Milos Vent Field",
+      "summary": "A groundbreaking study in Scientific Reports documents the discovery of an anomalously large hydrothermal vent field on the shallow continental shelf surrounding Milos, Greece, identified during the METEOR expedition M192. Researchers utilized a multidisciplinary methodology, integrating high-resolution underwater mapping, autonomous underwater vehicles (AUVs), and remotely operated vehicles (ROVs) to conduct detailed bathymetric and visual surveys. The investigation uncovered three principal vent clusters—Aghia Kiriaki, Paleochori-Thiorychia, and Vani—situated along active fault zones within the Milos Gulf-Fyriplaka graben, a tectonic depression resulting from extensional forces that have subsided seafloor sections to depths of up to 230 meters. These vents, exhibiting phenomena such as gas flares, effervescent fluids, and extensive microbial mats, constitute one of the most substantial shallow to intermediate depth hydrothermal systems in the Mediterranean, fundamentally altering perceptions of vent genesis and distribution in this region. The spatial correlation between vent arrays and fault geometries underscores the predominant influence of tectonic controls on hydrothermal fluid pathways. This research, spearheaded by a consortium of Greek and German institutions under the MARUM-based Cluster of Excellence 'The Ocean Floor—Earth's Uncharted Interface,' elucidates the interplay between tectonics, volcanism, and hydrothermal processes, with implications for understanding submarine geochemical cycles and extremophile biospheres. Future expeditions are planned to extrapolate findings to adjacent volcanic systems, such as Kolumbo and Nisyros, enhancing integrative earth science frameworks.",
+      "source": "Science Daily",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_e654616fc79a2329_95c2a910f1d1.webp",
+      "category": "Science"
+    },
+    {
       "id": "73b77805287fa58e",
       "title": "Synthetic Biology Approach: mRNA-Mediated Liver Reprogramming to Counteract Age-Related Immunosenescence",
       "summary": "Immunosenescence, the age-related decline in immune function, is characterized by reduced T cell populations and diminished responsiveness, increasing susceptibility to infections and impairing cancer immunotherapy efficacy in older adults. This decline is largely attributed to thymic involution, where the thymus—essential for T cell maturation—atrophies from early adulthood, becoming nonfunctional by approximately age 75. To address this, researchers from MIT and the Broad Institute have pioneered a synthetic biology strategy utilizing mRNA to transiently reprogram hepatocytes, transforming the liver into a bioreactor that secretes thymic-like factors. By delivering three key transcriptional regulators via lipid nanoparticles, they engineered a temporary 'factory' that enhances T cell survival and clonal diversity. In murine models, aged mice subjected to this intervention exhibited expanded and more heterogeneous T cell repertoires post-vaccination, alongside augmented responses to checkpoint blockade immunotherapy. Published in Nature, this study posits that such mRNA-based modulation could offer a scalable and minimally invasive therapeutic avenue to mitigate immunosenescence, potentially extending healthspan by bolstering immune resilience. The approach circumvents limitations of prior methodologies, such as systemic cytokine administration or stem cell transplantation, by leveraging the liver's protein synthesis capacity and circulatory access, thereby minimizing off-target effects.",
       "source": "Science Daily",
-      "time_ago": "14 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_73b77805287fa58e_5fd4031c82a6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f9b40bccec2133fa",
-      "title": "Atmospheric Chemistry and Feedback Loops: Accelerating Arctic Warming Through Human and Natural Interactions",
-      "summary": "A comprehensive study by Penn State researchers, published in the Bulletin of the American Meteorological Society, elucidates a perilous feedback loop exacerbating Arctic warming through synergistic atmospheric processes. Utilizing a two-month field campaign with instrumented aircraft and ground-based sensors in the Beaufort and Chukchi Seas and near Prudhoe Bay oil fields, the CHACHA project investigated chemical dynamics in the Arctic boundary layer. Key findings indicate that leads—fractures in sea ice—induce convective plumes that elevate aerosols, moisture, and pollutants, fostering cloud development and enhancing radiative warming, thereby accelerating ice melt and perpetuating lead formation. Concurrently, oil field emissions interact with saline snowpacks, catalyzing bromine production that depletes boundary layer ozone, increasing UV penetration and surface heating, which in turn amplifies bromine release. This dual feedback mechanism, compounded by halogen-driven formation of stable, long-range transport compounds from pollution, illustrates how anthropogenic activities intricately modulate polar chemistry. The research highlights the transformation of the Arctic atmosphere, with implications for global climate models and mitigation strategies, urging a reevaluation of industrial impacts in vulnerable ecosystems.",
-      "source": "Science Daily",
-      "time_ago": "14 hours ago",
-      "image_url": "/article_images/article_f9b40bccec2133fa_7be4c50cccdd.webp",
       "category": "Science"
     },
     {
@@ -23,26 +41,8 @@
       "title": "Prospects for Auroral Displays in 2026: A Post-Peak Solar Cycle Analysis",
       "summary": "This article examines the likelihood of enhanced Northern Lights visibility in the UK during 2026, situated within the context of the Sun's 11-year solar cycle. NASA confirmed the cycle's peak in October 2024, characterized by heightened sunspot activity leading to frequent solar flares and coronal mass ejections. Although the cycle is now in a declining phase toward solar minimum around 2031-32, residual activity remains significant. For instance, an X5.1 solar flare in November 2025 generated a notable auroral event, with sightings extending to southern England. While this flare was less intense than the X8.8 and X9 flares of 2024, it demonstrates that even post-peak, substantial solar emissions can produce widespread auroras. The article posits that as solar activity gradually decreases, individual events in 2026 could still trigger impressive displays, emphasizing the nonlinear nature of solar phenomena. This analysis underscores the interplay between cyclical solar patterns and episodic events, offering insights for both public engagement and scientific observation of space weather impacts.",
       "source": "BBC Science",
-      "time_ago": "1 day ago",
+      "time_ago": "2 days ago",
       "image_url": "/article_images/article_819d86f0c8335e74_9215da7521fc.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1d6decb70e89865f",
-      "title": "Strategic Recovery of Critical Mineral Byproducts: A Data-Driven Analysis of U.S. Mining Potential",
-      "summary": "A comprehensive statistical study conducted by Elizabeth Holley and her research team demonstrates that the United States possesses substantial untapped reserves of critical minerals within existing metal mining operations. These minerals, including cobalt, nickel, manganese, lithium, tellurium, and germanium, are integral to advanced technologies such as rechargeable batteries for electric vehicles, magnets for wind turbines, semiconductors, and solar panels, yet they are frequently discarded as byproducts during the extraction of primary metals like copper, gold, zinc, or nickel. By integrating datasets on federally permitted mine production with detailed geochemical analyses of ore samples, the researchers quantified that recovering even minimal percentages—as low as 1%—of these byproducts could markedly diminish U.S. reliance on foreign imports, with 90% recovery potentially satisfying nearly all domestic critical mineral demands. This recovery not only offers significant economic advantages by transforming tailings, or mine waste, into valuable commodities but also enhances supply chain resilience for sectors pivotal to energy, technology, and national defense. Furthermore, it presents environmental benefits by reducing the volume and long-term ecological impact of waste storage. However, the feasibility of such recovery is contingent upon overcoming technological hurdles, such as developing cost-effective methods for separating complex ore mixtures, and necessitates supportive policy frameworks. The study underscores a strategic opportunity to leverage extant mining infrastructure for resource security, though it acknowledges limitations in current recovery capabilities and the need for further innovation to achieve scalable implementation.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_1d6decb70e89865f_def9779d10df.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7d0fa82b95ae9968",
-      "title": "JWST Observes Supernova at Cosmic Dawn: Implications for Early Stellar Evolution",
-      "summary": "In a landmark achievement, astronomers utilizing the James Webb Space Telescope (JWST) have identified a supernova, designated SN in GRB 250314A, at an extraordinary redshift of approximately z ≃ 7.3, corresponding to when the universe was merely 730 million years old during the reionisation epoch. The discovery originated from a long-duration gamma-ray burst (GRB) detected by the SVOM monitor, prompting subsequent observations with the European Southern Observatory's Very Large Telescope (ESO/VLT) for distance confirmation. JWST's Near Infrared Camera (NIRCAM) played a pivotal role approximately 110 days post-burst, enabling the isolation of the supernova's residual emission from its faint host galaxy, thus verifying its astrophysical nature. Spectral and photometric analyses reveal that this supernova closely mirrors SN 1998bw, a well-documented supernova associated with a GRB in the local universe, indicating that the progenitor star, despite forming in a low-metallicity environment characteristic of the early universe, underwent a similar explosive demise. These findings contest prior hypotheses positing that primordial stars would yield superluminous or distinctly different supernovae, instead suggesting a remarkable uniformity in the terminal phases of massive stars across cosmic history. The research, documented in 'Astronomy & Astrophysics', raises intriguing questions about stellar formation and death mechanisms in nascent cosmic conditions, with planned future JWST observations aimed at further elucidating the host galaxy's properties and the supernova's light curve evolution.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_7d0fa82b95ae9968_b2980b462bf7.webp",
       "category": "Science"
     },
     {
@@ -50,7 +50,7 @@
       "title": "Policy Retreat on Agricultural Inheritance Tax: Implications for Rural Economics and Political Dynamics",
       "summary": "The UK government has significantly diluted its inheritance tax proposal for agricultural land, raising the threshold from £1 million to £2.5 million in response to sustained opposition. Announced in the previous Budget, the initial plan sought to impose a 20% levy on inherited farm assets exceeding £1 million from April 2026, terminating the century-old tax relief that had shielded such properties. This policy reversal emerged after extensive farmer protests and dissent from Labour backbenchers, particularly in rural constituencies, underscoring the political sensitivity of agricultural taxation. Environment Secretary Emma Reynolds framed the adjustment as a measure to safeguard ordinary family farms while ensuring larger estates contribute more, aligning with broader fiscal equity goals. The National Farmers' Union endorsed the change as mitigating impacts on family operations, whereas the Country Land and Business Association warned that many businesses, despite high asset valuations and slim profit margins, could still face prohibitive tax burdens. Farmer Ben Ardern advocated for exempting genuine family farms entirely and redirecting taxation towards corporate entities using land for tax avoidance, highlighting deeper issues of land use and economic justice. The political ramifications included the suspension of MP Markus Campbell-Savours for defying the government, illustrating intra-party tensions. This episode reflects a complex interplay between economic policy, public mobilization, and legislative accountability, with ongoing debates about the sustainability of rural economies and the efficacy of targeted taxation reforms.",
       "source": "BBC Science",
-      "time_ago": "6 days ago",
+      "time_ago": "7 days ago",
       "image_url": "/article_images/article_7e5f5a8149ab098b_752f6445d80d.webp",
       "category": "Science"
     }
