@@ -1,11 +1,38 @@
 {
   "articles": [
     {
+      "id": "1764508aabc6e911",
+      "title": "Cosmic Collisions and Dark Matter: Decoding the Champagne Cluster Merger",
+      "summary": "In a groundbreaking astronomical study, researchers have detailed the Champagne Cluster, a distant galaxy cluster first cataloged on December 31, 2020, and informally named for its effervescent visual characteristics and temporal coincidence with New Year's Eve. Formally designated RM J130558.9+263048.4, this entity is elucidated through a composite image integrating data from NASA's Chandra X-ray Observatory and optical telescopes, revealing it as a binary galaxy cluster undergoing a merger. The X-ray emissions, depicted in purple, manifest an elongated morphology from superior to inferior axes, indicative of a collisional event rather than a monolithic structure, with dual galactic concentrations demarcating the progenitor clusters. Thermodynamic analysis shows that the hot intracluster gas, heated to millions of degrees, constitutes a mass exceeding the aggregate stellar content of over a hundred galaxies, while dark matter—a non-luminous gravitational component—predominates the total mass budget. Optical corroboration is provided by the Legacy Surveys, utilizing telescopes in Arizona and Chile for multiband imaging. This merger is categorized alongside rare analogues such as the Bullet Cluster, where hydrodynamic interactions produce discernible offsets between gaseous and galactic components, offering probes into dark matter properties. Investigators employed computational simulations to hypothesize dual chronologies: either a multi-billion-year pericentric passage with ongoing secondary collision, or a singular encounter approximately 400 million years antecedent with present-day recession. Published in The Astrophysical Journal by UC Davis astrophysicists, this research aims to refine models of dark matter behavior during high-velocity galactic interactions, contributing to cosmological paradigms.",
+      "source": "Science Daily",
+      "time_ago": "10 hours ago",
+      "image_url": "/article_images/article_1764508aabc6e911_c4026168e787.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7f56fc137fc2adbe",
+      "title": "Archaeological Insights into a Medieval Female Religious Community in Wales",
+      "summary": "Recent archaeological excavations at a medieval cemetery in Wales, dating to the 6th or 7th century, have yielded significant findings that advance our understanding of early female religious communities. The site, near Cardiff airport, has uncovered 58 skeletons, with an overwhelming majority identified as women, buried in shallow graves within limestone bedrock. Analysis of skeletal remains indicates arduous lifestyles, yet artefacts such as exquisite coloured glass beads imply access to luxury goods. A pivotal discovery is the outline of a potential small structure, interpreted as a shrine or chapel, centrally located with graves densely clustered around it, reflecting its sanctity and desirability for burial. Notably, some graves contain multiple interments, suggesting repeated use and possibly challenging traditional taboos. These elements collectively support the hypothesis that this was an early religious community for women, offering insights into gender roles, social organization, and religious practices in post-Roman Britain.",
+      "source": "BBC Science",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_7f56fc137fc2adbe_7096619b7b57.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6b327703ca1ce599",
+      "title": "Molecular Mechanisms of Immune Senescence: Platelet Factor 4 as a Regulator of Hematopoietic Stem Cell Aging",
+      "summary": "Aging induces systemic changes, including immune senescence, where hematopoietic stem cells in the bone marrow accumulate genetic mutations and alter their differentiation patterns. Researchers at the University of Illinois Chicago have elucidated a critical mechanism involving platelet factor 4, a protein whose decline with age disrupts stem cell homeostasis. In youth, platelet factor 4 functions as a paracrine signaling molecule that modulates the proliferation of hematopoietic stem cells, particularly restraining myeloid-biased divisions to maintain a balanced output of myeloid and lymphoid lineages. With advancing age, diminished production of platelet factor 4 by immune cells leads to dysregulated stem cell cycling, resulting in increased frequency of divisions and a preferential shift toward myeloid cell generation at the expense of lymphoid cells. This imbalance not only compromises adaptive immunity but also elevates the risk of clonal hematopoiesis, chronic inflammation, and malignancies such as myelodysplastic syndromes. Experimental interventions in murine models and human bone marrow assays demonstrated that exogenous supplementation of platelet factor 4 can ameliorate cellular aging phenotypes, restoring regulatory control and reducing mutational burden. These findings propose platelet factor 4 as a novel therapeutic target for mitigating age-associated hematological and immunological disorders, offering a paradigm for targeting specific molecular pathways to enhance healthspan in the elderly.",
+      "source": "Science Daily",
+      "time_ago": "17 hours ago",
+      "image_url": "/article_images/article_6b327703ca1ce599_27b98de8c354.webp",
+      "category": "Science"
+    },
+    {
       "id": "4a029eda89c83930",
       "title": "Quantifying the Synergistic Risk: Low-Dose Alcohol and Tobacco in Mouth Cancer Etiology in India",
       "summary": "A seminal comparative study published in BMJ Global Health investigates the association between low-dose daily alcohol consumption and the elevated risk of buccal mucosa cancer in India, revealing that intake of just 9 grams of alcohol per day—equivalent to one standard drink—correlates with a 50% increase in risk. Mouth cancer, predominantly affecting the buccal mucosa, represents the second most prevalent malignancy in India, with escalating incidence rates and dismal five-year survival outcomes of 43%. The research elucidates a synergistic effect when alcohol use is combined with tobacco chewing, estimating that this dual exposure may be responsible for 62% of all buccal mucosa cancer cases. Utilizing a case-control design, the study enrolled 1,803 individuals diagnosed with cancer and 1,903 controls from 2010 to 2021, employing detailed questionnaires to assess alcohol types (including 30 locally brewed variants) and tobacco habits. Findings indicate that locally brewed alcoholic beverages, particularly common in rural settings, confer the highest risk, and cancer patients exhibited longer tobacco use durations and higher daily alcohol consumption. This analysis underscores the critical need for nuanced public health interventions targeting the co-use of alcohol and tobacco to mitigate the burgeoning mouth cancer epidemic in India.",
       "source": "Science Daily",
-      "time_ago": "10 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_4a029eda89c83930_4c521d5b6369.webp",
       "category": "Science"
     },
@@ -14,26 +41,8 @@
       "title": "Relativistic Timekeeping on Mars: Precision Calculations for Interplanetary Coordination",
       "summary": "In a groundbreaking study published in The Astronomical Journal, physicists at the National Institute of Standards and Technology (NIST) have quantified the relativistic time differential between Earth and Mars, determining that Martian clocks tick an average of 477 microseconds faster per day. This phenomenon arises from Einstein's general theory of relativity, wherein weaker gravitational fields on Mars accelerate time passage, compounded by orbital eccentricities and gravitational perturbations from massive solar system bodies like the Sun and Jupiter, causing daily variations up to 226 microseconds. The research, extending a 2024 framework for lunar timekeeping, utilizes empirical data from Mars missions to model surface gravity and relativistic effects, addressing the complexities of interplanetary time synchronization. With Mars exhibiting a sol (day) approximately 40 minutes longer than Earth's and a year spanning 687 Earth days, precise chronometry is imperative for NASA's forthcoming exploration initiatives, facilitating accurate navigation, communication protocols, and operational coordination across astronomical distances. This advancement underscores the intersection of theoretical physics and practical aerospace engineering, pivotal for realizing sustained human presence beyond Earth.",
       "source": "Science Daily",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_3bad7d2a3bb54b4b_6357e0c90bca.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e654616fc79a2329",
-      "title": "Tectonic Architecture and Hydrothermal Dynamics: A Comprehensive Analysis of the Milos Vent Field",
-      "summary": "A groundbreaking study in Scientific Reports documents the discovery of an anomalously large hydrothermal vent field on the shallow continental shelf surrounding Milos, Greece, identified during the METEOR expedition M192. Researchers utilized a multidisciplinary methodology, integrating high-resolution underwater mapping, autonomous underwater vehicles (AUVs), and remotely operated vehicles (ROVs) to conduct detailed bathymetric and visual surveys. The investigation uncovered three principal vent clusters—Aghia Kiriaki, Paleochori-Thiorychia, and Vani—situated along active fault zones within the Milos Gulf-Fyriplaka graben, a tectonic depression resulting from extensional forces that have subsided seafloor sections to depths of up to 230 meters. These vents, exhibiting phenomena such as gas flares, effervescent fluids, and extensive microbial mats, constitute one of the most substantial shallow to intermediate depth hydrothermal systems in the Mediterranean, fundamentally altering perceptions of vent genesis and distribution in this region. The spatial correlation between vent arrays and fault geometries underscores the predominant influence of tectonic controls on hydrothermal fluid pathways. This research, spearheaded by a consortium of Greek and German institutions under the MARUM-based Cluster of Excellence 'The Ocean Floor—Earth's Uncharted Interface,' elucidates the interplay between tectonics, volcanism, and hydrothermal processes, with implications for understanding submarine geochemical cycles and extremophile biospheres. Future expeditions are planned to extrapolate findings to adjacent volcanic systems, such as Kolumbo and Nisyros, enhancing integrative earth science frameworks.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_e654616fc79a2329_95c2a910f1d1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "73b77805287fa58e",
-      "title": "Synthetic Biology Approach: mRNA-Mediated Liver Reprogramming to Counteract Age-Related Immunosenescence",
-      "summary": "Immunosenescence, the age-related decline in immune function, is characterized by reduced T cell populations and diminished responsiveness, increasing susceptibility to infections and impairing cancer immunotherapy efficacy in older adults. This decline is largely attributed to thymic involution, where the thymus—essential for T cell maturation—atrophies from early adulthood, becoming nonfunctional by approximately age 75. To address this, researchers from MIT and the Broad Institute have pioneered a synthetic biology strategy utilizing mRNA to transiently reprogram hepatocytes, transforming the liver into a bioreactor that secretes thymic-like factors. By delivering three key transcriptional regulators via lipid nanoparticles, they engineered a temporary 'factory' that enhances T cell survival and clonal diversity. In murine models, aged mice subjected to this intervention exhibited expanded and more heterogeneous T cell repertoires post-vaccination, alongside augmented responses to checkpoint blockade immunotherapy. Published in Nature, this study posits that such mRNA-based modulation could offer a scalable and minimally invasive therapeutic avenue to mitigate immunosenescence, potentially extending healthspan by bolstering immune resilience. The approach circumvents limitations of prior methodologies, such as systemic cytokine administration or stem cell transplantation, by leveraging the liver's protein synthesis capacity and circulatory access, thereby minimizing off-target effects.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_73b77805287fa58e_5fd4031c82a6.webp",
+      "image_url": "/article_images/article_3bad7d2a3bb54b4b_6357e0c90bca.webp",
       "category": "Science"
     },
     {
@@ -41,17 +50,8 @@
       "title": "Prospects for Auroral Displays in 2026: A Post-Peak Solar Cycle Analysis",
       "summary": "This article examines the likelihood of enhanced Northern Lights visibility in the UK during 2026, situated within the context of the Sun's 11-year solar cycle. NASA confirmed the cycle's peak in October 2024, characterized by heightened sunspot activity leading to frequent solar flares and coronal mass ejections. Although the cycle is now in a declining phase toward solar minimum around 2031-32, residual activity remains significant. For instance, an X5.1 solar flare in November 2025 generated a notable auroral event, with sightings extending to southern England. While this flare was less intense than the X8.8 and X9 flares of 2024, it demonstrates that even post-peak, substantial solar emissions can produce widespread auroras. The article posits that as solar activity gradually decreases, individual events in 2026 could still trigger impressive displays, emphasizing the nonlinear nature of solar phenomena. This analysis underscores the interplay between cyclical solar patterns and episodic events, offering insights for both public engagement and scientific observation of space weather impacts.",
       "source": "BBC Science",
-      "time_ago": "2 days ago",
+      "time_ago": "3 days ago",
       "image_url": "/article_images/article_819d86f0c8335e74_9215da7521fc.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7e5f5a8149ab098b",
-      "title": "Policy Retreat on Agricultural Inheritance Tax: Implications for Rural Economics and Political Dynamics",
-      "summary": "The UK government has significantly diluted its inheritance tax proposal for agricultural land, raising the threshold from £1 million to £2.5 million in response to sustained opposition. Announced in the previous Budget, the initial plan sought to impose a 20% levy on inherited farm assets exceeding £1 million from April 2026, terminating the century-old tax relief that had shielded such properties. This policy reversal emerged after extensive farmer protests and dissent from Labour backbenchers, particularly in rural constituencies, underscoring the political sensitivity of agricultural taxation. Environment Secretary Emma Reynolds framed the adjustment as a measure to safeguard ordinary family farms while ensuring larger estates contribute more, aligning with broader fiscal equity goals. The National Farmers' Union endorsed the change as mitigating impacts on family operations, whereas the Country Land and Business Association warned that many businesses, despite high asset valuations and slim profit margins, could still face prohibitive tax burdens. Farmer Ben Ardern advocated for exempting genuine family farms entirely and redirecting taxation towards corporate entities using land for tax avoidance, highlighting deeper issues of land use and economic justice. The political ramifications included the suspension of MP Markus Campbell-Savours for defying the government, illustrating intra-party tensions. This episode reflects a complex interplay between economic policy, public mobilization, and legislative accountability, with ongoing debates about the sustainability of rural economies and the efficacy of targeted taxation reforms.",
-      "source": "BBC Science",
-      "time_ago": "7 days ago",
-      "image_url": "/article_images/article_7e5f5a8149ab098b_752f6445d80d.webp",
       "category": "Science"
     }
   ]

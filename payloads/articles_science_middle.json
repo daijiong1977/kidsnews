@@ -1,11 +1,38 @@
 {
   "articles": [
     {
+      "id": "1764508aabc6e911",
+      "title": "Galaxy Merger Mystery: Unraveling the Champagne Cluster",
+      "summary": "Astronomers have unveiled the Champagne Cluster, a distant galaxy cluster first identified on December 31, 2020, and nicknamed for its bubbly appearance and association with New Year's celebrations. This cluster, formally known as RM J130558.9+263048.4, is revealed through composite imaging from NASA's Chandra X-ray Observatory and optical telescopes to be two galaxy clusters in the process of merging. The hot gas, detected by Chandra and represented in purple, exhibits an elongated shape from top to bottom, indicating a collision rather than a single cluster. Two concentrations of galaxies, positioned above and below the center, mark the merging groups. In this forming cluster, the mass of the hot gas surpasses that of all galaxies combined, with dark matter constituting an even larger portion of the total mass. Optical data from the Legacy Surveys, using telescopes in Arizona and Chile, complement the X-ray observations. The Champagne Cluster is a rare merger similar to the Bullet Cluster, where gas offsets provide clues about dark matter behavior. Researchers propose two scenarios for the collision: a two-billion-year-old event with a second collision ongoing, or a single collision 400 million years ago with clusters now separating. This study, published in The Astrophysical Journal by authors from UC Davis, aims to enhance understanding of dark matter dynamics during high-speed galactic interactions.",
+      "source": "Science Daily",
+      "time_ago": "10 hours ago",
+      "image_url": "/article_images/article_1764508aabc6e911_c4026168e787.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7f56fc137fc2adbe",
+      "title": "Uncovering the Secrets of a Medieval Female Cemetery",
+      "summary": "Archaeologists in Wales have made intriguing discoveries at a medieval cemetery dating to the 6th or 7th century, where 58 skeletons have been uncovered, with nearly all belonging to women. The site, located near Cardiff airport, features shallow graves cut into limestone bedrock, indicating hard lives but also wealth through artefacts like coloured glass beads. A key find is the outline of a potential small building, possibly a shrine or chapel, situated centrally with graves clustered around it, suggesting it was a highly desired burial location. Some graves contain multiple individuals, hinting at repeated use. These findings point to the cemetery being part of an early female religious community, helping archaeologists piece together the identity and social structure of these women from over a millennium ago.",
+      "source": "BBC Science",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_7f56fc137fc2adbe_7096619b7b57.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6b327703ca1ce599",
+      "title": "The Role of Platelet Factor 4 in Immune System Aging and Stem Cell Regulation",
+      "summary": "Aging impacts the immune system significantly, partly due to changes in hematopoietic stem cells, which produce all blood and immune cells. Researchers at the University of Illinois Chicago have identified that declining levels of a protein called platelet factor 4 contribute to this process. In younger individuals, platelet factor 4 acts as a signaling molecule that regulates the division of blood stem cells, maintaining a balance between myeloid cells (like red blood cells) and lymphoid cells (like T and B cells). As people age, immune cells produce less platelet factor 4, leading to uncontrolled stem cell division. This imbalance causes stem cells to favor myeloid production over lymphoid, weakening immune response and increasing the risk of mutations linked to cancers and chronic diseases. Studies in mice and human bone marrow samples showed that restoring platelet factor 4 in older cells reversed cellular aging signs, suggesting it as a potential therapeutic target for age-related blood and immune disorders. The findings highlight the importance of protein regulation in stem cell behavior and offer insights into combating immune decline in the elderly.",
+      "source": "Science Daily",
+      "time_ago": "17 hours ago",
+      "image_url": "/article_images/article_6b327703ca1ce599_27b98de8c354.webp",
+      "category": "Science"
+    },
+    {
       "id": "4a029eda89c83930",
       "title": "The Link Between Daily Alcohol Use and Increased Mouth Cancer Risk in India",
       "summary": "A comprehensive study published in BMJ Global Health reveals that low daily alcohol consumption, equivalent to about one standard drink (9 grams of alcohol), is associated with a 50% higher risk of developing mouth cancer in India. Mouth cancer, specifically affecting the buccal mucosa (the inner cheek and lip lining), is the second most common cancer in the country, with high mortality rates and poor survival outcomes. The research highlights that the combination of alcohol use and tobacco chewing significantly exacerbates this risk, potentially accounting for 62% of all buccal mucosa cancer cases. Conducted between 2010 and 2021, the study involved 1,803 cancer patients and 1,903 controls, examining their drinking habits, including both international and locally brewed beverages, and tobacco use. Findings indicate that locally brewed alcoholic drinks, prevalent in rural areas, pose the greatest risk, and longer tobacco use and higher alcohol intake are more common among cancer patients. This study underscores the urgent need for public health interventions to address the dual threat of alcohol and tobacco in preventing mouth cancer.",
       "source": "Science Daily",
-      "time_ago": "10 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_4a029eda89c83930_4c521d5b6369.webp",
       "category": "Science"
     },
@@ -14,26 +41,8 @@
       "title": "Calculating Martian Time: How Gravity and Orbits Affect Clocks",
       "summary": "Scientists at the National Institute of Standards and Technology (NIST) have precisely calculated that time on Mars passes 477 microseconds faster per day than on Earth, due to differences in gravity and orbital dynamics. This finding, based on Einstein's theory of relativity, reveals that weaker gravity on Mars causes clocks to tick faster, but the effect varies by up to 226 microseconds daily because of Mars' elongated orbit and gravitational pulls from other celestial bodies like the Sun and Jupiter. The research, published in The Astronomical Journal, builds on earlier work for lunar timekeeping and addresses the challenge of coordinating time across the solar system. With Mars having a day 40 minutes longer and a year 687 Earth days long, accurate timing is crucial for future NASA missions, enabling better navigation, communication, and operational coordination for explorers. The study used data from Mars missions to estimate surface gravity and account for relativistic effects, highlighting the complexities of interplanetary time synchronization.",
       "source": "Science Daily",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_3bad7d2a3bb54b4b_6357e0c90bca.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e654616fc79a2329",
-      "title": "Uncovering a Major Hydrothermal Field: Tectonic Insights Off Greece",
-      "summary": "A recent study published in Scientific Reports details the discovery of an extensive hydrothermal vent field in the shallow waters around Milos, Greece. During the METEOR expedition M192, researchers employed advanced techniques such as underwater mapping, autonomous vehicles, and remotely operated vehicles to survey the seafloor. They identified three primary vent regions—Aghia Kiriaki, Paleochori-Thiorychia, and Vani—located along active fault zones within the Milos Gulf-Fyriplaka graben, a tectonic depression. These vents, found at depths of 100 to 230 meters, represent one of the largest shallow to intermediate depth hydrothermal systems in the Mediterranean, reshaping understanding of vent activity in the region. The vents exhibit diverse features, including gas flares, boiling fluids, and microbial mats, with their patterns closely aligned with fault structures. This discovery highlights the role of tectonic forces in guiding hydrothermal fluid release and provides insights into interactions between tectonics, volcanism, and hydrothermal processes. The research, led by scientists from Greek and German institutions, is part of the Cluster of Excellence 'The Ocean Floor—Earth's Uncharted Interface' and plans further expeditions to nearby volcanic sites.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_e654616fc79a2329_95c2a910f1d1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "73b77805287fa58e",
-      "title": "MIT Researchers Develop mRNA Method to Boost Aging Immune Systems",
-      "summary": "As aging occurs, the immune system often declines, leading to reduced T cell populations and slower responses to pathogens, increasing vulnerability to infections in older adults. To combat this, scientists from MIT and the Broad Institute have developed an innovative approach using mRNA to temporarily reprogram liver cells. This method aims to compensate for thymic involution, where the thymus—an organ crucial for T cell maturation—shrinks with age, reducing new T cell production. By delivering three key factors via mRNA, the researchers created a synthetic 'factory' in the liver that mimics thymic signals, enhancing T cell survival and diversity. In experiments with older mice, this treatment resulted in larger and more varied T cell populations after vaccination and improved responses to cancer immunotherapy. Published in Nature, this study suggests potential future applications for human patients to maintain immune health and reduce disease risk as they age, offering a safer alternative to previous methods that caused side effects.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_73b77805287fa58e_5fd4031c82a6.webp",
+      "image_url": "/article_images/article_3bad7d2a3bb54b4b_6357e0c90bca.webp",
       "category": "Science"
     },
     {
@@ -41,17 +50,8 @@
       "title": "Solar Activity Promises Enhanced Northern Lights Viewing in 2026",
       "summary": "The article predicts that 2026 will be a promising year for observing the Northern Lights in the UK, due to ongoing solar activity. The Sun follows an 11-year cycle, with peak activity occurring in late 2024, as confirmed by NASA. Despite moving past this peak, solar events like flares and coronal mass ejections continue to occur, sending charged particles toward Earth that interact with the atmosphere to create auroras. In November 2025, an X5.1 solar flare triggered a significant Northern Lights display, visible as far south as Devon and Cornwall. While the strongest flares of 2024 were more intense, the current cycle remains active, with solar minimum not expected until around 2031-32. Consequently, even a single large solar event in 2026 could produce stunning auroral displays across the UK. The article emphasizes that while solar activity is declining, it remains sufficient for potential sightings, offering hope for skywatchers.",
       "source": "BBC Science",
-      "time_ago": "2 days ago",
+      "time_ago": "3 days ago",
       "image_url": "/article_images/article_819d86f0c8335e74_9215da7521fc.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7e5f5a8149ab098b",
-      "title": "Revised Inheritance Tax on Farms: Balancing Policy and Protests",
-      "summary": "The UK government has revised its proposal to tax inherited farmland, increasing the threshold from £1 million to £2.5 million after facing significant opposition. Initially announced in last year's Budget, the plan aimed to impose a 20% tax on agricultural assets above £1 million from April 2026, ending long-standing tax relief. This climbdown followed months of protests by farmers and concerns from Labour backbenchers in rural areas. Environment Secretary Emma Reynolds stated that the change protects more ordinary family farms while ensuring larger estates contribute more. The National Farmers' Union welcomed the adjustment, noting it removes many family farms from tax liability, but the Country Land and Business Association cautioned that some businesses with high-value assets might still face unaffordable burdens due to narrow profit margins. Farmer Ben Ardern viewed it as a positive step but argued for exempting family farms entirely and targeting corporations that invest in land for tax avoidance. The political fallout included a suspended MP for voting against the government, highlighting internal dissent. This revision reflects the government's responsiveness to public pressure but leaves ongoing debates about fairness and economic impact in rural communities.",
-      "source": "BBC Science",
-      "time_ago": "7 days ago",
-      "image_url": "/article_images/article_7e5f5a8149ab098b_752f6445d80d.webp",
       "category": "Science"
     }
   ]
