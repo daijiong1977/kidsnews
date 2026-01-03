@@ -1,0 +1,108 @@
+{
+  "title": "Snow and Ice Cover the UK: A Weather Alert Story",
+  "summary": "Parts of the UK are covered in snow and ice this weekend, with weather warnings in place. In Scotland, there is an amber warning for heavy snow until noon, which means it could cause problems like travel delays. Other areas like England, Wales, and Northern Ireland have yellow warnings for snow and ice until Monday, which are less severe but still need caution. The Met Office, which is the weather service, says Scotland might get up to 40cm of snow, while England and Wales could see 5cm. Temperatures are very cold, staying near or below freezing, especially in northern Scotland where it might drop to -8°C. This cold weather comes from Arctic air. People are advised to be careful because roads and trains might be delayed or cancelled, and there could be power cuts. Gritters and snowploughs, like ones with funny names, are working to clear roads. The warnings will last through the weekend, so it's important to stay warm and safe.",
+  "keywords": [
+    {
+      "term": "amber warning",
+      "explanation": "a serious weather alert that means heavy snow could cause big problems"
+    },
+    {
+      "term": "yellow warning",
+      "explanation": "a weather alert that means snow and ice might cause some issues"
+    },
+    {
+      "term": "Met Office",
+      "explanation": "the group that tells us about the weather in the UK"
+    },
+    {
+      "term": "travel delays",
+      "explanation": "when buses, trains, or cars are late because of bad weather"
+    },
+    {
+      "term": "power cuts",
+      "explanation": "when electricity stops working for a while"
+    },
+    {
+      "term": "gritters",
+      "explanation": "trucks that spread salt on roads to melt ice"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What color is the serious weather warning in Scotland?",
+      "options": [
+        "Amber",
+        "Yellow",
+        "Red",
+        "Blue"
+      ],
+      "correct_answer": "Amber"
+    },
+    {
+      "question": "How long do the yellow warnings last in some areas?",
+      "options": [
+        "Until noon",
+        "Until Monday",
+        "Until next week",
+        "Until Friday"
+      ],
+      "correct_answer": "Until Monday"
+    },
+    {
+      "question": "Who gives weather warnings in the UK?",
+      "options": [
+        "The Police",
+        "The Met Office",
+        "The School",
+        "The Hospital"
+      ],
+      "correct_answer": "The Met Office"
+    },
+    {
+      "question": "What might happen because of the snow and ice?",
+      "options": [
+        "Travel delays",
+        "More sunshine",
+        "Warmer temperatures",
+        "No changes"
+      ],
+      "correct_answer": "Travel delays"
+    },
+    {
+      "question": "What are gritters used for?",
+      "options": [
+        "To plant trees",
+        "To clear snow from roads",
+        "To fly planes",
+        "To cook food"
+      ],
+      "correct_answer": "To clear snow from roads"
+    },
+    {
+      "question": "Where is it expected to be coldest?",
+      "options": [
+        "Southern England",
+        "Northern Scotland",
+        "Wales",
+        "London"
+      ],
+      "correct_answer": "Northern Scotland"
+    }
+  ],
+  "background_read": [
+    "This article talks about cold weather in the UK with snow and ice warnings. Weather warnings help people know when to be careful. The UK often gets cold winters, and services like gritters help keep roads safe. It's important to listen to warnings to stay safe during bad weather."
+  ],
+  "Article_Structure": [
+    "WHO: The Met Office and people in the UK",
+    "WHAT: Snow and ice warnings are in place, causing travel issues",
+    "WHERE: Scotland, England, Wales, and Northern Ireland",
+    "WHY: Because cold Arctic air is making temperatures drop, leading to snow and ice"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Safety",
+      "description": "The article focuses on keeping people safe by warning about travel delays and power cuts."
+    }
+  ],
+  "image_url": "/article_images/article_c7323def1e716e4b_f37920d9f857.webp"
+}

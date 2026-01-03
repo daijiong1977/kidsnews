@@ -1,30 +1,48 @@
 {
   "articles": [
     {
+      "id": "74e06cbc4fff7832",
+      "title": "Old Bones Tell Stories of Ancient Animals",
+      "summary": "Scientists have found tiny chemicals inside old bones from animals that lived millions of years ago. These chemicals, called metabolites, help us learn about the animals' health, what they ate, and the world they lived in. The bones came from places in Africa like Tanzania and South Africa. By studying these metabolites, researchers discovered that the ancient climate was warmer and wetter than today. They used a tool called mass spectrometry to see the chemicals. This new method lets us understand daily life in the past, not just family trees from DNA. It's like reading a diary written in bone!",
+      "source": "Science Daily",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_74e06cbc4fff7832_8d6fa272e1b1.webp",
+      "category": "Science"
+    },
+    {
+      "id": "a43b3cdce42498e5",
+      "title": "Scientists Test Eating Times Without Eating Less",
+      "summary": "Scientists did a study to see if eating only during certain hours helps people's health without eating less food. They tested 31 women who ate the same amount of food but at different times: early from 8 a.m. to 4 p.m. or late from 1 p.m. to 9 p.m. After two weeks, they found no big changes in health things like how the body uses sugar or fat. But they did see that eating times can change the body's internal clock, which is like a timer inside us that tells us when to sleep or be active. This means that just changing when you eat, without eating less, might not make you healthier. The study was done by scientists in Germany and published in a science journal.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_a43b3cdce42498e5_aa2f8b2c7875.webp",
+      "category": "Science"
+    },
+    {
+      "id": "68ec4f0fbe42f423",
+      "title": "Nerves Can Heal at Any Age After a Back Injury",
+      "summary": "Scientists studied how people recover after a spinal cord injury, which happens when the nerves in the back are damaged. They found that age does not stop nerves from healing. Older people and younger people both regained strength and feeling in their arms and legs similarly. However, older adults had more trouble with daily activities like walking, bathing, and eating on their own. The study followed over 2,000 patients for one year in Europe. This research helps doctors understand that age is not a barrier to nerve recovery, but older people might need extra help with everyday tasks. It could lead to better treatments for everyone with spinal cord injuries.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_68ec4f0fbe42f423_004177c67acc.webp",
+      "category": "Science"
+    },
+    {
+      "id": "58459e54a98f268f",
+      "title": "Brain Clues That Warn About Alzheimer's Early",
+      "summary": "Scientists in Singapore found that the brain's cleaning system can get blocked in people who might get Alzheimer's disease. These blockages are called enlarged perivascular spaces and can be seen on MRI scans, which are pictures of the brain. The study looked at nearly 1,000 people in Singapore, including those with normal thinking and those with early memory problems. This research is important because it focuses on Asian people, who are often not studied enough in Alzheimer's research. Finding these blockages early could help doctors detect Alzheimer's sooner, giving more time to help slow down symptoms like memory loss. The brain uses these spaces to remove harmful waste, and when they get clogged, it might be a warning sign for the disease.",
+      "source": "Science Daily",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_58459e54a98f268f_7d71f862820a.webp",
+      "category": "Science"
+    },
+    {
       "id": "747fef99aae6883d",
       "title": "Wales' New Green Farming Plan After Brexit",
       "summary": "Wales has started a new plan to help farmers after leaving the EU. This plan gives money to farms that do things to help the environment, like taking care of land and using fewer chemicals. Farmers must manage at least 10% of their land as a habitat to join. Some farmers are happy, but others, like dairy farmers, find it hard because their land might not qualify. There were protests before because people thought the plan was not good, but after talks, it is now better. The government says this is a big moment for Wales. Farms used to get money from the EU based on how much land they had, but now they get paid for being green. The plan has rules like keeping hedges healthy and learning about sustainable farming online. More money is available for farms that do extra environmental work. People hope many farmers will join to make the countryside better.",
       "source": "BBC Science",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_747fef99aae6883d_9143e9f24b2b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d51a16137c8d4688",
-      "title": "Exercise Makes You Burn More Energy All Day",
-      "summary": "A new study shows that when you exercise, your body uses more energy throughout the whole day without cutting back on other important tasks. Scientists from Virginia Tech and other universities worked together to learn about how physical activity affects our energy budget, which is like how our body spends energy on different jobs. They studied 75 people of different ages and activity levels, from not very active to ultra-runners. The participants wore sensors to track movement and drank special water to measure calories burned. The results found that moving more leads to burning more calories, and the body doesn't reduce energy used for things like breathing or keeping warm. This means exercise helps you use extra energy without your body canceling it out, which is good news for staying healthy.",
-      "source": "Science Daily",
-      "time_ago": "15 hours ago",
-      "image_url": "/article_images/article_d51a16137c8d4688_a15dab57c6f3.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1764508aabc6e911",
-      "title": "A Bubbly Space Crash: The Champagne Cluster",
-      "summary": "Astronomers found a special group of galaxies called the Champagne Cluster. It looks like bubbles and was discovered on New Year's Eve in 2020. This cluster is actually two groups of galaxies crashing into each other. The hot gas from the crash is shown in purple in pictures from a space telescope. The gas is stretched out, which tells scientists it's a collision. There are also two bunches of galaxies, one above and one below, showing the two groups. The hot gas and dark matter, which we can't see, make up most of the mass in this cluster. Scientists use telescopes on Earth to take pictures in colors like red, green, and blue. They compare what they see with computer games to guess how the crash happened. This helps them learn about dark matter in space.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_1764508aabc6e911_c4026168e787.webp",
+      "image_url": "/article_images/article_747fef99aae6883d_9143e9f24b2b.webp",
       "category": "Science"
     },
     {
@@ -32,26 +50,8 @@
       "title": "Mystery of Women in a Medieval Cemetery",
       "summary": "Archaeologists in Wales are trying to solve a mystery about women buried in a medieval cemetery. They found 58 skeletons from the 6th or 7th century, and almost all are women. The team discovered a small building outline, beads, and other items that show the women might have been part of a religious community. The graves are shallow and cut into rock, and people wanted to be buried near the building, sometimes sharing graves. This helps us learn about life long ago and who these women were.",
       "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_7f56fc137fc2adbe_7096619b7b57.webp",
-      "category": "Science"
-    },
-    {
-      "id": "6b327703ca1ce599",
-      "title": "How a Missing Protein Makes Our Immune System Weaker as We Age",
-      "summary": "As people get older, their immune system can become weaker, making it harder to fight off sickness. Scientists have found that a protein called platelet factor 4 is important for keeping our immune system strong. This protein helps control special cells in our bone marrow called blood stem cells, which make all the cells in our blood and immune system. When we are young, platelet factor 4 tells these stem cells when to divide and make new cells. But as we age, our bodies produce less of this protein. Without enough platelet factor 4, the stem cells divide too much and can get damaged, leading to more health problems like infections or cancer. In experiments with mice, scientists showed that adding back platelet factor 4 to older cells helped reverse some signs of aging, making them act like younger cells again. This discovery could lead to new treatments to help older people stay healthier by boosting their immune systems.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_6b327703ca1ce599_27b98de8c354.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4a029eda89c83930",
-      "title": "How Drinking a Little Alcohol Can Increase Mouth Cancer Risk",
-      "summary": "A new study from India shows that drinking even a small amount of alcohol every day, like one drink, can raise the risk of getting mouth cancer by 50%. Mouth cancer is a serious disease that affects the inside of the cheeks and lips, and it is very common in India, causing many deaths each year. The study found that people who drink alcohol and also chew tobacco have an even higher risk, with this combination possibly causing over half of all mouth cancer cases in the country. Researchers looked at thousands of people, some with cancer and some without, to learn about their drinking and tobacco habits. They discovered that locally made alcoholic drinks, often drunk in rural areas, are especially risky. This research helps us understand why it's important to be careful with alcohol and tobacco to stay healthy.",
-      "source": "Science Daily",
       "time_ago": "2 days ago",
-      "image_url": "/article_images/article_4a029eda89c83930_4c521d5b6369.webp",
+      "image_url": "/article_images/article_7f56fc137fc2adbe_7096619b7b57.webp",
       "category": "Science"
     }
   ]
