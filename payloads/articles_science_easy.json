@@ -1,39 +1,48 @@
 {
   "articles": [
     {
-      "id": "74e06cbc4fff7832",
-      "title": "Old Bones Tell Stories of Ancient Animals",
-      "summary": "Scientists have found tiny chemicals inside old bones from animals that lived millions of years ago. These chemicals, called metabolites, help us learn about the animals' health, what they ate, and the world they lived in. The bones came from places in Africa like Tanzania and South Africa. By studying these metabolites, researchers discovered that the ancient climate was warmer and wetter than today. They used a tool called mass spectrometry to see the chemicals. This new method lets us understand daily life in the past, not just family trees from DNA. It's like reading a diary written in bone!",
-      "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_74e06cbc4fff7832_8d6fa272e1b1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a43b3cdce42498e5",
-      "title": "Scientists Test Eating Times Without Eating Less",
-      "summary": "Scientists did a study to see if eating only during certain hours helps people's health without eating less food. They tested 31 women who ate the same amount of food but at different times: early from 8 a.m. to 4 p.m. or late from 1 p.m. to 9 p.m. After two weeks, they found no big changes in health things like how the body uses sugar or fat. But they did see that eating times can change the body's internal clock, which is like a timer inside us that tells us when to sleep or be active. This means that just changing when you eat, without eating less, might not make you healthier. The study was done by scientists in Germany and published in a science journal.",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_a43b3cdce42498e5_aa2f8b2c7875.webp",
-      "category": "Science"
-    },
-    {
-      "id": "68ec4f0fbe42f423",
-      "title": "Nerves Can Heal at Any Age After a Back Injury",
-      "summary": "Scientists studied how people recover after a spinal cord injury, which happens when the nerves in the back are damaged. They found that age does not stop nerves from healing. Older people and younger people both regained strength and feeling in their arms and legs similarly. However, older adults had more trouble with daily activities like walking, bathing, and eating on their own. The study followed over 2,000 patients for one year in Europe. This research helps doctors understand that age is not a barrier to nerve recovery, but older people might need extra help with everyday tasks. It could lead to better treatments for everyone with spinal cord injuries.",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_68ec4f0fbe42f423_004177c67acc.webp",
-      "category": "Science"
-    },
-    {
-      "id": "58459e54a98f268f",
-      "title": "Brain Clues That Warn About Alzheimer's Early",
-      "summary": "Scientists in Singapore found that the brain's cleaning system can get blocked in people who might get Alzheimer's disease. These blockages are called enlarged perivascular spaces and can be seen on MRI scans, which are pictures of the brain. The study looked at nearly 1,000 people in Singapore, including those with normal thinking and those with early memory problems. This research is important because it focuses on Asian people, who are often not studied enough in Alzheimer's research. Finding these blockages early could help doctors detect Alzheimer's sooner, giving more time to help slow down symptoms like memory loss. The brain uses these spaces to remove harmful waste, and when they get clogged, it might be a warning sign for the disease.",
+      "id": "9d8649c30112d512",
+      "title": "How Diabetes Changes Your Heart",
+      "summary": "Scientists in Australia found that type 2 diabetes makes the heart different inside. They looked at heart tissue from people who had diabetes and heart problems. They saw that diabetes changes how the heart makes energy and how the muscle looks. This can make the heart weaker and not pump blood well. Diabetes is a disease where the body has trouble with sugar. Heart disease is a big problem in Australia. This study helps doctors understand why people with diabetes get sicker hearts. It might lead to new treatments to help keep hearts healthy.",
       "source": "Science Daily",
       "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_58459e54a98f268f_7d71f862820a.webp",
+      "image_url": "/article_images/article_9d8649c30112d512_e5d6fa2b57eb.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7a433269aba67cb7",
+      "title": "Your Body Clock and Brain Health",
+      "summary": "Scientists have found that our body clock, which tells us when to sleep and be active, might be linked to dementia. Dementia is a condition that affects memory and thinking as people get older. In a study with over 2,000 older adults, researchers used heart monitors to track daily activity. They discovered that people with weaker body clocks, meaning their sleep and activity times were less regular, were more likely to develop dementia. Also, those who were most active later in the day had a higher risk. This doesn't mean a weak body clock causes dementia, but it could be an early warning sign. The study helps doctors understand how keeping a regular schedule might protect brain health.",
+      "source": "Science Daily",
+      "time_ago": "11 hours ago",
+      "image_url": "/article_images/article_7a433269aba67cb7_f50c9d580870.webp",
+      "category": "Science"
+    },
+    {
+      "id": "51139d293c57843b",
+      "title": "An Old Fossil That Might Change How We Think About Human Beginnings",
+      "summary": "Scientists found a very old fossil called Sahelanthropus tchadensis that is about seven million years old. They think it could walk on two legs, which would make it the earliest human ancestor we know. The fossil was discovered in Chad, Africa, in the early 2000s. Researchers used special 3D imaging to look at its bones and found a small part called the femoral tubercle that helps with standing and walking upright. This fossil had a brain like a chimpanzee and probably lived in trees too, but it could walk on the ground. The study was done by a team from different universities and published in a science journal. This discovery helps us learn more about how humans started to walk on two legs long ago.",
+      "source": "Science Daily",
+      "time_ago": "13 hours ago",
+      "image_url": "/article_images/article_51139d293c57843b_b88436cc1a9e.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8c0bcedb9a538753",
+      "title": "How Our Brain's Clocks Help Us Think",
+      "summary": "Our brain is like a busy city with different parts working at their own speeds. Some parts react quickly to things around us, like catching a ball, while others work slowly to understand stories or make plans. Scientists studied how the brain connects these fast and slow parts using white matter, which are like roads in the brain. They looked at brain scans from almost 1,000 people to see how information travels. They found that everyone's brain has its own timing system, and this affects how well we think and learn. People with brains that match their timing better tend to be smarter. This research helps us understand why people think differently and could help with brain health issues like depression in the future.",
+      "source": "Science Daily",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_8c0bcedb9a538753_7e4fe63cd8c5.webp",
+      "category": "Science"
+    },
+    {
+      "id": "b243ed0717e037e4",
+      "title": "A Saturn-Sized Planet Found in Space",
+      "summary": "Scientists have found a new planet in space that is as big as Saturn. They used a special method called microlensing to see it. Microlensing happens when a planet moves between Earth and a star, making the star look brighter for a short time. This planet is special because it is not orbiting any star; it is floating alone in space. It is called a rogue planet. The planet was found in a place called the \"Einstein desert,\" which is a gap where not many planets are seen. This discovery helps scientists learn how rogue planets are made. They think rogue planets can form in two ways: either they are kicked out of their star system by gravity, or they form like stars but stop growing. The planet was spotted by telescopes on Earth and a space telescope called Gaia. Finding this planet tells us more about the universe and the different kinds of planets out there.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_b243ed0717e037e4_3ef463aaac91.webp",
       "category": "Science"
     },
     {
@@ -41,17 +50,8 @@
       "title": "Wales' New Green Farming Plan After Brexit",
       "summary": "Wales has started a new plan to help farmers after leaving the EU. This plan gives money to farms that do things to help the environment, like taking care of land and using fewer chemicals. Farmers must manage at least 10% of their land as a habitat to join. Some farmers are happy, but others, like dairy farmers, find it hard because their land might not qualify. There were protests before because people thought the plan was not good, but after talks, it is now better. The government says this is a big moment for Wales. Farms used to get money from the EU based on how much land they had, but now they get paid for being green. The plan has rules like keeping hedges healthy and learning about sustainable farming online. More money is available for farms that do extra environmental work. People hope many farmers will join to make the countryside better.",
       "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_747fef99aae6883d_9143e9f24b2b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7f56fc137fc2adbe",
-      "title": "Mystery of Women in a Medieval Cemetery",
-      "summary": "Archaeologists in Wales are trying to solve a mystery about women buried in a medieval cemetery. They found 58 skeletons from the 6th or 7th century, and almost all are women. The team discovered a small building outline, beads, and other items that show the women might have been part of a religious community. The graves are shallow and cut into rock, and people wanted to be buried near the building, sometimes sharing graves. This helps us learn about life long ago and who these women were.",
-      "source": "BBC Science",
       "time_ago": "2 days ago",
-      "image_url": "/article_images/article_7f56fc137fc2adbe_7096619b7b57.webp",
+      "image_url": "/article_images/article_747fef99aae6883d_9143e9f24b2b.webp",
       "category": "Science"
     }
   ]

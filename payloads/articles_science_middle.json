@@ -1,39 +1,48 @@
 {
   "articles": [
     {
-      "id": "74e06cbc4fff7832",
-      "title": "Unlocking Ancient Secrets Through Fossil Metabolites",
-      "summary": "Researchers have pioneered a method to analyze metabolites preserved in fossilized bones from 1.3 to 3 million years ago, offering unprecedented insights into ancient ecosystems. By examining these metabolic molecules, which are linked to health, diet, and environmental exposure, the team reconstructed past climates in Africa, revealing warmer and wetter conditions than present-day regions. Using mass spectrometry, they identified thousands of metabolites in bones from animals like rodents, antelopes, and elephants excavated from Tanzania, Malawi, and South Africa. This approach contrasts with traditional DNA studies by focusing on daily biological processes rather than genetic relationships. Led by Timothy Bromage, the study highlights how bone microstructure can trap metabolites over millennia, enabling discoveries such as evidence of parasitic infection in a ground squirrel. Published in Nature, this research advances paleontology by providing a chemical window into the lives of ancient species and their habitats.",
-      "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_74e06cbc4fff7832_8d6fa272e1b1.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a43b3cdce42498e5",
-      "title": "Study Finds No Health Benefits from Time-Restricted Eating Without Calorie Reduction",
-      "summary": "A recent study from German research institutes challenges the idea that time-restricted eating (TRE) improves metabolic health when calorie intake is unchanged. TRE involves limiting daily eating to a window of up to ten hours, followed by fasting, and has been popular for weight management. The ChronoFast study, led by Prof. Olga Ramich, tested 31 women with overweight or obesity using a randomized crossover design. Participants followed two schedules: early TRE from 8 a.m. to 4 p.m. and late TRE from 1 p.m. to 9 p.m., while eating identical isocaloric meals. Researchers measured insulin sensitivity, blood sugar, fat metabolism, and circadian rhythms using methods like oral glucose tolerance tests and the BodyTime assay. Results showed no significant improvements in metabolic or cardiovascular markers after two weeks, suggesting earlier benefits might have been due to unintentional calorie reduction. However, meal timing did shift internal clocks by an average of 40 minutes, indicating effects on circadian rhythms. This study highlights the importance of controlling calories in dietary research and questions the standalone benefits of TRE for health.",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_a43b3cdce42498e5_aa2f8b2c7875.webp",
-      "category": "Science"
-    },
-    {
-      "id": "68ec4f0fbe42f423",
-      "title": "Age and Recovery After Spinal Cord Injury: Nerve Healing vs. Functional Challenges",
-      "summary": "A study published in Neurology in December 2025 investigated the impact of age on recovery following spinal cord injuries. Researchers analyzed data from 2,171 patients across Europe, with an average age of 47, tracking their progress over one year. The findings revealed that neurological recovery, including motor strength and sensory abilities like touch perception, was not influenced by age; older and younger participants showed similar improvements. However, functional recovery presented a different scenario: older adults experienced greater difficulties in regaining independence in daily activities such as feeding, bathing, and mobility. They also showed poorer outcomes in walking assessments. The study measured functional scores on a scale from 0 to 100, noting that each additional decade of age was associated with a 4.3-point decrease in improvement. This research highlights that while the body's nerve healing capacity remains consistent across ages, age-related factors may hinder practical functional recovery, suggesting a need for age-tailored rehabilitation strategies to enhance quality of life for spinal cord injury patients.",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_68ec4f0fbe42f423_004177c67acc.webp",
-      "category": "Science"
-    },
-    {
-      "id": "58459e54a98f268f",
-      "title": "Early Warning Signs of Alzheimer's in Brain Waste Removal",
-      "summary": "Researchers from Nanyang Technological University in Singapore discovered that enlarged perivascular spaces, which are clogged pathways in the brain's waste removal system, are linked to early signs of Alzheimer's disease. These blockages can be detected using routine MRI scans and may serve as an early warning signal before dementia symptoms like memory loss develop. The study involved nearly 1,000 participants in Singapore, including individuals with normal cognitive function and those with mild cognitive impairment, to compare brain health. A key aspect of this research is its focus on Asian populations, which have been underrepresented in Alzheimer's studies, as findings from Caucasian groups may not apply universally due to genetic differences, such as lower prevalence of the apolipoprotein E4 risk gene in Singapore. By examining how these enlarged spaces relate to established Alzheimer's markers like beta amyloid buildup, the team aims to improve early detection methods, allowing for earlier medical interventions to slow disease progression.",
+      "id": "9d8649c30112d512",
+      "title": "Diabetes Alters Heart Structure and Function: A Scientific Study",
+      "summary": "Researchers at the University of Sydney conducted a study revealing that type 2 diabetes directly impacts the heart's physical structure and energy production mechanisms. Published in EMBO Molecular Medicine, the research analyzed donated human heart tissue from transplant recipients with diabetes and heart disease, comparing it to healthy donor tissue. The findings show that diabetes causes specific molecular changes in heart cells, altering how the heart generates energy and maintains muscle integrity. These effects are particularly severe in patients with ischemia cardiomyopathy, a common cause of heart failure. Using advanced microscopy, the team observed fibrosis, or fibrous tissue buildup, in the heart muscle due to diabetes. This study provides new insights into the link between diabetes and heart disease, suggesting that diabetes actively worsens heart failure by disrupting biological processes. Heart disease is a leading cause of death in Australia, affecting over 1.2 million people with type 2 diabetes, highlighting the importance of this research for developing potential treatments.",
       "source": "Science Daily",
       "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_58459e54a98f268f_7d71f862820a.webp",
+      "image_url": "/article_images/article_9d8649c30112d512_e5d6fa2b57eb.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7a433269aba67cb7",
+      "title": "Circadian Rhythm Disruptions and Dementia Risk in Older Adults",
+      "summary": "A recent study published in Neurology explores the connection between circadian rhythm disruptions and dementia risk. Circadian rhythms are the body's internal clocks that regulate sleep-wake cycles and other functions like hormone release. Researchers followed 2,183 adults with an average age of 79, using heart monitors to measure rest-activity patterns over about 12 days. They found that individuals with weaker and more irregular circadian rhythms, indicated by lower relative amplitude in activity, had nearly 2.5 times higher risk of developing dementia over three years. Additionally, those whose daily activity peaked later in the afternoon (after 2:15 p.m.) faced a 45% increased risk compared to earlier peakers. The study adjusted for factors like age and heart disease, suggesting that circadian disturbances may serve as an early warning for dementia, though it does not establish causation. This research highlights the importance of maintaining regular daily rhythms for brain health in aging populations.",
+      "source": "Science Daily",
+      "time_ago": "11 hours ago",
+      "image_url": "/article_images/article_7a433269aba67cb7_f50c9d580870.webp",
+      "category": "Science"
+    },
+    {
+      "id": "51139d293c57843b",
+      "title": "New Evidence Suggests Early Human Ancestor Walked Upright Seven Million Years Ago",
+      "summary": "A recent study published in Science Advances provides strong evidence that Sahelanthropus tchadensis, a species dating back about seven million years, was capable of bipedal walking, potentially making it the earliest known human ancestor. Researchers used advanced 3D imaging and analytical techniques to examine fossils discovered in the Djurab desert of Chad in the early 2000s. They identified a femoral tubercle, a skeletal feature linked to the iliofemoral ligament crucial for upright posture, along with other anatomical traits like femoral antetorsion and a gluteal complex that support bipedal movement. The analysis also compared limb proportions, showing Sahelanthropus had a longer femur relative to its ulna, resembling early hominins like Australopithecus more than apes. Lead author Scott Williams notes that Sahelanthropus was a bipedal ape with a chimpanzee-sized brain that likely spent time in trees but adapted to ground movement. This collaborative research involved scientists from multiple institutions and addresses long-standing debates about the species' locomotion, offering insights into the early evolution of bipedalism in the human lineage.",
+      "source": "Science Daily",
+      "time_ago": "13 hours ago",
+      "image_url": "/article_images/article_51139d293c57843b_b88436cc1a9e.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8c0bcedb9a538753",
+      "title": "Unlocking the Brain's Timing System for Better Cognition",
+      "summary": "A recent study from Rutgers Health, published in Nature Communications, investigates how the brain integrates fast and slow neural signals through white matter connectivity to support cognitive functions like thinking and decision-making. The research focuses on intrinsic neural timescales (INTs), which are the characteristic time windows different brain regions use to process information. By analyzing brain imaging data from 960 individuals, the team created connectomes—detailed maps of brain connections—and applied mathematical models to track information flow. They found that the arrangement of INTs across the cerebral cortex influences how efficiently the brain shifts between behavioral activity patterns, explaining variations in cognitive abilities among people. Additionally, these timing patterns are linked to genetic and biological features, with similar mechanisms observed in mice, suggesting evolutionary conservation. The findings highlight that individuals with brain wiring better matched to regional timing differences tend to have higher cognitive capacity. Future applications include studying neuropsychiatric disorders like schizophrenia to understand how disrupted connectivity affects information processing over time.",
+      "source": "Science Daily",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_8c0bcedb9a538753_7e4fe63cd8c5.webp",
+      "category": "Science"
+    },
+    {
+      "id": "b243ed0717e037e4",
+      "title": "Discovery of a Saturn-Sized Rogue Planet in the Einstein Desert",
+      "summary": "Researchers have discovered a Saturn-sized planet through microlensing, a technique that detects planets by observing temporary brightening of stars when a planet passes in front. This planet is notable as a rogue planet, meaning it does not orbit any star and drifts freely in interstellar space. It was found in the \"Einstein desert,\" a gap in microlensing data where few planets are detected, sparking discussions about its significance. The discovery involved Earth-based telescopes from the Korea Microlensing Telescope Network and the Optical Gravitational Lensing Experiment, along with the Gaia space telescope, which provided a unique perspective due to its orientation. Rogue planets are thought to originate in two ways: either ejected from star systems by gravitational interactions or formed through incomplete stellar processes, resulting in gas giants. Microlensing events, though rare, allow scientists to estimate planet masses by analyzing Einstein rings, but details like distance and star size are often lacking. This finding contributes to understanding planetary formation and the diversity of celestial bodies, highlighting the role of advanced technology in space exploration.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_b243ed0717e037e4_3ef463aaac91.webp",
       "category": "Science"
     },
     {
@@ -41,17 +50,8 @@
       "title": "Wales' Post-Brexit Sustainable Farming Scheme: A New Era for Agriculture",
       "summary": "Wales has implemented the Sustainable Farming Scheme (SFS), a post-Brexit subsidy program designed to replace previous EU payments with a focus on environmental sustainability. The scheme requires farms to manage at least 10% of their land as habitat to qualify for entry-level payments, which has raised concerns among dairy farmers who may struggle to meet this criterion. After initial versions were criticized as unworkable, leading to significant protests in 2024, negotiations resulted in a revised framework that includes 12 universal actions, such as maintaining hedgerows, reducing pesticide use, and attending online sustainability courses. Additional funding is available for more ambitious environmental projects and collaborative efforts. Farming unions, like NFU Cymru, have expressed cautious approval, noting the scheme is now acceptable but requires further tweaks and budget adjustments to address inflation. The rural affairs secretary hailed it as a landmark moment, emphasizing the importance of farmer participation. This shift marks a generational change in farm support, moving from area-based EU subsidies to performance-based incentives for greener practices.",
       "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_747fef99aae6883d_9143e9f24b2b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7f56fc137fc2adbe",
-      "title": "Uncovering the Secrets of a Medieval Female Cemetery",
-      "summary": "Archaeologists in Wales have made intriguing discoveries at a medieval cemetery dating to the 6th or 7th century, where 58 skeletons have been uncovered, with nearly all belonging to women. The site, located near Cardiff airport, features shallow graves cut into limestone bedrock, indicating hard lives but also wealth through artefacts like coloured glass beads. A key find is the outline of a potential small building, possibly a shrine or chapel, situated centrally with graves clustered around it, suggesting it was a highly desired burial location. Some graves contain multiple individuals, hinting at repeated use. These findings point to the cemetery being part of an early female religious community, helping archaeologists piece together the identity and social structure of these women from over a millennium ago.",
-      "source": "BBC Science",
       "time_ago": "2 days ago",
-      "image_url": "/article_images/article_7f56fc137fc2adbe_7096619b7b57.webp",
+      "image_url": "/article_images/article_747fef99aae6883d_9143e9f24b2b.webp",
       "category": "Science"
     }
   ]
