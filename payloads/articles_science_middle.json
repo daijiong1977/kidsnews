@@ -1,39 +1,39 @@
 {
   "articles": [
     {
-      "id": "9d8649c30112d512",
-      "title": "Diabetes Alters Heart Structure and Function: A Scientific Study",
-      "summary": "Researchers at the University of Sydney conducted a study revealing that type 2 diabetes directly impacts the heart's physical structure and energy production mechanisms. Published in EMBO Molecular Medicine, the research analyzed donated human heart tissue from transplant recipients with diabetes and heart disease, comparing it to healthy donor tissue. The findings show that diabetes causes specific molecular changes in heart cells, altering how the heart generates energy and maintains muscle integrity. These effects are particularly severe in patients with ischemia cardiomyopathy, a common cause of heart failure. Using advanced microscopy, the team observed fibrosis, or fibrous tissue buildup, in the heart muscle due to diabetes. This study provides new insights into the link between diabetes and heart disease, suggesting that diabetes actively worsens heart failure by disrupting biological processes. Heart disease is a leading cause of death in Australia, affecting over 1.2 million people with type 2 diabetes, highlighting the importance of this research for developing potential treatments.",
+      "id": "5650ead1925ec9a0",
+      "title": "Everyday Chemicals Threaten Gut Microbiome Health and Antibiotic Resistance",
+      "summary": "A comprehensive laboratory study by University of Cambridge researchers analyzed 1076 human-made chemicals and identified 168 that harm beneficial gut bacteria, which are crucial for digestion, immune function, and overall health. These chemicals, including pesticides like herbicides and insecticides, as well as industrial compounds in flame retardants and plastics, are commonly encountered through food, water, and environmental exposure. The study revealed that exposure can slow or stop bacterial growth, potentially leading to health issues such as digestive problems, obesity, and weakened immunity. Alarmingly, some bacteria adapt by developing antibiotic resistance, like to ciprofloxacin, raising concerns about harder-to-treat infections. Current safety evaluations often overlook gut microbiome effects, as chemicals are designed for specific targets. To address this, the team developed a machine learning model to predict chemical toxicity to gut bacteria, advocating for updated safety assessments that consider microbiome health to prevent future risks.",
       "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_9d8649c30112d512_e5d6fa2b57eb.webp",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_5650ead1925ec9a0_65abc14b1b18.webp",
       "category": "Science"
     },
     {
-      "id": "7a433269aba67cb7",
-      "title": "Circadian Rhythm Disruptions and Dementia Risk in Older Adults",
-      "summary": "A recent study published in Neurology explores the connection between circadian rhythm disruptions and dementia risk. Circadian rhythms are the body's internal clocks that regulate sleep-wake cycles and other functions like hormone release. Researchers followed 2,183 adults with an average age of 79, using heart monitors to measure rest-activity patterns over about 12 days. They found that individuals with weaker and more irregular circadian rhythms, indicated by lower relative amplitude in activity, had nearly 2.5 times higher risk of developing dementia over three years. Additionally, those whose daily activity peaked later in the afternoon (after 2:15 p.m.) faced a 45% increased risk compared to earlier peakers. The study adjusted for factors like age and heart disease, suggesting that circadian disturbances may serve as an early warning for dementia, though it does not establish causation. This research highlights the importance of maintaining regular daily rhythms for brain health in aging populations.",
+      "id": "f2e0c19f163200a8",
+      "title": "CRISPR Breakthrough: Epigenetic Editing Turns Genes On Without DNA Cutting",
+      "summary": "Researchers at UNSW Sydney, in collaboration with St Jude Children's Research Hospital, have developed an innovative form of CRISPR technology that enables epigenetic editing to turn genes on without cutting DNA. This advancement addresses a long-standing debate in genetics about whether DNA methylation—chemical markers like methyl groups attached to DNA—merely indicates inactive genes or directly causes gene silencing. The study, published in Nature Communications, demonstrates that removing these methyl groups reactivates genes, and adding them back silences genes again, confirming methylation's active role in gene control. Unlike traditional CRISPR methods that cut DNA to edit genes, this epigenetic approach uses modified CRISPR to deliver enzymes that remove methyl groups, avoiding risks such as unintended mutations and cancer associated with DNA breaks. This technique could revolutionize gene therapy by offering safer treatments for genetic disorders like Sickle Cell Disease, where reactivating the fetal globin gene could compensate for defective adult globin genes. The research highlights the potential for non-invasive gene therapies that manipulate gene expression without altering the DNA sequence, paving the way for more effective and less risky medical interventions.",
       "source": "Science Daily",
-      "time_ago": "11 hours ago",
-      "image_url": "/article_images/article_7a433269aba67cb7_f50c9d580870.webp",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_f2e0c19f163200a8_80185a8c1276.webp",
       "category": "Science"
     },
     {
-      "id": "51139d293c57843b",
-      "title": "New Evidence Suggests Early Human Ancestor Walked Upright Seven Million Years Ago",
-      "summary": "A recent study published in Science Advances provides strong evidence that Sahelanthropus tchadensis, a species dating back about seven million years, was capable of bipedal walking, potentially making it the earliest known human ancestor. Researchers used advanced 3D imaging and analytical techniques to examine fossils discovered in the Djurab desert of Chad in the early 2000s. They identified a femoral tubercle, a skeletal feature linked to the iliofemoral ligament crucial for upright posture, along with other anatomical traits like femoral antetorsion and a gluteal complex that support bipedal movement. The analysis also compared limb proportions, showing Sahelanthropus had a longer femur relative to its ulna, resembling early hominins like Australopithecus more than apes. Lead author Scott Williams notes that Sahelanthropus was a bipedal ape with a chimpanzee-sized brain that likely spent time in trees but adapted to ground movement. This collaborative research involved scientists from multiple institutions and addresses long-standing debates about the species' locomotion, offering insights into the early evolution of bipedalism in the human lineage.",
+      "id": "8da547b38fe5a3f0",
+      "title": "Nitrogen Limits Reduce Plant CO2 Absorption in Climate Models",
+      "summary": "Carbon dioxide (CO2) in the atmosphere drives climate change, but plants can mitigate this by absorbing CO2 through faster growth, a phenomenon known as the CO2 fertilization effect. However, this effect depends on nitrogen availability, as plants require nitrogen for growth and cannot utilize it directly; instead, microorganisms in soil perform nitrogen fixation to convert nitrogen into a usable form. Recent research led by an international team, including Bettina Weber from the University of Graz, reveals that Earth System models have overestimated nitrogen fixation rates in natural ecosystems by about 50%. This overestimation leads to a reduction of approximately 11% in the projected CO2 fertilization effect, meaning plants absorb less CO2 than previously predicted. The study, published in PNAS, emphasizes the need to update climate models to account for accurate nitrogen dynamics, as nitrogen cycle byproducts like nitrous oxide can influence climate processes. This adjustment is crucial for reliable future projections of ecosystem responses and climate trends.",
       "source": "Science Daily",
-      "time_ago": "13 hours ago",
-      "image_url": "/article_images/article_51139d293c57843b_b88436cc1a9e.webp",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_8da547b38fe5a3f0_a949d188975d.webp",
       "category": "Science"
     },
     {
-      "id": "8c0bcedb9a538753",
-      "title": "Unlocking the Brain's Timing System for Better Cognition",
-      "summary": "A recent study from Rutgers Health, published in Nature Communications, investigates how the brain integrates fast and slow neural signals through white matter connectivity to support cognitive functions like thinking and decision-making. The research focuses on intrinsic neural timescales (INTs), which are the characteristic time windows different brain regions use to process information. By analyzing brain imaging data from 960 individuals, the team created connectomes—detailed maps of brain connections—and applied mathematical models to track information flow. They found that the arrangement of INTs across the cerebral cortex influences how efficiently the brain shifts between behavioral activity patterns, explaining variations in cognitive abilities among people. Additionally, these timing patterns are linked to genetic and biological features, with similar mechanisms observed in mice, suggesting evolutionary conservation. The findings highlight that individuals with brain wiring better matched to regional timing differences tend to have higher cognitive capacity. Future applications include studying neuropsychiatric disorders like schizophrenia to understand how disrupted connectivity affects information processing over time.",
+      "id": "30ec1f6e81a16091",
+      "title": "Developing Safer Mitochondrial Uncouplers for Weight Loss and Metabolic Health",
+      "summary": "Researchers have developed experimental compounds known as mild mitochondrial uncouplers that increase calorie burn in cells, offering a potential new approach to treating obesity and enhancing metabolic health. Obesity is a global health issue linked to diseases like diabetes and cancer, and current weight-loss medications often involve injections and side effects. This study, led by Associate Professor Tristan Rawling from the University of Technology Sydney and published in Chemical Science, focuses on mitochondrial uncouplers—molecules that disrupt the efficiency of mitochondria, the cell's powerhouses. By making mitochondria less efficient, these compounds cause cells to use more energy, releasing some as heat and burning additional calories from fats. Historically, similar compounds like DNP were dangerous, causing fatal overheating. To overcome this, the team designed safer mild uncouplers by modifying chemical structures to control energy use. They tested these in lab settings, finding that some increased mitochondrial activity without harming cells or ATP production, while others were toxic. By comparing outcomes, they identified how mild uncouplers work at a tolerable level, reducing risks. This research could lead to oral medications for weight loss that are safer and more effective than current options.",
       "source": "Science Daily",
-      "time_ago": "14 hours ago",
-      "image_url": "/article_images/article_8c0bcedb9a538753_7e4fe63cd8c5.webp",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_30ec1f6e81a16091_6ce77cb0a5e7.webp",
       "category": "Science"
     },
     {
@@ -41,7 +41,7 @@
       "title": "Discovery of a Saturn-Sized Rogue Planet in the Einstein Desert",
       "summary": "Researchers have discovered a Saturn-sized planet through microlensing, a technique that detects planets by observing temporary brightening of stars when a planet passes in front. This planet is notable as a rogue planet, meaning it does not orbit any star and drifts freely in interstellar space. It was found in the \"Einstein desert,\" a gap in microlensing data where few planets are detected, sparking discussions about its significance. The discovery involved Earth-based telescopes from the Korea Microlensing Telescope Network and the Optical Gravitational Lensing Experiment, along with the Gaia space telescope, which provided a unique perspective due to its orientation. Rogue planets are thought to originate in two ways: either ejected from star systems by gravitational interactions or formed through incomplete stellar processes, resulting in gas giants. Microlensing events, though rare, allow scientists to estimate planet masses by analyzing Einstein rings, but details like distance and star size are often lacking. This finding contributes to understanding planetary formation and the diversity of celestial bodies, highlighting the role of advanced technology in space exploration.",
       "source": "Ars Science",
-      "time_ago": "1 day ago",
+      "time_ago": "2 days ago",
       "image_url": "/article_images/article_b243ed0717e037e4_3ef463aaac91.webp",
       "category": "Science"
     },
@@ -50,7 +50,7 @@
       "title": "Wales' Post-Brexit Sustainable Farming Scheme: A New Era for Agriculture",
       "summary": "Wales has implemented the Sustainable Farming Scheme (SFS), a post-Brexit subsidy program designed to replace previous EU payments with a focus on environmental sustainability. The scheme requires farms to manage at least 10% of their land as habitat to qualify for entry-level payments, which has raised concerns among dairy farmers who may struggle to meet this criterion. After initial versions were criticized as unworkable, leading to significant protests in 2024, negotiations resulted in a revised framework that includes 12 universal actions, such as maintaining hedgerows, reducing pesticide use, and attending online sustainability courses. Additional funding is available for more ambitious environmental projects and collaborative efforts. Farming unions, like NFU Cymru, have expressed cautious approval, noting the scheme is now acceptable but requires further tweaks and budget adjustments to address inflation. The rural affairs secretary hailed it as a landmark moment, emphasizing the importance of farmer participation. This shift marks a generational change in farm support, moving from area-based EU subsidies to performance-based incentives for greener practices.",
       "source": "BBC Science",
-      "time_ago": "2 days ago",
+      "time_ago": "3 days ago",
       "image_url": "/article_images/article_747fef99aae6883d_9143e9f24b2b.webp",
       "category": "Science"
     }
