@@ -1,0 +1,108 @@
+{
+  "title": "Cancer Cases Are Rising Around the World",
+  "summary": "Cancer is a serious disease that is affecting more and more people all over the world. Since 1990, the number of people getting cancer has more than doubled, reaching 18.5 million new cases in 2023. Sadly, about 10.4 million people die from cancer each year. Most of these cases and deaths happen in poorer countries. The good news is that many cancer deaths could be prevented. Over 40% of cancer deaths are linked to things we can change, like smoking, eating unhealthy foods, and having high blood sugar. By 2050, experts think cancer cases could rise to 30.5 million per year. To help, governments need to work on preventing cancer, finding it early, and making sure everyone can get treatment.",
+  "keywords": [
+    {
+      "term": "cancer",
+      "explanation": "a disease where cells in the body grow out of control"
+    },
+    {
+      "term": "prevented",
+      "explanation": "stopped from happening"
+    },
+    {
+      "term": "cases",
+      "explanation": "the number of people who get a disease"
+    },
+    {
+      "term": "deaths",
+      "explanation": "when people die from a disease"
+    },
+    {
+      "term": "countries",
+      "explanation": "different places in the world like the United States or India"
+    },
+    {
+      "term": "treatment",
+      "explanation": "medicine or care to help sick people get better"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many new cancer cases were there in 2023?",
+      "options": [
+        "10.4 million",
+        "18.5 million",
+        "30.5 million",
+        "40 million"
+      ],
+      "correct_answer": "18.5 million"
+    },
+    {
+      "question": "What percentage of cancer deaths could be prevented?",
+      "options": [
+        "20%",
+        "40%",
+        "60%",
+        "80%"
+      ],
+      "correct_answer": "40%"
+    },
+    {
+      "question": "Where do most cancer cases happen?",
+      "options": [
+        "Rich countries",
+        "Poorer countries",
+        "Only in cities",
+        "Everywhere equally"
+      ],
+      "correct_answer": "Poorer countries"
+    },
+    {
+      "question": "What is one thing that can cause cancer?",
+      "options": [
+        "Smoking",
+        "Drinking water",
+        "Exercising",
+        "Sleeping"
+      ],
+      "correct_answer": "Smoking"
+    },
+    {
+      "question": "By 2050, how many cancer cases are expected each year?",
+      "options": [
+        "10.4 million",
+        "18.5 million",
+        "30.5 million",
+        "50 million"
+      ],
+      "correct_answer": "30.5 million"
+    },
+    {
+      "question": "What should governments do to help?",
+      "options": [
+        "Ignore the problem",
+        "Prevent cancer and improve treatment",
+        "Only focus on rich countries",
+        "Stop all research"
+      ],
+      "correct_answer": "Prevent cancer and improve treatment"
+    }
+  ],
+  "background_read": [
+    "Cancer is a big health problem that affects many people. It happens when cells in the body grow too fast and can spread. Some cancers can be caused by things like smoking or bad eating habits. Doctors can treat cancer with medicine or surgery, but it's better to prevent it. This article talks about how cancer is increasing around the world, especially in places with less money. It explains that we can stop many cancer deaths by making healthy choices and helping everyone get care."
+  ],
+  "Article_Structure": [
+    "WHO: People all over the world, especially in poorer countries, are affected by cancer.",
+    "WHAT: Cancer cases and deaths are rising, with many linked to preventable causes like smoking.",
+    "WHERE: This is happening globally, with most cases in low- and middle-income countries.",
+    "WHY: To reduce cancer, we need better prevention, early detection, and access to treatment."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Health experts",
+      "description": "They say cancer is a growing problem that needs more action from governments to prevent and treat it."
+    }
+  ],
+  "image_url": "/article_images/article_87959d36773e592d_aac7e69d9150.webp"
+}

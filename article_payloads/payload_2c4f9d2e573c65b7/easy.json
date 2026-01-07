@@ -1,0 +1,108 @@
+{
+  "title": "Watching a Pulsar Twinkle in Space",
+  "summary": "Scientists from the SETI Institute watched a pulsar called PSR J0332+5434 for almost a year to see how its radio signals flicker as they travel through space. Pulsars are spinning stars that send out steady radio flashes. As these signals move through clouds of gas between stars, they get scattered, causing them to twinkle and arrive at Earth at slightly different times. This twinkling is called scintillation. The team used the Allen Telescope Array to measure these changes every day for about 300 days. They found that the twinkling strength changes over days to months, with a big cycle every 200 days. Understanding this helps make pulsar timing more accurate and can aid in searching for signals from other civilizations by telling natural space signals apart from human-made ones.",
+  "keywords": [
+    {
+      "term": "pulsar",
+      "explanation": "a spinning star that sends out radio flashes"
+    },
+    {
+      "term": "twinkle",
+      "explanation": "when a signal flickers as it moves through space"
+    },
+    {
+      "term": "scintillation",
+      "explanation": "the scientific word for twinkling of radio signals"
+    },
+    {
+      "term": "Allen Telescope Array",
+      "explanation": "a big radio telescope used to watch the pulsar"
+    },
+    {
+      "term": "SETI Institute",
+      "explanation": "a group of scientists who search for signals from space"
+    },
+    {
+      "term": "timing",
+      "explanation": "measuring when signals arrive at Earth"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did scientists watch for almost a year?",
+      "options": [
+        "A pulsar",
+        "A planet",
+        "A comet",
+        "A galaxy"
+      ],
+      "correct_answer": "A pulsar"
+    },
+    {
+      "question": "What causes pulsar signals to twinkle?",
+      "options": [
+        "Clouds of gas in space",
+        "Earth's atmosphere",
+        "The Sun's heat",
+        "Human radio signals"
+      ],
+      "correct_answer": "Clouds of gas in space"
+    },
+    {
+      "question": "What is the scientific word for twinkling of radio signals?",
+      "options": [
+        "Scintillation",
+        "Rotation",
+        "Explosion",
+        "Frequency"
+      ],
+      "correct_answer": "Scintillation"
+    },
+    {
+      "question": "Which telescope did scientists use to watch the pulsar?",
+      "options": [
+        "Allen Telescope Array",
+        "Hubble Space Telescope",
+        "James Webb Telescope",
+        "Very Large Telescope"
+      ],
+      "correct_answer": "Allen Telescope Array"
+    },
+    {
+      "question": "How long did the big cycle of twinkling last?",
+      "options": [
+        "200 days",
+        "100 days",
+        "50 days",
+        "300 days"
+      ],
+      "correct_answer": "200 days"
+    },
+    {
+      "question": "Why is understanding twinkling helpful for SETI?",
+      "options": [
+        "To tell natural signals from human-made ones",
+        "To find new planets",
+        "To study black holes",
+        "To measure star sizes"
+      ],
+      "correct_answer": "To tell natural signals from human-made ones"
+    }
+  ],
+  "background_read": [
+    "Pulsars are like cosmic lighthouses—they are the leftover cores of big stars that exploded long ago. As they spin, they send out beams of radio waves that we can detect on Earth. When these waves travel through space, they pass through clouds of gas and dust, which make them flicker or twinkle. Scientists use radio telescopes to study this twinkling to learn more about space and improve their search for signals from other civilizations."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists from the SETI Institute",
+    "WHAT: Watched a pulsar twinkle to understand how space affects its signals",
+    "WHERE: In space, using the Allen Telescope Array on Earth",
+    "WHY: To make pulsar timing more accurate and help search for signals from other civilizations"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific Discovery",
+      "description": "Scientists found that pulsar twinkling changes over time, helping us learn about space."
+    }
+  ],
+  "image_url": "/article_images/article_2c4f9d2e573c65b7_cd503c6cab19.webp"
+}
