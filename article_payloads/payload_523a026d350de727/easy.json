@@ -1,0 +1,104 @@
+{
+  "title": "AI Helps Find Health Clues While You Sleep",
+  "summary": "Scientists at Stanford Medicine made a smart computer program called SleepFM that can look at how your body works while you sleep. It uses sleep recordings from 65,000 people to learn patterns. The program checks things like brain activity and heart rhythms from a special sleep test done in a lab. It can guess if someone might get sick with over 100 different health problems later on. The AI learns like how we learn words, but it learns from body signals instead. This helps doctors find hidden health warnings early, so people can get help sooner. Sleep is important for health, and this new tool makes it easier to understand what our bodies tell us during sleep.",
+  "keywords": [
+    {
+      "term": "SleepFM",
+      "explanation": "a computer program that studies sleep to find health clues"
+    },
+    {
+      "term": "sleep recordings",
+      "explanation": "data collected from people while they sleep in a lab"
+    },
+    {
+      "term": "health problems",
+      "explanation": "sicknesses or diseases that people might get"
+    },
+    {
+      "term": "body signals",
+      "explanation": "information from the body like brain activity and heart rhythms"
+    },
+    {
+      "term": "AI",
+      "explanation": "artificial intelligence, a smart computer system that learns from data"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the AI program in the article?",
+      "options": [
+        "SleepFM",
+        "ChatGPT",
+        "Polysomnography",
+        "Stanford"
+      ],
+      "correct_answer": "SleepFM"
+    },
+    {
+      "question": "How many people's sleep recordings were used to train SleepFM?",
+      "options": [
+        "65,000",
+        "100",
+        "585,000",
+        "5"
+      ],
+      "correct_answer": "65,000"
+    },
+    {
+      "question": "What does SleepFM help predict?",
+      "options": [
+        "Future health problems",
+        "Weather changes",
+        "School grades",
+        "Sports scores"
+      ],
+      "correct_answer": "Future health problems"
+    },
+    {
+      "question": "Where are sleep recordings usually done?",
+      "options": [
+        "In a lab",
+        "At home",
+        "In a park",
+        "In a car"
+      ],
+      "correct_answer": "In a lab"
+    },
+    {
+      "question": "What does AI stand for?",
+      "options": [
+        "Artificial Intelligence",
+        "Amazing Ideas",
+        "Always Interesting",
+        "Animal Information"
+      ],
+      "correct_answer": "Artificial Intelligence"
+    },
+    {
+      "question": "What does SleepFM learn from?",
+      "options": [
+        "Body signals during sleep",
+        "Books and stories",
+        "Music and songs",
+        "Pictures and videos"
+      ],
+      "correct_answer": "Body signals during sleep"
+    }
+  ],
+  "background_read": [
+    "Sleep is when our bodies rest and repair themselves. Scientists study sleep to understand health better. In labs, they use special tests called polysomnography to record brain waves, heartbeats, and breathing while people sleep. This helps find sleep problems like sleep apnea. Now, with AI like SleepFM, they can look at all this data to guess if someone might get sick in the future. This is important because catching health issues early can help people stay healthy. Sleep is a big part of our lives, and new tools make it easier to learn from it."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at Stanford Medicine and their collaborators",
+    "WHAT: Developed an AI system called SleepFM that analyzes sleep data to predict health risks",
+    "WHERE: In sleep clinics and labs where sleep recordings are done",
+    "WHY: To find hidden health warnings early and help people get medical care sooner"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Health benefits",
+      "description": "SleepFM can help doctors spot diseases early, leading to better treatment and prevention."
+    }
+  ],
+  "image_url": "/article_images/article_523a026d350de727_72e3641e8ad7.webp"
+}

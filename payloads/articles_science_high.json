@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "67d042acba3bd235",
+      "title": "Correlational Analysis of Sleep Insufficiency and Mortality Risk",
+      "summary": "A groundbreaking study conducted by Oregon Health & Science University (OHSU) investigates the association between sleep duration and life expectancy, utilizing extensive national data from the Centers for Disease Control and Prevention (CDC) spanning 2019 to 2025. Researchers analyzed county-level life expectancy figures in conjunction with survey responses on sleep habits, revealing that consistently obtaining less than seven hours of sleep per night is correlated with a diminished lifespan. This correlation proved stronger than those for dietary patterns, physical activity levels, or social isolation, with smoking being the sole factor exhibiting a more pronounced influence. The research team, led by senior author Andrew McHill, Ph.D., expressed surprise at the robustness of these findings, noting that sleep sufficiency emerged as a key predictor in statistical models. Notably, this study is the first to delineate year-by-year trends connecting sleep and life expectancy across all U.S. states, employing the CDC's benchmark of at least seven hours for sufficient sleep. Although the biological underpinnings were not examined, the authors hypothesize that sleep's roles in cardiovascular health, immune regulation, and neurological function may mediate its impact on longevity. The findings underscore the public health imperative of promoting adequate sleep to mitigate mortality risks.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_67d042acba3bd235_ec349b65a225.webp",
+      "category": "Science"
+    },
+    {
+      "id": "32b2380c00bc28fa",
+      "title": "Unveiling a Dark Matter-Dominated Relic: The Discovery of Cloud-9 and Its Implications for Cosmology",
+      "summary": "Astronomers utilizing the Hubble Space Telescope have identified Cloud-9, a groundbreaking cosmic object characterized as a Reionization-Limited H I Cloud (RELHIC), which consists of neutral hydrogen gas and is predominantly composed of dark matter, yet entirely devoid of stars. This discovery represents the first confirmed instance of such a relic from the primordial Universe, offering a rare window into dark matter dynamics and early galactic formation processes. Cloud-9, located in proximity to the Milky Way, exhibits a nearly spherical morphology with a diameter of approximately 4900 light-years and a hydrogen mass of 1 million solar masses; through analysis of gas pressure and gravitational equilibrium, researchers estimate its total mass at around 5 billion solar masses, predominantly attributable to dark matter. The object challenges conventional observational techniques, as its faint signal is often obscured by brighter celestial bodies, and it is susceptible to environmental effects like ram-pressure stripping. By corroborating long-standing theoretical predictions about failed galaxies, Cloud-9 underscores the significance of non-luminous matter in cosmic structure and provides critical data for refining cosmological models, highlighting the necessity of integrating gas and dark matter studies to comprehend the full extent of the Universe's composition.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_32b2380c00bc28fa_68d79ab81126.webp",
+      "category": "Science"
+    },
+    {
+      "id": "0d1da6c03d0596b6",
+      "title": "Artemis II: Pioneering Human Spaceflight Beyond the Moon",
+      "summary": "NASA's Artemis II mission represents a seminal step in human space exploration, targeting a launch window from February 2024 onward as the first crewed lunar endeavor in over five decades. This 10-day expedition will utilize the Space Launch System rocket and Orion capsule, launching from Kennedy Space Center in Florida with a diverse crew: commander Reid Wiseman, pilot Victor Glover, mission specialist Christina Koch, and Canadian Space Agency mission specialist Jeremy Hansen. The mission's objectives include testing Orion's manual flight capabilities in Earth orbit, followed by a trajectory thousands of kilometers beyond the Moon to rigorously assess critical systems such as life-support, propulsion, power, and navigation under deep-space conditions. Additionally, the crew will function as biomedical subjects, transmitting data on human adaptation to elevated radiation levels and prolonged weightlessness, which exceed those on the International Space Station but remain within safety parameters. Upon completion, the astronauts will endure atmospheric re-entry and splashdown in the Pacific Ocean. Artemis II serves as a foundational precursor to Artemis III, which aims for a crewed lunar landing by 2027-2028, revitalizing lunar exploration and informing future missions to Mars through advanced technological and human factor evaluations.",
+      "source": "BBC Science",
+      "time_ago": "16 hours ago",
+      "image_url": "/article_images/article_0d1da6c03d0596b6_214ed8478c9b.webp",
+      "category": "Science"
+    },
+    {
+      "id": "52a7fae92fa741b6",
+      "title": "Epidemiological Analysis of Food Preservative Additives and Their Association with Type 2 Diabetes Incidence",
+      "summary": "A landmark epidemiological study published in Nature Communications has established a significant association between the consumption of food preservative additives and an elevated risk of type 2 diabetes. Conducted by a multidisciplinary team from Inserm, INRAE, Sorbonne Paris Nord University, Paris Cité University, and Cnam, this research utilized data from the NutriNet-Santé cohort, encompassing over 100,000 French adults followed from 2009 to 2023. Preservatives were classified into non-antioxidant (E200-E299) and antioxidant (E300-E399) categories, with exposure estimated through detailed 24-hour food records cross-referenced with databases like Open Food Facts. The analysis identified 58 preservative additives, focusing on 17 consumed by at least 10% of participants, and controlled for numerous confounders including socio-demographic factors, lifestyle, and dietary quality. Results indicated that higher cumulative exposure to specific preservatives correlated with increased diabetes incidence, suggesting potential mechanisms such as disruption of metabolic pathways or oxidative stress. This study addresses limitations of prior experimental research by providing robust population-level evidence, highlighting the need for regulatory scrutiny and further mechanistic investigations into the long-term health impacts of ubiquitous food additives.",
+      "source": "Science Daily",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_52a7fae92fa741b6_f54c2525462d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "523a026d350de727",
+      "title": "AI-Driven Analysis of Polysomnography for Predictive Health Diagnostics",
+      "summary": "Stanford Medicine researchers have developed SleepFM, an artificial intelligence foundation model that leverages polysomnography data to estimate individual risks for more than 100 medical conditions. Trained on 585,000 hours of sleep recordings from 65,000 patients, the system employs a multimodal approach to analyze physiological signals such as electroencephalography, electrocardiography, and respiratory patterns during sleep. Polysomnography, recognized as the gold standard in sleep diagnostics, generates vast datasets often underutilized in clinical settings; this study addresses that gap by applying advanced AI techniques. The model uses leave-one-out contrastive learning to harmonize disparate data modalities, enabling it to reconstruct missing signals and comprehend intricate interactions within the sleep physiology. Initial validation demonstrated that SleepFM matches or exceeds existing models in tasks like sleep stage classification and sleep apnea severity evaluation, indicating its robustness. This research, published in Nature Medicine, represents a significant advancement in leveraging AI for predictive medicine, suggesting that sleep data can serve as a rich source for early disease detection and personalized health interventions, thereby transforming routine sleep studies into proactive diagnostic tools.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_523a026d350de727_72e3641e8ad7.webp",
+      "category": "Science"
+    },
+    {
       "id": "11da29328f33dbe8",
       "title": "NASA's Controlled Medical Evacuation from ISS: Analyzing Safety Protocols and Ethical Considerations",
       "summary": "NASA has initiated a controlled medical evacuation from the International Space Station, repatriating four of the seven crew members following an undisclosed medical situation affecting one astronaut. The decision, announced by NASA Administrator Jared Isaacman and Chief Medical Officer Dr. JD Polk, underscores the agency's precautionary approach, with the afflicted individual reported as stable. Crew-11, comprising Commander Zena Cardman, Pilot Mike Fincke, Japanese astronaut Kimiya Yui, and Russian cosmonaut Oleg Platonov, will undock prematurely in their SpaceX Crew Dragon spacecraft, targeting a Pacific Ocean splashdown. The incident, unrelated to spacewalk preparations involving oxygen prebreathing protocols, highlights the complexities of medical diagnostics in microgravity, where limited hardware complicates assessments. NASA maintains confidentiality regarding the medical details, citing privacy ethics, while emphasizing the crew's adept emergency response facilitated by rigorous training. The ISS is equipped with advanced medical apparatus, including ultrasound and defibrillation capabilities, yet evacuation remains a critical contingency. This event reflects broader implications for long-duration spaceflight, testing operational resilience and institutional transparency in crisis management.",
       "source": "Ars Science",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_11da29328f33dbe8_aea783c3b655.webp",
-      "category": "Science"
-    },
-    {
-      "id": "837224d29f156249",
-      "title": "Unprecedented Medical Evacuation from ISS: Implications for Space Mission Safety",
-      "summary": "Nasa has initiated an early return for Crew-11 from the International Space Station, abbreviating their six-month mission by one month due to a serious medical condition affecting an unspecified astronaut. This decision, announced by Nasa Administrator Jared Isaacman, represents the first instance of an early evacuation in the ISS's operational history since 2000, underscoring the agency's prioritization of crew health over mission objectives. The medical condition is described as stable and unrelated to space operations or injuries, with privacy protocols preventing disclosure of further details. Crew-11 comprises Nasa astronauts Zena Cardman and Mike Fincke, JAXA astronaut Kimiya Yui, and Russian cosmonaut Oleg Platonov, who launched aboard a SpaceX Crew Dragon in August. One American astronaut will remain aboard with two Russian cosmonauts, maintaining a reduced crew size. The ISS is equipped with basic medical infrastructure and secure communication systems for Earth-based teleconsultations, facilitating remote health management. Early return may delay scientific experiments and maintenance tasks, as noted by space scientist Dr. Simeon Barber, highlighting operational dependencies on crew availability. This event prompts critical examination of long-duration spaceflight health protocols and contingency planning within Nasa's framework.",
-      "source": "BBC Science",
-      "time_ago": "13 hours ago",
-      "image_url": "/article_images/article_837224d29f156249_1d7360028267.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1ca95253e2aaae6e",
-      "title": "Advancing Cosmic Detection: Probing Dark Matter and Dark Energy Through Experimental Physics",
-      "summary": "Scientific inquiry into the universe's composition reveals that approximately 95% consists of dark matter and dark energy, with only 5% comprising ordinary baryonic matter. Dr. Rupak Mahapatra, an experimental particle physicist at Texas A&M University, spearheads research utilizing advanced semiconductor detectors integrated with cryogenic quantum sensors to detect these enigmatic entities. Dark matter, accounting for roughly 27% of the universe's mass-energy density, functions as a gravitational scaffold influencing galactic formation and clustering, while dark energy, constituting about 68%, drives the accelerated expansion of spacetime. Neither component interacts electromagnetically, necessitating indirect detection methods through gravitational lensing and large-scale structure observations. Mahapatra's contributions include pivotal work on the SuperCDMS experiment, where he co-authored a 2014 paper introducing voltage-assisted calorimetric ionization detection, enhancing sensitivity to low-mass Weakly Interacting Massive Particles (WIMPs). His involvement in the TESSERACT collaboration further exemplifies global efforts to amplify faint signals amidst background noise. A 2022 study co-authored by Mahapatra advocates for a synergistic approach combining direct detection, indirect astrophysical observations, and collider experiments to comprehensively address the dark matter paradigm. This multidisciplinary strategy underscores the complexity of cosmic mysteries, with Mahapatra analogizing current understanding to the parable of the blind men and an elephant, highlighting the fragmentary nature of empirical knowledge. The research pushes methodological boundaries, leveraging decades of expertise to refine detection thresholds and contribute to foundational cosmological models.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_1ca95253e2aaae6e_fcb03d9556e4.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d5a4cd6f596f6cf5",
-      "title": "Investigating the Genetic and Epigenetic Foundations of Extreme Longevity in Brazil's Admixed Populations",
-      "summary": "A Viewpoint in Genomic Psychiatry by Dr. Mayana Zatz and colleagues at the University of São Paulo's Human Genome and Stem Cell Research Center examines Brazil as a critical yet underexplored context for extreme human longevity research. The authors argue that existing longevity studies are limited by their focus on genetically homogeneous populations, overlooking admixed groups like Brazil's, which resulted from Portuguese colonization, African enslavement, and waves of European and Japanese immigration. This demographic history has produced unparalleled genetic diversity, with early genomic research identifying millions of previously unknown variants in older Brazilians, including over 8 million undescribed across the population. The research team has established a longitudinal cohort comprising over 160 centenarians, including 20 validated supercentenarians from diverse socio-environmental backgrounds, such as Sister Inah, who lived to 116. Notably, many participants had minimal access to healthcare, offering insights into biological resilience developed independently of medical intervention. Familial clusters, exemplified by a 110-year-old woman with nieces aged 100, 104, and 106, facilitate the disentanglement of polygenic inheritance from environmental and epigenetic factors. By integrating findings from supercentenarian biology, this study aims to uncover protective genetic variants and enhance understanding of the complex interplay between genetics, environment, and epigenetics in promoting extreme longevity.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_d5a4cd6f596f6cf5_3d8285623303.webp",
-      "category": "Science"
-    },
-    {
-      "id": "77681d4fdb63f032",
-      "title": "Policy Finalization and Stakeholder Response to UK Farm Inheritance Tax Reforms",
-      "summary": "The UK government has definitively ruled out additional modifications to its revised farm inheritance tax policy, marking a conclusion to a contentious legislative process. Initially introduced in Chancellor Rachel Reeves' 2024 budget, the proposal imposed a 20% tax on inherited agricultural assets exceeding £1 million, projected to generate £520 million annually by 2029, with the intent of safeguarding smaller farms and curbing tax avoidance by affluent investors. In response to sustained farmer protests, including a disruptive tractor demonstration at the Oxford Farming Conference, the government enacted a partial retreat in December, elevating the threshold to £2.5 million. Environment Secretary Emma Reynolds emphasized that this adjustment resulted from quiet, constructive dialogue with farmers rather than vocal demonstrations. The revised framework, effective from April, incorporates spousal exemptions, enabling couples to transfer up to £5 million in qualifying assets tax-free. Despite this concession, the Country Land and Business Association (CLA) condemns the policy as detrimental to the rural economy and advocates for its complete abolition, while the National Farmers' Union (NFU) maintains principled opposition but acknowledges the threshold increase as a relief for many families. This article elucidates the intricate dynamics of policy-making, stakeholder engagement, and the economic implications of taxation in the agricultural sector.",
-      "source": "BBC Science",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_77681d4fdb63f032_bb44f3e9e2e9.webp",
-      "category": "Science"
-    },
-    {
-      "id": "9c9d32ecaf72dfd3",
-      "title": "Investigating Lorentz Invariance Violations through Astrophysical Gamma-Ray Analysis",
-      "summary": "This article explores experimental efforts to test Lorentz invariance, a foundational principle of Einstein's special relativity derived from the 1887 Michelson-Morley experiment, which asserts the constancy of physical laws across inertial frames. While Lorentz invariance is integral to quantum field theory and the Standard Model, its potential violation is considered in quantum gravity frameworks due to incompatibilities with general relativity. A research team led by Mercè Guerrero and Anna Campoy-Ordaz conducted an analysis using very-high-energy gamma rays from astrophysical sources to probe for energy-dependent variations in light speed, predicted by models like the Standard Model Extension. Employing a novel statistical methodology, they synthesized existing observational data to examine theoretical parameters, aiming to detect subtle deviations. The study yielded no evidence of Lorentz invariance violations, thereby corroborating Einstein's postulates. However, it achieved a significant advancement by improving experimental constraints by an order of magnitude, thereby refining the parameter space for emergent physics and contributing to the ongoing quest to reconcile quantum mechanics with gravitational theory.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_9c9d32ecaf72dfd3_2a8d01a253d5.webp",
+      "image_url": "/article_images/article_11da29328f33dbe8_aea783c3b655.webp",
       "category": "Science"
     }
   ]
