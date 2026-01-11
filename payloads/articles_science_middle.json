@@ -1,21 +1,39 @@
 {
   "articles": [
     {
-      "id": "67d042acba3bd235",
-      "title": "The Impact of Sleep Duration on Lifespan",
-      "summary": "Recent research from Oregon Health & Science University reveals a strong correlation between insufficient sleep and reduced life expectancy. Analyzing national data from the Centers for Disease Control and Prevention between 2019 and 2025, scientists examined county-level life expectancy alongside survey responses on sleep habits. The study found that regularly sleeping less than seven hours per night is associated with a shorter lifespan, with this factor showing a stronger link to life expectancy than diet, physical activity, or social isolation. Only smoking had a greater influence. Researchers, including senior author Andrew McHill, were surprised by the strength of this association, noting that sleep duration outweighed other lifestyle predictors in their models. This is the first study to track year-by-year connections between sleep and life expectancy across all U.S. states, using the CDC's definition of sufficient sleep as at least seven hours. While the biological mechanisms weren't explored, sleep is known to support heart health, immune function, and cognitive performance, suggesting why it may play a critical role in longevity.",
+      "id": "2806756a158f91f6",
+      "title": "Investigating Flu Transmission: A Controlled Study on Airborne Spread",
+      "summary": "A recent study published in PLOS Pathogens explored how influenza spreads through the air by conducting a controlled clinical trial. Researchers from the University of Maryland placed five college students infected with a new flu variant, subclade K, in a hotel room with eleven healthy middle-aged volunteers. Despite close contact over a period in 2023-2024, none of the healthy participants became infected. The study identified key factors preventing transmission: the infected students rarely coughed, limiting virus release into the air, and the room had effective ventilation from a heater and dehumidifier that diluted any airborne virus. Additionally, the age of the volunteers may have offered some protection, as middle-aged adults are less vulnerable to flu. The findings challenge common beliefs about airborne transmission and suggest practical prevention strategies, such as using portable air purifiers and wearing N95 masks in high-risk settings. This research provides evidence for updating infection-control guidelines and highlights the importance of air quality in reducing flu outbreaks.",
       "source": "Science Daily",
       "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_67d042acba3bd235_ec349b65a225.webp",
+      "image_url": "/article_images/article_2806756a158f91f6_e5687f139139.webp",
       "category": "Science"
     },
     {
-      "id": "32b2380c00bc28fa",
-      "title": "Discovering a Dark Matter Cloud: A Failed Galaxy in Space",
-      "summary": "Astronomers using the Hubble Space Telescope have discovered a unique cosmic object named Cloud-9, which is a gas-rich cloud dominated by dark matter and containing no stars. This object, classified as a Reionization-Limited H I Cloud (RELHIC), is considered a relic from the early stages of galaxy formation, offering insights into the dark Universe. Cloud-9 is located near the Milky Way, is nearly spherical in shape, and spans about 4900 light-years with a hydrogen mass equivalent to 1 million suns. Scientists estimate it contains roughly 5 billion solar masses, mostly from dark matter, based on the balance between gas pressure and gravitational pull. The discovery confirms long-standing predictions about such failed galaxies, which never gathered enough gas to form stars, and highlights the challenges in detecting these faint objects due to interference from bright nearby sources. By studying Cloud-9, researchers aim to better understand dark matter distribution and the processes of galaxy evolution in the early Universe.",
+      "id": "8d9874813f84cb89",
+      "title": "Gene Editing Transforms Goldenberry Farming",
+      "summary": "Researchers at Cold Spring Harbor Laboratory are using CRISPR gene-editing technology to improve goldenberries, a fruit in the nightshade family related to tomatoes. Goldenberries are nutritious and have a sweet-tart flavor, but they are difficult to cultivate on a large scale because the plants are sprawling and cumbersome for harvest. By editing specific genes, the team made the plants about 35% shorter, making them more manageable and allowing for denser planting. This approach could enable large-scale farming in the U.S. and globally. The researchers also focused on flavor by tasting hundreds of goldenberries in the field to ensure quality. They developed two promising lines that combine compact growth with good taste. This work is part of a broader effort to domesticate undomesticated crops quickly, addressing challenges like climate change and population growth by creating more resilient food options. The next steps involve regulatory approval to distribute seeds to growers.",
       "source": "Science Daily",
-      "time_ago": "9 hours ago",
-      "image_url": "/article_images/article_32b2380c00bc28fa_68d79ab81126.webp",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_8d9874813f84cb89_3e58f2eb6a01.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8484873840401c93",
+      "title": "The Late Ordovician Mass Extinction: How Ice and Change Sparked Vertebrate Evolution",
+      "summary": "Around 445 million years ago, during the Late Ordovician period, Earth experienced a dramatic mass extinction event that wiped out approximately 85% of marine species. This catastrophe was triggered by a rapid shift from a warm greenhouse climate to a cold icehouse climate, as glaciers expanded across the supercontinent Gondwana, causing shallow seas to dry up and altering ocean chemistry. The extinction occurred in two phases: first, cooling and habitat loss, followed by warming with oxygen-poor waters that further stressed ecosystems. However, recent research from the Okinawa Institute of Science and Technology, published in Science Advances, reveals that this devastation had a silver lining. By analyzing a comprehensive fossil database spanning 200 years of paleontological records, scientists found that jawed vertebrates (gnathostomes) gained a significant advantage during this crisis. Surviving in isolated refugia—safe pockets of biodiversity separated by ocean barriers—these jawed fish experienced increased speciation and diversity over millions of years. The study highlights how mass extinctions can reshape evolutionary trajectories, with the Late Ordovician Mass Extinction (LOME) setting the stage for the later dominance of vertebrates on Earth. This research combines fossil evidence, ecological analysis, and biogeographic mapping to provide new insights into the links between extinction events and evolutionary innovation.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_8484873840401c93_eb9ca3aec56b.webp",
+      "category": "Science"
+    },
+    {
+      "id": "73a10a10e25def29",
+      "title": "Discovery of a New Nematode Species in the Great Salt Lake",
+      "summary": "Researchers from the University of Utah have identified a previously unknown nematode species, Diplolaimelloides woaabi, in the Great Salt Lake, marking the first definitive documentation of nematodes in this extreme environment. The discovery, led by Professor Michael Werner and involving collaboration with the Northwestern Band of the Shoshone Nation, honors Indigenous heritage by incorporating the word 'Wo'aabi,' meaning 'worm,' into the scientific name. Nematodes are microscopic roundworms ubiquitous across Earth, but this species appears endemic, living exclusively in the lake's salty waters. Initial findings in 2022, from samples collected by Julie Jung in microbialites, suggested novelty, and three years of taxonomic work confirmed it. This nematode joins only brine shrimp and brine flies as animals known to survive there, highlighting its potential ecological significance. Genetic evidence hints at a second unknown species, raising questions about their origin and role in the ecosystem, such as nutrient cycling or food web dynamics. The study underscores the importance of interdisciplinary research and conservation in understanding biodiversity in harsh habitats.",
+      "source": "Science Daily",
+      "time_ago": "10 hours ago",
+      "image_url": "/article_images/article_73a10a10e25def29_3927854a4ad4.webp",
       "category": "Science"
     },
     {
@@ -23,26 +41,8 @@
       "title": "Artemis II: NASA's Crewed Return to the Moon",
       "summary": "NASA's Artemis II mission marks the first crewed lunar flight in over five decades, with a potential launch window opening in February 2024 and extending into spring. This 10-day mission will carry four astronauts—commander Reid Wiseman, pilot Victor Glover, mission specialist Christina Koch, and Canadian mission specialist Jeremy Hansen—aboard the Space Launch System rocket and Orion capsule from Kennedy Space Center in Florida. The crew will test Orion's manual flight controls in Earth orbit, then travel thousands of kilometers beyond the Moon to evaluate life-support, propulsion, power, and navigation systems. They will also serve as medical test subjects, collecting data in deep space where radiation levels are higher than on the International Space Station but still safe. After completing their tasks, the astronauts will return to Earth with a splashdown in the Pacific Ocean. Artemis II is a critical step toward Artemis III, which aims for a human lunar landing by 2027 or 2028, reviving Moon exploration after the Apollo era.",
       "source": "BBC Science",
-      "time_ago": "16 hours ago",
-      "image_url": "/article_images/article_0d1da6c03d0596b6_214ed8478c9b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "52a7fae92fa741b6",
-      "title": "Investigating the Link Between Food Preservatives and Type 2 Diabetes",
-      "summary": "A comprehensive study published in Nature Communications has linked higher consumption of food preservatives to an increased risk of developing type 2 diabetes. Conducted by researchers from Inserm, INRAE, and several French universities, the study analyzed data from over 100,000 adults in the NutriNet-Santé cohort between 2009 and 2023. Preservatives, which are additives used to extend shelf life in processed foods, were categorized into non-antioxidant and antioxidant types, identified by European codes E200-E299 and E300-E399. Participants provided detailed food records, allowing scientists to estimate long-term exposure to 58 preservative additives. After adjusting for factors like age, diet quality, and lifestyle, the analysis revealed that greater intake of certain preservatives correlated with higher diabetes incidence. This research addresses gaps in previous studies by providing large-scale human evidence, suggesting that preservatives may interfere with metabolic processes. The findings highlight the need for further investigation into food additives and public health recommendations to reduce preservative consumption.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_52a7fae92fa741b6_f54c2525462d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "523a026d350de727",
-      "title": "AI Unlocks Health Predictions from Sleep Data",
-      "summary": "Researchers at Stanford Medicine have created an artificial intelligence system named SleepFM that analyzes polysomnography sleep recordings to estimate a person's risk for over 100 medical conditions. The system was trained on 585,000 hours of data from 65,000 individuals, using a foundation model approach similar to large language models but applied to biological signals like brain activity, heart rhythms, and breathing patterns. Polysomnography, the gold standard for sleep evaluation, captures extensive physiological information often underutilized in clinical practice. The AI integrates multiple data streams through a method called leave-one-out contrastive learning, teaching it to understand the interactions between different body signals. After training, SleepFM performed well on tasks like identifying sleep stages and assessing sleep apnea severity, showing potential for predicting future diseases. This advancement highlights how AI can extract valuable health insights from sleep data, offering a new tool for early disease detection and personalized medicine.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_523a026d350de727_72e3641e8ad7.webp",
+      "image_url": "/article_images/article_0d1da6c03d0596b6_214ed8478c9b.webp",
       "category": "Science"
     },
     {
@@ -50,7 +50,7 @@
       "title": "NASA's Decision to Evacuate ISS Crew Due to Medical Emergency",
       "summary": "NASA has ordered a controlled medical evacuation from the International Space Station, bringing home four of the seven crew members after an unspecified medical incident involving one astronaut. The affected crew member, part of the Crew-11 mission launched in August, is reported as stable, but NASA is exercising caution by returning the entire Crew-11 team early. The astronauts, including Commander Zena Cardman and Pilot Mike Fincke, will undock in their SpaceX Crew Dragon spacecraft and splash down in the Pacific Ocean. NASA officials, such as Administrator Jared Isaacman and Chief Medical Officer Dr. JD Polk, emphasize that astronaut health is the highest priority, though details are withheld for privacy. The incident occurred independently of spacewalk preparations, and the crew responded promptly using their emergency training. The space station is equipped with medical gear, and NASA is coordinating the return schedule while maintaining transparency about safety protocols.",
       "source": "Ars Science",
-      "time_ago": "1 day ago",
+      "time_ago": "2 days ago",
       "image_url": "/article_images/article_11da29328f33dbe8_aea783c3b655.webp",
       "category": "Science"
     }
