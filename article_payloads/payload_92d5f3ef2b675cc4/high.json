@@ -1,0 +1,145 @@
+{
+  "title": "Analyzing the Socioeconomic Effects of GLP-1 Agonists on U.S. Food Consumption and Expenditure",
+  "summary": "A comprehensive study conducted by Cornell University, published in the Journal of Marketing Research, investigates the socioeconomic implications of GLP-1 receptor agonists, such as Ozempic and Wegovy, on household food expenditure in the United States. By integrating longitudinal survey data on medication adoption with detailed transaction records from Numerator, encompassing approximately 150,000 nationally representative households, the research elucidates a significant reduction in food spending following the initiation of these appetite-suppressing drugs. Within six months, grocery expenditures decline by an average of 5.3%, with higher-income demographics experiencing reductions exceeding 8%, while limited-service restaurant spending similarly decreases by approximately 8%. The analysis identifies pronounced declines in ultra-processed, high-calorie categories, including savory snacks and sweets, contrasted with modest increases in yogurt and fresh fruit. Utilizing a comparative methodology that pairs medication adopters with non-adopters, the study enhances causal inference, revealing that effects persist for at least a year but diminish post-discontinuation. These findings suggest potential long-term shifts in consumer behavior, prompting food manufacturers, retailers, and policymakers to reconsider product strategies and market dynamics in response to evolving demand patterns driven by pharmaceutical interventions.",
+  "keywords": [
+    {
+      "term": "socioeconomic implications",
+      "explanation": "the effects on social and economic factors, such as income and spending behaviors"
+    },
+    {
+      "term": "longitudinal survey data",
+      "explanation": "information collected from the same subjects over an extended period to track changes"
+    },
+    {
+      "term": "causal inference",
+      "explanation": "the process of determining cause-and-effect relationships from data"
+    },
+    {
+      "term": "pharmaceutical interventions",
+      "explanation": "treatments involving medications to address health issues"
+    },
+    {
+      "term": "consumer behavior",
+      "explanation": "the study of how individuals make decisions to spend their resources on goods and services"
+    },
+    {
+      "term": "market dynamics",
+      "explanation": "the forces that influence prices and behaviors in an economic market"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What journal published the study on GLP-1 agonists and food spending?",
+      "options": [
+        "Journal of Marketing Research",
+        "New England Journal of Medicine",
+        "Science",
+        "Nature"
+      ],
+      "correct_answer": "Journal of Marketing Research"
+    },
+    {
+      "question": "How does the study enhance causal inference regarding medication effects?",
+      "options": [
+        "By pairing adopters with similar non-adopters",
+        "By relying solely on self-reported data",
+        "By using only grocery records",
+        "By focusing on a single income group"
+      ],
+      "correct_answer": "By pairing adopters with similar non-adopters"
+    },
+    {
+      "question": "What is the average reduction in grocery spending within six months of starting GLP-1 medications?",
+      "options": [
+        "5.3%",
+        "8%",
+        "10%",
+        "3%"
+      ],
+      "correct_answer": "5.3%"
+    },
+    {
+      "question": "Which demographic saw grocery spending drop by more than 8%?",
+      "options": [
+        "Higher-income households",
+        "Lower-income households",
+        "Urban households",
+        "Rural households"
+      ],
+      "correct_answer": "Higher-income households"
+    },
+    {
+      "question": "What data source provided transaction records for the study?",
+      "options": [
+        "Numerator",
+        "CDC",
+        "FDA",
+        "USDA"
+      ],
+      "correct_answer": "Numerator"
+    },
+    {
+      "question": "Which food category experienced the sharpest decline in spending?",
+      "options": [
+        "Savory snacks",
+        "Yogurt",
+        "Fresh fruit",
+        "Meat"
+      ],
+      "correct_answer": "Savory snacks"
+    },
+    {
+      "question": "How long do the spending reductions persist for households that continue medication?",
+      "options": [
+        "At least a year",
+        "Only one month",
+        "Indefinitely",
+        "No specific duration"
+      ],
+      "correct_answer": "At least a year"
+    },
+    {
+      "question": "What happens to spending effects after discontinuation of the medication?",
+      "options": [
+        "They become smaller and harder to distinguish",
+        "They increase significantly",
+        "They remain constant",
+        "They switch to increases"
+      ],
+      "correct_answer": "They become smaller and harder to distinguish"
+    },
+    {
+      "question": "What broader impact could expanded GLP-1 use have on the food industry?",
+      "options": [
+        "Long-term changes in demand for snack foods",
+        "Increased sales of fast food",
+        "Higher grocery prices",
+        "No significant impact"
+      ],
+      "correct_answer": "Long-term changes in demand for snack foods"
+    },
+    {
+      "question": "What methodology did the research team use to gather purchase data?",
+      "options": [
+        "Combining survey responses with transaction records",
+        "Conducting laboratory experiments",
+        "Using only online surveys",
+        "Analyzing historical trends"
+      ],
+      "correct_answer": "Combining survey responses with transaction records"
+    }
+  ],
+  "background_read": [
+    "This article examines a study on the effects of GLP-1 receptor agonists, medications like Ozempic and Wegovy used for weight loss and diabetes, on U.S. household food expenditure. Researchers from Cornell University employed a robust methodology, merging survey data on drug use with transaction records from Numerator to analyze changes in spending patterns. The findings indicate substantial reductions in grocery and fast-food expenditures, particularly for ultra-processed items, with effects lasting up to a year. The study's comparative approach strengthens causal claims, highlighting socioeconomic variations and potential industry implications. As these medications gain popularity, understanding their impact on consumer behavior is crucial for anticipating shifts in food markets and informing policy decisions."
+  ],
+  "Article_Structure": [
+    "Main Points: GLP-1 agonists lead to significant reductions in household food spending, with grocery expenses dropping by 5.3% and fast-food by 8%, disproportionately affecting ultra-processed snacks and higher-income groups. Purpose: To analyze real-world socioeconomic impacts of pharmaceutical interventions on consumer behavior and provide insights for industry adaptation and policy formulation. Evidence Evaluation: High-quality, utilizing longitudinal transaction data and surveys for reliable causal inference, though limited by self-reported medication use. Author Credibility: Conducted by Cornell University researchers, with Sylvia Hristakeva contributing marketing expertise, ensuring academic rigor. Methodology: Integrated purchase records from 150,000 households with repeated surveys to compare adopters and non-adopters over time. Critical Assessment: Strengths include large sample size and real-world data, but limitations involve potential confounding variables and reliance on self-reports for medication use."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Public health and economic intersection",
+      "description": "The study highlights how medical advancements can reshape economic behaviors, offering opportunities for cost savings but posing challenges for food industries reliant on high-calorie products."
+    }
+  ],
+  "image_url": "/article_images/article_92d5f3ef2b675cc4_dfea7bd5e69f.webp"
+}
