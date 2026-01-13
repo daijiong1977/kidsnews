@@ -1,0 +1,108 @@
+{
+  "title": "NASA's New Helper for Finding Alien Worlds",
+  "summary": "NASA has launched a new mission called Pandora to help the James Webb Space Telescope find planets like Earth. The Webb telescope is a big space telescope that looks at faraway stars and planets to see if they might have life. It can detect chemicals like water vapor in planet atmospheres. But stars are very bright and have spots and flares that can make it hard to see the planets clearly. Pandora is a small, cheaper satellite that will watch the stars at the same time as Webb. This helps scientists tell if the chemicals they see are from the planet or the star. Pandora launched on a SpaceX rocket and will work from space to make Webb's discoveries more accurate. This mission helps us learn about other worlds and if they could support life.",
+  "keywords": [
+    {
+      "term": "NASA",
+      "explanation": "the space agency that explores space"
+    },
+    {
+      "term": "Pandora",
+      "explanation": "a small satellite mission to help Webb"
+    },
+    {
+      "term": "James Webb Space Telescope",
+      "explanation": "a big telescope in space that looks for planets"
+    },
+    {
+      "term": "planets",
+      "explanation": "worlds that orbit stars"
+    },
+    {
+      "term": "stars",
+      "explanation": "bright objects in space that can have planets"
+    },
+    {
+      "term": "water vapor",
+      "explanation": "a gas that might mean a planet has water"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of NASA's new mission to help the Webb telescope?",
+      "options": [
+        "Pandora",
+        "Apollo",
+        "Voyager",
+        "Hubble"
+      ],
+      "correct_answer": "Pandora"
+    },
+    {
+      "question": "What does the Webb telescope look for in planet atmospheres?",
+      "options": [
+        "Water vapor",
+        "Gold",
+        "Rocks",
+        "Light"
+      ],
+      "correct_answer": "Water vapor"
+    },
+    {
+      "question": "Why is it hard for Webb to see planets clearly?",
+      "options": [
+        "Stars are too bright",
+        "Planets are too small",
+        "Space is dark",
+        "Telescopes break"
+      ],
+      "correct_answer": "Stars are too bright"
+    },
+    {
+      "question": "How does Pandora help Webb?",
+      "options": [
+        "By watching stars at the same time",
+        "By taking pictures of Earth",
+        "By building new telescopes",
+        "By landing on planets"
+      ],
+      "correct_answer": "By watching stars at the same time"
+    },
+    {
+      "question": "What rocket launched Pandora into space?",
+      "options": [
+        "SpaceX Falcon 9",
+        "NASA Shuttle",
+        "Saturn V",
+        "Soyuz"
+      ],
+      "correct_answer": "SpaceX Falcon 9"
+    },
+    {
+      "question": "What is the goal of finding planets like Earth?",
+      "options": [
+        "To see if they could have life",
+        "To build cities there",
+        "To mine for gold",
+        "To study the Sun"
+      ],
+      "correct_answer": "To see if they could have life"
+    }
+  ],
+  "background_read": [
+    "Space telescopes like Webb help scientists learn about the universe. They look at stars and planets far away. Finding planets with water or other chemicals might mean they could support life, like Earth does. NASA sends missions to space to explore and answer big questions about other worlds."
+  ],
+  "Article_Structure": [
+    "WHO: NASA and scientists like Daniel Apai and Tom Barclay",
+    "WHAT: Launching the Pandora mission to help the Webb telescope study exoplanets",
+    "WHERE: From Vandenberg Space Force Base in California into space",
+    "WHY: To make sure Webb's data about planet atmospheres is accurate by accounting for star brightness"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific exploration",
+      "description": "Scientists use telescopes to discover new worlds and understand if they could be habitable."
+    }
+  ],
+  "image_url": "/article_images/article_e9d22171df4ccb3c_663c117dbae0.webp"
+}

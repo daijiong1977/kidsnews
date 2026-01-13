@@ -1,21 +1,48 @@
 {
   "articles": [
     {
-      "id": "88be5fe252d3a0ad",
-      "title": "Unlocking Wagyu Genetics: How a New Genome Map Improves Beef Breeding",
-      "summary": "Researchers at the University of Adelaide's Davies Livestock Research Centre have achieved a significant breakthrough by assembling the most comprehensive cattle genome to date, specifically focusing on Wagyu cattle. This new genome is 16% longer than previous references, providing a more complete genetic blueprint that reveals hundreds of previously unknown genes and structural variants. These genetic insights are crucial for understanding traits like marbling, which contributes to the high quality and value of Wagyu beef. The study, published in Nature Communications, was conducted in collaboration with the United States Department of Agriculture and aims to enhance breeding precision. By identifying genetic markers for desirable traits, breeders can now select animals more accurately to improve marbling, fertility, and disease resistance, not only in Wagyu but across other cattle breeds as well. This advancement holds economic potential for Australia's beef industry, which is growing with production exceeding 700,000 tonnes and exports worth over $1 billion. The research highlights hidden genetic diversity within Wagyu and offers tools for sustainable and profitable cattle farming.",
+      "id": "aadfdb60eb5f0da6",
+      "title": "Global Connections: How ENSO Drives Floods and Droughts Simultaneously",
+      "summary": "A recent study by scientists at The University of Texas at Austin reveals that ENSO (El Niño-Southern Oscillation), a climate pattern in the equatorial Pacific Ocean, is the primary driver of extreme water storage changes worldwide over the past two decades. By analyzing total water storage, which includes all forms of water such as rivers, lakes, soil moisture, and groundwater, the researchers found that ENSO synchronizes wet and dry conditions across distant continents. This means that when ENSO is active, regions far apart can experience floods or droughts at the same time, impacting global water availability, agriculture, and trade. The study utilized gravity measurements from NASA's GRACE and GRACE-FO satellites to detect water mass changes, defining wet extremes as above the 90th percentile and dry extremes as below the 10th percentile. This approach allowed the team to see spatial connections between extremes, providing more data than traditional event counting. Understanding these patterns is crucial for predicting and managing water-related disasters, as simultaneous extremes can strain resources and affect food production on a global scale.",
       "source": "Science Daily",
       "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_88be5fe252d3a0ad_d2985b1902dd.webp",
+      "image_url": "/article_images/article_aadfdb60eb5f0da6_db1a95097321.webp",
       "category": "Science"
     },
     {
-      "id": "92d5f3ef2b675cc4",
-      "title": "The Impact of Weight Loss Drugs on U.S. Food Spending Patterns",
-      "summary": "A recent study from Cornell University reveals that GLP-1 receptor agonists, such as Ozempic and Wegovy, are significantly reducing household food expenditures in the United States. Published in the Journal of Marketing Research, the research combines survey data on medication use with actual purchase records from tens of thousands of households. The findings indicate that within six months of starting these appetite-suppressing drugs, grocery spending decreases by an average of 5.3%, with higher-income households seeing over 8% reductions. Spending at limited-service restaurants, including fast-food chains and coffee shops, also falls by about 8%. The most substantial declines occur in ultra-processed, high-calorie foods like savory snacks and sweets, while modest increases are noted in categories such as yogurt and fresh fruit. Using transaction data from Numerator, the study provides a clearer picture by comparing households on the drugs with those not using them, highlighting real-world impacts. If adoption of GLP-1 medications continues to grow, food manufacturers and retailers may need to adapt to shifting consumer demands, potentially affecting product strategies and market trends.",
+      "id": "31a975bb924a9373",
+      "title": "Engineering a Healthier Sugar Alternative: Tagatose Production Breakthrough",
+      "summary": "Researchers at Tufts University have developed an innovative method to produce tagatose, a rare sugar that mimics the taste of table sugar while offering health advantages. Tagatose occurs naturally in small amounts in dairy products and fruits, but its scarcity makes extraction impractical. The team engineered Escherichia coli bacteria to act as biological factories, using glucose as a starting material. By incorporating enzymes from slime mold and other sources, the bacteria efficiently convert glucose into tagatose with yields up to 95%, a significant improvement over traditional methods that yield 40-77%. Tagatose provides 92% of sucrose's sweetness with 60% fewer calories and has FDA approval as safe. It minimally affects blood glucose and insulin levels, benefiting individuals with diabetes, and may inhibit cavity-causing bacteria, promoting oral health. This biosynthetic approach could revolutionize sweetener production by making tagatose more affordable and accessible for food applications.",
       "source": "Science Daily",
       "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_92d5f3ef2b675cc4_dfea7bd5e69f.webp",
+      "image_url": "/article_images/article_31a975bb924a9373_8b0b8bde6c5f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6bb690c618aab49a",
+      "title": "High Levels of Plastic Pollution Discovered in Urban Atmospheres",
+      "summary": "Recent research has revealed alarming levels of microplastics and nanoplastics in the air of major cities, challenging previous estimates. Scientists from the Institute of Earth Environment of the Chinese Academy of Sciences developed a semi-automated microanalytical technique to quantify these particles in atmospheric samples from Guangzhou and Xi'an. Using computer-controlled scanning electron microscopy, they reduced human bias and detected plastics across a broader size range, including nanoplastics as small as 200 nm. The study found concentrations in total suspended particulates and dustfall fluxes to be two to six orders of magnitude higher than earlier reports based on visual methods. This suggests prior research significantly underestimated atmospheric plastic pollution. The movement of plastics varied widely across pathways like dust resuspension and wet deposition, indicating complex transport and removal processes. These findings provide crucial insights into the global plastic cycle, highlighting the need to understand impacts on climate, ecosystems, and human health.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_6bb690c618aab49a_688acc84f184.webp",
+      "category": "Science"
+    },
+    {
+      "id": "e9d22171df4ccb3c",
+      "title": "Enhancing Exoplanet Discovery: NASA's Pandora Mission Supports Webb Telescope",
+      "summary": "NASA has launched the Pandora mission to address a critical challenge in exoplanet research with the James Webb Space Telescope. Webb, launched in 2021, is designed to analyze the atmospheres of distant planets by detecting chemical signatures like water vapor, carbon dioxide, and methane during planetary transits. However, stellar variability—such as spots, flares, and atmospheric molecules on stars—can contaminate these signals, making it difficult to distinguish planetary features from stellar ones. This issue became prominent around 2017-2018 as telescope capabilities improved. Pandora, a small satellite launched aboard a SpaceX Falcon 9 rocket, will observe stars simultaneously with Webb to monitor their activity and provide corrective data. With a budget of $20 million compared to Webb's over $10 billion, Pandora aims to enhance the accuracy of Webb's findings, particularly in the search for Earth-like exoplanets. Scientists like Daniel Apai and Tom Barclay emphasize that this collaboration will reduce uncertainties and improve our understanding of potentially habitable worlds.",
+      "source": "Ars Science",
+      "time_ago": "17 hours ago",
+      "image_url": "/article_images/article_e9d22171df4ccb3c_663c117dbae0.webp",
+      "category": "Science"
+    },
+    {
+      "id": "b227530e00e0563d",
+      "title": "Early Detection of Alzheimer's Through Brain Signal Analysis",
+      "summary": "Researchers at Brown University, in collaboration with scientists from Complutense University of Madrid, have identified a brain-based biomarker that may predict the progression from mild cognitive impairment to Alzheimer's disease. They studied 85 individuals diagnosed with mild cognitive impairment, using magnetoencephalography (MEG) to noninvasively record their brain activity during rest. By applying the Spectral Events Toolbox—a computational method developed at Brown—they analyzed beta frequency band signals, which are associated with memory processes. The study found that participants who developed Alzheimer's within two and a half years exhibited beta events with lower rate, shorter duration, and weaker power compared to those with stable conditions. This discovery offers a new approach to early detection, complementing existing biomarkers like beta amyloid and tau proteins, by directly measuring neuronal responses. It highlights the potential for improved diagnosis and intervention strategies in Alzheimer's research.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_b227530e00e0563d_637d5288ab5e.webp",
       "category": "Science"
     },
     {
@@ -23,35 +50,8 @@
       "title": "Uncovering Wales' Largest Roman Villa: A Community Archaeology Project",
       "summary": "In an unprecedented archaeological find, researchers have uncovered the largest Roman villa ever discovered in Wales, located beneath Margam Country Park. Using ground-penetrating radar, the team mapped a 572-square-meter structure with a corridor, two wings, and multiple rooms, suggesting it was a prestigious residence for a local dignitary. The site's significance lies in its excellent preservation, as the land has remained undisturbed by farming or development, offering a rare glimpse into Roman civilian life in Wales, which is typically dominated by military remains. Led by Dr. Alex Langlands from Swansea University, the project involved collaboration with Neath Port Talbot council and Margam Abbey Church, and was part of a broader initiative to engage school pupils and the local community in heritage learning. The discovery, shared exclusively with BBC News, provides unparalleled insights into Wales' national story, highlighting the villa's role as a center for a large agricultural estate. This find not only advances historical knowledge but also demonstrates the value of community involvement in archaeological research.",
       "source": "BBC Science",
-      "time_ago": "6 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_b9326bdc72047aa6_d625c4946a9e.webp",
-      "category": "Science"
-    },
-    {
-      "id": "70174bd4e6c19279",
-      "title": "Understanding CKM Syndrome: A Widespread Health Challenge in the U.S.",
-      "summary": "CKM syndrome, or cardiovascular-kidney-metabolic syndrome, is a recently defined condition that links heart disease, kidney disease, diabetes, and obesity, affecting nearly 90% of U.S. adults who have at least one related risk factor such as high blood pressure, abnormal cholesterol, high blood glucose, excess weight, or reduced kidney function. This interconnection significantly increases the risk of heart attack, stroke, and heart failure compared to individual conditions alone. A survey by the American Heart Association reveals that most adults are unfamiliar with CKM syndrome, yet they express a strong desire to learn more, highlighting a gap in public awareness. The syndrome involves the combined function of the heart, kidneys, and metabolic system, where dysfunction in one area strains the others, creating a harmful cycle. To address this, the American Heart Association is launching educational initiatives and clinical guidelines in 2026, offering tools to help people take early action through lifestyle changes and medical care. The Harris Poll conducted the survey in August 2025 with 4,000 participants, underscoring the need for coordinated healthcare approaches to manage multiple chronic conditions effectively.",
-      "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_70174bd4e6c19279_2d3132cc0ae7.webp",
-      "category": "Science"
-    },
-    {
-      "id": "b73fec915e9478af",
-      "title": "Mapping Genes for Brain Development: A CRISPR Study",
-      "summary": "Researchers conducted a study to identify genes essential for brain development by using embryonic stem cells. They employed genome-wide CRISPR knockout screens to disable nearly 20,000 genes individually, observing the effects as stem cells differentiated into neural cells. This systematic approach revealed 331 critical genes for neuron production, many previously unknown in early brain development. A key finding was the gene PEDS1, which produces plasmalogens for myelin—a fatty coating insulating nerve fibers. Loss of PEDS1 led to reduced brain size and was linked to a neurodevelopmental disorder in children from two families with rare mutations. The study also explored inheritance patterns, noting that genes like PEDS1, involved in metabolism, often cause recessive disorders, while regulatory genes are tied to dominant ones. This research enhances understanding of neurodevelopmental conditions such as autism and developmental delay, offering potential for improved diagnosis and treatments.",
-      "source": "Science Daily",
-      "time_ago": "10 hours ago",
-      "image_url": "/article_images/article_b73fec915e9478af_91d16fd52ac2.webp",
-      "category": "Science"
-    },
-    {
-      "id": "942d4a1536ef650d",
-      "title": "Will Smith's Role in Discovering a New Anaconda Species",
-      "summary": "In 2024, scientists announced the discovery of a new species of giant anaconda, the northern green anaconda (Eunectes akayama), in South America. This finding was part of a 2022 expedition documented by National Geographic for their documentary series Pole to Pole with Will Smith, featuring actor Will Smith. During the Amazon leg of the journey, Smith accompanied venom expert Bryan Fry and indigenous Waorani guides on a boat trip to search for anacondas. They located a female green anaconda, approximately 16 to 17 feet long, and collected scale samples for genetic analysis. This analysis revealed that the northern green anaconda is genetically distinct from the southern green anaconda (Eunectes murinus), with the two species diverging around 10 million years ago. The new species inhabits regions including Venezuela, Colombia, Suriname, French Guyana, and northern Brazil. Smith's involvement extended beyond the Amazon; he also encountered a giant tarantula during venom extraction and traveled to diverse locations like the South Pole, Himalayas, Pacific Islands, Kalahari desert, and North Pole for the documentary, which premieres in January 2026 on Disney+.",
-      "source": "Ars Science",
-      "time_ago": "16 hours ago",
-      "image_url": "/article_images/article_942d4a1536ef650d_f8dc556c0645.webp",
       "category": "Science"
     }
   ]
