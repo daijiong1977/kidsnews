@@ -1,0 +1,121 @@
+{
+  "title": "Unveiling Solar Storms: How Spacecraft Track the Sun's Most Active Regions",
+  "summary": "The Sun rotates approximately every 28 days, limiting Earth-based observations to about two weeks per active region. To overcome this, the European Space Agency launched Solar Orbiter in 2020, which orbits the Sun every six months and provides views of the far side. Between April and July 2024, Solar Orbiter captured detailed data on NOAA 13664, an exceptionally active solar region that triggered the strongest geomagnetic storms since 2003, producing auroras visible as far south as Switzerland. An international research team led by scientists like Ioannis Kontogiannis and Louise Harra combined Solar Orbiter's far-side observations with continuous data from NASA's Solar Dynamics Observatory, which monitors the Sun from the Earth-Sun line. This integration enabled nearly uninterrupted tracking of NOAA 13664 for 94 days, marking the longest continuous image series for a single active region in solar physics. The study highlights how magnetic fields in these regions, formed by magnetized plasma rising from the Sun's interior, become unstable and release energy, driving solar storms. This research advances our understanding of solar activity and improves prediction models for space weather events that can impact Earth.",
+  "keywords": [
+    {
+      "term": "Solar Orbiter mission",
+      "explanation": "a European Space Agency spacecraft designed to study the Sun from a unique orbit, providing data on hidden regions"
+    },
+    {
+      "term": "NOAA 13664",
+      "explanation": "an intense solar active region observed in 2024 that caused significant geomagnetic activity on Earth"
+    },
+    {
+      "term": "geomagnetic storms",
+      "explanation": "disturbances in Earth's magnetosphere caused by solar energy, leading to phenomena like auroras and potential technological disruptions"
+    },
+    {
+      "term": "magnetic fields",
+      "explanation": "complex forces in solar active regions that store and release energy, contributing to storm formation"
+    },
+    {
+      "term": "data integration",
+      "explanation": "the process of combining observations from multiple sources, such as spacecraft, to create a comprehensive view of solar phenomena"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the rotation period of the Sun, and how does it affect Earth-based observations?",
+      "options": [
+        "28 days, limiting views to two weeks per region",
+        "24 hours, allowing constant observation",
+        "6 months, matching Solar Orbiter's orbit",
+        "1 year, causing seasonal changes"
+      ],
+      "correct_answer": "28 days, limiting views to two weeks per region"
+    },
+    {
+      "question": "Which spacecraft provided data from the far side of the Sun for studying NOAA 13664?",
+      "options": [
+        "Solar Orbiter",
+        "NASA's Solar Dynamics Observatory",
+        "Hubble Space Telescope",
+        "International Space Station"
+      ],
+      "correct_answer": "Solar Orbiter"
+    },
+    {
+      "question": "What significant event did NOAA 13664 cause on Earth in May 2024?",
+      "options": [
+        "The strongest geomagnetic storms since 2003",
+        "A solar eclipse",
+        "A new moon phase",
+        "Increased sunlight intensity"
+      ],
+      "correct_answer": "The strongest geomagnetic storms since 2003"
+    },
+    {
+      "question": "How long did the combined spacecraft observations track NOAA 13664 continuously?",
+      "options": [
+        "94 days",
+        "28 days",
+        "6 months",
+        "2 weeks"
+      ],
+      "correct_answer": "94 days"
+    },
+    {
+      "question": "What role do magnetic fields play in solar active regions?",
+      "options": [
+        "They store and release energy, driving storms",
+        "They create sunlight",
+        "They cool the Sun's surface",
+        "They form planets"
+      ],
+      "correct_answer": "They store and release energy, driving storms"
+    },
+    {
+      "question": "Who led the international research team mentioned in the article?",
+      "options": [
+        "Ioannis Kontogiannis and Louise Harra",
+        "NASA scientists only",
+        "European Space Agency directors",
+        "Swiss meteorologists"
+      ],
+      "correct_answer": "Ioannis Kontogiannis and Louise Harra"
+    },
+    {
+      "question": "What is the purpose of combining data from Solar Orbiter and NASA's Solar Dynamics Observatory?",
+      "options": [
+        "To create a more complete picture of solar regions",
+        "To reduce costs of space missions",
+        "To take pictures of Earth",
+        "To study other stars"
+      ],
+      "correct_answer": "To create a more complete picture of solar regions"
+    },
+    {
+      "question": "Why is the 94-day observation series considered a milestone?",
+      "options": [
+        "It's the longest continuous image series for a solar region",
+        "It discovered a new planet",
+        "It measured the Sun's temperature",
+        "It ended solar storms"
+      ],
+      "correct_answer": "It's the longest continuous image series for a solar region"
+    }
+  ],
+  "background_read": [
+    "Solar physics involves studying the Sun's behavior, including active regions where magnetic activity is high. These regions can lead to solar storms, which emit particles and radiation affecting space weather. Geomagnetic storms, caused by interactions between solar energy and Earth's magnetosphere, result in auroras and can disrupt satellites, power grids, and communications. Spacecraft like Solar Orbiter and NASA's Solar Dynamics Observatory are essential for monitoring the Sun, as they provide data from different perspectives, helping scientists predict and mitigate impacts of solar events. Understanding magnetic fields and plasma dynamics is key to advancing solar research and protecting technological infrastructure on Earth."
+  ],
+  "Article_Structure": [
+    "Main Points: The article details how Solar Orbiter and NASA's Solar Dynamics Observatory combined observations to track NOAA 13664 for 94 days, revealing insights into solar storm formation. Purpose: To inform about advancements in solar physics and improve prediction of geomagnetic storms. Evidence Evaluation: High-quality data from spacecraft provides reliable evidence, though limited to specific timeframes. Author Credibility: Scientists from ETH Zurich and international institutions lend expertise. Methodology: Integration of multi-spacecraft data and continuous imaging techniques."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological Advancement",
+      "description": "The use of advanced spacecraft enables unprecedented solar monitoring, pushing the boundaries of space science."
+    }
+  ],
+  "image_url": "/article_images/article_75ab1c468437bf60_6023f1b02da0.webp"
+}

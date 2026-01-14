@@ -1,0 +1,104 @@
+{
+  "title": "AI Helps Doctors Find Sick Blood Cells",
+  "summary": "Scientists have created a new computer program called CytoDiffusion that uses artificial intelligence to look at blood cells under a microscope. It helps doctors find abnormal cells that might mean someone has a disease like leukemia. The AI studies the shape and structure of blood cells, which can be hard for humans to see because there are thousands of cells in a blood sample. It was trained on many pictures from a hospital and can spot rare or unusual cells better than people. This tool makes diagnoses more accurate and helps doctors not miss important signs. It also tells doctors when it is not sure, which helps avoid mistakes. The researchers from universities in London and Cambridge hope this will improve healthcare by making blood tests faster and more reliable.",
+  "keywords": [
+    {
+      "term": "artificial intelligence",
+      "explanation": "a computer program that can learn and think like a human"
+    },
+    {
+      "term": "blood cells",
+      "explanation": "tiny parts in our blood that help our body work, like fighting germs"
+    },
+    {
+      "term": "leukemia",
+      "explanation": "a sickness where blood cells grow wrong and can make people very ill"
+    },
+    {
+      "term": "microscope",
+      "explanation": "a tool that makes tiny things look bigger so we can see them"
+    },
+    {
+      "term": "diagnose",
+      "explanation": "to find out what sickness someone has by checking their body"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the AI tool in the article?",
+      "options": [
+        "CytoDiffusion",
+        "DALL-E",
+        "Microscope",
+        "Blood Test"
+      ],
+      "correct_answer": "CytoDiffusion"
+    },
+    {
+      "question": "What does the AI look at under a microscope?",
+      "options": [
+        "Blood cells",
+        "Bones",
+        "Skin",
+        "Hair"
+      ],
+      "correct_answer": "Blood cells"
+    },
+    {
+      "question": "Why is it hard for humans to check all blood cells?",
+      "options": [
+        "There are too many cells",
+        "Cells are too small",
+        "Doctors are too busy",
+        "Microscopes are broken"
+      ],
+      "correct_answer": "There are too many cells"
+    },
+    {
+      "question": "What disease does the AI help find?",
+      "options": [
+        "Leukemia",
+        "Cold",
+        "Broken bone",
+        "Headache"
+      ],
+      "correct_answer": "Leukemia"
+    },
+    {
+      "question": "What does the AI do when it is not sure about a cell?",
+      "options": [
+        "Tells doctors it is uncertain",
+        "Ignores the cell",
+        "Guesses the answer",
+        "Stops working"
+      ],
+      "correct_answer": "Tells doctors it is uncertain"
+    },
+    {
+      "question": "Where did the researchers get pictures to train the AI?",
+      "options": [
+        "A hospital",
+        "A school",
+        "A library",
+        "A park"
+      ],
+      "correct_answer": "A hospital"
+    }
+  ],
+  "background_read": [
+    "Blood cells are important for keeping us healthy. White blood cells fight infections, and red blood cells carry oxygen. Sometimes, cells can become abnormal, which might mean a disease like leukemia. Doctors use microscopes to look at blood samples, but it takes a long time and can be tricky to spot rare cells. Artificial intelligence is a type of computer technology that can learn from pictures and help with tasks like this, making it easier to find problems quickly."
+  ],
+  "Article_Structure": [
+    "WHO: Researchers from universities in London and Cambridge",
+    "WHAT: Created an AI tool called CytoDiffusion to analyze blood cells",
+    "WHERE: Used data from Addenbrooke's Hospital in Cambridge",
+    "WHY: To improve diagnosis of diseases like leukemia by finding abnormal cells more accurately"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Medical improvement",
+      "description": "The AI helps doctors make better diagnoses by spotting sick cells that might be missed."
+    }
+  ],
+  "image_url": "/article_images/article_412d8e448f7f7afc_7220fa353be0.webp"
+}

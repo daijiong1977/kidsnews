@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "aadfdb60eb5f0da6",
-      "title": "Global Connections: How ENSO Drives Floods and Droughts Simultaneously",
-      "summary": "A recent study by scientists at The University of Texas at Austin reveals that ENSO (El Niño-Southern Oscillation), a climate pattern in the equatorial Pacific Ocean, is the primary driver of extreme water storage changes worldwide over the past two decades. By analyzing total water storage, which includes all forms of water such as rivers, lakes, soil moisture, and groundwater, the researchers found that ENSO synchronizes wet and dry conditions across distant continents. This means that when ENSO is active, regions far apart can experience floods or droughts at the same time, impacting global water availability, agriculture, and trade. The study utilized gravity measurements from NASA's GRACE and GRACE-FO satellites to detect water mass changes, defining wet extremes as above the 90th percentile and dry extremes as below the 10th percentile. This approach allowed the team to see spatial connections between extremes, providing more data than traditional event counting. Understanding these patterns is crucial for predicting and managing water-related disasters, as simultaneous extremes can strain resources and affect food production on a global scale.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_aadfdb60eb5f0da6_db1a95097321.webp",
+      "id": "1f8c78df4233e0fd",
+      "title": "UK Advances Offshore Wind Projects to Meet Clean Energy Goals",
+      "summary": "The UK has awarded contracts for a record amount of offshore wind projects as part of its strategy to expand clean electricity generation. These projects are located across England, Scotland, and Wales, with notable developments including Berwick Bank in the North Sea, which could become the world's largest offshore wind farm. The government aims to achieve at least 95% of Great Britain's electricity from clean sources by 2030, with offshore wind playing a key role due to the country's abundant wind resources. Currently, the UK has 16.6GW of offshore wind capacity, with an additional 11.7GW under construction, and the recent auction secured 8.4GW, bringing the total closer to the 2030 target of 43GW. However, analysts caution that meeting this target is challenging due to the time required to build and connect wind farms to the grid. The government argues that wind energy is cheaper than new gas power and will reduce energy bills, but critics, including the Conservatives, raise concerns about high costs and potential impacts on energy prices. Overall, this initiative is crucial for reducing emissions and transitioning to a sustainable energy system.",
+      "source": "BBC Science",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_1f8c78df4233e0fd_90aeb9affe46.webp",
       "category": "Science"
     },
     {
-      "id": "31a975bb924a9373",
-      "title": "Engineering a Healthier Sugar Alternative: Tagatose Production Breakthrough",
-      "summary": "Researchers at Tufts University have developed an innovative method to produce tagatose, a rare sugar that mimics the taste of table sugar while offering health advantages. Tagatose occurs naturally in small amounts in dairy products and fruits, but its scarcity makes extraction impractical. The team engineered Escherichia coli bacteria to act as biological factories, using glucose as a starting material. By incorporating enzymes from slime mold and other sources, the bacteria efficiently convert glucose into tagatose with yields up to 95%, a significant improvement over traditional methods that yield 40-77%. Tagatose provides 92% of sucrose's sweetness with 60% fewer calories and has FDA approval as safe. It minimally affects blood glucose and insulin levels, benefiting individuals with diabetes, and may inhibit cavity-causing bacteria, promoting oral health. This biosynthetic approach could revolutionize sweetener production by making tagatose more affordable and accessible for food applications.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_31a975bb924a9373_8b0b8bde6c5f.webp",
-      "category": "Science"
-    },
-    {
-      "id": "6bb690c618aab49a",
-      "title": "High Levels of Plastic Pollution Discovered in Urban Atmospheres",
-      "summary": "Recent research has revealed alarming levels of microplastics and nanoplastics in the air of major cities, challenging previous estimates. Scientists from the Institute of Earth Environment of the Chinese Academy of Sciences developed a semi-automated microanalytical technique to quantify these particles in atmospheric samples from Guangzhou and Xi'an. Using computer-controlled scanning electron microscopy, they reduced human bias and detected plastics across a broader size range, including nanoplastics as small as 200 nm. The study found concentrations in total suspended particulates and dustfall fluxes to be two to six orders of magnitude higher than earlier reports based on visual methods. This suggests prior research significantly underestimated atmospheric plastic pollution. The movement of plastics varied widely across pathways like dust resuspension and wet deposition, indicating complex transport and removal processes. These findings provide crucial insights into the global plastic cycle, highlighting the need to understand impacts on climate, ecosystems, and human health.",
-      "source": "Science Daily",
-      "time_ago": "9 hours ago",
-      "image_url": "/article_images/article_6bb690c618aab49a_688acc84f184.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e9d22171df4ccb3c",
-      "title": "Enhancing Exoplanet Discovery: NASA's Pandora Mission Supports Webb Telescope",
-      "summary": "NASA has launched the Pandora mission to address a critical challenge in exoplanet research with the James Webb Space Telescope. Webb, launched in 2021, is designed to analyze the atmospheres of distant planets by detecting chemical signatures like water vapor, carbon dioxide, and methane during planetary transits. However, stellar variability—such as spots, flares, and atmospheric molecules on stars—can contaminate these signals, making it difficult to distinguish planetary features from stellar ones. This issue became prominent around 2017-2018 as telescope capabilities improved. Pandora, a small satellite launched aboard a SpaceX Falcon 9 rocket, will observe stars simultaneously with Webb to monitor their activity and provide corrective data. With a budget of $20 million compared to Webb's over $10 billion, Pandora aims to enhance the accuracy of Webb's findings, particularly in the search for Earth-like exoplanets. Scientists like Daniel Apai and Tom Barclay emphasize that this collaboration will reduce uncertainties and improve our understanding of potentially habitable worlds.",
+      "id": "f3dab960eb5f2820",
+      "title": "EPA Shifts Policy on Evaluating Air Pollution Health Benefits",
+      "summary": "The U.S. Environmental Protection Agency (EPA) is implementing a significant policy change in its regulatory process for air pollution. Historically, the EPA conducted cost-benefit analyses for regulations on pollutants like fine particulate matter (PM2.5) and ozone, comparing the economic costs of compliance—such as expenses for new pollution control equipment—with the monetized health benefits, estimated through metrics like the 'value of a statistical life.' This approach helped justify stricter limits by showing that health improvements, such as reduced healthcare costs and increased productivity, outweighed costs. However, the EPA now plans to exclude these monetized benefits from analyses for PM2.5 and ozone, citing scientific uncertainties in quantifying them accurately. Instead, it will qualitatively describe health impacts while precisely calculating costs. This shift, revealed through internal documents and a New York Times report, could influence future regulations by emphasizing financial burdens over public health gains. Critics argue it may lead to weaker pollution standards, as costs alone might appear prohibitive, whereas proponents claim it addresses overconfidence in benefit estimates. The change reflects ongoing political debates, with past administrations adjusting valuation methods, but current actions focus on leveraging uncertainty to potentially relax environmental protections.",
       "source": "Ars Science",
       "time_ago": "17 hours ago",
-      "image_url": "/article_images/article_e9d22171df4ccb3c_663c117dbae0.webp",
+      "image_url": "/article_images/article_f3dab960eb5f2820_436ba1f686ef.webp",
       "category": "Science"
     },
     {
-      "id": "b227530e00e0563d",
-      "title": "Early Detection of Alzheimer's Through Brain Signal Analysis",
-      "summary": "Researchers at Brown University, in collaboration with scientists from Complutense University of Madrid, have identified a brain-based biomarker that may predict the progression from mild cognitive impairment to Alzheimer's disease. They studied 85 individuals diagnosed with mild cognitive impairment, using magnetoencephalography (MEG) to noninvasively record their brain activity during rest. By applying the Spectral Events Toolbox—a computational method developed at Brown—they analyzed beta frequency band signals, which are associated with memory processes. The study found that participants who developed Alzheimer's within two and a half years exhibited beta events with lower rate, shorter duration, and weaker power compared to those with stable conditions. This discovery offers a new approach to early detection, complementing existing biomarkers like beta amyloid and tau proteins, by directly measuring neuronal responses. It highlights the potential for improved diagnosis and intervention strategies in Alzheimer's research.",
+      "id": "412d8e448f7f7afc",
+      "title": "AI System Enhances Blood Cell Analysis for Disease Detection",
+      "summary": "Researchers have developed CytoDiffusion, an artificial intelligence system that analyzes the shape and structure of blood cells to improve disease diagnosis, particularly for conditions like leukemia. Unlike traditional AI tools that categorize images into fixed groups, CytoDiffusion uses generative AI to study subtle variations in cell appearance, allowing it to recognize a full range of normal and abnormal cells. It was trained on over half a million blood smear images from Addenbrooke's Hospital, making it resilient to differences in hospital equipment and staining techniques. The system can identify rare or unusual cells with higher accuracy and consistency than human specialists, reducing missed diagnoses. Additionally, it quantifies its confidence in predictions, avoiding false certainties that humans sometimes make. This automation helps handle the scale of blood analysis, as a single smear contains thousands of cells, overwhelming for manual review. The research, led by teams from the University of Cambridge, University College London, and Queen Mary University of London, was published in Nature Machine Intelligence and aims to enhance clinical workflows by triaging routine cases and flagging anomalies for expert attention.",
       "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_b227530e00e0563d_637d5288ab5e.webp",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_412d8e448f7f7afc_7220fa353be0.webp",
       "category": "Science"
     },
     {
-      "id": "b9326bdc72047aa6",
-      "title": "Uncovering Wales' Largest Roman Villa: A Community Archaeology Project",
-      "summary": "In an unprecedented archaeological find, researchers have uncovered the largest Roman villa ever discovered in Wales, located beneath Margam Country Park. Using ground-penetrating radar, the team mapped a 572-square-meter structure with a corridor, two wings, and multiple rooms, suggesting it was a prestigious residence for a local dignitary. The site's significance lies in its excellent preservation, as the land has remained undisturbed by farming or development, offering a rare glimpse into Roman civilian life in Wales, which is typically dominated by military remains. Led by Dr. Alex Langlands from Swansea University, the project involved collaboration with Neath Port Talbot council and Margam Abbey Church, and was part of a broader initiative to engage school pupils and the local community in heritage learning. The discovery, shared exclusively with BBC News, provides unparalleled insights into Wales' national story, highlighting the villa's role as a center for a large agricultural estate. This find not only advances historical knowledge but also demonstrates the value of community involvement in archaeological research.",
-      "source": "BBC Science",
+      "id": "a0ec1fd5107f11e8",
+      "title": "Molecular Sensors Guide Uterine Contractions in Childbirth",
+      "summary": "Researchers have uncovered the molecular mechanisms by which the uterus detects physical forces to coordinate contractions during childbirth. While hormones like progesterone and oxytocin are known regulators, this study highlights the critical role of mechanical signals such as pressure and stretch. Scientists from Scripps Research identified two ion channel proteins, PIEZO1 and PIEZO2, which act as sensors in the uterus. PIEZO1 is located in the smooth muscle of the uterus, where it senses increasing pressure during contractions. PIEZO2 is found in sensory nerves of the cervix and vagina, detecting tissue stretch and triggering neural reflexes to enhance contractions. Together, these sensors convert mechanical forces into electrical and chemical signals that synchronize uterine activity. Experiments with mouse models showed that removing both PIEZO proteins led to weaker contractions and delayed births, demonstrating their essential function. Additionally, the research linked PIEZO signaling to connexin 43, a protein that forms gap junctions between muscle cells, ensuring coordinated contractions. This discovery provides insights into why labor may progress slowly or begin prematurely, offering potential targets for improving treatments for pregnancy and delivery complications.",
+      "source": "Science Daily",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_a0ec1fd5107f11e8_f84abe44747a.webp",
+      "category": "Science"
+    },
+    {
+      "id": "75ab1c468437bf60",
+      "title": "Unveiling Solar Storms: How Spacecraft Track the Sun's Most Active Regions",
+      "summary": "The Sun rotates approximately every 28 days, limiting Earth-based observations to about two weeks per active region. To overcome this, the European Space Agency launched Solar Orbiter in 2020, which orbits the Sun every six months and provides views of the far side. Between April and July 2024, Solar Orbiter captured detailed data on NOAA 13664, an exceptionally active solar region that triggered the strongest geomagnetic storms since 2003, producing auroras visible as far south as Switzerland. An international research team led by scientists like Ioannis Kontogiannis and Louise Harra combined Solar Orbiter's far-side observations with continuous data from NASA's Solar Dynamics Observatory, which monitors the Sun from the Earth-Sun line. This integration enabled nearly uninterrupted tracking of NOAA 13664 for 94 days, marking the longest continuous image series for a single active region in solar physics. The study highlights how magnetic fields in these regions, formed by magnetized plasma rising from the Sun's interior, become unstable and release energy, driving solar storms. This research advances our understanding of solar activity and improves prediction models for space weather events that can impact Earth.",
+      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_b9326bdc72047aa6_d625c4946a9e.webp",
+      "image_url": "/article_images/article_75ab1c468437bf60_6023f1b02da0.webp",
+      "category": "Science"
+    },
+    {
+      "id": "dd1e41214d4c33d6",
+      "title": "Unlocking the Secrets of Superionic Water and Planetary Magnetism",
+      "summary": "Superionic water is a rare phase of water that forms under extreme temperatures of several thousand degrees Celsius and pressures exceeding millions of atmospheres, conditions found deep within ice giant planets like Uranus and Neptune. In this state, oxygen atoms lock into a solid framework while hydrogen ions move freely, allowing it to conduct electricity exceptionally well. This property makes superionic water a strong candidate for generating the magnetic fields observed around these planets. Scientists have long been puzzled by its internal structure, with earlier theories suggesting simple cubic patterns. However, new research using advanced X-ray lasers at facilities like LCLS and European XFEL reveals a more complex reality: the oxygen atoms form a mixed structure combining face-centered cubic and hexagonal close-packed regions, leading to widespread disorder. This discovery, achieved by recreating planetary extremes in the lab through experiments that squeeze and heat water, aligns with computer simulations and shows that superionic water can adopt multiple forms, similar to ordinary ice. The findings enhance our understanding of water's behavior under extreme conditions and refine models of planetary interiors, suggesting that superionic water may be common in the universe, influencing the evolution and magnetic properties of ice giants.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_dd1e41214d4c33d6_3480ceb917ba.webp",
       "category": "Science"
     }
   ]
