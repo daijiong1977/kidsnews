@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "1f8c78df4233e0fd",
-      "title": "UK Advances Offshore Wind Projects to Meet Clean Energy Goals",
-      "summary": "The UK has awarded contracts for a record amount of offshore wind projects as part of its strategy to expand clean electricity generation. These projects are located across England, Scotland, and Wales, with notable developments including Berwick Bank in the North Sea, which could become the world's largest offshore wind farm. The government aims to achieve at least 95% of Great Britain's electricity from clean sources by 2030, with offshore wind playing a key role due to the country's abundant wind resources. Currently, the UK has 16.6GW of offshore wind capacity, with an additional 11.7GW under construction, and the recent auction secured 8.4GW, bringing the total closer to the 2030 target of 43GW. However, analysts caution that meeting this target is challenging due to the time required to build and connect wind farms to the grid. The government argues that wind energy is cheaper than new gas power and will reduce energy bills, but critics, including the Conservatives, raise concerns about high costs and potential impacts on energy prices. Overall, this initiative is crucial for reducing emissions and transitioning to a sustainable energy system.",
+      "id": "dc1076c02571432e",
+      "title": "Medical Evacuation from ISS: Astronauts Return Early Due to Health Crisis",
+      "summary": "A crew of four astronauts, known as Crew-11, was evacuated from the International Space Station and returned to Earth a month early after a serious medical issue arose with one member. The astronauts—NASA's Mike Fincke and Zena Cardman, Japan's Kimiya Yui, and Russia's Oleg Platonov—splashed down safely off the California coast. NASA confirmed the affected crew member is in stable condition but did not disclose details about the illness or identity. This marks the first health-related evacuation from the ISS since its launch in 1998, highlighting the risks of long-duration space missions. The incident led to the cancellation of a planned spacewalk and reduced the station's crew to three until reinforcements arrive in February. The ISS, orbiting Earth at 250 miles altitude, conducts vital research on microgravity effects, but lacks an onboard doctor, relying on training and limited medical equipment. The early return underscores the challenges of managing health emergencies in space and the protocols in place for crew safety.",
       "source": "BBC Science",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_1f8c78df4233e0fd_90aeb9affe46.webp",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_dc1076c02571432e_ec5208c45854.webp",
       "category": "Science"
     },
     {
-      "id": "f3dab960eb5f2820",
-      "title": "EPA Shifts Policy on Evaluating Air Pollution Health Benefits",
-      "summary": "The U.S. Environmental Protection Agency (EPA) is implementing a significant policy change in its regulatory process for air pollution. Historically, the EPA conducted cost-benefit analyses for regulations on pollutants like fine particulate matter (PM2.5) and ozone, comparing the economic costs of compliance—such as expenses for new pollution control equipment—with the monetized health benefits, estimated through metrics like the 'value of a statistical life.' This approach helped justify stricter limits by showing that health improvements, such as reduced healthcare costs and increased productivity, outweighed costs. However, the EPA now plans to exclude these monetized benefits from analyses for PM2.5 and ozone, citing scientific uncertainties in quantifying them accurately. Instead, it will qualitatively describe health impacts while precisely calculating costs. This shift, revealed through internal documents and a New York Times report, could influence future regulations by emphasizing financial burdens over public health gains. Critics argue it may lead to weaker pollution standards, as costs alone might appear prohibitive, whereas proponents claim it addresses overconfidence in benefit estimates. The change reflects ongoing political debates, with past administrations adjusting valuation methods, but current actions focus on leveraging uncertainty to potentially relax environmental protections.",
+      "id": "ee12276aeb128fa5",
+      "title": "Uncovering a Rare Neonatal Diabetes Through Genetic Research",
+      "summary": "An international team of scientists has identified a previously unknown form of diabetes that affects infants, using advanced techniques like DNA sequencing and stem cell models. The research, led by the University of Exeter Medical School and Université Libre de Bruxelles, focused on six children who developed diabetes within the first six months of life and also exhibited neurological conditions such as epilepsy and microcephaly. By analyzing genetic data, the team discovered that mutations in the TMEM167A gene were responsible for both the metabolic and neurological symptoms. To understand the mechanism, researchers used stem cells transformed into pancreatic beta cells and applied CRISPR gene-editing to alter the TMEM167A gene. Experiments revealed that damaged TMEM167A leads to dysfunction in insulin-producing cells, causing stress responses and cell death. This finding highlights the gene's critical role in insulin secretion and neuron function, offering insights into rare diseases and potentially informing studies on more common forms of diabetes, which affect millions globally. The collaborative effort underscores the importance of genetic research in advancing medical knowledge.",
+      "source": "Science Daily",
+      "time_ago": "10 hours ago",
+      "image_url": "/article_images/article_ee12276aeb128fa5_9f54543d855d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "b7fec72587ee2b11",
+      "title": "Unlocking Ice Age Secrets: Woolly Rhino DNA from a Wolf's Stomach",
+      "summary": "Researchers discovered a 14,400-year-old frozen wolf puppy in Siberia with partially digested woolly rhino meat in its stomach. By sequencing the DNA from this meat, they obtained a complete genome of the woolly rhino, revealing that its population was genetically healthy and not inbred at that time. This finding was unexpected because woolly rhinos went extinct about 400 years later, suggesting they were thriving in northeastern Siberia just before disappearance. The study also compared this genome to an older one from 49,000 years ago, indicating a major population drop between 114,000 and 63,000 years ago, but recovery to a stable size. An effective population of around 1,600 rhinos was sufficient to avoid genetic issues, challenging previous assumptions about their decline. This research highlights how ancient DNA can provide insights into extinction events and population dynamics.",
       "source": "Ars Science",
-      "time_ago": "17 hours ago",
-      "image_url": "/article_images/article_f3dab960eb5f2820_436ba1f686ef.webp",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_b7fec72587ee2b11_005e4d9475b3.webp",
       "category": "Science"
     },
     {
-      "id": "412d8e448f7f7afc",
-      "title": "AI System Enhances Blood Cell Analysis for Disease Detection",
-      "summary": "Researchers have developed CytoDiffusion, an artificial intelligence system that analyzes the shape and structure of blood cells to improve disease diagnosis, particularly for conditions like leukemia. Unlike traditional AI tools that categorize images into fixed groups, CytoDiffusion uses generative AI to study subtle variations in cell appearance, allowing it to recognize a full range of normal and abnormal cells. It was trained on over half a million blood smear images from Addenbrooke's Hospital, making it resilient to differences in hospital equipment and staining techniques. The system can identify rare or unusual cells with higher accuracy and consistency than human specialists, reducing missed diagnoses. Additionally, it quantifies its confidence in predictions, avoiding false certainties that humans sometimes make. This automation helps handle the scale of blood analysis, as a single smear contains thousands of cells, overwhelming for manual review. The research, led by teams from the University of Cambridge, University College London, and Queen Mary University of London, was published in Nature Machine Intelligence and aims to enhance clinical workflows by triaging routine cases and flagging anomalies for expert attention.",
+      "id": "e6a49ae6502ff2e1",
+      "title": "Uncovering the Link Between Statins and Muscle Pain",
+      "summary": "Statins are widely prescribed medications for lowering cholesterol, but a significant number of patients discontinue use due to muscle pain, weakness, and fatigue. Researchers at Columbia University have identified a potential mechanism behind these side effects. Their study reveals that certain statins, such as simvastatin, bind to a protein called the ryanodine receptor in muscle cells. This binding opens a channel, causing calcium ions to leak into areas where they normally shouldn't be, which disrupts muscle function and can lead to pain and weakness. The research used cryo-electron microscopy, an advanced imaging technique, to observe this interaction at the atomic level. With approximately 40 million adults in the U.S. taking statins and about 10% experiencing muscle-related issues, this finding is crucial. The team is now exploring ways to redesign statins to avoid binding to the ryanodine receptor, aiming to develop safer cholesterol-lowering drugs that minimize side effects.",
       "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_412d8e448f7f7afc_7220fa353be0.webp",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_e6a49ae6502ff2e1_da85bb9bd647.webp",
       "category": "Science"
     },
     {
-      "id": "a0ec1fd5107f11e8",
-      "title": "Molecular Sensors Guide Uterine Contractions in Childbirth",
-      "summary": "Researchers have uncovered the molecular mechanisms by which the uterus detects physical forces to coordinate contractions during childbirth. While hormones like progesterone and oxytocin are known regulators, this study highlights the critical role of mechanical signals such as pressure and stretch. Scientists from Scripps Research identified two ion channel proteins, PIEZO1 and PIEZO2, which act as sensors in the uterus. PIEZO1 is located in the smooth muscle of the uterus, where it senses increasing pressure during contractions. PIEZO2 is found in sensory nerves of the cervix and vagina, detecting tissue stretch and triggering neural reflexes to enhance contractions. Together, these sensors convert mechanical forces into electrical and chemical signals that synchronize uterine activity. Experiments with mouse models showed that removing both PIEZO proteins led to weaker contractions and delayed births, demonstrating their essential function. Additionally, the research linked PIEZO signaling to connexin 43, a protein that forms gap junctions between muscle cells, ensuring coordinated contractions. This discovery provides insights into why labor may progress slowly or begin prematurely, offering potential targets for improving treatments for pregnancy and delivery complications.",
+      "id": "dcd5ffa93577aecd",
+      "title": "Unveiling Marine Darkwaves: Hidden Threats to Ocean Ecosystems",
+      "summary": "Marine darkwaves are intense, short-lived periods of underwater darkness caused by factors such as sediment runoff, algae blooms, and organic debris, which drastically reduce light reaching the seafloor. An international team of scientists developed the first framework to identify and compare these events, analyzing decades of data from coastal regions in California and New Zealand. The research, published in Communications Earth & Environment, reveals that marine darkwaves can last from a few days to over two months and are often linked to powerful storms and large-scale weather systems like Cyclone Gabrielle. These events pose significant risks to photosynthetic marine organisms, including kelp forests, seagrass meadows, and corals, by impairing photosynthesis and affecting the behavior of fish, sharks, and marine mammals. Previously, scientists focused on long-term declines in water clarity, but this study highlights the damaging impact of sudden darkwaves. The new framework adds to tools for monitoring ocean stressors like marine heatwaves and acidification, providing coastal communities and conservation groups with a way to detect immediate ecosystem stress and inform management strategies.",
       "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_a0ec1fd5107f11e8_f84abe44747a.webp",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_dcd5ffa93577aecd_23ea0f5e3b81.webp",
       "category": "Science"
     },
     {
-      "id": "75ab1c468437bf60",
-      "title": "Unveiling Solar Storms: How Spacecraft Track the Sun's Most Active Regions",
-      "summary": "The Sun rotates approximately every 28 days, limiting Earth-based observations to about two weeks per active region. To overcome this, the European Space Agency launched Solar Orbiter in 2020, which orbits the Sun every six months and provides views of the far side. Between April and July 2024, Solar Orbiter captured detailed data on NOAA 13664, an exceptionally active solar region that triggered the strongest geomagnetic storms since 2003, producing auroras visible as far south as Switzerland. An international research team led by scientists like Ioannis Kontogiannis and Louise Harra combined Solar Orbiter's far-side observations with continuous data from NASA's Solar Dynamics Observatory, which monitors the Sun from the Earth-Sun line. This integration enabled nearly uninterrupted tracking of NOAA 13664 for 94 days, marking the longest continuous image series for a single active region in solar physics. The study highlights how magnetic fields in these regions, formed by magnetized plasma rising from the Sun's interior, become unstable and release energy, driving solar storms. This research advances our understanding of solar activity and improves prediction models for space weather events that can impact Earth.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_75ab1c468437bf60_6023f1b02da0.webp",
-      "category": "Science"
-    },
-    {
-      "id": "dd1e41214d4c33d6",
-      "title": "Unlocking the Secrets of Superionic Water and Planetary Magnetism",
-      "summary": "Superionic water is a rare phase of water that forms under extreme temperatures of several thousand degrees Celsius and pressures exceeding millions of atmospheres, conditions found deep within ice giant planets like Uranus and Neptune. In this state, oxygen atoms lock into a solid framework while hydrogen ions move freely, allowing it to conduct electricity exceptionally well. This property makes superionic water a strong candidate for generating the magnetic fields observed around these planets. Scientists have long been puzzled by its internal structure, with earlier theories suggesting simple cubic patterns. However, new research using advanced X-ray lasers at facilities like LCLS and European XFEL reveals a more complex reality: the oxygen atoms form a mixed structure combining face-centered cubic and hexagonal close-packed regions, leading to widespread disorder. This discovery, achieved by recreating planetary extremes in the lab through experiments that squeeze and heat water, aligns with computer simulations and shows that superionic water can adopt multiple forms, similar to ordinary ice. The findings enhance our understanding of water's behavior under extreme conditions and refine models of planetary interiors, suggesting that superionic water may be common in the universe, influencing the evolution and magnetic properties of ice giants.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_dd1e41214d4c33d6_3480ceb917ba.webp",
+      "id": "dcea2bc1e347a583",
+      "title": "EPA Rule Limits State and Tribal Authority Over Pipeline Permits",
+      "summary": "The Trump administration has proposed a new rule to change Section 401 of the Clean Water Act, aiming to speed up the permitting process for energy and infrastructure projects like oil and gas pipelines. This rule reduces the authority of states and tribes to review and block projects that could harm water quality. Previously, states and tribes could consider a wide range of water-quality impacts, including indirect effects such as blocking fish migration or altering river flows. Under the new rule, they are limited to assessing only direct discharges into federally protected waters, making the process more predictable and efficient for companies. EPA officials argue this prevents misuse of Section 401 for political purposes, but environmental groups warn it weakens oversight and could leave smaller streams and wetlands unprotected. The rule comes after recent Supreme Court decisions that have narrowed which waterways qualify for federal protection, further limiting state power. This change highlights a tension between promoting economic development and ensuring environmental safeguards.",
+      "source": "Ars Science",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_dcea2bc1e347a583_f21406c6c1f7.webp",
       "category": "Science"
     }
   ]
