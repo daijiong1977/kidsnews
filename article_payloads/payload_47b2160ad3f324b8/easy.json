@@ -1,0 +1,104 @@
+{
+  "title": "Emma Raducanu's Tennis Match Schedule Problem",
+  "summary": "Emma Raducanu is a tennis player who is playing in the Australian Open tournament. She arrived in Melbourne on Saturday and has to play her first match on Sunday night. This gives her less than two days to practice and get ready. She thinks it is hard to play so soon after traveling. Also, her match might start very late at night because it is after a men's match that could take a long time. Raducanu says this schedule does not make sense for her and other players. She wants more time to prepare and thinks late matches are not good for athletes.",
+  "keywords": [
+    {
+      "term": "Australian Open",
+      "explanation": "a big tennis tournament in Australia"
+    },
+    {
+      "term": "schedule",
+      "explanation": "the plan for when matches happen"
+    },
+    {
+      "term": "match",
+      "explanation": "a game of tennis"
+    },
+    {
+      "term": "practice",
+      "explanation": "to train and get better at something"
+    },
+    {
+      "term": "late-night",
+      "explanation": "happening very late at night"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is Emma Raducanu playing her tennis match?",
+      "options": [
+        "Australian Open",
+        "US Open",
+        "Wimbledon",
+        "French Open"
+      ],
+      "correct_answer": "Australian Open"
+    },
+    {
+      "question": "How much time did Raducanu have to prepare after arriving?",
+      "options": [
+        "Less than two days",
+        "One week",
+        "Three days",
+        "One month"
+      ],
+      "correct_answer": "Less than two days"
+    },
+    {
+      "question": "Why might Raducanu's match start late?",
+      "options": [
+        "It is after a long men's match",
+        "The court is broken",
+        "She is sick",
+        "It is raining"
+      ],
+      "correct_answer": "It is after a long men's match"
+    },
+    {
+      "question": "What does Raducanu think about the schedule?",
+      "options": [
+        "It does not make sense",
+        "It is perfect",
+        "It is too easy",
+        "She loves it"
+      ],
+      "correct_answer": "It does not make sense"
+    },
+    {
+      "question": "What does Raducanu want more time for?",
+      "options": [
+        "Practicing",
+        "Sleeping",
+        "Eating",
+        "Watching TV"
+      ],
+      "correct_answer": "Practicing"
+    },
+    {
+      "question": "Who is Raducanu playing against in her first match?",
+      "options": [
+        "Mananchaya Sawangkaew",
+        "Andy Murray",
+        "Alexander Bublik",
+        "Jenson Brooksby"
+      ],
+      "correct_answer": "Mananchaya Sawangkaew"
+    }
+  ],
+  "background_read": [
+    "The Australian Open is a major tennis tournament held every year in Melbourne, Australia. Players from around the world compete to win. Sometimes, matches are scheduled late at night, which can be tiring for athletes. Emma Raducanu is a British tennis player who won the US Open in 2021. She is speaking out about the schedule to help make things better for players."
+  ],
+  "Article_Structure": [
+    "WHO: Emma Raducanu, a tennis player",
+    "WHAT: She is unhappy with her match schedule at the Australian Open",
+    "WHERE: In Melbourne, Australia",
+    "WHY: Because she has little time to prepare and might play very late at night"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Player's view",
+      "description": "Raducanu thinks the schedule is unfair and hard for athletes"
+    }
+  ],
+  "image_url": "/article_images/article_47b2160ad3f324b8_3afb2986513f.webp"
+}
