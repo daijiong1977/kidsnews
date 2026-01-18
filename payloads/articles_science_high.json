@@ -1,12 +1,39 @@
 {
   "articles": [
     {
-      "id": "4f957ceed0f7ff68",
-      "title": "Evaluating PATHWEIGH: A Paradigm Shift in Primary Care Weight Management",
-      "summary": "Dr. Leigh Perreault, an endocrinologist and professor at the University of Colorado, identified systemic shortcomings in conventional weight management within primary care, where patients often received perfunctory advice without substantive support. Dissatisfied with the symptomatic treatment of comorbidities through medications, she conceptualized PATHWEIGH as a structured intervention to refocus clinical efforts on weight as a foundational health determinant. This program institutionalizes dedicated weight management visits, diverging from the episodic integration of weight discussions in standard appointments. Funded by the National Institutes of Health, PATHWEIGH was deployed across 56 UCHealth primary care clinics in Colorado in a randomized controlled trial encompassing 274,182 patients, making it one of the largest studies in this domain. Findings published in Nature Medicine demonstrated a statistically significant reduction in population weight gain by 0.58 kg over 18 months, effectively reversing trends from gain to loss, and a 23% increase in the provision of weight-related care. These outcomes underscore the program's efficacy in altering public health trajectories, prompting obesity specialists to advocate for its adoption as a potential standard. The initiative exemplifies a translational research approach, bridging clinical insight with scalable implementation to address obesity's multifactorial challenges.",
+      "id": "20dc2e96b9f9b9e7",
+      "title": "Microplastics as a Disruptive Force in Oceanic Carbon Sequestration and Climate Dynamics",
+      "summary": "A comprehensive study published in the Journal of Hazardous Materials: Plastics elucidates how microplastics—ubiquitous particles under five millimeters—are compromising the ocean's role as a critical carbon sink by interfering with biogeochemical processes essential for climate regulation. The research, conducted by an international team including Dr. Ihsanullah Obaidullah, employs an integrative narrative approach to synthesize existing literature, revealing that microplastics impair the biological carbon pump through reduced phytoplankton photosynthesis and altered zooplankton metabolism. Furthermore, the plastisphere, a microbial biofilm on plastic surfaces, exacerbates greenhouse gas emissions by engaging in complex nitrogen and carbon cycles. This dual mechanism—direct disruption of marine organisms and indirect microbial contributions—poses a significant threat, potentially leading to ocean warming, acidification, and biodiversity loss, with cascading effects on global food security and coastal resilience. The authors argue that plastic pollution and climate change are inextricably linked, necessitating urgent, coordinated global strategies to mitigate this emerging environmental crisis, as oceans' capacity to absorb atmospheric carbon dioxide is fundamentally undermined by microplastic proliferation.",
       "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_4f957ceed0f7ff68_58ae5a8addeb.webp",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_20dc2e96b9f9b9e7_225a6b99f6f0.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8a45436ff5008b1f",
+      "title": "Microfluidic Encapsulation of Thyme Extract for Enhanced Nanodosing in Precision Therapeutics",
+      "summary": "This article explores a novel microfluidic encapsulation technique developed to transform thyme extract into precise nanodoses, addressing significant limitations in its pharmaceutical application. Thyme extract is rich in bioactive compounds, including thymol, carvacrol, rosmarinic acid, and caffeic acid, which confer anti-inflammatory, antimicrobial, and antioxidant properties. However, practical challenges such as rapid evaporation and potential irritation at higher concentrations impede its utility in medicine. Researchers from Tomsk Polytechnic University and Surgut State University engineered a method utilizing a microfluidic chip to encapsulate thyme extract within gelatin and sodium alginate matrices, with oil-induced droplet formation ensuring minimal evaporation and controlled release. Published in Physics of Fluids, the study demonstrates that this approach facilitates self-regulating, consistent nanodosing, adjustable through modulation of oil phase flow rates. The implications extend beyond thyme, as the technique is adaptable to other aqueous extracts and holds promise for sectors like food technology. Future directions involve integrating machine vision and artificial intelligence for real-time monitoring, and ongoing work focuses on encapsulating more concentrated water-alcohol extracts. This research underscores the convergence of nanotechnology, fluid dynamics, and biotechnology in advancing personalized medicine.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_8a45436ff5008b1f_708477eb62df.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7fca6bd6079eaf41",
+      "title": "AI-Driven Analysis of Global Cancer Survival Disparities: A Machine Learning Framework for Policy Intervention",
+      "summary": "This research employs machine learning to conduct a comprehensive analysis of factors influencing cancer survival across 185 countries, utilizing data from the Global Cancer Observatory (GLOBOCAN 2022) and health system indicators from organizations like the World Health Organization and World Bank. The study, published in Annals of Oncology, develops a predictive model that calculates mortality-to-incidence ratios (MIR) to assess cancer care effectiveness, with SHAP (Shapley Additive exPlanations) analysis used to deconstruct the contributions of variables such as GDP per capita, universal health coverage, access to radiotherapy, and healthcare workforce density. Key findings indicate that economic strength, radiotherapy accessibility, and universal health coverage are predominant levers for improving survival rates, though contextual factors vary by nation. An interactive online tool was created to facilitate country-specific exploration, enabling policymakers to identify prioritized interventions. Led by Dr. Edward Christopher Dee and Mr. Milit Patel, the work aims to transition from descriptive analytics to actionable frameworks, addressing global cancer burden growth and equity gaps through data-driven resource allocation and system planning, with implications for international health organizations and resource-limited settings.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_7fca6bd6079eaf41_04d637c10870.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8b44fcf8cff69b66",
+      "title": "Microseismic Analysis Unveils Complex Tectonic Dynamics at the Mendocino Triple Junction",
+      "summary": "A recent study published in Science employs advanced seismic monitoring to investigate the intricate tectonic architecture of the Mendocino Triple Junction off Northern California, where the San Andreas fault and Cascadia subduction zone intersect. Researchers from the U.S. Geological Survey, UC Davis, and the University of Colorado Boulder utilized a dense array of seismometers to capture swarms of low-frequency earthquakes, which are minuscule events indicative of slow plate movements. By analyzing these microseisms in response to tidal forces—gravitational stresses from celestial bodies—the team validated a subsurface model revealing five distinct tectonic fragments, challenging the traditional view of three major plates. Key findings include the detachment and subduction of a North American plate segment with the Gorda plate and the subduction of the Pioneer fragment, a relic of the ancient Farallon plate. This research elucidates the complex interplay of plate boundaries, enhancing seismic hazard assessment by providing deeper insights into the mechanisms driving potentially catastrophic earthquakes in this seismically active region.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_8b44fcf8cff69b66_548e07d87ff2.webp",
       "category": "Science"
     },
     {
@@ -14,17 +41,8 @@
       "title": "Artemis II and the Geopolitical Imperative: NASA's Pivotal Moon Mission Amidst Launch Fever",
       "summary": "NASA's Artemis II mission represents a critical juncture in human space exploration, as the Space Launch System rocket undergoes a meticulous rollout from the Vehicle Assembly Building to Launch Complex 39B at Kennedy Space Center. This process, utilizing a decades-old crawler transporter moving at under one mile per hour, symbolizes the culmination of extensive development efforts, including the Orion spacecraft and SLS, which trace their origins to the Constellation program initiated in 2006. The mission will send four astronauts—Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen—on a circumlunar trajectory, testing systems for future lunar landings while setting a new speed record during reentry. Artemis II serves as a demonstration of NASA's capabilities within the broader Artemis architecture, aimed at returning humans to the Moon by the late 2020s. However, the article underscores significant pressures, including 'launch fever'—the urge to proceed despite risks—driven by geopolitical competition with China, which plans crewed lunar landings by 2030. This context highlights strategic motivations such as national prestige and access to lunar resources, alongside substantial financial investments, with the SLS costing over $2 billion per expendable flight. The narrative also notes ongoing collaborations with commercial entities like SpaceX for landers and Axiom Space for suits, reflecting a shift toward public-private partnerships in space exploration. Ultimately, Artemis II is framed as both a technological milestone and a strategic imperative in the evolving landscape of global space dominance.",
       "source": "Ars Science",
-      "time_ago": "8 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_c5ec1cff9d56c978_1dc203376d73.webp",
-      "category": "Science"
-    },
-    {
-      "id": "b2493074d251f7e7",
-      "title": "Bamboo as a Superfood: A Comprehensive Review of Health Benefits and Safety Implications",
-      "summary": "A groundbreaking academic review conducted by researchers at Anglia Ruskin University has systematically analyzed bamboo's potential as a superfood, synthesizing evidence from both in vivo human trials and in vitro laboratory studies. Bamboo shoots exhibit a robust nutritional profile, characterized by high protein content, dietary fibers such as cellulose and lignin, essential amino acids, minerals like selenium and potassium, and vitamins including B6 and E. The review indicates that bamboo consumption may confer multiple health benefits: it can enhance glycemic control and improve lipid profiles, thereby supporting metabolic and cardiovascular health; provide antioxidant and anti-inflammatory effects; and promote digestive health through fiber-mediated bowel function and probiotic activities that foster beneficial gut microbiota. Additionally, bamboo compounds may inhibit the formation of toxic substances like furan and acrylamide in cooked foods. However, significant safety concerns are highlighted, including the presence of cyanogenic glycosides that release cyanide upon ingestion of raw shoots and compounds that interfere with thyroid hormone production, potentially leading to goiter. These risks are mitigable through proper preparation, such as pre-boiling. The findings suggest bamboo could serve as a sustainable, globally relevant food source, but further rigorous research is essential to validate therapeutic claims and establish standardized safety protocols.",
-      "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_b2493074d251f7e7_bb768ebb8325.webp",
       "category": "Science"
     },
     {
@@ -32,26 +50,8 @@
       "title": "Revealing Economic Expansion Through a Supersized Medieval Cog Shipwreck in Denmark",
       "summary": "A recent archaeological excavation off the Danish coast has uncovered a remarkably well-preserved medieval cog shipwreck, designated Svaelget 2, dating to approximately 1410 CE. This discovery offers profound insights into the rapid economic expansion of medieval Europe during the early 15th century. The cog, a merchant vessel type characterized by its flat-bottomed hull and single square sail, measured 28 meters in length and 9 meters in width, with an estimated cargo capacity of 300 tons—substantially exceeding the typical dimensions of 15-25 meters for such ships. Found during a seabed survey for urban development in Copenhagen, the wreck's preservation, attributed to protective sand layers, has enabled detailed analysis of structural elements often lost to decay, including rigging, a galley, and a stern castle. Artifacts such as combs, shoes, and rosary beads provide intimate glimpses into the daily lives of the estimated 30-45 crew members. The ship's construction materials, with timber from the Netherlands and oak planks from Poland, underscore the interconnected trade networks of the Hanseatic League era. This find not only confirms the scalability of cog design but also illustrates how maritime technology both drove and reflected burgeoning commercial activities, as noted by archaeologist Otto Uldum. Ultimately, Svaelget 2 serves as a tangible testament to the cog's revolutionary impact on northern European trade, facilitating large-scale commodity transport and signaling a society capable of significant capital investment in maritime infrastructure.",
       "source": "Ars Science",
-      "time_ago": "14 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_3bf9e0a99eae4a78_262acb180a09.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4418d5dcd71f671e",
-      "title": "Interdisciplinary Study Exposes Ointment-Induced Failure in Glaucoma MicroShunts",
-      "summary": "A groundbreaking interdisciplinary study from Nagoya University in Japan has elucidated a critical risk factor for the PRESERFLO MicroShunt, a globally utilized implant for glaucoma management. The research demonstrates that petrolatum-based eye ointments can induce significant structural compromise in the device, leading to swelling and potential rupture, attributable to the implant's composition of a styrenic thermoplastic elastomer (SIBS). This material, while engineered for high biocompatibility and flexibility, exhibits a pronounced affinity for hydrocarbon components, allowing ointment penetration that alters mechanical integrity. The investigation synergized clinical ophthalmological observations with rigorous engineering analyses, providing the first comprehensive evidence linking such ointments to implant damage. Despite explicit manufacturer contraindications, these warnings are frequently neglected in clinical environments, underscoring a gap in procedural adherence. The collaborative team, comprising medical professionals and material scientists, published their findings in Graefe's Archive for Clinical and Experimental Ophthalmology, advocating for heightened clinical vigilance. This study not only advances understanding of material-biological interactions but also has profound implications for patient safety, as glaucoma affects millions worldwide and the MicroShunt represents a key therapeutic advancement with reduced complication profiles compared to conventional surgeries.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_4418d5dcd71f671e_1d8870b3aa58.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1c84d23f14f7d943",
-      "title": "Challenging Synaptic Pruning: Adolescent Brain Development and Synapse Hotspot Formation",
-      "summary": "A groundbreaking study from Kyushu University redefines our understanding of adolescent brain development by identifying synapse hotspots that emerge during this critical period. Utilizing SeeDB2 for tissue clearing and super-resolution microscopy, researchers mapped dendritic spines in Layer 5 neurons of the mouse cerebral cortex, uncovering a localized high-density region that forms between three to eight weeks of age. This discovery challenges the predominant synaptic pruning hypothesis, suggesting that adolescence involves not only the elimination of connections but also the targeted formation of new synapses. The research further investigates implications for schizophrenia, demonstrating that mice with mutations in genes like Setd1a exhibit impaired hotspot development. These findings underscore the complexity of neural circuit maturation and propose that disruptions in synapse formation, rather than pruning alone, may underlie certain neuropsychiatric conditions, offering new avenues for therapeutic intervention.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_1c84d23f14f7d943_57aa85fd3eb5.webp",
       "category": "Science"
     }
   ]

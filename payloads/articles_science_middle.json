@@ -1,12 +1,39 @@
 {
   "articles": [
     {
-      "id": "4f957ceed0f7ff68",
-      "title": "Innovative Weight Management Program Shows Promise in Primary Care",
-      "summary": "Dr. Leigh Perreault, an endocrinologist at the University of Colorado, was concerned about the limitations of traditional weight management advice in medical care. She observed that patients often received generic recommendations to eat better and exercise more, which frequently proved insufficient. Recognizing that many medications addressed symptoms rather than underlying weight issues, she aimed to develop a more effective approach. This led to the creation of PATHWEIGH, a structured program designed to integrate weight management into primary care settings. The program involves dedicated clinic visits where providers can focus solely on weight-related care, moving beyond brief discussions during standard appointments. With funding from the National Institutes of Health, PATHWEIGH was implemented across 56 UCHealth primary care clinics in Colorado as part of a large-scale pilot study involving 274,182 patients. Results published in Nature Medicine indicated that the program reduced population weight gain by 0.58 kg over 18 months and shifted trends from weight gain to loss. Additionally, it increased the likelihood of patients receiving weight-related care by 23%. These findings have prompted obesity specialists to consider PATHWEIGH as a potential standard, with other health systems exploring its adoption to enhance public health outcomes.",
+      "id": "20dc2e96b9f9b9e7",
+      "title": "Microplastics Disrupt Ocean Carbon Absorption and Climate Regulation",
+      "summary": "A recent study reveals that microplastics, tiny plastic particles less than five millimeters, are interfering with the ocean's capacity to absorb carbon dioxide, a critical process for regulating Earth's temperature. These particles are widespread, found in oceans, lakes, air, and even human bodies, posing environmental risks by carrying toxins and disrupting ecosystems. The research, published in the Journal of Hazardous Materials: Plastics, highlights that microplastics affect phytoplankton and zooplankton, which are essential for the biological carbon pump that transfers carbon from the atmosphere to deep sea layers. Additionally, the plastisphere—a microbial community on plastic surfaces—contributes to greenhouse gas production. Scientists, led by Dr. Ihsanullah Obaidullah, warn that this disruption could lead to ocean warming, acidification, and biodiversity loss, threatening global food security and coastal communities. The study calls for urgent action to address plastic pollution as part of climate change mitigation, emphasizing that oceans, as Earth's largest carbon sink, are being undermined by microplastics.",
       "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_4f957ceed0f7ff68_58ae5a8addeb.webp",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_20dc2e96b9f9b9e7_225a6b99f6f0.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8a45436ff5008b1f",
+      "title": "Encapsulating Thyme Extract for Precision Medicine",
+      "summary": "Researchers are advancing precision medicine by encapsulating thyme extract into nanodoses to overcome its practical limitations. Thyme contains bioactive compounds like thymol, carvacrol, rosmarinic acid, and caffeic acid, which offer anti-inflammatory, antimicrobial, and antioxidant benefits. However, thyme extract evaporates rapidly and can cause irritation in larger amounts, hindering its medical use. Scientists from Tomsk Polytechnic University and Surgut State University in Russia developed a method to seal tiny droplets of thyme extract inside another liquid using a microfluidic chip. This process involves combining thyme extract with gelatin and sodium alginate, then introducing oil to form encapsulated droplets, preventing evaporation and enabling controlled nanodosing. The research, published in Physics of Fluids, demonstrates that this technique allows for consistent dose delivery and can be adjusted by varying oil flow rates. It has potential applications beyond pharmaceuticals, such as in the food industry, and future integration with AI could enhance real-time monitoring. The study shows no significant limitations and is being extended to encapsulate more concentrated extracts.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_8a45436ff5008b1f_708477eb62df.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7fca6bd6079eaf41",
+      "title": "Machine Learning Maps Global Cancer Survival Factors for Policy Action",
+      "summary": "Researchers applied machine learning, a form of artificial intelligence, to analyze cancer survival data across 185 countries, identifying key factors that influence outcomes. The study, published in Annals of Oncology, used data from sources like the Global Cancer Observatory and World Health Organization to examine variables such as national wealth, access to radiotherapy, universal health coverage, and healthcare staffing. By calculating mortality-to-incidence ratios (MIR), the team measured cancer care effectiveness and used SHAP analysis to explain how each factor contributes. The research highlights that access to radiotherapy, universal health coverage, and economic strength are consistently important for better survival rates. An online tool was developed to allow policymakers and users to explore country-specific insights, aiming to provide actionable recommendations for improving cancer systems. Led by Dr. Edward Christopher Dee and Mr. Milit Patel, the study emphasizes moving from describing disparities to offering data-driven roadmaps for resource prioritization and equity in cancer care globally.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_7fca6bd6079eaf41_04d637c10870.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8b44fcf8cff69b66",
+      "title": "Uncovering Hidden Tectonic Structures with Micro-Earthquakes in California",
+      "summary": "Researchers are analyzing swarms of extremely small, low-frequency earthquakes to gain insights into a complex and hazardous region off Northern California's coast, where the San Andreas fault meets the Cascadia subduction zone. This area, known as the Mendocino Triple Junction, involves the convergence of tectonic plates and can generate powerful earthquakes. Scientists from the U.S. Geological Survey, UC Davis, and the University of Colorado Boulder used a dense network of seismometers to detect these tiny earthquakes, which are thousands of times weaker than perceptible ones. They tested their model by observing how the earthquakes respond to tidal forces, similar to ocean tides. The study revealed that the region comprises five moving pieces, not just three major plates, including a broken portion of the North American plate being dragged down with the Gorda plate and the Pioneer fragment—a mass of rock from the ancient Farallon plate—being pulled beneath North America. This research, published in Science, aims to improve earthquake prediction and hazard assessment by understanding underlying tectonic processes.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_8b44fcf8cff69b66_548e07d87ff2.webp",
       "category": "Science"
     },
     {
@@ -14,17 +41,8 @@
       "title": "NASA's Artemis II Mission: Preparing for a Historic Moon Flight",
       "summary": "NASA is advancing its Artemis II mission, which will send four astronauts on a journey around the Moon, marking the first human voyage to lunar vicinity since 1972. The Space Launch System rocket, carrying the Orion spacecraft, is being transported from the Vehicle Assembly Building to Launch Complex 39B at Kennedy Space Center in Florida using a diesel-powered crawler transporter. This slow rollout, at under one mile per hour, is a critical step in preparing for the launch. The crew—NASA astronauts Reid Wiseman, Victor Glover, Christina Koch, and Canadian astronaut Jeremy Hansen—will travel thousands of miles from Earth, setting a new speed record during reentry. Artemis II aims to demonstrate the safety and capability of the SLS rocket and Orion spacecraft for future lunar missions. The mission is part of the broader Artemis program, initiated in 2019, which builds on decades of development, including earlier programs like Constellation. NASA faces pressure to succeed due to geopolitical competition, as China plans to land astronauts on the Moon by 2030, highlighting the importance of national prestige and access to lunar resources. The article notes the high costs involved, with the SLS rocket costing over $2 billion per flight, and mentions ongoing work on lunar landers and spacesuits for future missions.",
       "source": "Ars Science",
-      "time_ago": "8 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_c5ec1cff9d56c978_1dc203376d73.webp",
-      "category": "Science"
-    },
-    {
-      "id": "b2493074d251f7e7",
-      "title": "Bamboo Shoots: A Nutritional Powerhouse with Global Potential",
-      "summary": "A recent academic review by researchers at Anglia Ruskin University has highlighted bamboo as a potential superfood with significant health benefits. Bamboo shoots, commonly consumed in Asian cuisines, are rich in protein, fiber, vitamins, and minerals like selenium and potassium. The review analyzed existing studies, including human trials and lab experiments, finding evidence that bamboo consumption may regulate blood sugar, reduce inflammation, support digestive health through fiber and probiotic effects, and provide antioxidant protection. It also suggests bamboo could improve metabolic and heart health by enhancing lipid profiles. However, safety concerns exist, as some bamboo species contain cyanogenic glycosides that release cyanide if eaten raw, and compounds that may interfere with thyroid function, leading to goiter. Proper preparation, such as pre-boiling, can mitigate these risks. With bamboo's fast growth and nutritional value, it could become a sustainable food option globally, but further research is needed to confirm benefits and ensure safe consumption practices.",
-      "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_b2493074d251f7e7_bb768ebb8325.webp",
       "category": "Science"
     },
     {
@@ -32,26 +50,8 @@
       "title": "Uncovering a Massive Medieval Cog Shipwreck in Denmark",
       "summary": "Archaeologists have uncovered a supersized medieval shipwreck off the Danish coast, dating to around 1410 CE, which provides new insights into medieval European trade and maritime life. The ship, named Svaelget 2, is a cog—a type of merchant vessel characterized by its wide, flat-bottomed design and single square sail. Remarkably, it measures 28 meters long and 9 meters wide, capable of carrying 300 tons of cargo, significantly larger than typical cogs of 15-25 meters. This discovery, made during a seabed survey for a Copenhagen construction project, indicates the rapid economic growth of medieval Europe, as such large ships required substantial investment and reflected expanding trade networks. The wreck was well-preserved by sand layers, allowing archaeologists to examine rare features like rigging, a galley, and a stern castle, which are usually lost to decay. Artifacts such as combs, shoes, and rosary beads offer glimpses into the lives of the 30-45 crew members. The ship's construction involved timber from the Netherlands and oak planks from Poland, highlighting the interconnected trade routes of the time. Overall, this find underscores the cog's role in revolutionizing northern European trade by enabling large-scale transport of goods.",
       "source": "Ars Science",
-      "time_ago": "14 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_3bf9e0a99eae4a78_262acb180a09.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4418d5dcd71f671e",
-      "title": "Risk of Eye Ointments on Glaucoma Implants Revealed",
-      "summary": "Researchers at Nagoya University in Japan have uncovered a significant risk associated with petrolatum-based eye ointments and the PRESERFLO MicroShunt, a device used globally to treat glaucoma. Their study, combining clinical observations and laboratory experiments, shows that these ointments can cause the MicroShunt to swell and potentially rupture due to the implant's material sensitivity to hydrocarbons. The MicroShunt, made from a styrenic thermoplastic elastomer (SIBS), is designed for flexibility and biocompatibility but absorbs oil components from ointments, leading to structural weakness. Despite manufacturer warnings against such exposure, this guidance is often overlooked in clinical practice. The research team, including ophthalmologists and engineers, analyzed patient cases and conducted tests to demonstrate the damage, publishing their findings in a medical journal. This discovery highlights the need for increased awareness among healthcare providers to prevent complications and ensure the effectiveness of glaucoma treatments, which are crucial for managing a disease affecting millions worldwide.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_4418d5dcd71f671e_1d8870b3aa58.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1c84d23f14f7d943",
-      "title": "Revealing Synapse Hotspots in Adolescent Brain Development",
-      "summary": "A recent study challenges the long-standing theory of adolescent synaptic pruning by revealing that the teen brain also forms new, dense clusters of synapses. Researchers from Kyushu University used advanced techniques like SeeDB2 and super-resolution microscopy to map dendritic spines in Layer 5 neurons of the mouse cerebral cortex. They discovered a 'hotspot'—a region with unusually high spine density that emerges during adolescence, specifically between three to eight weeks in mice. This finding suggests that brain development involves both pruning and localized synapse formation, complicating the previous view. The study links this process to schizophrenia, as mice with schizophrenia-related genes showed reduced hotspot development. This research highlights the complexity of neural networks during critical growth periods and may inform understanding of neuropsychiatric conditions.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_1c84d23f14f7d943_57aa85fd3eb5.webp",
       "category": "Science"
     }
   ]

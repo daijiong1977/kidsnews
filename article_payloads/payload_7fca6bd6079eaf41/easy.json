@@ -1,0 +1,108 @@
+{
+  "title": "AI Helps Find What Makes Cancer Survival Better Around the World",
+  "summary": "Scientists used a smart computer program called AI to study cancer survival in many countries. They looked at data from 185 countries to see what helps people survive cancer. They found that things like having enough money for healthcare, access to radiotherapy machines, and universal health coverage are important. The team made an online tool so people can pick a country and see what factors matter most there. This helps countries know what to improve to save more lives from cancer. The research was published in a cancer journal and led by doctors and researchers in the USA. They hope this work will guide countries to make better plans for cancer care.",
+  "keywords": [
+    {
+      "term": "AI",
+      "explanation": "Artificial intelligence, a smart computer program that can learn from data"
+    },
+    {
+      "term": "cancer survival",
+      "explanation": "How many people live after getting cancer"
+    },
+    {
+      "term": "countries",
+      "explanation": "Different nations around the world"
+    },
+    {
+      "term": "radiotherapy",
+      "explanation": "A treatment that uses radiation to fight cancer"
+    },
+    {
+      "term": "universal health coverage",
+      "explanation": "A system where everyone can get healthcare without paying too much"
+    },
+    {
+      "term": "online tool",
+      "explanation": "A website or app that lets people see information easily"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did scientists use to study cancer survival?",
+      "options": [
+        "A smart computer program called AI",
+        "A book about cancer",
+        "A survey of doctors",
+        "A TV show"
+      ],
+      "correct_answer": "A smart computer program called AI"
+    },
+    {
+      "question": "How many countries did the scientists study?",
+      "options": [
+        "50 countries",
+        "100 countries",
+        "185 countries",
+        "200 countries"
+      ],
+      "correct_answer": "185 countries"
+    },
+    {
+      "question": "What is one thing that helps people survive cancer, according to the study?",
+      "options": [
+        "Having access to radiotherapy",
+        "Eating more vegetables",
+        "Watching less TV",
+        "Playing sports"
+      ],
+      "correct_answer": "Having access to radiotherapy"
+    },
+    {
+      "question": "What did the team create to help people see the factors?",
+      "options": [
+        "An online tool",
+        "A new medicine",
+        "A school lesson",
+        "A movie"
+      ],
+      "correct_answer": "An online tool"
+    },
+    {
+      "question": "Where was the research published?",
+      "options": [
+        "In a cancer journal",
+        "In a newspaper",
+        "On a blog",
+        "In a storybook"
+      ],
+      "correct_answer": "In a cancer journal"
+    },
+    {
+      "question": "What is the goal of this work?",
+      "options": [
+        "To help countries make better plans for cancer care",
+        "To sell more computers",
+        "To make a new type of cancer",
+        "To teach kids about science"
+      ],
+      "correct_answer": "To help countries make better plans for cancer care"
+    }
+  ],
+  "background_read": [
+    "Cancer is a disease where cells grow out of control and can harm the body. People all over the world get cancer, but in some places, more people survive it than in others. Scientists want to understand why this happens so they can help everyone have a better chance. They use data, which is information collected from many sources, to study things like healthcare systems and treatments. This article talks about how AI, a type of computer technology, is used to analyze this data and find out what factors, like money and access to treatments, make a difference in cancer survival. It's important because it helps countries know what to focus on to improve health and save lives."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists and doctors from places like Memorial Sloan Kettering Cancer Center and the University of Texas at Austin",
+    "WHAT: Used AI to study cancer survival factors in 185 countries and created an online tool",
+    "WHERE: In many countries around the world, with data from global sources",
+    "WHY: To help countries identify what improvements can save more lives from cancer"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific view",
+      "description": "Using AI and data to understand and improve cancer survival globally"
+    }
+  ],
+  "image_url": "/article_images/article_7fca6bd6079eaf41_04d637c10870.webp"
+}
