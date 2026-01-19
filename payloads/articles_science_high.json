@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "f972a9cb5c2ab181",
+      "title": "Nanoscale Silver Doping Enhances Durability of Solid-State Electrolytes",
+      "summary": "A study by Stanford University researchers, published in Nature Materials, addresses a critical barrier in solid-state battery development: the propensity of ceramic solid electrolytes, such as LLZO (lithium lanthanum zirconium oxide), to form microscopic cracks under mechanical and electrochemical stress during cycling. Solid-state batteries promise superior safety, energy density, and charging rates compared to conventional lithium-ion batteries, but their commercialization has been hindered by electrolyte brittleness and crack propagation leading to failure. The team devised a novel surface engineering approach, involving the deposition of a 3-nanometer-thick silver layer followed by heat treatment at 300°C, which facilitates the incorporation of silver ions (Ag+) into the electrolyte's crystal lattice. This ionic silver doping, as opposed to prior metallic silver coatings, significantly enhances mechanical robustness, increasing crack resistance by a factor of five and mitigating lithium intrusion into pre-existing surface defects—a major issue during fast charging. The mechanism involves silver atoms substituting for lithium in the porous structure, creating a reinforced subsurface region 20-50 nanometers deep. Led by Xin Xu and senior authors Wendy Gu and William Chueh, the research employs advanced characterization techniques, including scanning electron microscopy with specialized probes, to quantify fracture toughness. This work not only provides a scalable solution to manufacturing imperfections but also suggests broader applicability to other ceramic materials, potentially accelerating the adoption of solid-state batteries in high-demand applications like electric vehicles and grid storage.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_f972a9cb5c2ab181_19597af7d0aa.webp",
+      "category": "Science"
+    },
+    {
+      "id": "48c86f67499515b3",
+      "title": "Microgravity-Induced Evolutionary Divergence in Phage-Bacteria Coevolution on the ISS",
+      "summary": "This study examines the coevolutionary dynamics between bacteriophages and Escherichia coli under microgravity conditions aboard the International Space Station, revealing significant deviations from terrestrial patterns. Conducted by Huss et al., the research involved infecting E. coli with T7 phage in both Earth-based and ISS environments, demonstrating that while infection occurred in space, it was initially delayed. Whole-genome sequencing identified unique mutational profiles in the space samples: phages accumulated mutations enhancing receptor binding and infectivity, whereas E. coli developed mutations conferring phage resistance and adaptation to weightlessness. Advanced methodologies, including deep mutational scanning of the T7 receptor binding protein, elucidated structural changes linked to increased efficacy against drug-resistant urinary tract infection strains. The findings underscore microgravity as a transformative factor in microbial evolution, with implications for astrobiology and biomedical applications, such as engineering phages to combat antibiotic-resistant pathogens. Funded by the Defense Threat Reduction Agency, this work contributes to understanding how extraterrestrial conditions reshape biological interactions and offers translational potential for public health.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_48c86f67499515b3_81872fe7a786.webp",
+      "category": "Science"
+    },
+    {
+      "id": "856925e27a19aa85",
+      "title": "A Paradigm Shift in Dairy Nutrition: High-Oleic Soybeans and Economic Viability",
+      "summary": "This article details a transformative agricultural innovation centered on high-oleic soybeans, which are reshaping dairy farming economics and nutritional science. On the Preston family farm in southern Michigan, a collaboration with Michigan State University has demonstrated that integrating these soybeans into dairy cow diets rapidly elevates milk fat and protein concentrations, thereby enhancing milk's market value. Concurrently, the farm achieved a 20% reduction in monthly purchased feed costs, translating to substantial financial savings. The scientific foundation, spearheaded by Professor Adam Lock, encompasses over a decade of research into dietary fats, particularly oleic acid's role in optimizing milk composition and cow health. Funding from the USDA National Institute of Food and Agriculture and industry partners underscores the project's credibility and real-world applicability. Further studies revealed that roasting the soybeans augments their efficacy, offering a processing advantage. This innovation mitigates reliance on costly nutritional supplements, such as added fats and amino acids, and has spurred demand, evidenced by seed shortages in Michigan. The article posits this as a once-in-a-generation advancement, highlighting how interdisciplinary research—merging agronomy, animal science, and economics—can drive sustainable practices and profitability in the dairy sector, with potential industry-wide implications.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_856925e27a19aa85_6646eafd5a2c.webp",
+      "category": "Science"
+    },
+    {
+      "id": "4344ad22aff1fa61",
+      "title": "Quantifying Oceanic Externalities: A Paradigm Shift in Climate Economic Assessments",
+      "summary": "A seminal study published in 2026 by researchers at the University of California, San Diego's Scripps Institution of Oceanography fundamentally alters climate economic paradigms by incorporating oceanic damages into the social cost of carbon (SCC), revealing that previous estimates undervalued climate impacts by nearly 91%. The research, led by Bernardo Bastien-Olvera and Kate Ricke, calculates that integrating losses from coral reefs, fisheries, mangroves, and seaports increases the SCC from $51 to $97.20 per ton of CO2, with projected annual damages of $1.66 trillion by 2100. This interdisciplinary effort, involving fisheries experts, coral reef researchers, biologists, and climate economists, employs sophisticated methodologies to assess both market and non-use values, such as cultural and existential worth of ecosystems. The findings expose significant inequities, as low-income and island nations, which contribute minimally to emissions, face disproportionate morbidity and nutritional deficiencies from ocean warming and acidification. Politically, the study challenges existing frameworks, noting contentious issues in damage valuation and policy implementation, exemplified by the 2025 Trump administration memo. By introducing the concept of 'blueSCC,' the authors advocate for enhanced investment in adaptation strategies, like coral restoration, and urge a reevaluation of international climate finance to internalize previously externalized oceanic costs, thereby fostering more resilient and equitable global responses.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_4344ad22aff1fa61_dc176d2c7ea4.webp",
+      "category": "Science"
+    },
+    {
       "id": "20dc2e96b9f9b9e7",
       "title": "Microplastics as a Disruptive Force in Oceanic Carbon Sequestration and Climate Dynamics",
       "summary": "A comprehensive study published in the Journal of Hazardous Materials: Plastics elucidates how microplastics—ubiquitous particles under five millimeters—are compromising the ocean's role as a critical carbon sink by interfering with biogeochemical processes essential for climate regulation. The research, conducted by an international team including Dr. Ihsanullah Obaidullah, employs an integrative narrative approach to synthesize existing literature, revealing that microplastics impair the biological carbon pump through reduced phytoplankton photosynthesis and altered zooplankton metabolism. Furthermore, the plastisphere, a microbial biofilm on plastic surfaces, exacerbates greenhouse gas emissions by engaging in complex nitrogen and carbon cycles. This dual mechanism—direct disruption of marine organisms and indirect microbial contributions—poses a significant threat, potentially leading to ocean warming, acidification, and biodiversity loss, with cascading effects on global food security and coastal resilience. The authors argue that plastic pollution and climate change are inextricably linked, necessitating urgent, coordinated global strategies to mitigate this emerging environmental crisis, as oceans' capacity to absorb atmospheric carbon dioxide is fundamentally undermined by microplastic proliferation.",
       "source": "Science Daily",
-      "time_ago": "9 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_20dc2e96b9f9b9e7_225a6b99f6f0.webp",
       "category": "Science"
     },
     {
-      "id": "8a45436ff5008b1f",
-      "title": "Microfluidic Encapsulation of Thyme Extract for Enhanced Nanodosing in Precision Therapeutics",
-      "summary": "This article explores a novel microfluidic encapsulation technique developed to transform thyme extract into precise nanodoses, addressing significant limitations in its pharmaceutical application. Thyme extract is rich in bioactive compounds, including thymol, carvacrol, rosmarinic acid, and caffeic acid, which confer anti-inflammatory, antimicrobial, and antioxidant properties. However, practical challenges such as rapid evaporation and potential irritation at higher concentrations impede its utility in medicine. Researchers from Tomsk Polytechnic University and Surgut State University engineered a method utilizing a microfluidic chip to encapsulate thyme extract within gelatin and sodium alginate matrices, with oil-induced droplet formation ensuring minimal evaporation and controlled release. Published in Physics of Fluids, the study demonstrates that this approach facilitates self-regulating, consistent nanodosing, adjustable through modulation of oil phase flow rates. The implications extend beyond thyme, as the technique is adaptable to other aqueous extracts and holds promise for sectors like food technology. Future directions involve integrating machine vision and artificial intelligence for real-time monitoring, and ongoing work focuses on encapsulating more concentrated water-alcohol extracts. This research underscores the convergence of nanotechnology, fluid dynamics, and biotechnology in advancing personalized medicine.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_8a45436ff5008b1f_708477eb62df.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7fca6bd6079eaf41",
-      "title": "AI-Driven Analysis of Global Cancer Survival Disparities: A Machine Learning Framework for Policy Intervention",
-      "summary": "This research employs machine learning to conduct a comprehensive analysis of factors influencing cancer survival across 185 countries, utilizing data from the Global Cancer Observatory (GLOBOCAN 2022) and health system indicators from organizations like the World Health Organization and World Bank. The study, published in Annals of Oncology, develops a predictive model that calculates mortality-to-incidence ratios (MIR) to assess cancer care effectiveness, with SHAP (Shapley Additive exPlanations) analysis used to deconstruct the contributions of variables such as GDP per capita, universal health coverage, access to radiotherapy, and healthcare workforce density. Key findings indicate that economic strength, radiotherapy accessibility, and universal health coverage are predominant levers for improving survival rates, though contextual factors vary by nation. An interactive online tool was created to facilitate country-specific exploration, enabling policymakers to identify prioritized interventions. Led by Dr. Edward Christopher Dee and Mr. Milit Patel, the work aims to transition from descriptive analytics to actionable frameworks, addressing global cancer burden growth and equity gaps through data-driven resource allocation and system planning, with implications for international health organizations and resource-limited settings.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_7fca6bd6079eaf41_04d637c10870.webp",
-      "category": "Science"
-    },
-    {
-      "id": "8b44fcf8cff69b66",
-      "title": "Microseismic Analysis Unveils Complex Tectonic Dynamics at the Mendocino Triple Junction",
-      "summary": "A recent study published in Science employs advanced seismic monitoring to investigate the intricate tectonic architecture of the Mendocino Triple Junction off Northern California, where the San Andreas fault and Cascadia subduction zone intersect. Researchers from the U.S. Geological Survey, UC Davis, and the University of Colorado Boulder utilized a dense array of seismometers to capture swarms of low-frequency earthquakes, which are minuscule events indicative of slow plate movements. By analyzing these microseisms in response to tidal forces—gravitational stresses from celestial bodies—the team validated a subsurface model revealing five distinct tectonic fragments, challenging the traditional view of three major plates. Key findings include the detachment and subduction of a North American plate segment with the Gorda plate and the subduction of the Pioneer fragment, a relic of the ancient Farallon plate. This research elucidates the complex interplay of plate boundaries, enhancing seismic hazard assessment by providing deeper insights into the mechanisms driving potentially catastrophic earthquakes in this seismically active region.",
-      "source": "Science Daily",
+      "id": "e4d122e7d7575af6",
+      "title": "Strategic Advancements in Lunar Exploration: NASA's Artemis II Mission Preparations",
+      "summary": "NASA has achieved a critical logistical milestone by relocating the Space Launch System (SLS) rocket to Launch Pad 39B at the Kennedy Space Center in Cape Canaveral, Florida, in preparation for the Artemis II mission. This 98-meter-tall rocket, transported vertically over approximately 12 hours via a crawler-transporter at a maximum speed of 0.82 mph, underscores the meticulous planning involved in human spaceflight. The mission, slated for a 10-day duration, will carry a crew of four astronauts—NASA's Reid Wiseman, Victor Glover, Christina Koch, and Canadian Space Agency's Jeremy Hansen—on a lunar flyby without landing, serving as a foundational test for future Artemis III lunar surface operations. Key preparatory phases include a wet dress rehearsal to evaluate fuel management and countdown protocols, with launch windows opening as early as February 6, extending through subsequent months. This endeavor marks the first crewed mission to the Moon since Apollo 17 in 1972, aiming to push human exploration boundaries further into space and validate systems for sustained lunar presence. The article highlights astronaut perspectives, with Koch emphasizing crew readiness, and outlines the broader Artemis framework targeting a lunar landing by 2027-2028, reflecting international collaboration and long-term strategic goals in space exploration.",
+      "source": "BBC Science",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_8b44fcf8cff69b66_548e07d87ff2.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c5ec1cff9d56c978",
-      "title": "Artemis II and the Geopolitical Imperative: NASA's Pivotal Moon Mission Amidst Launch Fever",
-      "summary": "NASA's Artemis II mission represents a critical juncture in human space exploration, as the Space Launch System rocket undergoes a meticulous rollout from the Vehicle Assembly Building to Launch Complex 39B at Kennedy Space Center. This process, utilizing a decades-old crawler transporter moving at under one mile per hour, symbolizes the culmination of extensive development efforts, including the Orion spacecraft and SLS, which trace their origins to the Constellation program initiated in 2006. The mission will send four astronauts—Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen—on a circumlunar trajectory, testing systems for future lunar landings while setting a new speed record during reentry. Artemis II serves as a demonstration of NASA's capabilities within the broader Artemis architecture, aimed at returning humans to the Moon by the late 2020s. However, the article underscores significant pressures, including 'launch fever'—the urge to proceed despite risks—driven by geopolitical competition with China, which plans crewed lunar landings by 2030. This context highlights strategic motivations such as national prestige and access to lunar resources, alongside substantial financial investments, with the SLS costing over $2 billion per expendable flight. The narrative also notes ongoing collaborations with commercial entities like SpaceX for landers and Axiom Space for suits, reflecting a shift toward public-private partnerships in space exploration. Ultimately, Artemis II is framed as both a technological milestone and a strategic imperative in the evolving landscape of global space dominance.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_c5ec1cff9d56c978_1dc203376d73.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3bf9e0a99eae4a78",
-      "title": "Revealing Economic Expansion Through a Supersized Medieval Cog Shipwreck in Denmark",
-      "summary": "A recent archaeological excavation off the Danish coast has uncovered a remarkably well-preserved medieval cog shipwreck, designated Svaelget 2, dating to approximately 1410 CE. This discovery offers profound insights into the rapid economic expansion of medieval Europe during the early 15th century. The cog, a merchant vessel type characterized by its flat-bottomed hull and single square sail, measured 28 meters in length and 9 meters in width, with an estimated cargo capacity of 300 tons—substantially exceeding the typical dimensions of 15-25 meters for such ships. Found during a seabed survey for urban development in Copenhagen, the wreck's preservation, attributed to protective sand layers, has enabled detailed analysis of structural elements often lost to decay, including rigging, a galley, and a stern castle. Artifacts such as combs, shoes, and rosary beads provide intimate glimpses into the daily lives of the estimated 30-45 crew members. The ship's construction materials, with timber from the Netherlands and oak planks from Poland, underscore the interconnected trade networks of the Hanseatic League era. This find not only confirms the scalability of cog design but also illustrates how maritime technology both drove and reflected burgeoning commercial activities, as noted by archaeologist Otto Uldum. Ultimately, Svaelget 2 serves as a tangible testament to the cog's revolutionary impact on northern European trade, facilitating large-scale commodity transport and signaling a society capable of significant capital investment in maritime infrastructure.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_3bf9e0a99eae4a78_262acb180a09.webp",
+      "image_url": "/article_images/article_e4d122e7d7575af6_0e1ac87de0f3.webp",
       "category": "Science"
     }
   ]

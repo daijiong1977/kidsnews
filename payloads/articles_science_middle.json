@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "f972a9cb5c2ab181",
+      "title": "Silver Coating Strengthens Solid-State Batteries",
+      "summary": "Researchers at Stanford University have developed a solution to a major issue in solid-state batteries, which use solid electrolytes instead of liquid ones to offer safer, higher-energy, and faster-charging alternatives to current lithium-ion batteries. A key challenge has been that solid electrolytes, made from brittle ceramic materials like LLZO, develop microscopic cracks over time due to repeated charging cycles, leading to battery failure. The Stanford team discovered that applying an extremely thin layer of silver, just 3 nanometers thick, and heat-treating it at 300 degrees Celsius can significantly strengthen the electrolyte surface. This silver treatment, which involves silver ions (Ag+) rather than metallic silver, makes the material five times more resistant to cracking and reduces the risk of lithium intrusion into surface flaws, especially during fast charging. The process works by having silver atoms replace lithium atoms in the crystal structure, creating a more durable surface. This innovation, published in Nature Materials, could enable the production of more reliable solid-state batteries for applications like electric vehicles and portable electronics, addressing manufacturing imperfections that are hard to eliminate.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_f972a9cb5c2ab181_19597af7d0aa.webp",
+      "category": "Science"
+    },
+    {
+      "id": "48c86f67499515b3",
+      "title": "Space Alters Virus-Bacteria Evolution in Microgravity",
+      "summary": "A recent study investigated how bacteriophages, viruses that infect bacteria, interact with their E. coli hosts under microgravity conditions on the International Space Station. Researchers led by Phil Huss compared samples on Earth and in space, finding that while phages could still infect bacteria in space, the process was delayed. Genetic analysis revealed distinct mutations in both the phages and bacteria in the space samples. The phages developed mutations that enhanced their ability to infect, while the bacteria evolved defenses to survive in near-weightless environments. Using techniques like deep mutational scanning, the team identified changes in a key protein that improved phage activity against drug-resistant E. coli strains on Earth. This research highlights how microgravity reshapes evolutionary dynamics, offering insights for space exploration and potential applications in combating antibiotic-resistant infections.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_48c86f67499515b3_81872fe7a786.webp",
+      "category": "Science"
+    },
+    {
+      "id": "856925e27a19aa85",
+      "title": "Innovative Soybeans Transform Dairy Farming Economics",
+      "summary": "A dairy farm in southern Michigan, in collaboration with Michigan State University, is using a unique soybean variety to revolutionize its operations. The Preston family farm dedicated 400 acres to growing high-oleic soybeans, which are rich in oleic acid, a fatty acid that enhances milk composition. After incorporating these soybeans into the cows' diet, the farm observed a rapid increase in milk fat and protein levels within three days, boosting the milk's market value. Additionally, monthly purchased feed costs dropped by 20%, saving tens of thousands of dollars. The research, led by Professor Adam Lock, builds on over a decade of study into dietary fats and dairy cow nutrition. Funding from sources like the USDA supported this work, which also found that roasting the soybeans further improves milk production benefits. This innovation reduces reliance on expensive supplements and is gaining popularity, with seed suppliers experiencing high demand. The project demonstrates how scientific research can drive practical, cost-effective solutions in agriculture, potentially impacting the entire dairy industry.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_856925e27a19aa85_6646eafd5a2c.webp",
+      "category": "Science"
+    },
+    {
+      "id": "4344ad22aff1fa61",
+      "title": "Revealing the Hidden Costs: Ocean Impact on Climate Economics",
+      "summary": "A groundbreaking study from the University of California, San Diego's Scripps Institution of Oceanography reveals that the social cost of carbon, a key economic measure of climate damage, is nearly double previous estimates when ocean impacts are included. Published in 2026, the research calculates that global coral loss, fisheries disruption, and coastal infrastructure destruction cost nearly $2 trillion annually, raising the cost per ton of carbon dioxide from $51 to $97.20. This marks the first time ocean damages have been integrated into such assessments, highlighting a multi-trillion-dollar blind spot in climate finance. The study involved interdisciplinary collaboration among fisheries experts, coral reef researchers, biologists, and climate economists, who analyzed sectors like corals, mangroves, fisheries, and seaports. It emphasizes that island economies and low-income countries face disproportionate health and financial risks due to their reliance on seafood and ocean resources. Researchers argue that including ocean data in economic models can drive investment in adaptation, such as coral reef restoration, and address inequities where polluting nations avoid the worst consequences. The findings challenge existing policy frameworks and aim to influence international decision-making by quantifying non-use values, like cultural loss from ecosystem degradation.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_4344ad22aff1fa61_dc176d2c7ea4.webp",
+      "category": "Science"
+    },
+    {
       "id": "20dc2e96b9f9b9e7",
       "title": "Microplastics Disrupt Ocean Carbon Absorption and Climate Regulation",
       "summary": "A recent study reveals that microplastics, tiny plastic particles less than five millimeters, are interfering with the ocean's capacity to absorb carbon dioxide, a critical process for regulating Earth's temperature. These particles are widespread, found in oceans, lakes, air, and even human bodies, posing environmental risks by carrying toxins and disrupting ecosystems. The research, published in the Journal of Hazardous Materials: Plastics, highlights that microplastics affect phytoplankton and zooplankton, which are essential for the biological carbon pump that transfers carbon from the atmosphere to deep sea layers. Additionally, the plastisphere—a microbial community on plastic surfaces—contributes to greenhouse gas production. Scientists, led by Dr. Ihsanullah Obaidullah, warn that this disruption could lead to ocean warming, acidification, and biodiversity loss, threatening global food security and coastal communities. The study calls for urgent action to address plastic pollution as part of climate change mitigation, emphasizing that oceans, as Earth's largest carbon sink, are being undermined by microplastics.",
       "source": "Science Daily",
-      "time_ago": "9 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_20dc2e96b9f9b9e7_225a6b99f6f0.webp",
       "category": "Science"
     },
     {
-      "id": "8a45436ff5008b1f",
-      "title": "Encapsulating Thyme Extract for Precision Medicine",
-      "summary": "Researchers are advancing precision medicine by encapsulating thyme extract into nanodoses to overcome its practical limitations. Thyme contains bioactive compounds like thymol, carvacrol, rosmarinic acid, and caffeic acid, which offer anti-inflammatory, antimicrobial, and antioxidant benefits. However, thyme extract evaporates rapidly and can cause irritation in larger amounts, hindering its medical use. Scientists from Tomsk Polytechnic University and Surgut State University in Russia developed a method to seal tiny droplets of thyme extract inside another liquid using a microfluidic chip. This process involves combining thyme extract with gelatin and sodium alginate, then introducing oil to form encapsulated droplets, preventing evaporation and enabling controlled nanodosing. The research, published in Physics of Fluids, demonstrates that this technique allows for consistent dose delivery and can be adjusted by varying oil flow rates. It has potential applications beyond pharmaceuticals, such as in the food industry, and future integration with AI could enhance real-time monitoring. The study shows no significant limitations and is being extended to encapsulate more concentrated extracts.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_8a45436ff5008b1f_708477eb62df.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7fca6bd6079eaf41",
-      "title": "Machine Learning Maps Global Cancer Survival Factors for Policy Action",
-      "summary": "Researchers applied machine learning, a form of artificial intelligence, to analyze cancer survival data across 185 countries, identifying key factors that influence outcomes. The study, published in Annals of Oncology, used data from sources like the Global Cancer Observatory and World Health Organization to examine variables such as national wealth, access to radiotherapy, universal health coverage, and healthcare staffing. By calculating mortality-to-incidence ratios (MIR), the team measured cancer care effectiveness and used SHAP analysis to explain how each factor contributes. The research highlights that access to radiotherapy, universal health coverage, and economic strength are consistently important for better survival rates. An online tool was developed to allow policymakers and users to explore country-specific insights, aiming to provide actionable recommendations for improving cancer systems. Led by Dr. Edward Christopher Dee and Mr. Milit Patel, the study emphasizes moving from describing disparities to offering data-driven roadmaps for resource prioritization and equity in cancer care globally.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_7fca6bd6079eaf41_04d637c10870.webp",
-      "category": "Science"
-    },
-    {
-      "id": "8b44fcf8cff69b66",
-      "title": "Uncovering Hidden Tectonic Structures with Micro-Earthquakes in California",
-      "summary": "Researchers are analyzing swarms of extremely small, low-frequency earthquakes to gain insights into a complex and hazardous region off Northern California's coast, where the San Andreas fault meets the Cascadia subduction zone. This area, known as the Mendocino Triple Junction, involves the convergence of tectonic plates and can generate powerful earthquakes. Scientists from the U.S. Geological Survey, UC Davis, and the University of Colorado Boulder used a dense network of seismometers to detect these tiny earthquakes, which are thousands of times weaker than perceptible ones. They tested their model by observing how the earthquakes respond to tidal forces, similar to ocean tides. The study revealed that the region comprises five moving pieces, not just three major plates, including a broken portion of the North American plate being dragged down with the Gorda plate and the Pioneer fragment—a mass of rock from the ancient Farallon plate—being pulled beneath North America. This research, published in Science, aims to improve earthquake prediction and hazard assessment by understanding underlying tectonic processes.",
-      "source": "Science Daily",
+      "id": "e4d122e7d7575af6",
+      "title": "NASA's Artemis II Rocket Prepares for Historic Moon Mission",
+      "summary": "NASA has successfully transported its Space Launch System rocket to Launch Pad 39B at the Kennedy Space Center in Cape Canaveral, Florida, marking a key step in the Artemis II mission. This 98-meter-tall rocket was moved vertically over nearly 12 hours using a crawler-transporter at a slow speed of 0.82 mph, with live coverage capturing the event. The mission, scheduled for a 10-day journey, will carry four astronauts—NASA's Reid Wiseman, Victor Glover, Christina Koch, and Canadian Jeremy Hansen—around the Moon without landing, serving as a precursor to future lunar landings. Final preparations include a wet dress rehearsal to test fuel operations and countdown procedures, with a potential launch as early as February 6. This mission is significant as it represents the first crewed lunar mission since Apollo 17 in 1972, aiming to advance human space exploration and set the stage for Artemis III, which plans to land astronauts on the Moon by 2027 or 2028. The astronauts observed the rocket's movement and expressed readiness for the upcoming launch, highlighting the collaborative effort in space exploration.",
+      "source": "BBC Science",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_8b44fcf8cff69b66_548e07d87ff2.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c5ec1cff9d56c978",
-      "title": "NASA's Artemis II Mission: Preparing for a Historic Moon Flight",
-      "summary": "NASA is advancing its Artemis II mission, which will send four astronauts on a journey around the Moon, marking the first human voyage to lunar vicinity since 1972. The Space Launch System rocket, carrying the Orion spacecraft, is being transported from the Vehicle Assembly Building to Launch Complex 39B at Kennedy Space Center in Florida using a diesel-powered crawler transporter. This slow rollout, at under one mile per hour, is a critical step in preparing for the launch. The crew—NASA astronauts Reid Wiseman, Victor Glover, Christina Koch, and Canadian astronaut Jeremy Hansen—will travel thousands of miles from Earth, setting a new speed record during reentry. Artemis II aims to demonstrate the safety and capability of the SLS rocket and Orion spacecraft for future lunar missions. The mission is part of the broader Artemis program, initiated in 2019, which builds on decades of development, including earlier programs like Constellation. NASA faces pressure to succeed due to geopolitical competition, as China plans to land astronauts on the Moon by 2030, highlighting the importance of national prestige and access to lunar resources. The article notes the high costs involved, with the SLS rocket costing over $2 billion per flight, and mentions ongoing work on lunar landers and spacesuits for future missions.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_c5ec1cff9d56c978_1dc203376d73.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3bf9e0a99eae4a78",
-      "title": "Uncovering a Massive Medieval Cog Shipwreck in Denmark",
-      "summary": "Archaeologists have uncovered a supersized medieval shipwreck off the Danish coast, dating to around 1410 CE, which provides new insights into medieval European trade and maritime life. The ship, named Svaelget 2, is a cog—a type of merchant vessel characterized by its wide, flat-bottomed design and single square sail. Remarkably, it measures 28 meters long and 9 meters wide, capable of carrying 300 tons of cargo, significantly larger than typical cogs of 15-25 meters. This discovery, made during a seabed survey for a Copenhagen construction project, indicates the rapid economic growth of medieval Europe, as such large ships required substantial investment and reflected expanding trade networks. The wreck was well-preserved by sand layers, allowing archaeologists to examine rare features like rigging, a galley, and a stern castle, which are usually lost to decay. Artifacts such as combs, shoes, and rosary beads offer glimpses into the lives of the 30-45 crew members. The ship's construction involved timber from the Netherlands and oak planks from Poland, highlighting the interconnected trade routes of the time. Overall, this find underscores the cog's role in revolutionizing northern European trade by enabling large-scale transport of goods.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_3bf9e0a99eae4a78_262acb180a09.webp",
+      "image_url": "/article_images/article_e4d122e7d7575af6_0e1ac87de0f3.webp",
       "category": "Science"
     }
   ]
