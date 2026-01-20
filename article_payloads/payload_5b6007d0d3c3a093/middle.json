@@ -1,0 +1,121 @@
+{
+  "title": "How a Precessing Black Hole Jet Influences Galaxy Evolution",
+  "summary": "Astronomers, led by Justin Kader, have conducted a detailed study of the active galaxy VV 340a, revealing how a supermassive black hole's jet impacts star formation. Active galactic nuclei, powered by black holes accreting matter, can emit energetic jets that expel gas from galaxies. Using multi-wavelength observations from telescopes like the James Webb Space Telescope and the Very Large Array, the team traced a jet from VV 340a's central black hole. They found that the jet precesses, meaning it wobbles in a cone-shaped motion, similar to a spinning top, which allows it to interact with more gas. This jet drives a large-scale outflow, expelling gas at an estimated rate of 19.4 ± 7.9 solar masses per year. The expelled gas is highly ionized, referred to as coronal line gas, and extends farther than usual in this galaxy. By heating and removing cool gas, the jet reduces the material available for new star formation, potentially limiting the galaxy's future stellar growth. This research highlights the role of black hole feedback in galaxy evolution, showing how energetic processes can regulate star formation over cosmic time.",
+  "keywords": [
+    {
+      "term": "active galactic nucleus",
+      "explanation": "a bright region in a galaxy powered by a supermassive black hole accreting matter"
+    },
+    {
+      "term": "precession",
+      "explanation": "a wobbling motion, like a spinning top, that causes the jet to trace a cone shape"
+    },
+    {
+      "term": "coronal line gas",
+      "explanation": "highly ionized gas with atoms that have lost electrons, similar to the sun's corona"
+    },
+    {
+      "term": "multi-wavelength observations",
+      "explanation": "using different types of light, such as infrared and radio, to study astronomical objects"
+    },
+    {
+      "term": "outflow rate",
+      "explanation": "the speed at which gas is expelled from a galaxy, measured in solar masses per year"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the primary source of energy for active galactic nuclei?",
+      "options": [
+        "Supermassive black holes",
+        "Star clusters",
+        "Planetary systems",
+        "Dark matter"
+      ],
+      "correct_answer": "Supermassive black holes"
+    },
+    {
+      "question": "Which telescope was especially important for observing through dust in VV 340a?",
+      "options": [
+        "James Webb Space Telescope",
+        "Hubble Space Telescope",
+        "Keck-II telescope",
+        "ALMA"
+      ],
+      "correct_answer": "James Webb Space Telescope"
+    },
+    {
+      "question": "What motion does the jet in VV 340a exhibit?",
+      "options": [
+        "Precession",
+        "Linear motion",
+        "Circular orbit",
+        "Stationary state"
+      ],
+      "correct_answer": "Precession"
+    },
+    {
+      "question": "How is the expelled gas in VV 340a described?",
+      "options": [
+        "Coronal line gas",
+        "Neutral hydrogen",
+        "Molecular clouds",
+        "Dark energy"
+      ],
+      "correct_answer": "Coronal line gas"
+    },
+    {
+      "question": "What is the estimated outflow rate of gas in solar masses per year?",
+      "options": [
+        "19.4 ± 7.9",
+        "10.0 ± 2.0",
+        "50.0 ± 10.0",
+        "5.0 ± 1.0"
+      ],
+      "correct_answer": "19.4 ± 7.9"
+    },
+    {
+      "question": "Why does the precessing jet interact with more gas?",
+      "options": [
+        "It covers a larger area as it wobbles",
+        "It moves faster",
+        "It emits more light",
+        "It attracts gas"
+      ],
+      "correct_answer": "It covers a larger area as it wobbles"
+    },
+    {
+      "question": "What effect does the jet have on star formation?",
+      "options": [
+        "Reduces it by removing gas",
+        "Increases it by heating gas",
+        "Has no effect",
+        "Creates new stars directly"
+      ],
+      "correct_answer": "Reduces it by removing gas"
+    },
+    {
+      "question": "What term is borrowed from solar studies to describe the gas in VV 340a?",
+      "options": [
+        "Coronal line gas",
+        "Solar wind",
+        "Photosphere",
+        "Chromosphere"
+      ],
+      "correct_answer": "Coronal line gas"
+    }
+  ],
+  "background_read": [
+    "Galaxies evolve through processes like star formation, which relies on cool gas reservoirs. Supermassive black holes at galactic centers can become active when accreting matter, releasing energy that forms jets. These jets can drive outflows, removing gas and affecting star formation rates—a phenomenon known as black hole feedback. Astronomers use advanced telescopes across electromagnetic spectra to study these interactions, providing insights into galaxy lifecycle and cosmic evolution over billions of years."
+  ],
+  "Article_Structure": [
+    "Main Points: The article details how a precessing jet from a supermassive black hole in galaxy VV 340a drives a large-scale gas outflow, expelling material at about 19 solar masses per year and limiting star formation. Purpose: To illustrate black hole feedback mechanisms in galaxy evolution by presenting observational evidence. Evidence Evaluation: High-quality data from multiple telescopes (e.g., JWST, VLA) provide robust multi-wavelength coverage, though uncertainties in outflow rates indicate some limitations. Author Credibility: Led by astronomer Justin Kader with a team using major facilities, suggesting expertise in astrophysics. Methodology: Combined observations from infrared to radio wavelengths with computer modeling to analyze jet motion and gas properties."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Astrophysical impact",
+      "description": "Demonstrates how black hole jets can regulate galaxy growth by removing star-forming gas"
+    }
+  ],
+  "image_url": "/article_images/article_5b6007d0d3c3a093_27c1bb797860.webp"
+}
