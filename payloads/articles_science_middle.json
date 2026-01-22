@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "8f23b94a82e10bfb",
-      "title": "Unraveling Solar Flares: How Magnetic Avalanches Trigger Sun Explosions",
-      "summary": "Researchers using the European Space Agency's Solar Orbiter spacecraft have captured unprecedented details of a large solar flare, revealing that it begins with subtle magnetic disturbances that rapidly intensify, similar to a snow avalanche. The flare occurred on September 30, 2024, and was observed by four instruments on Solar Orbiter, including the Extreme Ultraviolet Imager (EUI), which recorded changes every two seconds. Solar flares are powerful explosions resulting from magnetic reconnection, where twisted magnetic field lines break and reconnect, releasing vast energy that heats plasma to millions of degrees and can trigger geomagnetic storms on Earth. The study, published in Astronomy & Astrophysics, shows that the flare started with a dark filament and cross-shaped magnetic patterns that grew brighter as new magnetic strands formed and twisted every few seconds. This instability led to a chain reaction of magnetic reconnection, culminating in a violent eruption. Scientists emphasize the rarity of such detailed observations due to limited data storage and timing, highlighting the importance for understanding space weather and protecting technology.",
+      "id": "c0d118d3fa7b77ee",
+      "title": "Challenging Thermodynamics: Quantum Effects Boost Efficiency in Atomic-Scale Engines",
+      "summary": "Physicists at the University of Stuttgart have challenged the 200-year-old Carnot principle, a foundational law of thermodynamics, by demonstrating it does not fully apply at the atomic scale for correlated systems. Their research, published in Science Advances, shows that when particles are strongly linked through quantum correlations, tiny heat engines can exceed the traditional efficiency limit. The Carnot principle, established by Sadi Carnot for large-scale systems like steam turbines, sets a maximum efficiency based on temperature differences. However, the Stuttgart team derived generalized thermodynamic laws incorporating quantum correlations, revealing that atomic-scale thermal machines can convert not only heat but also these correlations into work, leading to higher efficiency. This breakthrough could accelerate the development of quantum motors—extremely small and energy-efficient engines—with potential applications in medical nanobots and nanoscale manipulation. The work highlights how reexamining basic physics can open new technological horizons, emphasizing the role of quantum effects in enhancing performance at microscopic dimensions.",
       "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_8f23b94a82e10bfb_5a9e640ac924.webp",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_c0d118d3fa7b77ee_65e913325493.webp",
       "category": "Science"
     },
     {
-      "id": "4e10096cf79ea196",
-      "title": "UK Government Invests £15bn in Green Tech to Reduce Energy Costs",
-      "summary": "The UK government has launched the Warm Homes Plan, committing £15 billion over five years to support households in adopting green technologies such as solar panels, heat pumps, and batteries. Announced as part of efforts to address rising energy bills and fuel poverty, the plan aims to triple solar installations and lift one million people out of financial hardship related to heating costs. Funding will be provided through low-interest loans and grants, making these technologies more accessible. While the energy industry and unions praise the long-term investment for driving private sector growth, critics, including the Conservative Party, express concerns about potential high ongoing costs for households. Estimates suggest average savings of £500 annually on energy bills, though charities like Nesta and MCS Foundation project higher benefits. Prime Minister Sir Keir Starmer emphasizes that warm homes should be a basic right, highlighting the plan's role in tackling the cost of living crisis.",
-      "source": "BBC Science",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_4e10096cf79ea196_438e55252282.webp",
-      "category": "Science"
-    },
-    {
-      "id": "dc7fb666fd3544e6",
-      "title": "Innovative Carbon-Capturing Building Material Developed by Researchers",
-      "summary": "Researchers at Worcester Polytechnic Institute have created a groundbreaking building material known as enzymatic structural material (ESM), which actively removes carbon dioxide from the atmosphere during its production. Led by Professor Nima Rahbar, the team utilized an enzyme to convert CO2 into solid mineral particles, which are then bonded and cured under low-energy conditions to form strong, durable components. Unlike traditional concrete, which accounts for nearly 8% of global CO2 emissions due to high-temperature manufacturing, ESM sequesters over 6 kilograms of CO2 per cubic meter while emitting far less. This material cures quickly, is fully recyclable, and can be repaired, making it suitable for applications like roof decks and wall panels. Its development aims to address the environmental impact of construction by offering a scalable, carbon-negative alternative that supports sustainable infrastructure and reduces waste in landfills.",
-      "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_dc7fb666fd3544e6_62eb77827319.webp",
-      "category": "Science"
-    },
-    {
-      "id": "cc57e78992f40918",
-      "title": "Stanford Research on Cartilage Regeneration and Arthritis Prevention",
-      "summary": "Researchers at Stanford Medicine discovered that blocking a protein called 15-PGDH, which increases with aging, can reverse knee cartilage loss in older mice and prevent arthritis after injuries like ACL tears. The treatment involved an injection, and an oral version is being tested in clinical trials for age-related muscle weakness. Human cartilage samples from knee replacement surgeries also showed positive responses, with tissue forming new functional cartilage. This suggests that cartilage lost due to aging or arthritis could be restored using pills or injections, potentially reducing the need for joint replacement surgeries. Osteoarthritis affects many adults and costs billions annually, with current treatments only managing symptoms. The study targets the root cause by inhibiting 15-PGDH, a gerozyme linked to tissue decline. Unlike other tissues that repair via stem cells, cartilage regeneration here involves chondrocytes shifting to a more youthful state without stem cells. The findings, published in Science, highlight a new approach to tissue regeneration with clinical promise for arthritis treatment.",
+      "id": "5fe18401de8a8b52",
+      "title": "A New Path to Quantum Materials with Excitons",
+      "summary": "Researchers have developed a novel approach in Floquet engineering, a field focused on using periodic influences to temporarily alter material properties. Traditionally, this involved shining intense light on semiconductors to induce exotic behaviors like superconductivity, but high light intensities risk damaging materials and yield short-lived effects. A collaborative team from the Okinawa Institute of Science and Technology and Stanford University has demonstrated that excitons—quasiparticles formed from electron-hole pairs in materials—can drive Floquet effects more efficiently than light alone. Excitons couple strongly to materials due to Coulomb interactions, particularly in 2D systems, enabling significant changes without the destructive energy levels required by photons. This breakthrough, published in Nature Physics, offers a safer and more effective pathway to customizing quantum materials. Floquet engineering works by applying rhythmic pushes, akin to timed swings, to shift electron energy bands and create hybrid states. While light-based methods have proven the concept, their weak coupling necessitates femtosecond-scale frequencies that can vaporize materials. In contrast, excitonic approaches require lower intensities, potentially accelerating progress toward practical applications in quantum computing and advanced electronics. This research highlights a shift from light-driven to exciton-driven techniques, expanding possibilities for future quantum devices.",
       "source": "Science Daily",
       "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_cc57e78992f40918_b3e74563e3a4.webp",
+      "image_url": "/article_images/article_5fe18401de8a8b52_08be4fdaa430.webp",
       "category": "Science"
     },
     {
-      "id": "ea132073a593b250",
-      "title": "Unlocking the Brain's Role in Primate Facial Communication",
-      "summary": "A recent study explored how macaque monkeys generate facial gestures, challenging long-held neuroscience assumptions. Researchers used fMRI scans and high-resolution cameras to monitor brain activity and facial movements in macaques exposed to social stimuli like videos and live interactions. They focused on three gestures: lipsmacking (for receptivity), threat faces (for aggression), and chewing (a non-social movement). By implanting micro-electrode arrays in brain areas such as the motor cortex and cingulate cortex, they recorded neuron activity during these gestures. Contrary to expectations of specialized brain regions for different gestures, the study found that all four areas—primary motor cortex, ventral premotor cortex, primary somatosensory cortex, and cingulate motor cortex—were involved in every gesture type. This suggests facial expressions are coordinated across multiple brain regions rather than being controlled by separate areas. The research aims to improve neural prostheses for patients with paralysis by decoding facial gestures from brain signals, highlighting the complexity of non-verbal communication.",
-      "source": "Ars Science",
-      "time_ago": "15 hours ago",
-      "image_url": "/article_images/article_ea132073a593b250_5eeee4faa18d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "75452ab96320840a",
-      "title": "Uncovering the Link: How Kidney Disease Leads to Heart Failure",
-      "summary": "Researchers have identified a key mechanism explaining why over half of people with chronic kidney disease die from heart-related issues. Damaged kidneys release circulating extracellular vesicles into the bloodstream, which carry toxic miRNA that harms heart tissue. This discovery, made by scientists at UVA Health and Mount Sinai, addresses a long-standing mystery in medicine, as chronic kidney disease affects millions in the U.S., often coexisting with conditions like diabetes and hypertension. Previously, it was unclear if kidneys directly contributed to heart damage due to shared risk factors. The study involved experiments on mice, showing that blocking these vesicles improved heart function, and analysis of human blood samples confirmed their presence in kidney disease patients. This research could lead to earlier detection through blood tests and new therapies to neutralize the harmful vesicles, aiming to reduce heart failure risk and enhance precision medicine for patients with both kidney and heart conditions.",
+      "id": "ea27f89a266e743e",
+      "title": "Spin Size Flips the Kondo Effect: A Quantum Breakthrough",
+      "summary": "In condensed matter physics, the Kondo effect is a key collective phenomenon where localized quantum spins interact with mobile electrons, influencing material behavior. Studying it is challenging due to complexities like electron motion and orbital effects. To simplify, physicists use models like the Kondo necklace, introduced in 1977, which focuses only on spin interactions. A critical question has been whether spin size affects the Kondo effect. Researchers from Osaka Metropolitan University addressed this by engineering organic-inorganic hybrid materials using the RaX-D framework. They created Kondo necklaces with spin-1/2 and spin-1 localized spins. Thermodynamic measurements showed a phase transition for spin-1, leading to magnetic order. Quantum analysis revealed that Kondo coupling creates effective magnetic interactions for spin-1, stabilizing long-range order. This overturns the traditional view that the Kondo effect suppresses magnetism; instead, for spins larger than 1/2, it promotes magnetic order. The study provides direct experimental evidence that spin size fundamentally changes the Kondo effect's role, offering insights into quantum materials.",
       "source": "Science Daily",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_ea27f89a266e743e_d57e6aa15c6b.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9f04ba2b440fd3ac",
+      "title": "Blood Test Discrepancies Signal Higher Risks for Kidney and Heart Health",
+      "summary": "A recent international study reveals that significant differences between two key blood tests for kidney function—creatinine and cystatin C—can serve as an early indicator of severe health outcomes, including kidney failure, heart disease, and mortality. Researchers from NYU Langone Health analyzed data from 860,966 adults across six nationalities, who had both tests measured on the same day and were followed for an average of 11 years. They found that over one-third of hospitalized patients showed cystatin C results indicating kidney function at least 30% worse than creatinine levels suggested. This discrepancy, common among older and sicker individuals, highlights underlying diseases that might otherwise go undetected. The study emphasizes the importance of using both biomarkers together to gain a comprehensive view of kidney health, as they are influenced by different biological processes. Accurate kidney function assessment is crucial not only for diagnosis but also for determining safe medication doses, such as for cancer treatments and antibiotics. With chronic kidney disease now a leading global cause of death, early detection through combined testing could enable earlier interventions, reducing the need for dialysis or transplants. The research, conducted by the Chronic Kidney Disease Prognosis Consortium, is the largest to date linking test differences to long-term risks, advocating for wider adoption of cystatin C testing in clinical practice.",
+      "source": "Science Daily",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_9f04ba2b440fd3ac_aeafedb20ed0.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c56dd6541acb22ac",
+      "title": "Oldest Cave Art in Indonesia Redefines Human Creativity Timeline",
+      "summary": "A recent discovery in Indonesia has revealed the world's oldest known cave painting, a red hand stencil with a claw-like motif dated to at least 67,800 years ago. Found in Liang Metanduno cave on Sulawesi island, this artwork predates the previous record from Spain by about 1,100 years and challenges the long-held Eurocentric view that human creativity explosively emerged in Ice Age Europe. Researchers, including Professor Adam Brumm and Professor Maxime Aubert from Griffiths University, argue that this find supports the idea that symbolic thinking and art were innate to Homo sapiens, stretching back to our origins in Africa. The painting was created by spraying pigment around a hand pressed against the cave wall, leaving a negative outline. Over the past decade, similar discoveries in Sulawesi, such as hand stencils and narrative scenes dating back tens of thousands of years, have progressively pushed back the timeline for sophisticated image-making. This evidence suggests that early humans in Southeast Asia were engaging in abstract representation much earlier than previously thought, indicating a broader and more ancient distribution of creative behaviors. The study, published in Nature, highlights how cave art serves as a key marker for the development of language, religion, and science, showing that humans were not just reacting to their environment but actively shaping and sharing their world through symbols.",
+      "source": "BBC Science",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_c56dd6541acb22ac_5501c10175d7.webp",
+      "category": "Science"
+    },
+    {
+      "id": "dd26a6faf87975aa",
+      "title": "Nature Decline Threatens UK Security and Food Supply",
+      "summary": "A report by the Joint Intelligence Committee, published by Defra, concludes that the decline in global nature health poses significant threats to the UK's security and prosperity. It highlights 'cascading risks' from ecosystem degradation, including conflict, migration, and resource competition. The report identifies six critical ecosystem regions, such as the Amazon rainforest and coral reefs in Southeast Asia, which are on a 'pathway to collapse' due to ongoing nature loss. This collapse could lead to rising food prices and challenge UK food security, as the country relies heavily on global markets for food and fertilizer. The report assesses a 'reasonable worst-case scenario' using scientific research and expert judgment, warning that the UK is currently unable to be food self-sufficient without substantial price increases. However, it suggests that technologies like regenerative agriculture could help mitigate these risks with further investment. The government acknowledges the report's importance for future planning.",
+      "source": "BBC Science",
       "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_75452ab96320840a_31dce3ff2bf9.webp",
+      "image_url": "/article_images/article_dd26a6faf87975aa_a2111d102527.webp",
       "category": "Science"
     }
   ]
