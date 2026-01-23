@@ -1,0 +1,104 @@
+{
+  "title": "Why Some People Get Sick from Colds and Others Don't",
+  "summary": "This article explains why some people get bad colds while others don't. It talks about a virus called rhinovirus that causes colds. When this virus enters the nose, the cells there work together to fight it. They use proteins called interferons to stop the virus from spreading. If the cells react quickly with interferons, the person might not get sick or have mild symptoms. If the response is slow, the virus can spread and cause more sickness. Scientists studied this using a lab-grown model of human nasal tissue, which helped them see how cells respond. They found that the body's early reaction is very important in deciding if someone gets a cold and how bad it feels. This research could help make better treatments for colds in the future.",
+  "keywords": [
+    {
+      "term": "rhinovirus",
+      "explanation": "a virus that causes the common cold"
+    },
+    {
+      "term": "interferons",
+      "explanation": "proteins that help cells fight viruses"
+    },
+    {
+      "term": "nasal tissue",
+      "explanation": "the lining inside the nose where colds start"
+    },
+    {
+      "term": "cells",
+      "explanation": "tiny building blocks in the body that work together"
+    },
+    {
+      "term": "symptoms",
+      "explanation": "signs of being sick, like a runny nose or cough"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What virus causes the common cold?",
+      "options": [
+        "Rhinovirus",
+        "Influenza",
+        "Coronavirus",
+        "Bacteria"
+      ],
+      "correct_answer": "Rhinovirus"
+    },
+    {
+      "question": "What do nasal cells release to fight the virus?",
+      "options": [
+        "Interferons",
+        "Antibodies",
+        "Mucus",
+        "Blood cells"
+      ],
+      "correct_answer": "Interferons"
+    },
+    {
+      "question": "What happens if the nasal cells react quickly to the virus?",
+      "options": [
+        "The person might not get sick",
+        "The person always gets very sick",
+        "The virus spreads faster",
+        "The cells stop working"
+      ],
+      "correct_answer": "The person might not get sick"
+    },
+    {
+      "question": "What did scientists use to study the nasal cells?",
+      "options": [
+        "A lab-grown model of nasal tissue",
+        "A computer simulation",
+        "Animal tests",
+        "A microscope only"
+      ],
+      "correct_answer": "A lab-grown model of nasal tissue"
+    },
+    {
+      "question": "Why is the early response of nasal cells important?",
+      "options": [
+        "It decides if someone gets a cold and how bad it is",
+        "It makes the virus stronger",
+        "It has no effect on sickness",
+        "It only helps after sickness starts"
+      ],
+      "correct_answer": "It decides if someone gets a cold and how bad it is"
+    },
+    {
+      "question": "What can slow interferon response lead to?",
+      "options": [
+        "More sickness and spread of the virus",
+        "No change in sickness",
+        "Faster recovery",
+        "Less mucus production"
+      ],
+      "correct_answer": "More sickness and spread of the virus"
+    }
+  ],
+  "background_read": [
+    "Colds are common illnesses caused by viruses like rhinovirus. When you catch a cold, it starts in your nose where tiny cells try to protect you. Scientists study how these cells work to understand why some people get sicker than others. They use models made in labs to see what happens inside the nose without hurting anyone. This helps them learn how to make better medicines to help people feel better when they have colds."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists from Yale School of Medicine, like Ellen Foxman and Bao Wang",
+    "WHAT: They studied how nasal cells fight rhinovirus using interferons",
+    "WHERE: In a lab using a model of human nasal tissue",
+    "WHY: To understand why some people get bad colds and others don't, and to find better treatments"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific view",
+      "description": "Focuses on how cells and proteins work together to fight viruses and prevent sickness."
+    }
+  ],
+  "image_url": "/article_images/article_6000f88b290fdc37_b4009bc58e14.webp"
+}
