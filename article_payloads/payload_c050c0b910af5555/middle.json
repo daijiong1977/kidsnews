@@ -1,0 +1,119 @@
+{
+  "title": "NHS Launches Genetic Database for Cancer Risk Assessment",
+  "summary": "NHS England has introduced a pioneering database containing 120 genes associated with increased cancer risk, aimed at identifying individuals and families in England who may be predisposed to the disease. This register allows for genetic comparisons to assess inherited risks, enabling those identified to receive routine screenings and personalized treatments for cancers such as breast and prostate cancer. As part of a 10-year strategy to enhance cancer prevention and treatment, the database consolidates existing genetic testing information into a single, secure platform. Health Secretary Wes Streeting emphasized its potential to accelerate early detection and save lives. The initiative builds on previous successes, like the Lynch syndrome database, which provided preventative care to over 12,000 high-risk individuals. By offering tailored advice and monitoring, the NHS aims to empower patients to reduce their cancer risk or catch it sooner, while ensuring confidentiality and security in handling sensitive genetic data.",
+  "keywords": [
+    {
+      "term": "genetic predisposition",
+      "explanation": "An inherited tendency to develop a disease based on genes"
+    },
+    {
+      "term": "screening",
+      "explanation": "Medical tests to detect diseases early in people without symptoms"
+    },
+    {
+      "term": "personalized care",
+      "explanation": "Treatment tailored to an individual's specific health needs"
+    },
+    {
+      "term": "Lynch syndrome",
+      "explanation": "A genetic condition that increases the risk of certain cancers"
+    },
+    {
+      "term": "preventative treatment",
+      "explanation": "Medical interventions to prevent a disease from occurring"
+    },
+    {
+      "term": "confidentiality",
+      "explanation": "Keeping personal information private and secure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the primary purpose of the NHS genetic database?",
+      "options": [
+        "To identify inherited cancer risks",
+        "To track exercise habits",
+        "To store medical records for all diseases",
+        "To provide free medication"
+      ],
+      "correct_answer": "To identify inherited cancer risks"
+    },
+    {
+      "question": "How many genes are included in the database?",
+      "options": [
+        "100",
+        "120",
+        "150",
+        "200"
+      ],
+      "correct_answer": "120"
+    },
+    {
+      "term": "database",
+      "explanation": "A structured collection of data stored electronically for easy access and management"
+    },
+    {
+      "question": "Which cancers are specifically mentioned for screening in the article?",
+      "options": [
+        "Breast and prostate cancer",
+        "Lung and skin cancer",
+        "Brain and bone cancer",
+        "Heart and liver cancer"
+      ],
+      "correct_answer": "Breast and prostate cancer"
+    },
+    {
+      "question": "What role does the database play in the NHS's long-term plan?",
+      "options": [
+        "It is part of a 10-year strategy for cancer prevention",
+        "It replaces all other health databases",
+        "It focuses only on treatment, not prevention",
+        "It is a temporary pilot project"
+      ],
+      "correct_answer": "It is part of a 10-year strategy for cancer prevention"
+    },
+    {
+      "question": "How does the database ensure patient privacy?",
+      "options": [
+        "By being incredibly confidential and secure",
+        "By sharing data publicly",
+        "By not storing any personal information",
+        "By using paper records only"
+      ],
+      "correct_answer": "By being incredibly confidential and secure"
+    },
+    {
+      "question": "What previous initiative does the article compare this database to?",
+      "options": [
+        "Lynch syndrome database",
+        "Diabetes registry",
+        "Vaccination tracker",
+        "Mental health portal"
+      ],
+      "correct_answer": "Lynch syndrome database"
+    },
+    {
+      "question": "Who benefits from personalized care based on genetic testing?",
+      "options": [
+        "Patients identified as high-risk",
+        "Only healthcare providers",
+        "People without any health issues",
+        "International patients"
+      ],
+      "correct_answer": "Patients identified as high-risk"
+    }
+  ],
+  "background_read": [
+    "Cancer is a leading cause of death worldwide, often influenced by genetic factors that can be inherited from family members. Genetic testing involves analyzing DNA to identify mutations that increase disease risk, and it has become a key tool in modern medicine for early intervention. The NHS in England is a publicly funded healthcare system that provides services free at the point of use. Databases in healthcare help organize patient information to improve outcomes, and this new genetic register represents an advancement in precision medicine, aiming to tailor prevention and treatment based on individual genetic profiles. Understanding terms like screening and preventative care is crucial for grasping how such initiatives can reduce cancer mortality rates."
+  ],
+  "Article_Structure": [
+    "Main Points: The NHS has created a database of 120 cancer-linked genes to assess inherited risks, offering screenings and personalized treatments. Purpose: To improve cancer prevention and early detection as part of a 10-year plan, saving lives by identifying high-risk individuals. Evidence Evaluation: The article cites NHS statements and a previous successful database for Lynch syndrome, but lacks independent verification or statistical data on effectiveness. Author Credibility: Based on BBC News reporting, which is generally reliable, but the primary sources are NHS officials and the Health Secretary, who may have promotional biases. Methodology: Information gathered from NHS announcements and interviews, without detailed research methods or peer-reviewed studies provided."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Medical advancement",
+      "description": "This database represents progress in using genetics for proactive healthcare and personalized medicine."
+    }
+  ],
+  "image_url": "/article_images/article_c050c0b910af5555_90f20943d7be.webp"
+}
