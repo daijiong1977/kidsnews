@@ -1,0 +1,108 @@
+{
+  "title": "How Alzheimer's Disease Makes the Brain Forget",
+  "summary": "Alzheimer's disease is a sickness that slowly damages the brain, making it hard for people to remember things. Scientists are trying to understand how this happens. They think two things might work together: a protein called amyloid beta and inflammation, which is when the body gets swollen and sore. In a new study, researchers found that both amyloid beta and inflammation can attach to a special part of brain cells called the LilrB2 receptor. This receptor normally helps the brain clean up old connections between cells, which is good for learning. But in Alzheimer's, too much amyloid beta or inflammation tells the brain to remove too many connections, leading to memory loss. The scientists did experiments with mice and discovered that a molecule from inflammation called C4d can also stick to LilrB2 and cause synapse loss. This helps explain why Alzheimer's might trick the brain into erasing its own memories.",
+  "keywords": [
+    {
+      "term": "Alzheimer's disease",
+      "explanation": "a sickness that damages the brain and makes people forget things"
+    },
+    {
+      "term": "amyloid beta",
+      "explanation": "a protein that can build up in the brain and harm it"
+    },
+    {
+      "term": "inflammation",
+      "explanation": "when the body gets swollen and sore, which can hurt the brain"
+    },
+    {
+      "term": "LilrB2 receptor",
+      "explanation": "a special part of brain cells that helps clean up connections"
+    },
+    {
+      "term": "synapses",
+      "explanation": "the tiny connections between brain cells that help us think and remember"
+    },
+    {
+      "term": "C4d",
+      "explanation": "a molecule from inflammation that can stick to LilrB2 and cause memory loss"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is Alzheimer's disease known for?",
+      "options": [
+        "Damaging brain cells and memories",
+        "Making people feel happy",
+        "Helping the brain grow stronger",
+        "Curing other sicknesses"
+      ],
+      "correct_answer": "Damaging brain cells and memories"
+    },
+    {
+      "question": "What two things might work together to cause Alzheimer's?",
+      "options": [
+        "Amyloid beta and inflammation",
+        "Sugar and salt",
+        "Water and air",
+        "Light and sound"
+      ],
+      "correct_answer": "Amyloid beta and inflammation"
+    },
+    {
+      "question": "What does the LilrB2 receptor normally help the brain do?",
+      "options": [
+        "Clean up old connections between cells",
+        "Make new brain cells",
+        "Help people sleep",
+        "Control body temperature"
+      ],
+      "correct_answer": "Clean up old connections between cells"
+    },
+    {
+      "question": "What did scientists find C4d can do in mice?",
+      "options": [
+        "Strip synapses off neurons",
+        "Make mice smarter",
+        "Cure Alzheimer's disease",
+        "Help mice run faster"
+      ],
+      "correct_answer": "Strip synapses off neurons"
+    },
+    {
+      "question": "Why is removing too many synapses bad?",
+      "options": [
+        "It leads to memory loss",
+        "It makes the brain bigger",
+        "It helps people learn faster",
+        "It stops inflammation"
+      ],
+      "correct_answer": "It leads to memory loss"
+    },
+    {
+      "question": "What is the main idea of the study?",
+      "options": [
+        "Alzheimer's might trick the brain into erasing memories",
+        "Alzheimer's is caused by eating too much food",
+        "Alzheimer's can be cured with medicine",
+        "Alzheimer's only affects old people"
+      ],
+      "correct_answer": "Alzheimer's might trick the brain into erasing memories"
+    }
+  ],
+  "background_read": [
+    "Alzheimer's disease is a common brain disorder that mostly affects older adults. It causes problems with memory, thinking, and behavior. Scientists study it to find ways to help people. The brain has many cells called neurons that talk to each other through connections called synapses. In Alzheimer's, these connections get damaged, making it hard to remember things. This article talks about new research that shows how proteins and inflammation might cause this damage by telling the brain to remove too many synapses."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists like Carla Shatz and Barbara Brott studied Alzheimer's disease.",
+    "WHAT: They found that amyloid beta and inflammation can attach to the LilrB2 receptor, causing too many synapses to be removed.",
+    "WHERE: The research was done at the Wu Tsai Neurosciences Institute and involved experiments on mice.",
+    "WHY: To understand how Alzheimer's disease leads to memory loss and find new ways to treat it."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "Researchers are excited because they found a new link between amyloid beta and inflammation that could explain memory loss in Alzheimer's."
+    }
+  ],
+  "image_url": "/article_images/article_6b6366225860ec3b_0f6b9a7c6212.webp"
+}

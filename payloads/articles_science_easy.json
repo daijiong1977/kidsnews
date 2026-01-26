@@ -1,12 +1,48 @@
 {
   "articles": [
     {
-      "id": "03fdfb4bcd3eeea8",
-      "title": "NASA Sends Astronauts Back to the Moon",
-      "summary": "NASA is planning to send astronauts around the Moon again for the first time in over 50 years. This is part of a big space adventure called the Artemis program. NASA has been busy with many missions, like launching science satellites and testing new airplanes. They are working hard to explore space and make new discoveries. The agency has support from the government to do these exciting things. NASA wants to show that America is a leader in space. They hope to land astronauts on the Moon by 2028 and maybe even go to Mars one day. This is all about learning more about our universe and inspiring people.",
+      "id": "6b6366225860ec3b",
+      "title": "How Alzheimer's Disease Makes the Brain Forget",
+      "summary": "Alzheimer's disease is a sickness that slowly damages the brain, making it hard for people to remember things. Scientists are trying to understand how this happens. They think two things might work together: a protein called amyloid beta and inflammation, which is when the body gets swollen and sore. In a new study, researchers found that both amyloid beta and inflammation can attach to a special part of brain cells called the LilrB2 receptor. This receptor normally helps the brain clean up old connections between cells, which is good for learning. But in Alzheimer's, too much amyloid beta or inflammation tells the brain to remove too many connections, leading to memory loss. The scientists did experiments with mice and discovered that a molecule from inflammation called C4d can also stick to LilrB2 and cause synapse loss. This helps explain why Alzheimer's might trick the brain into erasing its own memories.",
       "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_03fdfb4bcd3eeea8_c68ed829024d.webp",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_6b6366225860ec3b_0f6b9a7c6212.webp",
+      "category": "Science"
+    },
+    {
+      "id": "329a49c52d0a7935",
+      "title": "UK Joins Big Wind Farm Plan with European Friends",
+      "summary": "The UK is joining a big project with nine other European countries to build many new wind farms in the North Sea. These wind farms will use special underwater cables called interconnectors to share electricity between countries. The government says this will help make energy safer and cheaper by using more wind power instead of fossil fuels like oil and gas. Some people think it could lower bills, but others worry it might make electricity prices go up if wind farms sell power to the highest bidder. The plan aims to be finished by 2050, and it includes countries like Norway, Germany, and the Netherlands. This is the first time wind farms will be directly connected to multiple countries, which could help smooth out energy supply and reduce waste.",
+      "source": "BBC Science",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_329a49c52d0a7935_ef26420ab84d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c895a4d2c6c1ad39",
+      "title": "How Gut Problems Can Lead to Colon Cancer",
+      "summary": "Scientists have found out why people with a gut disease called IBD get colon cancer more often. IBD makes the gut swollen and sore for a long time. In the study, they looked at a protein called TL1A that is linked to IBD and cancer. This protein tells special immune cells in the gut, called ILC3s, to send signals to the bone marrow. The bone marrow then makes lots of white blood cells called neutrophils. These neutrophils travel to the gut and help tumors grow by damaging cells. The research shows how this chain reaction happens and suggests new ways to stop cancer in people with IBD. They hope this can lead to better treatments and earlier detection.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_c895a4d2c6c1ad39_674bfbde3e6d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "bb4cd09ea6f63481",
+      "title": "Ancient People Moved a Wild Potato Long Ago",
+      "summary": "A long time ago, more than 10,000 years back, people in the American Southwest carried a wild potato plant to new places. This plant is called the Four Corners potato, and it is small, tough, and full of good nutrients. Scientists studied old stone tools from 14 different sites where ancient people lived. They found tiny bits of potato starch on tools from nine of these sites, showing that people used the potato for food. This helped the potato spread beyond where it originally grew. The research was led by Lisbeth Louderback from the University of Utah. Today, Indigenous communities, like the Navajo, still know and use this wild potato, keeping their traditions alive. This story shows how ancient people shaped plants and cultures.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_bb4cd09ea6f63481_91f360efb8d6.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f778210f524e1332",
+      "title": "Scientists Make Tiny Twisty Crystals to Control Electricity",
+      "summary": "Scientists have found a cool way to build tiny 3D shapes from special crystals to control how electricity flows. They used a special tool called a focused ion beam to carve tiny twisty shapes, like spirals, from a magnetic crystal made of cobalt, tin, and sulfur. These twisty shapes act like tiny switches for electricity, letting it flow more easily in one direction than the other. This could help make future electronics smaller and more powerful. The scientists showed that the shape of the device can change how electricity moves, which is a new idea for designing electronic parts. They hope this method can lead to better memory, logic, and sensing technologies in the future.",
+      "source": "Science Daily",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_f778210f524e1332_ab90924c60d6.webp",
       "category": "Science"
     },
     {
@@ -14,44 +50,8 @@
       "title": "Did Thomas Edison Make a Super-Thin Material by Accident?",
       "summary": "Scientists at Rice University tried an old experiment by Thomas Edison, who invented the light bulb long ago. They wanted to see if he accidentally made a special material called graphene while working on his bulbs. Graphene is very thin and strong, made of carbon atoms, and is used in things like batteries and touchscreens. Edison used bamboo to make the filament, the part that glows in a light bulb, and heated it very hot. The scientists copied his experiment with similar bulbs and found that the filament turned shiny and silver. Using modern tools, they saw it had become graphene in some parts. This doesn't prove Edison made it, but it shows that old experiments can hide surprises. The scientists think other old inventions might have made cool materials too, and we can learn by looking back with new tools.",
       "source": "Ars Science",
-      "time_ago": "18 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_5064511f364a3c3c_819b9f5626c4.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a50849b7913600f4",
-      "title": "Using Brain Waves to Help People Move Again",
-      "summary": "Some people get hurt in their spine and can't move their arms or legs, even though their brain and limbs are okay. The problem is that the signals from the brain can't get through the damaged spine. Scientists are trying to help by using a special cap called EEG that reads brain waves. When a person thinks about moving, their brain makes signals. The EEG cap can pick up these signals and send them to a device that makes the limbs move. This is safer than putting things inside the brain. The scientists tested it with people trying to move, and they used a computer program to understand the signals better. It works better for arms than legs because leg signals are deeper in the brain. This research could help paralyzed patients move without surgery.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_a50849b7913600f4_230e358b0bde.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f05d4c114819f9ed",
-      "title": "Better Soil Helps Farmers Grow More Food and Stop Hungry Bugs",
-      "summary": "Scientists found a simple way to help farmers grow more food and protect it from locusts, which are insects that can eat crops. They worked with farmers in Senegal, a country in Africa, where locusts often damage millet plants. The farmers planted two fields: one with special fertilizer that adds nitrogen to the soil and one without. The field with fertilizer had fewer locusts, less damage to the plants, and produced twice as much millet. This means better soil helps plants grow stronger and keeps bugs away. The study shows that improving soil can be a good tool for farmers to use without harming the environment. It was led by a scientist named Arianne Cease, who studies locusts at Arizona State University.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_f05d4c114819f9ed_078c0f230638.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e79de2ccdb922043",
-      "title": "How ADHD Traits in Kids Can Affect Health When They Grow Up",
-      "summary": "A study from University College London and the University of Liverpool found that children who show ADHD traits at age 10 are more likely to have health problems by age 46. ADHD stands for attention deficit hyperactivity disorder, which can make it hard for people to pay attention, control impulses, or sit still. The researchers looked at data from over 10,000 people in the UK who were followed from birth to middle age. They discovered that kids with more ADHD traits had higher chances of getting conditions like migraines, back issues, or diabetes later in life. This happens because ADHD can make daily tasks like planning and time management difficult, leading to stress and health risks over time. The study shows that people with ADHD need better support to stay healthy as they grow older.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_e79de2ccdb922043_c492ae26cb1d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a2dc0401407b3d46",
-      "title": "Rocket News: China's Rockets Have Problems, Rocket Lab Faces Delay",
-      "summary": "This article talks about rockets and space news from around the world. In China, two rockets failed in just 12 hours, which means they didn't work as planned. Rocket Lab, a company from New Zealand, had a setback with its new Neutron rocket during a test, so it might take longer to launch. In Australia, a company called Gilmour Space got a lot of money to build rockets, helping Australia join the space race. In Europe, a German company named Isar Aerospace delayed its rocket launch to fix a valve issue, and a UK company called Orbex might be sold to another European company. The article shows that many countries are trying to build their own rockets to launch satellites without relying on others like SpaceX.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_a2dc0401407b3d46_4215c7baf13f.webp",
       "category": "Science"
     }
   ]

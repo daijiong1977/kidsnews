@@ -1,0 +1,104 @@
+{
+  "title": "How Gut Problems Can Lead to Colon Cancer",
+  "summary": "Scientists have found out why people with a gut disease called IBD get colon cancer more often. IBD makes the gut swollen and sore for a long time. In the study, they looked at a protein called TL1A that is linked to IBD and cancer. This protein tells special immune cells in the gut, called ILC3s, to send signals to the bone marrow. The bone marrow then makes lots of white blood cells called neutrophils. These neutrophils travel to the gut and help tumors grow by damaging cells. The research shows how this chain reaction happens and suggests new ways to stop cancer in people with IBD. They hope this can lead to better treatments and earlier detection.",
+  "keywords": [
+    {
+      "term": "IBD",
+      "explanation": "a gut disease that causes long-lasting swelling and pain"
+    },
+    {
+      "term": "TL1A",
+      "explanation": "a protein that sends signals in the gut and is linked to IBD and cancer"
+    },
+    {
+      "term": "ILC3s",
+      "explanation": "special immune cells in the gut that get activated by TL1A"
+    },
+    {
+      "term": "neutrophils",
+      "explanation": "white blood cells that come from the bone marrow and help tumors grow"
+    },
+    {
+      "term": "tumors",
+      "explanation": "lumps of bad cells that can turn into cancer"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does IBD stand for?",
+      "options": [
+        "Inflammatory Bowel Disease",
+        "Intestinal Bad Digestion",
+        "Immune Bone Disorder",
+        "Infected Blood Disease"
+      ],
+      "correct_answer": "Inflammatory Bowel Disease"
+    },
+    {
+      "question": "What protein is linked to IBD and cancer in the study?",
+      "options": [
+        "TL1A",
+        "GM-CSF",
+        "ILC3s",
+        "Neutrophils"
+      ],
+      "correct_answer": "TL1A"
+    },
+    {
+      "question": "Where do neutrophils come from?",
+      "options": [
+        "Bone marrow",
+        "Gut",
+        "Blood",
+        "Liver"
+      ],
+      "correct_answer": "Bone marrow"
+    },
+    {
+      "question": "What do ILC3s do when activated by TL1A?",
+      "options": [
+        "Send signals to bone marrow",
+        "Make tumors directly",
+        "Stop inflammation",
+        "Heal the gut"
+      ],
+      "correct_answer": "Send signals to bone marrow"
+    },
+    {
+      "question": "How do neutrophils help tumors grow?",
+      "options": [
+        "By damaging gut cells",
+        "By eating bad cells",
+        "By making new cells",
+        "By stopping signals"
+      ],
+      "correct_answer": "By damaging gut cells"
+    },
+    {
+      "question": "What is the goal of the research mentioned?",
+      "options": [
+        "To find new ways to stop cancer in IBD",
+        "To cure IBD completely",
+        "To make more neutrophils",
+        "To study bone marrow only"
+      ],
+      "correct_answer": "To find new ways to stop cancer in IBD"
+    }
+  ],
+  "background_read": [
+    "IBD is a disease where the gut gets swollen and sore for a long time, and it includes Crohn's disease and ulcerative colitis. People with IBD have a higher chance of getting colon cancer. Scientists are studying how this happens to help prevent cancer. In this article, they found a protein and cells that work together to make tumors grow. Understanding this can lead to better treatments for people with IBD."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at Weill Cornell Medicine studied people with IBD and cancer.",
+    "WHAT: They found a chain reaction where a protein activates gut cells, leading to more white blood cells that help tumors grow.",
+    "WHERE: This happens in the gut and bone marrow of people with IBD.",
+    "WHY: To explain why IBD increases cancer risk and find new ways to prevent it."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Medical research view",
+      "description": "Scientists are excited because this discovery could lead to new treatments for IBD and lower cancer risk."
+    }
+  ],
+  "image_url": "/article_images/article_c895a4d2c6c1ad39_674bfbde3e6d.webp"
+}
