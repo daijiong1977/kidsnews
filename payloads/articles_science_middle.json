@@ -1,12 +1,48 @@
 {
   "articles": [
     {
-      "id": "6b6366225860ec3b",
-      "title": "Connecting Amyloid Beta and Inflammation in Alzheimer's Disease",
-      "summary": "Alzheimer's disease is a neurodegenerative disorder characterized by the progressive loss of memory and cognitive function, primarily due to the destruction of brain cells and their connections called synapses. While amyloid beta protein accumulation has long been implicated in this process, recent research suggests inflammation also plays a critical role. A study published in Proceedings of the National Academy of Sciences explores how these two factors might converge through a shared molecular pathway. The research team, led by Carla Shatz and Barbara Brott, focused on the LilrB2 receptor, known to be involved in synaptic pruning—a normal process where unnecessary synapses are eliminated during brain development and learning. Previous work showed that amyloid beta binds to LilrB2, triggering excessive synapse removal in Alzheimer's models. In this new study, scientists investigated whether inflammation-related molecules, specifically from the complement cascade immune system, could similarly interact with LilrB2. They identified C4d, a protein fragment from the complement cascade, as binding strongly to LilrB2. Experiments in mice demonstrated that injecting C4d into healthy brains caused synapse loss, mimicking Alzheimer's-like effects. This finding indicates that both amyloid beta and inflammation may act through the same receptor to promote synaptic elimination, offering a potential unified explanation for memory loss in Alzheimer's disease and highlighting new targets for therapeutic intervention.",
+      "id": "2177b81ef9b35f15",
+      "title": "Unlocking the Secrets of Ediacaran Fossils",
+      "summary": "Approximately 570 million years ago, during the Ediacaran period, soft-bodied organisms such as jellyfish-like creatures inhabited the seafloor. Typically, such organisms rarely fossilize due to their delicate nature, especially in sandstone environments where coarse grains and turbulent conditions promote decay. However, in a remarkable exception, these organisms were buried by sand and preserved as detailed impressions, forming what scientists term the Ediacara Biota. These fossils, found globally, exhibit bizarre forms like triradial symmetry and fractal patterns, puzzling researchers about their evolutionary placement. They existed just before the Cambrian Explosion, a period of rapid animal diversification, suggesting they represent an early phase in the buildup to complex life. A recent study led by Dr. Lidya Tarhan investigates the fossilization process using lithium isotopes to analyze clay minerals in fossils from Newfoundland and Canada. The research aims to determine if authigenic clays, formed in the seafloor, played a key role in preservation, offering insights into how these fragile remains survived and what they reveal about ancient marine ecosystems and the origins of complex life.",
       "source": "Science Daily",
       "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_6b6366225860ec3b_0f6b9a7c6212.webp",
+      "image_url": "/article_images/article_2177b81ef9b35f15_4d68f78369d5.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9ee33a30d3966f17",
+      "title": "Unraveling the Stonehenge Bluestone Mystery: Human vs. Glacial Transport",
+      "summary": "Recent research from Curtin University provides strong scientific evidence that humans, not glaciers, transported the bluestones to Stonehenge, addressing a long-standing archaeological debate. The study focuses on the Altar Stone and other massive rocks, using advanced mineral fingerprinting techniques to analyze microscopic grains in rivers near Salisbury Plain in southern England. By examining over 500 zircon crystals, which are durable minerals ideal for tracking geological history, the team found no signs of glacial activity in the area. Lead author Dr. Anthony Clarke explained that if glaciers had carried rocks from Scotland or Wales, they would have left a clear mineral signature, but none was detected. This absence makes human transport more plausible, though the exact methods—such as sailing or using rolling logs—remain uncertain. The findings highlight human planning and effort in constructing Stonehenge, using modern tools like those at the John de Laeter Centre to answer ancient questions about this iconic monument.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_9ee33a30d3966f17_74cc82bf0168.webp",
+      "category": "Science"
+    },
+    {
+      "id": "eb0a1b157e72b7ef",
+      "title": "Investigating the Link Between Food Preservatives and Cancer",
+      "summary": "A comprehensive study published in The BMJ, conducted in France, investigated the potential connection between food preservatives and cancer risk. Researchers analyzed long-term dietary and health data from 105,260 participants in the NutriNet-Santé cohort over an average of 7.5 years, focusing on 17 common preservatives like citric acid and sodium nitrite. The study found that while most preservatives showed no association with cancer, a few specific ones were linked to a slightly increased risk. During the follow-up, 4,226 cancer cases were diagnosed, including breast, prostate, and colorectal cancers. The researchers emphasize that more evidence is needed to confirm these findings, but they suggest that current food safety regulations might require re-evaluation to better protect consumers. Preservatives are categorized into antioxidants and non-antioxidants, used in processed foods to extend shelf life, and this study adds to growing concerns about their health impacts based on previous lab research showing cell damage.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_eb0a1b157e72b7ef_467d8ed1fab4.webp",
+      "category": "Science"
+    },
+    {
+      "id": "caa9f97dd559eeb7",
+      "title": "Carbohydrate Quality and Its Impact on Dementia Risk",
+      "summary": "Recent research highlights that both the quantity and type of carbohydrates in our diet significantly influence the risk of developing dementia. Conducted by a collaborative team including the Universitat Rovira i Virgili, the study focused on the glycemic index (GI), which measures how quickly carbohydrate-containing foods raise blood sugar levels. High-GI foods like white bread cause rapid spikes, while low-GI foods such as whole grains lead to slower increases. The study analyzed data from over 200,000 UK adults without dementia at the start, tracking their diets through questionnaires for an average of 13.25 years. Results showed that diets with lower GI values were linked to a 16% reduced risk of Alzheimer's, whereas higher GI diets increased risk by 14%. This suggests that prioritizing low-GI foods, including fruits and legumes, may help prevent cognitive decline. The findings emphasize that dietary strategies should consider carbohydrate quality to support long-term brain health and reduce dementia risk.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_caa9f97dd559eeb7_7db38aabe752.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1c55edb4f68cb526",
+      "title": "Challenges of Lunar Spacesuits: An Astronaut's Perspective",
+      "summary": "Former NASA astronaut Kate Rubins highlighted significant challenges with lunar spacesuits during a National Academies panel. She described Moon missions as an 'extreme physical event' due to heavier suits than Apollo era, with astronauts wearing them for 8-9 hours daily for spacewalks. Rubins, a veteran of 300 days in space, emphasized that lunar conditions—including partial gravity, pervasive dust, and lack of Earth's magnetosphere—amplify health risks like radiation exposure, muscle atrophy, and cardiovascular issues. NASA awarded Axiom Space a $228 million contract to develop commercial suits for Artemis III, aiming for greater mobility but weighing over 300 pounds on Earth. The suits are heavier than Apollo's 185-pound versions, contributing to physical trauma such as skin abrasions and joint pain, as noted by astronaut Mike Barratt. NASA targets a 2028 launch for Artemis III, but delays may occur due to suit and lander readiness. Rubins compared lunar EVAs to running marathons, stressing the intense physical demand beyond ISS experiences, where floating reduces strain. The new suits aim to improve flexibility for tasks like crouching, but weight and environmental factors pose ongoing hurdles for astronaut safety and mission success.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_1c55edb4f68cb526_9d881b3c3643.webp",
       "category": "Science"
     },
     {
@@ -14,44 +50,8 @@
       "title": "UK Collaborates on North Sea Wind Farm Initiative with European Nations",
       "summary": "The UK is partnering with nine European countries, such as Norway, Germany, and the Netherlands, to develop a large-scale offshore wind farm project in the North Sea. This initiative involves constructing new wind farms that will be linked via undersea cables called interconnectors, allowing electricity to flow directly between multiple countries for the first time. The government, represented by Energy Secretary Ed Miliband, argues this will enhance energy security by reducing dependence on volatile fossil fuels and potentially lower consumer bills through increased efficiency and shared resources. Supporters like RenewableUK highlight benefits like cost savings and improved regional energy stability. However, critics, including shadow energy secretary Claire Countinho, caution that rapid expansion could drive up electricity prices if operators sell power to the highest bidder during supply shortages. The project aims for completion by 2050, with existing interconnectors already saving UK consumers billions, but it faces controversy in places like Norway over domestic supply concerns. Overall, the plan seeks to balance economic and environmental goals while addressing challenges in energy distribution.",
       "source": "BBC Science",
-      "time_ago": "12 hours ago",
-      "image_url": "/article_images/article_329a49c52d0a7935_ef26420ab84d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c895a4d2c6c1ad39",
-      "title": "The Immune Chain Reaction Linking Gut Inflammation to Colon Cancer",
-      "summary": "Researchers at Weill Cornell Medicine have uncovered a detailed immune pathway that explains the heightened risk of colorectal cancer in individuals with inflammatory bowel disease (IBD). The study focuses on TL1A, an inflammatory protein associated with both IBD and cancer. They discovered that TL1A activates immune cells in the gut called ILC3s, which then release GM-CSF. This substance triggers emergency granulopoiesis in the bone marrow, leading to a surge of neutrophils. These neutrophils migrate to the gut, where they promote tumor growth by damaging DNA in gut lining cells and altering gene activity to favor cancer development. The findings, based on mouse models and human tissue samples, show that blocking TL1A reduces this tumor-promoting effect. This research highlights a systemic process involving gut-bone marrow communication and suggests potential targets like TL1A, ILC3s, GM-CSF, and neutrophils for new treatments aimed at reducing cancer risk in IBD patients. Future studies will explore how early exposure to GM-CSF might increase susceptibility to IBD, offering opportunities for prevention.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_c895a4d2c6c1ad39_674bfbde3e6d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "bb4cd09ea6f63481",
-      "title": "Ancient Transport of Wild Potato in the American Southwest",
-      "summary": "A study published in 2026 reveals that over 10,000 years ago, ancient people in the southwestern United States transported a wild ancestor of the modern potato, known as the Four Corners potato (Solanum jamesii), across long distances. Led by Lisbeth Louderback of the University of Utah, researchers examined ground stone tools from 14 archaeological sites, identifying starch granules from the potato on tools at nine sites, with evidence dating back to 10,900 cal BP. This suggests that Indigenous communities actively moved the plant, extending its range northward into areas like Utah and Colorado, beyond its original habitat. Genetic research supports this, showing that some northern populations of the potato originated farther south. The repeated use and movement of the plant indicate early stages of domestication, where people began shaping its future. Additionally, the study involved interviews with 15 Navajo elders, confirming that the wild potato remains culturally significant, used for food and spiritual purposes today. This research combines archaeobotanical data, genetic sequencing, and Indigenous knowledge to highlight how ancient human actions influenced plant distribution and cultural identity in the region.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_bb4cd09ea6f63481_91f360efb8d6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f778210f524e1332",
-      "title": "Controlling Electricity with 3D Nanoscale Crystal Structures",
-      "summary": "Researchers at the RIKEN Center for Emergent Matter Science have developed a new technique for creating three-dimensional nanoscale devices from single crystal materials. They used a focused ion beam instrument to precisely carve tiny helical structures from a topological magnetic crystal composed of cobalt, tin, and sulfur (Co3Sn2S2). These structures function as switchable diodes, allowing electric current to flow more easily in one direction than the other, and the effect can be reversed by changing magnetization or helix handedness. This method addresses limitations in existing fabrication techniques, which often restrict material choices and compromise device quality. By comparing different helix sizes and measuring behavior at various temperatures, the team found that the diode effect results from uneven electron scattering along the curved, chiral walls. This shows that physical shape can directly influence electrical properties, suggesting geometry can be used as a design tool for low-power components in future technologies like memory, logic, and sensing. The study, published in Nature Nanotechnology, highlights the potential of combining materials physics with advanced nanofabrication to engineer new electronic functions.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_f778210f524e1332_ab90924c60d6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "5064511f364a3c3c",
-      "title": "Revisiting Edison's Experiment: Could Graphene Have Been Made in 1879?",
-      "summary": "Chemists at Rice University conducted a study to replicate Thomas Edison's 1879 light bulb experiment, investigating whether he inadvertently produced graphene, a groundbreaking material composed of a single layer of carbon atoms. Graphene, known for its exceptional properties like strength and conductivity, has modern applications in batteries and electronics, earning its discoverers a Nobel Prize in 2010. Edison, in his quest to commercialize incandescent bulbs, experimented with various filaments, ultimately settling on carbonized bamboo for its durability. The research team, led by grad student Lucas Eddy, aimed to mass-produce graphene using simple equipment and drew inspiration from Edison's method, which involved flash Joule heating at temperatures around 2000-3000°C. They recreated the experiment with artisan bulbs featuring bamboo filaments, observing the filament transform into a lustrous silver substance. Advanced techniques like Raman spectroscopy and transmission electron microscopy confirmed the presence of turbostratic graphene in parts of the filament. While not definitive proof of Edison's production, due to his lack of detection tools, the findings highlight the potential of revisiting historical technologies with contemporary science. The authors suggest that other early inventions, such as vacuum tubes, may have similarly yielded unnoticed materials, emphasizing how innovation can stem from re-examining the past with new questions and tools.",
-      "source": "Ars Science",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_5064511f364a3c3c_819b9f5626c4.webp",
+      "image_url": "/article_images/article_329a49c52d0a7935_ef26420ab84d.webp",
       "category": "Science"
     }
   ]
