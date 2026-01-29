@@ -1,12 +1,48 @@
 {
   "articles": [
     {
-      "id": "218dd6af7bed603b",
-      "title": "Tea's Health Benefits and Risks: What You Need to Know",
-      "summary": "A recent review highlights that tea, particularly green tea, offers significant health benefits, including reduced risks of cardiovascular diseases, obesity, diabetes, and certain cancers. Tea consumption is also linked to improved brain health, such as lower cognitive decline in older adults, and preservation of muscle mass with aging. These effects are attributed to polyphenols like catechins found in tea leaves. However, the review cautions that not all tea products are equally beneficial. Bottled teas and bubble teas often contain artificial sweeteners, preservatives, and added sugars, which can undermine tea's natural advantages. Additionally, concerns about contaminants like pesticides and heavy metals exist, though they pose minimal risk for most people at normal intake levels. The authors recommend drinking freshly brewed tea in moderation for optimal health outcomes and emphasize the need for more research on different tea varieties and long-term effects. Tea has a long history of medicinal use and is studied through laboratory and human research to understand its broad impacts on health.",
+      "id": "29b9179502fabc14",
+      "title": "Lifetime Alcohol Consumption Strongly Linked to Increased Rectal Cancer Risk",
+      "summary": "A recent study published in the journal CANCER reveals that long-term alcohol consumption is significantly associated with a higher risk of colorectal cancer, particularly rectal cancer. Researchers analyzed data from 88,092 U.S. adults in the PLCO Cancer Screening Trial over 20 years, finding that 1,679 participants developed colorectal cancer. Heavy drinkers, defined as those averaging ≥14 drinks per week over their lifetime, had a 25% higher overall colorectal cancer risk and a 95% increased risk for rectal cancer compared to light drinkers (<1 drink per week). The study also examined drinking patterns across adulthood, showing that consistent heavy drinking over many years led to a 91% higher colorectal cancer risk. Former drinkers did not show elevated cancer risk and had lower odds of adenomas (noncancerous tumors that can become cancerous), suggesting potential benefits from alcohol cessation. Biological explanations include harmful byproducts from alcohol metabolism and effects on gut microbes, though further research is needed. Led by co-senior author Erikka Loftfield from the NCI, this research highlights the importance of considering lifetime alcohol intake in cancer prevention strategies.",
       "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_218dd6af7bed603b_68397a4e42e8.webp",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_29b9179502fabc14_1ec9ca5c00af.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c6ce34359870ab67",
+      "title": "Innovative Electrode Converts CO2 into Formic Acid for Practical Use",
+      "summary": "Researchers have developed a breakthrough electrode that captures carbon dioxide from exhaust gases and converts it directly into formic acid, addressing pollution challenges. Published in ACS Energy Letters, the study by scientists including Wonyong Choi introduces a three-layer electrode composed of a CO2 capture material, gas-permeable carbon paper, and a tin(IV) oxide catalytic layer. This integrated design allows for simultaneous capture and conversion, eliminating the need for separate steps and enhancing efficiency under realistic conditions like simulated flue gas with mixed gases. Testing showed the electrode outperforms existing technologies, achieving higher efficiency with pure CO2 and substantial formic acid production even in gas mixtures similar to industrial exhaust or ambient air. Formic acid is valuable for applications such as fuel cells and industrial processes, making this approach promising for cost-effective carbon reuse. The research, funded by the National Research Foundation of Korea, suggests potential for adapting the design to other greenhouse gases, offering a pathway toward practical industrial integration and reduced environmental impact.",
+      "source": "Science Daily",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_c6ce34359870ab67_660523e1deb4.webp",
+      "category": "Science"
+    },
+    {
+      "id": "2dd1e2428be61360",
+      "title": "Dark Stars: A Key to Early Universe Mysteries",
+      "summary": "A recent study proposes that dark stars could address three major puzzles in the early universe, as revealed by the James Webb Space Telescope (JWST). These mysteries include the unexpected brightness of blue monster galaxies, the presence of overmassive black holes at extremely early times, and the unusual properties of little red dots. Dark stars are theoretical objects that may form in regions rich in dark matter, potentially powered by dark matter annihilation in addition to nuclear fusion. This could allow them to grow to enormous sizes and later evolve into supermassive black holes. The research, led by Cosmin Ilie and colleagues, builds on previous studies identifying dark star candidates and presents spectroscopic evidence, such as helium absorption features, supporting their existence. By linking dark stars to JWST observations, the study suggests that current models of galaxy and black hole formation need revision to account for these findings, offering a unified explanation for multiple anomalies in cosmic dawn data.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_2dd1e2428be61360_1bb150d452ee.webp",
+      "category": "Science"
+    },
+    {
+      "id": "3641c663316e1cee",
+      "title": "Rethinking Syphilis Origins: A 5,500-Year-Old Genetic Discovery",
+      "summary": "A recent study has uncovered a 5,500-year-old Treponema pallidum genome from a fossil in Colombia, challenging long-held beliefs about the origins of syphilis. Previously, historians pointed to the 1495 siege of Naples by King Charles VIII of France as the starting point of the first major syphilis pandemic in Europe, known as the Great Pox, which caused up to 5 million deaths. This event led to widespread blame games, with countries labeling the disease as the French disease or Neapolitan disease, and some attributing it to Columbus bringing it from the Americas. However, the discovery by anthropologist Elizabeth Nelson and her team shows that Treponema pallidum, the bacteria responsible for syphilis and related diseases like bejel and yaws, existed millennia earlier. The fossil, from a hunter-gatherer male in the Tequendama I rock shelter, showed no visible signs of infection, but advanced genetic sequencing revealed traces of the pathogen. This finding suggests that syphilis did not have a single origin and has a deeper evolutionary history. It highlights how historical narratives, shaped by events like the French occupation of Naples, can obscure scientific truths. The research also demonstrates the importance of modern techniques in uncovering ancient diseases, offering new insights into human health and disease spread over thousands of years.",
+      "source": "Ars Science",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_3641c663316e1cee_c2de25055372.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f7ecc9e9c018bfbb",
+      "title": "Long-Term Effects of Weight Loss Drugs: A Study on Regain and Health Risks",
+      "summary": "A recent study published in The BMJ investigates the long-term effectiveness of prescription weight loss drugs, such as GLP-1 receptor agonists like Ozempic and Wegovy. These medications have transformed obesity treatment by enabling significant weight loss and improving cardiometabolic health markers, including cholesterol and blood pressure. However, the research reveals that when individuals discontinue these drugs, they experience rapid weight regain—averaging 0.4 kilograms per month—leading to a projected return to pre-treatment weight within about 1.7 years. Similarly, health benefits related to heart disease and diabetes risk diminish, reverting to baseline levels in approximately 1.4 years. The study, which analyzed 37 studies involving over 9,000 participants, found that weight regain after drug cessation is nearly four times faster than after non-drug approaches like behavioral programs. This highlights a critical issue: about half of users stop taking GLP-1 drugs within a year, underscoring the need for strategies to sustain weight loss. Researchers conclude that while these drugs are effective initially, they may not suffice for long-term weight management without additional support, emphasizing the importance of integrated treatment plans.",
+      "source": "Science Daily",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_f7ecc9e9c018bfbb_dfea7bd5e69f.webp",
       "category": "Science"
     },
     {
@@ -14,44 +50,8 @@
       "title": "Innovative Use of Old Barges to Combat Erosion and Aid Birds",
       "summary": "In a pioneering project in the UK, the National Trust has sunk three decommissioned Thames barges in the Blackwater Estuary, Essex, to create a new island habitat for birds and reduce coastal erosion. These barges, historically used for transporting coal and industrial materials, were cleaned and filled with sediment before being placed on inter-tidal mudflats near Northey Island. The initiative aims to protect endangered bird species such as dunlin, curlew, ringed plover, and lapwing, which are on the UK red list for conservation. By transforming retired vessels into a wildlife sanctuary, the project addresses the loss of saltmarsh habitat due to rising sea levels. Katy Gilchrist, the coastal project manager, describes it as 'marine recycling,' turning history into habitat. Once completed, the island will cover 0.55 hectares, roughly the size of a football pitch, offering a safe refuge above high tides. This nature-based solution showcases innovative engineering to secure the future of seabirds and mitigate environmental challenges in the estuary.",
       "source": "BBC Science",
-      "time_ago": "5 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_96fa3b9ec9b9cfb9_c07b1f6d8fc7.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4b936fb7e97ecec5",
-      "title": "Radio Waves Uncover Pre-Supernova Activity in Massive Stars",
-      "summary": "Astronomers have achieved a breakthrough by detecting radio waves from a Type Ibn supernova, offering unprecedented insights into the final years of massive stars before they explode. Using the Very Large Array radio telescope in New Mexico, the research team tracked faint radio emissions for 18 months, revealing that the star expelled significant amounts of helium-rich gas just a few years prior to the supernova. Lead author Raphael Baer-Way described this as a 'time machine' that allows scientists to observe the intense mass loss in the star's last decade, particularly the final five years. The findings suggest the star was part of a binary system, where gravitational interactions with a companion star likely drove the extreme mass shedding. This radio-based approach complements traditional optical methods, providing hidden details about stellar death and opening new avenues for studying supernovae across the universe. Future research aims to investigate how common such mass-loss events are and what they reveal about stellar evolution.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_4b936fb7e97ecec5_8e3433657b3d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "2858c57e96ff9f55",
-      "title": "Discovery of a New Parasitic Mite Species on Spiders in Brazil",
-      "summary": "Researchers at the Butantan Institute in São Paulo, Brazil, discovered a new species of parasitic mite on a small spider. Initially, the mite larvae appeared as a pearl necklace-like structure. Through detailed analysis using microscopy and scanning techniques, they identified it as Araneothrombium brasiliensis, the second spider-parasitic mite documented in Brazil and the first from its family in the country. The mites, about 500 micrometers long, attach to juvenile spiders and feed on lymph fluid through the pedicel, a vulnerable body region. The spiders were collected near caves in Pinheiral, Rio de Janeiro, similar to where another species was found earlier. This finding suggests the mite genus may be more widespread in neotropical regions than previously thought. The study, published in the International Journal of Acarology, involved collaboration between researchers funded by FAPESP, highlighting the importance of scientific exploration in biodiversity.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_2858c57e96ff9f55_0bf2d0abc1eb.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3c04ddbc8b0301ce",
-      "title": "Unveiling the Secrets of Fast Radio Bursts: Evidence from Binary Systems",
-      "summary": "Astronomers have made a significant breakthrough by providing clear evidence that some fast radio bursts originate in binary star systems. Fast radio bursts are intense, millisecond-long flashes of radio waves emanating from distant galaxies, previously thought to come from isolated stars. An international research team, including scientists from The University of Hong Kong, used the Five-hundred-meter Aperture Spherical Telescope in China to monitor a repeating FRB over nearly 20 months. They detected an RM flare, a sudden shift in the polarization of radio signals, indicating the presence of a companion star. This flare is believed to result from a coronal mass ejection from the companion, which released magnetized plasma that altered the signal's path. The findings, published in Science, suggest that at least some repeating FRBs involve a binary system with a magnetar and a Sun-like star. This discovery challenges long-standing assumptions about FRB origins and offers new insights into their production mechanisms, enhancing our understanding of stellar environments and cosmic phenomena.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_3c04ddbc8b0301ce_a61f2595f018.webp",
-      "category": "Science"
-    },
-    {
-      "id": "434228e9ea7dab25",
-      "title": "Trade Conflicts Impact Golden Dome Missile Defense Plans",
-      "summary": "The Golden Dome missile defense shield, led by General Michael Guetlein, aims to deploy a network of space-based sensors and interceptors by 2028 to protect the U.S. from threats like ICBMs, hypersonic weapons, and drones. This aggressive three-year timeline faces challenges from budget and technology issues. Supporters argue it's essential against adversaries such as Russia and China, while critics highlight its high cost and potential to destabilize global security. The Pentagon is advancing with company prototypes and existing investments in sensors and satellites, building on past efforts like Reagan's Strategic Defense Initiative. However, a key obstacle is the need for allied cooperation, particularly from Canada and Denmark, for optimal sensor placement in locations like the Arctic and Greenland. These allies are crucial due to their geographic advantages and NATO membership, but trade wars and tariffs imposed by the Trump administration have limited discussions. Guetlein notes that tariffs have prevented talks, though plans exist to integrate allies later through capabilities or territory access. This tension between defense needs and trade policies creates a one-sided approach, potentially hindering the shield's effectiveness and international relations.",
-      "source": "Ars Science",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_434228e9ea7dab25_3e5a7f58683c.webp",
       "category": "Science"
     }
   ]
