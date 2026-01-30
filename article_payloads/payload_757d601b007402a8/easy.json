@@ -1,0 +1,104 @@
+{
+  "title": "Cooling Computers with Noise",
+  "summary": "Quantum computers are special machines that need to be very cold to work, but cooling them can create noise that messes up their information. Scientists in Sweden made a new tiny refrigerator that uses this noise to help cool the computers instead of fighting it. This device controls heat and energy flow very precisely, which could help build bigger and better quantum computers in the future. Quantum computers might change many things like medicine and communication, but they are hard to make because they are so sensitive. This new idea turns a problem into a solution by using noise to keep things cold.",
+  "keywords": [
+    {
+      "term": "quantum computers",
+      "explanation": "special machines that use tiny particles to do calculations very fast"
+    },
+    {
+      "term": "noise",
+      "explanation": "unwanted sounds or signals that can cause problems"
+    },
+    {
+      "term": "refrigerator",
+      "explanation": "a device that makes things cold"
+    },
+    {
+      "term": "heat",
+      "explanation": "energy that makes things warm"
+    },
+    {
+      "term": "scientists",
+      "explanation": "people who study and discover new things"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why do quantum computers need to be very cold?",
+      "options": [
+        "To work properly",
+        "To make noise",
+        "To get bigger",
+        "To use electricity"
+      ],
+      "correct_answer": "To work properly"
+    },
+    {
+      "question": "What problem does noise cause for quantum computers?",
+      "options": [
+        "It cools them down",
+        "It interferes with information",
+        "It makes them faster",
+        "It creates heat"
+      ],
+      "correct_answer": "It interferes with information"
+    },
+    {
+      "question": "What did scientists in Sweden create to help with cooling?",
+      "options": [
+        "A big freezer",
+        "A tiny refrigerator",
+        "A loud speaker",
+        "A new computer"
+      ],
+      "correct_answer": "A tiny refrigerator"
+    },
+    {
+      "question": "How does the new refrigerator use noise?",
+      "options": [
+        "It fights the noise",
+        "It ignores the noise",
+        "It uses noise to cool",
+        "It makes more noise"
+      ],
+      "correct_answer": "It uses noise to cool"
+    },
+    {
+      "question": "What can quantum computers help with in the future?",
+      "options": [
+        "Medicine and communication",
+        "Cooking food",
+        "Driving cars",
+        "Building houses"
+      ],
+      "correct_answer": "Medicine and communication"
+    },
+    {
+      "question": "What is a key benefit of the new refrigerator?",
+      "options": [
+        "It controls heat precisely",
+        "It makes computers noisy",
+        "It uses a lot of energy",
+        "It is very big"
+      ],
+      "correct_answer": "It controls heat precisely"
+    }
+  ],
+  "background_read": [
+    "Quantum computers are advanced machines that use the rules of quantum physics to solve problems faster than regular computers. They need to be kept extremely cold, close to absolute zero, to work because heat can destroy the delicate information they store. Cooling systems often create noise, which is a challenge. Scientists are finding new ways to manage this, like using noise to help with cooling, which could lead to better technology for things like discovering new medicines or keeping communications secure."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at Chalmers University in Sweden",
+    "WHAT: Made a tiny quantum refrigerator that uses noise to cool computers",
+    "WHERE: In Sweden at a university lab",
+    "WHY: To help build bigger quantum computers by controlling heat better"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Innovative solution",
+      "description": "Turning noise from a problem into a tool for cooling quantum computers"
+    }
+  ],
+  "image_url": "/article_images/article_757d601b007402a8_d71b20204841.webp"
+}
