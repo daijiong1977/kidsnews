@@ -1,0 +1,112 @@
+{
+  "title": "SpaceX Wants to Send a Million Satellites to Space for AI",
+  "summary": "SpaceX, a company owned by Elon Musk, has asked for permission to launch one million satellites into space around Earth. These satellites would help power artificial intelligence, or AI, which is like smart computer programs. Instead of building big computer centers on the ground, SpaceX wants to put them in space to save energy and money. The satellites would use solar power and be far apart in space, so they might not be easy to see. SpaceX already has about 10,000 satellites called Starlink that give internet to people. Some experts worry that too many satellites could cause problems like crashes or make it hard for astronomers to study stars. Musk says space is very big and there is enough room for all the satellites.",
+  "keywords": [
+    {
+      "term": "SpaceX",
+      "explanation": "a company that builds rockets and satellites"
+    },
+    {
+      "term": "satellites",
+      "explanation": "machines that orbit Earth and do jobs like sending signals"
+    },
+    {
+      "term": "AI",
+      "explanation": "artificial intelligence, which means smart computer programs"
+    },
+    {
+      "term": "solar power",
+      "explanation": "energy from the sun used to run machines"
+    },
+    {
+      "term": "Starlink",
+      "explanation": "a group of SpaceX satellites that give internet to people"
+    },
+    {
+      "term": "astronomers",
+      "explanation": "scientists who study stars and space"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many satellites does SpaceX want to launch?",
+      "options": [
+        "One million",
+        "Ten thousand",
+        "One hundred",
+        "Five hundred"
+      ],
+      "correct_answer": "One million"
+    },
+    {
+      "question": "What will the satellites help power?",
+      "options": [
+        "Artificial intelligence",
+        "Cars",
+        "Televisions",
+        "Toys"
+      ],
+      "correct_answer": "Artificial intelligence"
+    },
+    {
+      "question": "What power source will the satellites use?",
+      "options": [
+        "Solar power",
+        "Batteries",
+        "Wind",
+        "Coal"
+      ],
+      "correct_answer": "Solar power"
+    },
+    {
+      "question": "What is the name of SpaceX's existing satellite network?",
+      "options": [
+        "Starlink",
+        "StarNet",
+        "SpaceWeb",
+        "OrbitLink"
+      ],
+      "correct_answer": "Starlink"
+    },
+    {
+      "question": "Who is worried about too many satellites in space?",
+      "options": [
+        "Astronomers",
+        "Teachers",
+        "Farmers",
+        "Doctors"
+      ],
+      "correct_answer": "Astronomers"
+    },
+    {
+      "question": "Who owns SpaceX?",
+      "options": [
+        "Elon Musk",
+        "Bill Gates",
+        "Jeff Bezos",
+        "Mark Zuckerberg"
+      ],
+      "correct_answer": "Elon Musk"
+    }
+  ],
+  "background_read": [
+    "Space is the area above Earth where satellites orbit. Satellites are like flying computers that help with things like internet and weather tracking. Artificial intelligence (AI) is technology that lets computers learn and make decisions, similar to how people think. Companies like SpaceX build rockets to send satellites into space. Astronomers use telescopes to look at stars and planets, and too many satellites can block their view. Solar power is clean energy from the sun, which is good for the environment."
+  ],
+  "Article_Structure": [
+    "WHO: Elon Musk's company SpaceX",
+    "WHAT: Applying to launch one million satellites to power AI",
+    "WHERE: In Earth's orbit around the planet",
+    "WHY: To save energy and money compared to ground-based computer centers"
+  ],
+  "perspectives": [
+    {
+      "perspective": "SpaceX's view",
+      "description": "Believes space data centers are efficient and will help billions of people with AI."
+    },
+    {
+      "perspective": "Experts' concerns",
+      "description": "Worry about space congestion, crashes, and interference with astronomy."
+    }
+  ],
+  "image_url": "/article_images/article_a3a3772ed48370f6_a7a11f1c18f3.webp"
+}

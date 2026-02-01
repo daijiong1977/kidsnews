@@ -1,39 +1,48 @@
 {
   "articles": [
     {
-      "id": "e74b19fb97d4f015",
-      "title": "Evening Chronotypes and Cardiovascular Health Risks",
-      "summary": "A recent study published in the Journal of the American Heart Association investigated the link between chronotypes—individual preferences for sleep and wake timing—and cardiovascular health in over 300,000 middle-aged adults from the UK Biobank. Participants were categorized as 'definitely evening people' (night owls), 'definitely morning people' (early birds), or 'intermediate' based on self-reported patterns. The research found that evening chronotypes had a 79% higher likelihood of poor cardiovascular health scores and a 16% increased risk of heart attack or stroke over a 14-year follow-up, with women showing stronger associations. These risks were partly attributed to lifestyle factors like nicotine use and insufficient sleep. In contrast, morning chronotypes exhibited a 5% lower prevalence of poor heart health. The study highlights the importance of sleep timing in long-term cardiovascular outcomes and suggests that behavioral interventions could mitigate risks for night owls.",
+      "id": "62845d62ac14d55c",
+      "title": "Quantum Geometry: How Hidden Shapes Influence Electron Motion",
+      "summary": "Researchers from the University of Geneva, in collaboration with the University of Salerno and CNR-SPIN Institute, have made a breakthrough by identifying a geometric feature called the quantum metric in quantum materials. This feature alters electron movement in a way analogous to how gravity bends light, as described by Einstein's theory. The study focused on the interface between strontium titanate and lanthanum aluminate, where quantum behaviors are prominent. Using intense magnetic fields, the team detected distortions in electron trajectories caused by the quantum metric, proving its existence experimentally after years of theoretical speculation. The quantum metric describes the curvature of quantum space and affects material properties like optical and transport characteristics. This discovery suggests that the quantum metric is common in many materials, not rare, opening new avenues for advanced technologies. Potential applications include terahertz-frequency electronics, superconductivity, and enhanced light-matter interactions, which could revolutionize future electronic devices and energy efficiency.",
       "source": "Science Daily",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_62845d62ac14d55c_c06e29aab7b2.webp",
+      "category": "Science"
+    },
+    {
+      "id": "b4eaccadb354363b",
+      "title": "Harnessing Gut Bacteria for Anti-Aging Therapies",
+      "summary": "Researchers have developed a method to manipulate gut bacteria into producing compounds that extend lifespan, offering a novel approach to anti-aging drug development. Led by Meng Wang, the team focused on colanic acid, a substance naturally made by gut microbes that has been shown to increase longevity in roundworms and fruit flies. By administering low doses of the antibiotic cephaloridine, they stimulated gut bacteria to produce higher levels of colanic acid, which in turn improved health markers in mice, such as better cholesterol profiles and reduced insulin levels. A key advantage of cephaloridine is its lack of absorption into the bloodstream when taken orally, minimizing side effects by targeting only the gut microbiome. This study suggests a shift in medicine towards drugs that influence microbial communities to generate beneficial molecules, potentially leading to safer and more effective treatments for aging-related conditions.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_b4eaccadb354363b_93b1c858e9bd.webp",
+      "category": "Science"
+    },
+    {
+      "id": "a3a3772ed48370f6",
+      "title": "SpaceX's Plan for a Million Satellites to Fuel AI Growth",
+      "summary": "SpaceX, led by Elon Musk, has submitted an application to launch up to one million satellites into Earth's orbit, aiming to create 'orbital data centers' that power artificial intelligence (AI). The company argues that this approach is more cost-effective and energy-efficient than traditional terrestrial data centers, which are large warehouses filled with computers. As AI usage expands, processing demands are surpassing ground-based capabilities, prompting this innovative solution. The satellites would be solar-powered and operate in low-Earth orbit, similar to the existing Starlink network of nearly 10,000 satellites that provides internet access. SpaceX claims this system could serve billions globally and represents a step toward a Kardashev II civilization, capable of harnessing the Sun's full energy. However, experts raise concerns about space congestion, increased risk of collisions, and interference with astronomical research due to radio waves from satellites. Musk disputes these issues, emphasizing the vastness of space. The application was filed with the US Federal Communications Commission, though no timeline is specified.",
+      "source": "BBC Science",
       "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_e74b19fb97d4f015_235c39b3ae29.webp",
+      "image_url": "/article_images/article_a3a3772ed48370f6_a7a11f1c18f3.webp",
       "category": "Science"
     },
     {
-      "id": "7946a01203e6ba45",
-      "title": "Early Heart Disease Risk in Men: A Long-Term Study",
-      "summary": "A decades-long study by Northwestern Medicine reveals that men begin developing coronary heart disease risk significantly earlier than women, with differences emerging as early as the mid-30s. The research, based on over 30 years of data from the CARDIA study, tracked more than 5,100 Black and white adults from young adulthood. Findings show that men reach a 5% rate of cardiovascular disease, including heart attack, stroke, and heart failure, about seven years before women (at ages 50.5 versus 57.5). Specifically, men hit a 2% incidence of coronary heart disease over a decade earlier. Despite similar risk factors like smoking and high blood pressure becoming more common in both sexes over time, the gap in heart disease timing did not close, suggesting other biological or social factors are at play. The study emphasizes the need for earlier screening and prevention strategies, particularly for men, to mitigate long-term risks. Published in the Journal of The American Heart Association, it calls for broader research beyond standard measures like cholesterol.",
+      "id": "1abd2f659d6582c0",
+      "title": "Uncovering the Mechanism Behind Statin-Induced Muscle Pain",
+      "summary": "Statins are widely prescribed drugs that lower cholesterol and significantly reduce the risk of heart attacks and strokes, benefiting millions globally. However, a common side effect is muscle pain and weakness, which can range from mild soreness to severe muscle damage in rare cases. Researchers from the University of British Columbia and University of Wisconsin-Madison have identified the biological mechanism behind these issues. Using cryo-electron microscopy, an advanced imaging technique, they observed how statins interact with the ryanodine receptor (RyR1), a protein that regulates calcium flow in muscle cells. The study, published in Nature Communications, found that statins bind to RyR1 and force it into an open position, causing continuous calcium leakage. This calcium toxicity damages muscle tissue, explaining the pain and complications. Focusing on atorvastatin, a common statin, the researchers noted that three statin molecules cluster in the protein, with the first initiating opening and two others locking it open. This discovery provides a roadmap for developing safer statins by modifying the parts that cause harmful interactions, potentially reducing side effects and improving patient adherence to heart-protective treatments.",
       "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_7946a01203e6ba45_69f5e65a8d3d.webp",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_1abd2f659d6582c0_da85bb9bd647.webp",
       "category": "Science"
     },
     {
-      "id": "0b5444a697994282",
-      "title": "Advancing Unsinkable Ship Technology with Superhydrophobic Tubes",
-      "summary": "Researchers at the University of Rochester's Institute of Optics have developed a breakthrough technique to create unsinkable metal tubes, marking progress toward unsinkable ships. Led by Professor Chunlei Guo, the team used laser etching to modify aluminum tubes, creating microscopic pits that make the interior superhydrophobic, meaning it strongly repels water. This allows the tubes to trap a stable air pocket inside, preventing water from entering and keeping them afloat even when damaged with holes. Inspired by natural examples like diving bell spiders and fire ants, the design includes a divider to maintain buoyancy when pushed vertically. Compared to earlier superhydrophobic disks from 2019, the tube-based design offers improved stability in turbulent conditions, as tested over weeks without degradation. The tubes can be scaled up and connected to form rafts for ships, buoys, or platforms, and they also show potential for renewable energy by capturing wave energy. Funded by organizations like the National Science Foundation, this research addresses long-standing safety goals in maritime engineering.",
+      "id": "9fa78a1704c6e721",
+      "title": "Unveiling Jupiter's Atmospheric Mysteries Through Advanced Modeling",
+      "summary": "Jupiter's dense clouds have long obscured its interior, but a recent study by researchers at the University of Chicago and Jet Propulsion Laboratory has advanced our understanding. Using a detailed computer model, scientists created the most comprehensive simulation of Jupiter's atmosphere to date, allowing them to peer beneath the cloud layers without physical descent. A key finding indicates that Jupiter contains approximately one and a half times more oxygen than the sun, resolving debates about its composition and shedding light on planetary formation in the solar system. Jupiter's atmosphere features violent storms like the Great Red Spot, a persistent storm twice Earth's size, and is studied by missions such as NASA's Juno from orbit. Past studies, including data from the Galileo spacecraft, faced limitations due to the atmosphere's density. The new model integrates atmospheric chemistry and hydrodynamics to track chemical reactions and gas movements, providing insights into water and oxygen levels. This research demonstrates how computational techniques can transform planetary science by addressing long-standing questions about gas giants.",
       "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_0b5444a697994282_105673e1089b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0399378c85b0771c",
-      "title": "Early Detection of Heart Disease with Advanced Imaging",
-      "summary": "Researchers at Helmholtz Munich and the Technical University of Munich have developed a new imaging tool called fast-RSOM, which uses light and sound to create detailed images of the smallest blood vessels through the skin without invasive procedures. This technology detects microvascular endothelial dysfunction (MiVED), a condition where tiny blood vessels have trouble widening and narrowing, which is an early sign of cardiovascular disease. Fast-RSOM measures biomarkers linked to MiVED, allowing doctors to see impairments in blood vessel function before symptoms like chest pain appear. It helps identify risk factors such as smoking or high blood pressure by directly observing their effects on microvessels. The portable device could be used in clinics for routine risk assessments, enabling earlier interventions and personalized treatments. The team plans to test it in larger populations and integrate it into clinical practice to improve heart health outcomes and reduce healthcare costs.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_0399378c85b0771c_8c3b6abbe595.webp",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_9fa78a1704c6e721_ddb0c947d21f.webp",
       "category": "Science"
     },
     {
@@ -41,17 +50,8 @@
       "title": "Archaeological Discoveries from HS2 Construction Reveal Britain's Past",
       "summary": "During the construction of the HS2 high-speed railway in the UK, archaeologists have uncovered an unprecedented collection of 450,000 artifacts, offering new insights into British history. The finds, stored in a secret warehouse in Yorkshire for security, include significant items such as a possible Roman gladiator's tag, a hand axe potentially over 40,000 years old, and 19th-century gold dentures. This massive archaeological effort involved around 1,000 experts conducting 60 digs along the route from London to Birmingham since 2018, as part of mandatory assessments to protect heritage sites. While the fieldwork is largely complete, the future of the artifacts—whether they will remain in storage or be displayed—is still undecided. The project has sparked debate: organizations like Historic England praise the discoveries, but critics, including MP Greg Smith, argue that HS2's soaring costs, delays, and environmental damage outweigh its benefits. HS2's response acknowledges past issues but highlights the careful work of their archaeology team.",
       "source": "BBC Science",
-      "time_ago": "1 day ago",
+      "time_ago": "2 days ago",
       "image_url": "/article_images/article_1924a2590abe37c3_d3f15c00e07c.webp",
-      "category": "Science"
-    },
-    {
-      "id": "733e491146bbfd50",
-      "title": "Polar Bears Adapt to Ice Loss in Svalbard",
-      "summary": "In a surprising discovery, polar bears in Svalbard, Norway, have become fatter and healthier since the early 1990s, even as sea ice declines due to climate change. Researchers from the Norwegian Polar Institute studied 770 adult bears over nearly three decades, finding increased body condition. Typically, polar bears rely on sea ice to hunt seals for blubber-rich meals, but Svalbard bears have adapted by consuming more land-based prey such as reindeer and walruses. Walruses, protected since the 1950s, have increased in number, providing a new fatty food source. Additionally, seals congregate in smaller ice areas, making them easier targets. However, scientists caution that this positive trend may be temporary; as ice loss continues, bears will expend more energy traveling to hunting grounds, potentially depleting fat reserves. The findings, published in Scientific Reports, highlight how species can adapt to environmental changes, but also underscore the long-term threats of climate change to Arctic ecosystems.",
-      "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_733e491146bbfd50_f74a76e41184.webp",
       "category": "Science"
     }
   ]
