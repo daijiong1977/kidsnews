@@ -1,21 +1,48 @@
 {
   "articles": [
     {
-      "id": "62845d62ac14d55c",
-      "title": "Quantum Geometry: How Hidden Shapes Influence Electron Motion",
-      "summary": "Researchers from the University of Geneva, in collaboration with the University of Salerno and CNR-SPIN Institute, have made a breakthrough by identifying a geometric feature called the quantum metric in quantum materials. This feature alters electron movement in a way analogous to how gravity bends light, as described by Einstein's theory. The study focused on the interface between strontium titanate and lanthanum aluminate, where quantum behaviors are prominent. Using intense magnetic fields, the team detected distortions in electron trajectories caused by the quantum metric, proving its existence experimentally after years of theoretical speculation. The quantum metric describes the curvature of quantum space and affects material properties like optical and transport characteristics. This discovery suggests that the quantum metric is common in many materials, not rare, opening new avenues for advanced technologies. Potential applications include terahertz-frequency electronics, superconductivity, and enhanced light-matter interactions, which could revolutionize future electronic devices and energy efficiency.",
+      "id": "7a22cca1a3ad8246",
+      "title": "Robotic Teams Explore Lava Tubes for Lunar Base Preparation",
+      "summary": "Researchers are developing autonomous robotic systems to explore lava tubes on the Moon and Mars, which are considered ideal locations for future human bases due to their natural protection from radiation and meteorite impacts. A European consortium, including the Space Robotics Laboratory at the University of Malaga, has created a mission concept involving three types of robots that collaborate autonomously. The mission consists of four phases: mapping the area around a lava tube entrance, deploying a sensorized payload cube for initial measurements, sending a scout rover to rappel into the tube, and conducting in-depth exploration to produce detailed 3D maps. Field tests in volcanic caves in Lanzarote, Spain, in February 2023 demonstrated the feasibility of this approach, led by the German Research Center for Artificial Intelligence with contributions from the University of Malaga and GMV. The findings support the use of collaborative robots in planetary exploration, highlighting their potential for missions to the Moon and Mars. The Space Robotics Laboratory focuses on enhancing autonomy in space robotics through algorithms for route planning and independent operation, while also training students and partnering with institutions like the European Space Agency.",
       "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_62845d62ac14d55c_c06e29aab7b2.webp",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_7a22cca1a3ad8246_dab3f4ac1cac.webp",
       "category": "Science"
     },
     {
-      "id": "b4eaccadb354363b",
-      "title": "Harnessing Gut Bacteria for Anti-Aging Therapies",
-      "summary": "Researchers have developed a method to manipulate gut bacteria into producing compounds that extend lifespan, offering a novel approach to anti-aging drug development. Led by Meng Wang, the team focused on colanic acid, a substance naturally made by gut microbes that has been shown to increase longevity in roundworms and fruit flies. By administering low doses of the antibiotic cephaloridine, they stimulated gut bacteria to produce higher levels of colanic acid, which in turn improved health markers in mice, such as better cholesterol profiles and reduced insulin levels. A key advantage of cephaloridine is its lack of absorption into the bloodstream when taken orally, minimizing side effects by targeting only the gut microbiome. This study suggests a shift in medicine towards drugs that influence microbial communities to generate beneficial molecules, potentially leading to safer and more effective treatments for aging-related conditions.",
+      "id": "04709373d6108d98",
+      "title": "Flood Risk and Relocation: A Community's Struggle with Climate Change",
+      "summary": "Clydach Terrace in Ynysybwl, Rhondda Cynon Taf, faces severe flooding risks from the Nant Clydach stream, with events like Storms Dennis and Bert causing extensive damage to homes. Residents, such as Paige Didcote who works for the ambulance service, experience high anxiety due to frequent flood warnings, especially when they must leave pets or children unattended. Natural Resources Wales has deemed building a flood defense wall economically unviable, leading Rhondda Cynon Taf council to propose buying 16 homes for £2.57 million. This plan includes costs for relocation and legal fees, supported by climate change considerations that predict more frequent flooding. Some homes are excluded from the proposal because they are elevated and at lower risk. The council's report highlights difficulties in obtaining insurance and significant health dangers, emphasizing the need for a solution. Paige and other residents hope for a buyout as the best option to escape the constant threat, illustrating the broader challenges communities face in adapting to environmental changes.",
+      "source": "BBC Science",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_04709373d6108d98_dee2b2949145.webp",
+      "category": "Science"
+    },
+    {
+      "id": "3db389c08baf7dc9",
+      "title": "Advancing Quantum Computing with Optical Cavities",
+      "summary": "Researchers at Stanford University have developed a novel optical cavity design that could significantly accelerate the development of quantum computers. Quantum computers utilize qubits, which are quantum bits stored in atoms and can represent multiple states simultaneously, enabling them to perform calculations far more efficiently than classical computers. A major hurdle has been the slow and inefficient readout of information from these qubits, as atoms emit photons (light particles) too slowly and in all directions. The team's solution involves creating optical cavities—devices that trap light between reflective surfaces—equipped with microlenses to focus light onto individual atoms. This allows for efficient collection of photons, enabling simultaneous readout from all qubits. In their study published in Nature, they demonstrated this with a system of 40 cavities and a larger prototype with over 500, suggesting a scalable path toward networks with up to a million qubits. This advancement addresses the challenge of scaling quantum computers, potentially transforming fields like cryptography and drug discovery by solving complex problems in hours rather than millennia.",
       "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_b4eaccadb354363b_93b1c858e9bd.webp",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_3db389c08baf7dc9_af8ce59376c3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "61c1eb6b5eaa5030",
+      "title": "Protein Buildup in Brain Vessels Linked to Higher Dementia Risk",
+      "summary": "Cerebral amyloid angiopathy (CAA) is a brain disorder characterized by the accumulation of amyloid protein in cerebral blood vessels, weakening them and increasing the risk of dementia. A large-scale preliminary study involving over 1.9 million Medicare beneficiaries aged 65 and older found that individuals diagnosed with CAA were approximately four times more likely to develop dementia within five years, even in the absence of stroke. The research, to be presented at the American Stroke Association's International Stroke Conference in 2026, highlights that CAA elevates dementia risk more significantly than stroke alone. CAA can lead to hemorrhagic or ischemic strokes by damaging vessel walls, but it also contributes to cognitive decline through non-stroke mechanisms. The study tracked health transitions, showing similar dementia risks for those with CAA alone and CAA with stroke, emphasizing the need for proactive cognitive screening and risk factor management post-diagnosis to mitigate further decline.",
+      "source": "Science Daily",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_61c1eb6b5eaa5030_304ab570ce5e.webp",
+      "category": "Science"
+    },
+    {
+      "id": "61b4fcd9898cb8ef",
+      "title": "Juvenile Sauropods as Key Prey in Jurassic Ecosystems",
+      "summary": "A recent study led by researchers from University College London reveals that juvenile sauropods played a crucial role in sustaining predators during the Late Jurassic period, approximately 150 million years ago. Sauropods, such as Diplodocus and Brachiosaurus, were massive plant-eating dinosaurs, but their early life stages were small and vulnerable, lacking effective defenses. The research, published in the New Mexico Museum of Natural History and Science Bulletin, analyzed fossil evidence from the Morrison Formation in the United States, particularly the Dry Mesa Dinosaur Quarry in Colorado. By examining body size, tooth wear, isotope levels, and fossilized stomach contents, scientists reconstructed a detailed food web to map feeding relationships among plants, herbivores, and carnivores. The findings indicate that baby sauropods were a primary food source for predators like Allosaurus, as they were often left unprotected by their parents, similar to modern baby turtles. This study highlights how sauropods dominated the ecosystem by connecting to more plants and predators than other herbivores, such as ornithischians like Stegosaurus. Using software to analyze the food web, the research provides new insights into evolutionary pressures and allows comparisons of dinosaur ecosystems across different time periods, enhancing our understanding of dinosaur evolution and ecosystem dynamics.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_61b4fcd9898cb8ef_e844f3165de6.webp",
       "category": "Science"
     },
     {
@@ -23,35 +50,8 @@
       "title": "SpaceX's Plan for a Million Satellites to Fuel AI Growth",
       "summary": "SpaceX, led by Elon Musk, has submitted an application to launch up to one million satellites into Earth's orbit, aiming to create 'orbital data centers' that power artificial intelligence (AI). The company argues that this approach is more cost-effective and energy-efficient than traditional terrestrial data centers, which are large warehouses filled with computers. As AI usage expands, processing demands are surpassing ground-based capabilities, prompting this innovative solution. The satellites would be solar-powered and operate in low-Earth orbit, similar to the existing Starlink network of nearly 10,000 satellites that provides internet access. SpaceX claims this system could serve billions globally and represents a step toward a Kardashev II civilization, capable of harnessing the Sun's full energy. However, experts raise concerns about space congestion, increased risk of collisions, and interference with astronomical research due to radio waves from satellites. Musk disputes these issues, emphasizing the vastness of space. The application was filed with the US Federal Communications Commission, though no timeline is specified.",
       "source": "BBC Science",
-      "time_ago": "20 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_a3a3772ed48370f6_a7a11f1c18f3.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1abd2f659d6582c0",
-      "title": "Uncovering the Mechanism Behind Statin-Induced Muscle Pain",
-      "summary": "Statins are widely prescribed drugs that lower cholesterol and significantly reduce the risk of heart attacks and strokes, benefiting millions globally. However, a common side effect is muscle pain and weakness, which can range from mild soreness to severe muscle damage in rare cases. Researchers from the University of British Columbia and University of Wisconsin-Madison have identified the biological mechanism behind these issues. Using cryo-electron microscopy, an advanced imaging technique, they observed how statins interact with the ryanodine receptor (RyR1), a protein that regulates calcium flow in muscle cells. The study, published in Nature Communications, found that statins bind to RyR1 and force it into an open position, causing continuous calcium leakage. This calcium toxicity damages muscle tissue, explaining the pain and complications. Focusing on atorvastatin, a common statin, the researchers noted that three statin molecules cluster in the protein, with the first initiating opening and two others locking it open. This discovery provides a roadmap for developing safer statins by modifying the parts that cause harmful interactions, potentially reducing side effects and improving patient adherence to heart-protective treatments.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_1abd2f659d6582c0_da85bb9bd647.webp",
-      "category": "Science"
-    },
-    {
-      "id": "9fa78a1704c6e721",
-      "title": "Unveiling Jupiter's Atmospheric Mysteries Through Advanced Modeling",
-      "summary": "Jupiter's dense clouds have long obscured its interior, but a recent study by researchers at the University of Chicago and Jet Propulsion Laboratory has advanced our understanding. Using a detailed computer model, scientists created the most comprehensive simulation of Jupiter's atmosphere to date, allowing them to peer beneath the cloud layers without physical descent. A key finding indicates that Jupiter contains approximately one and a half times more oxygen than the sun, resolving debates about its composition and shedding light on planetary formation in the solar system. Jupiter's atmosphere features violent storms like the Great Red Spot, a persistent storm twice Earth's size, and is studied by missions such as NASA's Juno from orbit. Past studies, including data from the Galileo spacecraft, faced limitations due to the atmosphere's density. The new model integrates atmospheric chemistry and hydrodynamics to track chemical reactions and gas movements, providing insights into water and oxygen levels. This research demonstrates how computational techniques can transform planetary science by addressing long-standing questions about gas giants.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_9fa78a1704c6e721_ddb0c947d21f.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1924a2590abe37c3",
-      "title": "Archaeological Discoveries from HS2 Construction Reveal Britain's Past",
-      "summary": "During the construction of the HS2 high-speed railway in the UK, archaeologists have uncovered an unprecedented collection of 450,000 artifacts, offering new insights into British history. The finds, stored in a secret warehouse in Yorkshire for security, include significant items such as a possible Roman gladiator's tag, a hand axe potentially over 40,000 years old, and 19th-century gold dentures. This massive archaeological effort involved around 1,000 experts conducting 60 digs along the route from London to Birmingham since 2018, as part of mandatory assessments to protect heritage sites. While the fieldwork is largely complete, the future of the artifacts—whether they will remain in storage or be displayed—is still undecided. The project has sparked debate: organizations like Historic England praise the discoveries, but critics, including MP Greg Smith, argue that HS2's soaring costs, delays, and environmental damage outweigh its benefits. HS2's response acknowledges past issues but highlights the careful work of their archaeology team.",
-      "source": "BBC Science",
-      "time_ago": "2 days ago",
-      "image_url": "/article_images/article_1924a2590abe37c3_d3f15c00e07c.webp",
       "category": "Science"
     }
   ]

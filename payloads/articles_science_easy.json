@@ -1,21 +1,48 @@
 {
   "articles": [
     {
-      "id": "62845d62ac14d55c",
-      "title": "Hidden Shapes That Bend Electrons Like Gravity",
-      "summary": "Scientists have found a hidden shape inside special materials that changes how tiny particles called electrons move. This shape is like a curve or bend, similar to how gravity makes light curve in space. The discovery was made by researchers from universities in Geneva and Italy. They studied a material made of two parts, strontium titanate and lanthanum aluminate, where electrons behave in weird ways. By using strong magnets, they saw how the electrons' paths were twisted by this hidden shape. This finding helps us understand materials better and could lead to faster electronics and new technologies in the future. It shows that many materials might have this hidden shape, not just a few.",
+      "id": "7a22cca1a3ad8246",
+      "title": "Robots Explore Caves to Help Build Moon Homes",
+      "summary": "Scientists are using robots to explore lava tubes, which are like caves on the Moon and Mars. These caves can protect astronauts from dangerous radiation and meteorites. A team from Europe, including the University of Malaga, made three types of robots that work together to map these caves. They tested the robots in caves in Lanzarote, Spain. The robots go through four steps: first, they map the area near the cave entrance; second, they drop a cube with sensors inside to take measurements; third, a small rover goes down into the cave; and fourth, they explore and make 3D maps. This helps prepare for future missions to the Moon, where robots could build bases. The Space Robotics Laboratory at the University of Malaga teaches students and works with other groups to make robots smarter for space.",
       "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_62845d62ac14d55c_c06e29aab7b2.webp",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_7a22cca1a3ad8246_dab3f4ac1cac.webp",
       "category": "Science"
     },
     {
-      "id": "b4eaccadb354363b",
-      "title": "Turning Gut Bacteria into Anti-Aging Helpers",
-      "summary": "Scientists have found a cool way to make the tiny bacteria in animals' guts work like little factories to help them live longer. They used a special medicine called cephaloridine to tell the bacteria to make more of a helpful substance called colanic acid. This substance helps worms and flies live longer. When they tried it in mice, it made their bodies healthier by improving things like cholesterol and insulin. The medicine is safe because it stays in the gut and doesn't go into the blood, so it doesn't hurt the rest of the body. This discovery could lead to new medicines that help people live longer by working with gut bacteria instead of directly on the body.",
+      "id": "04709373d6108d98",
+      "title": "A Street in Danger: Homes Might Be Torn Down Due to Flooding",
+      "summary": "In a small town called Ynysybwl, there is a street named Clydach Terrace where people are very scared because it floods often. The water comes from a nearby stream called Nant Clydach. Big storms like Dennis and Bert have caused the street to go underwater, damaging many houses. The people living there, like Paige who works for the ambulance service, feel anxious and worried, especially when they have to leave their pets or children at home during flood warnings. The local council is thinking about buying 16 homes on this street to help the families move to safer places. They say this is because climate change is making floods happen more often. Building a big wall to stop the flooding is too expensive, so buying the homes might be the best solution. Some houses are not included because they are higher up and safer. This plan could give the residents a fresh start away from the danger of floods.",
+      "source": "BBC Science",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_04709373d6108d98_dee2b2949145.webp",
+      "category": "Science"
+    },
+    {
+      "id": "3db389c08baf7dc9",
+      "title": "A Tiny Light Trap for Super-Fast Computers",
+      "summary": "Scientists at Stanford University have made a big discovery to help build super-fast computers called quantum computers. These computers use tiny particles called atoms to store information as qubits, which are like special zeros and ones. The problem is that atoms don't send out light quickly or in one direction, making it hard to read the information. The team created a new tool called an optical cavity, which is like a tiny trap for light. It captures light from each atom and guides it so we can read all the qubits at once. They tested this with 40 cavities and a bigger one with over 500, showing it could lead to computers with a million qubits. This could make computers much faster, solving problems in hours instead of thousands of years.",
       "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_b4eaccadb354363b_93b1c858e9bd.webp",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_3db389c08baf7dc9_af8ce59376c3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "61c1eb6b5eaa5030",
+      "title": "A Silent Brain Problem Can Make Memory Loss More Likely",
+      "summary": "A brain disease called cerebral amyloid angiopathy (CAA) can make people four times more likely to get dementia, even if they never have a stroke. CAA happens when a protein called amyloid builds up in the blood vessels of the brain, making them weak. This can cause strokes or memory problems. A big study looked at over 1.9 million older adults and found that CAA increases dementia risk more than stroke alone. Doctors say it's important to check for memory changes in people with CAA to help prevent dementia. The study will be shared at a brain health conference in 2026.",
+      "source": "Science Daily",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_61c1eb6b5eaa5030_304ab570ce5e.webp",
+      "category": "Science"
+    },
+    {
+      "id": "61b4fcd9898cb8ef",
+      "title": "Baby Dinosaurs Were Important Food for Predators",
+      "summary": "A new study shows that baby sauropods, which were long-necked plant-eating dinosaurs, were very important for feeding meat-eating dinosaurs during the Late Jurassic period, about 150 million years ago. These baby dinosaurs were small and had no good defenses, so they were easy for predators like Allosaurus to catch. Fossils from a place called the Morrison Formation in the United States helped scientists learn this. The study used fossils to make a food web, which is like a map showing who eats whom. Even though adult sauropods were huge, their babies were tiny and not protected by their parents, similar to baby turtles today. This made them a key part of the food chain, helping predators survive. The research helps us understand how dinosaur ecosystems worked and why dinosaurs evolved in certain ways.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_61b4fcd9898cb8ef_e844f3165de6.webp",
       "category": "Science"
     },
     {
@@ -23,35 +50,8 @@
       "title": "SpaceX Wants to Send a Million Satellites to Space for AI",
       "summary": "SpaceX, a company owned by Elon Musk, has asked for permission to launch one million satellites into space around Earth. These satellites would help power artificial intelligence, or AI, which is like smart computer programs. Instead of building big computer centers on the ground, SpaceX wants to put them in space to save energy and money. The satellites would use solar power and be far apart in space, so they might not be easy to see. SpaceX already has about 10,000 satellites called Starlink that give internet to people. Some experts worry that too many satellites could cause problems like crashes or make it hard for astronomers to study stars. Musk says space is very big and there is enough room for all the satellites.",
       "source": "BBC Science",
-      "time_ago": "20 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_a3a3772ed48370f6_a7a11f1c18f3.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1abd2f659d6582c0",
-      "title": "How Statins Can Cause Muscle Pain",
-      "summary": "Statins are medicines that help lower cholesterol and prevent heart attacks and strokes for many people. But some patients get muscle pain or weakness from taking them. Scientists from the University of British Columbia and University of Wisconsin-Madison have found out why this happens. They used a special microscope to see how statins interact with a protein in muscle cells called the ryanodine receptor. This protein controls calcium flow in muscles. When statins bind to it, they make the protein stay open, causing calcium to leak out. This leak can damage muscle tissue and lead to pain. The study was published in Nature Communications and could help make safer statins in the future.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_1abd2f659d6582c0_da85bb9bd647.webp",
-      "category": "Science"
-    },
-    {
-      "id": "9fa78a1704c6e721",
-      "title": "Jupiter's Hidden Secrets in Its Clouds",
-      "summary": "Jupiter is a giant planet with thick clouds that cover its surface, making it hard to see what's underneath. Scientists have used a new computer model to learn more about Jupiter without going there. They found that Jupiter has more oxygen than the sun, which helps us understand how planets form. Jupiter has big storms like the Great Red Spot, which is twice the size of Earth and has been around for hundreds of years. Spacecraft like Galileo and Juno help study Jupiter from space, but the clouds are so dense that it's tricky to explore inside. This research uses chemistry and movement of gases to solve mysteries about Jupiter's atmosphere.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_9fa78a1704c6e721_ddb0c947d21f.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1924a2590abe37c3",
-      "title": "Hidden Treasures Found While Building a Train",
-      "summary": "Archaeologists found many old treasures while building a new train line called HS2 in the UK. They discovered 450,000 objects, including a Roman gladiator's tag, a very old hand axe, and gold dentures from the 1800s. These items are stored in a secret warehouse in Yorkshire for safety. The archaeologists worked hard to dig up these things to learn about Britain's past. Some people are happy about the finds, but others think the train line costs too much money and hurts the environment. The future of the treasures is still being decided.",
-      "source": "BBC Science",
-      "time_ago": "2 days ago",
-      "image_url": "/article_images/article_1924a2590abe37c3_d3f15c00e07c.webp",
       "category": "Science"
     }
   ]
