@@ -1,0 +1,121 @@
+{
+  "title": "A Record-Breaking Gravitational Wave Tests Einstein's Theory of Gravity",
+  "summary": "Scientists have detected GW250114, the clearest gravitational wave signal ever recorded from merging black holes. This event provides a precise tool for testing Albert Einstein's theory of general relativity. The signal was observed by the LIGO, Virgo, and KAGRA collaborations on January 14, 2025, and announced in September 2025. Improved detector accuracy over the past decade made this signal much clearer than earlier ones like GW150914. According to physicist Keefe Mitman and colleagues, GW250114 behaves exactly as predicted by general relativity. When black holes merge, the resulting object vibrates like a struck bell, producing tones with oscillation frequencies and damping times. Measuring these tones allows scientists to calculate the mass and spin of the black hole and verify general relativity. In this case, two tones were measured, and they matched Einstein's theory. However, scientists suspect future signals might deviate, offering clues to unresolved mysteries like dark energy, dark matter, and quantum gravity. The study, published in Physical Review Letters, aims to explore potential cracks in Einstein's theory and advance our understanding of fundamental physics.",
+  "keywords": [
+    {
+      "term": "gravitational wave",
+      "explanation": "a ripple in space-time caused by massive events like black hole mergers"
+    },
+    {
+      "term": "general relativity",
+      "explanation": "Einstein's theory describing gravity as the curvature of space-time"
+    },
+    {
+      "term": "LIGO-VIRGO-KAGRA",
+      "explanation": "a global collaboration using interferometers to detect gravitational waves"
+    },
+    {
+      "term": "black hole spectroscopy",
+      "explanation": "analyzing vibrations from merging black holes to study their properties"
+    },
+    {
+      "term": "quantum gravity",
+      "explanation": "a theoretical framework aiming to reconcile general relativity with quantum mechanics"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What makes GW250114 significant for testing general relativity?",
+      "options": [
+        "It is the clearest signal from merging black holes",
+        "It was the first gravitational wave detected",
+        "It disproves Einstein's theory",
+        "It comes from a star explosion"
+      ],
+      "correct_answer": "It is the clearest signal from merging black holes"
+    },
+    {
+      "question": "Which collaborations detected GW250114?",
+      "options": [
+        "LIGO, Virgo, and KAGRA",
+        "NASA and ESA only",
+        "Hubble Telescope team",
+        "Radio astronomers"
+      ],
+      "correct_answer": "LIGO, Virgo, and KAGRA"
+    },
+    {
+      "question": "How do merging black holes help test general relativity?",
+      "options": [
+        "By vibrating and producing tones that can be measured",
+        "By emitting light signals",
+        "By changing color",
+        "By moving faster"
+      ],
+      "correct_answer": "By vibrating and producing tones that can be measured"
+    },
+    {
+      "question": "What did the measurements of GW250114 show about Einstein's theory?",
+      "options": [
+        "They matched the predictions of general relativity",
+        "They proved it wrong",
+        "They were inconclusive",
+        "They suggested a new theory"
+      ],
+      "correct_answer": "They matched the predictions of general relativity"
+    },
+    {
+      "question": "Why do scientists think future gravitational waves might deviate from general relativity?",
+      "options": [
+        "To explore mysteries like dark energy and quantum gravity",
+        "Because detectors will fail",
+        "Due to errors in data",
+        "Because black holes are disappearing"
+      ],
+      "correct_answer": "To explore mysteries like dark energy and quantum gravity"
+    },
+    {
+      "question": "What is black hole spectroscopy?",
+      "options": [
+        "Analyzing vibrations from mergers to study black hole properties",
+        "Using light to image black holes",
+        "Measuring black hole temperatures",
+        "Counting black holes in space"
+      ],
+      "correct_answer": "Analyzing vibrations from mergers to study black hole properties"
+    },
+    {
+      "question": "When was GW250114 detected and announced?",
+      "options": [
+        "Detected in January 2025, announced in September 2025",
+        "Detected in 2015, announced in 2016",
+        "Detected in 2020, announced in 2021",
+        "Detected in 2024, announced in 2025"
+      ],
+      "correct_answer": "Detected in January 2025, announced in September 2025"
+    },
+    {
+      "question": "What role did improved detectors play in this study?",
+      "options": [
+        "They made the signal clearer for accurate analysis",
+        "They discovered new black holes",
+        "They replaced older theories",
+        "They measured dark matter directly"
+      ],
+      "correct_answer": "They made the signal clearer for accurate analysis"
+    }
+  ],
+  "background_read": [
+    "Gravitational waves are ripples in space-time predicted by Einstein's general relativity, first directly detected in 2015. They are produced by cataclysmic events such as black hole or neutron star mergers. LIGO, Virgo, and KAGRA are ground-based interferometers that detect these waves by measuring tiny changes in distance. General relativity explains gravity well on large scales but conflicts with quantum mechanics on small scales, leading to unsolved problems like dark energy and dark matter. Black hole mergers provide a natural laboratory to test gravity theories, as their vibrations reveal properties like mass and spin. This research aims to push the boundaries of physics by seeking deviations that might indicate new laws of nature."
+  ],
+  "Article_Structure": [
+    "Main Points: GW250114 is a clear gravitational wave from black hole mergers used to test general relativity, showing agreement with Einstein's predictions but highlighting potential future deviations. Purpose: To advance fundamental physics by verifying general relativity and exploring cracks that could lead to new theories of gravity. Evidence Evaluation: High-quality signal from advanced detectors allows precise measurements of black hole vibrations, supporting reliable conclusions. Author Credibility: Study by physicist Keefe Mitman and global collaborations like LIGO-VIRGO-KAGRA, published in a peer-reviewed journal, ensures expertise. Methodology: Using interferometer data to analyze gravitational wave tones and compare with theoretical models."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Validation of General Relativity",
+      "description": "The signal confirms Einstein's theory for this event, reinforcing its accuracy in describing black hole dynamics."
+    }
+  ],
+  "image_url": "/article_images/article_56a1ac48b559ded3_40301a74f26f.webp"
+}

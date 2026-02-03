@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "7a22cca1a3ad8246",
-      "title": "Robotic Teams Explore Lava Tubes for Lunar Base Preparation",
-      "summary": "Researchers are developing autonomous robotic systems to explore lava tubes on the Moon and Mars, which are considered ideal locations for future human bases due to their natural protection from radiation and meteorite impacts. A European consortium, including the Space Robotics Laboratory at the University of Malaga, has created a mission concept involving three types of robots that collaborate autonomously. The mission consists of four phases: mapping the area around a lava tube entrance, deploying a sensorized payload cube for initial measurements, sending a scout rover to rappel into the tube, and conducting in-depth exploration to produce detailed 3D maps. Field tests in volcanic caves in Lanzarote, Spain, in February 2023 demonstrated the feasibility of this approach, led by the German Research Center for Artificial Intelligence with contributions from the University of Malaga and GMV. The findings support the use of collaborative robots in planetary exploration, highlighting their potential for missions to the Moon and Mars. The Space Robotics Laboratory focuses on enhancing autonomy in space robotics through algorithms for route planning and independent operation, while also training students and partnering with institutions like the European Space Agency.",
+      "id": "517e1a9c41610f2a",
+      "title": "Innovative Manganese Catalyst Converts CO2 to Clean Fuel",
+      "summary": "Researchers from Yale University and the University of Missouri have developed a new catalyst using manganese that efficiently converts carbon dioxide into formate, a promising material for hydrogen storage in fuel cells. Manganese is abundant and low-cost, offering an attractive alternative to expensive and scarce precious metals typically used in catalysts. The study, published in the journal Chem, was led by postdoctoral researcher Justin Wedal and graduate research assistant Kyler Virtue, with senior authors including professors Nilay Hazari and Wesley Bernskoetter. The research addresses key challenges in clean energy, as hydrogen fuel cells provide electricity without pollution but face limitations in hydrogen production and storage. Currently, most formate production relies on fossil fuels, but this new method uses carbon dioxide from the air, potentially reducing greenhouse gas emissions while creating a useful chemical product. The team improved the catalyst's stability by redesigning its ligand structure, adding an extra donor atom to enhance performance and longevity. This breakthrough could advance sustainable chemistry by enabling more efficient carbon dioxide utilization and supporting the transition to renewable energy sources.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_517e1a9c41610f2a_0cea2e502447.webp",
+      "category": "Science"
+    },
+    {
+      "id": "bbf5c899573e5f09",
+      "title": "Unveiling the Cosmic Blueprint: How Dark Matter Shapes Our Universe",
+      "summary": "Astronomers have created the most detailed map ever of dark matter, an invisible substance that permeates the Universe, using data from NASA's James Webb Space Telescope. This research, led by institutions including Durham University, NASA's Jet Propulsion Laboratory, and EPFL in Switzerland, reveals how dark matter's gravitational influence guided the formation of cosmic structures. The map confirms that dark matter clumped together first after the Big Bang, pulling in normal matter—the visible stuff like stars and planets—to create dense regions where galaxies could form. This process set the distribution pattern of galaxies we observe today and enabled the early formation of stars and planets, potentially fostering conditions for life. Dark matter is detected indirectly through its gravity, as it does not interact with light, and the new map shows a strong alignment between dark matter and normal matter, indicating its role as a cosmic architect. Published in Nature Astronomy, the study provides insights into the fundamental forces that shaped the Universe, highlighting dark matter's essential but unseen contribution to the cosmos we inhabit.",
       "source": "Science Daily",
       "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_7a22cca1a3ad8246_dab3f4ac1cac.webp",
+      "image_url": "/article_images/article_bbf5c899573e5f09_f39017b7d185.webp",
       "category": "Science"
     },
     {
-      "id": "04709373d6108d98",
-      "title": "Flood Risk and Relocation: A Community's Struggle with Climate Change",
-      "summary": "Clydach Terrace in Ynysybwl, Rhondda Cynon Taf, faces severe flooding risks from the Nant Clydach stream, with events like Storms Dennis and Bert causing extensive damage to homes. Residents, such as Paige Didcote who works for the ambulance service, experience high anxiety due to frequent flood warnings, especially when they must leave pets or children unattended. Natural Resources Wales has deemed building a flood defense wall economically unviable, leading Rhondda Cynon Taf council to propose buying 16 homes for £2.57 million. This plan includes costs for relocation and legal fees, supported by climate change considerations that predict more frequent flooding. Some homes are excluded from the proposal because they are elevated and at lower risk. The council's report highlights difficulties in obtaining insurance and significant health dangers, emphasizing the need for a solution. Paige and other residents hope for a buyout as the best option to escape the constant threat, illustrating the broader challenges communities face in adapting to environmental changes.",
-      "source": "BBC Science",
+      "id": "45a386d2ea3102f3",
+      "title": "NASA Postpones Artemis II Lunar Mission Over Persistent Hydrogen Leak Issues",
+      "summary": "NASA has postponed the Artemis II mission to March after a Wet Dress Rehearsal revealed hydrogen leaks in the Space Launch System (SLS) rocket at Kennedy Space Center. This mission, the first crewed lunar flight since 1972, aims to send four astronauts—commander Reid Wiseman, pilot Victor Glover, mission specialist Christina Koch, and Canadian astronaut Jeremy Hansen—on a loop around the Moon's far side. The test, conducted on Monday, identified leaks in the Tail Service Mast Umbilicals (TSMUs), which connect the rocket to ground fuel lines, similar to issues that delayed the Artemis I launch in 2022. Hydrogen, stored at minus 423°F, is challenging to handle due to its small molecules that can escape through tiny seals, exceeding safety limits during the rehearsal. NASA engineers attempted fixes by adjusting fuel flow and warming seals, but the leaks persisted, prompting a delay to review data and conduct another test. The astronauts, in quarantine since January 21, have been released to Houston to await a new launch date, with the first opportunity on March 6. This delay highlights the technical difficulties in managing cryogenic fuels for space exploration.",
+      "source": "Ars Science",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_45a386d2ea3102f3_aeecc97c9485.webp",
+      "category": "Science"
+    },
+    {
+      "id": "d5802bbc91ced099",
+      "title": "Brain Study Reveals Overlap in Memory Systems",
+      "summary": "A recent study challenges traditional views on memory by showing that episodic and semantic memory retrieval may involve overlapping brain regions rather than distinct neural pathways. Conducted by researchers from the University of Nottingham and University of Cambridge, the study used fMRI scans to monitor brain activity in 40 participants during memory tasks. Participants were asked to recall information about logos and brand names, with some tasks based on prior knowledge (semantic memory) and others on learned pairings from an earlier phase (episodic memory). Surprisingly, the fMRI data revealed no significant differences in brain activation between these two types of memory retrieval, suggesting that the brain uses similar areas for both. This finding could redefine how memory is studied and has implications for understanding memory-related illnesses like dementia and Alzheimer's, as it indicates that the entire brain may be involved in memory processes. The research, led by Dr. Roni Tibon, was published in Nature Human Behaviour and highlights the need to reconsider long-held assumptions in neuroscience.",
+      "source": "Science Daily",
       "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_04709373d6108d98_dee2b2949145.webp",
+      "image_url": "/article_images/article_d5802bbc91ced099_4afd64a8088c.webp",
       "category": "Science"
     },
     {
-      "id": "3db389c08baf7dc9",
-      "title": "Advancing Quantum Computing with Optical Cavities",
-      "summary": "Researchers at Stanford University have developed a novel optical cavity design that could significantly accelerate the development of quantum computers. Quantum computers utilize qubits, which are quantum bits stored in atoms and can represent multiple states simultaneously, enabling them to perform calculations far more efficiently than classical computers. A major hurdle has been the slow and inefficient readout of information from these qubits, as atoms emit photons (light particles) too slowly and in all directions. The team's solution involves creating optical cavities—devices that trap light between reflective surfaces—equipped with microlenses to focus light onto individual atoms. This allows for efficient collection of photons, enabling simultaneous readout from all qubits. In their study published in Nature, they demonstrated this with a system of 40 cavities and a larger prototype with over 500, suggesting a scalable path toward networks with up to a million qubits. This advancement addresses the challenge of scaling quantum computers, potentially transforming fields like cryptography and drug discovery by solving complex problems in hours rather than millennia.",
+      "id": "a5f155dc5a396d4c",
+      "title": "Microplastic Contamination in Remote Pacific Fish: A Study on Pollution and Food Security",
+      "summary": "A recent scientific study published in 2026 reveals that microplastic pollution has infiltrated even the most isolated coastal waters of the Pacific Ocean. Researchers analyzed data on 878 fish from 138 species across Fiji, Tonga, Tuvalu, and Vanuatu, finding that approximately one-third contained microplastics. Fiji exhibited the highest contamination rate at nearly 75%, significantly above the global average of 49%, while Vanuatu had only about 5%. The study linked higher microplastic levels to ecological traits: fish associated with reefs, those living near the seafloor, and species feeding on invertebrates or using ambush strategies were more contaminated. This poses a serious concern for Pacific Island Countries and Territories (PICTs), where communities heavily depend on fish for food, income, and cultural practices. The researchers suggest that Fiji's elevated levels may result from greater population density, coastal development, and inadequate waste management. They emphasize the need for improved policies to address plastic pollution and protect food security in these vulnerable regions.",
       "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_3db389c08baf7dc9_af8ce59376c3.webp",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_a5f155dc5a396d4c_b4c3e2dcfe2c.webp",
       "category": "Science"
     },
     {
-      "id": "61c1eb6b5eaa5030",
-      "title": "Protein Buildup in Brain Vessels Linked to Higher Dementia Risk",
-      "summary": "Cerebral amyloid angiopathy (CAA) is a brain disorder characterized by the accumulation of amyloid protein in cerebral blood vessels, weakening them and increasing the risk of dementia. A large-scale preliminary study involving over 1.9 million Medicare beneficiaries aged 65 and older found that individuals diagnosed with CAA were approximately four times more likely to develop dementia within five years, even in the absence of stroke. The research, to be presented at the American Stroke Association's International Stroke Conference in 2026, highlights that CAA elevates dementia risk more significantly than stroke alone. CAA can lead to hemorrhagic or ischemic strokes by damaging vessel walls, but it also contributes to cognitive decline through non-stroke mechanisms. The study tracked health transitions, showing similar dementia risks for those with CAA alone and CAA with stroke, emphasizing the need for proactive cognitive screening and risk factor management post-diagnosis to mitigate further decline.",
-      "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_61c1eb6b5eaa5030_304ab570ce5e.webp",
-      "category": "Science"
-    },
-    {
-      "id": "61b4fcd9898cb8ef",
-      "title": "Juvenile Sauropods as Key Prey in Jurassic Ecosystems",
-      "summary": "A recent study led by researchers from University College London reveals that juvenile sauropods played a crucial role in sustaining predators during the Late Jurassic period, approximately 150 million years ago. Sauropods, such as Diplodocus and Brachiosaurus, were massive plant-eating dinosaurs, but their early life stages were small and vulnerable, lacking effective defenses. The research, published in the New Mexico Museum of Natural History and Science Bulletin, analyzed fossil evidence from the Morrison Formation in the United States, particularly the Dry Mesa Dinosaur Quarry in Colorado. By examining body size, tooth wear, isotope levels, and fossilized stomach contents, scientists reconstructed a detailed food web to map feeding relationships among plants, herbivores, and carnivores. The findings indicate that baby sauropods were a primary food source for predators like Allosaurus, as they were often left unprotected by their parents, similar to modern baby turtles. This study highlights how sauropods dominated the ecosystem by connecting to more plants and predators than other herbivores, such as ornithischians like Stegosaurus. Using software to analyze the food web, the research provides new insights into evolutionary pressures and allows comparisons of dinosaur ecosystems across different time periods, enhancing our understanding of dinosaur evolution and ecosystem dynamics.",
-      "source": "Science Daily",
-      "time_ago": "9 hours ago",
-      "image_url": "/article_images/article_61b4fcd9898cb8ef_e844f3165de6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a3a3772ed48370f6",
-      "title": "SpaceX's Plan for a Million Satellites to Fuel AI Growth",
-      "summary": "SpaceX, led by Elon Musk, has submitted an application to launch up to one million satellites into Earth's orbit, aiming to create 'orbital data centers' that power artificial intelligence (AI). The company argues that this approach is more cost-effective and energy-efficient than traditional terrestrial data centers, which are large warehouses filled with computers. As AI usage expands, processing demands are surpassing ground-based capabilities, prompting this innovative solution. The satellites would be solar-powered and operate in low-Earth orbit, similar to the existing Starlink network of nearly 10,000 satellites that provides internet access. SpaceX claims this system could serve billions globally and represents a step toward a Kardashev II civilization, capable of harnessing the Sun's full energy. However, experts raise concerns about space congestion, increased risk of collisions, and interference with astronomical research due to radio waves from satellites. Musk disputes these issues, emphasizing the vastness of space. The application was filed with the US Federal Communications Commission, though no timeline is specified.",
-      "source": "BBC Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_a3a3772ed48370f6_a7a11f1c18f3.webp",
+      "id": "70630678f8b1d805",
+      "title": "Courts Overrule Government to Resume Offshore Wind Projects",
+      "summary": "In the United States, the Trump administration opposed renewable energy, especially wind power, and issued an executive order to block permits for offshore wind projects. This order was later overturned by a court as arbitrary. Recently, the administration targeted five ongoing offshore wind projects by claiming a classified national security risk to halt turbine installation. In response, the companies sued, and as of Monday, all five cases resulted in temporary injunctions from different courts, allowing construction to continue. Judges found the government's justification unconvincing, noting inconsistencies like allowing operational turbines while blocking new ones. The injunctions prevent substantial harm to the companies, and with projects near completion, they may finish before any government appeal. This highlights legal challenges to executive actions favoring fossil fuels over clean energy.",
+      "source": "Ars Science",
+      "time_ago": "16 hours ago",
+      "image_url": "/article_images/article_70630678f8b1d805_c97f4a45d517.webp",
       "category": "Science"
     }
   ]
