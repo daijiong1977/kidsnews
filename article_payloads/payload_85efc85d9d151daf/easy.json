@@ -1,0 +1,104 @@
+{
+  "title": "A Cool New Surface That Controls Light in Two Ways",
+  "summary": "Scientists have made a special flat surface that can control light in two different ways at the same time. Light can spin in two directions, like a top spinning left or right. Usually, when light of different colors passes through materials, it gets mixed up, causing problems like blurry images. This new surface, called a metasurface, is made of tiny structures that are smaller than a grain of sand. It uses two special tricks: one trick helps separate the light spins, and the other trick helps control the light's path without mixing them up. This allows the surface to steer or focus light for both spins independently, which is useful for making better cameras and sensors. The scientists tested it with microwaves and terahertz waves, showing it works in different parts of the light spectrum. This invention could lead to smaller and smarter optical devices in the future.",
+  "keywords": [
+    {
+      "term": "light",
+      "explanation": "a form of energy that we can see, like from the sun or a lamp"
+    },
+    {
+      "term": "spin",
+      "explanation": "how light twists or turns, like a top spinning left or right"
+    },
+    {
+      "term": "metasurface",
+      "explanation": "a flat surface with tiny structures that can bend or control light"
+    },
+    {
+      "term": "dispersion",
+      "explanation": "when light of different colors spreads out and causes blurry images"
+    },
+    {
+      "term": "achromatic",
+      "explanation": "something that works for all colors of light without mixing them up"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the new surface control?",
+      "options": [
+        "Light",
+        "Sound",
+        "Heat",
+        "Water"
+      ],
+      "correct_answer": "Light"
+    },
+    {
+      "question": "How many ways can the surface control light?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct_answer": "Two"
+    },
+    {
+      "question": "What are the two spins of light called?",
+      "options": [
+        "Left and right",
+        "Up and down",
+        "Fast and slow",
+        "Big and small"
+      ],
+      "correct_answer": "Left and right"
+    },
+    {
+      "question": "What problem does the surface help solve with light?",
+      "options": [
+        "Blurry images",
+        "Too much noise",
+        "Not enough light",
+        "Too hot"
+      ],
+      "correct_answer": "Blurry images"
+    },
+    {
+      "question": "What did scientists test the surface with?",
+      "options": [
+        "Microwaves and terahertz waves",
+        "Radio waves only",
+        "Visible light only",
+        "X-rays"
+      ],
+      "correct_answer": "Microwaves and terahertz waves"
+    },
+    {
+      "question": "Why is this surface useful?",
+      "options": [
+        "For better cameras and sensors",
+        "For cooking food",
+        "For making music",
+        "For building houses"
+      ],
+      "correct_answer": "For better cameras and sensors"
+    }
+  ],
+  "background_read": [
+    "Light is all around us and helps us see things. Sometimes, when light passes through lenses or materials, different colors can get mixed up, making images look blurry. Scientists are always trying to find new ways to control light better, like in cameras or glasses. This article talks about a new invention that uses tiny structures on a flat surface to handle light in two different spinning directions without mixing them up, which could make optical devices work better and be smaller."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists led by Professor Yijun Feng and Professor Ke Chen at Nanjing University",
+    "WHAT: Made a special flat surface that controls light in two different ways for both spins independently",
+    "WHERE: At Nanjing University, and tested in labs",
+    "WHY: To solve problems like blurry images and make better optical devices like cameras and sensors"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific innovation",
+      "description": "This shows how new ideas in science can lead to better technology for everyday use."
+    }
+  ],
+  "image_url": "/article_images/article_85efc85d9d151daf_9b23264fa663.webp"
+}
