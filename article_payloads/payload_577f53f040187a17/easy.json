@@ -1,0 +1,108 @@
+{
+  "title": "A New 3D Color Scan for Seeing Inside Our Bodies",
+  "summary": "Scientists have made a new machine that takes pictures inside the human body in 3D color. It shows both the shape of soft tissues and how blood vessels are working. This can help doctors find breast cancer better, check nerve damage from diabetes, and study the brain. The machine combines two old ways of taking pictures: ultrasound and photoacoustic imaging. Ultrasound uses sound waves to see tissue shape, but it's not very detailed. Photoacoustic imaging uses laser light to see blood vessels in color, but it doesn't show tissue well. By putting them together, the new machine is simpler and cheaper. It has been tested on people and could be used in hospitals soon to help patients.",
+  "keywords": [
+    {
+      "term": "3D color",
+      "explanation": "pictures that show depth and different colors like red and blue"
+    },
+    {
+      "term": "soft tissues",
+      "explanation": "parts inside the body like muscles and organs that are not hard like bones"
+    },
+    {
+      "term": "blood vessels",
+      "explanation": "tubes that carry blood, like arteries and veins"
+    },
+    {
+      "term": "ultrasound",
+      "explanation": "a way to take pictures using sound waves"
+    },
+    {
+      "term": "photoacoustic imaging",
+      "explanation": "a way to take pictures using laser light and sound waves"
+    },
+    {
+      "term": "breast cancer",
+      "explanation": "a sickness where bad cells grow in the breast"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the new machine show inside the body?",
+      "options": [
+        "Only tissue shape",
+        "Only blood vessels",
+        "Both tissue shape and blood vessels in 3D color",
+        "Only bones"
+      ],
+      "correct_answer": "Both tissue shape and blood vessels in 3D color"
+    },
+    {
+      "question": "Who made this new machine?",
+      "options": [
+        "Doctors at a hospital",
+        "Scientists at Caltech and USC",
+        "Teachers at a school",
+        "Engineers in a factory"
+      ],
+      "correct_answer": "Scientists at Caltech and USC"
+    },
+    {
+      "question": "What two old ways of taking pictures are combined?",
+      "options": [
+        "X-ray and MRI",
+        "Ultrasound and photoacoustic imaging",
+        "CT scan and ultrasound",
+        "Photoacoustic imaging and MRI"
+      ],
+      "correct_answer": "Ultrasound and photoacoustic imaging"
+    },
+    {
+      "question": "What can the new machine help with?",
+      "options": [
+        "Fixing broken bones",
+        "Finding breast cancer and checking nerve damage",
+        "Making food taste better",
+        "Cleaning teeth"
+      ],
+      "correct_answer": "Finding breast cancer and checking nerve damage"
+    },
+    {
+      "question": "Why is the new machine better than old ones?",
+      "options": [
+        "It is more expensive",
+        "It is simpler and cheaper",
+        "It uses more radiation",
+        "It takes longer to use"
+      ],
+      "correct_answer": "It is simpler and cheaper"
+    },
+    {
+      "question": "Has the new machine been tested on people?",
+      "options": [
+        "No, only on animals",
+        "Yes, it has been used on humans",
+        "No, it is just an idea",
+        "Yes, but only on children"
+      ],
+      "correct_answer": "Yes, it has been used on humans"
+    }
+  ],
+  "background_read": [
+    "Medical imaging helps doctors see inside the body without surgery. Common methods include ultrasound, which uses sound waves to create pictures, and photoacoustic imaging, which uses light and sound to show blood flow. The new machine combines these to give better 3D color images, making it easier to diagnose diseases like cancer and monitor health conditions."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at Caltech and USC",
+    "WHAT: Created a new 3D color imaging machine for the human body",
+    "WHERE: Developed in research labs, tested on humans",
+    "WHY: To improve medical imaging for diseases like breast cancer and diabetes"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Medical benefit",
+      "description": "The machine helps doctors see inside the body better to treat patients."
+    }
+  ],
+  "image_url": "/article_images/article_577f53f040187a17_4622425b03de.webp"
+}
