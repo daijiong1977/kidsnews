@@ -1,0 +1,108 @@
+{
+  "title": "My Car Was Stolen: What I Learned",
+  "summary": "A person had their car stolen from outside their home. They learned that car thieves use clever tricks to steal cars without keys. One trick is called a relay attack, where thieves use equipment to copy the signal from a key fob inside the house and send it to the car to start it. Another trick is a CAN bus attack, where thieves plug a device into the car's wiring to trick it into starting. The police helped track the car a little, but it was hard to find. The person had to deal with insurance and buy a new car. They found out that many cars are stolen this way each year, and thieves use gadgets sold online. This shows how car crime is changing with new technology.",
+  "keywords": [
+    {
+      "term": "car stolen",
+      "explanation": "when someone takes your car without permission"
+    },
+    {
+      "term": "relay attack",
+      "explanation": "a trick where thieves copy a key signal to steal a car"
+    },
+    {
+      "term": "key fob",
+      "explanation": "a small device that unlocks and starts a car"
+    },
+    {
+      "term": "CAN bus attack",
+      "explanation": "a trick where thieves plug into a car's wires to start it"
+    },
+    {
+      "term": "police",
+      "explanation": "officers who help solve crimes"
+    },
+    {
+      "term": "insurance",
+      "explanation": "a service that helps pay for things like stolen cars"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What happened to the person's car?",
+      "options": [
+        "It was stolen",
+        "It broke down",
+        "It was parked wrong",
+        "It was sold"
+      ],
+      "correct_answer": "It was stolen"
+    },
+    {
+      "question": "What is a relay attack?",
+      "options": [
+        "A trick to copy a key signal",
+        "A way to fix a car",
+        "A type of car race",
+        "A police method"
+      ],
+      "correct_answer": "A trick to copy a key signal"
+    },
+    {
+      "question": "Where do thieves usually stand during a relay attack?",
+      "options": [
+        "Near the house",
+        "In the car",
+        "At a police station",
+        "In a store"
+      ],
+      "correct_answer": "Near the house"
+    },
+    {
+      "question": "What is a key fob?",
+      "options": [
+        "A device to unlock a car",
+        "A type of keychain",
+        "A car part",
+        "A police tool"
+      ],
+      "correct_answer": "A device to unlock a car"
+    },
+    {
+      "question": "What did the person have to do after the car was stolen?",
+      "options": [
+        "File insurance and buy a new car",
+        "Forget about it",
+        "Sell the car",
+        "Call a friend"
+      ],
+      "correct_answer": "File insurance and buy a new car"
+    },
+    {
+      "question": "How do thieves get gadgets for car theft?",
+      "options": [
+        "Sold online",
+        "From car shops",
+        "From police",
+        "They make them at home"
+      ],
+      "correct_answer": "Sold online"
+    }
+  ],
+  "background_read": [
+    "Car theft is when someone takes a car without asking. Many cars today have special keys that should make them hard to steal, but thieves find new ways. They use technology like gadgets to copy signals or trick the car's computer. This happens in many places, and police try to stop it. People need to be careful with their keys and report thefts quickly."
+  ],
+  "Article_Structure": [
+    "WHO: A person whose car was stolen",
+    "WHAT: The car was taken using relay and CAN bus attacks",
+    "WHERE: Near the person's home and in Glasgow",
+    "WHY: To show how car thieves use new technology to steal cars"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Victim's view",
+      "description": "The person shares their personal experience and lessons learned from having their car stolen."
+    }
+  ],
+  "image_url": "/article_images/article_c3d5833d9c7dd830_8eabab5d618e.webp"
+}

@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "581c47651ecac69a",
+      "title": "Gut Compound Shields Liver from Disease in Offspring",
+      "summary": "Researchers discovered that indole, a compound produced by beneficial gut bacteria, can reduce the risk of fatty liver disease in offspring when given to mothers during pregnancy and breastfeeding. The study involved mice fed a high-fat, high-sugar diet, with some receiving indole. Offspring from indole-treated mothers showed healthier livers, lower weight gain, better blood sugar control, and smaller fat cells, even when exposed to unhealthy diets later. This protective effect was linked to activation of the acyl hydrocarbon receptor (AHR) pathway and changes in ceramide levels. The research highlights how maternal diet shapes the infant's microbiome, influencing long-term health outcomes. Fatty liver disease, known as MASLD, affects about 30% of children with obesity and 10% without, often progressing silently. While conducted in animals, the findings suggest potential strategies for preventing childhood MASLD by targeting gut health early, as current treatments are limited to weight loss with no approved drugs. The study underscores the importance of the microbiome in metabolic health and offers hope for interventions that could benefit human populations.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_581c47651ecac69a_eb0bf4ec1ab0.webp",
+      "category": "Science"
+    },
+    {
+      "id": "fe4914e8b72b016b",
+      "title": "The Hidden Role of Calcifying Plankton in Climate Models",
+      "summary": "A recent review published in Science highlights that calcifying plankton, microscopic organisms such as coccolithophores, foraminifers, and pteropods, are inadequately represented in climate models used to forecast Earth's future. These plankton form calcium carbonate shells, playing a crucial role in the ocean carbon pump by capturing atmospheric carbon and transporting it to deeper ocean layers, thus regulating global temperatures. The study, led by researchers from ICTA-UAB in Spain, warns that omitting these organisms leads to incomplete predictions of ocean responses to climate change. It identifies key processes like shallow dissolution, where calcium carbonate dissolves in upper ocean waters due to biological activities, which is often missing from models like CMIP6. Additionally, different plankton groups face varied climate threats: coccolithophores are vulnerable to ocean acidification, while foraminifers and pteropods risk oxygen depletion and warming. The authors urge for enhanced measurements of calcium carbonate production and dissolution to refine models, arguing this will improve understanding of carbon storage, sediment records, and ecosystem impacts, ultimately offering sharper climate predictions for societal planning.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_fe4914e8b72b016b_d767ecd56ca2.webp",
+      "category": "Science"
+    },
+    {
+      "id": "2025a0b751a96e5e",
+      "title": "Comparing Pandemic Spread: H1N1 and COVID-19 in U.S. Cities",
+      "summary": "Researchers from Columbia University and other institutions conducted a study comparing the spread of the 2009 H1N1 flu pandemic and the 2020 COVID-19 pandemic across U.S. metropolitan areas. Using advanced computer simulations, they analyzed how these respiratory pandemics expanded rapidly, often within weeks, before early detection or government responses could be implemented. The study, published in the Proceedings of the National Academy of Sciences, found that both pandemics relied on transmission hubs such as New York and Atlanta, with air travel being a key driver of spread rather than commuting. The simulations incorporated factors like virus transmission patterns and accounted for superspreading events. The researchers highlighted the challenges of timely control due to unpredictable spread and emphasized the potential of wastewater surveillance as an early warning tool to slow initial transmission. Additionally, they developed a flexible framework to study other outbreaks, considering factors like population demographics and weather patterns. This research aims to improve pandemic preparedness by providing insights into geographic spread and effective response strategies.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_2025a0b751a96e5e_1dd3ff70ec06.webp",
+      "category": "Science"
+    },
+    {
+      "id": "31397e95a2be2060",
+      "title": "A Century of Hair Analysis Reveals the Impact of Lead Regulations on Public Health",
+      "summary": "This article discusses a study by University of Utah scientists that analyzed hair samples spanning over a century to track changes in lead exposure in the United States. Before the Environmental Protection Agency (EPA) was established in 1970, lead pollution was widespread from sources like industrial factories, lead-based paint, water pipes, and particularly vehicle exhaust due to leaded gasoline. Lead is a toxic heavy metal that accumulates in the body and is linked to developmental issues in children. The research, published in PNAS, shows a steep decline in lead levels in hair samples after environmental regulations were implemented, with pre-regulation levels about 100 times higher. The study highlights the success of EPA policies in reducing lead exposure and improving public health outcomes. However, it also notes that some lead regulations are being weakened under the Trump administration, raising concerns about forgetting historical lessons. The scientists used hair samples from 48 individuals, including some preserved in family scrapbooks, to create a record of lead exposure along Utah's Wasatch Front, an area with past industrial pollution. The findings emphasize the importance of maintaining environmental safeguards despite potential industry challenges.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_31397e95a2be2060_799c1d2f545d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1611cb9ba70a55dd",
+      "title": "EPA Enforcement Declines Sharply Under Trump's Second Term",
+      "summary": "A report by the Environmental Integrity Project reveals a significant collapse in the Environmental Protection Agency's enforcement of environmental laws during the first year of President Donald Trump's second term. Civil lawsuits filed by the Department of Justice, based on EPA referrals, plummeted to just 16, a 76% decrease from the Biden administration's first year and lower than Trump's first term. This decline is attributed to an aggressive deregulatory agenda, including rollbacks of air and water pollution restrictions under EPA Administrator Lee Zeldin. Additionally, staff reductions, with hundreds of EPA employees laid off and many Justice Department lawyers leaving, have hampered enforcement efforts. The EPA has adopted a 'compliance first' policy, emphasizing cooperation with violators over formal actions, which critics argue undermines deterrence. Environmental groups like Public Employees for Environmental Responsibility and Earthjustice corroborate these findings, warning that weakened enforcement could lead to increased pollution and health risks.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_1611cb9ba70a55dd_da7bb2fcd9dc.webp",
+      "category": "Science"
+    },
+    {
       "id": "ba39ba71c8f3bb2e",
       "title": "The Unintended Consequences of Cleaner Air: Methane Surge During COVID-19",
       "summary": "In 2020, the COVID-19 pandemic led to widespread lockdowns, drastically reducing industrial activity and transportation. This resulted in a significant drop in nitrogen dioxide pollution, making the air cleaner. However, scientists observed a paradoxical increase in methane, a potent greenhouse gas, with its growth rate reaching a record high of 16.2 parts per billion. A study published in Science explains this phenomenon by examining atmospheric chemistry. Methane is typically removed from the atmosphere by hydroxyl radicals, highly reactive molecules that break it down. These radicals are produced through chemical reactions involving nitrogen oxides, which are pollutants from vehicles and factories. During the lockdowns, reduced nitrogen oxide levels slowed hydroxyl radical production, weakening the methane sink. This accounted for about 80% of the methane surge in 2020. Additionally, researchers found that the remaining 20% and subsequent increases in 2021-2022 came from actual emissions on the ground. By analyzing isotopic data, they determined that the methane was lighter, indicating biogenic sources like wetlands rather than fossil fuels. Satellite data traced these emissions to tropical regions in Africa and Southeast Asia, where La Niña events caused heavy rainfall, flooding wetlands and boosting microbial methane production. This study highlights the complex interplay between air quality, climate, and natural processes.",
       "source": "Ars Science",
-      "time_ago": "15 hours ago",
-      "image_url": "/article_images/article_ba39ba71c8f3bb2e_08e24d9da410.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d5e002ce322d363e",
-      "title": "Debunking Tree Sensitivity to Solar Eclipses: A Scientific Critique",
-      "summary": "A 2025 study proposed that spruce trees in Italy's Dolomite mountains exhibited synchronized bioelectrical activity in anticipation of a partial solar eclipse, suggesting advanced plant communication. Researchers led by Alessandro Chiolerio attached electrodes to three trees and five stumps, recording increased activity during the October 2022 eclipse, with older trees showing earlier and stronger spikes. They interpreted this as trees coordinating responses to darkened conditions, possibly through memory or gravitational effects, and even transmitting knowledge to younger trees. However, the study faced immediate criticism from plant scientists who questioned its methodology and conclusions. Critics like Ariel Novoplansky and Justine Karst highlighted issues such as the small sample size, numerous uncontrolled variables, and alternative explanations like temperature fluctuations or lightning strikes. Novoplansky argued that trees experience greater daily light changes from clouds, making a minor eclipse irrelevant, and dismissed the idea of eclipse memory as implausible due to each eclipse's unique path. The critique, published in Trends in Plant Science, labels the original paper as pseudoscience encroaching on biological research, warning against poorly designed studies that promote personal agendas. This debate underscores the importance of rigorous evidence and peer review in science.",
-      "source": "Ars Science",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_d5e002ce322d363e_e6bd318b61af.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0cd1db26cbf6e95e",
-      "title": "Innovative Smart Synthetic Skin with Adaptive Capabilities",
-      "summary": "A research team at Penn State, led by assistant professor Hongtao Sun, has developed a multifunctional smart synthetic skin using a novel fabrication technique. This material, made from hydrogel, is programmable and can perform various tasks such as hiding or revealing information, enabling adaptive camouflage, and supporting soft robotics. Inspired by cephalopods like octopuses, which dynamically control their skin appearance and texture, the team employed a 4D-printing system to create the skin. The method involves halftone-encoded printing, where digital patterns are embedded into the hydrogel to instruct its response to external triggers like heat, solvents, or stress. For example, the team encoded an image of the Mona Lisa into the skin, which becomes visible only under specific conditions like ice water or heating, demonstrating its potential for concealment and communication. Published in Nature Communications, this innovation highlights advances in material science for creating adaptable, intelligent systems.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_0cd1db26cbf6e95e_278f8b017850.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d43936f99913322f",
-      "title": "Unraveling the Immune Puzzle in Colorectal Cancer",
-      "summary": "Colorectal cancer presents a unique challenge in oncology because it defies the typical immune response seen in other solid tumors. Usually, high numbers of regulatory T (Treg) cells correlate with poor outcomes, as they suppress the immune system's ability to attack cancer. However, in colorectal cancer, more Treg cells are often associated with longer survival, a paradox that has puzzled researchers. A recent study from the Sloan Kettering Institute reveals that Treg cells are not uniform; there are two distinct subtypes with opposing roles. One subtype restrains tumor growth, while the other promotes it, explaining the survival benefit. This breakthrough, based on over 20 years of research and using mouse models that mimic human tumors, focuses on microsatellite stable colorectal cancers, which typically resist immunotherapy. The findings could enhance selective immunotherapy approaches for colorectal cancer and similar cancers in tissues like the stomach and skin.",
-      "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_d43936f99913322f_d8deaab4c206.webp",
-      "category": "Science"
-    },
-    {
-      "id": "87d753bb36df4fd9",
-      "title": "Debating the Future of the International Space Station: Preservation vs. Deorbiting",
-      "summary": "The U.S. House Science, Space, and Technology Committee has advanced a NASA authorization bill that includes an amendment requiring NASA to reconsider its plan to deorbit the International Space Station (ISS) in 2031. Currently, NASA intends to guide the ISS into a controlled reentry over the Pacific Ocean after its operational life ends in 2030, ensuring debris falls safely in an unpopulated area. However, the amendment, proposed by Rep. George Whitesides with bipartisan support, directs NASA to conduct an engineering analysis on the feasibility of transferring the ISS to a safe orbital harbor for storage instead. This would allow potential reuse, preserving an asset that represents over $100 billion in investment and decades of international collaboration. The bill also authorizes a commercial deep space program using private rockets. The amendment does not change the retirement timeline but emphasizes evaluating alternatives before final disposal. NASA had previously awarded SpaceX a contract to develop a deorbit vehicle, but the analysis shows moving the station to a higher orbit was considered, though rejected due to risks of uncontrolled reentry. The bill must still pass the full House, Senate, and be signed by the President to become law.",
-      "source": "Ars Science",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_87d753bb36df4fd9_a4a5b2beb28f.webp",
-      "category": "Science"
-    },
-    {
-      "id": "8e96fde278e122a5",
-      "title": "Prenatal Alcohol Exposure Alters Brain Dopamine and Drinking Behavior in Monkeys",
-      "summary": "A recent study published in JNeurosci investigated the long-term effects of prenatal alcohol exposure and stress on rhesus monkeys. Researchers led by Mary Schneider and Alexander Converse at the University of Wisconsin-Madison exposed pregnant monkeys to moderate alcohol, mild stress, or both. When the offspring reached adulthood, they examined changes in the dopamine system—a brain pathway involved in reward and motivation—and measured alcohol consumption. Findings revealed that prenatal alcohol exposure altered the dopamine system and led to faster alcohol drinking in adult monkeys. Interestingly, dopamine measurements taken before any alcohol exposure could predict later drinking behavior, suggesting brain differences exist prior to problematic drinking. The study also observed that as monkeys drank alcohol, further dopamine changes occurred, varying by individual and potentially driving the transition to alcohol use disorder. While prenatal stress alone did not directly link to drinking behavior, it may affect other aspects. The research reinforces the risks of drinking during pregnancy and bridges animal models to human health, highlighting how early experiences shape adult outcomes.",
-      "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_8e96fde278e122a5_0e47c427ce0a.webp",
+      "image_url": "/article_images/article_ba39ba71c8f3bb2e_08e24d9da410.webp",
       "category": "Science"
     }
   ]
