@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "2c9262f569fb72c8",
-      "title": "Ancient Chinese Medicine Offers New Hope for Hair Regrowth",
-      "summary": "Androgenetic alopecia is a common form of hair loss affecting millions worldwide, with current treatments like finasteride and minoxidil often causing side effects such as sexual dysfunction or scalp irritation. A scientific review explores Polygonum multiflorum, an herb used in traditional Chinese medicine for over a millennium to promote hair health, as a potential alternative. This herb operates through multiple biological pathways: it reduces dihydrotestosterone, a hormone linked to follicle shrinkage, protects follicles from cell death, activates growth signaling systems like Wnt and Shh, and improves scalp blood circulation to enhance oxygen and nutrient delivery. Researchers, including first author Han bixian, analyzed historical texts, laboratory experiments, and clinical observations, finding that ancient descriptions align with modern hair biology. The herb may not only slow thinning but actively encourage regrowth by influencing various growth factors. While it shows a favorable safety profile when properly processed, the authors emphasize the need for more high-quality clinical trials to confirm efficacy and optimize usage. This study bridges traditional wisdom and contemporary science, highlighting how investigating ancient remedies can lead to innovative strategies for managing conditions like androgenetic alopecia.",
-      "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_2c9262f569fb72c8_e69ba694f8a7.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3115e60d6fb69dd4",
-      "title": "Global Forest Changes: Loss of Biodiversity and Resilience",
-      "summary": "Forests play a critical role in sustaining life on Earth by absorbing carbon dioxide, supporting biodiversity, and regulating ecosystems. However, recent research indicates that forests worldwide are undergoing significant transformations. A large international study published in Nature Plants analyzed over 31,000 tree species and found that forest ecosystems are becoming more uniform, losing biodiversity, and growing less resilient. The trend shows fast-growing tree species, such as acacia and eucalyptus, are becoming dominant, while slow-growing species with specialized traits are declining. These slow-growing trees, common in moist tropical and subtropical forests, contribute to forest stability, carbon storage, and resilience but are at risk due to climate change and exploitation. The spread of naturalized tree species, which often have traits like rapid growth, further exacerbates these changes. Scientists, including senior author Jens-Christian Svenning, express deep concern because the loss of unique, native species can create gaps in ecosystems that alien species cannot fill, leading to less stable forests that are vulnerable to droughts, storms, and pests. This shift threatens long-term carbon storage and ecosystem health, highlighting the need for conservation efforts to protect forest diversity.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_3115e60d6fb69dd4_bb75a388f2d8.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0b3c14b76fd62bc2",
-      "title": "Unlocking the Chemistry of Carbon Storage in Iron Minerals",
-      "summary": "A recent study from Northwestern University reveals why iron oxide minerals, particularly ferrihydrite, are highly effective at storing carbon in soils. Ferrihydrite uses multiple chemical processes to capture and retain carbon, including electrical attraction, chemical bonds, and hydrogen bonds. Researchers discovered that its surface has a patchy structure with both positive and negative charges, allowing it to bind a wide range of organic compounds. This adaptability enables ferrihydrite to lock carbon away for decades or centuries, preventing it from reentering the atmosphere as greenhouse gases. Soil is a major carbon sink, storing about 2,500 billion tons, and understanding these mechanisms is crucial for climate science. The study, led by Professor Ludmilla Aristilde, used advanced techniques like molecular modeling to provide detailed insights into ferrihydrite's surface chemistry, filling gaps in how minerals trap organic matter in the environment.",
+      "id": "d0c9e4c6f7944e25",
+      "title": "AI System Prima Revolutionizes Brain MRI Analysis",
+      "summary": "Researchers at the University of Michigan have developed an artificial intelligence system named Prima, which analyzes brain MRI scans in seconds with 97.5% accuracy. This technology, detailed in a study published in Nature Biomedical Engineering, can diagnose over 50 neurological disorders and prioritize urgent cases like strokes and brain hemorrhages. Prima is a vision language model (VLM) that processes images and text in real-time, integrating patient clinical histories to mimic a radiologist's comprehensive approach. Tested on over 30,000 MRI studies, it outperforms other AI models by using a broad dataset of 200,000 MRI studies and 5.6 million imaging sequences. The system automatically alerts specialists, such as stroke neurologists, to streamline clinical workflows and improve timely diagnosis without sacrificing accuracy. This innovation aims to address the rising demand for MRI scans and reduce strain on healthcare systems by providing fast, reliable information for better patient outcomes.",
       "source": "Science Daily",
       "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_0b3c14b76fd62bc2_bf57b5d4e853.webp",
+      "image_url": "/article_images/article_d0c9e4c6f7944e25_a42b7f79b02a.webp",
       "category": "Science"
     },
     {
-      "id": "447d197720d9a599",
-      "title": "Yeast Resilience in Simulated Martian Environments",
-      "summary": "Researchers from the Indian Institute of Science and the Physical Research Laboratory have conducted experiments demonstrating that baker's yeast can endure conditions mimicking Mars. The study involved subjecting yeast cells to intense shock waves, generated by a High-Intensity Shock Tube for Astrochemistry (HISTA), which simulate meteorite impacts on Mars, and exposing them to perchlorate salts, toxic compounds present in Martian soil. Despite these stressors, the yeast survived with high rates, although growth was slowed. The survival mechanism was linked to the formation of ribonucleoprotein (RNP) condensates, specifically stress granules and P-bodies, which protect cellular mRNA under duress. Yeast strains unable to form these structures showed reduced survival. This research suggests that RNP condensates could serve as biomarkers for cellular stress in extraterrestrial settings, offering insights into how life might persist in harsh environments. The findings highlight the integration of shock wave physics and molecular biology to explore astrobiological questions, potentially informing future space exploration and the search for life beyond Earth.",
+      "id": "52447011b2288f1e",
+      "title": "Unlocking the Secrets of Quantum Time Measurement",
+      "summary": "Physicists have made a breakthrough in measuring the speed of quantum transitions, events that occur at attosecond scales—extremely brief intervals where even light travels minimally. The challenge lies in avoiding interference from external timing devices, which can alter quantum processes. Professor Hugo Dil and his team at EPFL addressed this by developing a clock-free method using quantum interference. When electrons absorb photons and are emitted from materials, their spin encodes information about the transition duration. By analyzing spin changes with techniques like spin- and angle-resolved photoemission spectroscopy (SARPES), they determined transition times without external references. The team tested various materials, including three-dimensional copper, layered titanium diselenide and titanium ditelluride, and chain-like copper telluride. Results showed that simpler, lower-symmetry atomic structures lead to longer transition times: copper took about 26 attoseconds, layered materials ranged from 140 to 175 attoseconds, and chain-like structures exceeded 200 attoseconds. This research highlights how material geometry influences quantum dynamics, offering insights into fundamental physics and potential applications in quantum technologies.",
       "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_447d197720d9a599_fd0e310cf063.webp",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_52447011b2288f1e_a52561bb96d7.webp",
       "category": "Science"
     },
     {
-      "id": "1611cb9ba70a55dd",
-      "title": "EPA Enforcement Declines Sharply Under Trump's Second Term",
-      "summary": "A report by the Environmental Integrity Project reveals a significant collapse in the Environmental Protection Agency's enforcement of environmental laws during the first year of President Donald Trump's second term. Civil lawsuits filed by the Department of Justice, based on EPA referrals, plummeted to just 16, a 76% decrease from the Biden administration's first year and lower than Trump's first term. This decline is attributed to an aggressive deregulatory agenda, including rollbacks of air and water pollution restrictions under EPA Administrator Lee Zeldin. Additionally, staff reductions, with hundreds of EPA employees laid off and many Justice Department lawyers leaving, have hampered enforcement efforts. The EPA has adopted a 'compliance first' policy, emphasizing cooperation with violators over formal actions, which critics argue undermines deterrence. Environmental groups like Public Employees for Environmental Responsibility and Earthjustice corroborate these findings, warning that weakened enforcement could lead to increased pollution and health risks.",
+      "id": "e4c9618b3b8e0cdd",
+      "title": "NIH Leader's Call for Change After Pandemic Frustrations",
+      "summary": "Jay Bhattacharya, the director of the National Institutes of Health (NIH), recently addressed an audience at the MAHA Institute, an organization known for promoting unscientific health ideas. In his speech, Bhattacharya expressed ongoing anger over the COVID-19 pandemic response and proposed a 'second scientific revolution' to transform scientific research. The event highlighted shared grievances between NIH leadership and MAHA, including distrust in science, health system failures, and dietary solutions to health issues. Bhattacharya tailored his message to resonate with the audience, discussing how his revolution aims to democratize science by reducing authority and involving more people, similar to historical shifts. However, the event featured controversial topics, such as questions about vaccine safety and lab leak theories, and excluded reporters from major science journals. While Bhattacharya's plan includes some reasonable improvements, it is driven by pandemic frustrations and aligns with radical changes from the Trump administration, leading to inconsistencies. This situation suggests a complex and potentially confusing direction for the NIH, blending legitimate critiques with partisan agendas.",
       "source": "Ars Science",
-      "time_ago": "2 days ago",
-      "image_url": "/article_images/article_1611cb9ba70a55dd_da7bb2fcd9dc.webp",
+      "time_ago": "18 hours ago",
+      "image_url": "/article_images/article_e4c9618b3b8e0cdd_110c35610161.webp",
       "category": "Science"
     },
     {
-      "id": "ba39ba71c8f3bb2e",
-      "title": "The Unintended Consequences of Cleaner Air: Methane Surge During COVID-19",
-      "summary": "In 2020, the COVID-19 pandemic led to widespread lockdowns, drastically reducing industrial activity and transportation. This resulted in a significant drop in nitrogen dioxide pollution, making the air cleaner. However, scientists observed a paradoxical increase in methane, a potent greenhouse gas, with its growth rate reaching a record high of 16.2 parts per billion. A study published in Science explains this phenomenon by examining atmospheric chemistry. Methane is typically removed from the atmosphere by hydroxyl radicals, highly reactive molecules that break it down. These radicals are produced through chemical reactions involving nitrogen oxides, which are pollutants from vehicles and factories. During the lockdowns, reduced nitrogen oxide levels slowed hydroxyl radical production, weakening the methane sink. This accounted for about 80% of the methane surge in 2020. Additionally, researchers found that the remaining 20% and subsequent increases in 2021-2022 came from actual emissions on the ground. By analyzing isotopic data, they determined that the methane was lighter, indicating biogenic sources like wetlands rather than fossil fuels. Satellite data traced these emissions to tropical regions in Africa and Southeast Asia, where La Niña events caused heavy rainfall, flooding wetlands and boosting microbial methane production. This study highlights the complex interplay between air quality, climate, and natural processes.",
-      "source": "Ars Science",
-      "time_ago": "2 days ago",
-      "image_url": "/article_images/article_ba39ba71c8f3bb2e_08e24d9da410.webp",
+      "id": "f3e852b0d0b79462",
+      "title": "The Urgent Call for Businesses to Protect Biodiversity",
+      "summary": "A major global report by Ipbes, involving scientists and approved by 150 governments, warns that businesses face extinction unless they shift to protecting and restoring nature. The report highlights that all businesses rely on ecosystem services such as clean water and fertile soils, which nature provides for free. Co-author Matt Jones emphasizes that companies can lead in conservation or risk their own demise, while co-chair Prof Stephen Polasky notes the paradox where degrading biodiversity often seems more profitable than protecting it. The report advocates for clear metrics and toolkits to help businesses align with biodiversity goals. An example is Steart Marshes in Somerset, where farmers and conservationists collaborate: cattle grazing creates habitats for wildlife and produces high-quality beef, while restored wetlands protect villages from flooding, absorb carbon, and reduce pollution. This shift from a 'nice-to-do' to a 'must-do' reflects growing recognition that biodiversity loss is a serious business threat, urging companies to integrate nature protection into their operations for long-term sustainability.",
+      "source": "BBC Science",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_f3e852b0d0b79462_6fc6bbb56a1b.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f983fc91406e3d0e",
+      "title": "Mediterranean Diet Linked to Reduced Stroke Risk in Women",
+      "summary": "A study published in Neurology Open Access in 2026 found that women adhering to a Mediterranean diet have a significantly lower risk of stroke. The research involved 105,614 women with an average age of 53, who were followed for about 21 years. Participants completed diet questionnaires and were scored on how closely their eating habits matched the Mediterranean diet, which emphasizes vegetables, fruits, legumes, fish, and olive oil while limiting red meat and dairy. Results showed that women with the highest diet scores had an 18% lower overall stroke risk, including 16% lower for ischemic strokes and 25% lower for hemorrhagic strokes, after adjusting for factors like smoking and high blood pressure. The study highlights the importance of diet in stroke prevention but notes it only shows an association, not causation. Limitations include self-reported dietary data, which may be inaccurate. Researchers call for further studies to confirm findings and explore underlying mechanisms.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_f983fc91406e3d0e_281fce41b687.webp",
+      "category": "Science"
+    },
+    {
+      "id": "3b708bd84d1a14b0",
+      "title": "Uncovering the Cellular Alliance Behind Ovarian Cancer's Deadly Spread",
+      "summary": "Ovarian cancer is the most lethal gynecological cancer, primarily due to late diagnosis after it has widely metastasized in the abdomen. A recent study from Nagoya University, published in Science Advances, reveals a key biological mechanism behind its rapid progression. Researchers discovered that ovarian cancer cells recruit mesothelial cells, which normally form a protective lining in the abdominal cavity. These mesothelial cells move ahead of cancer cells, creating pathways for invasion. Together, they form hybrid cell clusters that are more resistant to chemotherapy than cancer cells alone. The process involves cancer cells releasing TGF-β1, a signaling molecule that transforms mesothelial cells, causing them to develop invadopodia—spike-like structures that penetrate tissue. This differs from other cancers like breast or lung cancer, which spread via blood vessels; ovarian cancer cells drift through abdominal fluid, making detection harder. Using advanced microscopy, mouse models, and single-cell gene analysis, scientists observed this real-time spread in patient samples. The findings suggest that targeting this cell alliance could lead to innovative therapies to impede ovarian cancer's deadly advance.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_3b708bd84d1a14b0_1a9b6d2d3c82.webp",
       "category": "Science"
     }
   ]

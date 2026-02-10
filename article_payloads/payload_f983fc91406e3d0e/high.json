@@ -1,0 +1,145 @@
+{
+  "title": "Association Between Mediterranean Diet Adherence and Reduced Stroke Incidence in a Longitudinal Cohort of Women",
+  "summary": "A longitudinal study published in Neurology Open Access in 2026 examined the relationship between adherence to a Mediterranean diet and stroke risk among 105,614 women, with an average age of 53 and no prior stroke history. Participants were assessed using a diet questionnaire at baseline, assigning scores from zero to nine based on consumption of key components such as whole grains, fruits, vegetables, legumes, olive oil, fish, and moderate alcohol, while penalizing high red meat and dairy intake. Over a mean follow-up of 21 years, 4,083 strokes were recorded, including 3,358 ischemic and 725 hemorrhagic strokes. After adjusting for covariates like smoking, physical activity, and hypertension, multivariate analysis revealed that women in the highest diet score group (scores 6-9) had an 18% lower overall stroke risk compared to the lowest group (scores 0-2), with a 16% reduction for ischemic stroke and a 25% reduction for hemorrhagic stroke. The study underscores the potential role of dietary patterns in stroke prevention but cautions that the observational design only indicates correlation, not causation. Limitations include reliance on self-reported dietary data, which may introduce recall bias, and the need for mechanistic investigations. Funded by the National Institute of Neurological Diseases and Stroke, the research contributes to growing evidence on nutrition and cerebrovascular health.",
+  "keywords": [
+    {
+      "term": "longitudinal study",
+      "explanation": "a research design that follows participants over an extended period to observe outcomes"
+    },
+    {
+      "term": "Mediterranean diet adherence",
+      "explanation": "the degree to which an individual's eating habits conform to Mediterranean dietary guidelines"
+    },
+    {
+      "term": "stroke incidence",
+      "explanation": "the rate at which new stroke cases occur in a population over time"
+    },
+    {
+      "term": "multivariate analysis",
+      "explanation": "a statistical method that examines multiple variables simultaneously to assess their effects"
+    },
+    {
+      "term": "recall bias",
+      "explanation": "a type of error where participants inaccurately remember past behaviors, such as dietary intake"
+    },
+    {
+      "term": "cerebrovascular health",
+      "explanation": "the condition of blood vessels and blood flow in the brain, related to stroke risk"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the primary outcome measured in this longitudinal study?",
+      "options": [
+        "Stroke incidence",
+        "Heart attack rates",
+        "Cancer diagnosis",
+        "Diabetes risk"
+      ],
+      "correct_answer": "Stroke incidence"
+    },
+    {
+      "question": "How were diet scores calculated for participants?",
+      "options": [
+        "Based on consumption of Mediterranean diet components",
+        "By measuring blood levels",
+        "Through interviews only",
+        "Using genetic testing"
+      ],
+      "correct_answer": "Based on consumption of Mediterranean diet components"
+    },
+    {
+      "question": "What percentage of participants fell into the highest diet score group?",
+      "options": [
+        "30%",
+        "13%",
+        "50%",
+        "70%"
+      ],
+      "correct_answer": "30%"
+    },
+    {
+      "question": "After adjustment, what was the risk reduction for hemorrhagic stroke in the highest diet score group?",
+      "options": [
+        "25%",
+        "16%",
+        "18%",
+        "10%"
+      ],
+      "correct_answer": "25%"
+    },
+    {
+      "question": "What is a key methodological limitation mentioned in the study?",
+      "options": [
+        "Self-reported dietary data",
+        "Small cohort size",
+        "Short follow-up period",
+        "Lack of control group"
+      ],
+      "correct_answer": "Self-reported dietary data"
+    },
+    {
+      "question": "Who was the lead author of the study?",
+      "options": [
+        "Sophia S. Wang, PhD",
+        "John Smith, MD",
+        "Lisa Brown, PhD",
+        "Michael Green, PhD"
+      ],
+      "correct_answer": "Sophia S. Wang, PhD"
+    },
+    {
+      "question": "What funding source supported this research?",
+      "options": [
+        "National Institute of Neurological Diseases and Stroke",
+        "American Heart Association",
+        "Private foundation",
+        "Corporate sponsor"
+      ],
+      "correct_answer": "National Institute of Neurological Diseases and Stroke"
+    },
+    {
+      "question": "What type of study design was used?",
+      "options": [
+        "Observational cohort",
+        "Randomized controlled trial",
+        "Case-control study",
+        "Cross-sectional survey"
+      ],
+      "correct_answer": "Observational cohort"
+    },
+    {
+      "question": "How many hemorrhagic strokes occurred in the lowest diet score group?",
+      "options": [
+        "91",
+        "211",
+        "725",
+        "3,358"
+      ],
+      "correct_answer": "91"
+    },
+    {
+      "question": "What does the study suggest about the relationship between diet and stroke?",
+      "options": [
+        "An association, not causation",
+        "A direct causal link",
+        "No relationship",
+        "Only for men"
+      ],
+      "correct_answer": "An association, not causation"
+    }
+  ],
+  "background_read": [
+    "Stroke remains a leading cause of mortality and morbidity globally, with modifiable risk factors like diet playing a crucial role in prevention strategies. The Mediterranean diet, characterized by high intake of plant-based foods, fish, and monounsaturated fats, has been extensively studied for its cardioprotective effects. This research builds on prior evidence by employing a large, long-term cohort of women, utilizing detailed dietary scoring and adjusting for multiple confounders to strengthen validity. However, as an observational study, it cannot establish causality, and limitations such as self-report bias highlight the need for complementary experimental designs. Understanding these nuances is essential for interpreting public health implications and guiding future research into dietary interventions and stroke mechanisms."
+  ],
+  "Article_Structure": [
+    "Main Points: The study demonstrates a significant inverse association between Mediterranean diet adherence and stroke risk in women, with specific risk reductions for ischemic and hemorrhagic strokes. Purpose: To explore dietary influences on stroke prevention in a female cohort, addressing gaps in long-term evidence. Evidence Evaluation: Evidence is robust due to large sample size and longitudinal design but tempered by self-reported data risks. Author Credibility: Sophia S. Wang, PhD, brings expertise from a cancer research institution, though direct neurology background is not specified. Methodology: Utilized questionnaire-based dietary assessment and scoring over 21 years, with multivariate adjustment for confounders. Critical Assessment: Strengths include long follow-up and comprehensive adjustment; limitations involve potential recall bias and inability to infer causation, suggesting need for randomized trials."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Epidemiological research",
+      "description": "The study exemplifies how observational epidemiology can identify dietary associations, but it requires cautious interpretation due to inherent limitations in establishing causality."
+    }
+  ],
+  "image_url": "/article_images/article_f983fc91406e3d0e_281fce41b687.webp"
+}
