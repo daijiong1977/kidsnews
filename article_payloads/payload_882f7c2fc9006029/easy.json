@@ -1,0 +1,104 @@
+{
+  "title": "Immune Cells That Help Cancer Grow",
+  "summary": "Scientists found that some immune cells, called neutrophils, can change and help cancer grow instead of fighting it. Normally, neutrophils protect our bodies from germs and injuries. But in cancer, tumors can make these cells produce a molecule called CCL3. This molecule helps the tumor get bigger. The research was done by scientists at the University of Geneva and the Ludwig Institute for Cancer Research. They studied many types of cancer and saw this happen often. By understanding this, doctors might better track how cancer spreads. The study was published in a journal called Cancer Cell.",
+  "keywords": [
+    {
+      "term": "neutrophils",
+      "explanation": "immune cells that usually fight germs"
+    },
+    {
+      "term": "CCL3",
+      "explanation": "a molecule that helps tumors grow"
+    },
+    {
+      "term": "tumor",
+      "explanation": "a lump of cancer cells"
+    },
+    {
+      "term": "immune cells",
+      "explanation": "cells in the body that protect against diseases"
+    },
+    {
+      "term": "scientists",
+      "explanation": "people who study and discover new things"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are neutrophils normally supposed to do?",
+      "options": [
+        "Fight germs and injuries",
+        "Help cancer grow",
+        "Make tumors smaller",
+        "Do nothing"
+      ],
+      "correct_answer": "Fight germs and injuries"
+    },
+    {
+      "question": "What molecule do neutrophils produce to help cancer?",
+      "options": [
+        "CCL3",
+        "Oxygen",
+        "Water",
+        "Sugar"
+      ],
+      "correct_answer": "CCL3"
+    },
+    {
+      "question": "Who did the research on neutrophils?",
+      "options": [
+        "University of Geneva scientists",
+        "A school teacher",
+        "A movie star",
+        "A chef"
+      ],
+      "correct_answer": "University of Geneva scientists"
+    },
+    {
+      "question": "What happens when CCL3 is removed from neutrophils?",
+      "options": [
+        "They stop helping cancer grow",
+        "They make more CCL3",
+        "They disappear",
+        "They fight better"
+      ],
+      "correct_answer": "They stop helping cancer grow"
+    },
+    {
+      "question": "Where was the study published?",
+      "options": [
+        "Cancer Cell journal",
+        "A storybook",
+        "A newspaper",
+        "A website"
+      ],
+      "correct_answer": "Cancer Cell journal"
+    },
+    {
+      "question": "Why is this discovery important?",
+      "options": [
+        "It helps track cancer progression",
+        "It makes tumors bigger",
+        "It stops all cancers",
+        "It is not important"
+      ],
+      "correct_answer": "It helps track cancer progression"
+    }
+  ],
+  "background_read": [
+    "Cancer is a disease where cells grow out of control and form lumps called tumors. Our bodies have immune cells like neutrophils that usually fight diseases. Sometimes, in cancer, these cells get confused and start helping the tumor instead. Scientists study this to find new ways to treat cancer and help people get better."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the University of Geneva and the Ludwig Institute for Cancer Research",
+    "WHAT: Found that neutrophils produce CCL3 to help cancer grow",
+    "WHERE: In tumors in the body",
+    "WHY: To understand how cancer spreads and find better treatments"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "Scientists found a new way cancer tricks immune cells"
+    }
+  ],
+  "image_url": "/article_images/article_882f7c2fc9006029_62831e0e185a.webp"
+}

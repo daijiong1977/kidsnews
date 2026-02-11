@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "d0c9e4c6f7944e25",
-      "title": "AI System Prima Revolutionizes Brain MRI Analysis",
-      "summary": "Researchers at the University of Michigan have developed an artificial intelligence system named Prima, which analyzes brain MRI scans in seconds with 97.5% accuracy. This technology, detailed in a study published in Nature Biomedical Engineering, can diagnose over 50 neurological disorders and prioritize urgent cases like strokes and brain hemorrhages. Prima is a vision language model (VLM) that processes images and text in real-time, integrating patient clinical histories to mimic a radiologist's comprehensive approach. Tested on over 30,000 MRI studies, it outperforms other AI models by using a broad dataset of 200,000 MRI studies and 5.6 million imaging sequences. The system automatically alerts specialists, such as stroke neurologists, to streamline clinical workflows and improve timely diagnosis without sacrificing accuracy. This innovation aims to address the rising demand for MRI scans and reduce strain on healthcare systems by providing fast, reliable information for better patient outcomes.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_d0c9e4c6f7944e25_a42b7f79b02a.webp",
-      "category": "Science"
-    },
-    {
-      "id": "52447011b2288f1e",
-      "title": "Unlocking the Secrets of Quantum Time Measurement",
-      "summary": "Physicists have made a breakthrough in measuring the speed of quantum transitions, events that occur at attosecond scales—extremely brief intervals where even light travels minimally. The challenge lies in avoiding interference from external timing devices, which can alter quantum processes. Professor Hugo Dil and his team at EPFL addressed this by developing a clock-free method using quantum interference. When electrons absorb photons and are emitted from materials, their spin encodes information about the transition duration. By analyzing spin changes with techniques like spin- and angle-resolved photoemission spectroscopy (SARPES), they determined transition times without external references. The team tested various materials, including three-dimensional copper, layered titanium diselenide and titanium ditelluride, and chain-like copper telluride. Results showed that simpler, lower-symmetry atomic structures lead to longer transition times: copper took about 26 attoseconds, layered materials ranged from 140 to 175 attoseconds, and chain-like structures exceeded 200 attoseconds. This research highlights how material geometry influences quantum dynamics, offering insights into fundamental physics and potential applications in quantum technologies.",
-      "source": "Science Daily",
-      "time_ago": "9 hours ago",
-      "image_url": "/article_images/article_52447011b2288f1e_a52561bb96d7.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e4c9618b3b8e0cdd",
-      "title": "NIH Leader's Call for Change After Pandemic Frustrations",
-      "summary": "Jay Bhattacharya, the director of the National Institutes of Health (NIH), recently addressed an audience at the MAHA Institute, an organization known for promoting unscientific health ideas. In his speech, Bhattacharya expressed ongoing anger over the COVID-19 pandemic response and proposed a 'second scientific revolution' to transform scientific research. The event highlighted shared grievances between NIH leadership and MAHA, including distrust in science, health system failures, and dietary solutions to health issues. Bhattacharya tailored his message to resonate with the audience, discussing how his revolution aims to democratize science by reducing authority and involving more people, similar to historical shifts. However, the event featured controversial topics, such as questions about vaccine safety and lab leak theories, and excluded reporters from major science journals. While Bhattacharya's plan includes some reasonable improvements, it is driven by pandemic frustrations and aligns with radical changes from the Trump administration, leading to inconsistencies. This situation suggests a complex and potentially confusing direction for the NIH, blending legitimate critiques with partisan agendas.",
-      "source": "Ars Science",
-      "time_ago": "18 hours ago",
-      "image_url": "/article_images/article_e4c9618b3b8e0cdd_110c35610161.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f3e852b0d0b79462",
-      "title": "The Urgent Call for Businesses to Protect Biodiversity",
-      "summary": "A major global report by Ipbes, involving scientists and approved by 150 governments, warns that businesses face extinction unless they shift to protecting and restoring nature. The report highlights that all businesses rely on ecosystem services such as clean water and fertile soils, which nature provides for free. Co-author Matt Jones emphasizes that companies can lead in conservation or risk their own demise, while co-chair Prof Stephen Polasky notes the paradox where degrading biodiversity often seems more profitable than protecting it. The report advocates for clear metrics and toolkits to help businesses align with biodiversity goals. An example is Steart Marshes in Somerset, where farmers and conservationists collaborate: cattle grazing creates habitats for wildlife and produces high-quality beef, while restored wetlands protect villages from flooding, absorb carbon, and reduce pollution. This shift from a 'nice-to-do' to a 'must-do' reflects growing recognition that biodiversity loss is a serious business threat, urging companies to integrate nature protection into their operations for long-term sustainability.",
+      "id": "75d1dd3aa8f324a8",
+      "title": "Climate Change and the Increase in UK Winter Flooding: A Scientific Perspective",
+      "summary": "This article examines the trend of wetter winters and more frequent flooding in the UK, linking it to climate change. Recent months have seen record rainfall, attributed to a blocked weather pattern where high pressure over Scandinavia traps wet systems. The Met Office reports that due to global warming, extreme wet winters have shifted from once-in-80-year events to once-in-20-year occurrences, with projections suggesting further increases. Impacts are severe, affecting housing, transport, and agriculture; for instance, a Somerset farmer faces crop loss from floodwater. Over 100 flood warnings were issued, with hundreds of homes flooded. Historical data shows six of the ten wettest winters in 250 years occurred this century, aligning with predictions. The science explains that burning fossil fuels releases greenhouse gases, warming the planet. Each 1°C rise allows the atmosphere to hold 7% more moisture, intensifying rainfall. Concurrently, sea levels have risen 20cm since 1901 from ocean expansion and glacier melt, worsening coastal flooding during storms. Currently, the UK experiences about seven heavy rainfall days annually, but if global temperatures exceed 2°C above pre-industrial levels, this could rise to nine days. Despite emission reduction policies, UN projections indicate a 2.5°C increase by 2100, highlighting ongoing risks.",
       "source": "BBC Science",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_75d1dd3aa8f324a8_bd8b0be7daa0.webp",
+      "category": "Science"
+    },
+    {
+      "id": "13b26dc0b1b1c952",
+      "title": "SpaceX Completes Cryogenic Testing for Upgraded Super Heavy Booster",
+      "summary": "SpaceX has successfully completed cryogenic proof testing on its Super Heavy V3 booster, a critical step toward the next Starship flight. The testing occurred at Massey's Test Site in Starbase, Texas, over six days, involving four cycles of loading super-cold liquid nitrogen to simulate the stresses of actual rocket fuel. This test is significant because the previous booster assigned to the Starship V3 mission failed during a pressure test in November, leading to its destruction. The new booster passed, and it will now be equipped with 33 upgraded Raptor 3 engines and three grid fins for improved controllability during descent. SpaceX plans to conduct further tests, including a static fire, with the goal of launching the Starship V3 before the end of March. This flight is part of a series of test flights aimed at advancing SpaceX's capabilities for ambitious missions, such as orbital refueling and trips to the Moon and Mars. NASA is monitoring progress closely, as Starship is integral to the Artemis lunar program for landing astronauts on the Moon.",
+      "source": "Ars Science",
+      "time_ago": "13 hours ago",
+      "image_url": "/article_images/article_13b26dc0b1b1c952_e0f8186e9566.webp",
+      "category": "Science"
+    },
+    {
+      "id": "882f7c2fc9006029",
+      "title": "How Neutrophils Turn from Cancer Fighters to Helpers",
+      "summary": "Researchers at the University of Geneva and the Ludwig Institute for Cancer Research discovered that neutrophils, a common type of immune cell, can be reprogrammed by tumors to support cancer growth. Normally, neutrophils act as early defenders against infections, but in cancer, they are recruited by tumors and start producing a molecule called CCL3. This chemokine promotes tumor growth instead of fighting it. The study, published in Cancer Cell, involved overcoming technical challenges to manipulate the CCL3 gene specifically in neutrophils. When CCL3 was removed, neutrophils no longer aided tumor growth, though they still functioned normally elsewhere. This finding suggests that CCL3 could serve as a signal for tracking cancer progression across various cancer types, building on earlier research about macrophages. The work highlights the complex interactions within the tumor environment and offers insights into potential new targets for cancer therapy.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_882f7c2fc9006029_62831e0e185a.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c7e78dd29e232a5e",
+      "title": "Uncovering Easter Island's Climate History: How Drought Shaped Society",
+      "summary": "Recent research from the Lamont-Doherty Earth Observatory reveals that Easter Island experienced a severe drought beginning around 1550, which lasted for more than a century. Scientists analyzed sediment cores from freshwater sites like Rano Aroi and Rano Kao, using hydrogen isotopes in preserved plant leaf waxes to reconstruct rainfall patterns over 800 years. The findings indicate a sharp decline in annual rainfall by 600-800mm, creating significant environmental stress on the island's limited water resources. Contrary to the popular 'ecocide' narrative that blames deforestation for societal collapse, this study suggests that Rapanui communities adapted to the drought. Cultural changes occurred, such as reduced construction of ahu platforms, the rise of Rano Kao as a ritual center, and the emergence of the Tangata Manu social system where leadership was earned through competition. The research highlights human resilience in the face of climate challenges and adds complexity to understanding Easter Island's history, emphasizing that climate factors interacted with social responses rather than causing outright collapse. This has implications for modern discussions on climate change and indigenous perspectives.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_c7e78dd29e232a5e_7e09cf8d0498.webp",
+      "category": "Science"
+    },
+    {
+      "id": "b7c9c8c6a479efcf",
+      "title": "Unraveling the Methane Surge: Climate and Chemistry After 2020",
+      "summary": "After 2020, atmospheric methane concentrations experienced an unprecedented spike, driven by a combination of reduced natural removal and increased emissions from climate-sensitive sources. An international research team, led by scientists like Hanqin Tian from Boston College, published findings in Science, revealing that about 80% of the year-to-year changes in methane accumulation were due to a sharp decline in hydroxyl radicals—chemicals that break down methane in the air. Simultaneously, a prolonged La Niña phase from 2020 to 2023 brought wetter conditions to tropical regions, expanding flooded landscapes such as wetlands, rivers, lakes, and agricultural areas like paddy rice fields. These environments fostered microbial activity that produced more methane, contributing to a rise of 55 parts per billion between 2019 and 2023, with a peak increase of nearly 18 ppb in 2021. The study emphasized that natural and managed systems, including wetlands in tropical Africa and Southeast Asia and Arctic areas, played significant roles, while fossil fuels and wildfires had minimal impact. Researchers used advanced Earth system models to link land, freshwater, and atmospheric processes, showing how climate variability amplifies emissions. The findings underscore that as the planet warms and becomes wetter, methane from these sources will increasingly influence near-term climate change, necessitating that mitigation efforts like the Global Methane Pledge account for climate-driven emissions alongside human controls.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_b7c9c8c6a479efcf_ac34ed88524c.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8b7b8b98abfde1da",
+      "title": "Uncovering Pre-Life Genes: A Study of Universal Paralogs",
+      "summary": "In a recent study published in Cell Genomics, scientists Aaron Goldman, Greg Fournier, and Betül Kaçar investigated universal paralogs, a rare group of genes that existed before the last universal common ancestor (LUCA), the earliest organism from which all life today descends. Universal paralogs are gene families that appear in at least two copies in nearly all living organisms, indicating they duplicated before LUCA emerged around four billion years ago. The researchers analyzed these genes to gain insights into life's earliest evolutionary events. They found that every known universal paralog is involved in protein production or molecule transport across cell membranes, suggesting these functions were among the first to evolve. Using AI-based techniques and computational tools, the team reconstructed ancient forms of these genes, such as one involved in embedding proteins into membranes, revealing how primitive cells might have operated. This approach offers a new window into pre-LUCA biology, connecting modern science to life's origins. The authors emphasize that universal paralogs, though few, provide critical evidence about cellular lineages before LUCA, helping transform unknowns in evolution into testable hypotheses.",
+      "source": "Science Daily",
       "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_f3e852b0d0b79462_6fc6bbb56a1b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f983fc91406e3d0e",
-      "title": "Mediterranean Diet Linked to Reduced Stroke Risk in Women",
-      "summary": "A study published in Neurology Open Access in 2026 found that women adhering to a Mediterranean diet have a significantly lower risk of stroke. The research involved 105,614 women with an average age of 53, who were followed for about 21 years. Participants completed diet questionnaires and were scored on how closely their eating habits matched the Mediterranean diet, which emphasizes vegetables, fruits, legumes, fish, and olive oil while limiting red meat and dairy. Results showed that women with the highest diet scores had an 18% lower overall stroke risk, including 16% lower for ischemic strokes and 25% lower for hemorrhagic strokes, after adjusting for factors like smoking and high blood pressure. The study highlights the importance of diet in stroke prevention but notes it only shows an association, not causation. Limitations include self-reported dietary data, which may be inaccurate. Researchers call for further studies to confirm findings and explore underlying mechanisms.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_f983fc91406e3d0e_281fce41b687.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3b708bd84d1a14b0",
-      "title": "Uncovering the Cellular Alliance Behind Ovarian Cancer's Deadly Spread",
-      "summary": "Ovarian cancer is the most lethal gynecological cancer, primarily due to late diagnosis after it has widely metastasized in the abdomen. A recent study from Nagoya University, published in Science Advances, reveals a key biological mechanism behind its rapid progression. Researchers discovered that ovarian cancer cells recruit mesothelial cells, which normally form a protective lining in the abdominal cavity. These mesothelial cells move ahead of cancer cells, creating pathways for invasion. Together, they form hybrid cell clusters that are more resistant to chemotherapy than cancer cells alone. The process involves cancer cells releasing TGF-β1, a signaling molecule that transforms mesothelial cells, causing them to develop invadopodia—spike-like structures that penetrate tissue. This differs from other cancers like breast or lung cancer, which spread via blood vessels; ovarian cancer cells drift through abdominal fluid, making detection harder. Using advanced microscopy, mouse models, and single-cell gene analysis, scientists observed this real-time spread in patient samples. The findings suggest that targeting this cell alliance could lead to innovative therapies to impede ovarian cancer's deadly advance.",
-      "source": "Science Daily",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_3b708bd84d1a14b0_1a9b6d2d3c82.webp",
+      "image_url": "/article_images/article_8b7b8b98abfde1da_12a729412d76.webp",
       "category": "Science"
     }
   ]
