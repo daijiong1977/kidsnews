@@ -1,0 +1,133 @@
+{
+  "title": "Observing a Star's Quiet Collapse into a Black Hole",
+  "summary": "Astronomers have directly observed a massive star, known as M31-2014-DS1, skip a supernova explosion and collapse into a black hole. Located about 2.5 million light-years away in the Andromeda Galaxy, this star was studied using data from NASA's NEOWISE mission and other telescopes from 2005 to 2023. The star brightened in infrared light in 2014, then its brightness dropped sharply by 2016, and by 2022-2023, it had nearly vanished in visible and near-infrared wavelengths, fading to one ten-thousandth of its former brightness. Researchers concluded that the core collapsed under gravity to form a black hole, with the outer layers pushed outward gradually. This provides detailed insights into how stellar black holes form, challenging the idea that all massive stars explode in supernovae. The findings, published in Science, may help explain why some stars collapse quietly while others explode. Lead author Kishalay De notes that light from debris around the black hole will be visible for decades with telescopes like the James Webb Space Telescope, offering a benchmark for future studies. The research also revisited a similar object, NGC 6946-BH1, highlighting the role of convection in understanding failed supernovae.",
+  "keywords": [
+    {
+      "term": "supernova",
+      "explanation": "a powerful explosion that occurs when a massive star dies"
+    },
+    {
+      "term": "infrared light",
+      "explanation": "a type of light that is invisible to humans but can be detected by telescopes to see heat or dust"
+    },
+    {
+      "term": "core collapse",
+      "explanation": "when a star's center falls inward due to gravity, often forming a black hole or neutron star"
+    },
+    {
+      "term": "stellar black holes",
+      "explanation": "black holes formed from the collapse of massive stars"
+    },
+    {
+      "term": "NEOWISE mission",
+      "explanation": "a NASA space telescope mission that studies asteroids and comets, also used for star observations"
+    },
+    {
+      "term": "convection",
+      "explanation": "the movement of heat or material in fluids, important in star dynamics"
+    },
+    {
+      "term": "Andromeda Galaxy",
+      "explanation": "a spiral galaxy about 2.5 million light-years from Earth, similar to the Milky Way"
+    },
+    {
+      "term": "failed supernova",
+      "explanation": "when a massive star collapses without a dramatic explosion"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the star observed in this study?",
+      "options": [
+        "Betelgeuse",
+        "M31-2014-DS1",
+        "NGC 6946-BH1",
+        "Sun"
+      ],
+      "correct_answer": "M31-2014-DS1"
+    },
+    {
+      "question": "How did the star's brightness change over time?",
+      "options": [
+        "It only increased",
+        "It brightened then dropped sharply",
+        "It stayed constant",
+        "It only decreased"
+      ],
+      "correct_answer": "It brightened then dropped sharply"
+    },
+    {
+      "question": "What mission provided data for this study?",
+      "options": [
+        "Hubble Space Telescope",
+        "NEOWISE mission",
+        "James Webb Space Telescope",
+        "Voyager mission"
+      ],
+      "correct_answer": "NEOWISE mission"
+    },
+    {
+      "question": "What did researchers conclude caused the star's disappearance?",
+      "options": [
+        "It moved to another galaxy",
+        "Its core collapsed into a black hole",
+        "It exploded in a supernova",
+        "It turned into a neutron star"
+      ],
+      "correct_answer": "Its core collapsed into a black hole"
+    },
+    {
+      "question": "Why is this observation significant?",
+      "options": [
+        "It shows all stars explode",
+        "It provides detailed insights into black hole formation",
+        "It proves black holes don't exist",
+        "It only involves small stars"
+      ],
+      "correct_answer": "It provides detailed insights into black hole formation"
+    },
+    {
+      "question": "What will happen to the light from debris around the black hole?",
+      "options": [
+        "It will disappear quickly",
+        "It will be visible for decades",
+        "It will only be seen for a year",
+        "It cannot be detected"
+      ],
+      "correct_answer": "It will be visible for decades"
+    },
+    {
+      "question": "What other object was revisited in this study?",
+      "options": [
+        "Betelgeuse",
+        "NGC 6946-BH1",
+        "Andromeda Galaxy",
+        "Milky Way"
+      ],
+      "correct_answer": "NGC 6946-BH1"
+    },
+    {
+      "question": "What role does convection play in this research?",
+      "options": [
+        "It causes stars to explode",
+        "It helps understand what happens to outer layers after a failed supernova",
+        "It is not mentioned",
+        "It prevents black hole formation"
+      ],
+      "correct_answer": "It helps understand what happens to outer layers after a failed supernova"
+    }
+  ],
+  "background_read": [
+    "Massive stars, at least 10 times more massive than the sun, end their lives when nuclear fuel runs low, causing gravity to overwhelm outward pressure. Typically, this leads to a core collapse that may form a neutron star, with a shock wave creating a supernova explosion. However, theoretical models suggest that if the shock wave is too weak, the star can fall back inward, turning a neutron star into a black hole without a supernova. This study observed such an event with star M31-2014-DS1, using archived and fresh telescope data to track brightness changes. The findings help refine theories on stellar evolution and black hole formation, offering a rare glimpse into quiet collapses. Understanding these processes is crucial for astrophysics, as it explains diversity in star deaths and the origins of black holes in the universe."
+  ],
+  "Article_Structure": [
+    "Main Points: Astronomers observed star M31-2014-DS1 collapse into a black hole without a supernova, using data from 2005-2023 to track brightness changes. Purpose: To provide detailed insights into how stellar black holes form and explain why some massive stars collapse quietly. Evidence Evaluation: High-quality data from multiple telescopes, including NEOWISE, supports conclusions with consistent brightness patterns. Author Credibility: Kishalay De, lead author from Simons Foundation's Flatiron Institute, is an associate research scientist with expertise in astronomy. Methodology: Combined archived and new observations, compared with theoretical models, and revisited similar cases like NGC 6946-BH1."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Astrophysical advancement",
+      "description": "This research advances our understanding of star deaths and black hole formation, challenging traditional supernova models."
+    }
+  ],
+  "image_url": "/article_images/article_2d4e2c88ddc0b027_8bf5bb37c7e1.webp"
+}
