@@ -1,30 +1,48 @@
 {
   "articles": [
     {
-      "id": "31ebe8e9b0e7f0e5",
-      "title": "Rocky Planet in Outer Orbit Challenges Planet Formation Theories",
-      "summary": "Astronomers have discovered a planetary system around the star LHS 1903 that defies conventional planet formation theories. Typically, in systems like our Solar System, rocky planets such as Earth orbit close to the star, while gas giants like Jupiter are found farther out. This pattern is explained by theories suggesting that intense stellar radiation strips gases from inner planets, leaving them rocky, while cooler outer regions allow gas accumulation. However, in the LHS 1903 system, researchers identified a rocky planet, LHS 1903 e, orbiting farthest from the star, alongside inner rocky and gas planets. Using data from telescopes like CHEOPS, the team ruled out explanations such as atmospheric stripping from collisions or planetary migration. Instead, they propose an 'inside out' formation model, where planets form sequentially as conditions change, with LHS 1903 e assembling late when gas was scarce. This discovery, published in Science, prompts a reevaluation of how and when rocky planets can develop in diverse environments.",
+      "id": "f94bbfbc32ae9200",
+      "title": "Influencing Dreams to Enhance Creative Problem-Solving",
+      "summary": "A study by neuroscientists at Northwestern University explored how dreams can be influenced to boost creativity. Researchers used targeted memory reactivation (TMR), a technique where sounds linked to unsolved puzzles were played during REM sleep—the stage associated with vivid dreams. The study involved 20 participants with lucid dreaming experience. They attempted difficult puzzles, each paired with a unique soundtrack. During sleep, brain monitoring confirmed participants were in REM, and sounds for half the puzzles were replayed. Results showed 75% of participants reported dreams including puzzle elements, and these dream-related puzzles were solved at a higher rate (42% vs. 17%). The findings suggest that guiding dream content through TMR can enhance problem-solving, though it doesn't prove causation due to possible factors like increased curiosity. The research aims to advance understanding of sleep's role in creativity, potentially aiding in solving complex global issues through sleep engineering.",
       "source": "Science Daily",
       "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_31ebe8e9b0e7f0e5_f212c3e35665.webp",
+      "image_url": "/article_images/article_f94bbfbc32ae9200_836d6fa1a303.webp",
       "category": "Science"
     },
     {
-      "id": "2d4e2c88ddc0b027",
-      "title": "Observing a Star's Quiet Collapse into a Black Hole",
-      "summary": "Astronomers have directly observed a massive star, known as M31-2014-DS1, skip a supernova explosion and collapse into a black hole. Located about 2.5 million light-years away in the Andromeda Galaxy, this star was studied using data from NASA's NEOWISE mission and other telescopes from 2005 to 2023. The star brightened in infrared light in 2014, then its brightness dropped sharply by 2016, and by 2022-2023, it had nearly vanished in visible and near-infrared wavelengths, fading to one ten-thousandth of its former brightness. Researchers concluded that the core collapsed under gravity to form a black hole, with the outer layers pushed outward gradually. This provides detailed insights into how stellar black holes form, challenging the idea that all massive stars explode in supernovae. The findings, published in Science, may help explain why some stars collapse quietly while others explode. Lead author Kishalay De notes that light from debris around the black hole will be visible for decades with telescopes like the James Webb Space Telescope, offering a benchmark for future studies. The research also revisited a similar object, NGC 6946-BH1, highlighting the role of convection in understanding failed supernovae.",
+      "id": "f7a73afae7ffdf62",
+      "title": "Unlocking Sperm Energy: A Path to New Treatments and Contraception",
+      "summary": "Researchers at Michigan State University have discovered a molecular switch that enhances sperm energy production just before fertilization, potentially advancing infertility treatments and enabling the development of safe, nonhormonal male birth control. Sperm, which are specialized cells, remain in a low-energy state until entering the female reproductive tract, where they rapidly activate to swim forcefully and prepare for egg interaction, requiring a significant energy surge. Led by Melanie Balbach, the team developed a method to track glucose metabolism in sperm, comparing inactive and activated states using an analogy of painting a car pink and monitoring it with a drone. They identified the enzyme aldolase as a key regulator in converting glucose into energy, with sperm also utilizing internal reserves. This breakthrough builds on prior work showing that blocking sperm enzymes can cause temporary infertility in mice, highlighting the potential for targeted interventions. The study involved collaboration with institutions like Memorial Sloan Kettering Cancer Center and used advanced techniques such as mass spectrometry to map metabolic pathways, offering insights into cellular energy dynamics that could transform reproductive health options.",
       "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_2d4e2c88ddc0b027_8bf5bb37c7e1.webp",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_f7a73afae7ffdf62_dcd145e38ac9.webp",
       "category": "Science"
     },
     {
-      "id": "2968922b55a7205b",
-      "title": "How Brain Synchrony Influences Generosity in Decision-Making",
-      "summary": "A recent study published in PLOS Biology explored how brain stimulation can enhance altruistic behavior. Researchers, led by Jie Hu from East China Normal University in collaboration with the University of Zurich, recruited 44 participants to engage in a Dictator Game. In this game, individuals made 540 decisions on splitting money with another person, with varying payout amounts. During the task, the team applied transcranial alternating current stimulation to the frontal and parietal lobes of the brain, aiming to synchronize neuron firing patterns into gamma or alpha oscillations. They discovered that when gamma synchrony was strengthened between these regions, participants showed a modest increase in altruistic choices, sharing larger amounts even at personal cost. Using a computational model, the researchers found that stimulation shifted decision-making by increasing the weight placed on others' outcomes. Although neural activity wasn't directly measured, the findings suggest that synchronized brain activity plays a key role in social decisions. Coauthors like Christian Ruff and Marius Moisa highlighted that this demonstrates cause and effect, improving our understanding of brain mechanisms behind cooperation and generosity.",
+      "id": "396e8c633a665972",
+      "title": "Brain-Inspired Computers Excel at Solving Complex Math Equations",
+      "summary": "A recent study published in Nature Machine Intelligence reveals that neuromorphic computers, which mimic the human brain's structure, are unexpectedly proficient at solving partial differential equations (PDEs). These equations are fundamental for modeling phenomena such as fluid dynamics, electromagnetic fields, and structural mechanics, traditionally requiring immense computing power from supercomputers. Conducted by computational neuroscientists Brad Theilman and Brad Aimone at Sandia National Laboratories, the research introduces a new algorithm enabling neuromorphic hardware to handle PDEs efficiently. This advancement could pave the way for neuromorphic supercomputers, offering energy-efficient computing solutions critical for national security applications, like simulating nuclear systems. The scientists argue that since the human brain performs complex calculations effortlessly, such as in motor control tasks, neuromorphic systems naturally excel at rigorous math problems. Funded by the Department of Energy, this work highlights a shift in computing paradigms, potentially reducing energy consumption while maintaining high performance in scientific and engineering simulations.",
       "source": "Science Daily",
-      "time_ago": "11 hours ago",
-      "image_url": "/article_images/article_2968922b55a7205b_d703091d3b2c.webp",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_396e8c633a665972_789db0909df9.webp",
+      "category": "Science"
+    },
+    {
+      "id": "ec713098dcf86b3c",
+      "title": "The Power of Shared Joy in Romantic Partnerships",
+      "summary": "A study from the University of Illinois Urbana-Champaign reveals that couples who practice joint savoring—intentionally appreciating positive experiences together—experience stronger and more durable relationships. Researchers, including graduate student Noah Larsen and professors Allen W. Barton and Brian G. Ogolsky, surveyed 589 adults across the United States using an online questionnaire. They adapted the Joint Savoring in Romantic Relationships scale to measure how often couples focus on shared happy moments, such as reminiscing about the past or anticipating future joys. Participants reported on relationship satisfaction, communication conflict, confidence in the relationship's future, and personal stress levels. Results showed that higher joint savoring correlated with less conflict, greater satisfaction, and increased confidence, particularly acting as a buffer against stress. The sample was predominantly married, with an average age of 39, and reported low stress overall. This research highlights joint savoring as a practical strategy for couples to enhance relationship resilience and individual well-being, offering tangible actions to maintain bond strength during challenging times.",
+      "source": "Science Daily",
+      "time_ago": "23 hours ago",
+      "image_url": "/article_images/article_ec713098dcf86b3c_037c6f3fcb6f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "54a9315c7c1b8e5f",
+      "title": "Mapping the Mysteries of the Kuiper Belt with Advanced Telescopes",
+      "summary": "The Kuiper Belt, located beyond Neptune, is a vast region of frozen debris that holds ancient relics from the early solar system. Astronomers have cataloged about 4,000 Kuiper Belt objects (KBOs), including dwarf planets like Pluto and Eris, but expect this number to increase significantly with next-generation telescopes. The Vera C. Rubin Observatory in Chile, through its Legacy Survey of Space and Time (LSST) project, began operations last year to illuminate this murky area. Other observatories like the James Webb Space Telescope (JWST) will also contribute. Scientists aim to answer key questions, such as whether hidden planets exist in the belt, how far it extends, and what clues it holds about planetary formation. The Kuiper Belt acts as a time capsule, preserving structures like the 'kernel' at 44 astronomical units, which may result from Neptune's migration. This research could shed light on the solar system's history and dynamic processes.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_54a9315c7c1b8e5f_07265a12eca5.webp",
       "category": "Science"
     },
     {
@@ -32,26 +50,8 @@
       "title": "Discovery of Self-Replicating RNA Sheds Light on Life's Origins",
       "summary": "Researchers have identified a remarkably short RNA molecule, only 45 bases long, that can catalyze its own replication, a breakthrough in understanding the origin of life. RNA, which carries genetic information and acts as a catalyst, is central to the 'RNA world' hypothesis, suggesting early life relied on RNA for both heredity and metabolism. The ability to self-replicate is crucial for heritability, but previous catalytic RNAs, or ribozymes, were too long and inefficient to copy themselves fully. A French-UK team addressed this by searching for ligase ribozymes in short, random RNA sequences. They tested pools of 40-80 base RNAs, using a tag-based method to isolate those that could link small RNA fragments. After multiple rounds of selection and mutagenesis, they isolated QT-45, a ribozyme that efficiently adds bases to a template. This tiny molecule, derived from a 51-base precursor, demonstrates that short RNAs can function as polymerases, overcoming previous limitations of length and structural complexity. While it operates slowly, QT-45's ability to self-copy supports theories about how simple molecules could have initiated life on Earth, highlighting progress in synthetic biology and prebiotic chemistry.",
       "source": "Ars Science",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_995f9985c66ee90b_9c7c36452211.webp",
-      "category": "Science"
-    },
-    {
-      "id": "5321cabd3640cbb8",
-      "title": "Uncovering the Role of Astrocytes in Spinal Cord Repair",
-      "summary": "Researchers at Cedars-Sinai have discovered a new biological repair process involving astrocytes, support cells in the central nervous system, that could revolutionize treatments for spinal cord injuries and neurological diseases. The study, published in Nature, identifies lesion-remote astrocytes (LRAs) located far from injury sites. These LRAs produce a protein called CCN1, which signals microglia, immune cells in the brain and spinal cord, to clean up debris from damaged nerve fibers. This cleanup is crucial for reducing inflammation and promoting tissue healing. Experiments on mice and human spinal cord samples showed that when CCN1 is removed, healing is impaired, leading to increased inflammation and poor recovery. The findings also apply to conditions like multiple sclerosis, suggesting that astrocytes play a broader role in central nervous system repair. This research highlights the potential for targeting astrocytes to develop therapies that enhance recovery after injuries and diseases, offering hope for patients with limited treatment options.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_5321cabd3640cbb8_004177c67acc.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ad0a3ca81c6fd25c",
-      "title": "Ariane 6 Rocket's First Heavy Launch Supports Amazon's Satellite Constellation",
-      "summary": "The Ariane 64, Europe's most powerful rocket variant, successfully launched for the first time, carrying 32 Amazon Leo satellites to low-Earth orbit. This mission from the Guiana Space Center in South America marked a milestone for European space capabilities, with the rocket generating over 3.4 million pounds of thrust using four solid rocket boosters. Amazon is deploying a large satellite broadband constellation called Amazon Leo, requiring over 3,200 satellites, and has booked launches across multiple providers including SpaceX, United Launch Alliance (ULA), and Arianespace. The Ariane 6 has ramped up quickly with six flights, but other rockets like ULA's Vulcan have faced delays and anomalies, such as a booster malfunction. Amazon faces a launch capacity shortage and is seeking additional options to meet regulatory deadlines for deploying half its constellation by July. The company has invested heavily in ULA's Vulcan rocket, but its launch rate remains uncertain.",
-      "source": "Ars Science",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_ad0a3ca81c6fd25c_ed314680b13d.webp",
+      "image_url": "/article_images/article_995f9985c66ee90b_9c7c36452211.webp",
       "category": "Science"
     }
   ]

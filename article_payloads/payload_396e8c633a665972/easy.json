@@ -1,0 +1,108 @@
+{
+  "title": "Brain-Like Computers Are Great at Math",
+  "summary": "Scientists have made a cool discovery about computers that work like our brains. These brain-inspired computers, called neuromorphic systems, are really good at solving tough math problems called partial differential equations, or PDEs. PDEs help us understand things like how weather changes or how materials bend. Usually, big supercomputers need lots of energy to solve these equations, but brain-like computers can do it more efficiently. This is important because it could save energy and help with national security tasks, like keeping our country safe. The research was done by scientists at Sandia National Laboratories and published in a science journal. They think this could lead to new supercomputers that use less power.",
+  "keywords": [
+    {
+      "term": "neuromorphic systems",
+      "explanation": "computers designed to work like the human brain"
+    },
+    {
+      "term": "partial differential equations",
+      "explanation": "tough math problems used to model real-world things like weather"
+    },
+    {
+      "term": "supercomputers",
+      "explanation": "very powerful computers that solve big problems"
+    },
+    {
+      "term": "energy efficient",
+      "explanation": "using less power to do work"
+    },
+    {
+      "term": "national security",
+      "explanation": "keeping a country safe from dangers"
+    },
+    {
+      "term": "Sandia National Laboratories",
+      "explanation": "a place where scientists do research for the government"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are neuromorphic systems designed to mimic?",
+      "options": [
+        "The human brain",
+        "A regular computer",
+        "A calculator",
+        "A robot"
+      ],
+      "correct_answer": "The human brain"
+    },
+    {
+      "question": "What kind of math problems can brain-like computers solve well?",
+      "options": [
+        "Partial differential equations",
+        "Simple addition",
+        "Multiplication tables",
+        "Geometry puzzles"
+      ],
+      "correct_answer": "Partial differential equations"
+    },
+    {
+      "question": "Why is solving PDEs with less energy important?",
+      "options": [
+        "To save power and help with national security",
+        "To make computers faster only",
+        "To play video games better",
+        "To write more emails"
+      ],
+      "correct_answer": "To save power and help with national security"
+    },
+    {
+      "question": "Who did the research on brain-like computers?",
+      "options": [
+        "Scientists at Sandia National Laboratories",
+        "Teachers at a school",
+        "Doctors in a hospital",
+        "Engineers at a car company"
+      ],
+      "correct_answer": "Scientists at Sandia National Laboratories"
+    },
+    {
+      "question": "What could brain-like computers lead to in the future?",
+      "options": [
+        "New supercomputers that use less power",
+        "Bigger phones",
+        "More toys",
+        "Faster cars"
+      ],
+      "correct_answer": "New supercomputers that use less power"
+    },
+    {
+      "question": "What do PDEs help us understand?",
+      "options": [
+        "Things like weather changes or material bending",
+        "How to cook food",
+        "How to build houses",
+        "How to draw pictures"
+      ],
+      "correct_answer": "Things like weather changes or material bending"
+    }
+  ],
+  "background_read": [
+    "This article is about a new discovery in computer science. Scientists have found that computers inspired by the human brain, called neuromorphic systems, are surprisingly good at solving hard math problems called partial differential equations (PDEs). These equations are used to model real-world events like weather or how materials behave. Usually, big supercomputers need a lot of energy to solve PDEs, but brain-like computers can do it more efficiently. This research was done at Sandia National Laboratories and could help save energy and support national security efforts, such as keeping the country safe. It shows how mimicking nature can lead to better technology."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at Sandia National Laboratories, like Brad Theilman and Brad Aimone",
+    "WHAT: Discovered that brain-inspired computers (neuromorphic systems) can solve tough math problems (partial differential equations) efficiently",
+    "WHERE: Research published in Nature Machine Intelligence and funded by government programs",
+    "WHY: To save energy and help with national security by creating more efficient supercomputers"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific innovation",
+      "description": "The research shows how brain-like computers can solve complex math, leading to energy-efficient technology."
+    }
+  ],
+  "image_url": "/article_images/article_396e8c633a665972_789db0909df9.webp"
+}
