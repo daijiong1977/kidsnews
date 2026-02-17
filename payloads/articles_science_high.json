@@ -1,11 +1,47 @@
 {
   "articles": [
     {
+      "id": "939a7d46ff2b8506",
+      "title": "Identification of a Millisecond Pulsar Candidate in Proximity to Sagittarius A*: Implications for Testing General Relativity",
+      "summary": "A team from Columbia University, in partnership with Breakthrough Listen, has detected a candidate millisecond pulsar (MSP) in the vicinity of Sagittarius A*, the supermassive black hole at the Galactic Center. This finding emerges from the Breakthrough Listen Galactic Center Survey, an exceptionally sensitive radio astronomical endeavor designed to probe pulsars in the Milky Way's turbulent central region. Pulsars, as rapidly rotating neutron stars, emit coherent radio pulses that serve as highly precise cosmic chronometers due to their intrinsic timing stability; millisecond variants exhibit enhanced regularity from accelerated spin rates. If substantiated, this MSP could facilitate rigorous tests of Einstein's General Theory of Relativity by enabling measurements of gravitational time dilation and light deflection in the extreme space-time curvature induced by the black hole's approximately 4 million solar masses. Such observations would allow for the detection of anomalies in pulse arrival times, providing insights into strong-field gravity regimes. The research, spearheaded by Karen I. Perez and documented in The Astrophysical Journal, involves meticulous data analysis from radio telescopes, with ongoing follow-up observations to confirm the candidate's authenticity. To foster interdisciplinary inquiry, Breakthrough Listen has publicly released the dataset, encouraging global scientific collaboration. This investigation not only aims to elucidate the dynamics of the Galactic Center but also to challenge and refine gravitational theories under unprecedented conditions.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_939a7d46ff2b8506_c478080bab72.webp",
+      "category": "Science"
+    },
+    {
+      "id": "e7cf000a3a2dd1e9",
+      "title": "Decoding OncRNAs: Biomarkers and Drivers in Cancer Pathogenesis",
+      "summary": "This article presents a comprehensive investigation into orphan non-coding RNAs (oncRNAs), initiated by the detection of T3p in breast cancer. Through analysis of The Cancer Genome Atlas data across 32 malignancies, researchers identified approximately 260,000 cancer-specific small RNAs, each cancer type exhibiting distinct oncRNA expression profiles that serve as digital molecular barcodes, enabling machine learning classification with accuracies up to 90.9%. Functional genomics screens in xenograft mouse models revealed that roughly 5% of oncRNAs actively contribute to tumorigenesis; for instance, two breast cancer oncRNAs induce epithelial-mesenchymal transition and activate E2F target genes, respectively, accelerating growth and metastasis. Translational studies demonstrated that cancer cells secrete about 30% of oncRNAs into the circulation, and in a cohort of 192 breast cancer patients from the I-SPY 2 trial, elevated post-chemotherapy oncRNA burden independently predicted a nearly fourfold increase in mortality risk. These findings position oncRNAs as dual-purpose entities: robust biomarkers for cancer stratification and monitoring, and functional effectors in oncogenic pathways, offering novel insights into cancer biology and potential clinical applications.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_e7cf000a3a2dd1e9_299778d2858f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "419fb789bfa01347",
+      "title": "Advancing Molecular Solar Thermal Storage: A DNA-Inspired Breakthrough in Reusable Heat Fuels",
+      "summary": "A recent study in Science details a significant advancement in molecular solar thermal (MOST) energy storage, utilizing a fluid-based system inspired by DNA photodamage mechanisms to achieve unprecedented energy densities. Heating constitutes approximately half of global energy consumption, predominantly supplied by fossil fuels, underscoring the urgency for sustainable alternatives. MOST technology stores solar energy in chemical bonds for delayed heat release, yet historical implementations have been hampered by suboptimal energy storage, rapid degradation, and reliance on toxic solvents. Researchers from UC Santa Barbara and UCLA, led by Han P. Nguyen, engineered a derivative of 2-pyrimidone—structurally analogous to thymine in DNA—that undergoes a photochemical transition to a Dewar isomer under sunlight, encapsulating energy through compounded strain from fused four-membered rings (1,2-dihydroazete and diazetidine). This configuration facilitates a snap-back reaction, releasing heat on demand and allowing rechargeability. The system attained an energy storage density of 1.65 MJ/kg, nearly double that of lithium-ion batteries (~0.9 MJ/kg) and exceeding prior MOST candidates like norbornadiene (0.97 MJ/kg) and azaborinine (0.65 MJ/kg). While this innovation promises reusable heating fuels capable of seasonal storage, challenges persist, including the necessity for solvents in previous systems and scalability issues. The research exemplifies interdisciplinary convergence of chemistry and biology, potentially revolutionizing thermal energy management and contributing to decarbonization efforts, though further development is required for commercial viability.",
+      "source": "Ars Science",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_419fb789bfa01347_d9163c744d8e.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1d6f523d95168889",
+      "title": "Archaeological Discovery Substantiates Hannibal's Alleged War Elephant Expedition",
+      "summary": "A recent archaeological excavation in southern Spain has yielded an elephant foot bone that may constitute the first empirical evidence for Hannibal's legendary deployment of war elephants during the Second Punic War. Hannibal, the Carthaginian general famed for his audacious Alpine crossing in 218 BCE with 37 elephants, has long been a subject of historical debate, with prior evidence limited to iconographic and textual sources. The bone, unearthed at the Colina de los Quemados site near Cordoba, was subjected to carbon dating, which aligned its age with the Second Punic War period. Comparative morphological analysis with modern elephants and steppe mammoths facilitated species identification, suggesting it originated from a war elephant rather than a native or decorative specimen. Concurrent discoveries of artillery, coins, and ceramics at the 2020 dig site corroborate its context as a battleground, reinforcing the hypothesis of military activity. This finding addresses a significant gap in the archaeological record, as elephant remains in Europe are exceptionally rare due to the species' non-native status and the logistical improbability of transporting carcasses. The research, led by Professor Rafael M. Martínez Sánchez and published in the Journal of Archaeological Science: Reports, employs interdisciplinary methods to challenge and potentially validate historical accounts, highlighting the complexities of ancient transcontinental warfare and the symbolic role of elephants in Carthaginian military strategy.",
+      "source": "BBC Science",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_1d6f523d95168889_c1755a579340.webp",
+      "category": "Science"
+    },
+    {
       "id": "bbae819f60329848",
       "title": "Reevaluating Cosmic Fate: Dark Energy Data Indicates a Potential Big Crunch Scenario",
       "summary": "In a recent study published in the Journal of Cosmology and Astroparticle Physics, physicist Henry Tye from Cornell University utilizes newly released data from the Dark Energy Survey (DES) and Dark Energy Spectroscopic Instrument (DESI) to propose a revised cosmological model. This model suggests the universe, currently 13.8 billion years old, has a total lifespan of approximately 33 billion years. It will continue expanding for about 11 billion years before reaching a maximum size, after which it will undergo contraction, culminating in a \"big crunch\" collapse in roughly 20 billion years. This challenges the prevailing paradigm of eternal expansion driven by a positive cosmological constant, a concept rooted in Einstein's theories. Tye's analysis indicates the cosmological constant may be negative, based on dark energy observations that reveal complexities beyond a pure constant; dark energy constitutes 68% of the universe's mass-energy. To reconcile this, Tye hypothesizes a low-mass particle that modifies dark energy effects over cosmic history, aligning with the data. The study underscores ongoing observational efforts, including DESI's continued data collection and contributions from projects like the Euclid space telescope and SPHEREx mission, aimed at refining dark energy understanding and testing these theoretical predictions. This work highlights the dynamic nature of cosmological inquiry and the potential for significant shifts in our comprehension of the universe's ultimate destiny.",
       "source": "Science Daily",
-      "time_ago": "4 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_bbae819f60329848_de026fa633bb.webp",
       "category": "Science"
     },
@@ -14,44 +50,8 @@
       "title": "Molecular Mechanism of Chromothripsis: N4BP2 as the Catalytic Driver in Cancer Genomic Instability",
       "summary": "A groundbreaking study from UC San Diego elucidates the enzymatic basis of chromothripsis, identifying N4BP2 as the nuclease that initiates this catastrophic chromosomal fragmentation. Chromothripsis involves the shattering and erroneous reassembly of chromosomes, facilitating rapid oncogenic evolution and conferring therapeutic resistance in cancers. The process originates when chromosomes are sequestered in micronuclei during mitotic errors; upon micronuclear rupture, N4BP2 gains access and cleaves DNA, precipitating extensive genomic rearrangements. Published in Science, this research resolves a decade-long enigma in cancer genetics. Chromothripsis is epidemiologically significant, affecting approximately 25% of malignancies, with heightened prevalence in osteosarcomas and gliomas. Experimental validation demonstrated that N4BP2 ablation mitigates chromosome fragmentation, while its overexpression induces shattering even in euploid cells. Furthermore, genomic analyses of over 10,000 tumors correlate N4BP2 activity with chromothripsis frequency and extrachromosomal DNA (ecDNA) abundance, linking it to aggressive phenotypes and poor prognosis. This mechanistic insight positions N4BP2 as a therapeutic target to attenuate genomic chaos and enhance cancer management strategies.",
       "source": "Science Daily",
-      "time_ago": "6 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_66d725bf38075ac8_ebfe16ad2bc9.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ae284ee6e00e22f2",
-      "title": "Scientific Analysis of the Hjortspring Boat: Origins and Human Traces from the Iron Age",
-      "summary": "A comprehensive investigation into the Hjortspring boat, an Iron Age wooden vessel from Denmark, has employed advanced scientific methodologies to elucidate its origins and contextualize its historical significance. Discovered on the island of Als and excavated in the early 20th century, the boat is associated with a military expedition by warriors who were defeated, leading to its deposition in a bog as a votive offering. For over a century, the provenance of the vessel and its crew remained enigmatic due to the ubiquity of contemporaneous weaponry across Northern Europe. Researchers led by Mikael Fauvelle conducted radiocarbon dating and gas chromatography-mass spectrometry on previously unexamined cordage and caulking materials. Their analysis determined that the caulk comprised animal fat and pine pitch, with radiocarbon dates placing construction between the 4th and 3rd centuries BCE. The scarcity of pine forests in Denmark during this period suggests the boat was constructed in eastern Baltic regions, implying a coordinated maritime invasion across open seas. Notably, the study identified a partial human fingerprint preserved in the tar, offering a rare tangible connection to the ancient seafarers and highlighting the human element in archaeological inquiry. Published in PLOS One, this research integrates multidisciplinary approaches to address longstanding historical questions, demonstrating how material science can refine our understanding of prehistoric mobility and conflict.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_ae284ee6e00e22f2_022c4f78e011.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e2b10c05615a8558",
-      "title": "Sociological Inquiry into Bigfoot Communities: Motivations, Demographics, and the Borderlands of Science",
-      "summary": "Sociologists Jamie Lewis and Andrew Bartlett embarked on an academic investigation to decipher the motivations and social dynamics of Bigfooters—individuals dedicated to searching for the cryptid Bigfoot, despite overwhelming scientific consensus against its existence. Initiated during lockdown, their study involved in-depth interviews with over 130 Bigfooters and select academics, culminating in the publication of 'Bigfooters and Scientific Inquiry: On the Borderlands of Legitimate Science.' The research identifies key factions within the community: 'apers,' who hypothesize Bigfoot as an undiscovered primate, and 'woo-woos,' who entertain notions of interdimensional or extraterrestrial origins. Demographically, Bigfooters are predominantly white, male, rural, and often veterans, with noted trends toward increasing female participation. A YouGov survey from November 2025 underscores broader cultural relevance, indicating that approximately 25% of Americans entertain the possibility of Bigfoot's existence. Lewis and Bartlett maintain a neutral stance, aligning with institutional science's dismissal of compelling evidence while arguing that Bigfoot functions as a cultural object that organizes communal life and identity. Their methodological approach emphasizes qualitative analysis of narratives, exploring how this community navigates the borderlands between mainstream science and fringe beliefs, thereby contributing to sociological understandings of pseudoscience, community formation, and the persistence of myth in contemporary society.",
-      "source": "Ars Science",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_e2b10c05615a8558_9e211b975c18.webp",
-      "category": "Science"
-    },
-    {
-      "id": "325b264ce8c15768",
-      "title": "Circadian Alignment of Time-Restricted Eating Enhances Cardiometabolic Outcomes",
-      "summary": "A study by Northwestern Medicine researchers examined the cardiometabolic effects of synchronizing overnight fasting with circadian sleep-wake rhythms. Involving 39 overweight or obese adults aged 36 to 75 at elevated cardiometabolic risk, the 7.5-week randomized trial compared an intervention group extending fasting to 13-16 hours and avoiding food three hours pre-bedtime with a control group maintaining habitual 11-13 hour fasting. Both groups dimmed lights before sleep. Results demonstrated that circadian-aligned time-restricted eating, without caloric restriction, led to significant physiological improvements: a 3.5% reduction in nighttime blood pressure, a 5% decrease in heart rate, and enhanced daytime glycemic control via improved insulin secretion. These findings underscore the importance of meal timing relative to sleep for optimizing metabolic regulation and cardiovascular function. Published in Arteriosclerosis, Thrombosis, and Vascular Biology, the research posits that anchoring fasting to sleep periods may serve as a feasible non-pharmacological intervention, with nearly 90% adherence. The authors, including Dr. Daniela Grimaldi and Dr. Phyllis Zee, highlight the integration of heart, metabolism, and sleep systems, advocating for larger multi-center trials to refine protocols.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_325b264ce8c15768_733df2928368.webp",
-      "category": "Science"
-    },
-    {
-      "id": "54a9315c7c1b8e5f",
-      "title": "Advancing Kuiper Belt Research through Next-Generation Astronomical Observatories",
-      "summary": "The Kuiper Belt, a region of frozen debris extending 30 to 50 astronomical units beyond Neptune, represents a critical frontier in solar system science. Astronomers have identified approximately 4,000 Kuiper Belt objects (KBOs), including dwarf planets like Pluto, Eris, and Sedna, but anticipate a tenfold increase in discoveries due to advanced telescopic projects. The Vera C. Rubin Observatory in Chile, with its Legacy Survey of Space and Time (LSST) operational since last year, is poised to systematically map this enigmatic zone, complemented by instruments like the James Webb Space Telescope (JWST). This research aims to address fundamental questions: the existence of undiscovered planets within or beyond the belt, its spatial extent, and evidence of cataclysmic events from the solar system's formative era. The Kuiper Belt serves as a pristine time capsule, preserving dynamical structures such as the 'kernel' at 44 AU, hypothesized to result from Neptune's migratory 'jumping' scenario during planetary migration over 4 billion years ago. By analyzing these relics, scientists can refine models of planetary formation and evolution, leveraging multidisciplinary approaches from observational astronomy to theoretical astrophysics.",
-      "source": "Ars Science",
-      "time_ago": "2 days ago",
-      "image_url": "/article_images/article_54a9315c7c1b8e5f_07265a12eca5.webp",
       "category": "Science"
     }
   ]

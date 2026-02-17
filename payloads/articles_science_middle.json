@@ -1,11 +1,47 @@
 {
   "articles": [
     {
+      "id": "939a7d46ff2b8506",
+      "title": "Discovery of a Millisecond Pulsar Candidate Near the Galactic Center Black Hole",
+      "summary": "Researchers from Columbia University, in collaboration with Breakthrough Listen, have identified a candidate millisecond pulsar located close to Sagittarius A*, the supermassive black hole at the center of the Milky Way. This discovery was made through the Breakthrough Listen Galactic Center Survey, a highly sensitive radio investigation. Pulsars are neutron stars that emit regular radio pulses, acting as precise cosmic clocks due to their stable timing. Millisecond pulsars spin exceptionally fast, enhancing their reliability. If confirmed, this pulsar could provide a unique opportunity to test Einstein's General Theory of Relativity by measuring how the black hole's intense gravity distorts space-time and affects the pulsar's signals. The gravitational pull of Sagittarius A*, which has about 4 million solar masses, may cause anomalies in pulse arrival times, allowing scientists to study extreme gravitational environments. Follow-up observations are underway to verify the candidate, and data has been made publicly available to encourage global scientific collaboration. This research, led by Karen I. Perez and published in The Astrophysical Journal, aims to advance our understanding of galactic dynamics and fundamental physics.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_939a7d46ff2b8506_c478080bab72.webp",
+      "category": "Science"
+    },
+    {
+      "id": "e7cf000a3a2dd1e9",
+      "title": "Uncovering Hidden RNA Molecules in Cancer Research",
+      "summary": "Scientists identified a class of small RNA molecules called oncRNAs that are specific to cancer cells and absent in normal tissue. Starting with T3p in breast cancer, they expanded their research to analyze data from 32 cancer types, discovering approximately 260,000 cancer-specific oncRNAs. Each cancer type exhibits unique oncRNA expression patterns, enabling machine learning models to classify cancers with over 80% accuracy. Beyond serving as biomarkers, functional experiments in mice revealed that about 5% of oncRNAs actively drive tumor growth by processes like epithelial-mesenchymal transition and activation of proliferation genes. Clinically, oncRNAs are secreted into the bloodstream, and in a study of 192 breast cancer patients, high residual oncRNA levels after chemotherapy correlated with nearly fourfold worse overall survival, independent of traditional indicators. This research highlights oncRNAs as both diagnostic tools and potential therapeutic targets, offering insights into cancer biology and patient monitoring.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_e7cf000a3a2dd1e9_299778d2858f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "419fb789bfa01347",
+      "title": "Breakthrough in Storing Solar Heat with DNA-Inspired Molecules",
+      "summary": "Researchers have developed a fluid-based system that stores solar energy as heat for extended periods, potentially revolutionizing heating solutions. Heating accounts for nearly half of global energy demand, largely met by fossil fuels, contributing to environmental issues. Molecular solar thermal (MOST) energy storage aims to trap energy in chemical bonds for later release, but past attempts faced challenges like low energy density and degradation. A team from UC Santa Barbara and UCLA, led by chemist Han P. Nguyen, drew inspiration from DNA damage caused by UV light. They synthesized a derivative of 2-pyrimidone, similar to thymine in DNA, which changes into a Dewar isomer under sunlight, storing energy, and snaps back to release heat on demand. This system achieved an energy storage density of 1.65 MJ/kg, nearly double that of lithium-ion batteries and higher than previous MOST materials like norbornadiene. The breakthrough involves compounded strain from fused four-membered rings, creating a molecule eager to return to its relaxed state. While promising for reusable heating fuels, practical applications require overcoming issues like solvent use. This innovation could enable seasonal heat storage, using summer sunlight for winter warmth, advancing renewable energy efforts.",
+      "source": "Ars Science",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_419fb789bfa01347_d9163c744d8e.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1d6f523d95168889",
+      "title": "Evidence of Hannibal's War Elephants in Spain",
+      "summary": "Archaeologists in southern Spain have uncovered an elephant foot bone that may serve as the first concrete evidence of Hannibal's legendary war elephants. Hannibal, a Carthaginian general renowned for his military tactics, is historically believed to have led an army, including 37 elephants, across the Alps into Italy during the Second Punic War in 218 BCE. The bone was discovered beneath a collapsed wall at the Colina de los Quemados site near Cordoba. Using carbon dating techniques, researchers estimated its age and linked it to the Second Punic War era. They also compared the bone to those of modern elephants and steppe mammoths to identify its origin. Additional artifacts such as artillery, coins, and ceramics found during the 2020 excavations suggest the location was a battle site. This discovery challenges previous theories that relied solely on drawings and accounts, offering physical proof of elephant presence in ancient Europe. The rarity of elephant remains in European archaeology makes this find significant, as it supports the narrative of Hannibal's ambitious crossing and the use of elephants in warfare, highlighting the logistical challenges of transporting such large animals by ship.",
+      "source": "BBC Science",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_1d6f523d95168889_c1755a579340.webp",
+      "category": "Science"
+    },
+    {
       "id": "bbae819f60329848",
       "title": "New Dark Energy Data Points to a Universe That Could Collapse",
       "summary": "Physicist Henry Tye from Cornell University has analyzed recent data from the Dark Energy Survey (DES) and Dark Energy Spectroscopic Instrument (DESI) to propose that the universe may have a finite lifespan of about 33 billion years. Currently 13.8 billion years old, the universe is expanding, but Tye's model suggests it will continue to do so for roughly another 11 billion years before reaching a maximum size. After that, it would begin to contract, eventually collapsing into a single point in a process known as the \"big crunch.\" This challenges the long-held belief, based on a positive cosmological constant, that the universe would expand forever. Tye's work updates Einstein's cosmological constant concept, indicating it might be negative due to new dark energy observations. Dark energy, comprising about 68% of the universe's mass-energy, is not purely constant; Tye hypothesizes a low-mass particle that alters its behavior over time, fitting the data. The study, published in the Journal of Cosmology and Astroparticle Physics, highlights ongoing efforts by projects like DESI, Euclid, and SPHEREx to refine dark energy estimates and test these predictions.",
       "source": "Science Daily",
-      "time_ago": "4 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_bbae819f60329848_de026fa633bb.webp",
       "category": "Science"
     },
@@ -14,44 +50,8 @@
       "title": "Uncovering the Enzyme Behind Chromothripsis in Cancer Evolution",
       "summary": "Researchers at UC San Diego have identified N4BP2 as the enzyme responsible for chromothripsis, a catastrophic genetic event where chromosomes shatter and reassemble incorrectly, driving rapid cancer evolution and treatment resistance. Chromothripsis occurs when chromosomes are trapped in micronuclei during cell division; upon rupture, N4BP2 enters and fragments the DNA, initiating this process. This discovery, published in Science, explains a long-standing mystery in cancer biology. Chromothripsis is prevalent in about 25% of cancers, with high rates in osteosarcomas and brain tumors. Experiments showed that removing N4BP2 reduces chromosome shattering, while adding it causes breaks even in healthy cells. The study also links N4BP2 to extrachromosomal DNA (ecDNA), which is associated with aggressive tumors. By targeting N4BP2, scientists aim to develop therapies to slow cancer progression and improve treatment outcomes.",
       "source": "Science Daily",
-      "time_ago": "6 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_66d725bf38075ac8_ebfe16ad2bc9.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ae284ee6e00e22f2",
-      "title": "Unraveling the Mystery of an Ancient Danish War Boat",
-      "summary": "A recent scientific study of the Hjortspring boat, a 2,400-year-old wooden vessel from Denmark, has provided new insights into its origins. Discovered on the island of Als and excavated in the early 1900s, the boat was used by warriors who attacked the island but were defeated, after which it was sunk into a bog as an offering. For over a century, historians have debated where these warriors came from, as the weapons found with the boat were common across Northern Europe. Researchers led by Mikael Fauvelle of Lund University applied radiocarbon dating and gas chromatography-mass spectrometry to analyze cordage and caulking materials from the boat. Their findings revealed that the waterproofing caulk was made from animal fat mixed with pine pitch. Since pine forests were scarce in Denmark during the first millennium BCE, this suggests the boat was likely constructed in eastern regions along the Baltic Sea coast, indicating a planned military expedition across open water. Additionally, the team discovered a partial human fingerprint preserved in the tar, offering a rare direct connection to the ancient seafarers. This research, published in PLOS One, helps solve a long-standing mystery by combining archaeological evidence with advanced scientific techniques.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_ae284ee6e00e22f2_022c4f78e011.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e2b10c05615a8558",
-      "title": "Exploring the Bigfoot Community: A Sociological Study on Belief and Evidence",
-      "summary": "Researchers Jamie Lewis and Andrew Bartlett conducted a sociological study to understand why individuals, known as Bigfooters, dedicate time and resources to searching for Bigfoot, a creature widely considered mythical. Their investigation began with curiosity about TV shows like Finding Bigfoot and expanded during lockdown, involving interviews with over 130 Bigfooters and some academics. The study reveals that Bigfooters are divided into groups: 'apers' who view Bigfoot as an undiscovered primate, and 'woo-woos' who believe it could be an interdimensional being. The community is predominantly white, male, rural, and often includes veterans, with a growing female participation. A YouGov survey from November 2025 indicates that about a quarter of Americans believe Bigfoot might exist. Lewis and Bartlett emphasize that their focus is not on proving Bigfoot's existence but on analyzing the social dynamics and motivations within this community, as documented in their book 'Bigfooters and Scientific Inquiry: On the Borderlands of Legitimate Science.' They argue that Bigfoot exists as a cultural object that organizes people's lives, even if not as a biological creature, highlighting the intersection of belief, science, and community identity.",
-      "source": "Ars Science",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_e2b10c05615a8558_9e211b975c18.webp",
-      "category": "Science"
-    },
-    {
-      "id": "325b264ce8c15768",
-      "title": "Timing Meals with Sleep for Better Heart Health",
-      "summary": "Researchers at Northwestern Medicine conducted a study to investigate if aligning overnight fasting with natural sleep-wake cycles could enhance cardiometabolic health. The study involved middle-aged and older adults at elevated risk for diseases like type 2 diabetes and cardiovascular issues. Participants did not reduce calorie intake but extended their overnight fasting by about two hours, avoiding food and dimming lights three hours before bedtime. Over 7.5 weeks, this intervention led to significant improvements: nighttime blood pressure decreased by 3.5%, heart rate dropped by 5%, and daytime blood sugar control improved. The findings suggest that time-restricted eating, when synchronized with sleep timing, can benefit heart and metabolic markers. Published in a journal by the American Heart Association, the research highlights the importance of meal timing relative to sleep, offering a non-pharmacological approach for at-risk populations. The team plans further trials to refine the protocol.",
-      "source": "Science Daily",
-      "time_ago": "22 hours ago",
-      "image_url": "/article_images/article_325b264ce8c15768_733df2928368.webp",
-      "category": "Science"
-    },
-    {
-      "id": "54a9315c7c1b8e5f",
-      "title": "Mapping the Mysteries of the Kuiper Belt with Advanced Telescopes",
-      "summary": "The Kuiper Belt, located beyond Neptune, is a vast region of frozen debris that holds ancient relics from the early solar system. Astronomers have cataloged about 4,000 Kuiper Belt objects (KBOs), including dwarf planets like Pluto and Eris, but expect this number to increase significantly with next-generation telescopes. The Vera C. Rubin Observatory in Chile, through its Legacy Survey of Space and Time (LSST) project, began operations last year to illuminate this murky area. Other observatories like the James Webb Space Telescope (JWST) will also contribute. Scientists aim to answer key questions, such as whether hidden planets exist in the belt, how far it extends, and what clues it holds about planetary formation. The Kuiper Belt acts as a time capsule, preserving structures like the 'kernel' at 44 astronomical units, which may result from Neptune's migration. This research could shed light on the solar system's history and dynamic processes.",
-      "source": "Ars Science",
-      "time_ago": "2 days ago",
-      "image_url": "/article_images/article_54a9315c7c1b8e5f_07265a12eca5.webp",
       "category": "Science"
     }
   ]

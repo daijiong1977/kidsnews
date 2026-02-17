@@ -1,0 +1,104 @@
+{
+  "title": "Scientists Find Tiny RNA Clues in Cancer",
+  "summary": "Scientists discovered tiny RNA molecules called oncRNAs that are found in cancer but not in normal cells. They studied many types of cancer like breast, lung, and colon, and found that each cancer has its own unique set of oncRNAs, like a special barcode. These oncRNAs help identify the cancer type and can even make tumors grow faster. In experiments with mice, some oncRNAs caused cancer cells to spread or multiply more quickly. The scientists also found that cancer cells release oncRNAs into the blood, which can be measured with a simple blood test. In breast cancer patients, high levels of oncRNAs after treatment meant worse survival, showing these molecules could help doctors monitor cancer. This research helps us understand cancer better and may lead to new ways to detect and treat it.",
+  "keywords": [
+    {
+      "term": "oncRNAs",
+      "explanation": "tiny RNA molecules found only in cancer cells"
+    },
+    {
+      "term": "cancer",
+      "explanation": "a disease where cells grow out of control"
+    },
+    {
+      "term": "blood test",
+      "explanation": "a simple test using blood to check for diseases"
+    },
+    {
+      "term": "mice",
+      "explanation": "small animals used in experiments to study diseases"
+    },
+    {
+      "term": "barcode",
+      "explanation": "a unique pattern that helps identify something"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are oncRNAs?",
+      "options": [
+        "Tiny RNA molecules found in cancer",
+        "Proteins in normal cells",
+        "Vitamins in food",
+        "Bacteria in the body"
+      ],
+      "correct_answer": "Tiny RNA molecules found in cancer"
+    },
+    {
+      "question": "Where did scientists find oncRNAs?",
+      "options": [
+        "Only in cancer cells",
+        "In all healthy cells",
+        "In plants",
+        "In water"
+      ],
+      "correct_answer": "Only in cancer cells"
+    },
+    {
+      "question": "How do oncRNAs help identify cancer?",
+      "options": [
+        "Like a barcode for each cancer type",
+        "By changing color",
+        "By making noise",
+        "By moving fast"
+      ],
+      "correct_answer": "Like a barcode for each cancer type"
+    },
+    {
+      "question": "What did oncRNAs do in mice experiments?",
+      "options": [
+        "Made tumors grow faster",
+        "Cured cancer",
+        "Made mice sleep",
+        "Changed fur color"
+      ],
+      "correct_answer": "Made tumors grow faster"
+    },
+    {
+      "question": "How can oncRNAs be measured in patients?",
+      "options": [
+        "With a blood test",
+        "By looking at X-rays",
+        "By listening to the heart",
+        "By touching the skin"
+      ],
+      "correct_answer": "With a blood test"
+    },
+    {
+      "question": "What did high oncRNA levels after treatment mean for breast cancer patients?",
+      "options": [
+        "Worse survival",
+        "Better health",
+        "No change",
+        "Faster recovery"
+      ],
+      "correct_answer": "Worse survival"
+    }
+  ],
+  "background_read": [
+    "Cancer is a disease where cells in the body grow too much and can spread. Scientists study it to find ways to help people get better. RNA is a tiny molecule in cells that helps control how they work. In this article, scientists found special RNAs called oncRNAs that are only in cancer cells. They used experiments with mice and blood tests from patients to learn how oncRNAs affect cancer and might help doctors in the future."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists studying cancer",
+    "WHAT: Found oncRNAs, tiny molecules in cancer cells",
+    "WHERE: In cancer types like breast and lung, and in blood",
+    "WHY: To understand cancer better and help with detection and treatment"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "Scientists are excited about finding new clues in cancer that could lead to better tests and treatments."
+    }
+  ],
+  "image_url": "/article_images/article_e7cf000a3a2dd1e9_299778d2858f.webp"
+}
