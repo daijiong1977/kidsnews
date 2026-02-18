@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "e97c381f3c13fad0",
-      "title": "UK Selects Electronic Artist Look Mum No Computer for Eurovision 2024",
-      "summary": "Look Mum No Computer, an electronic music artist and tech creator known for inventing unique musical instruments, has been selected by the BBC to represent the United Kingdom at the Eurovision Song Contest 2024 in Vienna. Originally named Sam Battle, he began his career as the frontman of indie rock band Zibra, performing at events like Glastonbury in 2015, before transitioning to a solo project. He expresses enthusiasm for Eurovision, citing it as an honor to join its legacy and bring joy to audiences. With 1.4 million combined social media followers, he gains attention for crafting unusual instruments such as organs from Furby toys and flame-throwing keyboards. The BBC's internal process, aided by industry experts, led to this choice, with Kalpna Patel-Knight praising his bold vision and electric performance style as emblematic of British creativity and wit. Although his song remains unrevealed, BBC Radio 2 DJ Scott Mills hints it blends diverse influences like Basshunter and Blur, suggesting a departure from the UK's typically safe entries to offer something innovative for the international stage in May.",
+      "id": "0bdee8eee054d563",
+      "title": "V&A Museum Exhibits YouTube's Origins with Reconstructed Watchpage",
+      "summary": "The Victoria & Albert Museum in London has launched an exhibit featuring a reconstruction of YouTube's original watchpage from December 2006, created in collaboration with YouTube using archived internet data. Additionally, the museum has acquired the first video ever uploaded to YouTube, Me at the Zoo, posted by co-founder Jawed Karim in April 2005. This video, with nearly 380 million views, symbolizes the rise of user-generated content and influenced digital design with features like rating buttons and sharing options. YouTube CEO Neal Mohan emphasized that the exhibit allows the public to experience the beginnings of a global cultural phenomenon. Senior curator Corinna Gardner noted it highlights internet history and digital design's impact on society. The V&A East Storehouse will also explore the reconstruction process, aligning with the museum's focus on preserving digital artifacts such as WeChat and Flappy Bird. This initiative aims to inspire future generations by showcasing how platforms like YouTube shaped media consumption and creation.",
       "source": "BBC Entertainment",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_e97c381f3c13fad0_717397370662.webp",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_0bdee8eee054d563_498d0918c1a2.webp",
       "category": "Fun"
     },
     {
-      "id": "b2d28496c785ce08",
-      "title": "Raducanu's Early Exit in Dubai Highlights Tennis Challenges",
-      "summary": "Emma Raducanu, the British tennis star and former US Open champion, faced an unexpected defeat in the first round of the Dubai Tennis Championships. Her opponent, Antonia Ruzic from Croatia, ranked 67th globally, entered the main draw as a lucky loser after several withdrawals due to injuries, illness, or scheduling conflicts. The match unfolded dramatically: Ruzic dominated the first set 6-1, but Raducanu mounted a comeback in the second set, winning 7-5 after being down 5-3. However, in the decisive third set, Raducanu initially led 2-0 before Ruzic rallied to win six consecutive games, securing a 6-2 victory. This marked Ruzic's first career win over a top-30 player, a significant milestone she attributed to quick adaptation despite minimal preparation. Raducanu's performance was hampered by medical issues, as she required attention during the match, similar to her recent retirement in Qatar. The article underscores the unpredictable nature of tennis, where lower-ranked players like Ruzic can capitalize on opportunities, and highlights Raducanu's ongoing struggles with consistency and health since her 2021 US Open triumph.",
+      "id": "bbc565845f1b5386",
+      "title": "Cynthia Erivo Navigates Criticism in Dracula Stage Adaptation",
+      "summary": "Cynthia Erivo, a renowned actress and singer, stars in a minimalist stage adaptation of Dracula at London's Noël Coward Theatre. In this production, she performs solo, portraying 23 characters with 20,000 words of dialogue over two hours, using live technology like cameras to project close-ups onto a screen. During previews, some audience members criticized her for relying on an autocue and learning lines, but Erivo dismisses these comments, emphasizing her commitment to the role and personal growth. She explains that the challenge pushes her as an artist, and she blocks out online negativity to focus on her performance. The adaptation reimagines Bram Stoker's classic vampire tale with Erivo's Nigerian accent and rapid costume changes, blending film and stage elements. Erivo, who has won multiple prestigious awards, sees this role as an opportunity to evolve creatively, highlighting the demanding nature of live theater.",
+      "source": "BBC Entertainment",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_bbc565845f1b5386_13ba4362fc1d.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "4505b49d61ed6faa",
+      "title": "Badosa Responds to Criticism Over Match Withdrawal in Dubai",
+      "summary": "Paula Badosa, a former world number two tennis player from Spain, has addressed accusations of being 'disrespectful to the game' after retiring from a match at the Dubai Tennis Championships. She withdrew due to a right thigh injury while leading against Elina Svitolina, having previously beaten Katerina Siniakova. This follows four retirements last year, and Badosa has contemplated ending her career in 2024 because of chronic injuries, including back problems. On social media, a user criticized her frequent withdrawals, prompting Badosa to explain the challenges of living with a chronic injury. She described daily struggles with pain, efforts to find solutions, and her determination to continue playing tennis out of love for the sport. Badosa also highlighted the toxicity of social media, linking it to mental health issues among players. Despite her high ranking in 2022 and a recent semi-final at the Australian Open, her current rank has dropped to 70th, underscoring the impact of injuries on her career.",
       "source": "BBC Tennis",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_b2d28496c785ce08_c6c1ac824289.webp",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_4505b49d61ed6faa_5397c6f28901.webp",
       "category": "Fun"
     },
     {
-      "id": "9a08384cce4ca204",
-      "title": "The Impact of Beam Misalignment on Quantum Encryption Security",
-      "summary": "Quantum key distribution (QKD) is an advanced encryption technique that leverages quantum mechanics to enable secure communication between two parties, even in the presence of eavesdroppers. Its security stems from the principle that any interception attempt disrupts quantum signals, producing detectable errors. However, a significant challenge is pointing error, which occurs when the transmitter and receiver are misaligned due to factors like mechanical vibrations or atmospheric turbulence. This misalignment can degrade system performance by interfering with signal exchange. Researchers addressed this issue by developing an analytical model published in IEEE Journal of Quantum Electronics. They focused on the BB84 QKD protocol and used statistical distributions, such as Rayleigh and Hoyt, to realistically model beam misalignment. This allowed them to derive expressions for error probabilities and calculate the quantum bit error rate (QBER), a key metric reflecting system reliability. From QBER, they determined the secret key rate (SKR), which measures how quickly secure keys can be generated. Their findings indicate that increased beam waist leads to higher pointing error, resulting in elevated QBER and reduced SKR, thus compromising performance. Expanding the receiver aperture can mitigate this, but only to a limit. Interestingly, asymmetric misalignment sometimes outperforms symmetric cases. To maintain secure communication, increasing photon transmission may be necessary. This study provides insights into optimizing QKD systems by addressing alignment flaws.",
-      "source": "Science Daily - Technology",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_9a08384cce4ca204_2df1dc4abaab.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "fa345a7878f8b73d",
-      "title": "Impact of Frozen Tax Thresholds on UK Salaries",
-      "summary": "This article examines how the UK government's decision to freeze income tax and National Insurance thresholds until 2031 affects workers' take-home pay. With wages rising faster than inflation since July 2023, the longest such period since the 2008 financial crisis, employees might face higher tax bills despite salary increases. Tax thresholds, which determine the rates applied to earnings, are typically adjusted for inflation to maintain purchasing power. However, the freeze means thresholds remain static, so as salaries grow, more income falls into higher tax bands. The article includes a calculator for employees in England, Wales, and Northern Ireland to estimate personal impact, noting that Scottish thresholds differ and self-employed workers have separate rules. For example, someone earning the average UK salary of £39,000 could pay an additional £465 in tax by 2030-31 due to the freeze, with £227 attributed to an extension announced by Chancellor Rachel Reeves. The analysis highlights the broader economic context, using Office for National Statistics data to show real wage growth, and discusses the implications for financial planning and government revenue.",
-      "source": "BBC Business",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_fa345a7878f8b73d_f1bf43616dd0.webp",
-      "category": "Fun"
-    },
-    {
-      "id": "57d4622b58aa91e5",
-      "title": "Remembering Billy Steinberg: The Lyricist Behind Iconic Hits",
-      "summary": "Billy Steinberg, a Grammy-winning songwriter known for co-writing Madonna's 'Like a Virgin' and other chart-topping hits, passed away at 75 in Los Angeles after a cancer diagnosis. His family described him as a visionary lyricist and influential figure whose songs, performed by artists like Whitney Houston, Cyndi Lauper, and Celine Dion, often began as personal reflections and evolved into anthems. Steinberg collaborated with Tom Kelly starting in the early 1980s, leading to successes such as 'True Colors' and 'So Emotional.' Throughout his four-decade career, he earned accolades including a Grammy for Celine Dion's album 'Falling Into You' and induction into the Songwriters Hall of Fame in 2011. His legacy emphasizes the power of honest songwriting to create lasting connections, as highlighted by his family's statement on the magic of hearing crowds sing his lyrics. Steinberg is survived by his wife and children, leaving behind a body of work celebrated as enduring classics.",
+      "id": "bf6f0002380554e6",
+      "title": "A Singer's 50-Year Quest to Reconnect with His Biological Father",
+      "summary": "Peter Cunnah, the lead singer of the 1990s band D:Ream, known for the hit 'Things Can Only Get Better,' embarked on a lifelong personal journey to find his birth parents. Adopted as an infant in Belfast and raised by Les and Monica Cunnah in Londonderry, he was told about his adoption at a young age by his adoptive mother, which he processed over time. While achieving fame in the 1990s, including chart success and the song's use as a political anthem, Peter faced personal struggles with addiction. Despite these challenges, he persisted in searching for his biological family. After over 50 years, he located his birth father, Patrick Hanna, in Barnsley, Yorkshire, and had an emotional reunion. He discovered that his father is a touring musician and that he has half-siblings involved in music, such as Philippa Hanna and Stuart Zender. This story highlights themes of identity, resilience, and the impact of adoption on personal growth, showing how Peter's musical talent may have familial roots.",
       "source": "BBC Entertainment",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_57d4622b58aa91e5_5d7ee1889f40.webp",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_bf6f0002380554e6_9d25bc83a384.webp",
       "category": "Fun"
     },
     {
-      "id": "3742c1107fd6c199",
-      "title": "Reviving the Britpop Rivalry: A New Play on Oasis vs. Blur",
-      "summary": "A new theatrical production titled The Battle, currently showing at the Birmingham Rep theatre, recreates the intense 1995 Britpop rivalry between the bands Oasis and Blur. The play dramatizes the chart race that marked the peak of their competition, which divided fans and captivated media attention. Actors such as George Usher, who portrays Liam Gallagher of Oasis, and Oscar Lloyd, playing Damon Albarn of Blur, bring these iconic figures to life. Interestingly, the cast members have taken sides in the rivalry, with Usher favoring Oasis due to his upbringing and Lloyd championing Blur for their musical reinvention. Despite their on-stage personas, the actors maintain a good-natured rivalry, reflecting a broader cultural interest in these bands that persists three decades later. The play explores how the bands' friendly start in 1995 escalated into a bitter feud, as described by writer John Niven, offering insights into the dynamics of fame and competition in the music industry.",
-      "source": "BBC Entertainment",
-      "time_ago": "10 hours ago",
-      "image_url": "/article_images/article_3742c1107fd6c199_828a18473011.webp",
+      "id": "84282d1ea7c3c307",
+      "title": "Alcaraz Overcomes Challenges in First Post-Australian Open Victory",
+      "summary": "Carlos Alcaraz secured a hard-fought victory in his first match since winning the Australian Open, defeating Arthur Rinderknech 6-4, 7-6 (7-5) in the first round of the Qatar Open in Doha. The match presented significant challenges, particularly in the second set where Alcaraz saved two set points before clinching the tie-break. Alcaraz acknowledged the difficulty, describing Rinderknech as a dangerous opponent and expressing satisfaction with his performance under pressure. This win extends Alcaraz's perfect start to the 2026 season to 8-0 and marks his 150th tour-level victory on hard courts. He now advances to face Valentin Royer in the second round. The article also highlights fitness issues in the Dubai Tennis Championships, where several players, including Mirra Andreeva and Belinda Bencic, advanced due to opponent withdrawals, reflecting ongoing concerns about player health in the sport. Additionally, the WTA announced the formation of a council to improve the women's game, indicating broader organizational efforts.",
+      "source": "BBC Tennis",
+      "time_ago": "17 hours ago",
+      "image_url": "/article_images/article_84282d1ea7c3c307_774fa8da81c4.webp",
+      "category": "Fun"
+    },
+    {
+      "id": "f32a9d02fba76fb7",
+      "title": "Birmingham City Women's Team Acquired by New Investors Including Sports Icons",
+      "summary": "Birmingham City's women's football team has undergone a significant ownership change, with Shelby Companies Limited (SCL), a subsidiary of Knighthead Capital Management, acquiring a 97% stake. Knighthead is co-founded by Tom Wagner, the chairman of Birmingham City. This follows their previous takeover of the men's team in 2023. The remaining 3% is held by a group of prominent female investors, including England football legend Karen Carney, who earned 144 caps for her country and won trophies with Birmingham, and Kim Clijsters, a three-time US Open tennis champion. The club stated that this deal aims to elevate the focus on the women's team and support ambitions to compete at the highest levels in women's football. Currently, Birmingham's women's team is in Women's Super League 2, positioned for promotion back to the top flight after relegation in 2021-22. The team has a strong heritage, having won the FA Cup in 2012 and developed talents like Carney, Kerys Harrop, and Jess Carter. No immediate changes to staffing or operations are planned, but chief executive Jeremy Dale described it as a pivotal moment in the club's history, emphasizing the importance of having influential women as investors.",
+      "source": "BBC Tennis",
+      "time_ago": "17 hours ago",
+      "image_url": "/article_images/article_f32a9d02fba76fb7_ff7fb6e9662a.webp",
       "category": "Fun"
     }
   ]
