@@ -1,0 +1,104 @@
+{
+  "title": "Finding New Magnets with Computers",
+  "summary": "Scientists at the University of New Hampshire are using artificial intelligence, or AI, to help find new magnetic materials. Magnets are important for things like electric cars and phones, but many strong magnets today use rare earth elements that are expensive and hard to get. The scientists created a big database with information about 67,573 magnetic materials, including 25 new ones that can stay magnetic even when hot. They used AI to read science papers and learn about these materials. This work could help make electric cars cheaper and reduce the need for rare earths. The team hopes their database and AI tools will help discover more sustainable magnets in the future.",
+  "keywords": [
+    {
+      "term": "artificial intelligence",
+      "explanation": "computers that can learn and think like humans"
+    },
+    {
+      "term": "magnets",
+      "explanation": "objects that attract metal and are used in many devices"
+    },
+    {
+      "term": "database",
+      "explanation": "a collection of information stored on a computer"
+    },
+    {
+      "term": "rare earth elements",
+      "explanation": "special metals that are hard to find and expensive"
+    },
+    {
+      "term": "electric cars",
+      "explanation": "vehicles that run on electricity instead of gas"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are scientists using to find new magnetic materials?",
+      "options": [
+        "Artificial intelligence",
+        "Telescopes",
+        "Microscopes",
+        "Robots"
+      ],
+      "correct_answer": "Artificial intelligence"
+    },
+    {
+      "question": "How many magnetic materials are in the new database?",
+      "options": [
+        "67,573",
+        "25",
+        "100,000",
+        "50,000"
+      ],
+      "correct_answer": "67,573"
+    },
+    {
+      "question": "Why are rare earth elements a problem for magnets?",
+      "options": [
+        "They are expensive and hard to get",
+        "They are too heavy",
+        "They are not magnetic",
+        "They are easy to find"
+      ],
+      "correct_answer": "They are expensive and hard to get"
+    },
+    {
+      "question": "What can the new magnets do even when hot?",
+      "options": [
+        "Stay magnetic",
+        "Melt",
+        "Stop working",
+        "Change color"
+      ],
+      "correct_answer": "Stay magnetic"
+    },
+    {
+      "question": "What is one thing the scientists hope their work will help?",
+      "options": [
+        "Make electric cars cheaper",
+        "Build bigger phones",
+        "Find more gold",
+        "Make computers slower"
+      ],
+      "correct_answer": "Make electric cars cheaper"
+    },
+    {
+      "question": "Who helped support this project?",
+      "options": [
+        "U.S. Department of Energy",
+        "NASA",
+        "Local schools",
+        "Car companies"
+      ],
+      "correct_answer": "U.S. Department of Energy"
+    }
+  ],
+  "background_read": [
+    "Magnets are used in many everyday things like toys, phones, and cars. They attract metal and help machines work. Some magnets are made from rare earth elements, which are special metals found in only a few places in the world. This makes them expensive and sometimes hard to get. Scientists are looking for new materials to make magnets that are cheaper and easier to find. Artificial intelligence, or AI, is a tool that uses computers to learn from information and solve problems quickly. In this article, scientists used AI to search for new magnetic materials in a big database, which could help make technology better and more affordable."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the University of New Hampshire",
+    "WHAT: Using AI to find new magnetic materials and create a database",
+    "WHERE: University of New Hampshire in the United States",
+    "WHY: To reduce dependence on rare earth elements and make electric cars cheaper"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "Scientists are excited about using AI to speed up finding new materials that could improve technology."
+    }
+  ],
+  "image_url": "/article_images/article_0437fcb70730d56f_bbdc3b5cac53.webp"
+}
