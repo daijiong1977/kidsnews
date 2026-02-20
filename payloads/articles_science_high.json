@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "cc94025e41443408",
+      "title": "Unveiling Chemical Hazards in Hair Extensions: Implications for Health and Regulation",
+      "summary": "A comprehensive investigation conducted by the Silent Spring Institute has elucidated the presence of numerous hazardous chemicals in commercially available hair extensions, underscoring significant public health concerns. Utilizing sophisticated methodologies such as non-targeted analysis coupled with two-dimensional gas chromatography and high-resolution mass spectrometry, researchers analyzed 43 hair extension products, detecting over 900 chemical signatures and identifying 169 distinct compounds across nine structural classes. These substances, including flame retardants, phthalates, pesticides, styrene, tetrachloroethane, and organotins, are associated with carcinogenic, endocrine-disrupting, developmental, and immunotoxic effects. The study particularly highlights the disproportionate exposure risk for black women, who report using hair extensions at rates exceeding 70%, compared to less than 10% in other demographic groups, often driven by cultural expression and stylistic preferences. Despite the global market's projection to surpass $14 billion by 2028, the industry remains largely unregulated, with manufacturers frequently omitting ingredient disclosures, thereby obscuring potential health risks from prolonged dermal contact and inhalation during thermal styling. The findings advocate for enhanced regulatory frameworks to mandate transparency and foster the development of safer alternatives, addressing systemic inequities in consumer product safety.",
+      "source": "Science Daily",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_cc94025e41443408_6e260a9fc9ac.webp",
+      "category": "Science"
+    },
+    {
+      "id": "5b97f705537adade",
+      "title": "Giant Viruses as Catalysts in Eukaryogenesis: Evidence from Ushikuvirus and Evolutionary Implications",
+      "summary": "The viral eukaryogenesis hypothesis, independently proposed by Professor Masaharu Takemura and Dr. Philip Bell in 2001, posits that the nucleus of eukaryotic cells may have originated from a large DNA virus, such as a poxvirus, infecting an archaeal ancestor. This theory challenges traditional views of cellular evolution by suggesting viruses played a central role in the emergence of complex life. Supporting evidence emerged with the discovery of giant DNA viruses in 2003, which form virus factories—membrane-bound structures for DNA replication that resemble primitive nuclei—within host cells. Recent research, detailed in the Journal of Virology, describes ushikuvirus, a new giant DNA virus isolated from Lake Ushiku in Japan, which infects vermamoeba and exhibits distinct cytopathic effects and replication strategies. Unlike related viruses like Medusavirus and clandestinovirus that replicate within intact host nuclei, ushikuvirus disrupts the nuclear membrane, suggesting evolutionary adaptations and a possible link to viruses such as pandoravirus. These findings underscore the diversity of giant viruses, including families like Mamonoviridae, and their potential as models for understanding nuclear origins. Professor Takemura emphasizes that giant viruses represent an unexplored 'treasure trove' bridging virology and biology, offering insights into gene transfer and cellular evolution. The study involved collaborations with institutions like the National Institute of Natural Sciences, highlighting interdisciplinary approaches to unraveling life's deep evolutionary history.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_5b97f705537adade_228eaf51eed3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "a9cae9cc4784935f",
+      "title": "Crossmodal Correspondences and the Bouba/Kiki Effect: Insights from Avian Cognition",
+      "summary": "The bouba/kiki effect, a well-documented psychological phenomenon wherein individuals associate the pseudoword \"bouba\" with rounded shapes and \"kiki\" with angular shapes, has been a subject of scientific inquiry since its formalization in the mid-20th century. Initially attributed to linguistic or cultural factors, subsequent research involving diverse linguistic groups and preverbal infants demonstrated its universality, suggesting an innate human cognitive bias. This led to hypotheses positing the effect as a byproduct of specialized neural mechanisms underpinning complex language acquisition, potentially unique to humans. However, failures to replicate the effect in non-human primates prompted a reevaluation. A recent study by Loconsole, Benavides-Varela, and Regolin employed an innovative experimental paradigm using newly hatched chickens (Gallus gallus domesticus) as model organisms due to their precocial nature and absence of experiential learning. In controlled trials, chicks aged one to three days were presented with auditory stimuli (recordings of \"bouba\" and \"kiki\") alongside visual stimuli (round versus spiky shapes). Quantitative analysis revealed a significant preference: 80% of chicks approached the round shape upon hearing \"bouba,\" whereas exposure to \"kiki\" reduced this to 25%, with a concomitant increase in spiky shape selection. These results robustly indicate that the bouba/kiki effect transcends phylogenetic boundaries, implicating it as a crossmodal correspondence—a phenomenon where sensory modalities interact to shape perception. The study critiques prior primate research, suggesting that adult primates' complex motivational states may obscure such instinctual responses. Furthermore, it aligns with broader findings in comparative cognition, such as pitch-size associations observed in dogs and tortoises, underscoring the evolutionary conservation of basic perceptual processes. This research not only challenges anthropocentric views of cognition but also offers methodological insights for future cross-species investigations, emphasizing the need to consider developmental stages and ecological validity in experimental design.",
+      "source": "Ars Science",
+      "time_ago": "16 hours ago",
+      "image_url": "/article_images/article_a9cae9cc4784935f_77f4c91908b3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "dc253fe3b6ea0e61",
+      "title": "Atmospheric Contamination from Uncontrolled Rocket Re-entry: A Case Study of SpaceX Falcon 9 Failure",
+      "summary": "The uncontrolled re-entry of a SpaceX Falcon 9 rocket in February 2025, which resulted in a dramatic fireball over western Europe, has provided scientists with a critical case study on atmospheric pollution from space debris. Researchers from the Leibniz Institute of Atmospheric Physics and the University of Leeds utilized laser-based detection methods to measure a tenfold increase in lithium concentrations at approximately 100 kilometers altitude, directly attributing this spike to the rocket's aluminium-lithium alloy composition. With the rocket releasing around 30kg of lithium—significantly surpassing the natural daily influx from meteors—this event highlights emerging environmental concerns. The contamination potentially threatens the ozone layer through aluminium oxide interactions and may disrupt atmospheric aerosols, thereby influencing climate regulation mechanisms. As SpaceX announces plans to deploy vast satellite constellations, this incident underscores the urgent need for comprehensive risk assessments regarding the cumulative impact of frequent rocket launches on Earth's upper atmospheric chemistry, calling for enhanced regulatory frameworks and sustainable space exploration practices.",
+      "source": "BBC Science",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_dc253fe3b6ea0e61_03140978125d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7da78b877d5ea20f",
+      "title": "Engineering Subnanometer Pores: Implications for DNA Sequencing and Neuromorphic Systems",
+      "summary": "A team from The University of Osaka has pioneered a method to fabricate atom-sized gates through electrochemical deposition within a silicon nitride membrane, achieving subnanometer pores that emulate biological ion channels. By applying negative voltage, a solid precipitate forms to block a nanopore, and reversing the voltage dissolves it, enabling reversible opening and closing cycles. Electrical current analysis revealed spikes indicative of multiple ultrasmall pores, with tunability via chemical composition and pH adjustments for selective ion transport. This innovation addresses the nanoscale challenge of reproducing angstrom-scale structures and offers profound applications: in DNA sequencing, it could enhance single-molecule sensing by nanopores; in neuromorphic computing, it facilitates the simulation of neural spikes; and in nanoreactors, it enables confined reaction environments. The robust, controllable process, documented in Nature Communications, advances fundamental understanding of ion dynamics and holds promise for transformative technologies in biotechnology and computing.",
+      "source": "Science Daily",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_7da78b877d5ea20f_1653f56f8e42.webp",
+      "category": "Science"
+    },
+    {
       "id": "8e0974bf89c0b302",
       "title": "Commemorating a Broadcasting Icon: BBC's Centennial Tribute to David Attenborough",
       "summary": "The BBC has unveiled comprehensive plans to commemorate Sir David Attenborough's centennial birthday on May 8, featuring a week-long programming slate designed to celebrate his prolific career. This initiative includes three new productions: Making Life on Earth: Attenborough's Greatest Adventure, offering retrospective insights into the 1979 series Life on Earth, which documented 600 species across 40 countries and addressed production challenges such as political instability and wildlife encounters; Secret Garden, a five-episode series investigating micro-ecosystems within British gardens to advocate for public conservation actions; and David Attenborough's 100 Years on Planet Earth, a live orchestral event at the Royal Albert Hall. Additionally, the schedule will incorporate archival episodes from seminal series like Planet Earth and Blue Planet. Jack Bootle, BBC's head of commissioning for specialist factual, articulates Attenborough's transformative influence on natural history broadcasting and public ecological consciousness. This celebratory framework not only acknowledges Attenborough's legacy but also reinforces the BBC's commitment to educational outreach and environmental stewardship, positioning the event as a cultural milestone in media history.",
       "source": "BBC Science",
-      "time_ago": "3 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_8e0974bf89c0b302_dd04e688174d.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0437fcb70730d56f",
-      "title": "AI-Driven Discovery of High-Temperature Magnetic Materials to Mitigate Rare Earth Dependence",
-      "summary": "A research team at the University of New Hampshire has employed artificial intelligence to expedite the identification of advanced magnetic materials, resulting in the creation of the Northeast Materials Database—a comprehensive resource cataloging 67,573 magnetic compounds. Notably, this includes 25 materials previously unclassified as magnets capable of retaining magnetism at elevated temperatures. The study, published in Nature Communications, addresses the critical issue of dependence on rare earth elements, which are economically costly, predominantly imported, and supply-constrained for high-performance magnets essential in electric vehicles, renewable-energy infrastructure, and consumer electronics. The AI system autonomously extracts experimental data from scientific literature, trains computational models to assess magnetic properties and Curie temperatures, and synthesizes findings into a searchable database. This methodology circumvents the prohibitive time and financial constraints of traditional laboratory testing for millions of potential compounds. Led by doctoral student Suman Itani and physics professor Jiadong Zang, the research aims to foster sustainable alternatives to permanent magnets, potentially reducing manufacturing costs and enhancing U.S. economic resilience. Supported by the U.S. Department of Energy's Office of Basic Energy Sciences, the project also explores ancillary applications in higher education, such as leveraging large language models to digitize archival materials. This interdisciplinary effort underscores the transformative potential of AI in materials science and sustainable technology development.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_0437fcb70730d56f_bbdc3b5cac53.webp",
-      "category": "Science"
-    },
-    {
-      "id": "bd6ddc08f5f33749",
-      "title": "Innovative Hydration Strategy in Sodium Vanadium Oxide for High-Performance Sodium-Ion Batteries and Integrated Desalination",
-      "summary": "A groundbreaking study from the University of Surrey reveals that retaining structural water in sodium vanadium oxide, specifically in its hydrated form as nanostructured sodium vanadate hydrate (NVOH), markedly enhances the electrochemical properties of sodium-ion batteries. Sodium-ion technology is positioned as a sustainable successor to lithium-ion batteries, which are constrained by resource limitations and ecological concerns. Published in the Journal of Materials Chemistry A, the research indicates that NVOH achieves nearly double the energy density, accelerated charging kinetics, and robust cyclability exceeding 400 cycles relative to conventional anhydrous counterparts. Furthermore, the material exhibits exceptional functionality in saline environments, facilitating electrochemical desalination by extracting sodium and chloride ions, thereby producing freshwater. This bifunctional capability suggests the potential for utilizing seawater as an electrolyte, concurrently addressing energy storage and water scarcity challenges. Dr. Daniel Commandeur, the lead investigator, notes that these findings contravene established paradigms of dehydrating battery materials, opening avenues for multifunctional energy systems. The implications extend to scalable applications in grid-scale renewable energy integration and electric mobility, promoting safer, cost-effective, and environmentally benign alternatives. This advancement accelerates the commercial viability of sodium-ion batteries, contributing to the transition towards circular and resilient energy infrastructures.",
-      "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_bd6ddc08f5f33749_e4bfe6b21c2e.webp",
-      "category": "Science"
-    },
-    {
-      "id": "62a62be8d79b067c",
-      "title": "A Paleontological and Historical Examination: The 'Smiling' Crinoid Fossil from Holy Island",
-      "summary": "Christine Clark, a 64-year-old fossil hunter, made a notable discovery during a Boxing Day excursion on Holy Island, Northumberland, when she encountered a pebble that anthropomorphically appeared to be smiling, reminiscent of dentures. This find occurred within the context of her annual searches for Cuddy's beads, fossilized segments of crinoid stems that hold cultural significance on the island. Holy Island, a tidal spit with a mere 150 inhabitants, is historically recognized as the epicenter of early English Christianity, largely due to St. Cuthbert's residence in the 670s and subsequent veneration. The nomenclature 'Cuddy's beads' originates from local lore, where medieval inhabitants attributed these fossils to Cuthbert's spiritual influence, believing collection enhanced spirituality. Clark's fossil garnered viral attention on social media before being professionally authenticated by the British Geological Survey as a substantial crinoid component. Crinoids, marine echinoderms first documented in the Cambrian period over 500 million years ago, represent some of the earliest complex animal life; their morphology, featuring a flexible stem anchored to the seabed and branching arms, earns them the epithet 'sea lilies.' This discovery underscores the intersection of amateur paleontology, scientific validation, and historical narrative, illustrating how fossil artifacts can bridge deep time and human culture.",
-      "source": "BBC Science",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_62a62be8d79b067c_dff9bd0a0150.webp",
-      "category": "Science"
-    },
-    {
-      "id": "5c1a3aec0170f34c",
-      "title": "Microsoft's Project Silica: An Advanced Framework for Millennial Data Archival Using Glass-Based Nanostorage",
-      "summary": "Microsoft's Project Silica represents a sophisticated approach to archival data storage, utilizing glass as a medium capable of preserving information for up to 10,000 years. This system addresses critical challenges in long-term data retention by leveraging glass's inherent thermal and chemical stability, resistance to moisture ingress, temperature fluctuations, and electromagnetic interference, thereby eliminating energy consumption during storage. The core technology involves femtosecond lasers that etch data at nanoscale precision, achieving densities exceeding a Gigabit per cubic millimeter through the creation of voxels—three-dimensional data units. Two distinct encoding methods are employed: one exploits birefringence, where polarized laser pulses induce refractive variations to store multiple bits per voxel, and another modulates laser energy to alter refractive magnitude for similar multi-bit storage. Data retrieval is facilitated by phase contrast microscopy, which detects refractive index differences, with an automated system using convolutional neural networks to interpret images by analyzing subtle influences from adjacent voxels. This integration of materials science, photonics, and artificial intelligence aims to safeguard pivotal datasets, such as historical archives and scientific research, against obsolescence and degradation, though scalability and cost-effectiveness remain areas for further exploration.",
-      "source": "Ars Science",
-      "time_ago": "17 hours ago",
-      "image_url": "/article_images/article_5c1a3aec0170f34c_6bd6cb72420a.webp",
-      "category": "Science"
-    },
-    {
-      "id": "c93fb106d0e1311a",
-      "title": "Investigating the Correlation Between Sugary Beverage Consumption and Adolescent Anxiety Disorders",
-      "summary": "A systematic review conducted by researchers from Bournemouth University, led by Dr. Karim Khaled and co-authored by Dr. Chloe Casey, has elucidated a significant association between elevated consumption of sugary beverages and heightened anxiety symptoms among adolescents. Published in the Journal of Human Nutrition and Dietetics, this study amalgamated data from numerous prior investigations that utilized survey methodologies to assess both dietary intake—encompassing fizzy sodas, energy drinks, sweetened juices, and similar products—and mental health indicators. The analysis consistently demonstrated that adolescents with higher sugary drink consumption reported more pronounced anxiety symptoms, though the researchers rigorously emphasize that this correlation does not imply causation due to the observational nature of the data. Dr. Casey notes that while public health initiatives often prioritize physical consequences like obesity, the mental health dimensions of diet, particularly concerning nutrient-poor, energy-dense beverages, remain comparatively underexplored. The study posits that modifiable lifestyle factors, such as dietary habits, could be targeted to mitigate the escalating prevalence of anxiety disorders in youth, but it also acknowledges confounding variables like pre-existing anxiety, familial environments, or sleep disturbances that might concurrently influence both sugar intake and anxiety levels. This research underscores the necessity for longitudinal studies to delineate causal pathways and informs public health strategies aimed at holistic adolescent well-being.",
-      "source": "Science Daily",
-      "time_ago": "21 hours ago",
-      "image_url": "/article_images/article_c93fb106d0e1311a_df0345a26766.webp",
       "category": "Science"
     }
   ]
