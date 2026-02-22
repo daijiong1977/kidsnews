@@ -1,0 +1,104 @@
+{
+  "title": "NASA's Moon Trip Delayed by Rocket Problem",
+  "summary": "NASA has delayed a big mission to send astronauts to the Moon because of a problem with the rocket. The mission, called Artemis II, was supposed to launch on March 6, but during checks, engineers found an issue with helium flow. Helium is important for cooling and pressurizing the rocket. Four astronauts from the US and Canada are ready for a 10-day trip to the far side of the Moon and back, which would be the farthest humans have ever traveled in space. NASA says the delay is disappointing, but they need to fix the problem to keep everyone safe. This mission is a step toward landing astronauts on the Moon again by 2028. Space missions often have setbacks, like Neil Armstrong's mission in 1966 that had to end early due to a technical issue.",
+  "keywords": [
+    {
+      "term": "NASA",
+      "explanation": "the space agency of the United States that explores space"
+    },
+    {
+      "term": "Artemis II",
+      "explanation": "the name of the mission to send astronauts to the Moon"
+    },
+    {
+      "term": "helium",
+      "explanation": "a gas used to help the rocket work properly"
+    },
+    {
+      "term": "astronauts",
+      "explanation": "people who travel into space"
+    },
+    {
+      "term": "delay",
+      "explanation": "when something is postponed or put off to a later time"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of NASA's mission to send astronauts to the Moon?",
+      "options": [
+        "Artemis II",
+        "Gemini 8",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct_answer": "Artemis II"
+    },
+    {
+      "question": "Why was the launch delayed?",
+      "options": [
+        "A problem with helium flow",
+        "Bad weather",
+        "Astronauts got sick",
+        "No fuel"
+      ],
+      "correct_answer": "A problem with helium flow"
+    },
+    {
+      "question": "How many astronauts are going on the trip?",
+      "options": [
+        "Four",
+        "Two",
+        "Six",
+        "Eight"
+      ],
+      "correct_answer": "Four"
+    },
+    {
+      "question": "What is helium used for in the rocket?",
+      "options": [
+        "Cooling and pressurizing",
+        "Making noise",
+        "Coloring the rocket",
+        "Feeding astronauts"
+      ],
+      "correct_answer": "Cooling and pressurizing"
+    },
+    {
+      "question": "What year does NASA hope to land astronauts on the Moon again?",
+      "options": [
+        "2028",
+        "2030",
+        "2025",
+        "2050"
+      ],
+      "correct_answer": "2028"
+    },
+    {
+      "question": "Who had a mission end early in 1966 due to a technical issue?",
+      "options": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Sally Ride"
+      ],
+      "correct_answer": "Neil Armstrong"
+    }
+  ],
+  "background_read": [
+    "NASA is planning to send astronauts to the Moon for the first time in over 50 years. The Artemis II mission will take four astronauts on a 10-day journey to the far side of the Moon and back. This is a big step in space exploration to prepare for future Moon landings. Delays happen in space missions to ensure safety, like fixing rocket problems before launch."
+  ],
+  "Article_Structure": [
+    "WHO: NASA and four astronauts from the US and Canada",
+    "WHAT: A Moon mission called Artemis II is delayed due to a helium flow problem in the rocket",
+    "WHERE: Kennedy Space Center in Florida",
+    "WHY: To fix the technical issue and ensure a safe launch for the astronauts"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Safety first",
+      "description": "NASA delays the mission to fix problems and keep astronauts safe, even if it disappoints people."
+    }
+  ],
+  "image_url": "/article_images/article_81f177b6ee74f945_187a7bfd6f6c.webp"
+}
