@@ -1,0 +1,104 @@
+{
+  "title": "A Simple Blood Test to Predict Alzheimer's Disease",
+  "summary": "Scientists have created a new blood test that can predict when someone might start showing signs of Alzheimer's disease, a brain illness that affects memory. This test measures a protein in the blood called p tau217. By checking this protein, doctors can estimate if symptoms like forgetting things will begin in about three to four years. This helps because Alzheimer's has no cure yet, but knowing early can allow people to plan and join studies to slow it down. The test is cheaper and easier than brain scans. Researchers studied over 600 older adults to make this test work. It could help speed up finding treatments and support patients and doctors in making better health plans.",
+  "keywords": [
+    {
+      "term": "blood test",
+      "explanation": "a simple medical check using a small sample of blood"
+    },
+    {
+      "term": "Alzheimer's disease",
+      "explanation": "a brain disease that makes people forget things and have trouble thinking"
+    },
+    {
+      "term": "protein",
+      "explanation": "a tiny part in our body that helps it work, like p tau217 in this test"
+    },
+    {
+      "term": "symptoms",
+      "explanation": "signs of an illness, such as memory loss in Alzheimer's"
+    },
+    {
+      "term": "predict",
+      "explanation": "to guess or estimate what might happen in the future"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the new blood test predict?",
+      "options": [
+        "When someone will get a cold",
+        "When Alzheimer's symptoms might start",
+        "How tall someone will grow",
+        "What food someone likes"
+      ],
+      "correct_answer": "When Alzheimer's symptoms might start"
+    },
+    {
+      "question": "What protein is measured in the blood test?",
+      "options": [
+        "Glucose",
+        "p tau217",
+        "Hemoglobin",
+        "Insulin"
+      ],
+      "correct_answer": "p tau217"
+    },
+    {
+      "question": "How accurate is the test in predicting symptom onset?",
+      "options": [
+        "Within 1-2 years",
+        "Within 3-4 years",
+        "Within 10 years",
+        "It is not accurate"
+      ],
+      "correct_answer": "Within 3-4 years"
+    },
+    {
+      "question": "Why is the blood test helpful compared to brain scans?",
+      "options": [
+        "It is more expensive",
+        "It is cheaper and easier",
+        "It takes longer",
+        "It is less reliable"
+      ],
+      "correct_answer": "It is cheaper and easier"
+    },
+    {
+      "question": "Who did the researchers study to develop this test?",
+      "options": [
+        "Children",
+        "Over 600 older adults",
+        "Animals",
+        "Only doctors"
+      ],
+      "correct_answer": "Over 600 older adults"
+    },
+    {
+      "question": "What is a goal of this test in the future?",
+      "options": [
+        "To cure Alzheimer's immediately",
+        "To help patients and doctors plan to slow symptoms",
+        "To replace all other medical tests",
+        "To make people younger"
+      ],
+      "correct_answer": "To help patients and doctors plan to slow symptoms"
+    }
+  ],
+  "background_read": [
+    "Alzheimer's disease is a common brain condition that affects millions of people, especially older adults. It causes memory loss and thinking problems, and there is no cure yet. Doctors use tests like brain scans to check for it, but they can be expensive and hard to get. This new blood test offers a simpler way to predict when symptoms might start, helping people prepare and researchers find better treatments faster."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at Washington University School of Medicine",
+    "WHAT: Developed a blood test to predict Alzheimer's symptom onset",
+    "WHERE: In the United States, studied at research centers like Knight ADRC",
+    "WHY: To help plan early interventions and speed up treatment research"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Medical Research",
+      "description": "Scientists see this as a breakthrough for faster clinical trials and better patient care."
+    }
+  ],
+  "image_url": "/article_images/article_420b0aeb3f8677ba_1cd2682d7bd8.webp"
+}

@@ -1,0 +1,108 @@
+{
+  "title": "NASA Delays Moon Rocket Launch for Repairs",
+  "summary": "NASA has a big rocket called the Space Launch System that is supposed to launch astronauts around the Moon in the Artemis II mission. But there is a problem with the rocket's helium system, which helps the rocket work properly. NASA found this issue on Friday, and they cannot fix it while the rocket is on the launch pad in Florida. So, they need to move the rocket back to a big building called the Vehicle Assembly Building (VAB) to repair it. This means the launch, which was planned for March, is now delayed. NASA hopes to try again in April. The rocket is very tall, and it will be moved slowly on a special vehicle called a crawler-transporter. NASA says they are disappointed but want to make sure everything is safe before launching.",
+  "keywords": [
+    {
+      "term": "NASA",
+      "explanation": "the space agency in the United States that explores space"
+    },
+    {
+      "term": "rocket",
+      "explanation": "a vehicle that goes into space by using engines"
+    },
+    {
+      "term": "helium",
+      "explanation": "a gas used in rockets to help them work correctly"
+    },
+    {
+      "term": "Vehicle Assembly Building",
+      "explanation": "a huge building where rockets are built and fixed"
+    },
+    {
+      "term": "launch pad",
+      "explanation": "the place where rockets take off from the ground"
+    },
+    {
+      "term": "crawler-transporter",
+      "explanation": "a big, slow-moving vehicle that carries rockets"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the rocket that NASA is using for the Artemis II mission?",
+      "options": [
+        "Space Launch System",
+        "Falcon 9",
+        "Saturn V",
+        "Space Shuttle"
+      ],
+      "correct_answer": "Space Launch System"
+    },
+    {
+      "question": "Why does NASA need to move the rocket back to the Vehicle Assembly Building?",
+      "options": [
+        "To fix a problem with the helium system",
+        "To add more fuel",
+        "To paint it a new color",
+        "To show it to visitors"
+      ],
+      "correct_answer": "To fix a problem with the helium system"
+    },
+    {
+      "question": "When was the rocket originally supposed to launch?",
+      "options": [
+        "March",
+        "April",
+        "May",
+        "June"
+      ],
+      "correct_answer": "March"
+    },
+    {
+      "question": "What gas is causing the problem with the rocket?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "correct_answer": "Helium"
+    },
+    {
+      "question": "How will NASA move the rocket to the Vehicle Assembly Building?",
+      "options": [
+        "Using a crawler-transporter",
+        "By flying it",
+        "With a truck",
+        "On a train"
+      ],
+      "correct_answer": "Using a crawler-transporter"
+    },
+    {
+      "question": "What is the goal of the Artemis II mission?",
+      "options": [
+        "To send astronauts around the Moon",
+        "To land on Mars",
+        "To build a space station",
+        "To study the Sun"
+      ],
+      "correct_answer": "To send astronauts around the Moon"
+    }
+  ],
+  "background_read": [
+    "NASA is working on the Artemis program to send people back to the Moon. Artemis II is a mission where astronauts will fly around the Moon without landing. Rockets like the Space Launch System are very complex and need careful checks before launch. Sometimes, problems like leaks or system failures can delay launches to ensure safety. NASA has big buildings and special vehicles to handle and repair rockets."
+  ],
+  "Article_Structure": [
+    "WHO: NASA and its engineers are working on the Artemis II rocket.",
+    "WHAT: A problem with the helium system requires moving the rocket back to the Vehicle Assembly Building for repairs, delaying the launch.",
+    "WHERE: At the launch pad in Florida and the Vehicle Assembly Building.",
+    "WHY: To fix the issue safely and prepare for a future launch attempt, possibly in April."
+  ],
+  "perspectives": [
+    {
+      "perspective": "NASA's view",
+      "description": "NASA is focused on safety and fixing the rocket properly, even though it means delaying the launch."
+    }
+  ],
+  "image_url": "/article_images/article_c2622ffa1b31ffd8_19da81697d7b.webp"
+}
