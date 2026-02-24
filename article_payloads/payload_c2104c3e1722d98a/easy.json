@@ -1,0 +1,104 @@
+{
+  "title": "Bacteria That Eat Cancer Tumors",
+  "summary": "Scientists are making a new way to fight cancer using tiny living things called bacteria. They change the bacteria so it can eat cancer tumors from the inside. The bacteria like places with no air, and the middle of tumors has no air, so it's a good home for them. The bacteria grow and eat the tumor, helping to get rid of it. But there is a problem: when the bacteria reach parts of the tumor with a little air, they die before finishing the job. To fix this, scientists add a special gene to help the bacteria survive longer. They also use a smart system called quorum sensing to control when this gene turns on, so the bacteria only get stronger when needed. This research is done by scientists at a university working with other experts to make a safe treatment.",
+  "keywords": [
+    {
+      "term": "bacteria",
+      "explanation": "tiny living things that can be helpful or harmful"
+    },
+    {
+      "term": "tumors",
+      "explanation": "lumps of bad cells that grow in the body and can cause cancer"
+    },
+    {
+      "term": "oxygen",
+      "explanation": "a gas in the air that we breathe, but some bacteria don't like it"
+    },
+    {
+      "term": "gene",
+      "explanation": "a tiny part inside cells that tells them how to work or change"
+    },
+    {
+      "term": "quorum sensing",
+      "explanation": "a way bacteria talk to each other using chemicals to decide when to do things"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What do the scientists change to eat cancer tumors?",
+      "options": [
+        "Bacteria",
+        "Viruses",
+        "Plants",
+        "Animals"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Where do the bacteria like to live?",
+      "options": [
+        "In places with no air",
+        "In places with lots of air",
+        "In water",
+        "In soil"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What problem happens when bacteria reach parts of the tumor with a little air?",
+      "options": [
+        "They die",
+        "They grow faster",
+        "They change color",
+        "They stop eating"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What do scientists add to help bacteria survive longer?",
+      "options": [
+        "A special gene",
+        "A new food",
+        "A medicine",
+        "A light"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What system controls when the gene turns on?",
+      "options": [
+        "Quorum sensing",
+        "Electric circuits",
+        "Computer programs",
+        "Radio signals"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Who is doing this research?",
+      "options": [
+        "Scientists at a university",
+        "Doctors in a hospital",
+        "Farmers in a field",
+        "Teachers in a school"
+      ],
+      "correct_answer": "A"
+    }
+  ],
+  "background_read": [
+    "Cancer is a disease where bad cells grow too much and form lumps called tumors. Bacteria are tiny living things that can be found everywhere, like in soil or our bodies. Scientists study how to use bacteria to help people by changing their genes, which are like instructions inside them. This research is important because it might lead to new treatments that are safer and work better for fighting cancer."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the University of Waterloo and other experts",
+    "WHAT: They engineer bacteria to eat cancer tumors from the inside",
+    "WHERE: In the middle of tumors, which have no oxygen",
+    "WHY: To create a new and safe cancer treatment"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Medical Innovation",
+      "description": "Using bacteria as a tool to treat cancer could offer a less harmful alternative to traditional methods like chemotherapy."
+    }
+  ],
+  "image_url": "/article_images/article_c2104c3e1722d98a_4f45375173ce.webp"
+}
