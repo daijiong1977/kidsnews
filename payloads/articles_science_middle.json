@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "c2104c3e1722d98a",
-      "title": "Engineering Bacteria to Consume Cancer Tumors Internally",
-      "summary": "Researchers at the University of Waterloo are developing an innovative cancer treatment that involves genetically engineering bacteria to target and consume tumors from within. This approach utilizes Clostridium sporogenes, a bacterium naturally found in soil that thrives in oxygen-free environments, making the hypoxic cores of solid tumors ideal for colonization. The bacteria enter the tumor, feed on nutrients, and grow, effectively reducing the tumor mass. However, a challenge arises as the bacteria expand toward the tumor's outer regions, where trace oxygen causes them to die before complete tumor elimination. To overcome this, scientists inserted an oxygen-tolerance gene from a related bacterium, enhancing survival in low-oxygen areas. They also implemented a quorum sensing system, a bacterial communication method using chemical signals, to control gene activation only when sufficient bacteria accumulate, preventing premature growth in oxygen-rich environments like the bloodstream. This synthetic biology project, involving DNA circuits to ensure predictable behavior, is advancing through pre-clinical trials. Collaboration among engineers, mathematicians, and life scientists highlights the interdisciplinary effort to translate this discovery into practical medical solutions.",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_c2104c3e1722d98a_4f45375173ce.webp",
-      "category": "Science"
-    },
-    {
-      "id": "bdbf7a2bfcf60ac1",
-      "title": "Advancing Optical Microresonators for Enhanced Sensor Technology",
-      "summary": "Researchers at CU Boulder have developed highly efficient optical microresonators, which are microscopic structures that confine light to increase its intensity on a chip. This innovation aims to support next-generation sensor technologies, such as those for navigation and chemical identification, by enabling specialized optical processes with reduced power consumption. The team focused on racetrack resonators, incorporating Euler curves to minimize bending loss—this design allows light to travel through gradual curves, preventing escape and enhancing photon circulation. Fabrication occurred at the COSINC clean room using electron beam lithography, which offers sub-nanometer precision critical for reliable device performance. By limiting light loss, the microresonators achieve higher intensities necessary for optimal operation, paving the way for more powerful and energy-efficient sensors in various applications.",
-      "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_bdbf7a2bfcf60ac1_bb819b49b944.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7f3c2623833af7ec",
-      "title": "Investigating Cancer Mortality Near Nuclear Power Plants: A National Study",
-      "summary": "A comprehensive nationwide study conducted by Harvard T.H. Chan School of Public Health researchers analyzed the relationship between proximity to nuclear power plants (NPPs) and cancer death rates in the United States from 2000 to 2018. Using a 'continuous proximity' method, the study assessed how close each county is to NPPs, accounting for multiple nearby facilities. After adjusting for socioeconomic, environmental, and healthcare factors such as income, education, smoking, and hospital distance, the results showed that counties nearer to NPPs had higher cancer mortality rates. The researchers estimated approximately 115,000 cancer deaths nationwide over the study period were associated with this proximity, with the link strongest among older adults. While the findings suggest a measurable cancer risk that decreases with distance, the authors caution that the study does not prove causation and recommend further investigation into potential health impacts, particularly as nuclear power is advocated as a clean energy solution to climate change. The study, published in Nature Communications, aligns with prior research but has limitations, such as lacking direct radiation measurements.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_7f3c2623833af7ec_fb2e4208baec.webp",
-      "category": "Science"
-    },
-    {
-      "id": "2b9fc0d0f051bb37",
-      "title": "The Environmental Impact of Balloon Releases",
-      "summary": "This article discusses the growing concern over balloon releases and their harmful effects on the environment and wildlife. Naomi Spittles, a balloon seller from Lincoln, refuses to provide balloons for releases due to the environmental impact, highlighting that balloons do not disappear but fall back as litter. She advocates for a national ban on balloon releases, supported by data from the Marine Conservation Society, which reports that over 100 local authorities in the UK have already implemented bans. Balloon releases are popular for celebrations and memorials, but they pose significant risks: deflated balloons or fragments can be mistaken for food by animals, leading to ingestion that blocks digestive tracts and causes slow deaths, while attached strings can strangle wildlife. Instances include a dead puffin found tangled in balloons, emphasizing the threat to declining species. The RSPCA and Marine Conservation Society provide evidence of increasing balloon litter, with 44% of beach cleans recording such waste in 2024. Alternatives like planting trees or flowers are suggested as eco-friendly ways to commemorate events. The article aims to inform the public about the consequences of balloon releases and promote sustainable practices.",
+      "id": "b7bc010151882128",
+      "title": "Councils Struggle with Food Waste Collection Deadlines",
+      "summary": "A BBC investigation reveals that nearly 25% of English councils will fail to meet a government deadline for implementing weekly food waste collections to all households, set to begin next month under new Simpler Recycling legislation. The Department for Environment, Food & Rural Affairs (Defra) mandated this policy to boost recycling rates, but over 70 councils cited delays due to high demand for specialized collection vehicles and funding shortfalls, despite £340 million in grants from Defra. Environment minister Mary Creagh emphasized the need for action to address stagnant recycling rates, noting councils received budget increases to support the policy. Separately collected food waste can be converted into electricity, reducing landfill use and greenhouse gas emissions, and encouraging waste reduction. While some councils have long had weekly collections, others must establish new services; at least 56 aim to launch by end of 2026, nine lack start dates, and 31 have secured extensions, meaning over a third will not collect from all homes by March. Councils like Shropshire and East Hampshire highlighted financial risks and vehicle availability issues as key barriers.",
       "source": "BBC Science",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_2b9fc0d0f051bb37_0570f79c29e1.webp",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_b7bc010151882128_ab9a8431cffc.webp",
       "category": "Science"
     },
     {
-      "id": "f2d8e9f34c8d2fa4",
-      "title": "Space Force Focuses on Payload Development Over Rockets",
-      "summary": "Maj. Gen. Stephen Purdy, a Space Force acquisition officer, stated at a finance conference that the Pentagon is prioritizing support for startups developing space sensors and payloads rather than new rocket companies. With over $24 billion in R&D spending, the Space Force aims to accelerate mission deployment from years to just one week by focusing on high-volume production of payloads like infrared sensors. These sensors, crucial for detecting missile plumes and other threats, are part of programs such as the Golden Dome missile defense. The Space Force has awarded funding through programs like SpaceWERX's STRATFIs to commercial startups, with only one launch company receiving support, as the military believes launch capacity is already sufficient. Delays in satellite components due to supply chain issues highlight the need for faster payload development. The loss of tools like STRATFIs and SBIR grants complicates efforts, but the Space Force remains committed to scaling payload production to match the pace of companies like SpaceX and Amazon, which mass-produce communication satellites.",
+      "id": "5c9f6890cf457ed7",
+      "title": "Chimpanzees and Alcohol: Testing the Drunken Monkey Hypothesis",
+      "summary": "A recent study published in Biology Letters provides strong evidence for the \"drunken monkey hypothesis,\" a theory proposed by biologist Robert Dudley. Researchers investigated whether chimpanzees consume alcohol by analyzing their urine for alcohol metabolites. Graduate students, including Aleksey Maro, collected urine samples from chimps in Africa using innovative methods like plastic bags hung on twigs. They tested the samples with immunoassay strips and found that 16 out of 20 samples contained ethyl glucuronide, an alcohol byproduct, at levels equivalent to one or two human drinks. This indicates that chimps regularly eat fermented fruit, which contains ethanol, supporting the idea that human attraction to alcohol may have evolutionary roots dating back millions of years. The study also noted that females in estrus and juveniles had lower alcohol levels, suggesting future research directions. While this adds to previous observations of chimps sharing alcoholic fruit, gaps remain, such as proving chimps selectively choose high-ethanol fruits. Overall, the research connects food and alcohol in primate evolution, highlighting the role of fermented resources in animal diets.",
       "source": "Ars Science",
-      "time_ago": "14 hours ago",
-      "image_url": "/article_images/article_f2d8e9f34c8d2fa4_b3dbcd825021.webp",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_5c9f6890cf457ed7_8d21c350b3b4.webp",
       "category": "Science"
     },
     {
-      "id": "a1612a0fb16590e9",
-      "title": "Uncovering the Secrets of the King's Trough: How Earth's Forces Shape the Atlantic",
-      "summary": "The King's Trough Complex, a massive underwater canyon system stretching 500 kilometers in the Atlantic Ocean, has puzzled scientists for years. Located off Portugal's coast, it includes deep trenches like Peake Deep. Recent research led by GEOMAR reveals that its formation began 37 to 24 million years ago due to tectonic plate movements. A plate boundary between Europe and Africa shifted through the area, pulling the crust apart in a zipper-like motion from east to west. Key to this process was the oceanic crust's unusual thickness and heat, caused by a mantle plume—a column of hot material rising from Earth's mantle. This weakened the crust, making it prone to fracturing. When the plate boundary moved south toward the Azores, the trough stopped forming. Scientists used high-resolution sonar from expedition M168 in 2020 to map the seafloor and collected volcanic rock samples for chemical analysis and dating. These findings highlight how deep mantle processes interact with tectonic shifts to create major seafloor features, with similar activity ongoing near the Azores at the Terceira Rift.",
+      "id": "2da7ba924aa73200",
+      "title": "US Energy Shift: Solar Overtakes Hydro Amid Rising Demand",
+      "summary": "In 2025, US electricity consumption increased by 2.8%, driven by factors like heating, cooling, and economic growth. Solar power experienced remarkable growth, rising 35% and surpassing hydroelectric generation for the first time, contributing to renewable energy expansion. However, coal power also increased by 13% due to economic viability and government policies that kept some coal plants operational. The Trump administration showed hostility towards renewables but could not halt their economic advantages. Wind power grew as well, with new projects planned for 2026, including significant solar and wind capacity additions. Battery storage is expanding rapidly, particularly in California and Texas, to manage excess solar energy. Overall, renewable sources like solar and wind are poised to outpace hydropower and coal, potentially reaching nearly a quarter of the US electricity mix. The article highlights the complex interplay between rising demand, fossil fuels, and the unstoppable growth of clean energy technologies.",
+      "source": "Ars Science",
+      "time_ago": "13 hours ago",
+      "image_url": "/article_images/article_2da7ba924aa73200_9085c0cafedd.webp",
+      "category": "Science"
+    },
+    {
+      "id": "7badc4e25b64b5ce",
+      "title": "Breakthrough in Silicon Chemistry: Creating a Long-Sought Aromatic Molecule",
+      "summary": "After nearly 50 years of theoretical work and failed experiments, a research team led by Professor David Scheschkewitz at Saarland University has successfully synthesized pentasilacyclopentadienide, a silicon-based aromatic compound. Collaborating with doctoral student Ankur and Bernd Morgenstern from the X-Ray Diffraction Service Centre, they replaced carbon atoms in an aromatic ring with silicon atoms. Aromatic molecules, known for their stability due to evenly distributed electrons in a planar ring structure, are crucial in industries like plastics manufacturing, where they enhance catalyst durability and efficiency. Silicon differs from carbon by being more metallic and having looser electron bonds, which could lead to novel compounds with unique properties. This achievement, published alongside independent work by Takeaki Iwamoto's group in Japan in the journal Science, marks a significant step toward developing new materials and industrial catalysts, expanding the potential of silicon chemistry after decades of limited success with only one prior silicon aromatic known since 1981.",
       "source": "Science Daily",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_a1612a0fb16590e9_900c542558a9.webp",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_7badc4e25b64b5ce_a45197a4df35.webp",
+      "category": "Science"
+    },
+    {
+      "id": "add137303b7c7989",
+      "title": "Unraveling the Milky Way's Magnetic Mysteries",
+      "summary": "Researchers led by Dr. Jo-Anne Brown are investigating the Milky Way's magnetic field, an invisible force crucial for preventing the galaxy from collapsing due to gravity. Using a new radio telescope at the Dominion Radio Astrophysical Observatory in British Columbia, Canada, the team collected high-quality data as part of the Global Magneto-Ionic Medium Survey (GMIMS). They measured Faraday rotation, a phenomenon where radio waves shift when passing through electrons and magnetic fields, to map the magnetic field's structure across the galaxy. In a significant finding, they discovered a diagonal magnetic reversal in the Sagittarius Arm, where the field direction is opposite to the rest of the galaxy. This discovery, published in The Astrophysical Journal, provides insights into the galaxy's evolution and helps improve models for predicting its future behavior. The dataset is now available for astronomers worldwide to use in further research.",
+      "source": "Science Daily",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_add137303b7c7989_e6d71110da6a.webp",
+      "category": "Science"
+    },
+    {
+      "id": "0a3276ac16bc2032",
+      "title": "Unraveling the Science Behind Scotch Tape's Screech",
+      "summary": "Researchers have uncovered the mechanism behind the screeching sound produced when peeling Scotch tape rapidly. The sound originates from micro-cracks that propagate along the adhesive at supersonic speeds, generating shock waves. This study builds on earlier findings, including the discovery of triboluminescence in tape, where light is emitted during peeling. Scotch tape, invented by 3M engineer Richard Drew in 1930 for automotive painting, gained popularity during the Great Depression for repairs. Physicists have long studied tape phenomena, such as light emission and X-ray production in vacuums. In 2010, scientists identified transverse cracks during peeling, and a 2024 study linked these to sound but lacked a mechanism. The current research by Thoroddsen et al. used synchronized high-speed imaging and sound recording to test if crack tips directly produce sound pulses. Their experiments confirmed that screeching results from weak shocks when cracks reach the tape edge, due to supersonic travel relative to air. This advances understanding of adhesive physics and everyday acoustic effects.",
+      "source": "Ars Science",
+      "time_ago": "22 hours ago",
+      "image_url": "/article_images/article_0a3276ac16bc2032_63f9025f0122.webp",
       "category": "Science"
     }
   ]

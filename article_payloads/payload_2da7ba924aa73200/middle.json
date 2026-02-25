@@ -1,0 +1,137 @@
+{
+  "title": "US Energy Shift: Solar Overtakes Hydro Amid Rising Demand",
+  "summary": "In 2025, US electricity consumption increased by 2.8%, driven by factors like heating, cooling, and economic growth. Solar power experienced remarkable growth, rising 35% and surpassing hydroelectric generation for the first time, contributing to renewable energy expansion. However, coal power also increased by 13% due to economic viability and government policies that kept some coal plants operational. The Trump administration showed hostility towards renewables but could not halt their economic advantages. Wind power grew as well, with new projects planned for 2026, including significant solar and wind capacity additions. Battery storage is expanding rapidly, particularly in California and Texas, to manage excess solar energy. Overall, renewable sources like solar and wind are poised to outpace hydropower and coal, potentially reaching nearly a quarter of the US electricity mix. The article highlights the complex interplay between rising demand, fossil fuels, and the unstoppable growth of clean energy technologies.",
+  "keywords": [
+    {
+      "term": "electricity consumption",
+      "explanation": "the total amount of electrical energy used in a country, measured in terawatt-hours"
+    },
+    {
+      "term": "solar capacity",
+      "explanation": "the maximum amount of power that solar installations can produce, measured in gigawatts"
+    },
+    {
+      "term": "coal viability",
+      "explanation": "the economic feasibility of using coal for electricity generation based on costs and policies"
+    },
+    {
+      "term": "renewable energy mix",
+      "explanation": "the proportion of electricity generated from sustainable sources like solar, wind, and hydro"
+    },
+    {
+      "term": "battery storage expansion",
+      "explanation": "the increase in battery systems to store excess electricity for grid stability"
+    },
+    {
+      "term": "government policies",
+      "explanation": "actions by authorities, such as keeping coal plants open or promoting natural gas exports, affecting energy markets"
+    },
+    {
+      "term": "economic advantages",
+      "explanation": "the cost benefits that make renewable energy competitive despite political opposition"
+    },
+    {
+      "term": "energy demand factors",
+      "explanation": "elements like electrification of transportation and data centers that drive up electricity use"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the percentage increase in US electricity consumption in 2025?",
+      "options": [
+        "2.8%",
+        "13%",
+        "35%",
+        "5%"
+      ],
+      "correct_answer": "2.8%"
+    },
+    {
+      "question": "How much did solar power generation grow in 2025?",
+      "options": [
+        "13%",
+        "35%",
+        "2.8%",
+        "50%"
+      ],
+      "correct_answer": "35%"
+    },
+    {
+      "question": "Which energy source did solar power surpass for the first time?",
+      "options": [
+        "Coal",
+        "Natural gas",
+        "Hydroelectric",
+        "Wind"
+      ],
+      "correct_answer": "Hydroelectric"
+    },
+    {
+      "question": "What contributed to the increase in coal power use?",
+      "options": [
+        "Government policies and economic viability",
+        "Solar power decline",
+        "Wind power shortages",
+        "Battery storage failures"
+      ],
+      "correct_answer": "Government policies and economic viability"
+    },
+    {
+      "question": "What is a key factor driving future electricity demand?",
+      "options": [
+        "Electrification of transportation",
+        "Decrease in population",
+        "Reduction in data centers",
+        "More hydro plants"
+      ],
+      "correct_answer": "Electrification of transportation"
+    },
+    {
+      "question": "How much new solar capacity is planned for 2026?",
+      "options": [
+        "27 GW",
+        "43 GW",
+        "12 GW",
+        "24 GW"
+      ],
+      "correct_answer": "43 GW"
+    },
+    {
+      "question": "What helps reduce waste from excess solar power?",
+      "options": [
+        "Coal plants",
+        "Battery storage",
+        "Natural gas exports",
+        "Hydro dams"
+      ],
+      "correct_answer": "Battery storage"
+    },
+    {
+      "question": "What percentage of US electricity might renewables reach soon?",
+      "options": [
+        "10%",
+        "Nearly a quarter",
+        "Half",
+        "5%"
+      ],
+      "correct_answer": "Nearly a quarter"
+    }
+  ],
+  "background_read": [
+    "This article discusses US energy trends in 2025, based on data from the Energy Information Administration. Electricity demand rose due to factors like heating, cooling, and economic activities. Solar power showed significant growth, overtaking hydroelectric generation, while coal use increased because of lower costs and government interventions. The Trump administration opposed renewables but could not stop their economic rise. Future projections include major additions of solar and wind capacity, with battery storage playing a crucial role in grid management. Understanding these dynamics requires knowledge of energy sources, policy impacts, and technological advancements in renewable energy."
+  ],
+  "Article_Structure": [
+    "Main Points: The article reports that US electricity demand increased by 2.8% in 2025, with solar power growing 35% and surpassing hydroelectric generation for the first time, while coal power also rose by 13% due to economic factors and government policies. Purpose: To inform readers about recent energy trends, highlighting the growth of renewables amidst rising demand and political challenges. Evidence Evaluation: Relies on official data from the US Energy Information Administration, providing specific percentages and projections, but includes speculative elements about future policies. Author Credibility: Based on Ars Technica's reputation for science reporting, though the article does not cite individual authors, suggesting reliance on aggregated data. Methodology: Uses annual energy data and analysis of planned projects to discuss current and future energy mix, with a focus on comparative growth rates."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological optimism",
+      "description": "Emphasizes the unstoppable growth of solar and wind due to cost-effectiveness and innovation, despite political opposition."
+    },
+    {
+      "perspective": "Policy critique",
+      "description": "Highlights how government actions, like keeping coal plants open, impact energy markets and slow the transition to renewables."
+    }
+  ],
+  "image_url": "/article_images/article_2da7ba924aa73200_9085c0cafedd.webp"
+}
