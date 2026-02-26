@@ -1,0 +1,108 @@
+{
+  "title": "A Simple Chemical Change to Make Quantum Computers Better",
+  "summary": "Quantum computers are special machines that can solve very hard problems, like finding new medicines or keeping secrets safe. They need special materials called topological superconductors, but these are tricky to make. Scientists at the University of Chicago and West Virginia University found a cool way to create these materials. They used two elements, tellurium and selenium, in a thin film. By changing how much of each element they used, they could make the material act like a topological superconductor. This helps electrons inside the material work together just right. The scientists say this is like turning a dial to get the perfect setting. This discovery could help build better quantum computers in the future, making them more stable and easier to use.",
+  "keywords": [
+    {
+      "term": "quantum computers",
+      "explanation": "special machines that solve very hard problems"
+    },
+    {
+      "term": "topological superconductors",
+      "explanation": "special materials that help quantum computers work"
+    },
+    {
+      "term": "tellurium",
+      "explanation": "an element used in the material"
+    },
+    {
+      "term": "selenium",
+      "explanation": "another element mixed with tellurium"
+    },
+    {
+      "term": "thin film",
+      "explanation": "a very thin layer of material"
+    },
+    {
+      "term": "electrons",
+      "explanation": "tiny particles that carry electricity"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What kind of problems can quantum computers solve?",
+      "options": [
+        "Easy math problems",
+        "Finding new medicines and keeping secrets safe",
+        "Playing video games",
+        "Cooking food"
+      ],
+      "correct_answer": "Finding new medicines and keeping secrets safe"
+    },
+    {
+      "question": "What special materials do quantum computers need?",
+      "options": [
+        "Plastic",
+        "Topological superconductors",
+        "Wood",
+        "Glass"
+      ],
+      "correct_answer": "Topological superconductors"
+    },
+    {
+      "question": "Which two elements did scientists use in their material?",
+      "options": [
+        "Gold and silver",
+        "Tellurium and selenium",
+        "Iron and copper",
+        "Carbon and oxygen"
+      ],
+      "correct_answer": "Tellurium and selenium"
+    },
+    {
+      "question": "What did scientists change to make the material work better?",
+      "options": [
+        "The color",
+        "The amount of tellurium and selenium",
+        "The size of the computer",
+        "The temperature"
+      ],
+      "correct_answer": "The amount of tellurium and selenium"
+    },
+    {
+      "question": "What is a thin film?",
+      "options": [
+        "A thick block of material",
+        "A very thin layer of material",
+        "A type of computer screen",
+        "A kind of food"
+      ],
+      "correct_answer": "A very thin layer of material"
+    },
+    {
+      "question": "Why is this discovery important?",
+      "options": [
+        "It makes computers slower",
+        "It helps build better quantum computers",
+        "It makes materials harder to find",
+        "It stops electrons from working"
+      ],
+      "correct_answer": "It helps build better quantum computers"
+    }
+  ],
+  "background_read": [
+    "Quantum computers are advanced machines that use tiny particles to solve problems too hard for regular computers. They need special materials to work properly. Scientists are always looking for new ways to make these materials easier to create and use. This article talks about a new method using simple chemical changes to help quantum computers become more powerful and reliable in the future."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the University of Chicago and West Virginia University",
+    "WHAT: Found a way to make topological superconductors by changing the amount of tellurium and selenium in a thin film",
+    "WHERE: In research labs at the universities",
+    "WHY: To help build better quantum computers that can solve hard problems"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "Scientists made a breakthrough by tweaking a chemical formula to create useful materials for quantum computers."
+    }
+  ],
+  "image_url": "/article_images/article_d8daf7e13a600c9a_c337553ad6de.webp"
+}
