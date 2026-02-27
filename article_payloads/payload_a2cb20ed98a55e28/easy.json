@@ -1,0 +1,108 @@
+{
+  "title": "A Cool Night Engine That Makes Power from Space",
+  "summary": "Engineers made a new engine that uses the cold of space to create power at night. It works by using the temperature difference between the warm Earth and the cold sky. The engine is called a Stirling engine, which can run on small temperature changes, like between a hot drink and the air. At night, the engine sits outside with one side warmed by the ground and the other side cooled by radiating heat to space. This makes a piston move to produce mechanical energy, which can power things like a small fan. In tests, it generated 400 milliwatts per square meter, showing it can capture energy from the night sky. This could help ventilate buildings without using fuel, especially in dry, clear areas. The University of California, Davis, is working on this invention.",
+  "keywords": [
+    {
+      "term": "engine",
+      "explanation": "a machine that makes power or motion"
+    },
+    {
+      "term": "temperature difference",
+      "explanation": "when one thing is warmer and another is cooler"
+    },
+    {
+      "term": "Stirling engine",
+      "explanation": "a type of engine that uses heat differences to move a piston"
+    },
+    {
+      "term": "piston",
+      "explanation": "a part that moves back and forth to create energy"
+    },
+    {
+      "term": "mechanical energy",
+      "explanation": "energy from moving parts, like turning a fan"
+    },
+    {
+      "term": "ventilate",
+      "explanation": "to move air in and out to keep a place fresh"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the new engine use to make power at night?",
+      "options": [
+        "The cold of space",
+        "Sunlight",
+        "Wind",
+        "Water"
+      ],
+      "correct_answer": "The cold of space"
+    },
+    {
+      "question": "What type of engine is used in this device?",
+      "options": [
+        "Stirling engine",
+        "Car engine",
+        "Wind turbine",
+        "Solar panel"
+      ],
+      "correct_answer": "Stirling engine"
+    },
+    {
+      "question": "How does the engine get warmth on one side?",
+      "options": [
+        "From the ground",
+        "From a heater",
+        "From the sun",
+        "From a battery"
+      ],
+      "correct_answer": "From the ground"
+    },
+    {
+      "question": "What did the engine power in the tests?",
+      "options": [
+        "A small fan",
+        "A light bulb",
+        "A computer",
+        "A car"
+      ],
+      "correct_answer": "A small fan"
+    },
+    {
+      "question": "How much power did the engine generate per square meter in tests?",
+      "options": [
+        "400 milliwatts",
+        "100 watts",
+        "1 kilowatt",
+        "10 milliwatts"
+      ],
+      "correct_answer": "400 milliwatts"
+    },
+    {
+      "question": "Where could this technology help ventilate buildings?",
+      "options": [
+        "In greenhouses",
+        "In oceans",
+        "In mountains",
+        "In cities only"
+      ],
+      "correct_answer": "In greenhouses"
+    }
+  ],
+  "background_read": [
+    "This article is about a new invention by engineers at the University of California, Davis. They created an engine that makes power at night by using the coldness of space. It works because space is very cold, and the Earth is warmer. The engine uses a Stirling engine, which is good at using small temperature differences. At night, it sits outside with one side warmed by the ground and the other cooled by sending heat to space. This makes a piston move to create energy, which can run things like fans. In tests, it made a little bit of power, but it could help buildings get fresh air without using electricity or fuel. This is exciting because it uses natural temperature changes instead of burning things."
+  ],
+  "Article_Structure": [
+    "WHO: Engineers at the University of California, Davis",
+    "WHAT: A Stirling engine that uses the cold of space to generate mechanical power at night",
+    "WHERE: Outdoors at night, especially in dry, clear areas",
+    "WHY: To help ventilate buildings like greenhouses without using fuel"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Innovation",
+      "description": "This shows a creative way to use natural temperature differences for clean energy."
+    }
+  ],
+  "image_url": "/article_images/article_a2cb20ed98a55e28_9e89cf45fb37.webp"
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Innovating Green Hydrogen: Tackling Costs and Chemicals",
+  "summary": "Green hydrogen is considered essential for transitioning away from fossil fuels, but its production faces significant challenges in cost and environmental impact. Current methods, such as PEM (proton exchange membrane) electrolysis, are expensive and rely on PFAS (per- and polyfluoroalkyl substances), known as 'forever chemicals' due to their persistence and health risks. The EU-funded SUPREME project aims to address these issues over three years by developing a PFAS-free electrolysis system that is more efficient and reduces the use of critical raw materials like iridium. Led by the University of Southern Denmark and involving partners like Graz University of Technology and TÜBITAK, the project focuses on evaluating alternative materials, creating new membranes, and cutting iridium use by up to 75% while improving recycling. This effort seeks to make green hydrogen more affordable and sustainable, potentially accelerating its adoption in industries such as steel production and as a storage solution for renewable energy surpluses.",
+  "keywords": [
+    {
+      "term": "PEM electrolysis",
+      "explanation": "a method to produce hydrogen using a membrane, often with renewable electricity"
+    },
+    {
+      "term": "PFAS",
+      "explanation": "persistent chemicals used in industry that pose environmental and health risks"
+    },
+    {
+      "term": "iridium reduction",
+      "explanation": "efforts to decrease the amount of this expensive metal in hydrogen production"
+    },
+    {
+      "term": "SUPREME project",
+      "explanation": "a European initiative to develop sustainable hydrogen technologies"
+    },
+    {
+      "term": "renewable energy storage",
+      "explanation": "using hydrogen to store excess energy from sources like wind and solar"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the main environmental concern with current PEM electrolysis systems?",
+      "options": [
+        "High electricity use",
+        "Dependence on PFAS chemicals",
+        "Lack of efficiency",
+        "Noise pollution"
+      ],
+      "correct_answer": "Dependence on PFAS chemicals"
+    },
+    {
+      "question": "How does the SUPREME project plan to reduce costs in green hydrogen production?",
+      "options": [
+        "By using more fossil fuels",
+        "By increasing iridium use",
+        "By cutting iridium use and improving recycling",
+        "By ignoring environmental concerns"
+      ],
+      "correct_answer": "By cutting iridium use and improving recycling"
+    },
+    {
+      "question": "Which organization is focusing on membrane development in the project?",
+      "options": [
+        "University of Southern Denmark",
+        "TÜBITAK",
+        "Fraunhofer ISE",
+        "Element One Energy AS"
+      ],
+      "correct_answer": "TÜBITAK"
+    },
+    {
+      "question": "What role does iridium play in PEM electrolysis?",
+      "options": [
+        "It is a cheap material",
+        "It is a critical raw material that is expensive",
+        "It is not used at all",
+        "It is a type of PFAS"
+      ],
+      "correct_answer": "It is a critical raw material that is expensive"
+    },
+    {
+      "question": "Why is green hydrogen important for heavy industries?",
+      "options": [
+        "It is cheaper than all other fuels",
+        "It can replace fossil fuels in processes like steel production",
+        "It produces more pollution",
+        "It is easy to transport"
+      ],
+      "correct_answer": "It can replace fossil fuels in processes like steel production"
+    },
+    {
+      "question": "What is the purpose of developing PFAS-free membranes?",
+      "options": [
+        "To increase costs",
+        "To make hydrogen production safer and more sustainable",
+        "To use more iridium",
+        "To slow down production"
+      ],
+      "correct_answer": "To make hydrogen production safer and more sustainable"
+    },
+    {
+      "question": "How is the project funded?",
+      "options": [
+        "By private companies only",
+        "Through CETPartnership and co-funded by the European Commission",
+        "By selling hydrogen",
+        "Through donations"
+      ],
+      "correct_answer": "Through CETPartnership and co-funded by the European Commission"
+    },
+    {
+      "question": "What potential benefit does green hydrogen offer for renewable energy?",
+      "options": [
+        "It cannot store energy",
+        "It can store surplus energy from renewables",
+        "It reduces renewable energy production",
+        "It is only used for transportation"
+      ],
+      "correct_answer": "It can store surplus energy from renewables"
+    }
+  ],
+  "background_read": [
+    "Green hydrogen is produced via electrolysis, where water is split into hydrogen and oxygen using electricity, ideally from renewable sources like wind or solar. It's a key component in decarbonizing sectors such as industry and transportation, but challenges include high costs due to materials like iridium and environmental issues from PFAS chemicals. The SUPREME project represents a collaborative European effort to innovate in this field, focusing on material science and engineering to create more sustainable production methods. Understanding this context helps grasp the importance of transitioning to clean energy and the technological hurdles involved in making green hydrogen viable on a large scale."
+  ],
+  "Article_Structure": [
+    "The article outlines the challenges and innovations in green hydrogen production, focusing on the SUPREME project's goals to address cost and environmental issues. Main points include the reliance on PFAS in PEM electrolysis and the high cost of iridium, with the project aiming to develop PFAS-free systems and reduce iridium use. The purpose is to promote sustainable energy transition by making green hydrogen more competitive. Evidence is based on research from universities and institutions, with credible sources like Graz University of Technology. Methodology involves collaborative R&D across Europe, evaluating materials and developing new technologies, though it lacks detailed peer-reviewed data, indicating ongoing work."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological Innovation",
+      "description": "Emphasizes developing new materials and systems to improve hydrogen production efficiency and sustainability"
+    },
+    {
+      "perspective": "Policy and Funding",
+      "description": "Highlights the role of EU funding and partnerships in driving research and development for clean energy"
+    }
+  ],
+  "image_url": "/article_images/article_ddb1e3da687931e2_9c688b4cbc9b.webp"
+}
