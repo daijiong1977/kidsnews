@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "7b40a4549aac21b6",
-      "title": "Industry Concerns Over Wales's Glass Inclusion in Deposit Return Scheme",
-      "summary": "The Welsh government plans to include glass in its deposit return scheme (DRS), set to launch in October 2027, aiming to reduce litter and promote recycling. However, industry groups from sectors like soft drinks, retail, and hospitality have raised serious concerns in a joint letter to the first minister. They argue that glass inclusion could drive up consumer prices due to higher implementation costs, as glass-enabled reverse vending machines are more expensive and bulkier than those for plastic and cans. Additionally, they warn of potential cross-border fraud, estimating up to £300 million in losses, since other UK nations (England, Scotland, and Northern Ireland) will not include glass in their DRS. The industry points out that 92% of household glass is already recycled successfully in Wales, and adding glass might disrupt existing systems. They have invested over £1 billion in the UK-wide rollout and support a unified approach for plastic and cans but urge Wales to reconsider glass inclusion to avoid logistical challenges and higher fees passed on to consumers. The coalition also calls for urgent appointment of an administrator to ensure the scheme launches on time.",
-      "source": "BBC Science",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_7b40a4549aac21b6_c0593a0e9708.webp",
+      "id": "bfa18c3f06a2bf94",
+      "title": "Heat Stress Threatens Amazon Insect Populations",
+      "summary": "A recent study published in Nature reveals that tropical insects, including moths, flies, and beetles, have limited ability to adapt to rising temperatures. Researchers led by Dr. Kim Holzmann and Dr. Marcell Peters examined over 2,000 insect species from East Africa and South America, finding that many lowland species cannot increase their heat tolerance, unlike some high-altitude insects. This is linked to the thermal stability of proteins in their bodies, which are evolutionarily conserved and slow to change. The Amazon region is particularly at risk, with up to half of insect species potentially facing critical heat stress if global warming continues unabated. Insects play crucial roles as pollinators, decomposers, and predators, so their decline could disrupt entire ecosystems. The study involved field data collection in 2022-2023 and genomic analysis to understand protein differences, highlighting the urgent need to address climate change impacts on biodiversity.",
+      "source": "Science Daily",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_bfa18c3f06a2bf94_9fc4de578e74.webp",
       "category": "Science"
     },
     {
-      "id": "ed7cb1d39678aa49",
-      "title": "Neutrino Research Sheds Light on the Matter-Antimatter Imbalance",
-      "summary": "Researchers from Indiana University and international teams have made progress in understanding why the universe contains matter, such as stars and planets, rather than being empty. This addresses a key cosmological puzzle: after the Big Bang, equal amounts of matter and antimatter should have annihilated each other, but a slight imbalance allowed matter to prevail. Neutrinos, nearly massless particles that rarely interact with other matter, may hold the answer. They exist in three flavors and oscillate between them as they travel. The NOvA experiment in the U.S. and T2K in Japan have collaborated on a joint analysis, combining data from their long-distance neutrino beams sent to massive detectors. By pooling results, scientists can better measure neutrino oscillations and differences between neutrinos and antineutrinos, focusing on CP symmetry, which relates to matter-antimatter behavior. This collaboration enhances precision and offers insights into the fundamental laws of physics, moving closer to explaining the universe's composition.",
+      "id": "ddcc90bd9aeb4654",
+      "title": "Uncovering ARK1: A Key Protein for Malaria Parasite Survival and Drug Development",
+      "summary": "International researchers have identified a crucial protein, Aurora-related kinase 1 (ARK1), that malaria parasites require for survival and transmission. Malaria, caused by Plasmodium parasites, remains a leading global infectious disease, spreading through mosquito bites and rapid multiplication in human hosts. The study, published in Nature Communications, reveals that ARK1 functions as a cellular traffic controller during the parasite's unusual growth and division process. Unlike human cells, Plasmodium divides in a complex manner, and ARK1 organizes the spindle structure that separates genetic material for new parasite cells. In laboratory experiments, disabling ARK1 disrupted spindle formation, halting parasite division and blocking their life cycle in both humans and mosquitoes. This makes ARK1 a promising target for antimalarial drugs, especially since it differs significantly from equivalent proteins in human cells, reducing the risk of side effects. The research involved collaboration across institutions, highlighting the importance of teamwork in understanding parasite biology. By targeting ARK1, scientists aim to develop drugs that specifically disrupt the parasite's life cycle, potentially preventing malaria transmission and advancing global health efforts.",
+      "source": "Science Daily",
+      "time_ago": "8 hours ago",
+      "image_url": "/article_images/article_ddcc90bd9aeb4654_cd892be7bf91.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9330926eca68e83f",
+      "title": "Revolutionary Photodetector Achieves Record Speed with Metasurface Technology",
+      "summary": "Engineers at Duke University have developed a groundbreaking pyroelectric photodetector that captures light in just 125 picoseconds, setting a new speed record. This device operates by sensing the minimal heat generated when light is absorbed, using an ultrathin design that works across the entire electromagnetic spectrum at room temperature without external power. It integrates a metasurface composed of precisely arranged silver nanocubes on a transparent layer above a gold sheet, which efficiently traps light energy through plasmonics. This innovation addresses limitations of traditional photodetectors, which are slow and bulky due to thick materials or bright light requirements. The technology has potential applications in multispectral cameras for skin cancer detection, food safety monitoring, and agriculture. The research, published in Advanced Functional Materials, builds on earlier work from 2019 and was refined by PhD student Eunso Shin to optimize speed measurement without costly equipment.",
+      "source": "Science Daily",
+      "time_ago": "10 hours ago",
+      "image_url": "/article_images/article_9330926eca68e83f_b96a6bb198b1.webp",
+      "category": "Science"
+    },
+    {
+      "id": "fbbc66a32f8c076e",
+      "title": "Weight Loss Drugs Could Aid Heart Recovery Post-Heart Attack",
+      "summary": "A recent study published in Nature Communications suggests that GLP-1 weight-loss drugs, such as Ozempic, may help the heart recover after a heart attack by preventing complications like 'no-reflow.' Researchers from the University of Bristol and University College London found that these drugs can improve blood flow in the heart by relaxing pericytes, small contractile cells that tighten coronary capillaries during ischemia. This process reduces the risk of additional heart damage, which affects up to half of heart attack patients. The study used animal models to show that GLP-1 drugs activate potassium channels, allowing constricted blood vessels to widen and enhance blood delivery to heart tissue. Earlier research had already indicated that these medications lower major heart risks, regardless of weight loss or existing health conditions. The findings highlight the potential for repurposing existing GLP-1 drugs, commonly used for type 2 diabetes and obesity, to treat heart attack complications, offering a potentially life-saving strategy. This could lead to new clinical applications, as the drugs are already deemed safe for other conditions.",
       "source": "Science Daily",
       "time_ago": "12 hours ago",
-      "image_url": "/article_images/article_ed7cb1d39678aa49_de026fa633bb.webp",
+      "image_url": "/article_images/article_fbbc66a32f8c076e_5cdaf2dca6db.webp",
       "category": "Science"
     },
     {
-      "id": "248058ec482f7f73",
-      "title": "How Hot Spring Bathing Affects Snow Monkeys' Health",
-      "summary": "Researchers at Kyoto University investigated the effects of hot spring bathing on Japanese macaques, commonly known as snow monkeys, beyond just thermoregulation. Over two winters at Jigokudani Snow Monkey Park in Nagano, Japan, they observed female monkeys, comparing frequent bathers with those that rarely or never bathed. The study combined behavioral observations with analyses of ectoparasites like lice and the gut microbiome through sequencing. Results indicated that bathing in hot springs subtly alters interactions with parasites, affecting lice behavior and egg-laying, and leads to differences in certain gut bacterial genera. However, overall gut microbiome diversity remained similar, and there was no increased risk of intestinal parasite infections in bathing monkeys. This research demonstrates that natural behaviors can influence the holobiont—the combined system of an animal and its associated microbes and parasites—highlighting the complex relationship between behavior and health in wild primates. It also suggests parallels to human habits, challenging assumptions about shared water sources and disease risk.",
-      "source": "Science Daily",
-      "time_ago": "14 hours ago",
-      "image_url": "/article_images/article_248058ec482f7f73_a88847da51d7.webp",
-      "category": "Science"
-    },
-    {
-      "id": "b5337ca8bf7295a8",
-      "title": "Uncovering Renaissance Science: How Proteomics Reveals DIY Experimentation in Medical Manuals",
-      "summary": "A recent study by an interdisciplinary team, including historian Stefan Hanss, uses proteomics to analyze 16th-century medical manuals, revealing that Renaissance individuals were active DIY scientists. The team examined two German manuals from 1531, focusing on trace proteins left by fingerprints on the pages, which indicate that readers not only followed recipes for ailments like hair loss and kidney stones but also experimented and annotated them. This approach combines multispectral imaging and archival research to place scientific findings in historical context, showing a shift towards hands-on knowledge construction. The study highlights how proteomics, a sensitive mass spectrometry technique, allows for detailed characterization of protein residues with minimal sample damage, extending methods previously used in art analysis to historical texts. It underscores the popularity of layperson medical guides and the cultural significance of experimentation during the Renaissance, offering new insights into how everyday people engaged with science and medicine through practical tinkering and personalized adjustments.",
+      "id": "51a716220288eb99",
+      "title": "TerraPower Advances with First Nuclear Plant Construction Approval",
+      "summary": "The US Nuclear Regulatory Commission has granted TerraPower approval to begin construction of its first nuclear plant in Kemmerer, Wyoming, marking the first such approval in nearly a decade. TerraPower, financially backed by Bill Gates, is developing the Natrium reactor, which features innovative sodium cooling and energy storage systems. Unlike traditional water-cooled reactors, sodium cooling operates at lower pressures, enhancing safety, but poses risks due to sodium's reactivity. The reactor is smaller at 345 megawatts and includes a salt-based storage system, allowing it to output up to 500 MW temporarily and integrate with renewable energy sources by storing heat for later use. Completion is projected for 2030, though operational licensing is still required. This project is part of the Department of Energy's Advanced Reactor Demonstration Program and benefits from recent legislation like the ADVANCE Act, which streamlines nuclear approvals. However, challenges remain, including potential delays and the need for future operational approval, with implications for meeting growing energy demands from data centers.",
       "source": "Ars Science",
-      "time_ago": "16 hours ago",
-      "image_url": "/article_images/article_b5337ca8bf7295a8_34487388185d.webp",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_51a716220288eb99_d00299377c50.webp",
       "category": "Science"
     },
     {
-      "id": "a5f0dd6ae228c333",
-      "title": "Microbial Survival in Martian Impact Ejection Simulations",
-      "summary": "Researchers investigated the survival potential of the extremophile bacterium Deinococcus radiodurans under conditions simulating ejection from Mars due to asteroid impacts. Using a laboratory setup with steel plates, they subjected the bacteria to pressures up to 3 GPa, mimicking the forces during impact events. Deinococcus radiodurans is known for its resilience to radiation and desiccation, making it a model for interplanetary survival studies. The experiments revealed that at 2.4 GPa, bacterial membranes began to rupture, but 60% of microbes survived, attributed to the robust structure of their cell envelopes. Gene expression analysis indicated that the bacteria activated repair mechanisms post-impact to address cellular damage. The findings suggest that microorganisms can endure more extreme launch conditions than previously assumed, supporting the theory of panspermia, where life could transfer between planets via impact-ejected material. This study enhances our understanding of planetary science and astrobiology by demonstrating the feasibility of microbial travel in space.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_a5f0dd6ae228c333_9e9df4d99241.webp",
-      "category": "Science"
-    },
-    {
-      "id": "60ff01d46f0dbe11",
-      "title": "Discovery of a Distant Jellyfish Galaxy by James Webb Telescope",
-      "summary": "Researchers from the University of Waterloo have discovered the most distant jellyfish galaxy ever observed, using data from the James Webb Space Telescope (JWST). Jellyfish galaxies are characterized by long streams of gas trailing behind them, resembling tentacles, which form due to ram-pressure stripping. This process occurs when galaxies move through dense clusters filled with hot gas, causing the surrounding gas to push against them and strip away their own gas into trailing strands. The newly identified galaxy is located at a redshift of z = 1.156, meaning its light has traveled for 8.5 billion years, allowing us to see it as it appeared when the universe was much younger. The galaxy was found in the COSMOS field, a well-studied area of the sky chosen for its clear view away from Milky Way interference. It features bright blue clumps along its tentacles, which are young stars that likely formed in the stripped gas, consistent with jellyfish galaxy behavior. This discovery challenges previous assumptions that ram-pressure stripping was rare in the early universe, suggesting that galaxy clusters were already harsh environments billions of years ago and may have influenced galaxy evolution earlier than expected. The study, published in The Astrophysical Journal, provides rare insights into how galaxies were transformed long ago and could reshape our understanding of cosmic history, with plans for further JWST observations to explore details.",
-      "source": "Science Daily",
-      "time_ago": "23 hours ago",
-      "image_url": "/article_images/article_60ff01d46f0dbe11_9155ba3dc5ca.webp",
+      "id": "64608fff75c01f87",
+      "title": "Evo 2: An Open Source AI for Decoding Complex Genomes",
+      "summary": "Researchers have developed Evo 2, an open source artificial intelligence system trained on trillions of DNA bases from all three domains of life: bacteria, archaea, and eukaryotes. This AI uses a convolutional neural network called StripedHyena 2 to identify key genomic features such as genes, regulatory sequences, and splice sites, which are often difficult for humans to detect due to the complexity of eukaryotic genomes. Unlike simpler bacterial genomes, eukaryotes have introns and scattered regulatory elements, making analysis challenging. Evo 2 was trained in two stages: first on 8,000-base chunks to learn features, then on million-base sequences to recognize large-scale patterns. The training dataset, OpenGenome2, includes 8.8 trillion bases, with versions having 7 billion or 40 billion parameters. By learning evolutionary conservation patterns, Evo 2 can spot important DNA regions, aiding scientific research in genetics and potentially leading to new discoveries, while the team avoided including harmful viruses to prevent misuse.",
+      "source": "Ars Science",
+      "time_ago": "15 hours ago",
+      "image_url": "/article_images/article_64608fff75c01f87_5baf28a2f882.webp",
       "category": "Science"
     }
   ]

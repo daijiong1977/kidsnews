@@ -1,0 +1,104 @@
+{
+  "title": "AI Helps Find a Rare Disease by Looking at Hand Photos",
+  "summary": "Scientists at Kobe University have made a smart computer program that can spot a rare disease called acromegaly just by looking at pictures of the back of the hand and a clenched fist. Acromegaly happens when the body makes too much growth hormone, which makes hands and feet grow bigger over many years. It can be hard to notice early, but if not treated, it can cause serious health problems. The AI uses hand photos instead of face photos to protect people's privacy. It was tested with over 11,000 images from 725 patients in Japan and worked very well, even better than some doctors. This tool could help doctors find the disease faster and help people in areas with fewer doctors get care sooner. The researchers hope to use it for other diseases that change how hands look, like arthritis.",
+  "keywords": [
+    {
+      "term": "AI",
+      "explanation": "a smart computer program that can learn and make decisions"
+    },
+    {
+      "term": "acromegaly",
+      "explanation": "a rare disease where the body makes too much growth hormone, making hands and feet bigger"
+    },
+    {
+      "term": "privacy",
+      "explanation": "keeping personal information safe and private"
+    },
+    {
+      "term": "doctors",
+      "explanation": "people who help us stay healthy and treat illnesses"
+    },
+    {
+      "term": "hand photos",
+      "explanation": "pictures of the back of the hand and a clenched fist"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the AI look at to find the disease?",
+      "options": [
+        "Face photos",
+        "Hand photos",
+        "Foot photos",
+        "X-ray images"
+      ],
+      "correct_answer": "Hand photos"
+    },
+    {
+      "question": "What is the name of the rare disease the AI detects?",
+      "options": [
+        "Diabetes",
+        "Acromegaly",
+        "Asthma",
+        "Flu"
+      ],
+      "correct_answer": "Acromegaly"
+    },
+    {
+      "question": "Why do the scientists use hand photos instead of face photos?",
+      "options": [
+        "Hands are easier to see",
+        "To protect privacy",
+        "Faces are too small",
+        "Hands change color"
+      ],
+      "correct_answer": "To protect privacy"
+    },
+    {
+      "question": "How many patients helped test the AI with their images?",
+      "options": [
+        "100",
+        "500",
+        "725",
+        "1000"
+      ],
+      "correct_answer": "725"
+    },
+    {
+      "question": "What can happen if acromegaly is not treated?",
+      "options": [
+        "It goes away on its own",
+        "It causes serious health problems",
+        "It makes you taller",
+        "It changes your hair color"
+      ],
+      "correct_answer": "It causes serious health problems"
+    },
+    {
+      "question": "What do the researchers hope to use the AI for in the future?",
+      "options": [
+        "Only for acromegaly",
+        "For other diseases that change hands",
+        "To replace doctors",
+        "To take better photos"
+      ],
+      "correct_answer": "For other diseases that change hands"
+    }
+  ],
+  "background_read": [
+    "Acromegaly is a rare disease that usually affects adults. It happens when the body produces too much growth hormone, which can make hands, feet, and other body parts grow larger over time. Because it develops slowly, it's often hard to diagnose early. If left untreated, it can lead to health issues like heart problems or shorter life. Doctors use tests and exams to find it, but new AI tools might help spot it faster using simple photos, making healthcare more accessible for everyone."
+  ],
+  "Article_Structure": [
+    "WHO: Researchers at Kobe University",
+    "WHAT: Created an AI that detects acromegaly from hand photos",
+    "WHERE: In Japan, with patients from 15 medical institutions",
+    "WHY: To help diagnose the disease early, protect privacy, and improve access to care"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Medical help",
+      "description": "The AI can assist doctors in finding diseases faster and helping patients in areas with fewer doctors."
+    }
+  ],
+  "image_url": "/article_images/article_dfb85d57c01289b9_24c73e89f1d2.webp"
+}

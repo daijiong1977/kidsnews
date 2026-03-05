@@ -1,0 +1,104 @@
+{
+  "title": "AI Learns About Genes from Many Living Things",
+  "summary": "Scientists made a smart computer program called Evo 2 that learns about genes from all types of living things, like bacteria, tiny archaea, and bigger plants and animals. It was trained on trillions of tiny parts of DNA called bases. This helps it find important spots in genes, like where genes start and stop or how they are controlled, which can be hard for people to see. The program is open source, meaning anyone can use it for free. It works by looking at patterns in DNA, similar to how our brains learn from lots of examples. This can help scientists understand genes better and discover new things about how living things work.",
+  "keywords": [
+    {
+      "term": "genes",
+      "explanation": "parts of DNA that tell cells how to make proteins or do jobs"
+    },
+    {
+      "term": "DNA",
+      "explanation": "a long molecule that holds instructions for living things"
+    },
+    {
+      "term": "open source",
+      "explanation": "a program that is free for everyone to use and share"
+    },
+    {
+      "term": "patterns",
+      "explanation": "repeating shapes or sequences that the AI learns to recognize"
+    },
+    {
+      "term": "scientists",
+      "explanation": "people who study and learn about the world through experiments"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the AI program discussed in the article?",
+      "options": [
+        "Evo 2",
+        "StripedHyena",
+        "OpenGenome",
+        "Bacteria AI"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What did Evo 2 learn from during its training?",
+      "options": [
+        "Trillions of DNA bases",
+        "Pictures of cells",
+        "Books about genes",
+        "Videos of animals"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Which types of living things did Evo 2 study?",
+      "options": [
+        "Bacteria, archaea, and eukaryotes",
+        "Only plants",
+        "Only animals",
+        "Only viruses"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does 'open source' mean for Evo 2?",
+      "options": [
+        "It is free for anyone to use",
+        "It costs money to buy",
+        "It is secret and hidden",
+        "It only works for scientists"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What can Evo 2 help scientists find in genes?",
+      "options": [
+        "Important spots like start and control areas",
+        "Only colors in cells",
+        "Only big animals",
+        "Only food sources"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "How does Evo 2 learn from DNA?",
+      "options": [
+        "By looking for patterns in sequences",
+        "By asking people questions",
+        "By watching movies",
+        "By reading books"
+      ],
+      "correct_answer": "A"
+    }
+  ],
+  "background_read": [
+    "Genes are like tiny instructions inside all living things, made of DNA. Scientists use computers to study genes and learn how they work. AI, or artificial intelligence, is a type of computer program that can learn from lots of data, similar to how we learn from practice. In this article, scientists made an AI called Evo 2 that looks at genes from many different living things to find important parts, helping us understand life better."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists and a team behind the AI program Evo 2",
+    "WHAT: An open source AI trained on trillions of DNA bases to find gene features",
+    "WHERE: In computer systems used for scientific research",
+    "WHY: To help understand genes better and make discoveries about living things"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific progress",
+      "description": "Evo 2 shows how AI can advance science by analyzing complex genetic data."
+    }
+  ],
+  "image_url": "/article_images/article_64608fff75c01f87_5baf28a2f882.webp"
+}
