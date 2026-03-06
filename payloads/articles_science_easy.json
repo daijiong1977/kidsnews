@@ -1,39 +1,48 @@
 {
   "articles": [
     {
-      "id": "bfa18c3f06a2bf94",
-      "title": "Hot Weather Trouble for Amazon Bugs",
-      "summary": "Scientists studied insects like moths and beetles to see how they handle hot weather. They found that many insects, especially in warm places like the Amazon rainforest, cannot easily get used to hotter temperatures. This is because their bodies have proteins that do not change quickly. If the Earth keeps getting warmer, up to half of the insects in the Amazon could face dangerous heat stress. Insects are important because they help plants grow by pollinating flowers and break down dead things. The study looked at over 2,000 insect species from places in Africa and South America. This research helps us understand why insects might struggle as the climate changes.",
+      "id": "2a5eb428e6301023",
+      "title": "A Giant Cosmic Sheet Around Our Galaxy",
+      "summary": "Astronomers have found a giant flat sheet of matter around the Milky Way and Andromeda galaxies. This sheet is made of both normal matter and dark matter, which we cannot see. It stretches for tens of millions of light-years. The sheet helps explain why many nearby galaxies are moving away from us instead of being pulled in by gravity. Scientists used computer simulations to create a virtual twin of our cosmic neighborhood. They started with conditions from the early universe and evolved it to match today. The simulations show that the sheet's mass balances the gravity of the Local Group, which includes the Milky Way and Andromeda. This solves a mystery that puzzled astronomers for about fifty years. The discovery is exciting because it uses galaxy motions to understand mass distribution.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_2a5eb428e6301023_b4f10a6082a5.webp",
+      "category": "Science"
+    },
+    {
+      "id": "75a99d1f0fe0b653",
+      "title": "Electrons Zoom Super Fast in Solar Materials",
+      "summary": "Scientists found that electrons can move very quickly across solar materials, which helps make solar panels better at turning sunlight into electricity. In experiments, they watched electrons travel in just 18 femtoseconds, which is an incredibly short time—like a tiny fraction of a second. The electrons don't drift slowly; they get launched like from a catapult by vibrations in the molecules. This discovery is exciting because it challenges old ideas about how solar energy works and could lead to more efficient solar cells that capture more sunlight. The research was done at the University of Cambridge and shows that vibrations actively push the electrons, making them move faster than expected. This could help design new technologies to use solar power more effectively.",
       "source": "Science Daily",
       "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_bfa18c3f06a2bf94_9fc4de578e74.webp",
+      "image_url": "/article_images/article_75a99d1f0fe0b653_c58ad70ea2ac.webp",
       "category": "Science"
     },
     {
-      "id": "ddcc90bd9aeb4654",
-      "title": "Scientists Find a Special Protein That Malaria Parasites Need to Live",
-      "summary": "Scientists have discovered a special protein called ARK1 that malaria parasites cannot live without. Malaria is a serious disease caused by tiny parasites that spread through mosquito bites. These parasites grow and divide inside people and mosquitoes to make more parasites and spread the disease. The researchers found that ARK1 acts like a traffic controller, helping the parasites divide properly by organizing their genetic material. When scientists turned off ARK1 in lab tests, the parasites could not divide correctly and stopped growing. This means ARK1 is a key target for new medicines to fight malaria. The protein is different from similar ones in human cells, so drugs could target it without harming people. This discovery could lead to better treatments to stop malaria and save lives.",
+      "id": "adebe6581484a1ca",
+      "title": "AI Finds Liver Disease Early with a Simple Blood Test",
+      "summary": "Scientists at Johns Hopkins have created a new blood test that uses artificial intelligence (AI) to find liver disease before people feel sick. The test looks at tiny pieces of DNA floating in the blood, called cell-free DNA. By studying how these DNA pieces break and where they come from in the body, the AI can spot signs of liver problems like fibrosis and cirrhosis. This is important because liver disease can be reversed if caught early, but if not, it can lead to serious issues like liver cancer. The test works by analyzing millions of DNA fragments with machine learning, a type of AI that learns patterns. It could help millions of people who don't know they have liver disease, as current tests often miss early signs. This research was funded by the National Institutes of Health and published in a science journal.",
       "source": "Science Daily",
-      "time_ago": "8 hours ago",
-      "image_url": "/article_images/article_ddcc90bd9aeb4654_cd892be7bf91.webp",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_adebe6581484a1ca_f620faa72ece.webp",
       "category": "Science"
     },
     {
-      "id": "9330926eca68e83f",
-      "title": "A Super-Fast Light Detector That Works Like Magic",
-      "summary": "Scientists at Duke University made a new device that can see light super fast, in just 125 picoseconds, which is way quicker than a blink. This device is called a photodetector, and it works by feeling the tiny heat from light. It can see all colors of light, even ones our eyes can't see, and it doesn't need batteries or to be cold. It's very thin and can be put on tiny chips. This could help make better cameras for finding skin cancer, checking food, and helping farmers grow crops. The device uses special tiny cubes made of silver to trap light energy, making it work quickly and efficiently. This is a big step because older detectors were slow and bulky. The team shared their work in a science journal.",
+      "id": "449baf3b329e83f2",
+      "title": "A Super Detailed Picture of the Milky Way's Center",
+      "summary": "Scientists have taken the most detailed picture ever of the center of our galaxy, the Milky Way. They used a big telescope called ALMA in Chile to see cold gas clouds that are invisible to our eyes. This gas is what stars are made from. The picture shows a busy area near a huge black hole, where stars form in extreme conditions. It helps astronomers learn how stars are born in this wild part of space. The image is very big, like three Moons side by side in the sky. This is just the start, as new telescopes will soon show even more details.",
       "source": "Science Daily",
-      "time_ago": "10 hours ago",
-      "image_url": "/article_images/article_9330926eca68e83f_b96a6bb198b1.webp",
+      "time_ago": "13 hours ago",
+      "image_url": "/article_images/article_449baf3b329e83f2_208035587650.webp",
       "category": "Science"
     },
     {
-      "id": "fbbc66a32f8c076e",
-      "title": "Heart Medicine Helps After a Heart Attack",
-      "summary": "Some medicines that help people lose weight might also help the heart after a heart attack. A new study from scientists in the UK found that these drugs, called GLP-1 drugs, can make tiny blood vessels in the heart open up again. When someone has a heart attack, blood cannot reach all parts of the heart, which can cause more damage. The study shows that GLP-1 drugs relax small cells called pericytes, allowing blood to flow better. This could help prevent problems like 'no-reflow,' where blood stays blocked. The research was done on animals and might help doctors treat heart attack patients better in the future. These drugs are already used for diabetes and obesity, so they could be a safe option.",
-      "source": "Science Daily",
-      "time_ago": "12 hours ago",
-      "image_url": "/article_images/article_fbbc66a32f8c076e_5cdaf2dca6db.webp",
+      "id": "e78994f4eda6b1e1",
+      "title": "New Penguins Join Wildlife Park",
+      "summary": "A wildlife park in Gloucestershire, UK, has welcomed three new Humboldt penguins. These penguins are male and came from Wales to join other penguins at the park. Humboldt penguins live in Peru and Chile in South America and are in danger because of problems like climate change and overfishing. The park helps protect these penguins by having them in a safe place where they can breed and live. Visitors can see the new penguins in the Penguin Shore area. The park also works with scientists to help penguins in the wild by building nest boxes and collecting data. This is part of a big effort to save the species.",
+      "source": "BBC Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_e78994f4eda6b1e1_bb1f3c3d8858.webp",
       "category": "Science"
     },
     {
@@ -41,17 +50,8 @@
       "title": "TerraPower Starts Building a New Nuclear Plant in Wyoming",
       "summary": "TerraPower, a company backed by Bill Gates, has received permission to start building its first nuclear power plant in Kemmerer, Wyoming. This is a big step because it's the first new nuclear construction approved in the US in almost ten years. The plant, called Natrium, is special because it uses liquid sodium for cooling instead of water, which makes it safer and more efficient. It also has energy storage, so it can save heat to make electricity later, helping it work well with renewable energy like solar and wind. The plant is smaller than most nuclear plants and is expected to be finished by 2030. Before it can operate, it still needs another license, but starting construction is an important milestone for clean energy.",
       "source": "Ars Science",
-      "time_ago": "14 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_51a716220288eb99_d00299377c50.webp",
-      "category": "Science"
-    },
-    {
-      "id": "64608fff75c01f87",
-      "title": "AI Learns About Genes from Many Living Things",
-      "summary": "Scientists made a smart computer program called Evo 2 that learns about genes from all types of living things, like bacteria, tiny archaea, and bigger plants and animals. It was trained on trillions of tiny parts of DNA called bases. This helps it find important spots in genes, like where genes start and stop or how they are controlled, which can be hard for people to see. The program is open source, meaning anyone can use it for free. It works by looking at patterns in DNA, similar to how our brains learn from lots of examples. This can help scientists understand genes better and discover new things about how living things work.",
-      "source": "Ars Science",
-      "time_ago": "15 hours ago",
-      "image_url": "/article_images/article_64608fff75c01f87_5baf28a2f882.webp",
       "category": "Science"
     }
   ]
