@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "515b1f3760302ddd",
+      "title": "Unexpected Discovery of Ancient Microbial Life in Deep Sea Rocks",
+      "summary": "During a field study in Morocco's Dadès Valley, Dr. Rowan Martindale and her research team discovered wrinkle structures in turbidite rocks that formed about 180 million years ago in deep ocean environments. Wrinkle structures are small ridges typically created by photosynthetic algae in shallow, sunlit waters, but these were found at depths exceeding 180 meters, where sunlight cannot penetrate. This challenges previous assumptions, as such structures are rare in younger rocks due to animal disturbance. The team conducted chemical analyses, revealing elevated carbon levels indicative of biological activity. They compared the find to modern deep-sea microbial mats formed by chemosynthetic bacteria, which derive energy from chemical reactions rather than sunlight. This evidence suggests that the wrinkles originated from chemosynthetic microbial life, offering new insights into ancient ecosystems in dark, deep-water settings and highlighting the preservation of delicate textures despite active animal life during that period.",
+      "source": "Science Daily",
+      "time_ago": "15 hours ago",
+      "image_url": "/article_images/article_515b1f3760302ddd_f1011f212291.webp",
+      "category": "Science"
+    },
+    {
+      "id": "41e8ab580cdb61de",
+      "title": "The Impact of Fiber on Gut Health and Longevity",
+      "summary": "Fiber intake plays a crucial role in overall health, particularly for gut health and disease prevention. The trend of fibermaxxing, which involves consuming the recommended daily fiber amount, has gained popularity as people seek to improve their healthspan—the years lived in good health. Scientist Jennifer Lee from Tufts University explains that low fiber consumption can lead to metabolic issues like diabetes and obesity, and may increase cancer risks such as colorectal cancer. She highlights the distinction between lifespan and healthspan, noting a nine-year gap where people often live in poor health. The USDA recommends adults eat 22-34 grams of fiber daily, with guidelines based on age, sex, and calorie intake. For example, a young adult male might need 34 grams, while a female might need 28 grams. Increasing fiber in the diet offers broad health benefits, supporting digestion and reducing chronic disease risks.",
+      "source": "Science Daily",
+      "time_ago": "17 hours ago",
+      "image_url": "/article_images/article_41e8ab580cdb61de_f8fd533813d7.webp",
+      "category": "Science"
+    },
+    {
+      "id": "dfe7fcaa37cc9d0f",
+      "title": "New Fossil Reveals Complex Evolution in Miniature Dinosaurs",
+      "summary": "A recent discovery of a fossilized dinosaur named Alnashetri cerropoliciensis, found in Argentina's Candeleros Formation, challenges previous theories about dinosaur miniaturization. This Alvarezsaurid, estimated to have lived 90 million years ago, is the most complete and smallest skeleton of its kind in South America, weighing only 700 grams. Unlike later Alvarezsaurids, which were thought to have evolved small bodies and short arms for specialized ant-eating, Alnashetri had long limbs and teeth not suited for crushing ants, suggesting it was a pursuit predator hunting insects and small mammals. Its early-branching position in the evolutionary tree indicates that miniaturization did not occur in a linear, clade-wide trend tied to diet. Instead, body size fluctuated independently, with Alnashetri achieving its tiny frame separately from other species. This finding, led by paleontologist Peter Makovicky, underscores that evolutionary processes can be more variable and complex, requiring scientists to reconsider models of how traits like small size develop in dinosaur lineages.",
+      "source": "Ars Science",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_dfe7fcaa37cc9d0f_2ba8db96e64a.webp",
+      "category": "Science"
+    },
+    {
+      "id": "fdd1c50fb1141613",
+      "title": "Satellite Technology Reveals Global Bridge Vulnerabilities",
+      "summary": "Researchers are employing satellite-based monitoring to identify bridges at risk of failure worldwide, offering a proactive approach to infrastructure safety. In a study published in Nature Communications, scientists analyzed 744 bridges globally and found that North American bridges are in the poorest condition, followed by those in Africa. Many of these structures, built during construction booms like the 1960s in North America, are aging beyond their design lifespans. The team uses Synthetic Aperture Radar (SAR) from satellites to detect millimeter-scale movements in bridges, which can indicate structural issues such as subsidence or landslides. This technology, specifically Multi-Temporal Interferometric SAR (MT-InSAR), provides frequent, wide-area coverage and historical data, complementing traditional methods like visual inspections and Structural Health Monitoring (SHM) sensors. Visual inspections are costly and infrequent, while SHM sensors are installed on less than 20% of long-span bridges. The research advocates for integrating satellite data into risk frameworks to reduce high-risk classifications, especially in regions where ground-based monitoring is expensive. This approach could enhance global infrastructure resilience by enabling early detection of problems before they escalate into disasters.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_fdd1c50fb1141613_6f5d343f24fc.webp",
+      "category": "Science"
+    },
+    {
       "id": "5f3114b05424c561",
       "title": "Efforts to Enhance Protection for England's Chalk Streams",
       "summary": "Environmental campaigners are advocating for increased legal protection for chalk streams, which are among the world's rarest freshwater habitats, predominantly located in England. These streams originate from springs in porous chalk bedrock, resulting in clear water and gravelly bottoms, and only 220 exist globally, with most in southern England, such as the River Wandle in London. The London Wildlife Trust argues that current protections are insufficient and proposes including chalk streams in the National Planning Policy Framework to safeguard them from development and pollution. In response, the Department for Environment, Food and Rural Affairs (Defra) highlights government reforms in the water industry, including immediate actions to clean up chalk streams and a £2 billion investment over five years for restoration. Additionally, Thames Water is undertaking significant upgrades to wastewater networks to reduce storm discharges and improve water quality, with specific projects aimed at enhancing the River Wandle. This push reflects broader concerns about preserving irreplaceable natural resources and balancing environmental stewardship with urban and industrial pressures.",
       "source": "BBC Science",
-      "time_ago": "4 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_5f3114b05424c561_c194335845d6.webp",
       "category": "Science"
     },
     {
-      "id": "218da9bc1938ea6e",
-      "title": "Breaking Nuclear Rules: A Balanced Atom's Surprising Behavior",
-      "summary": "Nuclear physicists have long believed that 'Islands of Inversion'—regions where atomic nuclei deviate from expected structures—occur primarily in neutron-rich isotopes, such as beryllium-12 or magnesium-32. These areas involve the loss of magic numbers and spherical shapes, leading to distorted nuclei. However, an international research team has challenged this notion by discovering an Island of Inversion in a symmetrical part of the nuclear chart, where protons and neutrons are equal. The study focused on molybdenum-84 and molybdenum-86, isotopes along the N=Z line that are difficult to produce in labs. Using rare isotope beams at Michigan State University and gamma ray detectors like GRETINA, scientists accelerated Mo-92 ions, created Mo-86 beams, and measured excited states with picosecond precision. By comparing results with GEANT4 simulations, they determined nuclear lifetimes and distortions. The findings revealed a dramatic difference between Mo-84 and Mo-86, despite only a two-neutron gap, indicating unexpected behavior in balanced nuclei. This discovery expands our understanding of nuclear physics and suggests that Islands of Inversion can occur in more stable regions, prompting further research into atomic structures.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_218da9bc1938ea6e_f573b8517b64.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a04c9cc47aadad44",
-      "title": "NASA's DART Mission Uncovers Active Asteroid Interactions",
-      "summary": "A research team from the University of Maryland has discovered that binary asteroid systems, where two asteroids orbit each other, are more dynamic than previously believed. Using images from NASA's DART mission in 2022, which intentionally crashed into the asteroid moon Dimorphos, scientists identified bright, fan-shaped streaks on Dimorphos' surface. These streaks provide the first direct visual evidence of material transfer between asteroids, described as \"cosmic snowballs\" from low-velocity impacts. The findings, published in 2026, also offer visual confirmation of the YORP effect, where sunlight speeds up asteroid rotation, causing debris ejection. This process likely occurred in the Didymos system, with debris from Didymos landing on Dimorphos. The analysis involved specialized techniques to remove shadows and artifacts, revealing subtle patterns that confirm real geological features. This research enhances understanding of asteroid behavior and potential Earth threats.",
-      "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_a04c9cc47aadad44_f0e74dcbda20.webp",
-      "category": "Science"
-    },
-    {
-      "id": "ef494d6402942d17",
-      "title": "Unraveling Autism: How Nitric Oxide Triggers Cellular Overactivity",
-      "summary": "Researchers at Hebrew University of Jerusalem have identified a potential mechanism linking nitric oxide to autism spectrum disorder (ASD). Nitric oxide, a chemical messenger in the brain, normally aids neural communication, but in some ASD cases, it may become overactive, acting like a stuck button. This triggers a biochemical chain reaction where nitric oxide modifies the TSC2 protein through a process called S-nitrosylation, marking it for removal. TSC2 typically functions as a brake on the mTOR pathway, which regulates cell growth and protein production. Without TSC2, mTOR activity surges, potentially disrupting neuron function and contributing to autism symptoms. The study, published in Molecular Psychiatry, shows that blocking nitric oxide production or engineering a resistant TSC2 version can restore normal mTOR levels and improve cellular metrics related to autism. This discovery highlights a specific pathway that could be targeted for future therapies, offering insights into the biological basis of ASD and emphasizing the role of molecular interactions in brain disorders.",
-      "source": "Science Daily",
-      "time_ago": "11 hours ago",
-      "image_url": "/article_images/article_ef494d6402942d17_1291a758eee4.webp",
-      "category": "Science"
-    },
-    {
-      "id": "bc88be8634308187",
-      "title": "AI Uncovers Liquid-Like Ion Flow in Solid-State Batteries",
-      "summary": "All-solid-state batteries (ASSB) are considered a safer and potentially more energy-dense alternative to conventional lithium-ion batteries, but their performance hinges on rapid ion transport through solid electrolytes. Traditionally, identifying materials that enable this has been slow and computationally intensive, as standard simulations struggle with disordered ion behavior at high temperatures. To overcome this, researchers developed a machine learning (ML) workflow that combines ML force fields with tensorial models to simulate Raman spectra. This approach detects liquid-like ion motion by analyzing low-frequency Raman intensity, which serves as a spectroscopic indicator of high ionic mobility. When ions move fluidly through a crystal lattice, they break symmetry and relax Raman selection rules, producing distinctive scattering signals. Applied to sodium-ion conductors like Na3SbS4, the method revealed pronounced low-frequency features linked to fast ion transport, explaining prior experimental observations. It distinguishes materials with liquid-like conduction from those with hopping mechanisms, providing a reliable screening tool. By reducing computational costs and connecting simulations to experiments, this ML-accelerated pipeline accelerates the discovery of superionic materials, offering a new data-driven route for advancing solid-state battery technologies.",
-      "source": "Science Daily",
-      "time_ago": "14 hours ago",
-      "image_url": "/article_images/article_bc88be8634308187_0e1c6eb1866a.webp",
-      "category": "Science"
-    },
-    {
-      "id": "e2b61dca66291108",
-      "title": "Revealing the True Lifestyle of Spinosaurus Through Desert Fossils",
-      "summary": "A recent discovery in the Sahara Desert challenges previous understandings of the Spinosaurus, a sail-backed dinosaur often depicted in films. Led by paleontologist Paul Sereno, researchers uncovered new Spinosaurus fossils in Niger's Jenguebi region, an inland area far from ancient coastlines. These findings, including a species named S. mirabilis with a prominent head crest, suggest that Spinosaurus was not an aquatic diver as recently thought. Instead, evidence such as buoyant bones with air sacks indicates it was semiaquatic, wading in freshwater rivers to ambush fish like a heron. The fossils were found alongside sauropod dinosaurs, confirming an inland habitat. This contradicts earlier interpretations based on coastal remains and Hollywood portrayals, highlighting Spinosaurus as a shoreline predator adapted to river environments. The study emphasizes how new fossil sites can reshape scientific knowledge and correct misconceptions about prehistoric life.",
-      "source": "Ars Science",
+      "id": "98161a2be0eef194",
+      "title": "Reviving Ancient Hedge Laying to Enhance Biodiversity",
+      "summary": "Bristol Water is implementing ancient hedge laying techniques at Blagdon Lake, a 440-acre reservoir and Site of Special Scientific Interest in Somerset, to boost biodiversity. This traditional craft involves trimming hedgerows and laying base stems horizontally to promote dense, vertical regrowth, providing essential cover for endangered species like farmland birds and hedgehogs during winter. Unlike modern trimming with heavy machinery that leaves hedges sparse, hedge laying creates favorable habitats. The project, led by specialist Mike Reed, covers 1,800 meters and will span two years, with pauses during nesting months to avoid disturbing wildlife. Experts aim to pass on this local tradition while expecting a significant return of diverse species, highlighting a sustainable approach to conservation.",
+      "source": "BBC Science",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_e2b61dca66291108_b8ece0333bed.webp",
+      "image_url": "/article_images/article_98161a2be0eef194_37beaac90545.webp",
       "category": "Science"
     }
   ]
