@@ -1,0 +1,108 @@
+{
+  "title": "Slippery Nanopores Make Blue Energy Better",
+  "summary": "Scientists have found a new way to make blue energy, which is electricity from mixing saltwater and freshwater, work better. They use tiny holes called nanopores that are coated with a slippery layer made from lipids, which are like tiny fat bubbles. This coating helps ions, which are tiny charged particles from saltwater, move through the holes faster and with less friction. When ions move quickly, they create more electricity. The scientists tested this with 1,000 coated nanopores and got about 15 watts per square meter, which is 2-3 times more power than older methods. This could help make blue energy a practical way to get renewable energy from the ocean and rivers, moving it from just labs to real use.",
+  "keywords": [
+    {
+      "term": "blue energy",
+      "explanation": "electricity made by mixing saltwater and freshwater"
+    },
+    {
+      "term": "nanopores",
+      "explanation": "very tiny holes that ions can pass through"
+    },
+    {
+      "term": "lipids",
+      "explanation": "tiny fat bubbles that make a slippery coating"
+    },
+    {
+      "term": "ions",
+      "explanation": "tiny charged particles that move to create electricity"
+    },
+    {
+      "term": "friction",
+      "explanation": "resistance that slows things down, reduced by the coating"
+    },
+    {
+      "term": "power density",
+      "explanation": "how much electricity is made per area, measured in watts per square meter"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is blue energy made from?",
+      "options": [
+        "Mixing saltwater and freshwater",
+        "Burning fossil fuels",
+        "Using solar panels",
+        "Wind turbines"
+      ],
+      "correct_answer": "Mixing saltwater and freshwater"
+    },
+    {
+      "question": "What are nanopores coated with to make them slippery?",
+      "options": [
+        "Lipids",
+        "Metal",
+        "Plastic",
+        "Glass"
+      ],
+      "correct_answer": "Lipids"
+    },
+    {
+      "question": "What do ions do to create electricity in blue energy?",
+      "options": [
+        "Move through nanopores",
+        "Stay still",
+        "Explode",
+        "Dissolve"
+      ],
+      "correct_answer": "Move through nanopores"
+    },
+    {
+      "question": "How much more power did the new system produce compared to older methods?",
+      "options": [
+        "2-3 times more",
+        "The same amount",
+        "Less power",
+        "10 times more"
+      ],
+      "correct_answer": "2-3 times more"
+    },
+    {
+      "question": "What is the unit used to measure power density in this article?",
+      "options": [
+        "Watts per square meter",
+        "Miles per hour",
+        "Degrees Celsius",
+        "Liters"
+      ],
+      "correct_answer": "Watts per square meter"
+    },
+    {
+      "question": "Why is reducing friction important in nanopores?",
+      "options": [
+        "It helps ions move faster",
+        "It makes the holes bigger",
+        "It changes the color of water",
+        "It stops electricity"
+      ],
+      "correct_answer": "It helps ions move faster"
+    }
+  ],
+  "background_read": [
+    "Blue energy is a type of renewable energy that uses the natural mixing of saltwater from the ocean and freshwater from rivers to generate electricity. When these waters mix, ions from the saltwater move through special membranes, creating a voltage. Scientists are working to improve this process by making the membranes more efficient. In this article, researchers used slippery coatings on tiny holes called nanopores to help ions move faster, producing more electricity. This could help make blue energy a reliable source of clean power in the future."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists from EPFL and CIME, led by Aleksandra Radenovic",
+    "WHAT: Created slippery nanopores coated with lipids to improve blue energy production",
+    "WHERE: In a laboratory setting, testing with conditions like where seawater meets river water",
+    "WHY: To make blue energy more efficient and practical for renewable electricity generation"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific Innovation",
+      "description": "The research shows how new materials like lipid coatings can solve old problems in energy technology."
+    }
+  ],
+  "image_url": "/article_images/article_f92e83c10877d580_c291930ccf57.webp"
+}

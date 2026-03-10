@@ -1,0 +1,133 @@
+{
+  "title": "NASA's DART Mission Proves Asteroid Deflection is Possible",
+  "summary": "In September 2022, NASA's DART (Double Asteroid Redirection Test) mission intentionally crashed a spacecraft into the asteroid moonlet Dimorphos, part of a binary system with the larger asteroid Didymos. The primary goal was to test kinetic impactor technology for planetary defense. Initial results showed the collision shortened Dimorphos' orbit around Didymos by 33 minutes. New research published in Science Advances reveals that the impact also altered the entire binary system's orbit around the Sun by a tiny amount—about 0.15 seconds in its 770-day orbital period. This marks the first human-made change to a natural object's solar orbit. The debris ejected from Dimorphos during the impact provided extra momentum, roughly doubling the force of the collision. Scientists measured a speed change of 11.7 microns per second, which, over time, could accumulate to deflect a hazardous asteroid away from Earth. This demonstrates that kinetic impactors could be an effective method to protect Earth if threatening near-Earth objects are detected early enough.",
+  "keywords": [
+    {
+      "term": "kinetic impactor",
+      "explanation": "a spacecraft that crashes into an asteroid to change its path"
+    },
+    {
+      "term": "binary system",
+      "explanation": "two asteroids bound together by gravity, orbiting a shared center"
+    },
+    {
+      "term": "orbital period",
+      "explanation": "the time it takes for an object to complete one orbit around another"
+    },
+    {
+      "term": "momentum enhancement",
+      "explanation": "extra push from debris ejected during an impact, increasing the force"
+    },
+    {
+      "term": "planetary defense",
+      "explanation": "methods to protect Earth from asteroid or comet impacts"
+    },
+    {
+      "term": "near-Earth object",
+      "explanation": "an asteroid or comet with an orbit that brings it close to Earth"
+    },
+    {
+      "term": "DART mission",
+      "explanation": "NASA's test to redirect an asteroid by crashing a spacecraft into it"
+    },
+    {
+      "term": "solar orbit",
+      "explanation": "the path an object takes around the Sun"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the main purpose of NASA's DART mission?",
+      "options": [
+        "To collect asteroid samples",
+        "To test kinetic impactor technology for planetary defense",
+        "To study the Sun",
+        "To build a space station"
+      ],
+      "correct_answer": "To test kinetic impactor technology for planetary defense"
+    },
+    {
+      "question": "What did the DART impact change about Dimorphos' orbit around Didymos?",
+      "options": [
+        "It made it longer by 33 minutes",
+        "It shortened it by 33 minutes",
+        "It stopped it completely",
+        "It reversed its direction"
+      ],
+      "correct_answer": "It shortened it by 33 minutes"
+    },
+    {
+      "question": "How much did the binary system's solar orbital period change after the impact?",
+      "options": [
+        "About 0.15 seconds",
+        "About 1 second",
+        "About 10 seconds",
+        "It did not change"
+      ],
+      "correct_answer": "About 0.15 seconds"
+    },
+    {
+      "question": "What effect did the debris from the impact have?",
+      "options": [
+        "It reduced the force of the collision",
+        "It provided extra momentum, doubling the force",
+        "It caused the asteroid to break apart",
+        "It created a new moon"
+      ],
+      "correct_answer": "It provided extra momentum, doubling the force"
+    },
+    {
+      "question": "What is the significance of changing an asteroid's solar orbit?",
+      "options": [
+        "It proves we can destroy asteroids",
+        "It shows we can deflect hazardous asteroids to protect Earth",
+        "It helps us mine asteroids",
+        "It makes asteroids easier to study"
+      ],
+      "correct_answer": "It shows we can deflect hazardous asteroids to protect Earth"
+    },
+    {
+      "question": "How was the speed change of the binary system measured?",
+      "options": [
+        "11.7 microns per second",
+        "11.7 meters per second",
+        "11.7 kilometers per hour",
+        "11.7 miles per hour"
+      ],
+      "correct_answer": "11.7 microns per second"
+    },
+    {
+      "question": "What type of asteroid system is Dimorphos part of?",
+      "options": [
+        "A single asteroid",
+        "A binary system with Didymos",
+        "A ring system",
+        "A comet tail"
+      ],
+      "correct_answer": "A binary system with Didymos"
+    },
+    {
+      "question": "Why is early detection important for planetary defense?",
+      "options": [
+        "To give more time for a deflection mission",
+        "To avoid scaring people",
+        "To reduce costs",
+        "To make asteroids visible from Earth"
+      ],
+      "correct_answer": "To give more time for a deflection mission"
+    }
+  ],
+  "background_read": [
+    "Asteroids are remnants from the early solar system, and some, called near-Earth objects (NEOs), have orbits that cross Earth's path, posing impact risks. NASA's DART mission, launched in 2021, targeted the binary asteroid system Didymos and Dimorphos, which orbits about 6.8 million miles from Earth. Kinetic impactors work by transferring momentum from a spacecraft to an asteroid upon collision, potentially altering its trajectory. The DART impact was observed by telescopes and a follow-up mission, Hera, to study the effects in detail. This research contributes to international efforts in planetary defense, coordinated by organizations like NASA's Planetary Defense Coordination Office, to develop strategies for mitigating asteroid threats."
+  ],
+  "Article_Structure": [
+    "Main Points: The DART mission successfully altered Dimorphos' orbit around Didymos and the binary system's solar orbit, demonstrating kinetic impactor effectiveness for planetary defense. Purpose: To validate technology for deflecting hazardous asteroids and provide evidence for future defense strategies. Evidence Evaluation: High-quality data from precise measurements published in peer-reviewed journals, supported by debris analysis showing momentum enhancement. Author Credibility: Scientists from NASA and universities with expertise in astronomy and planetary science. Methodology: Tracking orbital changes using telescopes and calculating effects from the impact and ejected material."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological validation",
+      "description": "The mission proves that kinetic impactors can reliably change asteroid trajectories, offering a practical defense method against NEO threats."
+    }
+  ],
+  "image_url": "/article_images/article_62dbb43404d4ac43_ec7a3ae7aaac.webp"
+}

@@ -1,0 +1,133 @@
+{
+  "title": "The Impact of Colorblindness on Bladder Cancer Detection and Mortality",
+  "summary": "Researchers from Stanford Medicine conducted a study revealing that colorblindness can significantly hinder the early detection of bladder cancer by making it difficult to notice blood in urine, a key symptom. Analyzing extensive health records, they found that bladder cancer patients with color vision deficiency faced a 52% higher mortality rate over two decades compared to those with normal vision. This delay in diagnosis often leads to advanced disease stages, reducing treatment effectiveness. Colorblindness, affecting approximately 1 in 12 men and 1 in 200 women, impairs the ability to distinguish red tones, which is critical for identifying blood. The study utilized the TriNetX platform, which aggregates millions of de-identified patient records globally, to examine rare condition combinations. Earlier research supported these findings, showing that colorblind individuals correctly identified blood samples only 70% of the time versus 99% for those with normal vision. The researchers emphasize raising awareness among patients and healthcare providers to mitigate risks and improve outcomes for this vulnerable population.",
+  "keywords": [
+    {
+      "term": "color vision deficiency",
+      "explanation": "a medical condition where individuals have difficulty perceiving certain colors, often red and green"
+    },
+    {
+      "term": "mortality rate",
+      "explanation": "the measure of deaths in a specific population over a given time period"
+    },
+    {
+      "term": "early detection",
+      "explanation": "identifying a disease at an initial stage to improve treatment success"
+    },
+    {
+      "term": "TriNetX platform",
+      "explanation": "a large database compiling electronic health records for research purposes"
+    },
+    {
+      "term": "diagnostic codes",
+      "explanation": "codes used in health records to classify diseases and conditions"
+    },
+    {
+      "term": "advanced stages",
+      "explanation": "later phases of a disease where it has progressed and may be harder to treat"
+    },
+    {
+      "term": "de-identified records",
+      "explanation": "health data with personal information removed to protect privacy"
+    },
+    {
+      "term": "vulnerable population",
+      "explanation": "a group at higher risk for health issues due to specific factors"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What symptom of bladder cancer is hard for colorblind people to detect?",
+      "options": [
+        "Blood in urine",
+        "Fatigue",
+        "Nausea",
+        "Skin rash"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "How much higher was the mortality rate for bladder cancer patients with colorblindness?",
+      "options": [
+        "52%",
+        "25%",
+        "75%",
+        "10%"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What platform did researchers use to analyze health records?",
+      "options": [
+        "TriNetX",
+        "Google",
+        "Facebook",
+        "Amazon"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What percentage of time did colorblind individuals correctly identify blood samples in earlier studies?",
+      "options": [
+        "70%",
+        "90%",
+        "50%",
+        "99%"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Who is more commonly affected by colorblindness?",
+      "options": [
+        "Men",
+        "Women",
+        "Children",
+        "Elderly"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What is the main goal of raising awareness according to the summary?",
+      "options": [
+        "Improve outcomes for vulnerable populations",
+        "Increase hospital profits",
+        "Promote new drugs",
+        "Reduce research costs"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What type of data does TriNetX compile?",
+      "options": [
+        "Electronic health records",
+        "Social media posts",
+        "Weather reports",
+        "Stock prices"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Why might delayed diagnosis lead to worse outcomes?",
+      "options": [
+        "Disease progresses to advanced stages",
+        "Patients stop taking medicine",
+        "Doctors make more errors",
+        "Hospitals close down"
+      ],
+      "correct_answer": "A"
+    }
+  ],
+  "background_read": [
+    "Colorblindness, or color vision deficiency, is a genetic condition that affects color perception, primarily in distinguishing red and green hues. It is more prevalent in males due to X-linked inheritance. Bladder cancer is a malignancy originating in the bladder lining, with risk factors including smoking and exposure to certain chemicals. Early symptoms often include hematuria (blood in urine), which can be visible or microscopic. The study builds on prior research indicating that colorblindness delays diagnosis of conditions like colorectal and bladder cancer. By leveraging big data from TriNetX, researchers analyzed millions of records to identify correlations between colorblindness and cancer outcomes. This approach allows for studying rare patient groups and informing clinical practices to enhance screening and patient education."
+  ],
+  "Article_Structure": [
+    "Main Points: The study highlights that colorblindness impedes early detection of bladder cancer by masking blood in urine, leading to a 52% higher mortality rate. Purpose: To investigate the survival impact of colorblindness on cancer patients and raise clinical awareness. Evidence Evaluation: Relies on large-scale health records from TriNetX and previous studies showing reduced accuracy in blood detection among colorblind individuals. Author Credibility: Researchers from Stanford Medicine and Columbia University, with senior author Ehsan Rahimy being an ophthalmology professor. Methodology: Analyzed de-identified electronic health records using diagnostic codes to compare outcomes between colorblind and non-colorblind bladder cancer patients over 20 years."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Clinical",
+      "description": "Focuses on improving patient care through early diagnosis and awareness in medical settings"
+    }
+  ],
+  "image_url": "/article_images/article_40173f035c63bf2a_e980a1a4c2eb.webp"
+}
