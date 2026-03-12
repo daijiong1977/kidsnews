@@ -1,0 +1,125 @@
+{
+  "title": "Banking App Glitch Exposes User Transactions",
+  "summary": "A significant glitch in the mobile apps of Lloyds, Halifax, and Bank of Scotland allowed customers to view transactions and sensitive data from other users' accounts. The issue, which occurred between 07:00 and 09:00, was tracked by Downdetector.com, showing spikes in reports. One affected customer reported seeing six different accounts on the Bank of Scotland app, including National Insurance numbers, transactions from distant locations like a pub in Newcastle, wage payments, and benefits from the Department for Work and Pensions. This exposed personal details such as employment and identity information. Lloyds Banking Group, which owns all three banks, apologized and resolved the incident, though the exact number of affected users remains unclear. This is not the first time the group has faced such problems; last year, an outage impacted 1.2 million people in the UK, with 700,000 being Lloyds customers. The glitch raises concerns about data security and the reliability of banking technology.",
+  "keywords": [
+    {
+      "term": "glitch",
+      "explanation": "a technical fault or error in software causing unintended behavior"
+    },
+    {
+      "term": "sensitive data",
+      "explanation": "private information that should be protected, such as financial or personal details"
+    },
+    {
+      "term": "Downdetector.com",
+      "explanation": "an online service that monitors and reports outages or issues with websites and apps"
+    },
+    {
+      "term": "National Insurance numbers",
+      "explanation": "unique identifiers in the UK used for social security, taxation, and benefits"
+    },
+    {
+      "term": "outage",
+      "explanation": "a period when a service is unavailable or not working properly"
+    },
+    {
+      "term": "data security",
+      "explanation": "measures to protect digital information from unauthorized access or breaches"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did the glitch in the bank apps allow customers to see?",
+      "options": [
+        "Only their own transactions",
+        "Other users' transactions and sensitive data",
+        "Weather updates",
+        "Bank advertisements"
+      ],
+      "correct_answer": "Other users' transactions and sensitive data"
+    },
+    {
+      "question": "Which website tracked the spike in reports for the app issues?",
+      "options": [
+        "BBC News",
+        "Downdetector.com",
+        "Lloyds website",
+        "Government site"
+      ],
+      "correct_answer": "Downdetector.com"
+    },
+    {
+      "question": "What personal information was exposed in the glitch?",
+      "options": [
+        "Only names",
+        "National Insurance numbers and transaction details",
+        "Email addresses",
+        "Phone numbers"
+      ],
+      "correct_answer": "National Insurance numbers and transaction details"
+    },
+    {
+      "question": "How many people were affected by a previous outage in February 2025?",
+      "options": [
+        "100,000",
+        "1.2 million",
+        "500,000",
+        "2 million"
+      ],
+      "correct_answer": "1.2 million"
+    },
+    {
+      "question": "What did Lloyds Banking Group do in response to the glitch?",
+      "options": [
+        "Ignored it",
+        "Apologized and resolved the issue",
+        "Closed the apps permanently",
+        "Blamed customers"
+      ],
+      "correct_answer": "Apologized and resolved the issue"
+    },
+    {
+      "question": "Why is this glitch concerning?",
+      "options": [
+        "It slowed down transactions",
+        "It exposed private data and raised security issues",
+        "It increased bank fees",
+        "It changed interest rates"
+      ],
+      "correct_answer": "It exposed private data and raised security issues"
+    },
+    {
+      "question": "What time did the spike in reports occur?",
+      "options": [
+        "12:00 to 14:00",
+        "07:00 to 09:00",
+        "18:00 to 20:00",
+        "00:00 to 02:00"
+      ],
+      "correct_answer": "07:00 to 09:00"
+    },
+    {
+      "question": "Which bank app had a smaller spike according to Downdetector.com?",
+      "options": [
+        "Halifax",
+        "Lloyds",
+        "Bank of Scotland",
+        "All had equal spikes"
+      ],
+      "correct_answer": "Bank of Scotland"
+    }
+  ],
+  "background_read": [
+    "Banking apps are digital tools that allow customers to manage their finances, including viewing transactions and making payments. They rely on complex software systems that can sometimes have vulnerabilities or errors, leading to glitches. In this case, a glitch caused data leakage, where users saw others' information, highlighting risks in cybersecurity. Lloyds Banking Group, a major UK financial institution, has faced similar issues before, such as a large outage in 2025. Data breaches like this can lead to identity theft, fraud, and loss of trust. It underscores the importance of robust testing, encryption, and quick response protocols in financial technology to protect customer privacy and maintain service reliability."
+  ],
+  "Article_Structure": [
+    "Main Points: The article reports a glitch in Lloyds, Halifax, and Bank of Scotland apps that exposed other users' transactions and sensitive data like National Insurance numbers, with one customer seeing six accounts. Purpose: To inform the public about a data security breach and its implications for customer privacy. Evidence Evaluation: The evidence includes customer reports, data from Downdetector.com, and statements from Lloyds Banking Group, providing credible but limited details on the scope. Author Credibility: BBC News is a reputable source, but the article relies on spokespeople and anecdotal accounts without independent verification. Methodology: Information was gathered from customer testimonies, outage tracking data, and official bank responses, offering a timely but preliminary overview."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Security risk",
+      "description": "The glitch poses a serious threat to data security, potentially enabling identity theft and eroding trust in digital banking."
+    }
+  ],
+  "image_url": "/article_images/article_83bf6435d29c03cd_3b587c6521b1.webp"
+}
