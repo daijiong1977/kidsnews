@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "a6f97fa60155f0b9",
-      "title": "Conservation Efforts Lead to Nightjar Recovery in South Downs",
-      "summary": "Nightjars, crepuscular ground-nesting birds known for their distinctive churring song, have shown a significant population increase in the South Downs National Park. A recent survey recorded 78 nightjars, doubling the numbers from five years ago, with 109 territories identified in lowland heaths like Woolmer Forest. This resurgence is attributed to focused conservation efforts, including habitat management and public engagement. Nightjars migrate 4,000 miles from the Democratic Republic of Congo each spring and are listed as an amber species under the Red List for Birds, indicating conservation concern. Historically, their numbers declined by 51% between 1972 and 1992 due to habitat loss from agriculture and development. The South Downs National Park Authority has implemented measures such as protecting lowland heath, encouraging visitors to keep dogs on leads and stick to paths, and promoting landscape care. This recovery parallels increases in other species like woodlarks and Dartford warblers, highlighting broader ecological benefits. The nickname 'goatsucker' stems from an old European myth that nightjars drank goat milk, but this is false; they hunt insects near livestock. Overall, the article emphasizes the importance of sustained conservation work in reversing species decline.",
+      "id": "ba2f7566dce200e4",
+      "title": "Uncovering the Mechanism of Lecanemab in Alzheimer's Treatment",
+      "summary": "Researchers have elucidated the precise mechanism by which lecanemab, an FDA-approved monoclonal antibody therapy for Alzheimer's disease, functions to combat cognitive decline. Alzheimer's affects over 55 million people globally and is characterized by the accumulation of toxic amyloid plaques in the brain, which damage neurons and lead to dementia. Microglia, the brain's immune cells, naturally surround these plaques but often fail to remove them effectively. The study, conducted by scientists from VIB and KU Leuven and published in Nature Neuroscience, demonstrates that lecanemab's efficacy hinges on its Fc fragment—a component of the antibody that activates microglia. Using a specialized Alzheimer's mouse model incorporating human microglial cells, the team observed that the Fc fragment serves as an anchor, enabling microglia to latch onto and clear amyloid plaques through processes like phagocytosis. When the Fc fragment was removed, the antibody lost its effect, confirming its essential role. This research resolves long-standing questions about lecanemab's mode of action and highlights the importance of microglial activation in plaque clearance. The findings also identify specific gene activity patterns, such as SPP1 expression, associated with effective cleanup. By clarifying this mechanism, the study paves the way for developing safer and more targeted Alzheimer's treatments, potentially including therapies that directly activate microglia without antibodies.",
+      "source": "Science Daily",
+      "time_ago": "Just now",
+      "image_url": "/article_images/article_ba2f7566dce200e4_81180fcb7ac6.webp",
+      "category": "Science"
+    },
+    {
+      "id": "4b9140a263848b4d",
+      "title": "Uncovering the Secrets of Asteroid Psyche Through Crater Simulations",
+      "summary": "Asteroid 16 Psyche, located in the main asteroid belt between Mars and Jupiter, is the largest known metal-rich asteroid, measuring about 140 miles across. NASA's Psyche spacecraft is set to arrive in 2029 to investigate its origins, with scientists proposing it could be the exposed core of a former planet stripped by collisions, a fragment of a layered body, or an object that formed metal-rich from the start. To explore these possibilities, researchers at the University of Arizona conducted simulations of a large crater near Psyche's north pole, published in JGR Planets. Their work predicts the asteroid's interior composition by modeling how craters form, emphasizing the role of porosity—the empty space inside—which affects crater depth and shape. By comparing simulations with future spacecraft data, they aim to determine if Psyche has a layered structure with a metallic core and rocky mantle or a uniform mix of materials. This research provides insights into planet formation in the early solar system, as asteroids like Psyche are considered leftover building blocks from that era.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_4b9140a263848b4d_d9022926af8d.webp",
+      "category": "Science"
+    },
+    {
+      "id": "73f7bc2fb3c9c5ef",
+      "title": "UK's £2.5bn Tech Investment to Prevent Brain Drain",
+      "summary": "Chancellor Rachel Reeves has announced a £2.5 billion investment in quantum computing and artificial intelligence as part of a strategy to prevent British tech firms and scientists from relocating abroad, particularly to the US. This move aims to address economic sluggishness by fostering innovation and job creation, with Reeves targeting the fastest AI adoption in the G7 and projecting 100,000 new jobs from quantum computing. The initiative responds to concerns that UK-based companies often move overseas due to better investment opportunities, tax incentives, and a stronger stock market elsewhere. Critics, including the Conservative party, argue the government is backtracking on Brexit and shifting blame for economic issues. Additionally, external factors like the US-Israel war with Iran could impact these plans through potential inflation and oil price surges. Experts like Ashley Montanaro note a recent positive shift in the UK's appeal for tech startups, but historical challenges in securing capital persist.",
       "source": "BBC Science",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_a6f97fa60155f0b9_05735932c408.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4980c41d195c3eb0",
-      "title": "Unraveling the Science of Sourdough Fermentation",
-      "summary": "Sourdough bread, valued for its natural ingredients and health benefits, involves complex biological processes during fermentation. Researchers at Vrije Universiteit Brussel, led by Víctor González Alonso, investigated how wheat dietary fibers called arabinoxylans behave in sourdough. Arabinoxylans exist in two forms: water-extractable (WE-AX), which generally benefits dough, and water-unextractable (WU-AX), which can harm bread quality. The study used advanced DNA analysis and metabolite profiling to track microbial changes in various flour types, including those enriched with arabinoxylans. They found that sourdough develops stable microbial ecosystems with lactic acid bacteria and yeasts, and fermentation converts some WE-AX into WU-AX. Surprisingly, this transformation is driven more by enzymes in wheat that activate under acidic conditions than by the microbes themselves. These enzymes break down large fiber molecules, potentially affecting bread digestibility and texture. Additionally, specific bacteria like Lactococcus lactis and Limosilactobacillus fermentum were linked to flavor development, contributing buttery and sweet notes. In pilot baking trials, bread made with high-arabinoxylan flour showed enhanced nutrition and diverse flavors, demonstrating that fermentation impacts wheat fibers more than previously thought, offering insights for improving sourdough quality.",
-      "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_4980c41d195c3eb0_3ee63132da99.webp",
-      "category": "Science"
-    },
-    {
-      "id": "398d0f7cfc667df2",
-      "title": "Unlocking Mummification Secrets Through Scent Analysis",
-      "summary": "Recent research has revealed that the distinctive musty scent of Egyptian mummies provides valuable insights into ancient embalming practices. Led by chemists at the University of Bristol, the study analyzed volatile organic compounds (VOCs) from mummy samples to understand how mummification evolved over 2,000 years. Using advanced techniques like solid phase microextraction and gas chromatography, researchers examined 35 samples from 19 mummies, identifying 81 distinct VOCs. These compounds, derived from fats, oils, beeswax, plant resins, and bitumen, indicate that early mummies used simpler materials, while later ones incorporated more complex and costly ingredients like imported resins. The findings show that mummification became more sophisticated over time, with different recipes applied to various body parts, offering a deeper understanding of Egyptian history and preservation rituals.",
-      "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_398d0f7cfc667df2_7fe241506c45.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1c8f7a321012f06b",
-      "title": "Exploring Frustrated Quantum States in Materials for Future Technologies",
-      "summary": "Researchers at UC Santa Barbara, led by materials scientist Stephen Wilson, have published a study in Nature Materials investigating a novel quantum state arising from frustration in atomic systems. The work centers on two types of frustration: geometric frustration in magnetic moments and bond frustration in electron sharing. In geometric frustration, tiny magnetic dipoles at atomic sites in a triangular lattice cannot all align antiparallel simultaneously, preventing a stable ground state and leading to fluctuating configurations. Similarly, bond frustration occurs when electrons shared between ions in dimers face restrictions in lattice geometries like triangles or honeycombs, creating sensitive networks. The study highlights a rare material where both magnetic and bond frustrations coexist, allowing potential control of one system by influencing the other. This research builds on prior knowledge of frustrated magnetic states in lanthanide-based triangular networks, which can host quantum disordered states with long-range entanglement of spins—a key aspect for quantum information science. Wilson emphasizes that this is fundamental science aimed at probing possible physics for future quantum devices, rather than immediate applications, but it opens routes to functionalizing exotic states for advanced technologies.",
-      "source": "Science Daily",
-      "time_ago": "2 hours ago",
-      "image_url": "/article_images/article_1c8f7a321012f06b_b8630ba07504.webp",
-      "category": "Science"
-    },
-    {
-      "id": "966a16e3d722ce5c",
-      "title": "Advancing Photocatalysis: New Methods to Convert Sunlight into Fuel",
-      "summary": "Researchers have developed a reliable theoretical approach to enhance the conversion of sunlight into fuel using polyheptazine imides, a type of carbon nitride material. These materials are effective photocatalysts because they can absorb visible light and have improved charge separation when combined with metal ions, making them suitable for sunlight-driven chemical reactions. The study, led by a team at CASUS and HZDR, used computer modeling to predict material behavior, validated by real samples, which accelerates research by narrowing down possibilities without extensive lab testing. Polyheptazine imides are inexpensive, non-toxic, and stable, offering practical advantages for applications like water splitting to produce hydrogen fuel, carbon dioxide reduction, and hydrogen peroxide production. By systematically testing 53 metal ions, the researchers identified ways to optimize these materials for specific reactions, potentially unlocking economic benefits and advancing clean energy technologies.",
-      "source": "Science Daily",
       "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_966a16e3d722ce5c_841ff469e240.webp",
+      "image_url": "/article_images/article_73f7bc2fb3c9c5ef_95e6cc2fe45b.webp",
       "category": "Science"
     },
     {
-      "id": "65050fc619d39b0d",
-      "title": "Rising Fertiliser and Fuel Costs Challenge UK Farmers",
-      "summary": "UK farmers are facing significant financial pressures due to sharp increases in the prices of fertiliser and fuel, particularly red diesel used in agriculture. Andrew Williamson, an arable farmer in Shropshire, highlights that these rising costs are making it difficult for farmers to break even and cover production expenses. The situation is exacerbated by two consecutive poor harvests, which have already strained farm incomes. Fertiliser prices have surged by 50% since July 2025, with nitrogen fertilisers, essential for crop growth, now costing £490 per tonne instead of £330. This increase is linked to volatile natural gas prices, driven by geopolitical tensions like the war in Iran and Gulf states, as natural gas constitutes 60-80% of fertiliser production costs. While arable farmers like Williamson stocked up on fertiliser earlier, livestock farmers are more vulnerable as they purchase fertiliser as needed. The crisis adds risk to farming decisions, as farmers invest long-term without immediate returns, potentially leading to higher food prices and threatening agricultural sustainability in the UK.",
-      "source": "BBC Science",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_65050fc619d39b0d_e63e5eddbf75.webp",
+      "id": "f8e66ac0caf51745",
+      "title": "Investigating Sleep-Like Brain Activity in ADHD and Its Impact on Attention",
+      "summary": "A recent study published in JNeurosci examined how brief episodes of sleep-like brain activity during wakefulness influence attention, particularly in adults with ADHD. Researchers led by Elaine Pinggal at Monash University compared 32 unmedicated adults with ADHD to 31 neurotypical adults, measuring brain activity during a sustained attention task. Findings revealed that individuals with ADHD experienced more frequent sleep-like brain activity, which correlated with increased lapses in attention, such as errors, slower reaction times, and sleepiness. The study suggests this activity may be a key mechanism underlying attention challenges in ADHD. Pinggal notes that while such brain shifts are normal during demanding tasks, they occur more often in ADHD. Potential treatments, like auditory stimulation during sleep to enhance slow wave activity, are being considered to reduce daytime sleep-like activity and improve focus. ADHD is a neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity, linked to brain function differences.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_f8e66ac0caf51745_1c2603ce97ee.webp",
+      "category": "Science"
+    },
+    {
+      "id": "8128c1d23397b742",
+      "title": "Advancing Vaccine Technology with DNA Origami",
+      "summary": "Researchers are developing DNA origami vaccines as a potential improvement over mRNA vaccines, which gained prominence during the COVID-19 pandemic. While mRNA vaccines prevented millions of deaths, they face challenges such as variable immune protection, short duration, high production costs, and cold storage requirements. To address these issues, a team from the Wyss Institute at Harvard University and Dana-Farber Cancer Institute created the DoriVac platform, which uses DNA nanotechnology to build vaccines. This platform presents antigens from viruses like SARS-CoV-2, HIV, and Ebola, along with adjuvant molecules, to stimulate strong immune responses. In studies with mice and human organ chips, DoriVac vaccines produced robust antibody and T cell responses comparable to mRNA vaccines, but with advantages in stability and manufacturing ease. The research, published in Nature Biomedical Engineering, highlights DNA origami's flexibility and precision in vaccine design, offering a promising alternative for future infectious disease threats.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_8128c1d23397b742_acee6ab6db0e.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6248226ad75a0dea",
+      "title": "National Academies Rejects Pressure to Remove Climate Science from Judicial Guide",
+      "summary": "The National Academies of Sciences (NAS) collaborated with the Federal Judicial Center to create the Reference Manual on Scientific Evidence, a guide to help judges handle cases involving complex scientific issues. The latest edition includes a new chapter on climate change, covering topics like environmental regulations and fraud cases against fossil fuel companies. This addition sparked controversy, as Republican attorneys general from several states demanded the removal of the chapter, accusing the NAS of bias and judicial indoctrination. Initially, the Federal Judicial Center complied by posting a version without the climate chapter, but the NAS, which hosts the manual on its website, refused to do so. In a brief response, the NAS stated that the climate chapter was developed using the same rigorous procedures as other chapters, jointly established with the Federal Judicial Center, and it will remain available. The attorneys general threatened funding implications, but the NAS stood firm. Additionally, authors of other chapters in the manual published an open letter condemning the political interference, warning that such actions could undermine judicial education and the integrity of scientific evidence in courts. This conflict highlights tensions between scientific consensus and political agendas in legal contexts.",
+      "source": "Ars Science",
+      "time_ago": "16 hours ago",
+      "image_url": "/article_images/article_6248226ad75a0dea_46221cf1e300.webp",
       "category": "Science"
     }
   ]
