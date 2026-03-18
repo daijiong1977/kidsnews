@@ -1,0 +1,108 @@
+{
+  "title": "A Robot That Picks Tomatoes Smartly",
+  "summary": "Scientists have made a robot that can pick tomatoes better. Tomatoes grow in bunches, so it's hard for robots to choose only the ripe ones. A professor named Takuya Fujinaga from Osaka Metropolitan University created a system to help robots decide which tomatoes are easy to pick. The robot looks at pictures of tomatoes, their stems, and if leaves are in the way. It uses this information to pick tomatoes from the best angle. In tests, the robot was successful 81% of the time. Sometimes, if it couldn't pick a tomato from the front, it tried from the side and succeeded. This helps farmers because there aren't enough workers. In the future, robots might pick easy tomatoes while people handle the tricky ones, working together to grow food.",
+  "keywords": [
+    {
+      "term": "robot",
+      "explanation": "a machine that can do tasks automatically"
+    },
+    {
+      "term": "tomatoes",
+      "explanation": "red fruits that grow on plants and are used in food"
+    },
+    {
+      "term": "harvest",
+      "explanation": "to pick ripe fruits or vegetables from plants"
+    },
+    {
+      "term": "ripe",
+      "explanation": "ready to be picked and eaten"
+    },
+    {
+      "term": "angle",
+      "explanation": "the direction from which the robot picks the tomato"
+    },
+    {
+      "term": "farmers",
+      "explanation": "people who grow food like tomatoes"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What fruit does the robot learn to pick?",
+      "options": [
+        "Apples",
+        "Tomatoes",
+        "Bananas",
+        "Oranges"
+      ],
+      "correct_answer": "Tomatoes"
+    },
+    {
+      "question": "Who created the robot system?",
+      "options": [
+        "A farmer",
+        "Takuya Fujinaga",
+        "A student",
+        "A chef"
+      ],
+      "correct_answer": "Takuya Fujinaga"
+    },
+    {
+      "question": "How does the robot decide which tomatoes to pick?",
+      "options": [
+        "By tasting them",
+        "By looking at pictures",
+        "By asking people",
+        "By guessing"
+      ],
+      "correct_answer": "By looking at pictures"
+    },
+    {
+      "question": "What was the success rate of the robot in tests?",
+      "options": [
+        "50%",
+        "81%",
+        "100%",
+        "25%"
+      ],
+      "correct_answer": "81%"
+    },
+    {
+      "question": "What might robots and humans do together in the future?",
+      "options": [
+        "Play games",
+        "Pick tomatoes",
+        "Cook food",
+        "Build houses"
+      ],
+      "correct_answer": "Pick tomatoes"
+    },
+    {
+      "question": "Why is it hard for robots to pick tomatoes?",
+      "options": [
+        "They are too heavy",
+        "They grow in bunches",
+        "They are too small",
+        "They are green"
+      ],
+      "correct_answer": "They grow in bunches"
+    }
+  ],
+  "background_read": [
+    "Tomatoes are a common fruit that people eat in salads and sauces. They grow on plants in gardens or farms. Sometimes, farmers don't have enough workers to pick all the tomatoes when they are ripe. Robots are machines that can help with tasks like picking fruits. Scientists work on making robots smarter so they can do jobs better, like choosing only the ripe tomatoes without damaging the plants. This helps make farming easier and faster."
+  ],
+  "Article_Structure": [
+    "WHO: Takuya Fujinaga, a professor at Osaka Metropolitan University",
+    "WHAT: Created a system for robots to pick tomatoes by looking at pictures and choosing the best angle",
+    "WHERE: In a university lab, likely in Japan",
+    "WHY: To help farmers because there aren't enough workers and to make harvesting tomatoes more efficient"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technology helps farming",
+      "description": "Robots can assist in picking crops, making work easier for farmers."
+    }
+  ],
+  "image_url": "/article_images/article_e142cc2a9b9b1479_6575a8a01f7e.webp"
+}
