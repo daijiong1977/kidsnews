@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "10416a2933b586bb",
-      "title": "Oil Refinery Admits Hundreds of Environmental Violations",
-      "summary": "Essar, the operator of the Stanlow oil refinery in Ellesmere Port, Cheshire, has pleaded guilty to 12 charges brought by the Environment Agency after admitting to nearly 500 breaches of environmental regulations between 2018 and 2020. These violations included four instances of discharging cyanide at levels exceeding permitted limits into the Manchester Ship Canal, a nearby river, and a local brook. Cyanide is a toxic compound that can have severe impacts on aquatic ecosystems. The company has apologized for the 491 breaches over the four-year period and stated that it takes wastewater management seriously, implementing measures to address the causes. However, they claimed no environmental contamination or wildlife impact was reported during this time. The case was heard at Chester Magistrates' Court and will proceed for case management at Warrington Magistrates' Court. This incident highlights ongoing challenges in industrial compliance with environmental laws and the role of regulatory bodies in enforcement.",
-      "source": "BBC Science",
-      "time_ago": "Just now",
-      "image_url": "/article_images/article_10416a2933b586bb_6112d21e14df.webp",
-      "category": "Science"
-    },
-    {
-      "id": "fe074b424e99f44b",
-      "title": "Oral Bacteria's Role in Breast Cancer Progression",
-      "summary": "Researchers at Johns Hopkins discovered that Fusobacterium nucleatum, a bacterium associated with gum disease, can migrate from the mouth to breast tissue via the bloodstream, where it contributes to breast cancer initiation and spread. In experiments using mouse models and human breast cancer cells, the bacterium induced inflammation, DNA damage, and increased cell proliferation, leading to noncancerous lesions and accelerated tumor growth. It also activated error-prone DNA repair mechanisms, such as nonhomologous end joining, which can cause mutations and enhance cancer cell traits like invasion and chemotherapy resistance. The study highlighted that individuals with BRCA1 gene mutations are particularly vulnerable, as their cells have higher levels of a sugar that helps the bacterium attach and persist, intensifying its effects. The findings suggest that oral health may influence breast cancer risk, especially in genetically susceptible populations, though more research is needed to confirm clinical implications. This work underscores the interconnectedness of oral and systemic health in cancer development.",
+      "id": "0511620151254632",
+      "title": "Harvard Engineers Develop Tunable Chip for Real-Time Light Chirality Control",
+      "summary": "Researchers at Harvard's School of Engineering and Applied Sciences have developed a compact device capable of actively controlling the chirality, or handedness, of light in real time. This device uses a twisted bilayer photonic crystal, where two engineered layers can be rotated relative to each other using a micro-electromechanical system (MEMS). Chirality refers to the property where objects, like light, cannot be superimposed on their mirror images, similar to left and right hands. In optics, light can have left- or right-circular polarization, and this chip can distinguish and adjust between them. This advancement is significant because chirality plays a critical role in various scientific fields, such as chemistry and medicine, where molecules with different chirality can have vastly different effects, as seen with drugs like thalidomide. The tunable nature of the device, achieved through MEMS control of twist angle and spacing, allows for continuous adjustment without replacing parts, enabling new applications in chiral sensing, optical communication, and quantum photonics. The research, led by graduate student Fan Du and professor Eric Mazur, builds on concepts from twistronics and demonstrates improved selectivity in light manipulation.",
       "source": "Science Daily",
-      "time_ago": "9 hours ago",
-      "image_url": "/article_images/article_fe074b424e99f44b_c083a105929e.webp",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_0511620151254632_ef232d931063.webp",
       "category": "Science"
     },
     {
-      "id": "61ffacab090683e8",
-      "title": "Government Uses Taxpayer Funds to Address Illegal Waste Dumps",
-      "summary": "The UK government has launched a national waste crime action plan, targeting three of England's worst illegal waste dumps for cleanup at taxpayer expense. These sites, located in Wigan, Sheffield, and Lancashire, collectively contain 48,000 tonnes of waste. Typically, landowners are responsible for clearing illegal dumps on private property, but in this case, the Environment Agency is intervening due to the scale and impact. Local residents, such as Nicha Rowson, have expressed relief as they've endured issues like fires, school closures, rats, flies, and unbearable odors, forcing some to relocate businesses. However, Rowson criticizes the delayed response and lack of prosecution for those responsible, leaving taxpayers to foot the bill. The government must conduct site assessments before proceeding, and costs remain undisclosed. Another site in Kidlington is already being cleared for over £9 million. A BBC investigation revealed supersites with over 20,000 tonnes of waste, including one in Over not yet slated for cleanup, highlighting ongoing challenges in waste management and enforcement.",
-      "source": "BBC Science",
-      "time_ago": "9 hours ago",
-      "image_url": "/article_images/article_61ffacab090683e8_6f79839fc332.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d6bf363dccef5456",
-      "title": "Ultra-Processed Foods and Heart Health Risks",
-      "summary": "Research presented at the American College of Cardiology's Annual Scientific Session reveals that high consumption of ultra-processed foods is strongly linked to an increased risk of heart attacks and strokes. In a study of 6,814 racially diverse U.S. adults aged 45-84 without prior heart disease, those consuming over nine servings daily had a 67% higher risk of major cardiac events compared to those eating about one serving. Each additional serving raised the risk by over 5%, with Black Americans experiencing a higher increase at 6.1% per serving versus 3.2% for non-Black individuals. The study used the NOVA classification system and food questionnaires to assess intake, controlling for factors like calories, diet quality, diabetes, and obesity. Lead author Amier Haidar, MD, emphasizes moderation, as the harmful effects may stem from processing methods beyond just nutrient content. Limitations include reliance on self-reported data and lack of direct biological investigation, but findings align with prior European studies, highlighting the need for dietary awareness in diverse populations.",
+      "id": "9d18634bdab29b23",
+      "title": "Uncovering High-Dimensional Topologies in Quantum Light",
+      "summary": "Researchers from the University of the Witwatersrand in South Africa and Huzhou University in China have made a significant discovery in quantum optics. They found that entangled photons, produced using a common technique called spontaneous parametric downconversion (SPDC), contain hidden topological structures. These structures can reach up to 48 dimensions and include over 17,000 distinct signatures, creating a new way to encode quantum information. The team focused on the orbital angular momentum (OAM) of light, which allows for high-dimensional patterns. Previously, it was thought that at least two properties of light were needed to create topology, but this study shows that OAM alone is sufficient. This finding, published in Nature Communications, reveals that topology is an intrinsic feature of entanglement. The resources for observing these structures are already available in most quantum optics labs, making the discovery accessible. By viewing entanglement through topology, scientists hope to develop more robust quantum technologies that are less affected by noise, potentially leading to practical applications in computing and communication.",
       "source": "Science Daily",
-      "time_ago": "11 hours ago",
-      "image_url": "/article_images/article_d6bf363dccef5456_6c4867f5ea82.webp",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_9d18634bdab29b23_ed3f5824a2a4.webp",
       "category": "Science"
     },
     {
-      "id": "84ed5ed9925288b5",
-      "title": "Natural History Museum Tops UK Visitor Charts in 2025",
-      "summary": "In 2025, the Natural History Museum in South Kensington, London, emerged as the UK's most popular tourist attraction, attracting over 7.1 million visitors. This marked a 13% increase from 2024 and broke the record for the highest annual attendance at any museum or gallery in the country. It surpassed the British Museum, which had held the top position for the previous two years. The Association of Leading Visitor Attractions (Alva) reported that overall visits to its 409 sites rose by 2% to 165 million in 2025, though this figure remains below pre-Covid levels of 170 million in 2019. Other top attractions included Windsor Great Park, Tate Modern, and the National Gallery. Alva director Bernard Donoghue noted that despite economic challenges and a cost-of-living crisis, people prioritize visiting attractions for leisure. Dr. Doug Gurr, director of the Natural History Museum, attributed the success to the museum's focus on delivering exceptional experiences and exhibitions. The British Museum is anticipated to have a strong upcoming year due to the display of the Bayeux Tapestry starting in September. Factors such as special events, like the re-opening of the Sainsbury Wing at the National Gallery, also contributed to visitor increases at various venues.",
-      "source": "BBC Science",
-      "time_ago": "12 hours ago",
-      "image_url": "/article_images/article_84ed5ed9925288b5_d3ec2101b724.webp",
+      "id": "abb5913f42f6e0fb",
+      "title": "Shifting Nuclear Regulation: Silicon Valley's Influence Under Trump",
+      "summary": "This article examines how the Trump administration is transforming nuclear energy regulation in the United States, driven by a push to increase power for artificial intelligence. At a meeting at the Idaho National Laboratory, Seth Cohen, a 31-year-old lawyer with minimal nuclear experience, led discussions and dismissed safety concerns, stating that the Nuclear Regulatory Commission (NRC) would follow government directives. The NRC, an independent agency known for setting global safety standards, is facing pressure as career experts are replaced and regulations rewritten rapidly. Silicon Valley companies, funded with tech money, are gaining influence, promoting a 'move fast and break things' approach. President Trump fired an NRC commissioner for emphasizing independence, signaling reduced oversight. ProPublica's review of meeting records reveals internal worries about radiation risks for vulnerable groups like babies, but Cohen downplayed these issues. This shift aims to accelerate nuclear plant approvals but risks undermining safety protocols and discrediting responsible nuclear initiatives, causing alarm among industry veterans.",
+      "source": "Ars Science",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_abb5913f42f6e0fb_0a372e0e60a6.webp",
       "category": "Science"
     },
     {
-      "id": "c971ce22e45f4d37",
-      "title": "Belly Fat and Heart Failure: Understanding the Risks for Teens",
-      "summary": "Recent research presented at the American Heart Association's conference in 2026 shows that visceral fat, or fat stored around the waist, is strongly linked to an increased risk of heart failure, largely because it causes inflammation. The study involved 1,998 African American adults from Jackson, Mississippi, who were followed for nearly seven years. It found that even people with a normal body mass index (BMI) had a higher risk if they had a larger waist circumference. This suggests that where fat is stored in the body may be more important than overall weight. Inflammation, measured by blood markers like C-reactive protein, appears to damage blood vessels and the heart, explaining why belly fat is so harmful. Experts recommend including waist measurements in routine health checks to better identify at-risk individuals and focus on prevention strategies. However, the study has limitations, such as not differentiating between types of heart failure, and future research is needed to explore these aspects further.",
+      "id": "a5efbd3867b8fe0a",
+      "title": "Discovery of a Swift Land Crocodylomorph from Triassic Britain",
+      "summary": "Researchers have identified a new species of crocodylomorph, an early relative of modern crocodiles, dating back approximately 215 million years to the Triassic period in Gloucester, UK. This animal, unlike contemporary crocodilians, was entirely terrestrial, adapted for speed with long, slender legs and a lightweight build, enabling it to hunt small prey such as reptiles, amphibians, and early mammals in a hot, dry landscape. The species name honors Galahad, a knight from Arthurian legend symbolizing upright posture, and David Rhys Jones, a physics teacher who inspired the lead author, Ewan Bodenham, a PhD student at the Natural History Museum London and UCL. Fossils were recovered from fissure deposits in southern Wales and southwest England, formed when surface remains washed into underground cavities. Analysis revealed 13 distinct anatomical differences from Terrestrisuchus, another land-dwelling crocodylomorph, confirming it as a novel species. This discovery provides insights into pre-extinction ecosystems and the evolutionary diversity of early crocodile relatives.",
       "source": "Science Daily",
-      "time_ago": "13 hours ago",
-      "image_url": "/article_images/article_c971ce22e45f4d37_e92e3e216e6a.webp",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_a5efbd3867b8fe0a_bc5560d2a79a.webp",
+      "category": "Science"
+    },
+    {
+      "id": "3384168781cb8c3e",
+      "title": "Uncovering Earth's Early Plate Movements: A Geological Breakthrough",
+      "summary": "A recent study by Harvard geoscientists provides the oldest direct evidence of plate tectonics, dating back 3.5 billion years. Published in Science, the research addresses a long-standing debate about when Earth's tectonic plates began moving. The team analyzed over 900 rock samples from the Pilbara Craton in western Australia, an area with well-preserved Archean rocks from a time of early microbial life. Using paleomagnetism, a technique that studies magnetic signals in rocks, they reconstructed the movement of these ancient crustal pieces. This method acts like a geological GPS, revealing that plates were drifting even in Earth's early history. The findings suggest that plate motion played a key role in shaping the young planet's environment, potentially influencing the emergence of life. Lead author Alec Brenner and professor Roger Fu emphasized that this evidence helps narrow down the timing of tectonic activity, showing Earth was geologically active much earlier than some theories proposed.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_3384168781cb8c3e_20c652c70d8b.webp",
+      "category": "Science"
+    },
+    {
+      "id": "de3b3d32b5304ebd",
+      "title": "Perseverance Rover Uncovers Ancient Subsurface Delta on Mars",
+      "summary": "NASA's Perseverance rover, which landed in Jezero Crater on Mars in 2021, has made a significant discovery using its ground-penetrating radar instrument called RIMFAX. While exploring the Margin unit, a geological area rich in magnesium carbonates, the rover detected evidence of an ancient river delta buried tens of meters beneath the surface. This delta, hidden under the visible Western Delta, shows structured layering with features like clinoforms, which are angled sediment layers formed by river deposition into a lake. Scientists, led by astrobiologist Emily L. Cardarelli, interpret this as a sign of a dynamic fluvial environment that existed billions of years ago, potentially suitable for microbial life. The radar data penetrated over 35 meters deep, revealing rollover points that indicate multiple episodes of sediment deposition. This discovery enhances our understanding of Mars' hydrological history and supports the mission's goal of searching for biosignatures, as carbonates in the Margin unit are known on Earth to preserve traces of life.",
+      "source": "Ars Science",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_de3b3d32b5304ebd_b59c554c451f.webp",
       "category": "Science"
     }
   ]
