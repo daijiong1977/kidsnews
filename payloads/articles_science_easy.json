@@ -1,21 +1,48 @@
 {
   "articles": [
     {
-      "id": "0511620151254632",
-      "title": "Harvard Engineers Make a Chip That Can Twist Light",
-      "summary": "Scientists at Harvard University have built a tiny chip that can twist and control light in real time. This chip uses two special layers that can rotate to change how light behaves. Light can spin in two ways, like left or right hands, and this chip can tell the difference and adjust it. This is important because in science, especially in medicine, light and molecules can act differently based on their twist. For example, some medicines work well in one twist but cause problems in another. The new chip helps scientists study these differences better. It could be used in things like sensing, communication, and quantum technology. The team made it using a small mechanical system to move the layers, making it easy to control without changing parts.",
-      "source": "Science Daily",
+      "id": "2225e6d953a9a3e1",
+      "title": "Mining the Deep Ocean for Valuable Rocks",
+      "summary": "Deep in the Pacific Ocean, a big machine collected rock nodules full of metals like copper and cobalt in 2022. Companies want to mine these rocks to get minerals needed for clean energy, like for electric cars and solar panels. Some people think mining the ocean floor is a good idea because we might not have enough minerals on land. Others worry it could harm ocean animals and plants, so they want to wait or stop it until we know more. Countries are trying to make rules for this mining, but they haven't agreed yet. Time is running out because mining might start soon without proper rules. Scientists are studying if we really need ocean minerals or if land has enough, and what the environmental effects might be.",
+      "source": "Ars Science",
       "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_0511620151254632_ef232d931063.webp",
+      "image_url": "/article_images/article_2225e6d953a9a3e1_3a46a5b28981.webp",
       "category": "Science"
     },
     {
-      "id": "9d18634bdab29b23",
-      "title": "Scientists Find a Hidden World in Light",
-      "summary": "Scientists in South Africa and China have discovered something amazing in light. They found hidden patterns in light that can hold information, like a secret code. These patterns are called topologies and can be very big, up to 48 dimensions, which is like having 48 different directions to store things. They used a tool called entangled photons, which are tiny particles of light that are connected. This discovery could help make computers and other devices work better by protecting information from mistakes. The best part is that many labs already have the equipment to see these patterns, so it's easy for others to use. This finding was published in a science journal and shows that light has more secrets than we thought.",
+      "id": "6e241bc56b1d41c7",
+      "title": "A Very Old Handprint in a Cave",
+      "summary": "Scientists found a handprint on a cave wall in Indonesia that is 67,800 years old, making it the oldest art ever discovered. This handprint was made by people who lived long ago, and it helps us learn about how humans first traveled to Australia. The handprint is in a limestone cave on the island of Sulawesi, and researchers used a special dating method to figure out its age. They also found that people kept making art in this cave for thousands of years. The handprint looks a bit like a claw because someone changed its shape after it was made, but we don't know why. This discovery shows that early humans were creative and had a rich culture.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_9d18634bdab29b23_ed3f5824a2a4.webp",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_6e241bc56b1d41c7_9ac605774e09.webp",
+      "category": "Science"
+    },
+    {
+      "id": "dc19971de402bfcd",
+      "title": "Scientists Find New Kind of Friction with Magnets",
+      "summary": "Scientists at the University of Konstanz have discovered a new type of friction that happens without touching. Friction is the force that makes it hard to slide things, like when you push a heavy box. Usually, friction gets stronger when you press things together harder, which is called Amontons' law. But in this experiment, they used magnets that never touch each other. They found that friction can reach a high peak when the magnets are at a certain distance apart. This happens because the magnets have competing preferences for how to line up, causing them to switch back and forth as they move, which creates energy loss and friction. This shows that friction isn't always about surfaces rubbing; it can come from how magnets behave inside a system.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_dc19971de402bfcd_ed09de11e10c.webp",
+      "category": "Science"
+    },
+    {
+      "id": "486f3780b1bbecf0",
+      "title": "A Hot Planet with a Surprising Blanket of Air",
+      "summary": "Scientists used a big space telescope called the James Webb Space Telescope to look at a faraway planet named TOI-561 b. This planet is very hot and old, and it is called a super Earth because it is bigger than Earth. It orbits very close to its star, so one side is always bright and hot. People thought such a small, hot planet would lose its air quickly, but the telescope found signs that it has a thick atmosphere, like a blanket of gas around it. This is surprising because in our Solar System, hot small planets usually don't keep their air. The planet also has a lower density, which means it is less heavy than expected, and the atmosphere might help explain this. The telescope measured the temperature and found it cooler than if there was no air, showing heat is being moved around. This discovery helps us learn about planets in other parts of space.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_486f3780b1bbecf0_a2a637b7c0d3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "627d3692b7ac5773",
+      "title": "A New Pill That Fights Bad Cholesterol",
+      "summary": "Scientists have tested a new pill called enlicitide that can lower bad cholesterol by 60%. Bad cholesterol, called LDL, can build up in arteries and cause heart attacks or strokes. The pill was given to people in a big study, and it helped reduce their cholesterol levels. This is important because many people with heart disease have high cholesterol, and current medicines like statins or injections are not always enough. The new pill is taken once a day, making it easier for patients. If approved, it could help millions of people stay healthier by preventing heart problems. The study was led by a doctor and sponsored by a drug company, showing it might be a safe and effective option in the future.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_627d3692b7ac5773_c1ab7e4af075.webp",
       "category": "Science"
     },
     {
@@ -23,35 +50,8 @@
       "title": "A New Plan for Nuclear Power in America",
       "summary": "This article talks about how the government is changing the rules for nuclear power in America. A young lawyer named Seth Cohen, who works for the Department of Energy, led a meeting at a big lab in Idaho. He said that the Nuclear Regulatory Commission, which makes sure nuclear plants are safe, will do what the government tells it to do. Some people at the meeting were worried about safety, especially for babies and pregnant women, but Cohen did not seem to care much. The Trump administration wants to build more nuclear power plants to help with artificial intelligence, so they are making new rules quickly. Silicon Valley companies, which have a lot of money, are helping with this plan. This is making some experts nervous because they think safety is very important.",
       "source": "Ars Science",
-      "time_ago": "2 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_abb5913f42f6e0fb_0a372e0e60a6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a5efbd3867b8fe0a",
-      "title": "A Fast Crocodile Relative from Long Ago",
-      "summary": "Scientists found a new type of crocodile relative that lived 215 million years ago in Gloucester, UK. Unlike today's crocodiles, this animal lived on land and could run fast like a greyhound. It had long, skinny legs and a light body to move quickly through plants, hunting small animals like reptiles and amphibians. The area was hot and dry with high ground. The species is named after a knight from stories and a teacher who inspired the lead scientist. Fossils were found in old cave deposits in Wales and England, where dead animals washed underground and got buried. This discovery helps us learn about life before dinosaurs.",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_a5efbd3867b8fe0a_bc5560d2a79a.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3384168781cb8c3e",
-      "title": "Earth's Moving Plates: A Story from Long Ago",
-      "summary": "Earth has big pieces called tectonic plates that move and change the land and oceans. Scientists wanted to know when these plates started moving. A new study from Harvard University found the oldest proof that plates were moving 3.5 billion years ago. They looked at very old rocks in Australia that are from a time when tiny life first appeared. By studying tiny magnetic signals in the rocks, like a GPS from the past, they could see how the rocks moved. This shows that Earth was already active long ago, helping shape the planet we live on today.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_3384168781cb8c3e_20c652c70d8b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "de3b3d32b5304ebd",
-      "title": "NASA Rover Finds Hidden River Under Mars",
-      "summary": "NASA's Perseverance rover is exploring Mars to look for signs of ancient life. It landed in Jezero Crater, which used to be a lake. The rover has a special radar called RIMFAX that can see underground. Recently, it discovered an old river delta buried deep under the surface. A river delta is a fan-shaped area where a river drops sand and rocks into a lake. This hidden delta might have been a good place for tiny life forms, called microbes, to live long ago. Scientists are excited because finding water signs on Mars helps us learn if life ever existed there. The rover keeps driving and using its radar to study the rocks and layers underground, giving us new clues about Mars' wet past.",
-      "source": "Ars Science",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_de3b3d32b5304ebd_b59c554c451f.webp",
       "category": "Science"
     }
   ]

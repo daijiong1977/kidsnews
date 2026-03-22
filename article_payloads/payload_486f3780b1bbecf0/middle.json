@@ -1,0 +1,125 @@
+{
+  "title": "Uncovering an Ancient Atmosphere on a Super Earth",
+  "summary": "Astronomers from Carnegie Science have used NASA's James Webb Space Telescope (JWST) to detect clear evidence of an atmosphere on TOI-561 b, a rocky super Earth planet. This planet is about twice Earth's mass but orbits extremely close to its star, completing a year in just 10.56 hours, with one side in permanent daylight. Despite being small and intensely hot, which typically causes planets to lose their atmospheres early, TOI-561 b appears to have a thick gas envelope, challenging previous predictions. The planet's lower than expected density adds to the mystery, suggesting it might have a different composition, such as a smaller iron core and lighter mantle, or be influenced by its atmosphere making it seem larger. JWST's Near-Infrared Spectrograph measured the dayside temperature at about 3,200°F, cooler than the 4,900°F expected without an atmosphere, indicating heat redistribution likely due to winds or clouds. This discovery is significant because TOI-561 b orbits an old, iron-poor star in the Milky Way's thick disk, hinting it formed in a different chemical environment and could resemble early universe planets. The findings, published in The Astrophysical Journal Letters, advance our understanding of planetary evolution and atmospheric retention in extreme conditions.",
+  "keywords": [
+    {
+      "term": "James Webb Space Telescope (JWST)",
+      "explanation": "a space observatory that uses infrared technology to study distant celestial objects in detail"
+    },
+    {
+      "term": "super Earth",
+      "explanation": "an exoplanet with a mass greater than Earth's but less than that of ice giants, often rocky in composition"
+    },
+    {
+      "term": "atmosphere",
+      "explanation": "a layer of gases surrounding a planet, which can affect temperature and density"
+    },
+    {
+      "term": "ultra-short-period planet",
+      "explanation": "a planet that orbits its star in less than a day, leading to extreme conditions"
+    },
+    {
+      "term": "density",
+      "explanation": "the mass per unit volume of a planet, indicating its composition and structure"
+    },
+    {
+      "term": "Near-Infrared Spectrograph (NIRSpec)",
+      "explanation": "an instrument on JWST that analyzes light to measure properties like temperature"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What instrument on JWST was used to measure TOI-561 b's temperature?",
+      "options": [
+        "MIRI",
+        "NIRSpec",
+        "NIRCam",
+        "FGS"
+      ],
+      "correct_answer": "NIRSpec"
+    },
+    {
+      "question": "How long does it take TOI-561 b to orbit its star?",
+      "options": [
+        "10.56 hours",
+        "24 hours",
+        "365 days",
+        "1 month"
+      ],
+      "correct_answer": "10.56 hours"
+    },
+    {
+      "question": "Why is TOI-561 b's atmosphere considered surprising?",
+      "options": [
+        "Because it is too cold",
+        "Because ultra-short-period planets usually lose atmospheres",
+        "Because it has no star",
+        "Because it is made of ice"
+      ],
+      "correct_answer": "Because ultra-short-period planets usually lose atmospheres"
+    },
+    {
+      "question": "What does the lower density of TOI-561 b suggest?",
+      "options": [
+        "It has a heavier composition",
+        "It might have a smaller iron core or an atmosphere",
+        "It is a gas giant",
+        "It has no rocks"
+      ],
+      "correct_answer": "It might have a smaller iron core or an atmosphere"
+    },
+    {
+      "question": "What technique did researchers use to study the planet's temperature?",
+      "options": [
+        "Direct imaging",
+        "Transit method",
+        "Observing brightness changes when behind its star",
+        "Radio waves"
+      ],
+      "correct_answer": "Observing brightness changes when behind its star"
+    },
+    {
+      "question": "How does TOI-561 b's star differ from the Sun?",
+      "options": [
+        "It is larger and hotter",
+        "It is older and iron-poor",
+        "It is younger and brighter",
+        "It has no planets"
+      ],
+      "correct_answer": "It is older and iron-poor"
+    },
+    {
+      "question": "What might explain the cooler temperature on TOI-561 b?",
+      "options": [
+        "No atmosphere",
+        "Heat redistribution by winds or clouds",
+        "A solid surface",
+        "It is far from the star"
+      ],
+      "correct_answer": "Heat redistribution by winds or clouds"
+    },
+    {
+      "question": "Where is TOI-561 b located in the Milky Way?",
+      "options": [
+        "Thin disk",
+        "Thick disk",
+        "Bulge",
+        "Halo"
+      ],
+      "correct_answer": "Thick disk"
+    }
+  ],
+  "background_read": [
+    "Exoplanets are planets outside our Solar System, and studying them helps us understand planetary formation and diversity. The James Webb Space Telescope, launched in 2021, is a powerful tool for this, using infrared light to peer through cosmic dust. Atmospheres are crucial for habitability, but factors like stellar proximity can strip them away. TOI-561 b is an ultra-short-period planet, a class known for extreme heat and potential atmospheric loss. This research connects to broader topics like stellar evolution, as older stars like TOI-561 b's host have different chemical compositions, influencing planet formation. Understanding such planets can shed light on early universe conditions and the possibility of life elsewhere."
+  ],
+  "Article_Structure": [
+    "Main Points: The article reports that astronomers using JWST found an atmosphere on TOI-561 b, a hot super Earth, challenging expectations that such planets lose atmospheres. The planet's low density and cooler temperature suggest compositional differences or atmospheric effects. Purpose: To share groundbreaking findings on atmospheric retention in extreme environments, published in a scientific journal. Evidence Evaluation: Strong evidence from JWST's precise temperature measurements and spectral data, though indirect, supports the atmosphere hypothesis. Author Credibility: Led by Carnegie Science astronomers with expertise in exoplanet research, adding reliability. Methodology: Used JWST's NIRSpec to observe infrared brightness changes during planetary eclipses, a standard technique for exoplanet studies."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological Advancement",
+      "description": "Highlights how JWST's capabilities enable new discoveries in exoplanet science, pushing the boundaries of what we know."
+    }
+  ],
+  "image_url": "/article_images/article_486f3780b1bbecf0_a2a637b7c0d3.webp"
+}

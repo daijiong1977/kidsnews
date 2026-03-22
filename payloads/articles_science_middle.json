@@ -1,21 +1,48 @@
 {
   "articles": [
     {
-      "id": "0511620151254632",
-      "title": "Harvard Engineers Develop Tunable Chip for Real-Time Light Chirality Control",
-      "summary": "Researchers at Harvard's School of Engineering and Applied Sciences have developed a compact device capable of actively controlling the chirality, or handedness, of light in real time. This device uses a twisted bilayer photonic crystal, where two engineered layers can be rotated relative to each other using a micro-electromechanical system (MEMS). Chirality refers to the property where objects, like light, cannot be superimposed on their mirror images, similar to left and right hands. In optics, light can have left- or right-circular polarization, and this chip can distinguish and adjust between them. This advancement is significant because chirality plays a critical role in various scientific fields, such as chemistry and medicine, where molecules with different chirality can have vastly different effects, as seen with drugs like thalidomide. The tunable nature of the device, achieved through MEMS control of twist angle and spacing, allows for continuous adjustment without replacing parts, enabling new applications in chiral sensing, optical communication, and quantum photonics. The research, led by graduate student Fan Du and professor Eric Mazur, builds on concepts from twistronics and demonstrates improved selectivity in light manipulation.",
-      "source": "Science Daily",
+      "id": "2225e6d953a9a3e1",
+      "title": "The Debate Over Deep Ocean Mining for Critical Minerals",
+      "summary": "In 2022, a Canadian company called The Metals Company tested a heavy machine that collected rock nodules from the deep Pacific Ocean, containing metals like copper, cobalt, nickel, and manganese. This pilot run was successful, and the company now seeks to expand commercial mining over a vast area to extract millions of tons of nodules. These deposits are targeted because the world's shift to clean energy, such as electric vehicles and renewable power, is increasing demand for critical minerals. According to the International Energy Agency, this demand could quadruple, leading to a debate on where to source these resources. Supporters, including some scientists and companies, argue that land-based mines may not suffice, making deep-sea mining a necessary alternative. However, opponents, led by countries like Palau and conservation groups, call for a ban or pause due to unknown ecological impacts, suggesting that land still has adequate resources. The International Seabed Authority is developing regulations, but negotiations have stalled, and time is short as mining could proceed soon, potentially without full rules. Researchers are urgently studying whether land can meet mineral needs and what environmental consequences ocean mining might have, with the IEA indicating that current mines might fall short in future scenarios.",
+      "source": "Ars Science",
       "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_0511620151254632_ef232d931063.webp",
+      "image_url": "/article_images/article_2225e6d953a9a3e1_3a46a5b28981.webp",
       "category": "Science"
     },
     {
-      "id": "9d18634bdab29b23",
-      "title": "Uncovering High-Dimensional Topologies in Quantum Light",
-      "summary": "Researchers from the University of the Witwatersrand in South Africa and Huzhou University in China have made a significant discovery in quantum optics. They found that entangled photons, produced using a common technique called spontaneous parametric downconversion (SPDC), contain hidden topological structures. These structures can reach up to 48 dimensions and include over 17,000 distinct signatures, creating a new way to encode quantum information. The team focused on the orbital angular momentum (OAM) of light, which allows for high-dimensional patterns. Previously, it was thought that at least two properties of light were needed to create topology, but this study shows that OAM alone is sufficient. This finding, published in Nature Communications, reveals that topology is an intrinsic feature of entanglement. The resources for observing these structures are already available in most quantum optics labs, making the discovery accessible. By viewing entanglement through topology, scientists hope to develop more robust quantum technologies that are less affected by noise, potentially leading to practical applications in computing and communication.",
+      "id": "6e241bc56b1d41c7",
+      "title": "Uncovering Ancient Art: The Oldest Handprint",
+      "summary": "Researchers have identified a 67,800-year-old hand stencil in a limestone cave in Sulawesi, Indonesia, as the oldest known rock art on Earth. This discovery, made by an international team from Griffith University, BRIN, and Southern Cross University, surpasses previous findings by at least 15,000 years. Using uranium-series dating on mineral layers in the Liang Metanduno cave, scientists determined the age of the handprint, which shows evidence of intentional modification to appear claw-like. The art provides insights into early human migration to Australia, suggesting the creators were ancestors of Indigenous Australians. Additionally, the cave hosted artistic activity for over 35,000 years, indicating a longstanding cultural tradition. This finding highlights the richness of Sulawesi's artistic heritage and raises questions about the symbolic meanings behind the altered handprint, possibly related to human-animal connections.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_9d18634bdab29b23_ed3f5824a2a4.webp",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_6e241bc56b1d41c7_9ac605774e09.webp",
+      "category": "Science"
+    },
+    {
+      "id": "dc19971de402bfcd",
+      "title": "Magnetic Friction Challenges a 300-Year-Old Physics Law",
+      "summary": "Researchers at the University of Konstanz have uncovered a novel form of sliding friction that occurs without physical contact, driven by magnetic interactions. This discovery challenges Amontons' law, an empirical principle established over 300 years ago that states friction increases linearly with the load or pressing force between surfaces. In a tabletop experiment, the team used two layers of magnetic elements that never touched but interacted magnetically. By varying the distance between the layers, they controlled the effective load and observed that friction peaked at intermediate distances due to competing magnetic preferences. The upper layer favored an antiparallel magnetic alignment, while the lower layer preferred a parallel arrangement, leading to instability and repeated switching during motion. This hysteretic behavior, where the system's state depends on its history, resulted in energy dissipation and a friction force that does not follow the simple linear relationship of Amontons' law. The findings suggest that friction can arise from internal magnetic dynamics rather than surface contact, offering insights into materials science and potential applications in reducing wear in mechanical systems.",
+      "source": "Science Daily",
+      "time_ago": "3 hours ago",
+      "image_url": "/article_images/article_dc19971de402bfcd_ed09de11e10c.webp",
+      "category": "Science"
+    },
+    {
+      "id": "486f3780b1bbecf0",
+      "title": "Uncovering an Ancient Atmosphere on a Super Earth",
+      "summary": "Astronomers from Carnegie Science have used NASA's James Webb Space Telescope (JWST) to detect clear evidence of an atmosphere on TOI-561 b, a rocky super Earth planet. This planet is about twice Earth's mass but orbits extremely close to its star, completing a year in just 10.56 hours, with one side in permanent daylight. Despite being small and intensely hot, which typically causes planets to lose their atmospheres early, TOI-561 b appears to have a thick gas envelope, challenging previous predictions. The planet's lower than expected density adds to the mystery, suggesting it might have a different composition, such as a smaller iron core and lighter mantle, or be influenced by its atmosphere making it seem larger. JWST's Near-Infrared Spectrograph measured the dayside temperature at about 3,200°F, cooler than the 4,900°F expected without an atmosphere, indicating heat redistribution likely due to winds or clouds. This discovery is significant because TOI-561 b orbits an old, iron-poor star in the Milky Way's thick disk, hinting it formed in a different chemical environment and could resemble early universe planets. The findings, published in The Astrophysical Journal Letters, advance our understanding of planetary evolution and atmospheric retention in extreme conditions.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_486f3780b1bbecf0_a2a637b7c0d3.webp",
+      "category": "Science"
+    },
+    {
+      "id": "627d3692b7ac5773",
+      "title": "Breakthrough Pill Reduces LDL Cholesterol by 60% in Clinical Trial",
+      "summary": "A phase three clinical trial published in The New England Journal of Medicine reports that enlicitide, an experimental oral drug, can lower LDL (bad) cholesterol by up to 60%. This reduction is significant because high LDL cholesterol contributes to atherosclerosis, where plaque builds up in arteries, increasing the risk of heart attacks and strokes. The trial involved 2,909 participants with or at risk for cardiovascular disease, most of whom were already on statins but still had elevated cholesterol levels. Enlicitide works by targeting the PCSK9 protein, similar to existing injectable therapies, but offers the advantage of being taken as a daily pill. Dr. Ann Marie Navar, the lead researcher, emphasized that current treatments often fail to meet cholesterol goals, and this new option could improve prevention efforts. Sponsored by Merck, the drug also lowered other cardiovascular markers like non-HDL cholesterol and apolipoprotein B over a year. If approved by the FDA, enlicitide could provide a more accessible solution for millions in the U.S. struggling with cholesterol management, addressing limitations of high costs and injection barriers associated with earlier PCSK9 inhibitors.",
+      "source": "Science Daily",
+      "time_ago": "1 day ago",
+      "image_url": "/article_images/article_627d3692b7ac5773_c1ab7e4af075.webp",
       "category": "Science"
     },
     {
@@ -23,35 +50,8 @@
       "title": "Shifting Nuclear Regulation: Silicon Valley's Influence Under Trump",
       "summary": "This article examines how the Trump administration is transforming nuclear energy regulation in the United States, driven by a push to increase power for artificial intelligence. At a meeting at the Idaho National Laboratory, Seth Cohen, a 31-year-old lawyer with minimal nuclear experience, led discussions and dismissed safety concerns, stating that the Nuclear Regulatory Commission (NRC) would follow government directives. The NRC, an independent agency known for setting global safety standards, is facing pressure as career experts are replaced and regulations rewritten rapidly. Silicon Valley companies, funded with tech money, are gaining influence, promoting a 'move fast and break things' approach. President Trump fired an NRC commissioner for emphasizing independence, signaling reduced oversight. ProPublica's review of meeting records reveals internal worries about radiation risks for vulnerable groups like babies, but Cohen downplayed these issues. This shift aims to accelerate nuclear plant approvals but risks undermining safety protocols and discrediting responsible nuclear initiatives, causing alarm among industry veterans.",
       "source": "Ars Science",
-      "time_ago": "2 hours ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_abb5913f42f6e0fb_0a372e0e60a6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a5efbd3867b8fe0a",
-      "title": "Discovery of a Swift Land Crocodylomorph from Triassic Britain",
-      "summary": "Researchers have identified a new species of crocodylomorph, an early relative of modern crocodiles, dating back approximately 215 million years to the Triassic period in Gloucester, UK. This animal, unlike contemporary crocodilians, was entirely terrestrial, adapted for speed with long, slender legs and a lightweight build, enabling it to hunt small prey such as reptiles, amphibians, and early mammals in a hot, dry landscape. The species name honors Galahad, a knight from Arthurian legend symbolizing upright posture, and David Rhys Jones, a physics teacher who inspired the lead author, Ewan Bodenham, a PhD student at the Natural History Museum London and UCL. Fossils were recovered from fissure deposits in southern Wales and southwest England, formed when surface remains washed into underground cavities. Analysis revealed 13 distinct anatomical differences from Terrestrisuchus, another land-dwelling crocodylomorph, confirming it as a novel species. This discovery provides insights into pre-extinction ecosystems and the evolutionary diversity of early crocodile relatives.",
-      "source": "Science Daily",
-      "time_ago": "3 hours ago",
-      "image_url": "/article_images/article_a5efbd3867b8fe0a_bc5560d2a79a.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3384168781cb8c3e",
-      "title": "Uncovering Earth's Early Plate Movements: A Geological Breakthrough",
-      "summary": "A recent study by Harvard geoscientists provides the oldest direct evidence of plate tectonics, dating back 3.5 billion years. Published in Science, the research addresses a long-standing debate about when Earth's tectonic plates began moving. The team analyzed over 900 rock samples from the Pilbara Craton in western Australia, an area with well-preserved Archean rocks from a time of early microbial life. Using paleomagnetism, a technique that studies magnetic signals in rocks, they reconstructed the movement of these ancient crustal pieces. This method acts like a geological GPS, revealing that plates were drifting even in Earth's early history. The findings suggest that plate motion played a key role in shaping the young planet's environment, potentially influencing the emergence of life. Lead author Alec Brenner and professor Roger Fu emphasized that this evidence helps narrow down the timing of tectonic activity, showing Earth was geologically active much earlier than some theories proposed.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_3384168781cb8c3e_20c652c70d8b.webp",
-      "category": "Science"
-    },
-    {
-      "id": "de3b3d32b5304ebd",
-      "title": "Perseverance Rover Uncovers Ancient Subsurface Delta on Mars",
-      "summary": "NASA's Perseverance rover, which landed in Jezero Crater on Mars in 2021, has made a significant discovery using its ground-penetrating radar instrument called RIMFAX. While exploring the Margin unit, a geological area rich in magnesium carbonates, the rover detected evidence of an ancient river delta buried tens of meters beneath the surface. This delta, hidden under the visible Western Delta, shows structured layering with features like clinoforms, which are angled sediment layers formed by river deposition into a lake. Scientists, led by astrobiologist Emily L. Cardarelli, interpret this as a sign of a dynamic fluvial environment that existed billions of years ago, potentially suitable for microbial life. The radar data penetrated over 35 meters deep, revealing rollover points that indicate multiple episodes of sediment deposition. This discovery enhances our understanding of Mars' hydrological history and supports the mission's goal of searching for biosignatures, as carbonates in the Margin unit are known on Earth to preserve traces of life.",
-      "source": "Ars Science",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_de3b3d32b5304ebd_b59c554c451f.webp",
       "category": "Science"
     }
   ]
