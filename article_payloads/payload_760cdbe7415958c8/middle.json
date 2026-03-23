@@ -1,0 +1,133 @@
+{
+  "title": "Breaking Newton's Law with a Sound-Levitated Time Crystal",
+  "summary": "Physicists at New York University have developed a novel time crystal that challenges fundamental physics. This system uses acoustic levitation to suspend styrofoam beads in mid-air, creating a visible and hand-held device. Time crystals, first predicted and confirmed about a decade ago, consist of particles that oscillate in regular cycles. In this experiment, the beads interact through scattered sound waves, leading to nonreciprocal forces where larger beads exert a stronger influence on smaller ones than vice versa. This asymmetry breaks Newton's Third Law of Motion, which states that forces occur in equal and opposite pairs. The research, published in Physical Review Letters, highlights the simplicity and accessibility of the setup compared to previous complex experiments. Potential applications include advancements in quantum computing and data storage, while also offering insights into biological processes like circadian rhythms, which involve similar nonreciprocal interactions. The study emphasizes how basic principles of sound and particle dynamics can reveal new scientific frontiers.",
+  "keywords": [
+    {
+      "term": "acoustic levitation",
+      "explanation": "a technique using sound waves to suspend objects in air without physical contact"
+    },
+    {
+      "term": "nonreciprocal forces",
+      "explanation": "uneven interactions where the effect of one object on another is not mirrored back equally"
+    },
+    {
+      "term": "Newton's Third Law",
+      "explanation": "a principle in physics stating that every action has an equal and opposite reaction"
+    },
+    {
+      "term": "time crystal",
+      "explanation": "a phase of matter with particles that exhibit periodic motion over time, like a ticking clock"
+    },
+    {
+      "term": "circadian rhythms",
+      "explanation": "biological cycles that regulate sleep and other bodily functions over a 24-hour period"
+    },
+    {
+      "term": "quantum computing",
+      "explanation": "an advanced type of computing that uses quantum bits for faster processing"
+    },
+    {
+      "term": "asymmetry",
+      "explanation": "a lack of balance or equality in a system"
+    },
+    {
+      "term": "Physical Review Letters",
+      "explanation": "a prestigious scientific journal where cutting-edge physics research is published"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What technique is used to levitate the beads in the time crystal?",
+      "options": [
+        "Acoustic levitation",
+        "Magnetic levitation",
+        "Electrostatic levitation",
+        "Thermal levitation"
+      ],
+      "correct_answer": "Acoustic levitation"
+    },
+    {
+      "question": "How do the interactions between beads differ from Newton's Third Law?",
+      "options": [
+        "They are nonreciprocal",
+        "They are perfectly balanced",
+        "They are random",
+        "They are invisible"
+      ],
+      "correct_answer": "They are nonreciprocal"
+    },
+    {
+      "question": "Where was this research published?",
+      "options": [
+        "Physical Review Letters",
+        "Nature",
+        "Science",
+        "Journal of Physics"
+      ],
+      "correct_answer": "Physical Review Letters"
+    },
+    {
+      "question": "What potential technology could benefit from time crystals?",
+      "options": [
+        "Quantum computing",
+        "Solar panels",
+        "Electric cars",
+        "3D printing"
+      ],
+      "correct_answer": "Quantum computing"
+    },
+    {
+      "question": "What biological system might this study help understand?",
+      "options": [
+        "Circadian rhythms",
+        "Digestive system",
+        "Immune system",
+        "Nervous system"
+      ],
+      "correct_answer": "Circadian rhythms"
+    },
+    {
+      "question": "Who is the senior author of the paper?",
+      "options": [
+        "Professor David Grier",
+        "Mia Morrell",
+        "Leela Elliott",
+        "Isaac Newton"
+      ],
+      "correct_answer": "Professor David Grier"
+    },
+    {
+      "question": "What makes this time crystal setup remarkable according to the scientists?",
+      "options": [
+        "Its simplicity",
+        "Its large size",
+        "Its high cost",
+        "Its complexity"
+      ],
+      "correct_answer": "Its simplicity"
+    },
+    {
+      "question": "What type of beads are used in the experiment?",
+      "options": [
+        "Styrofoam beads",
+        "Glass beads",
+        "Metal beads",
+        "Plastic beads"
+      ],
+      "correct_answer": "Styrofoam beads"
+    }
+  ],
+  "background_read": [
+    "Time crystals are a relatively new concept in physics, discovered around 2012, where matter exhibits periodic motion in time rather than space. Newton's Third Law is a cornerstone of classical mechanics, essential for understanding forces in everyday life. Acoustic levitation uses standing sound waves to counteract gravity, allowing objects to float. This article discusses an experiment that merges these ideas, creating a time crystal with nonreciprocal interactions. Such research bridges fundamental science with potential real-world applications, like improving quantum technologies and modeling biological cycles. It demonstrates how simple laboratory setups can lead to profound insights, challenging established laws and inspiring future innovations in multiple fields."
+  ],
+  "Article_Structure": [
+    "Main Points: The article describes a new time crystal created by NYU physicists using acoustic levitation, where styrofoam beads interact nonreciprocally, breaking Newton's Third Law. Purpose: To explore novel matter phases and their technological potential, such as in quantum computing, while providing insights into biological timing systems. Evidence Evaluation: The evidence is based on experimental results published in a reputable journal, with clear explanations of the setup and observations. Author Credibility: The authors are affiliated with NYU's Center for Soft Matter Research, indicating expertise in physics and materials science. Methodology: The study uses acoustic levitation and particle scattering techniques in a controlled laboratory environment to observe and analyze the time crystal's behavior."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological innovation",
+      "description": "This research could pave the way for advanced devices in computing and data storage by harnessing unique properties of time crystals."
+    }
+  ],
+  "image_url": "/article_images/article_760cdbe7415958c8_2ede9c6ea4c5.webp"
+}

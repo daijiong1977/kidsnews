@@ -1,0 +1,104 @@
+{
+  "title": "A Liver Enzyme and Cancer Risk",
+  "summary": "Scientists found that blocking an enzyme called Caspase-2 might not be safe for treating fatty liver disease. They studied mice and discovered that when this enzyme is missing, liver cells grow too much and become damaged. Over time, this can lead to liver cancer. The research shows that while stopping Caspase-2 might help young animals or prevent fatty liver for a short time, it causes problems as they get older. This means doctors need to be careful when developing new treatments. The study was done at the University of Adelaide and published in a science journal.",
+  "keywords": [
+    {
+      "term": "enzyme",
+      "explanation": "a special protein in the body that helps with chemical reactions"
+    },
+    {
+      "term": "liver",
+      "explanation": "an organ in the body that cleans the blood and helps with digestion"
+    },
+    {
+      "term": "cancer",
+      "explanation": "a disease where cells grow out of control and can harm the body"
+    },
+    {
+      "term": "mice",
+      "explanation": "small animals used in science experiments to learn about human health"
+    },
+    {
+      "term": "fatty liver disease",
+      "explanation": "a condition where too much fat builds up in the liver, making it unhealthy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did scientists find about blocking Caspase-2?",
+      "options": [
+        "It always helps treat fatty liver disease",
+        "It might raise the risk of liver cancer",
+        "It makes liver cells smaller",
+        "It has no effect on the liver"
+      ],
+      "correct_answer": "It might raise the risk of liver cancer"
+    },
+    {
+      "question": "What happens to liver cells when Caspase-2 is missing?",
+      "options": [
+        "They stop growing",
+        "They grow too much and get damaged",
+        "They become healthier",
+        "They disappear"
+      ],
+      "correct_answer": "They grow too much and get damaged"
+    },
+    {
+      "question": "Which animals were used in the study?",
+      "options": [
+        "Dogs",
+        "Cats",
+        "Mice",
+        "Birds"
+      ],
+      "correct_answer": "Mice"
+    },
+    {
+      "question": "What can develop over time without Caspase-2?",
+      "options": [
+        "Stronger bones",
+        "Liver cancer",
+        "Better eyesight",
+        "More energy"
+      ],
+      "correct_answer": "Liver cancer"
+    },
+    {
+      "question": "Where was the research done?",
+      "options": [
+        "University of Adelaide",
+        "A hospital",
+        "A school",
+        "A farm"
+      ],
+      "correct_answer": "University of Adelaide"
+    },
+    {
+      "question": "Why do doctors need to be careful with new treatments?",
+      "options": [
+        "Because treatments are always expensive",
+        "Because blocking Caspase-2 might cause long-term harm",
+        "Because mice don't like the treatments",
+        "Because fatty liver disease is not serious"
+      ],
+      "correct_answer": "Because blocking Caspase-2 might cause long-term harm"
+    }
+  ],
+  "background_read": [
+    "Fatty liver disease is when too much fat builds up in the liver, which can make people sick. Enzymes are like tiny helpers in our bodies that control how cells work. Scientists often use mice in studies to understand human diseases because their bodies are similar in some ways. Cancer happens when cells grow uncontrollably and can spread to other parts of the body. Research helps doctors find safe ways to treat illnesses."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists from the University of Adelaide",
+    "WHAT: Found that blocking Caspase-2 enzyme might increase liver cancer risk",
+    "WHERE: In a study using mice",
+    "WHY: To warn about the dangers of certain treatments for fatty liver disease"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Safety of treatments",
+      "description": "The study shows that blocking Caspase-2 could be harmful in the long run, so new drugs need careful testing."
+    }
+  ],
+  "image_url": "/article_images/article_5e6652d848b35d6b_cc80b9c8dbdb.webp"
+}
