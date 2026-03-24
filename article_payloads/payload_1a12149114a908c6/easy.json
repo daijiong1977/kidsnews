@@ -1,0 +1,104 @@
+{
+  "title": "Super Light Traps for Tiny Materials",
+  "summary": "Scientists have made a new light trap to help very thin materials shine brighter. These materials, called atom-thin semiconductors, are only one layer of atoms thick and can create light in special ways. But because they are so thin, they don't interact with light much, making their light weak. In a study, researchers placed a thin material called tungsten disulfide on tiny air holes carved into a crystal. These air holes, called Mie voids, trap light inside them, making the light stronger right where the thin material sits. This helps the material emit more light and work better for things like sensors and tiny light sources. The design is different from old traps that use solid materials, and it works well even if the material absorbs light. By adjusting the size of the holes, scientists can control the light color and make the material shine up to 20 times brighter. This new method could lead to better technology for computers and communication.",
+  "keywords": [
+    {
+      "term": "atom-thin semiconductors",
+      "explanation": "materials that are only one layer of atoms thick and can make light"
+    },
+    {
+      "term": "Mie voids",
+      "explanation": "tiny air holes that trap light to make it stronger"
+    },
+    {
+      "term": "light emission",
+      "explanation": "when a material gives off light, like a glow"
+    },
+    {
+      "term": "resonance",
+      "explanation": "when light vibrates strongly inside a hole, matching the material's light"
+    },
+    {
+      "term": "tungsten disulfide",
+      "explanation": "a thin material used in the study to shine brighter"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are atom-thin semiconductors?",
+      "options": [
+        "Materials that are very thick",
+        "Materials that are only one layer of atoms thick",
+        "Materials that cannot make light",
+        "Materials used only for building"
+      ],
+      "correct_answer": "Materials that are only one layer of atoms thick"
+    },
+    {
+      "question": "What is the main problem with atom-thin semiconductors?",
+      "options": [
+        "They are too heavy",
+        "They don't interact with light much, making weak light",
+        "They are too expensive",
+        "They cannot be used in technology"
+      ],
+      "correct_answer": "They don't interact with light much, making weak light"
+    },
+    {
+      "question": "What are Mie voids?",
+      "options": [
+        "Big solid blocks",
+        "Tiny air holes that trap light",
+        "Types of lasers",
+        "Colors of light"
+      ],
+      "correct_answer": "Tiny air holes that trap light"
+    },
+    {
+      "question": "How do Mie voids help the thin material?",
+      "options": [
+        "By making it thicker",
+        "By trapping light near the material to make it shine brighter",
+        "By changing its color",
+        "By cooling it down"
+      ],
+      "correct_answer": "By trapping light near the material to make it shine brighter"
+    },
+    {
+      "question": "What material was placed on the Mie voids in the study?",
+      "options": [
+        "Silicon",
+        "Tungsten disulfide",
+        "Gold",
+        "Plastic"
+      ],
+      "correct_answer": "Tungsten disulfide"
+    },
+    {
+      "question": "How much brighter did the material shine with the best Mie void?",
+      "options": [
+        "2 times",
+        "5 times",
+        "10 times",
+        "20 times"
+      ],
+      "correct_answer": "20 times"
+    }
+  ],
+  "background_read": [
+    "Atom-thin semiconductors are super thin materials, like a single sheet of atoms, that can create light in special ways. They are important for new technologies like tiny light sources and sensors, but their thinness makes it hard for them to shine brightly. Scientists are finding ways to trap light near these materials to boost their performance. This study uses air holes carved into crystals to concentrate light, helping the materials glow stronger and work better in devices."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists and researchers studying thin materials",
+    "WHAT: They created a new light trap using tiny air holes to make atom-thin semiconductors shine brighter",
+    "WHERE: In a lab, using materials like tungsten disulfide and bismuth telluride crystals",
+    "WHY: To improve light emission for better technology in things like sensors and communication"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific innovation",
+      "description": "The study shows a creative way to solve a problem by using air holes instead of solid materials to trap light."
+    }
+  ],
+  "image_url": "/article_images/article_1a12149114a908c6_a6860677aef5.webp"
+}

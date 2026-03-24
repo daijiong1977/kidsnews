@@ -1,0 +1,108 @@
+{
+  "title": "Scientists Make Glass a Super Tool for Quantum Security",
+  "summary": "Scientists have found a cool way to use glass to make super-secure communication devices for the future. As quantum computers get stronger, they might break current codes, so we need new methods like quantum cryptography that use light to keep data safe. Researchers from Italy made a tiny device inside borosilicate glass using a special laser. This device helps read quantum signals in light with low loss and works well with fiber-optic systems we already have. Glass is better than silicon because it doesn't care about light polarization and is very stable. The device can do two jobs: create random numbers for security and send secret keys for communication, setting records for speed. This makes quantum technology more practical for real-world use.",
+  "keywords": [
+    {
+      "term": "quantum computers",
+      "explanation": "very powerful computers that can solve hard problems"
+    },
+    {
+      "term": "quantum cryptography",
+      "explanation": "a way to keep information safe using light and physics"
+    },
+    {
+      "term": "borosilicate glass",
+      "explanation": "a type of strong glass used in science experiments"
+    },
+    {
+      "term": "femtosecond laser",
+      "explanation": "a super-fast laser that writes tiny paths in materials"
+    },
+    {
+      "term": "fiber-optic systems",
+      "explanation": "cables that send information using light"
+    },
+    {
+      "term": "polarization",
+      "explanation": "how light waves vibrate in a certain direction"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What material did scientists use to make a quantum security device?",
+      "options": [
+        "Borosilicate glass",
+        "Silicon",
+        "Plastic",
+        "Metal"
+      ],
+      "correct_answer": "Borosilicate glass"
+    },
+    {
+      "question": "Why do we need quantum cryptography?",
+      "options": [
+        "To make computers faster",
+        "To keep data safe from quantum computers",
+        "To build better phones",
+        "To create new games"
+      ],
+      "correct_answer": "To keep data safe from quantum computers"
+    },
+    {
+      "question": "What tool did researchers use to write paths in the glass?",
+      "options": [
+        "A hammer",
+        "A femtosecond laser",
+        "A pen",
+        "A microscope"
+      ],
+      "correct_answer": "A femtosecond laser"
+    },
+    {
+      "question": "What is one advantage of glass over silicon in quantum devices?",
+      "options": [
+        "It is cheaper",
+        "It is insensitive to polarization",
+        "It is heavier",
+        "It changes color"
+      ],
+      "correct_answer": "It is insensitive to polarization"
+    },
+    {
+      "question": "What can the glass device do for security?",
+      "options": [
+        "Play music",
+        "Generate random numbers and send secret keys",
+        "Cook food",
+        "Drive cars"
+      ],
+      "correct_answer": "Generate random numbers and send secret keys"
+    },
+    {
+      "question": "What type of systems does the glass device work with?",
+      "options": [
+        "Fiber-optic systems",
+        "Radio systems",
+        "Water pipes",
+        "Electric wires"
+      ],
+      "correct_answer": "Fiber-optic systems"
+    }
+  ],
+  "background_read": [
+    "Quantum computers are new machines that might break old codes, so scientists are creating quantum cryptography to protect information. This uses light signals that are hard to hack. Researchers in Italy built a device inside glass using a fast laser to read these signals better. Glass is good because it's stable and doesn't lose light easily. This helps make quantum technology useful in everyday life, like for secure internet."
+  ],
+  "Article_Structure": [
+    "WHO: Researchers from the University of Padua, Politecnico di Milano, and the CNR Institute for Photonics and Nanotechnologies",
+    "WHAT: Made a quantum security device using borosilicate glass with a femtosecond laser",
+    "WHERE: In Italy, reported in the journal Advanced Photonics",
+    "WHY: To create practical quantum communication that is secure and works with existing systems"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Innovation in materials",
+      "description": "Using glass instead of silicon for better performance in quantum devices"
+    }
+  ],
+  "image_url": "/article_images/article_c2de7bb85052328a_c698e2e195a7.webp"
+}

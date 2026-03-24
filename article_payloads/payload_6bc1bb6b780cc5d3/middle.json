@@ -1,0 +1,125 @@
+{
+  "title": "Breakthrough in Oral Insulin: A Step Toward Ending Injections",
+  "summary": "For over a century, the development of oral insulin has been a major goal in diabetes treatment, hindered by the body's digestive enzymes that break down insulin and the intestine's poor absorption. Researchers at Kumamoto University, led by Associate Professor Shingo Ito, have made significant progress by utilizing a cyclic peptide known as the DNP peptide. This platform enables insulin to be delivered orally by facilitating its passage through the small intestine. The team designed two distinct strategies to overcome the intestinal barrier, enhancing absorption. A key advancement is the reduction in required doses; previously, oral insulin needed doses over ten times higher than injections, but this new method achieves a pharmacological bioavailability of 33-41% compared to subcutaneous injections, making it more feasible for clinical use. The researchers emphasize that insulin injections impose a daily burden on patients, and their peptide-based platform could extend to long-acting insulin and other biologics. Published in Molecular Pharmaceutics, the study is advancing with further tests in larger animal models and human intestine simulations to prepare for potential clinical applications, marking a promising shift toward oral diabetes management.",
+  "keywords": [
+    {
+      "term": "oral insulin",
+      "explanation": "insulin taken by mouth in pill form, aiming to replace injections"
+    },
+    {
+      "term": "DNP peptide",
+      "explanation": "a cyclic peptide used as a platform to help insulin cross the intestinal barrier"
+    },
+    {
+      "term": "bioavailability",
+      "explanation": "the proportion of a drug that enters the bloodstream when taken orally, compared to other methods"
+    },
+    {
+      "term": "intestinal barrier",
+      "explanation": "the lining of the intestine that controls what substances pass into the blood"
+    },
+    {
+      "term": "subcutaneous injection",
+      "explanation": "a method of delivering insulin under the skin with a needle"
+    },
+    {
+      "term": "biologics",
+      "explanation": "medicines made from living organisms, often requiring injection"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What has been the main challenge in developing oral insulin for over 100 years?",
+      "options": [
+        "Digestive enzymes breaking down insulin",
+        "Insulin being too expensive",
+        "Patients preferring injections",
+        "Lack of research funding"
+      ],
+      "correct_answer": "Digestive enzymes breaking down insulin"
+    },
+    {
+      "question": "What is the DNP peptide used for in this research?",
+      "options": [
+        "To help insulin pass through the small intestine",
+        "To make insulin taste better",
+        "To color the pills",
+        "To reduce insulin production"
+      ],
+      "correct_answer": "To help insulin pass through the small intestine"
+    },
+    {
+      "question": "How does the new oral insulin compare to injections in terms of dose requirement?",
+      "options": [
+        "It needs much lower doses",
+        "It needs higher doses",
+        "It needs the same dose",
+        "It needs no dose"
+      ],
+      "correct_answer": "It needs much lower doses"
+    },
+    {
+      "question": "What is the pharmacological bioavailability of the new oral insulin compared to injections?",
+      "options": [
+        "33-41%",
+        "50-60%",
+        "10-20%",
+        "100%"
+      ],
+      "correct_answer": "33-41%"
+    },
+    {
+      "question": "Where were the findings of this study published?",
+      "options": [
+        "Molecular Pharmaceutics",
+        "Science Daily",
+        "Kumamoto University Journal",
+        "Diabetes Care"
+      ],
+      "correct_answer": "Molecular Pharmaceutics"
+    },
+    {
+      "question": "What are the researchers planning to do next?",
+      "options": [
+        "Test in larger animal models and human intestine simulations",
+        "Start selling the pill immediately",
+        "Discontinue the research",
+        "Focus only on injections"
+      ],
+      "correct_answer": "Test in larger animal models and human intestine simulations"
+    },
+    {
+      "question": "Why is oral insulin considered a 'dream' treatment?",
+      "options": [
+        "It could replace daily injections and improve patient quality of life",
+        "It is cheaper than injections",
+        "It works faster than injections",
+        "It has no side effects"
+      ],
+      "correct_answer": "It could replace daily injections and improve patient quality of life"
+    },
+    {
+      "question": "What other applications might the peptide-based platform have?",
+      "options": [
+        "Long-acting insulin and other injectable biologics",
+        "Only for diabetes pills",
+        "For cancer treatment only",
+        "For vitamins and supplements"
+      ],
+      "correct_answer": "Long-acting insulin and other injectable biologics"
+    }
+  ],
+  "background_read": [
+    "Diabetes is a chronic condition affecting millions worldwide, often managed with insulin therapy to regulate blood glucose levels. Traditionally, insulin is administered via subcutaneous injections, which can be painful, inconvenient, and impact daily life. The pursuit of oral insulin dates back decades, aiming to enhance patient compliance and comfort. However, obstacles include degradation by stomach enzymes and poor intestinal absorption. Recent advances in peptide technology and drug delivery systems have renewed hope. This article discusses a breakthrough from Kumamoto University, where researchers developed a peptide-based platform to overcome these barriers, potentially revolutionizing diabetes care by offering a non-invasive alternative to injections."
+  ],
+  "Article_Structure": [
+    "Main Points: The article highlights a breakthrough in oral insulin development using a DNP peptide platform to facilitate intestinal absorption, reducing dose requirements and achieving 33-41% bioavailability compared to injections. Purpose: To inform about advancements in diabetes treatment that could alleviate the burden of daily injections and improve patient quality of life. Evidence Evaluation: The evidence is based on research from Kumamoto University, published in a peer-reviewed journal, with specific data on bioavailability, but it is preliminary as further animal and human studies are needed. Author Credibility: Associate Professor Shingo Ito leads the team at Kumamoto University, suggesting expertise in pharmaceutical sciences, though the article does not detail individual credentials. Methodology: The research involved designing two strategies for intestinal absorption and testing in models, with plans for larger animal and human intestine simulations to validate findings."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific progress",
+      "description": "This research represents a significant step in biomedical engineering, showcasing innovation in drug delivery systems."
+    }
+  ],
+  "image_url": "/article_images/article_6bc1bb6b780cc5d3_ce7239a9ad75.webp"
+}

@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "3fc5959b43bdbdf0",
-      "title": "Rescuing NASA's Aging Swift Satellite: A Commercial Space Challenge",
-      "summary": "The Neil Gehrels Swift Observatory, a NASA satellite launched in 2004, is facing orbital decay and risks crashing to Earth without intervention. This 21-year-old spacecraft specializes in detecting gamma-ray bursts—intense cosmic explosions from events like star deaths—and remains crucial for astrophysics despite its age. NASA has contracted Katalyst Space Technologies, a private company, to execute a pioneering rescue mission. Katalyst will deploy its robotic servicing spacecraft, Link, to rendezvous and dock with Swift, then reboost its altitude to extend its operational life. The mission is ambitious due to several factors: Swift was not designed for in-orbit servicing, this marks Katalyst's first docking attempt, and NASA imposed a tight nine-month timeline with a launch deadline by June 1. Success would demonstrate commercial space capabilities and preserve Swift's unique ability to quickly locate gamma-ray bursts, which lack a U.S. replacement. However, failure could result in Swift's loss, though at a lower cost compared to flagship missions like Hubble. The article highlights the technical risks, compressed schedule, and broader implications for future space exploration.",
-      "source": "Ars Science",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_3fc5959b43bdbdf0_aba16e24ce2f.webp",
-      "category": "Science"
-    },
-    {
-      "id": "53255abc23df8f88",
-      "title": "Study Reveals Common Misconceptions in Food Environmental Impact Perceptions",
-      "summary": "A recent study published in the Journal of Cleaner Production investigated how people perceive the environmental impact of various foods, revealing significant misconceptions. Conducted by researchers from the University of Nottingham's School of Psychology, the study involved 168 UK participants who sorted supermarket foods into self-defined environmental impact categories. Participants tended to judge impact based on whether foods were animal-based or plant-based and their level of processing, often assuming meat, dairy, and processed foods are more harmful. However, these assumptions did not always align with scientific data; for instance, many overestimated the impact of processed foods while underestimating that of water-intensive products like nuts. The study also found participants were surprised by the high environmental impact of beef compared to other meats. Lead author Daniel Fletcher noted that participants expressed willingness to change purchasing behaviors after learning the scientific estimates, and co-author Professor Alexa Spence emphasized the need for environmental impact labels, such as A-E grades, to facilitate easier comparisons and inform sustainable choices. This research highlights gaps in public understanding and advocates for clearer labeling to support environmental goals.",
-      "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_53255abc23df8f88_2dd5ddbc306e.webp",
-      "category": "Science"
-    },
-    {
-      "id": "57ca13010c01167c",
-      "title": "Airborne Microplastics Contaminate Forest Ecosystems Through Atmospheric Deposition",
-      "summary": "A recent study by geoscientists at TU Darmstadt reveals that microplastics and nanoplastics are accumulating in forests primarily through atmospheric deposition, meaning they fall from the sky. Published in Nature Communications Earth & Environment, the research highlights that these plastic particles first settle on tree leaves in the upper canopy, a process called the 'comb-out effect.' They then transfer to forest soils via rain or leaf fall, with the highest concentrations found in the top leaf litter layer. The team collected samples from four forest sites in Germany, using spectroscopic techniques to analyze soil, leaves, and atmospheric deposition. They developed a model estimating microplastic accumulation since the 1950s, showing that forests serve as indicators of airborne plastic pollution. This contamination poses a new environmental threat, potentially exacerbating issues like climate change for forest ecosystems and raising health concerns as microplastics circulate globally in the air we breathe.",
-      "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_57ca13010c01167c_f5dc9cc85ef3.webp",
-      "category": "Science"
-    },
-    {
-      "id": "be758f8bf13be913",
-      "title": "Advancing Early Detection: A New Blood Test for Pancreatic Cancer",
-      "summary": "Researchers have developed a novel blood test aimed at early detection of pancreatic ductal adenocarcinoma, a highly lethal cancer with poor survival rates due to late diagnosis. Supported by the National Institutes of Health, the study, published in Clinical Cancer Research, addresses the lack of reliable screening tools by evaluating a panel of biomarkers. The test combines existing markers like CA19-9 and THBS2 with two newly identified proteins, ANPEP and PIGR, which show elevated levels in early-stage cancer patients. In retrospective analyses, this four-marker panel achieved 91.9% accuracy in distinguishing cancer cases from non-cases, with an 87.5% detection rate for early-stage cancer and a 5% false positive rate. It also effectively differentiates pancreatic cancer from non-cancerous conditions such as pancreatitis, reducing misdiagnosis risks. Lead investigator Kenneth Zaret emphasizes that further testing in larger, asymptomatic populations is needed to validate its potential as a screening tool for high-risk individuals, based on factors like family history or genetic predispositions. This advancement could significantly improve patient outcomes by enabling earlier intervention when treatments are more effective.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_be758f8bf13be913_5c4b541bf30a.webp",
-      "category": "Science"
-    },
-    {
-      "id": "5e6652d848b35d6b",
-      "title": "Risks of Targeting Caspase-2 for Fatty Liver Disease",
-      "summary": "Researchers from the University of Adelaide discovered that inhibiting the enzyme Caspase-2, once considered a potential treatment for fatty liver disease, may lead to chronic liver damage and increased cancer risk. In a study published in Science Advances, they used genetically modified mice lacking functional Caspase-2 and observed abnormal liver cell growth, inflammation, scarring, and higher rates of liver tumors, particularly hepatocellular carcinoma, as the mice aged. The enzyme helps maintain genetic stability in liver cells and regulates fat levels; without it, cells accumulate damage and become prone to cancer. While short-term inhibition might benefit young animals or prevent fatty liver, long-term loss is detrimental, as Caspase-2 removes damaged cells. These findings challenge current drug development approaches and highlight the need for caution in therapies targeting this pathway to avoid unintended consequences.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_5e6652d848b35d6b_cc80b9c8dbdb.webp",
-      "category": "Science"
-    },
-    {
-      "id": "44aec75ad68ffbb9",
-      "title": "Heathrow Expansion: Balancing Growth and Local Concerns",
-      "summary": "Heathrow Airport has proposed a £49 billion expansion plan, including a third runway and modifications to infrastructure like the M25, to address its current capacity limits. Conservative MP Jack Rankin, representing Windsor in Berkshire, opposes this expansion, arguing that local infrastructure cannot handle increased traffic, noise, and pollution. He highlights that many constituents live under the flight path and face existing congestion issues. Despite his opposition, Rankin acknowledges the economic importance of the airport for jobs and business in Berkshire and supports a western rail link as an alternative to ease transportation concerns. The airport and government, including Chancellor Rachel Reeves, emphasize the urgency of expansion to enhance global connectivity and economic benefits, with business groups backing this view for improved market access. However, plans for the rail link have been delayed due to cost and planning challenges, adding complexity to the debate over sustainable growth.",
+      "id": "55808e588ac05f43",
+      "title": "Global Crisis: Migratory Fish Populations Plummet",
+      "summary": "Migratory freshwater fish, which travel through rivers, lakes, and ponds, are experiencing a severe decline, with populations dropping by an estimated 81% over the past 50 years. This alarming trend is driven by multiple threats, including dams that fragment river systems, pollution, and overfishing, all of which prevent fish from reaching their breeding grounds. In response, the United Nations has released a new report prioritizing 30 flagship species, such as the golden mahseer and goonch catfish, for global conservation efforts. These fish are not only ecologically vital but also support hundreds of millions of people worldwide by providing food and holding cultural significance. For instance, the golden mahseer is revered as the tiger of the river in the Himalayas. The report, based on an assessment of over 15,000 species, highlights the need for international agreements to monitor and protect threatened migratory animals, emphasizing that habitat loss and overexploitation must be addressed to ensure their recovery.",
       "source": "BBC Science",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_44aec75ad68ffbb9_f59d5d4aee5e.webp",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_55808e588ac05f43_4597e0e2953f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f6b09057cff162fb",
+      "title": "Unlocking the Secrets of Red Giant Stars with Supercomputers",
+      "summary": "Researchers have used advanced supercomputing to solve a 50-year-old mystery in astronomy: why the chemical composition at the surface of red giant stars changes as they evolve. Red giants are stars that have expanded after exhausting hydrogen in their cores, growing up to 100 times their original size. Since the 1970s, astronomers observed shifts in surface chemistry, such as carbon-12 to carbon-13 ratios, indicating material transport from deep inside, but the mechanism was unknown. A study published in Nature Astronomy by scientists from the University of Victoria and the University of Minnesota reveals that stellar rotation is the key factor. Through high-resolution 3D hydrodynamical simulations, they found that rotation amplifies internal waves, boosting mixing rates by over 100 times compared to non-rotating stars. This allows elements to cross a stable barrier layer and reach the surface, explaining the observed chemical signatures. The simulations required immense computing power from systems like the Trillium supercomputer in Canada. This discovery not only clarifies stellar evolution but also provides insights into the future of our Sun, which will become a red giant. The research highlights how technological advances enable deeper understanding of cosmic processes.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_f6b09057cff162fb_f6275578f4ac.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6bc1bb6b780cc5d3",
+      "title": "Breakthrough in Oral Insulin: A Step Toward Ending Injections",
+      "summary": "For over a century, the development of oral insulin has been a major goal in diabetes treatment, hindered by the body's digestive enzymes that break down insulin and the intestine's poor absorption. Researchers at Kumamoto University, led by Associate Professor Shingo Ito, have made significant progress by utilizing a cyclic peptide known as the DNP peptide. This platform enables insulin to be delivered orally by facilitating its passage through the small intestine. The team designed two distinct strategies to overcome the intestinal barrier, enhancing absorption. A key advancement is the reduction in required doses; previously, oral insulin needed doses over ten times higher than injections, but this new method achieves a pharmacological bioavailability of 33-41% compared to subcutaneous injections, making it more feasible for clinical use. The researchers emphasize that insulin injections impose a daily burden on patients, and their peptide-based platform could extend to long-acting insulin and other biologics. Published in Molecular Pharmaceutics, the study is advancing with further tests in larger animal models and human intestine simulations to prepare for potential clinical applications, marking a promising shift toward oral diabetes management.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_6bc1bb6b780cc5d3_ce7239a9ad75.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c2de7bb85052328a",
+      "title": "Glass-Based Quantum Receiver Advances Secure Communication",
+      "summary": "Researchers have developed a high-performance quantum coherent receiver using borosilicate glass, addressing the need for practical quantum cryptography as quantum computers threaten current encryption. The device, created via femtosecond laser writing, offers low optical loss, stability, and compatibility with fiber-optic systems, making it suitable for real-world applications. Glass outperforms silicon in continuous-variable quantum information processing, such as quantum key distribution and quantum random number generation, due to its polarization insensitivity and minimal signal loss. The team built a tunable heterodyne receiver inside the glass, enabling simultaneous measurement of light wave quadratures. This chip achieved record speeds: 42.7 Gbit/s for secure random bit generation and 3.2 Mbit/s for secret key rates in a simulated 9.3-km fiber link. The study, published in Advanced Photonics, demonstrates that glass photonics can support advanced quantum technologies without the limitations of silicon, moving beyond lab experiments toward practical use.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_c2de7bb85052328a_c698e2e195a7.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1a12149114a908c6",
+      "title": "Enhancing Light in Atom-Thin Semiconductors with Mie Voids",
+      "summary": "Researchers have developed a novel light-trapping design to enhance the performance of atom-thin semiconductors, such as tungsten disulfide (WS2), which are promising for advanced photonic technologies. These materials, only a single atomic layer thick, can host excitons and produce light through nonlinear effects, but their extreme thinness limits light interaction, resulting in weak emission. To address this, a study published in Advanced Photonics introduces Mie voids—nanoscale air cavities etched into a high-index crystal of bismuth telluride (Bi2Te3). By placing a WS2 monolayer on these voids, light is confined within the air cavities, concentrating the optical field near the surface where the material sits. This inverted confinement approach boosts light emission and nonlinear signals by up to 20 times, unlike traditional solid resonators that keep fields away from the surface. The design allows tuning of resonance wavelengths by adjusting cavity geometry and remains effective even in absorbing materials. Using simulations and focused ion beam milling, the team created cavities that match WS2's emission, with stable resonances tolerant to fabrication errors. This strategy offers new insights into light behavior at small scales and could improve applications in quantum optics and on-chip light sources.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_1a12149114a908c6_a6860677aef5.webp",
+      "category": "Science"
+    },
+    {
+      "id": "221593dce77650cd",
+      "title": "US Government's $1 Billion Deal to Halt Offshore Wind Development",
+      "summary": "The Trump administration has announced a $1 billion deal with TotalEnergies, a French energy company, to abandon offshore wind leases acquired during the Biden administration. Under this agreement, TotalEnergies will receive reimbursement for two lease sites, including the Attentive Energy project capable of generating 3 Gigawatts of power near New Jersey. In return, the company commits to investing the funds in US-based fossil fuel projects, such as oil and natural gas, and renounces any further offshore wind development in the US. The administration claims this will lower energy costs for American families, despite current price shocks in oil and gas due to international conflicts. Critics argue this move undermines clean energy efforts and may not achieve the stated cost savings, as offshore wind could provide reliable, affordable power. The deal highlights ongoing political tensions over energy policy and the shift away from renewable sources.",
+      "source": "Ars Science",
+      "time_ago": "17 hours ago",
+      "image_url": "/article_images/article_221593dce77650cd_db416d0bc285.webp",
       "category": "Science"
     }
   ]

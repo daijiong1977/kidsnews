@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "3fc5959b43bdbdf0",
-      "title": "Commercial Orbital Rescue: Analyzing NASA's Swift Satellite Salvage Operation",
-      "summary": "The Neil Gehrels Swift Observatory, a NASA astrophysics mission launched in 2004, is experiencing orbital decay in low-Earth orbit, threatening its operational viability and risking atmospheric re-entry by year's end. Specializing in the detection and rapid localization of gamma-ray bursts—cataclysmic events from stellar collapses or compact object mergers—Swift remains scientifically indispensable due to its unique multi-wavelength capabilities and lack of a U.S. successor. In response, NASA has awarded Katalyst Space Technologies a $30 million contract to execute a pioneering commercial rescue mission, deploying the robotic servicing spacecraft Link to perform a rendezvous and docking with Swift, followed by an orbital reboost. This endeavor is marked by significant technical and logistical challenges: Swift was not engineered for in-orbit servicing, representing an untested interface; Katalyst has no prior experience with satellite docking, introducing operational uncertainties; and NASA imposed an aggressive nine-month development timeline, with a launch deadline of June 1, to preempt Swift's descent below 200 miles, where aerodynamic drag complicates control. The mission's objectives extend beyond preserving Swift's scientific output to demonstrating the feasibility of commercial satellite servicing, a capability with implications for sustainable space operations and debris mitigation. However, the compressed schedule, inherent risks of first-time docking, and potential for mission failure underscore the trade-offs between innovation and reliability in the evolving commercial space sector.",
-      "source": "Ars Science",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_3fc5959b43bdbdf0_aba16e24ce2f.webp",
-      "category": "Science"
-    },
-    {
-      "id": "53255abc23df8f88",
-      "title": "Cognitive Biases in Environmental Perception: A Study on Food Impact Misconceptions and Labeling Solutions",
-      "summary": "A groundbreaking study published in the Journal of Cleaner Production examines the psychological underpinnings of how individuals assess the environmental impact of foods, uncovering pervasive misconceptions that hinder sustainable consumption. Researchers from the University of Nottingham's School of Psychology conducted an online task with 168 UK participants, who categorized a diverse array of supermarket products based on perceived environmental harm. The findings indicate that participants predominantly relied on heuristic judgments, such as distinguishing between animal-based and plant-based foods and evaluating processing levels, leading to inaccuracies. For example, many overestimated the impact of processed items while underestimating that of water-intensive commodities like nuts, and expressed surprise at the disproportionate environmental footprint of beef relative to other meats. The study, funded by UKRI's Smart Data Research UK, is notable for its comprehensive scope across everyday grocery items, contrasting with prior limited selections. Lead author Daniel Fletcher reported that exposure to scientific impact estimates prompted behavioral intentions to adjust consumption, suggesting educative interventions can be effective. Co-author Professor Alexa Spence advocated for standardized environmental impact labels, such as A-E grading systems, to mitigate cognitive overload and enhance comparability. This research underscores the critical role of informed decision-making in addressing food systems' contributions to greenhouse gas emissions and biodiversity loss, proposing labeling as a pragmatic policy tool to align consumer behavior with ecological sustainability.",
-      "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_53255abc23df8f88_2dd5ddbc306e.webp",
-      "category": "Science"
-    },
-    {
-      "id": "57ca13010c01167c",
-      "title": "Atmospheric Deposition of Microplastics: A Novel Pathway for Forest Soil Contamination and Ecological Risk Assessment",
-      "summary": "Geoscientists from TU Darmstadt conducted a pioneering study published in Nature Communications Earth & Environment, investigating the accumulation of microplastics and nanoplastics in forest ecosystems via atmospheric deposition. The research elucidates that these particles primarily originate from airborne sources, initially depositing on tree canopy leaves through the 'comb-out effect' and subsequently translocating to forest soils via hydrological processes like rainfall or biological mechanisms such as leaf litter decomposition. Sampling from four forest sites in Germany enabled analysis using advanced spectroscopic techniques, revealing peak concentrations in the superficial leaf litter layer, with significant penetration into deeper soil strata facilitated by organic breakdown and biotic activity. A novel model was developed to quantify atmospheric input since the mid-20th century, positioning forests as sensitive indicators of diffuse microplastic pollution. This contamination represents an emergent environmental hazard, potentially compounding extant stressors like climate change on forest vitality and implicating public health through global atmospheric circulation of inhalable particles. The study underscores the imperative for integrated risk evaluations of microplastics in terrestrial and aerial matrices.",
-      "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_57ca13010c01167c_f5dc9cc85ef3.webp",
-      "category": "Science"
-    },
-    {
-      "id": "be758f8bf13be913",
-      "title": "Biomarker Panel Enhancement for Early Pancreatic Cancer Detection: A Retrospective Analysis",
-      "summary": "A recent study published in Clinical Cancer Research details the development of a blood-based biomarker panel designed to improve early detection of pancreatic ductal adenocarcinoma, a malignancy with a dismal prognosis due to frequent late-stage diagnosis. Conducted by researchers from the University of Pennsylvania Perelman School of Medicine and Mayo Clinic, with funding from the National Institutes of Health, this investigation addresses the critical gap in screening methodologies by integrating existing biomarkers—carbohydrate antigen 19-9 (CA19-9) and thrombospondin 2 (THBS2)—with two novel proteins, aminopeptidase N (ANPEP) and polymeric immunoglobin receptor (PIGR), identified through analysis of stored blood samples. The four-marker panel demonstrated robust diagnostic performance, achieving a sensitivity of 91.9% in distinguishing cancer cases across all stages and 87.5% for early-stage (I/II) disease, alongside a specificity reflected by a 5% false positive rate in non-cases. Notably, it effectively discriminates pancreatic cancer from benign conditions like pancreatitis, mitigating risks of misdiagnosis. Lead investigator Kenneth Zaret, Ph.D., emphasizes the necessity for prospective studies in asymptomatic, high-risk populations to validate its utility as a screening tool, potentially revolutionizing clinical practice by enabling earlier therapeutic interventions and improving overall survival outcomes.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_be758f8bf13be913_5c4b541bf30a.webp",
-      "category": "Science"
-    },
-    {
-      "id": "5e6652d848b35d6b",
-      "title": "Caspase-2 Inhibition: A Double-Edged Sword in Fatty Liver Disease Therapeutics",
-      "summary": "A groundbreaking study by researchers at the University of Adelaide, published in Science Advances, reveals that long-term inhibition of the enzyme Caspase-2, previously explored as a therapeutic target for fatty liver disease, may elevate the risk of chronic liver damage and hepatocellular carcinoma. Using genetically engineered mice deficient in functional Caspase-2, the investigation demonstrated that enzyme loss disrupts genetic stability in hepatocytes, leading to excessive polyploidy, cellular enlargement, inflammation, fibrosis, and oxidative stress. Over time, these pathological changes predisposed aging mice to develop liver tumors at rates up to four times higher than controls. The enzyme's dual roles in maintaining genomic integrity and modulating hepatic lipid metabolism underscore its protective functions; however, its absence allows accumulation of damaged cells, fostering a carcinogenic microenvironment. While short-term Caspase-2 inhibition might confer benefits in youthful models or acute fatty liver prevention, the findings critically challenge prevailing assumptions in pharmacologic development, highlighting the necessity for comprehensive risk-benefit analyses in targeting this pathway to mitigate unintended oncogenic consequences.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_5e6652d848b35d6b_cc80b9c8dbdb.webp",
-      "category": "Science"
-    },
-    {
-      "id": "44aec75ad68ffbb9",
-      "title": "Heathrow Expansion: A Multifaceted Debate on Infrastructure, Economy, and Community Impact",
-      "summary": "The proposed £49 billion expansion of Heathrow Airport, featuring a third runway and significant infrastructure modifications such as diverting the M25, has ignited a complex debate between economic imperatives and local welfare concerns. Conservative MP Jack Rankin articulates strong opposition, citing insufficient local infrastructure capacity in Berkshire, where constituents endure aircraft noise and traffic congestion under the flight path. He critiques the expansion's environmental and social downsides but acknowledges its economic importance for job creation through terminal buildings, hotels, and car parks. In contrast, Heathrow's chief executive Thomas Woldbye and Chancellor Rachel Reeves advocate for the expansion as an urgent measure to address operational capacity limits and bolster Britain's global business connectivity, with business groups highlighting benefits for exporters and investment. Rankin proposes a western rail link as a mitigating solution, though Network Rail's plans are stalled due to planning and cost issues, underscoring the challenges in balancing growth with sustainable development. This discourse reflects broader tensions in urban planning between neoliberal economic policies and community-centric environmental justice.",
+      "id": "55808e588ac05f43",
+      "title": "Conservation Imperative: Addressing the 81% Decline in Migratory Freshwater Fish",
+      "summary": "Migratory freshwater fish populations have plummeted by an estimated 81% over the past five decades, according to a comprehensive UN report that assessed more than 15,000 species. This dramatic decline is attributed to a confluence of anthropogenic pressures, including habitat fragmentation from dams, which disrupt migration routes; pollution degrading water quality; and overfishing exacerbating population losses. The report identifies 325 fish species requiring inclusion in global conservation agreements, with 30 prioritized as flagship species, such as the golden mahseer and goonch catfish, due to their ecological significance and cultural value. These fish are integral to freshwater ecosystems and support hundreds of millions of people worldwide, providing sustenance and embodying spiritual and traditional practices. For instance, the golden mahseer, revered as the tiger of the river in the Himalayas, faces threats from overfishing and dam construction. The study, building on earlier IUCN data, underscores the urgency of international cooperation to mitigate these threats through monitoring and protective measures, highlighting the interconnectedness of biodiversity conservation and human livelihoods in a global context.",
       "source": "BBC Science",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_44aec75ad68ffbb9_f59d5d4aee5e.webp",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_55808e588ac05f43_4597e0e2953f.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f6b09057cff162fb",
+      "title": "Resolving Stellar Evolution Mysteries: The Role of Rotation in Red Giant Mixing",
+      "summary": "A groundbreaking study published in Nature Astronomy has utilized state-of-the-art supercomputing to elucidate a five-decade-old enigma in stellar astrophysics: the mechanism behind chemical composition alterations on the surfaces of red giant stars. As stars exhaust core hydrogen, they transition into red giants, exhibiting significant expansion and observable shifts in surface isotopes, such as carbon-12 to carbon-13 ratios, which imply internal material transport. Researchers from the University of Victoria's Astronomy Research Centre and the University of Minnesota conducted high-resolution three-dimensional hydrodynamical simulations, identifying stellar rotation as the pivotal driver. They demonstrated that rotation amplifies internal gravity waves, enhancing mixing across a stable barrier layer by over 100-fold relative to non-rotating stars, thereby reconciling theoretical models with empirical data. This discovery was facilitated by cutting-edge computational resources, including the Trillium supercluster in Canada, enabling simulations of unprecedented complexity. The findings not only advance comprehension of stellar evolution but also offer predictive insights into the future trajectory of our Sun as it evolves into a red giant. This research underscores the synergy between computational advancements and astrophysical inquiry, paving the way for further investigations into stellar dynamics and nucleosynthesis processes.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_f6b09057cff162fb_f6275578f4ac.webp",
+      "category": "Science"
+    },
+    {
+      "id": "6bc1bb6b780cc5d3",
+      "title": "Advancements in Oral Insulin Delivery: A Peptide-Based Platform for Enhanced Bioavailability",
+      "summary": "The longstanding challenge of developing oral insulin, often termed a 'dream' treatment for diabetes, stems from physiological barriers: digestive enzymes degrade insulin, and the intestinal epithelium limits its absorption. A research team at Kumamoto University, under the leadership of Associate Professor Shingo Ito, has pioneered a novel approach employing a cyclic peptide, the DNP peptide, as a delivery platform. This innovation facilitates the traversal of insulin through the small intestine via two engineered strategies, addressing previous limitations in oral formulation. Crucially, the platform markedly reduces the requisite insulin doses, which historically exceeded injection doses by over tenfold, achieving a pharmacological bioavailability of approximately 33-41% relative to subcutaneous administration. This enhancement in efficiency positions oral insulin as a more viable clinical option. The researchers posit that their peptide-based system could extend beyond insulin to other injectable biologics and long-acting formulations, potentially mitigating the daily burdens associated with injections. Published in Molecular Pharmaceutics, the study is progressing with rigorous preclinical evaluations, including tests in larger animal models and in vitro systems mimicking human intestinal environments, to ascertain safety and efficacy for future clinical trials. This work signifies a pivotal advancement in pharmaceutical sciences, offering a promising alternative to conventional diabetes management.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_6bc1bb6b780cc5d3_ce7239a9ad75.webp",
+      "category": "Science"
+    },
+    {
+      "id": "c2de7bb85052328a",
+      "title": "Advancements in Glass-Based Photonics for Quantum Cryptographic Applications",
+      "summary": "A collaborative research effort from the University of Padua, Politecnico di Milano, and the CNR Institute for Photonics and Nanotechnologies has demonstrated a significant advancement in quantum security through the development of a high-performance quantum coherent receiver fabricated in borosilicate glass using femtosecond laser writing. This innovation addresses critical challenges in continuous-variable quantum information processing, such as quantum key distribution and quantum random number generation, by leveraging glass's inherent advantages over silicon, including polarization insensitivity, low optical loss, and three-dimensional waveguide integration. The device, a fully tunable heterodyne receiver, enables precise measurement of conjugate quadratures in light waves, achieving notable performance metrics: a secure random bit generation rate of 42.7 Gbit/s in a source-device-independent QRNG system and a secret key rate of 3.2 Mbit/s in a QPSK-based CV-QKD protocol over a simulated 9.3-km fiber link. Published in Advanced Photonics, the study underscores the practical benefits of glass photonics, such as compatibility with existing fiber-optic infrastructure and stability, positioning it as a viable alternative to silicon-based platforms for advancing quantum technologies from laboratory experiments to real-world implementations.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_c2de7bb85052328a_c698e2e195a7.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1a12149114a908c6",
+      "title": "Innovative Mie Void Resonators for Enhanced Photonic Performance in Atom-Thin Semiconductors",
+      "summary": "A groundbreaking study in Advanced Photonics introduces Mie void resonators as a transformative approach to augment the photonic capabilities of atom-thin semiconductors, specifically tungsten disulfide (WS2). These two-dimensional materials exhibit exceptional properties, including tightly bound excitons and nonlinear optical phenomena such as second-harmonic generation, positioning them as pivotal for quantum optics, sensing, and integrated photonic circuits. However, their monolayer structure inherently restricts light-matter interaction, leading to suboptimal emission and conversion efficiencies. To mitigate this, researchers engineered nanoscale air cavities, termed Mie voids, etched into a high-refractive-index bismuth telluride (Bi2Te3) substrate. This inverted confinement mechanism localizes optical fields within the air region adjacent to the WS2 layer, contrasting with conventional dielectric nanoresonators that sequester fields internally. The design facilitates a 20-fold enhancement in photoluminescence by aligning cavity dipolar resonances with the WS2 A-exciton emission band, as validated through electromagnetic simulations and experimental measurements using focused ion beam milling. Key advantages include tunable resonance via geometric adjustments, robustness against fabrication imperfections, and efficacy in absorbing materials where traditional resonators falter. This methodology not only elucidates localized optical modes but also propels the development of efficient on-chip light sources and advanced photonic devices, underscoring its significance in nanophotonics research.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_1a12149114a908c6_a6860677aef5.webp",
+      "category": "Science"
+    },
+    {
+      "id": "221593dce77650cd",
+      "title": "Analyzing the $1 Billion Offshore Wind Abatement Deal: Policy and Economic Implications",
+      "summary": "The Trump administration's $1 billion agreement with TotalEnergies represents a strategic intervention to curtail offshore wind development in the United States, reimbursing the company for leases acquired under the Biden administration. This deal mandates TotalEnergies to invest the funds in domestic fossil fuel projects, including an additional liquefied natural gas export terminal, while renouncing all future offshore wind endeavors in the US. Key projects affected include the Attentive Energy site, with a capacity of 3 Gigawatts, posing challenges for states like New Jersey in securing alternative clean energy sources. The administration justifies this move by asserting it will lower costs for American families, despite concurrent price shocks in oil and natural gas markets exacerbated by geopolitical tensions, such as US actions against Iran. Critics contend the rhetoric lacks coherence with economic realities, as increased fossil fuel exports may heighten consumer vulnerability to international price fluctuations, and subsidies for wind are mischaracterized. This analysis explores the deal's implications for energy policy, environmental sustainability, and market dynamics, underscoring the tension between renewable energy advocacy and fossil fuel prioritization.",
+      "source": "Ars Science",
+      "time_ago": "17 hours ago",
+      "image_url": "/article_images/article_221593dce77650cd_db416d0bc285.webp",
       "category": "Science"
     }
   ]
