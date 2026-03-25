@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "55808e588ac05f43",
-      "title": "Global Crisis: Migratory Fish Populations Plummet",
-      "summary": "Migratory freshwater fish, which travel through rivers, lakes, and ponds, are experiencing a severe decline, with populations dropping by an estimated 81% over the past 50 years. This alarming trend is driven by multiple threats, including dams that fragment river systems, pollution, and overfishing, all of which prevent fish from reaching their breeding grounds. In response, the United Nations has released a new report prioritizing 30 flagship species, such as the golden mahseer and goonch catfish, for global conservation efforts. These fish are not only ecologically vital but also support hundreds of millions of people worldwide by providing food and holding cultural significance. For instance, the golden mahseer is revered as the tiger of the river in the Himalayas. The report, based on an assessment of over 15,000 species, highlights the need for international agreements to monitor and protect threatened migratory animals, emphasizing that habitat loss and overexploitation must be addressed to ensure their recovery.",
-      "source": "BBC Science",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_55808e588ac05f43_4597e0e2953f.webp",
-      "category": "Science"
-    },
-    {
-      "id": "f6b09057cff162fb",
-      "title": "Unlocking the Secrets of Red Giant Stars with Supercomputers",
-      "summary": "Researchers have used advanced supercomputing to solve a 50-year-old mystery in astronomy: why the chemical composition at the surface of red giant stars changes as they evolve. Red giants are stars that have expanded after exhausting hydrogen in their cores, growing up to 100 times their original size. Since the 1970s, astronomers observed shifts in surface chemistry, such as carbon-12 to carbon-13 ratios, indicating material transport from deep inside, but the mechanism was unknown. A study published in Nature Astronomy by scientists from the University of Victoria and the University of Minnesota reveals that stellar rotation is the key factor. Through high-resolution 3D hydrodynamical simulations, they found that rotation amplifies internal waves, boosting mixing rates by over 100 times compared to non-rotating stars. This allows elements to cross a stable barrier layer and reach the surface, explaining the observed chemical signatures. The simulations required immense computing power from systems like the Trillium supercomputer in Canada. This discovery not only clarifies stellar evolution but also provides insights into the future of our Sun, which will become a red giant. The research highlights how technological advances enable deeper understanding of cosmic processes.",
+      "id": "5227868c5843a393",
+      "title": "Uncovering the Mechanism Behind Small Cell Lung Cancer Relapse",
+      "summary": "A research team led by Professor Dr. Silvia von Karstedt has identified a key biological process that may explain why small cell lung cancer (SCLC) is so aggressive and prone to relapse. SCLC is a highly deadly form of lung cancer with a five-year survival rate of only 5%, often responding initially to chemotherapy but frequently returning. The study, published in Nature Communications, focused on the absence of caspase-8, a protein involved in apoptosis (programmed cell death). Using a genetically engineered mouse model lacking caspase-8, the researchers found that this absence triggers necroptosis, a type of inflammatory cell death. This creates an inflamed environment that suppresses the immune system's anti-cancer response, making it easier for tumors to grow and spread. Additionally, the inflammation pushes cancer cells into a more immature, neuron-like state, enhancing their ability to metastasize and relapse. While it's unclear if this pre-tumoral inflammation occurs in humans, the findings offer insights into SCLC's aggressiveness and potential targets for new therapies and early detection strategies. The research was supported by the German Research Foundation.",
       "source": "Science Daily",
       "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_f6b09057cff162fb_f6275578f4ac.webp",
+      "image_url": "/article_images/article_5227868c5843a393_1c37fcdac5fc.webp",
       "category": "Science"
     },
     {
-      "id": "6bc1bb6b780cc5d3",
-      "title": "Breakthrough in Oral Insulin: A Step Toward Ending Injections",
-      "summary": "For over a century, the development of oral insulin has been a major goal in diabetes treatment, hindered by the body's digestive enzymes that break down insulin and the intestine's poor absorption. Researchers at Kumamoto University, led by Associate Professor Shingo Ito, have made significant progress by utilizing a cyclic peptide known as the DNP peptide. This platform enables insulin to be delivered orally by facilitating its passage through the small intestine. The team designed two distinct strategies to overcome the intestinal barrier, enhancing absorption. A key advancement is the reduction in required doses; previously, oral insulin needed doses over ten times higher than injections, but this new method achieves a pharmacological bioavailability of 33-41% compared to subcutaneous injections, making it more feasible for clinical use. The researchers emphasize that insulin injections impose a daily burden on patients, and their peptide-based platform could extend to long-acting insulin and other biologics. Published in Molecular Pharmaceutics, the study is advancing with further tests in larger animal models and human intestine simulations to prepare for potential clinical applications, marking a promising shift toward oral diabetes management.",
+      "id": "04934b9d71dacfcf",
+      "title": "Discovering 24 New Deep-Sea Amphipod Species in the Pacific",
+      "summary": "In a significant scientific achievement, researchers have identified 24 previously unknown amphipod species in the Clarion-Clipperton Zone (CCZ), a vast and poorly understood region of the central Pacific Ocean. The discovery, published in an open-access journal, includes a rare new superfamily, highlighting major evolutionary findings. Led by Dr. Anna Jażdżewska and Tammy Horton, a team of 16 specialists conducted a taxonomy workshop at the University of Lodz to classify these species, which include both predators and scavengers. This work supports the International Seabed Authority's Sustainable Seabed Knowledge Initiative, aiming to describe 1,000 new species by 2030. The CCZ covers six million square kilometers and remains largely unexplored, with over 90% of its species still unnamed. By documenting these amphipods, scientists enhance our knowledge of deep-sea biodiversity, enabling better communication and conservation efforts. The project demonstrates the effectiveness of global collaboration, involving institutions from multiple countries to accelerate species discovery and understanding of ecological roles in this delicate environment.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_04934b9d71dacfcf_3d320a6a30c8.webp",
+      "category": "Science"
+    },
+    {
+      "id": "cc96000f84870517",
+      "title": "Uncovering Metformin's Brain Pathway in Diabetes Treatment",
+      "summary": "Metformin, a first-line treatment for type 2 diabetes for over six decades, has long been known to lower blood glucose, but its exact mechanisms remained unclear. Researchers at Baylor College of Medicine, in collaboration with international teams, have identified a novel brain-based pathway that explains part of metformin's effectiveness. They focused on the ventromedial hypothalamus (VMH), a brain region involved in glucose metabolism, and discovered that metformin suppresses the activity of a protein called Rap1 in this area. Using genetically engineered mice lacking Rap1 in the VMH, the team found that low doses of metformin failed to improve blood sugar levels, while other treatments like insulin still worked. Further experiments involved delivering tiny amounts of metformin directly into the brains of diabetic mice, which significantly reduced blood sugar even at much lower doses than oral intake. The study also identified SF1 neurons in the VMH as key cells activated by metformin, with Rap1 required for this activation. This research challenges the traditional view that metformin acts only in the liver or gut, showing it also influences brain pathways at low concentrations. The findings could lead to more targeted diabetes therapies and may explain other health benefits of metformin, such as its effects on brain aging.",
+      "source": "Science Daily",
+      "time_ago": "2 hours ago",
+      "image_url": "/article_images/article_cc96000f84870517_33d26edf38b7.webp",
+      "category": "Science"
+    },
+    {
+      "id": "193b1c941bac0b08",
+      "title": "Innovative Conversion of Bourbon Waste into Energy Storage Solutions",
+      "summary": "Chemists at the University of Kentucky have developed an innovative method to repurpose waste from bourbon production into high-performance supercapacitors. Bourbon, a type of American whiskey, generates significant amounts of stillage—a watery byproduct of the distillation process—which is often disposed of as livestock feed or soil additives, posing logistical and economic challenges. Led by graduate student Josiel Barrios Cossio and professor Marcelo Guzman, the team utilized hydrothermal carbonization, a high-pressure cooking technique, to convert stillage into carbon materials. They produced two forms: hard carbon, similar to graphite, and activated carbon, by applying heat at different temperatures. These carbon materials were then used as electrodes to construct supercapacitors, devices that store electrical energy. In laboratory tests, the activated carbon electrodes achieved energy storage capacities comparable to commercial supercapacitors, with a hybrid version combining both carbon types showing even higher performance. This research, presented at an American Chemical Society meeting, highlights a sustainable approach to waste management and energy technology, though further studies are needed to scale up the process and assess economic viability.",
+      "source": "Ars Science",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_193b1c941bac0b08_2058ac21c422.webp",
+      "category": "Science"
+    },
+    {
+      "id": "3d611097cbc2c088",
+      "title": "Unraveling the X-Ray Mystery of Gamma Cassiopeiae",
+      "summary": "Gamma Cassiopeiae, a naked-eye star in the Cassiopeia constellation, has baffled astronomers for 50 years due to its extreme X-ray emissions, which are about forty times stronger and hotter than typical massive stars. New observations from Japan's XRISM space telescope, using the Resolve instrument, have linked these X-rays to a white dwarf companion orbiting the star. The data, collected over multiple periods in 2024-2025, showed that the hot plasma causing the X-rays moves with the white dwarf's orbit, not the Be star itself. This confirms the white dwarf as the source and indicates it is magnetic, with material funneled to its poles. The discovery establishes a new class of binary systems—Be stars paired with white dwarfs—that had been predicted but never clearly observed. Researchers from the University of Liège led the study, noting that this finding challenges existing models of binary evolution and opens new research avenues into stellar systems and gravitational waves. The findings were published in Astronomy & Astrophysics, highlighting the role of advanced technology in solving astronomical mysteries.",
       "source": "Science Daily",
       "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_6bc1bb6b780cc5d3_ce7239a9ad75.webp",
+      "image_url": "/article_images/article_3d611097cbc2c088_737dff02cac7.webp",
       "category": "Science"
     },
     {
-      "id": "c2de7bb85052328a",
-      "title": "Glass-Based Quantum Receiver Advances Secure Communication",
-      "summary": "Researchers have developed a high-performance quantum coherent receiver using borosilicate glass, addressing the need for practical quantum cryptography as quantum computers threaten current encryption. The device, created via femtosecond laser writing, offers low optical loss, stability, and compatibility with fiber-optic systems, making it suitable for real-world applications. Glass outperforms silicon in continuous-variable quantum information processing, such as quantum key distribution and quantum random number generation, due to its polarization insensitivity and minimal signal loss. The team built a tunable heterodyne receiver inside the glass, enabling simultaneous measurement of light wave quadratures. This chip achieved record speeds: 42.7 Gbit/s for secure random bit generation and 3.2 Mbit/s for secret key rates in a simulated 9.3-km fiber link. The study, published in Advanced Photonics, demonstrates that glass photonics can support advanced quantum technologies without the limitations of silicon, moving beyond lab experiments toward practical use.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_c2de7bb85052328a_c698e2e195a7.webp",
-      "category": "Science"
-    },
-    {
-      "id": "1a12149114a908c6",
-      "title": "Enhancing Light in Atom-Thin Semiconductors with Mie Voids",
-      "summary": "Researchers have developed a novel light-trapping design to enhance the performance of atom-thin semiconductors, such as tungsten disulfide (WS2), which are promising for advanced photonic technologies. These materials, only a single atomic layer thick, can host excitons and produce light through nonlinear effects, but their extreme thinness limits light interaction, resulting in weak emission. To address this, a study published in Advanced Photonics introduces Mie voids—nanoscale air cavities etched into a high-index crystal of bismuth telluride (Bi2Te3). By placing a WS2 monolayer on these voids, light is confined within the air cavities, concentrating the optical field near the surface where the material sits. This inverted confinement approach boosts light emission and nonlinear signals by up to 20 times, unlike traditional solid resonators that keep fields away from the surface. The design allows tuning of resonance wavelengths by adjusting cavity geometry and remains effective even in absorbing materials. Using simulations and focused ion beam milling, the team created cavities that match WS2's emission, with stable resonances tolerant to fabrication errors. This strategy offers new insights into light behavior at small scales and could improve applications in quantum optics and on-chip light sources.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_1a12149114a908c6_a6860677aef5.webp",
-      "category": "Science"
-    },
-    {
-      "id": "221593dce77650cd",
-      "title": "US Government's $1 Billion Deal to Halt Offshore Wind Development",
-      "summary": "The Trump administration has announced a $1 billion deal with TotalEnergies, a French energy company, to abandon offshore wind leases acquired during the Biden administration. Under this agreement, TotalEnergies will receive reimbursement for two lease sites, including the Attentive Energy project capable of generating 3 Gigawatts of power near New Jersey. In return, the company commits to investing the funds in US-based fossil fuel projects, such as oil and natural gas, and renounces any further offshore wind development in the US. The administration claims this will lower energy costs for American families, despite current price shocks in oil and gas due to international conflicts. Critics argue this move undermines clean energy efforts and may not achieve the stated cost savings, as offshore wind could provide reliable, affordable power. The deal highlights ongoing political tensions over energy policy and the shift away from renewable sources.",
+      "id": "9b0136a45de04612",
+      "title": "Analyzing the 2025 Iberian Blackout: Grid Failures and Policy Risks",
+      "summary": "In 2025, a major blackout affected the entire Iberian Peninsula, including Spain and Portugal, due to a failure in the electrical grid. A final report by ENTSO-e, the European grid coordinator, revealed that grid-level voltage oscillations and premature disconnections of hardware were key factors. The oscillations, which are fluctuations in the grid's stability, originated from known phenomena and a fault in a photovoltaic inverter near the Portuguese border. While these oscillations didn't directly cause the blackout, they increased risks by pushing equipment outside normal operating ranges, leading to disconnections. The report highlighted that Spain's policies and grid management procedures, such as those involving reactive power—a type of electricity that supports grid stability but doesn't perform useful work—were inadequate. Data from grid hardware, interchanges with France and Morocco, and rooftop solar inverters provided detailed insights. The findings emphasize the need for improved grid regulations and operational changes to prevent similar events, underscoring the importance of robust infrastructure in maintaining reliable power supply.",
       "source": "Ars Science",
-      "time_ago": "17 hours ago",
-      "image_url": "/article_images/article_221593dce77650cd_db416d0bc285.webp",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_9b0136a45de04612_697c9278ee01.webp",
       "category": "Science"
     }
   ]
