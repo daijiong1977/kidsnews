@@ -1,0 +1,121 @@
+{
+  "title": "Direct Video Evidence Reveals Rapid Fault Slip in Myanmar Earthquake",
+  "summary": "On March 28, 2025, a magnitude 7.7 earthquake struck central Myanmar along the Sagaing Fault, near Mandalay, making it one of the deadliest in the country's modern history. This event was a strike-slip earthquake, where two sections of Earth's crust moved horizontally past each other. Typically, researchers rely on seismic data from distant instruments, but in this case, rare CCTV footage captured the fault movement directly. Scientists at Kyoto University analyzed the video using pixel cross-correlation, a method to measure ground shifts frame by frame. They found that the fault slipped 2.5 meters sideways in just 1.3 seconds, reaching a top speed of 3.2 meters per second. While such displacement is common for strike-slip quakes, the brief duration confirmed a pulse-like rupture, where slip propagates quickly along the fault. Additionally, the analysis showed a slightly curved path of motion, challenging the assumption that fault movement is always straight. This study highlights the value of video monitoring in earthquake research, offering detailed insights that can improve understanding of earthquake physics and help estimate future shaking risks. The researchers plan to use physics-based models to further explore fault behavior based on this new data.",
+  "keywords": [
+    {
+      "term": "strike-slip fault",
+      "explanation": "a type of fault where tectonic plates move horizontally past each other"
+    },
+    {
+      "term": "pixel cross-correlation",
+      "explanation": "a technique used to analyze video frames to measure movement by comparing pixels"
+    },
+    {
+      "term": "pulse-like rupture",
+      "explanation": "a rapid, concentrated burst of slip that travels along a fault during an earthquake"
+    },
+    {
+      "term": "seismic data",
+      "explanation": "information collected from instruments that detect ground vibrations during earthquakes"
+    },
+    {
+      "term": "kinematic data",
+      "explanation": "data that describes the motion of objects, such as speed and displacement"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the magnitude of the earthquake that hit Myanmar in March 2025?",
+      "options": [
+        "7.7",
+        "6.5",
+        "8.0",
+        "5.2"
+      ],
+      "correct_answer": "7.7"
+    },
+    {
+      "question": "Which university's researchers analyzed the CCTV footage of the earthquake?",
+      "options": [
+        "Kyoto University",
+        "Harvard University",
+        "Stanford University",
+        "University of Tokyo"
+      ],
+      "correct_answer": "Kyoto University"
+    },
+    {
+      "question": "What method did scientists use to analyze the video frame by frame?",
+      "options": [
+        "Pixel cross-correlation",
+        "Seismic imaging",
+        "GPS tracking",
+        "Thermal scanning"
+      ],
+      "correct_answer": "Pixel cross-correlation"
+    },
+    {
+      "question": "How fast did the fault move at its top speed during the slip?",
+      "options": [
+        "3.2 meters per second",
+        "1 meter per second",
+        "5 meters per second",
+        "0.5 meters per second"
+      ],
+      "correct_answer": "3.2 meters per second"
+    },
+    {
+      "question": "What does the brief duration of the slip confirm about the rupture?",
+      "options": [
+        "It was pulse-like",
+        "It was slow and steady",
+        "It was explosive",
+        "It was silent"
+      ],
+      "correct_answer": "It was pulse-like"
+    },
+    {
+      "question": "What did the analysis reveal about the path of the slip?",
+      "options": [
+        "It was slightly curved",
+        "It was perfectly straight",
+        "It was zigzag",
+        "It was circular"
+      ],
+      "correct_answer": "It was slightly curved"
+    },
+    {
+      "question": "Why is the CCTV footage considered rare in earthquake research?",
+      "options": [
+        "It provides direct visual evidence",
+        "It is low quality",
+        "It is from a drone",
+        "It shows only sound waves"
+      ],
+      "correct_answer": "It provides direct visual evidence"
+    },
+    {
+      "question": "What do researchers plan to do next based on these findings?",
+      "options": [
+        "Use physics-based models to explore fault behavior",
+        "Build more CCTV cameras",
+        "Ignore the data",
+        "Study volcanoes instead"
+      ],
+      "correct_answer": "Use physics-based models to explore fault behavior"
+    }
+  ],
+  "background_read": [
+    "Earthquakes are natural events caused by the movement of tectonic plates along faults, often resulting in significant ground shaking and damage. The Sagaing Fault in Myanmar is a major strike-slip fault where horizontal movement occurs. Traditionally, scientists study earthquakes using seismic instruments that record vibrations from a distance, but this provides indirect data. The 2025 Myanmar earthquake offered a unique opportunity due to CCTV footage capturing the fault slip directly. This allowed researchers to apply advanced techniques like pixel cross-correlation to measure precise movements. Understanding such details, such as pulse-like ruptures and curved motion, helps refine earthquake models and improve hazard assessments. This article discusses how video evidence can transform earthquake research by offering new insights into fault dynamics and physics."
+  ],
+  "Article_Structure": [
+    "Main Points: The article details a magnitude 7.7 earthquake in Myanmar, where rare CCTV footage captured a 2.5-meter fault slip in 1.3 seconds, revealing pulse-like rupture and curved motion. Purpose: To highlight the value of direct video evidence in earthquake research for improving understanding of fault behavior and future risk estimation. Evidence Evaluation: The evidence is strong, based on direct visual data analyzed with pixel cross-correlation, though limited to one event. Author Credibility: Researchers from Kyoto University, with expertise in seismology, conducted the study, enhancing reliability. Methodology: Used frame-by-frame video analysis and pixel cross-correlation to measure displacement and speed, providing detailed kinematic data."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological advancement",
+      "description": "The use of video analysis offers a new tool for direct observation in seismology."
+    }
+  ],
+  "image_url": "/article_images/article_7cc245527dd3c773_6883536361aa.webp"
+}
