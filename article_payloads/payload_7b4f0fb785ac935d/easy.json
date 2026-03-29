@@ -1,0 +1,104 @@
+{
+  "title": "A Tiny QR Code That Can Hold Lots of Information",
+  "summary": "Scientists have made the world's smallest QR code, which is so tiny it's smaller than bacteria and can only be seen with a special microscope called an electron microscope. This tiny code was created by researchers at TU Wien and a company called Cerabyte, and it's now in the Guinness Book of Records. The QR code is special because it can store data for a very long time, maybe hundreds or thousands of years, unlike regular storage like computer drives that wear out quickly. It's made from a strong material called ceramic, which is used in tools that need to last. The code is engraved into the ceramic using a tiny beam, and each pixel is super small. This means more data can fit in a small space, like fitting over 2 terabytes on a sheet of paper, and it doesn't need any energy to keep the information safe. This could help save our digital knowledge for the future, just like ancient people carved words in stone.",
+  "keywords": [
+    {
+      "term": "QR code",
+      "explanation": "a square pattern that stores information like a website link"
+    },
+    {
+      "term": "electron microscope",
+      "explanation": "a special tool that uses electrons to see very tiny things"
+    },
+    {
+      "term": "ceramic",
+      "explanation": "a hard, strong material often used in dishes or tools"
+    },
+    {
+      "term": "data storage",
+      "explanation": "a way to keep information safe so it can be used later"
+    },
+    {
+      "term": "Guinness Book of Records",
+      "explanation": "a book that lists world records for amazing achievements"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the world's smallest QR code smaller than?",
+      "options": [
+        "A bacteria",
+        "A grain of sand",
+        "A piece of paper",
+        "A computer chip"
+      ],
+      "correct_answer": "A bacteria"
+    },
+    {
+      "question": "What special tool is needed to see the tiny QR code?",
+      "options": [
+        "A magnifying glass",
+        "An electron microscope",
+        "A regular camera",
+        "A telescope"
+      ],
+      "correct_answer": "An electron microscope"
+    },
+    {
+      "question": "What material is the QR code made from?",
+      "options": [
+        "Plastic",
+        "Ceramic",
+        "Wood",
+        "Metal"
+      ],
+      "correct_answer": "Ceramic"
+    },
+    {
+      "question": "How long can the ceramic QR code store data compared to regular storage?",
+      "options": [
+        "A few years",
+        "Hundreds or thousands of years",
+        "Only a day",
+        "Forever without any time limit"
+      ],
+      "correct_answer": "Hundreds or thousands of years"
+    },
+    {
+      "question": "What book recorded this achievement as a world record?",
+      "options": [
+        "Science Book",
+        "Guinness Book of Records",
+        "History Book",
+        "Math Book"
+      ],
+      "correct_answer": "Guinness Book of Records"
+    },
+    {
+      "question": "Does the ceramic QR code need energy to keep information safe?",
+      "options": [
+        "Yes, it needs electricity",
+        "No, it doesn't need any energy",
+        "Only sometimes",
+        "It needs sunlight"
+      ],
+      "correct_answer": "No, it doesn't need any energy"
+    }
+  ],
+  "background_read": [
+    "QR codes are like barcodes that you can scan with a phone to get information. Scientists are always trying to make things smaller to save space and energy. In this article, researchers made a super tiny QR code using strong materials to help store data for a long time, which is important because we have lots of digital information that needs to be kept safe for future generations."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at TU Wien and Cerabyte",
+    "WHAT: Created the world's smallest QR code using ceramic",
+    "WHERE: At TU Wien's research facilities",
+    "WHY: To store data for a very long time without needing energy"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Science and Technology",
+      "description": "This shows how scientists use new materials and tools to solve problems like data storage."
+    }
+  ],
+  "image_url": "/article_images/article_7b4f0fb785ac935d_0e3f38adf204.webp"
+}

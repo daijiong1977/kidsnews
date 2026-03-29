@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "a69558cb95fc21d0",
-      "title": "Protecting Endangered Birds Through Exclusion Zones",
-      "summary": "On the Isle of Man, Manx BirdLife has established an exclusion zone at Langness, a key coastal habitat, to safeguard endangered birds during their ground-nesting season from March to August. This initiative aims to reduce human disturbance, particularly for vulnerable species like the ringed plover, which nests directly on beaches and shingle, making its nests difficult to spot and easily disrupted by walkers, dogs, or other activities. Signs and temporary rope barriers have been installed in critical areas to alert the public and minimize interference. The ringed plover is classified as a schedule one protected species under Manx wildlife legislation, meaning it is illegal to disturb them at their nests. Allison Leonard of Manx BirdLife emphasizes the importance of this effort, noting that Langness is a premier birdwatching location with over 200 recorded bird species out of the island's 332. By raising awareness, the organization hopes to encourage public cooperation in preserving this vital habitat, ensuring it remains a sanctuary for birds and highlighting the broader responsibility to protect the island's unique wildlife.",
+      "id": "7b4f0fb785ac935d",
+      "title": "Breaking Records with a Microscopic QR Code for Long-Term Data Storage",
+      "summary": "Researchers from TU Wien and Cerabyte have developed the world's smallest QR code, measuring just 1.98 square micrometers, which is smaller than most bacteria and has been officially recognized by the Guinness Book of Records. This microscopic code, invisible to the naked eye and requiring an electron microscope for detection, represents a significant advancement in data storage technology. By engraving the QR code into a thin ceramic layer using focused ion beams, with each pixel at 49 nanometers, the team created a stable and readable structure that can preserve information for centuries or even millennia. Unlike conventional storage methods like magnetic drives or electronic systems, which degrade over a few years and need continuous power, ceramic-based storage is durable, energy-efficient, and can withstand extreme conditions. This approach allows for high-density storage, potentially fitting over 2 terabytes of data on an A4 sheet, and draws inspiration from ancient civilizations that used stone inscriptions for long-term preservation. The collaboration involved independent verification by the University of Vienna and leverages materials science expertise to address the short lifespan of modern digital media, offering a sustainable solution for future data archiving.",
+      "source": "Science Daily",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_7b4f0fb785ac935d_0e3f38adf204.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1ea1e2f7438a25dd",
+      "title": "Advancing Data Storage with 3D Light Holography",
+      "summary": "Researchers have created a holographic data storage technique that utilizes three dimensions of light—amplitude, phase, and polarization—to significantly increase data capacity and speed. Unlike traditional flat storage like hard drives, this method embeds information throughout a material's volume using laser light, allowing multiple overlapping patterns in the same space. The team, led by Xiaodi Tan from Fujian Normal University, applied tensor-based polarization holography to make polarization a reliable channel for extra data. They developed a 3D modulation encoding strategy that adjusts intensity and phase of polarization states, enabling a single device to encode all three light properties together. To decode the complex information, they used a convolutional neural network trained on diffraction images to reconstruct amplitude, phase, and polarization from intensity measurements. Published in Optica, this approach could lead to smaller data centers, more efficient archival storage, and enhanced data security through optical encryption. The research demonstrates a practical path toward high-capacity, high-throughput storage systems to address global data demands.",
+      "source": "Science Daily",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_1ea1e2f7438a25dd_9e495209c4e8.webp",
+      "category": "Science"
+    },
+    {
+      "id": "864760e5ac810efd",
+      "title": "Global Landmarks Participate in Earth Hour to Promote Environmental Awareness",
+      "summary": "On Saturday night, iconic global landmarks such as the Eiffel Tower in Paris and Sagrada Família Basilica in Barcelona participated in Earth Hour by switching off their lights for 60 minutes at 20:30 local time. This annual event, organized by the World Wide Fund for Nature, aims to raise awareness about environmental issues and encourage individuals worldwide to take action by turning off non-essential lights. Earth Hour originated in Sydney, Australia, in 2007 and has since grown into a global movement involving millions of people and numerous landmarks. The event highlights the importance of energy conservation and draws attention to broader environmental challenges like climate change. By symbolically darkening famous sites, Earth Hour serves as a reminder of the collective impact small actions can have in promoting sustainability and protecting our planet for future generations.",
       "source": "BBC Science",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_a69558cb95fc21d0_a11af55646c2.webp",
+      "time_ago": "14 hours ago",
+      "image_url": "/article_images/article_864760e5ac810efd_ee1d27a64bcb.webp",
       "category": "Science"
     },
     {
-      "id": "7b176ea926024e8b",
-      "title": "Reevaluating Human Origins: A Fossil Ape Discovery in Egypt",
-      "summary": "A recent study reports the discovery of a fossil ape named Masripithecus moghraensis in northern Egypt, dating to 17-18 million years ago. This finding challenges the long-held belief that the closest ancestors of modern apes originated primarily in East Africa. Researchers used a Bayesian tip-dating method to analyze the fossil, concluding that Masripithecus is a stem hominoid closely related to the lineage leading to all living apes, including humans. The fossil provides insights into ape diversity during the Miocene epoch when Afro-Arabia connected to Eurasia, allowing species migration. It suggests that modern apes may have originated in northern Afro-Arabia, the Levant, or the eastern Mediterranean, highlighting gaps in Africa's fossil record and the need for broader exploration. This discovery underscores how paleontological research can shift scientific paradigms and deepen our understanding of evolutionary history.",
-      "source": "Science Daily",
-      "time_ago": "9 hours ago",
-      "image_url": "/article_images/article_7b176ea926024e8b_e5b3301351fd.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7cc245527dd3c773",
-      "title": "Direct Video Evidence Reveals Rapid Fault Slip in Myanmar Earthquake",
-      "summary": "On March 28, 2025, a magnitude 7.7 earthquake struck central Myanmar along the Sagaing Fault, near Mandalay, making it one of the deadliest in the country's modern history. This event was a strike-slip earthquake, where two sections of Earth's crust moved horizontally past each other. Typically, researchers rely on seismic data from distant instruments, but in this case, rare CCTV footage captured the fault movement directly. Scientists at Kyoto University analyzed the video using pixel cross-correlation, a method to measure ground shifts frame by frame. They found that the fault slipped 2.5 meters sideways in just 1.3 seconds, reaching a top speed of 3.2 meters per second. While such displacement is common for strike-slip quakes, the brief duration confirmed a pulse-like rupture, where slip propagates quickly along the fault. Additionally, the analysis showed a slightly curved path of motion, challenging the assumption that fault movement is always straight. This study highlights the value of video monitoring in earthquake research, offering detailed insights that can improve understanding of earthquake physics and help estimate future shaking risks. The researchers plan to use physics-based models to further explore fault behavior based on this new data.",
-      "source": "Science Daily",
-      "time_ago": "11 hours ago",
-      "image_url": "/article_images/article_7cc245527dd3c773_6883536361aa.webp",
-      "category": "Science"
-    },
-    {
-      "id": "d8ed67d83c939dae",
-      "title": "Space Updates: NASA's Strategic Shift and Global Launch Activities",
-      "summary": "This article covers recent developments in space exploration and rocket launches. NASA has announced a significant change in its exploration strategy, pausing work on the Gateway lunar space station to prioritize building a surface base on the Moon. This shift aligns with broader space policy goals and involves repurposing existing hardware, such as the Power and Propulsion Element, for a nuclear-electric propulsion demonstration named SR-1 Freedom, scheduled before 2028. Nuclear-powered rockets, including nuclear-thermal and nuclear-electric types, offer greater efficiency for deep-space missions, though neither has been demonstrated in space yet. Concurrently, Isar Aerospace, a European startup, scrubbed the launch of its Spectrum rocket due to a safety violation by an unauthorized boat, delaying its second attempt to orbit small CubeSats. In the US, a mysterious missile launch from Cape Canaveral Space Force Station, likely a hypersonic weapon test similar to previous ones in 2024 and 2025, occurred without public announcement. Additionally, Russia is advancing its own satellite constellation projects. These events highlight ongoing efforts in space technology, commercial launch ventures, and military testing, reflecting a dynamic global space sector.",
+      "id": "1648c9962d67dccc",
+      "title": "Reevaluating the Oxygen Constraint Hypothesis for Giant Insects",
+      "summary": "For decades, scientists believed that giant insects from the late Palaeozoic era, such as Meganeuropsis permiana with a 70-centimeter wingspan, became extinct due to declining atmospheric oxygen levels. This oxygen constraint hypothesis suggested that insects' tracheal breathing system, which relies on diffusion through tiny tubes called tracheoles, was inefficient for large bodies. As oxygen dropped from peak levels of 30% to today's 21%, it was thought that bigger insects couldn't get enough oxygen to their muscles, limiting their size. However, a recent study led by Edward Snelling challenges this idea. The research team examined 44 insect species across a wide size range, from 0.334 milligrams to 7.74 grams, using transmission electron microscopes to analyze tracheolar volume density in flight muscles. They found that the space occupied by tracheoles increased only slightly with body size, from 0.47% in small insects to 0.83% in larger ones, over a 10,000-fold mass increase. This minimal change indicates that the tracheal system may not be a major constraint, suggesting other factors like predation or climate change could explain the disappearance of giant insects. The study, published in Nature, calls for a reevaluation of long-held assumptions in evolutionary biology.",
       "source": "Ars Science",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_d8ed67d83c939dae_9d43c6edc632.webp",
+      "image_url": "/article_images/article_1648c9962d67dccc_7c189f889e24.webp",
       "category": "Science"
     },
     {
-      "id": "f035463692901fb7",
-      "title": "Gut Bacteria Use Protein Injection to Regulate Immune Responses",
-      "summary": "Researchers have discovered that certain gut bacteria possess type III secretion systems, which are syringe-like structures allowing them to inject proteins directly into human cells. This active manipulation influences immune system behavior, particularly targeting pathways like NF-κB and cytokine responses. The study, led by Helmholtz Munich with international collaborators, mapped over a thousand protein interactions, revealing that bacterial proteins often affect immune regulation and metabolism. This finding challenges the previous belief that such systems were exclusive to harmful bacteria like Salmonella, showing that even commensal bacteria can actively engage with human cells. The research also links these bacterial proteins to Crohn's disease, as genes for them are more common in affected individuals, suggesting a role in intestinal inflammation. By moving beyond correlations to identify molecular mechanisms, this work provides new insights into microbiome-immune interactions and potential therapeutic targets.",
-      "source": "Science Daily",
+      "id": "eda27af76d0cd342",
+      "title": "Testing Indefinite Causal Order: Quantum Experiments Challenge Causality",
+      "summary": "Recent research in quantum mechanics explores the concept of \"indefinite causal order,\" which questions whether the sequence of events is fixed at the quantum level. In classical physics, causality dictates that causes precede effects, but quantum experiments suggest particles like photons can exist in superpositions where temporal order is indeterminate. A key experiment by a team at the University of Vienna used entangled photons to investigate this. They designed a system where one photon's path through two manipulations, A and B, depended on its polarization, creating a superposition of orders. The other photon's polarization measurement revealed the path taken. By applying a Bell-like inequality adapted for causal order, the results showed a significant deviation—18 standard deviations—from expectations if a definite order existed, indicating superposition of temporal orders. This builds on earlier work that hinted at indefinite causal order but lacked generalization. The experiment addresses loopholes by using Bell's inequalities, which test for hidden variables, though some limitations remain. It suggests that indefinite causal order may be a fundamental feature of quantum mechanics, challenging our understanding of time and causality. However, like early entanglement studies, it faces experimental constraints that future research aims to resolve.",
+      "source": "Ars Science",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_f035463692901fb7_cfc2b9aca0de.webp",
+      "image_url": "/article_images/article_eda27af76d0cd342_c1827be3a153.webp",
       "category": "Science"
     },
     {
-      "id": "bcef38596239dfcc",
-      "title": "Unlocking Alien Worlds: How Plasma Tori Reveal Space Weather on Distant Stars",
-      "summary": "Scientists are exploring how stars, particularly M dwarf stars, influence the habitability of their planets through space weather. M dwarfs are smaller, cooler, and dimmer than the Sun, yet they commonly host rocky Earth-sized planets. However, these planets often face challenges like extreme heat, unstable atmospheres, and intense radiation from stellar flares, making them potentially uninhabitable. Researcher Luke Bouma, in collaboration with Moira Jardine, investigated a new method to study space weather by focusing on complex periodic variables—young M dwarfs that spin rapidly and exhibit repeated dimming. Initially, it was unclear whether this dimming resulted from dark spots or orbiting material. Through spectroscopic analysis, the team discovered that the dimming is caused by large clouds of cool plasma trapped within the star's magnetosphere, forming a torus-shaped structure. This plasma torus acts as a natural space weather station, providing insights into the star's magnetic field and particle environment. Bouma estimates that at least 10% of M dwarfs may have such structures during their youth, offering astronomers a tool to better understand stellar influences on planetary conditions. This discovery could help determine if planets around M dwarfs are hospitable to life, highlighting the importance of space weather in astrobiology research.",
+      "id": "dd96e15c7240070a",
+      "title": "Unraveling the Crab Pulsar's Zebra Stripes: A Breakthrough in Astrophysics",
+      "summary": "For two decades, astronomers were baffled by the Crab Pulsar's unique radio wave pattern, characterized by bright, evenly spaced stripes with dark gaps, unlike any other pulsar. In 2024, theoretical astrophysicist Mikhail Medvedev from the University of Kansas proposed a solution, and through refined analysis, he identified gravitational lensing as the key factor. Gravity bends light in curved spacetime, acting as a lens, and when combined with plasma effects, it creates the distinct zebra stripes. The Crab Pulsar, located in the Crab Nebula within the Milky Way's Perseus Arm about 6,500 light-years away, emits this unusual signal due to the interplay of gravity and plasma. This discovery marks the first observed instance of both forces shaping a cosmic signal, advancing our understanding of neutron stars and supernova remnants. Medvedev presented these findings at the American Physical Society's 2026 Global Physics Summit and published them in the Journal of Plasma Physics, highlighting the importance of interdisciplinary research in astrophysics.",
       "source": "Science Daily",
       "time_ago": "1 day ago",
-      "image_url": "/article_images/article_bcef38596239dfcc_58b4a42839c6.webp",
+      "image_url": "/article_images/article_dd96e15c7240070a_8f5983064013.webp",
       "category": "Science"
     }
   ]
