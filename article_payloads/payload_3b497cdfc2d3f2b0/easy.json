@@ -1,0 +1,108 @@
+{
+  "title": "NASA's Moon Mission and Weather Check",
+  "summary": "NASA is getting ready to launch a special rocket called Artemis II to send astronauts around the Moon for the first time in over 50 years. The launch is planned from Florida at a place called Cape Canaveral, but the weather needs to be just right. If there are clouds, rain, strong winds, or lightning, NASA might have to delay the launch to keep everyone safe. A weather officer named Mark Burger is watching the sky closely to decide if it's safe to go. NASA says there's an 80% chance the weather will be good during the two-hour launch window. If not, they can try again on other days in early April. This mission is exciting because it helps us learn more about space!",
+  "keywords": [
+    {
+      "term": "NASA",
+      "explanation": "the space agency in the United States that explores space"
+    },
+    {
+      "term": "Artemis II",
+      "explanation": "a rocket and spacecraft that will carry astronauts around the Moon"
+    },
+    {
+      "term": "launch",
+      "explanation": "when a rocket takes off into space"
+    },
+    {
+      "term": "weather",
+      "explanation": "the conditions in the sky like clouds, rain, or wind"
+    },
+    {
+      "term": "Cape Canaveral",
+      "explanation": "a place in Florida where rockets are launched"
+    },
+    {
+      "term": "astronauts",
+      "explanation": "people who travel and work in space"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is NASA planning to launch around the Moon?",
+      "options": [
+        "A rocket called Artemis II",
+        "A new satellite",
+        "A weather balloon",
+        "A space station"
+      ],
+      "correct_answer": "A rocket called Artemis II"
+    },
+    {
+      "question": "Where is the Artemis II launch happening?",
+      "options": [
+        "Cape Canaveral in Florida",
+        "New York City",
+        "Texas",
+        "California"
+      ],
+      "correct_answer": "Cape Canaveral in Florida"
+    },
+    {
+      "question": "Why might NASA delay the launch?",
+      "options": [
+        "Bad weather like clouds or lightning",
+        "Not enough fuel",
+        "The astronauts are not ready",
+        "The rocket is too big"
+      ],
+      "correct_answer": "Bad weather like clouds or lightning"
+    },
+    {
+      "question": "Who is checking the weather for the launch?",
+      "options": [
+        "Mark Burger, a weather officer",
+        "The astronauts",
+        "The President",
+        "A TV weather reporter"
+      ],
+      "correct_answer": "Mark Burger, a weather officer"
+    },
+    {
+      "question": "What percentage chance does NASA say the weather is good for launch?",
+      "options": [
+        "80%",
+        "50%",
+        "100%",
+        "20%"
+      ],
+      "correct_answer": "80%"
+    },
+    {
+      "question": "If the launch is delayed, when else can NASA try?",
+      "options": [
+        "In early April",
+        "Next year",
+        "In summer",
+        "In winter"
+      ],
+      "correct_answer": "In early April"
+    }
+  ],
+  "background_read": [
+    "NASA's Artemis II mission is part of a big plan to send people back to the Moon and eventually to Mars. This is the first crewed mission to go around the Moon since the Apollo missions over 50 years ago. Rockets need safe weather to launch because things like lightning can be dangerous. Florida often has storms in spring, so NASA has special weather officers to watch the sky. Learning about space helps scientists understand our universe better."
+  ],
+  "Article_Structure": [
+    "WHO: NASA and weather officer Mark Burger",
+    "WHAT: Planning to launch Artemis II rocket with astronauts around the Moon",
+    "WHERE: Cape Canaveral in Florida",
+    "WHY: To explore space, but weather like clouds or lightning might delay it for safety"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Safety first",
+      "description": "NASA prioritizes keeping astronauts safe by checking weather conditions before launch."
+    }
+  ],
+  "image_url": "/article_images/article_3b497cdfc2d3f2b0_ac41b72a727d.webp"
+}
