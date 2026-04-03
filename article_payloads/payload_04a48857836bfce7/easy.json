@@ -1,0 +1,104 @@
+{
+  "title": "Super-Fast Light Internet for Kids",
+  "summary": "Scientists have made a new way to connect devices to the internet using light instead of radio waves. This light system is very fast, reaching 360 gigabits per second, which is much quicker than Wi-Fi. It uses tiny lasers on a small chip to send data through the air. This helps in places like homes and schools where many people need fast internet at the same time. The light beams are shaped so they don't interfere with each other, making connections reliable. This new technology uses half the energy of Wi-Fi, which is better for the environment. It could be used in the future for things like video calls and virtual reality without slowing down.",
+  "keywords": [
+    {
+      "term": "light",
+      "explanation": "a form of energy that we can see, used here to send internet signals"
+    },
+    {
+      "term": "lasers",
+      "explanation": "tiny devices that make a strong beam of light to send data"
+    },
+    {
+      "term": "chip",
+      "explanation": "a small piece of material with electronic parts, holding the lasers"
+    },
+    {
+      "term": "energy",
+      "explanation": "power used to run devices, this system uses less than Wi-Fi"
+    },
+    {
+      "term": "interference",
+      "explanation": "when signals mix up and cause problems, avoided here by shaping light"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the new system use instead of radio waves to send data?",
+      "options": [
+        "Light",
+        "Sound",
+        "Electricity",
+        "Water"
+      ],
+      "correct_answer": "Light"
+    },
+    {
+      "question": "How fast is the new light system in gigabits per second?",
+      "options": [
+        "360",
+        "100",
+        "50",
+        "200"
+      ],
+      "correct_answer": "360"
+    },
+    {
+      "question": "What are the tiny devices on the chip that send light?",
+      "options": [
+        "Lasers",
+        "Bulbs",
+        "Screens",
+        "Batteries"
+      ],
+      "correct_answer": "Lasers"
+    },
+    {
+      "question": "Where is this system especially useful?",
+      "options": [
+        "Homes and schools",
+        "Outdoors only",
+        "Underwater",
+        "In cars"
+      ],
+      "correct_answer": "Homes and schools"
+    },
+    {
+      "question": "How much energy does it use compared to Wi-Fi?",
+      "options": [
+        "Half",
+        "Double",
+        "Same",
+        "None"
+      ],
+      "correct_answer": "Half"
+    },
+    {
+      "question": "What problem does shaping the light beams help avoid?",
+      "options": [
+        "Interference",
+        "Breaking",
+        "Getting lost",
+        "Being too slow"
+      ],
+      "correct_answer": "Interference"
+    }
+  ],
+  "background_read": [
+    "Wireless internet lets us connect devices without wires. Most systems use radio waves, like Wi-Fi, but they can get crowded and slow. Light is a different way to send data that is faster and uses less energy. Scientists are working on new technologies to make our internet better for things like watching videos and playing games."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists and researchers",
+    "WHAT: A new light-based internet system that is fast and energy-efficient",
+    "WHERE: Indoor places like homes, schools, and offices",
+    "WHY: To provide better internet connections with less energy use"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technology improvement",
+      "description": "This system makes internet faster and more efficient for everyone."
+    }
+  ],
+  "image_url": "/article_images/article_04a48857836bfce7_fcd2598b0c53.webp"
+}
