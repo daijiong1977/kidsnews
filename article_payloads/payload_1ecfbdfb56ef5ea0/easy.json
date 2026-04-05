@@ -1,0 +1,104 @@
+{
+  "title": "A Protein That Makes Brains Age and How to Fix It",
+  "summary": "Scientists found a protein called FTL1 that makes brains age faster. In older mice, this protein was higher, and their brains had fewer connections, making it harder for them to learn and remember things. When scientists increased FTL1 in young mice, their brains started acting old too. But when they lowered FTL1 in old mice, the brain connections improved, and the mice did better on memory tests. This protein also slows down how brain cells use energy. The research gives hope for new treatments to help keep brains healthy as we age.",
+  "keywords": [
+    {
+      "term": "protein",
+      "explanation": "a tiny part in the body that helps cells work"
+    },
+    {
+      "term": "FTL1",
+      "explanation": "a protein that makes brains age"
+    },
+    {
+      "term": "connections",
+      "explanation": "links between brain cells that help us think"
+    },
+    {
+      "term": "memory",
+      "explanation": "the ability to remember things"
+    },
+    {
+      "term": "mice",
+      "explanation": "small animals used in science experiments"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the protein that drives brain aging?",
+      "options": [
+        "FTL1",
+        "ABC",
+        "XYZ",
+        "123"
+      ],
+      "correct_answer": "FTL1"
+    },
+    {
+      "question": "What happened when scientists increased FTL1 in young mice?",
+      "options": [
+        "Their brains acted older",
+        "They got smarter",
+        "Nothing changed",
+        "They grew bigger"
+      ],
+      "correct_answer": "Their brains acted older"
+    },
+    {
+      "question": "How did lowering FTL1 affect old mice?",
+      "options": [
+        "Improved brain connections and memory",
+        "Made them sleep more",
+        "Had no effect",
+        "Made them younger"
+      ],
+      "correct_answer": "Improved brain connections and memory"
+    },
+    {
+      "question": "What part of the brain does FTL1 affect?",
+      "options": [
+        "Hippocampus",
+        "Heart",
+        "Stomach",
+        "Lungs"
+      ],
+      "correct_answer": "Hippocampus"
+    },
+    {
+      "question": "What does FTL1 do to brain cell energy use?",
+      "options": [
+        "Slows it down",
+        "Speeds it up",
+        "Stops it",
+        "Changes color"
+      ],
+      "correct_answer": "Slows it down"
+    },
+    {
+      "question": "Why is this research important?",
+      "options": [
+        "It could lead to treatments for brain aging",
+        "It makes mice famous",
+        "It stops all aging",
+        "It is just for fun"
+      ],
+      "correct_answer": "It could lead to treatments for brain aging"
+    }
+  ],
+  "background_read": [
+    "Scientists study how brains age by looking at mice. They found a protein called FTL1 that increases with age and harms brain connections and memory. By changing FTL1 levels, they saw improvements, which might help people stay sharp as they get older."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at UC San Francisco",
+    "WHAT: Found a protein called FTL1 that drives brain aging and learned how to stop it",
+    "WHERE: In the hippocampus of mice brains",
+    "WHY: To develop treatments for age-related memory decline"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific Hope",
+      "description": "This discovery offers hope for new therapies to combat brain aging and improve cognitive health in older adults."
+    }
+  ],
+  "image_url": "/article_images/article_1ecfbdfb56ef5ea0_5c4839c885c1.webp"
+}
