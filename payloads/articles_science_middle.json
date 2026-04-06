@@ -1,11 +1,47 @@
 {
   "articles": [
     {
+      "id": "e7da44633830574f",
+      "title": "Gray Whale Death Highlights Migration Struggles in Washington",
+      "summary": "A juvenile gray whale, nicknamed Willapa Willy, was found dead after swimming 20 miles inland up the Willapa River in Washington state. The Cascadia Research Collective reported that the whale, though thin, showed no injuries and initially behaved normally. Scientists suspect hunger as a likely cause, linking it to broader issues gray whales face during their spring migrations. These whales travel from breeding grounds to feeding areas in the Arctic, depleting their energy reserves. In recent years, reduced food availability in the northern Bering and Chukchi seas has led to malnutrition and increased mortality. Additional threats include vessel strikes and entanglement in fishing gear. Recent deaths of two adult gray whales in the same region, both malnourished with one showing trauma from a ship strike, underscore the crisis. NOAA Fisheries data indicates a population decline to about 13,000, the lowest since the 1970s, highlighting urgent conservation needs for this ecotourism icon.",
+      "source": "BBC Science",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_e7da44633830574f_28651cd39851.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9029d48c6ee689a6",
+      "title": "Breakthrough in AI Efficiency: Neuro-Symbolic Systems Reduce Energy Use",
+      "summary": "Artificial intelligence (AI) systems in the United States consume significant electricity, with AI and data centers using about 415 terawatt hours in 2024, accounting for over 10% of national electricity production. This high energy demand is projected to double by 2030, raising sustainability concerns. In response, researchers at a School of Engineering have developed a proof-of-concept neuro-symbolic AI system that could reduce energy use by up to 100 times while enhancing performance. This hybrid approach combines neural networks with symbolic reasoning, mimicking human problem-solving by breaking tasks into steps. The research focuses on visual-language-action (VLA) models used in robotics, which extend large language models (LLMs) by incorporating vision and physical movement. Unlike conventional VLA systems that rely on data-heavy trial-and-error learning, neuro-symbolic AI uses rules and abstract concepts like shape and balance, improving accuracy and efficiency. For instance, it helps robots stack blocks more effectively by reducing errors from shadows or misplacement. The findings will be presented at the International Conference of Robotics and Automation in Vienna, highlighting a potential solution to AI's energy and performance challenges.",
+      "source": "Science Daily",
+      "time_ago": "11 hours ago",
+      "image_url": "/article_images/article_9029d48c6ee689a6_e5ff143f7e91.webp",
+      "category": "Science"
+    },
+    {
+      "id": "daaadc1569107843",
+      "title": "Uncovering Hidden Patterns in Global Languages",
+      "summary": "An international research team analyzed over 1,700 languages using Grambank, the largest database of grammatical features, to test proposed linguistic universals. They found that approximately one-third of these universals are supported by strong statistical evidence, revealing that languages do not evolve randomly. Instead, shared cognitive and communicative pressures guide language change, leading to recurring patterns such as word order preferences and hierarchical structures. The study used advanced Bayesian spatio-phylogenetic analyses to account for language ancestry and geography, providing more rigorous results than previous methods. This research highlights how human language is constrained by underlying forces, helping scientists focus on the true universals that shape communication across diverse cultures. By identifying robust patterns, it advances our understanding of language evolution and the commonalities that unite different linguistic systems.",
+      "source": "Science Daily",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_daaadc1569107843_a11ae8bc166b.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f7109831f44e8f64",
+      "title": "Artemis II's Lunar Images: Balancing Public Engagement and Scientific Merit",
+      "summary": "NASA's Artemis II mission is generating widespread attention through the release of high-definition images of the Moon and Earth, captured by astronauts using a mix of standard digital cameras, GoPros, and smartphones. These photos, shared on platforms like Flickr and social media, attract millions of likes and showcase celestial bodies from unique perspectives in space. The mission involves four astronauts traveling farther from Earth than any human since 1972, with NASA live-streaming the 10-day journey and providing regular video updates to garner public support. A notable image, 'Hello, World,' taken by Commander Reid Wiseman, depicts Earth with auroras and Venus during a solar eclipse, though it offers no new scientific insights. The article raises a critical question: are these images primarily for public engagement and inspiration, akin to holiday photos, or do they hold scientific value through testing equipment and documenting space conditions? NASA emphasizes the use of 32 cameras on the Orion spacecraft, including older models like the Nikon D5, highlighting advancements in space photography but also sparking debate about their practical utility beyond aesthetics.",
+      "source": "BBC Science",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_f7109831f44e8f64_c4fe84201ce8.webp",
+      "category": "Science"
+    },
+    {
       "id": "1ecfbdfb56ef5ea0",
       "title": "Uncovering FTL1: The Protein Behind Brain Aging and Potential Reversal",
       "summary": "Researchers at UC San Francisco identified a protein, FTL1, as a key driver of brain aging in the hippocampus, which is crucial for learning and memory. By studying mice, they observed that older mice had elevated FTL1 levels, fewer neuronal connections, and poorer cognitive performance. Experiments showed that increasing FTL1 in young mice mimicked aging effects, while reducing it in older mice reversed impairments, enhancing brain connections and memory test results. Additionally, FTL1 was found to slow cellular metabolism in the hippocampus, but boosting metabolism with a compound prevented negative effects. These findings suggest that targeting FTL1 could lead to therapies for age-related cognitive decline, offering a promising approach beyond mere symptom delay.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_1ecfbdfb56ef5ea0_5c4839c885c1.webp",
       "category": "Science"
     },
@@ -14,44 +50,8 @@
       "title": "Trapping Light in Nanoscale Layers for Advanced Technology",
       "summary": "Researchers from Polish institutions, including the University of Warsaw and Łódź University of Technology, have developed a structure that traps infrared light in a layer only 40 nanometers thick, over a thousand times thinner than a human hair. They used a subwavelength grating made from molybdenum diselenide (MoSe2), a material with a high refractive index that slows light significantly, allowing efficient confinement in ultra-thin dimensions. This advancement addresses a key challenge in photonics: controlling light at scales smaller than its wavelength, which is crucial as electronics reach limits and light-based devices offer faster, more compact alternatives. The grating acts as a near-perfect mirror, concentrating infrared light and enabling third harmonic generation to convert it into visible blue light with high efficiency. Additionally, the team employed molecular beam epitaxy to produce large, uniform MoSe2 films, overcoming limitations of previous exfoliation methods. This work paves the way for practical photonic applications, such as improved sensors and communication systems, by demonstrating that thin layers can manipulate light effectively without requiring bulky structures.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_fa4a2b7ad3fdabac_0a50d80ddd49.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0c8317082f46d2e4",
-      "title": "How Martian Dust Storms Generate Electricity and Alter Chemistry",
-      "summary": "Mars, often seen as a barren world, is actually dynamic due to frequent dust storms and dust devils that generate electrical energy through particle collisions. These events create static electricity, leading to electrostatic discharges in the thin Martian atmosphere, which trigger electrochemical reactions. Planetary scientist Alian Wang has conducted lab simulations using chambers like PEACh and SCHILGAR to replicate Martian conditions, supported by NASA. Her research shows that these discharges produce chemicals such as volatile chlorine species, carbonates, and perchlorates, influencing Mars' chlorine cycle. By analyzing isotopes of chlorine, oxygen, and carbon, Wang's team found depletion of heavier isotopes, indicating dust-induced electrochemistry is a major process shaping Mars' surface and atmosphere. This work reveals that dust storms are not just physical phenomena but key drivers of chemical changes on the planet.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_0c8317082f46d2e4_3b788807bb01.webp",
-      "category": "Science"
-    },
-    {
-      "id": "277bef8593efc15f",
-      "title": "Unearthing a Roman Sanctuary in Frankfurt: Insights into Ancient Rituals",
-      "summary": "A significant Roman sanctuary has been discovered in Frankfurt, Germany, during excavations for a new school construction in the Nordweststadt district. The site, dating back to the Roman era, includes eleven stone buildings arranged in an unusual layout with no known parallels in Germania or Gaul, along with approximately 70 shafts and ten pits used for ritual depositions. Archaeologists uncovered over 5,000 fragments of painted wall plaster and bronze fittings, indicating richly decorated structures. The pits contained ceramic vessels and abundant plant and animal remains, such as fish and birds, believed to be remnants of ritual meals and offerings. Additionally, 254 Roman coins and more than 70 garment clasps were found, typical of religious offerings. Intriguingly, evidence suggests possible human sacrifice, which would be rare for Roman practices. Funded by over €1 million from the German and Swiss research foundations, a three-year interdisciplinary project led by institutions like the Archaeological Museum Frankfurt and Goethe University will analyze the site. This discovery highlights the intersection of urban development and archaeological research, offering insights into Roman cult dynamics and enhancing Frankfurt's role as a research hub.",
-      "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_277bef8593efc15f_b549162503a8.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3d371088b9e78805",
-      "title": "Trump's NASA Budget Cuts Amid Lunar Missions Face Congressional Pushback",
-      "summary": "President Trump has proposed a 23 percent reduction in NASA's budget for fiscal year 2027, shortly after the agency launched a crewed lunar mission. This cut, totaling $5.6 billion, aims to redirect funds toward prioritizing human Moon landings and establishing a lunar base, while slashing science programs by nearly half. However, Congress, which rejected similar cuts last year, is expected to oppose this proposal again, as it involves a complex budget process requiring approval from both houses. NASA Administrator Jared Isaacman supports the budget's focus on deep space exploration and commercial partnerships, but critics like The Planetary Society label the cuts as 'draconian,' warning they threaten U.S. leadership in space science. The budget also suggests replacing the Space Launch System with commercial rockets in the future, though current mandates keep SLS in use for upcoming Artemis missions.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_3d371088b9e78805_17c1b42fde60.webp",
-      "category": "Science"
-    },
-    {
-      "id": "2122b1476fac2022",
-      "title": "Ancient Dice Reveal Native American Understanding of Probability",
-      "summary": "A recent study reveals that Native Americans have been using dice in games of chance for over 12,000 years, predating Old World dice by millennia. Researcher Robert Madden, a graduate student at Colorado State University, investigated Native American dice, which are typically two-sided objects known as 'binary lots.' These dice were common across many tribes and used in structured games. Madden developed four diagnostic criteria to identify dice: they must be two-sided, have distinguishable sides (often through color or markings), fall into specific shape categories (like flat or convex-concave), and be hand-sized for casting. By applying these criteria to archaeological artifacts, Madden identified 565 dice from 45 sites, with the oldest dating back to the end of the last Ice Age in Wyoming, Colorado, and New Mexico. This challenges the traditional view that dice and probability concepts originated in the Old World, suggesting early Native Americans intentionally used random outcomes in rule-based ways. The study relies on historical records, such as Robert Culin's 1907 report on Native American games, and archaeological evidence to support its conclusions.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_2122b1476fac2022_79044dc1bf32.webp",
       "category": "Science"
     }
   ]

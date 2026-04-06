@@ -1,11 +1,47 @@
 {
   "articles": [
     {
+      "id": "e7da44633830574f",
+      "title": "A Young Whale Gets Lost and Dies in a River",
+      "summary": "A young gray whale named Willapa Willy swam far up a river in Washington state and sadly died. Scientists think it might have been hungry because it was thin. Gray whales travel long distances to find food in the Arctic, but sometimes they get lost or can't find enough to eat. This whale was first seen in the Willapa River and seemed okay, but it didn't swim back to the ocean. Other gray whales have also died recently, showing they are facing problems like not having enough food and getting hurt by ships. People love watching these big whales, but they need help to stay safe.",
+      "source": "BBC Science",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_e7da44633830574f_28651cd39851.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9029d48c6ee689a6",
+      "title": "A New AI That Saves Energy and Works Better",
+      "summary": "Artificial intelligence (AI) uses a lot of electricity in the United States, which is not good for the environment. Scientists have made a new type of AI that can use 100 times less energy while doing tasks better. This AI is called neuro-symbolic AI, and it helps robots see, understand, and act in the real world. For example, it can help a robot stack blocks without making mistakes. The new AI combines two ways of thinking: one that learns from data and one that uses rules, like how people solve problems. This makes robots faster and more accurate. The research will be shared at a big conference in Vienna. This breakthrough is important because it helps save energy and makes AI smarter for robots.",
+      "source": "Science Daily",
+      "time_ago": "11 hours ago",
+      "image_url": "/article_images/article_9029d48c6ee689a6_e5ff143f7e91.webp",
+      "category": "Science"
+    },
+    {
+      "id": "daaadc1569107843",
+      "title": "Language Patterns Around the World",
+      "summary": "Scientists studied over 1,700 languages to find hidden patterns in how people speak. They discovered that about one-third of common language rules are strongly supported by evidence. Languages do not change randomly; instead, they follow certain patterns because of how our brains work and how we communicate. For example, the order of words in sentences, like verbs and objects, tends to be similar in many languages. This research helps us understand why languages around the world share some features, even if they are very different. It shows that human language is shaped by shared pressures, making it easier for people to learn and use language.",
+      "source": "Science Daily",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_daaadc1569107843_a11ae8bc166b.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f7109831f44e8f64",
+      "title": "NASA's Amazing Moon and Earth Photos: Fun or Science?",
+      "summary": "NASA is sharing beautiful pictures of the Moon and Earth taken by astronauts on the Artemis II mission. These photos show the two bodies from space in high quality and get lots of likes online. Four astronauts are on a journey far from Earth, and NASA is live-streaming their trip with video updates. They use old cameras, GoPros, and smartphones to take the pictures. One famous photo called 'Hello, World' shows Earth with auroras and Venus, but it doesn't teach new science. People wonder if these photos are just for fun like holiday pictures or if they help scientists learn something important about space.",
+      "source": "BBC Science",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_f7109831f44e8f64_c4fe84201ce8.webp",
+      "category": "Science"
+    },
+    {
       "id": "1ecfbdfb56ef5ea0",
       "title": "A Protein That Makes Brains Age and How to Fix It",
       "summary": "Scientists found a protein called FTL1 that makes brains age faster. In older mice, this protein was higher, and their brains had fewer connections, making it harder for them to learn and remember things. When scientists increased FTL1 in young mice, their brains started acting old too. But when they lowered FTL1 in old mice, the brain connections improved, and the mice did better on memory tests. This protein also slows down how brain cells use energy. The research gives hope for new treatments to help keep brains healthy as we age.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_1ecfbdfb56ef5ea0_5c4839c885c1.webp",
       "category": "Science"
     },
@@ -14,44 +50,8 @@
       "title": "Scientists Trap Light in a Super Thin Layer",
       "summary": "Scientists from Poland have made a very thin layer that can trap light. The layer is only 40 nanometers thick, which is much thinner than a human hair. They used a special material called molybdenum diselenide to build tiny strips called a grating. This grating acts like a mirror to hold infrared light inside. Trapping light in small spaces is important for making faster and smaller devices, like computers and phones, because light can carry information quickly. The scientists also found that this material can change infrared light into blue light, which is useful for new technologies. They made the layer big and uniform using a method called molecular beam epitaxy, so it can be used in real devices. This discovery helps advance photonics, which uses light instead of electricity in technology.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_fa4a2b7ad3fdabac_0a50d80ddd49.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0c8317082f46d2e4",
-      "title": "Electric Dust Storms Change Mars",
-      "summary": "Mars is a dusty planet with big storms that make electricity. When dust particles rub together in storms, they create sparks like static electricity. These sparks cause chemical reactions that change the air and ground on Mars. Scientists like Alian Wang study this by making Mars-like conditions in labs. They found that these electric dust storms produce special chemicals like chlorine compounds. This helps explain why Mars looks the way it does today, with its red color and thin air. The electricity from dust is a big part of how Mars works, even though it seems quiet.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_0c8317082f46d2e4_3b788807bb01.webp",
-      "category": "Science"
-    },
-    {
-      "id": "277bef8593efc15f",
-      "title": "Ancient Roman Temple Found Under a School in Frankfurt",
-      "summary": "In Frankfurt, Germany, archaeologists found an old Roman temple while building a new school. This temple is very special because it was hidden underground for a long time. It has stone buildings, pits, and shafts where people long ago left offerings like pottery, coins, and animal bones. Scientists think these were gifts to gods during rituals. They also found clues that might mean people were sacrificed there, which is very unusual for Roman times. A big team of experts from museums and universities will study the site for three years with over one million euros in funding. This discovery helps us learn about Roman life and religion in Germany. The temple shows how the past and future connect, as it was found during school construction.",
-      "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_277bef8593efc15f_b549162503a8.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3d371088b9e78805",
-      "title": "President Trump Wants to Cut NASA's Money While Astronauts Go to the Moon",
-      "summary": "President Trump has suggested a big cut to NASA's budget, which is the money the space agency uses for its projects. This happened just after NASA sent astronauts to the Moon for the first time in over 50 years. The cut would reduce NASA's money by 23 percent, meaning they would have less to spend. However, Congress, which is the group that makes laws about money, will probably say no to this cut, like they did last year. NASA's leader, Jared Isaacman, says the budget focuses on landing people on the Moon and building a base there, but it might mean less money for science programs. Some people, like The Planetary Society, think these cuts are too harsh and could hurt America's space leadership.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_3d371088b9e78805_17c1b42fde60.webp",
-      "category": "Science"
-    },
-    {
-      "id": "2122b1476fac2022",
-      "title": "Ice Age Dice Show Native Americans Played Games Long Ago",
-      "summary": "A long time ago, during the Ice Age, Native Americans made dice to play games of chance. These dice were simple with only two sides, not six like today's dice. They were used for fun and to make decisions in games. A researcher named Robert Madden studied old dice found by archaeologists. He found that Native Americans have been using dice for over 12,000 years, which is much earlier than people in other parts of the world. Madden looked at many dice from different tribes and places. He made rules to tell if an old object is a dice. The dice had to be two-sided, easy to tell apart, a certain shape, and small enough to hold. This discovery shows that Native Americans understood how to use random outcomes in games long before others.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_2122b1476fac2022_79044dc1bf32.webp",
       "category": "Science"
     }
   ]

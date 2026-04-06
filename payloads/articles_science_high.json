@@ -1,11 +1,47 @@
 {
   "articles": [
     {
+      "id": "e7da44633830574f",
+      "title": "Ecological Crisis Unveiled: Juvenile Gray Whale Mortality in Willapa River Reflects Broader Arctic Feeding Disruptions",
+      "summary": "The mortality of a juvenile gray whale, designated Willapa Willy, after traversing 20 miles inland in Washington's Willapa River, underscores a significant ecological crisis. Reported by the Cascadia Research Collective, the whale exhibited emaciation without apparent injuries, suggesting starvation as a proximate cause. This incident is contextualized within the species' arduous spring migration from breeding to Arctic feeding grounds, where depleted energy reserves necessitate successful foraging. Scientific analysis indicates reduced prey availability in the northern Bering and Chukchi seas, exacerbating nutritional stress. Concurrent threats, including vessel strikes and entanglement in fishing gear, compound mortality risks, as evidenced by recent necropsies of two malnourished adult whales with trauma consistent with ship collisions. NOAA Fisheries data reveals a precipitous population decline to approximately 13,000 individuals, the nadir since the 1970s, signaling urgent conservation imperatives. The species' role in ecotourism further amplifies the socioeconomic implications of its decline, necessitating integrated management strategies to mitigate anthropogenic impacts and climate-driven food web alterations.",
+      "source": "BBC Science",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_e7da44633830574f_28651cd39851.webp",
+      "category": "Science"
+    },
+    {
+      "id": "9029d48c6ee689a6",
+      "title": "Advancing AI Sustainability: Neuro-Symbolic Systems as a Paradigm Shift in Energy Efficiency and Robotic Accuracy",
+      "summary": "The rapid expansion of artificial intelligence (AI) in the United States has led to substantial electricity consumption, with AI systems and data centers utilizing approximately 415 terawatt hours in 2024, constituting over 10% of national electricity production and projected to double by 2030. This surge raises critical sustainability issues, prompting researchers at a School of Engineering to innovate a proof-of-concept neuro-symbolic AI system. This hybrid methodology integrates neural networks with symbolic reasoning, emulating human cognitive processes by decomposing tasks into structured steps and categories. Focused on visual-language-action (VLA) models in robotics, which extend large language models (LLMs) by incorporating visual perception and physical actuation, the system addresses inefficiencies in conventional VLA approaches that rely on data-intensive trial-and-error learning. By applying rules and abstract concepts such as shape and balance, neuro-symbolic AI enhances planning capabilities, reducing errors and accelerating task completion. For example, it improves robotic performance in activities like block stacking by minimizing misinterpretations from visual ambiguities. The research, led by Matthias Scheutz, will be disseminated at the International Conference of Robotics and Automation in Vienna, offering a transformative approach to mitigate AI's energy footprint while boosting accuracy, thereby contributing to broader discussions on sustainable technological development.",
+      "source": "Science Daily",
+      "time_ago": "11 hours ago",
+      "image_url": "/article_images/article_9029d48c6ee689a6_e5ff143f7e91.webp",
+      "category": "Science"
+    },
+    {
+      "id": "daaadc1569107843",
+      "title": "Statistical Validation of Linguistic Universals Through Evolutionary Analysis",
+      "summary": "A groundbreaking study employing Bayesian spatio-phylogenetic analyses has evaluated 191 proposed linguistic universals using Grambank, an extensive database encompassing grammatical features from over 1,700 languages. The research, conducted by an international team led by Annemarie Verkerk and Russell D. Gray, reveals that approximately one-third of these universals are substantiated by robust statistical evidence, indicating that language evolution is not arbitrary but constrained by underlying cognitive and communicative pressures. Key findings include recurrent patterns in word order preferences and hierarchical structures, which emerge independently across unrelated languages globally. This methodological advancement addresses limitations of prior sampling techniques by integrating phylogenetic and geographic factors, thereby enhancing statistical rigor and providing a more nuanced understanding of language change over time. The study shifts focus from merely cataloging universals to identifying those with empirical support, thereby refining theoretical frameworks in linguistics and highlighting the interplay between human cognition and linguistic diversity.",
+      "source": "Science Daily",
+      "time_ago": "12 hours ago",
+      "image_url": "/article_images/article_daaadc1569107843_a11ae8bc166b.webp",
+      "category": "Science"
+    },
+    {
+      "id": "f7109831f44e8f64",
+      "title": "Evaluating the Epistemological Value of Artemis II's Imagery in Contemporary Space Exploration",
+      "summary": "NASA's Artemis II mission has catalyzed discourse on the role of visual media in space science through the dissemination of high-definition photographs captured by astronauts utilizing an array of digital devices, including legacy Nikon D5 cameras, GoPros, and smartphones. These images, proliferating across social media platforms and NASA's Flickr photostream, depict the Moon and Earth from unprecedented vantage points, such as the iconic 'Hello, World' shot by Commander Reid Wiseman, which illustrates terrestrial auroras and Venus during a solar eclipse from a distance of 142,000 miles from Earth. While the mission marks a historic return to lunar-distance travel for humans since 1972, the article interrogates whether these visuals possess substantive scientific merit or function primarily as instruments of public diplomacy and inspirational narrative. NASA's strategic employment of 32 cameras on the Orion spacecraft—15 fixed and 17 handheld—facilitates real-time documentation and live-streaming, aimed at fostering public endorsement for the Artemis program. However, critics argue that the reliance on consumer-grade technology and the aesthetic focus may trivialize scientific rigor, prompting an examination of how such imagery contributes to epistemological frameworks in astronomy versus serving as mere spectacle. This analysis necessitates a nuanced understanding of the interplay between technological demonstration, public engagement, and the potential for incremental scientific insights, such as testing imaging systems in deep-space environments.",
+      "source": "BBC Science",
+      "time_ago": "21 hours ago",
+      "image_url": "/article_images/article_f7109831f44e8f64_c4fe84201ce8.webp",
+      "category": "Science"
+    },
+    {
       "id": "1ecfbdfb56ef5ea0",
       "title": "Deciphering FTL1: Mechanistic Insights into Brain Aging and Cognitive Reversal Strategies",
       "summary": "A groundbreaking study by UC San Francisco scientists elucidates the role of FTL1, a protein identified as a principal driver of brain aging within the hippocampus, a region integral to learning and memory. Through longitudinal analysis of gene and protein expression in murine models, researchers documented elevated FTL1 levels in aged mice, correlating with diminished synaptic connectivity and impaired cognitive performance. Experimental augmentation of FTL1 in juvenile mice induced premature aging phenotypes, whereas its reduction in senescent mice facilitated neuroplastic recovery, enhancing dendritic complexity and memory function. Further investigations revealed FTL1's modulation of cellular metabolism, with heightened protein levels decelerating energetic processes in hippocampal neurons; however, pharmacological enhancement of metabolism ameliorated these deficits. Senior author Saul Villeda emphasizes the potential for therapeutic interventions targeting FTL1 to transcend symptomatic management, offering a paradigm for reversing age-associated cognitive decline.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_1ecfbdfb56ef5ea0_5c4839c885c1.webp",
       "category": "Science"
     },
@@ -14,44 +50,8 @@
       "title": "Nanoscale Light Confinement in Molybdenum Diselenide Gratings: Implications for Photonic Integration",
       "summary": "A collaborative research effort from Polish academic institutions, including the University of Warsaw and Łódź University of Technology, has achieved a breakthrough in photonics by confining infrared light within a 40-nanometer-thick layer, utilizing a subwavelength grating fabricated from molybdenum diselenide (MoSe2). This material exhibits a high refractive index, approximately 4.5, which substantially slows light propagation and enables efficient trapping at dimensions far below the infrared wavelength, addressing a fundamental constraint in wave-based light manipulation. The grating structure, composed of parallel strips spaced closer than the light's wavelength, functions as a near-perfect mirror, concentrating electromagnetic fields and facilitating third harmonic generation to convert infrared photons into visible blue light with an enhancement factor exceeding 1,500 compared to flat layers. Methodologically, the team employed molecular beam epitaxy (MBE) to synthesize large-area, uniform MoSe2 films, overcoming the scalability issues associated with exfoliation techniques and achieving an extreme aspect ratio of approximately 1:1,000,000. This advancement not only demonstrates the potential for ultra-compact photonic components but also integrates nonlinear optical properties, paving the way for applications in integrated circuits, sensors, and quantum technologies. By reducing the physical footprint required for light control, this work contributes to the paradigm shift from electronics to photonics, offering pathways to enhanced performance and miniaturization in next-generation devices.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_fa4a2b7ad3fdabac_0a50d80ddd49.webp",
-      "category": "Science"
-    },
-    {
-      "id": "0c8317082f46d2e4",
-      "title": "Electrostatic Discharges and Isotopic Signatures: Unraveling Dust-Driven Chemistry on Mars",
-      "summary": "Mars exhibits a dynamic chemical environment driven by electrostatic phenomena arising from dust storms and dust devils, where particle collisions generate static electricity and facilitate electrostatic discharges in the low-pressure atmosphere. These discharges initiate electrochemical reactions that produce volatile chlorine species, activated oxides, carbonates, and perchlorates, critically influencing the Martian chlorine cycle. Planetary scientist Alian Wang, leveraging NASA-funded lab simulations with PEACh and SCHILGAR chambers, has replicated these conditions to analyze reaction products. Her interdisciplinary team, spanning institutions across the U.S., China, and the U.K., conducted isotopic analyses of chlorine, oxygen, and carbon, revealing consistent depletion of heavier isotopes. This isotopic fingerprint serves as a 'smoking gun,' indicating dust-induced electrochemistry as a predominant process in shaping Mars' surface-atmosphere system during the Amazonian period. The research underscores the significance of aeolian processes in planetary chemistry, challenging perceptions of Mars as a static world and highlighting the role of electrochemistry in its ongoing evolution.",
-      "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_0c8317082f46d2e4_3b788807bb01.webp",
-      "category": "Science"
-    },
-    {
-      "id": "277bef8593efc15f",
-      "title": "Interdisciplinary Investigation of a Roman Sanctuary in Frankfurt: Ritual Dynamics and Potential Sacrificial Evidence",
-      "summary": "A groundbreaking Roman sanctuary has been unearthed in Frankfurt's Nordweststadt district, emerging from excavations during the construction of the Römerstadtschule. This site, identified as the central cult district of the ancient city of Nida, comprises eleven stone buildings constructed in multiple phases, alongside approximately 70 shafts and ten pits utilized for ritual depositions. The architectural configuration is notably atypical, lacking parallels in the Roman provinces of Germania or Gaul, suggesting unique cult practices. Archaeological findings include over 5,000 fragments of painted wall plaster and bronze fittings, indicative of opulently decorated structures. The depositions yielded ceramic vessels and extensive archaeobotanical and archaeozoological materials, such as fish and bird remains, interpreted as vestiges of ritual feasts and votive offerings. Additionally, 254 Roman coins and more than 70 fibulae were recovered, aligning with conventional religious offerings. Notably, evidence hinting at human sacrifice has been identified, which would constitute a rare phenomenon in Roman provincial religion. Funded by a joint award exceeding €1 million from the German Research Foundation and Swiss National Science Foundation, a three-year interdisciplinary project titled 'Exploring the dynamics of a Roman sanctuary' will be conducted by a consortium including the Archaeological Museum Frankfurt, Goethe University, and the University of Basel. This initiative aims to elucidate spatial organization and depositional practices, reinforcing Frankfurt's stature in international archaeological research and illustrating the symbiosis between urban development and heritage preservation.",
-      "source": "Science Daily",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_277bef8593efc15f_b549162503a8.webp",
-      "category": "Science"
-    },
-    {
-      "id": "3d371088b9e78805",
-      "title": "Political Tensions Over NASA Funding: Trump's Proposed Cuts Clash with Lunar Exploration Goals",
-      "summary": "In a move highlighting political divisions, President Trump has proposed a 23% reduction in NASA's budget for fiscal year 2027, amounting to a $5.6 billion cut, released shortly after the agency's crewed lunar mission launch. This proposal prioritizes funding for the Artemis program, aiming to land humans on the Moon and establish a base, while drastically reducing science programs by nearly half and canceling over 40 low-priority missions. The budget process involves Congress, which rejected similar cuts last year and is expected to do so again, reflecting bipartisan support for NASA's broader objectives. NASA Administrator Jared Isaacman defends the budget as emphasizing deep space exploration and commercial innovation, but critics, including The Planetary Society, condemn the cuts as 'draconian' and a threat to U.S. scientific leadership. Additionally, the budget advocates for transitioning from the Space Launch System to commercial alternatives like SpaceX's Starship, though legislative mandates ensure SLS's continued use in near-term Artemis missions, illustrating ongoing debates over cost-effectiveness and strategic direction in space policy.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_3d371088b9e78805_17c1b42fde60.webp",
-      "category": "Science"
-    },
-    {
-      "id": "2122b1476fac2022",
-      "title": "Reevaluating Probability: Ice Age Dice and Native American Cognitive Advances",
-      "summary": "A groundbreaking study published in American Antiquity posits that Native Americans comprehended and utilized probability through dice games as early as 12,000 years ago, significantly predating Old World counterparts. Conducted by Robert Madden, a graduate student at Colorado State University, the research analyzes two-sided dice, or 'binary lots,' prevalent across Native American tribes. Madden established four diagnostic criteria for identification: dichotomous sides with visual or shape-based distinctions, categorization into specific morphological types (e.g., flat, plano-convex, convex-concave, convex-convex), and ergonomic design for manual casting. By scrutinizing archaeological records, Madden identified 565 definitive dice from 45 sites, with an additional 94 probable examples, the oldest originating from Folsom deposits in Wyoming, Colorado, and New Mexico during the terminal Pleistocene. This challenges historiographical assumptions that probability theory and dice are Old World innovations, suggesting instead that early Native American societies engaged in structured, rule-based gaming that implied an intuitive grasp of randomness. The study leverages ethnographic sources, notably Robert Culin's 1907 compendium 'Games of the North American Indians,' and employs methodological rigor to exclude ambiguous artifacts, thereby reinforcing the argument for intentional random outcome generation in pre-Columbian contexts.",
-      "source": "Ars Science",
-      "time_ago": "1 day ago",
-      "image_url": "/article_images/article_2122b1476fac2022_79044dc1bf32.webp",
       "category": "Science"
     }
   ]
