@@ -1,0 +1,108 @@
+{
+  "title": "A Strange Planet with a Mysterious Atmosphere",
+  "summary": "Scientists have discovered a weird planet called TOI-5205 b using the James Webb Space Telescope. This planet is as big as Jupiter but orbits a tiny star. When it passes in front of its star, it blocks some light, letting astronomers study its atmosphere. They found that the planet's air has fewer heavy elements than expected, which is surprising because planets usually have more heavy stuff. This makes it a 'forbidden' planet that doesn't fit current ideas about how planets form. The atmosphere also has gases like methane and hydrogen sulfide. Researchers think the heavy elements might be hidden deep inside the planet. This discovery helps us learn more about how giant planets grow around small stars.",
+  "keywords": [
+    {
+      "term": "planet",
+      "explanation": "a large object in space that orbits a star"
+    },
+    {
+      "term": "atmosphere",
+      "explanation": "the layer of gases around a planet"
+    },
+    {
+      "term": "star",
+      "explanation": "a bright object in space like the Sun"
+    },
+    {
+      "term": "heavy elements",
+      "explanation": "materials like metals that are heavier than hydrogen"
+    },
+    {
+      "term": "James Webb Space Telescope",
+      "explanation": "a powerful telescope in space used to study planets"
+    },
+    {
+      "term": "forbidden",
+      "explanation": "something that doesn't follow the usual rules"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the strange planet in the article?",
+      "options": [
+        "TOI-5205 b",
+        "Jupiter",
+        "Mars",
+        "Earth"
+      ],
+      "correct_answer": "TOI-5205 b"
+    },
+    {
+      "question": "How big is TOI-5205 b compared to Jupiter?",
+      "options": [
+        "Same size",
+        "Smaller",
+        "Bigger",
+        "Not mentioned"
+      ],
+      "correct_answer": "Same size"
+    },
+    {
+      "question": "What does the planet block when it passes in front of its star?",
+      "options": [
+        "Light",
+        "Sound",
+        "Heat",
+        "Water"
+      ],
+      "correct_answer": "Light"
+    },
+    {
+      "question": "What did scientists find has fewer heavy elements than expected?",
+      "options": [
+        "The planet's atmosphere",
+        "The star",
+        "The telescope",
+        "The Sun"
+      ],
+      "correct_answer": "The planet's atmosphere"
+    },
+    {
+      "question": "What gases are in the planet's atmosphere?",
+      "options": [
+        "Methane and hydrogen sulfide",
+        "Oxygen and nitrogen",
+        "Carbon dioxide and water",
+        "Helium and neon"
+      ],
+      "correct_answer": "Methane and hydrogen sulfide"
+    },
+    {
+      "question": "Why is the planet called 'forbidden'?",
+      "options": [
+        "It doesn't fit current planet ideas",
+        "It is too hot",
+        "It is invisible",
+        "It has no atmosphere"
+      ],
+      "correct_answer": "It doesn't fit current planet ideas"
+    }
+  ],
+  "background_read": [
+    "Planets are big objects that go around stars. Our solar system has planets like Earth and Jupiter. Scientists use telescopes to study planets far away. Sometimes they find planets that are unusual and help us understand how planets are made. This article talks about a special planet that surprises scientists."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists using the James Webb Space Telescope",
+    "WHAT: Discovered a planet with a strange atmosphere that has fewer heavy elements",
+    "WHERE: In space, orbiting a small star",
+    "WHY: To learn how giant planets form and why this one doesn't follow the rules"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "Scientists are excited to find a planet that challenges what we know about planet formation."
+    }
+  ],
+  "image_url": "/article_images/article_220c720e87a2b7c3_c64e495ccc4e.webp"
+}

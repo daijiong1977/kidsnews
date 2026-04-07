@@ -1,0 +1,104 @@
+{
+  "title": "A Super Strong Computer Chip That Can Handle Extreme Heat",
+  "summary": "Scientists have made a new computer chip that can work in very hot places, like inside volcanoes or in space. Most electronics stop working when it gets too hot, but this chip keeps going at 700 degrees Celsius, which is hotter than lava. It is called a memristor and is built with special materials like tungsten and graphene. These materials help the chip store information and do calculations without breaking down. The chip was discovered by accident when researchers were trying something else. This invention could help make better robots, cars, and computers that work in tough conditions, changing how we use technology forever.",
+  "keywords": [
+    {
+      "term": "chip",
+      "explanation": "a small piece in electronics that helps devices work"
+    },
+    {
+      "term": "heat",
+      "explanation": "how hot something is, which can break electronics"
+    },
+    {
+      "term": "memristor",
+      "explanation": "a tiny part that stores data and does math"
+    },
+    {
+      "term": "tungsten",
+      "explanation": "a strong metal that doesn't melt easily"
+    },
+    {
+      "term": "graphene",
+      "explanation": "a thin material that is very strong and heat-resistant"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What temperature can the new chip survive?",
+      "options": [
+        "200°C",
+        "500°C",
+        "700°C",
+        "1000°C"
+      ],
+      "correct_answer": "700°C"
+    },
+    {
+      "question": "What is the chip called?",
+      "options": [
+        "Transistor",
+        "Memristor",
+        "Battery",
+        "Sensor"
+      ],
+      "correct_answer": "Memristor"
+    },
+    {
+      "question": "Which material is used for the top layer of the chip?",
+      "options": [
+        "Copper",
+        "Tungsten",
+        "Iron",
+        "Aluminum"
+      ],
+      "correct_answer": "Tungsten"
+    },
+    {
+      "question": "How was the chip discovered?",
+      "options": [
+        "By planning",
+        "By accident",
+        "By copying others",
+        "By guessing"
+      ],
+      "correct_answer": "By accident"
+    },
+    {
+      "question": "What does graphene do in the chip?",
+      "options": [
+        "Makes it bigger",
+        "Prevents short circuits",
+        "Slows it down",
+        "Adds color"
+      ],
+      "correct_answer": "Prevents short circuits"
+    },
+    {
+      "question": "Where could this chip be useful?",
+      "options": [
+        "In cold places",
+        "In hot places like volcanoes",
+        "Only in labs",
+        "In water"
+      ],
+      "correct_answer": "In hot places like volcanoes"
+    }
+  ],
+  "background_read": [
+    "Computer chips are in phones and cars, but they often break when too hot. Scientists at a university made a new chip that uses special materials to handle extreme heat, discovered by chance. This could lead to better technology for robots and space exploration."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the University of Southern California",
+    "WHAT: Made a new chip that works at 700°C",
+    "WHERE: In a lab at the university",
+    "WHY: To help electronics work in very hot places like volcanoes or space"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific Discovery",
+      "description": "The chip was found by accident, showing how surprises can lead to big inventions."
+    }
+  ],
+  "image_url": "/article_images/article_f3ca814dbfed45eb_3b5dc49db319.webp"
+}
