@@ -1,0 +1,108 @@
+{
+  "title": "A Special Gene Helps Pancreatic Cancer Spread",
+  "summary": "Scientists found a gene called KLF5 that helps pancreatic cancer spread in the body. This gene doesn't change the DNA code but changes how DNA is packaged, which turns genes on or off. Using a tool called CRISPR, they turned off genes to see which ones stop cancer growth, and KLF5 was the most important. In patients, KLF5 was more active in spreading tumors than in the original ones. This gene controls other genes that help cancer cells grow and resist treatment. The research suggests new ways to treat cancer by targeting KLF5, and some drugs are already being tested. This study was done at Johns Hopkins Medicine and published in a science journal.",
+  "keywords": [
+    {
+      "term": "gene",
+      "explanation": "a part of DNA that gives instructions for how our body works"
+    },
+    {
+      "term": "pancreatic cancer",
+      "explanation": "a disease where bad cells grow in the pancreas, an organ in the belly"
+    },
+    {
+      "term": "KLF5",
+      "explanation": "a special gene that helps cancer spread by changing how DNA is packed"
+    },
+    {
+      "term": "CRISPR",
+      "explanation": "a tool scientists use to turn genes on or off to study them"
+    },
+    {
+      "term": "spread",
+      "explanation": "when cancer moves from one place to another in the body"
+    },
+    {
+      "term": "DNA",
+      "explanation": "the material in our cells that holds our genetic information"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the gene that helps pancreatic cancer spread?",
+      "options": [
+        "KLF5",
+        "DNA",
+        "CRISPR",
+        "NCAPD2"
+      ],
+      "correct_answer": "KLF5"
+    },
+    {
+      "question": "How does KLF5 help cancer spread without changing the DNA code?",
+      "options": [
+        "By changing DNA packaging",
+        "By making new DNA",
+        "By stopping genes",
+        "By adding mutations"
+      ],
+      "correct_answer": "By changing DNA packaging"
+    },
+    {
+      "question": "What tool did scientists use to find which genes are important for cancer growth?",
+      "options": [
+        "CRISPR",
+        "Microscope",
+        "Computer",
+        "X-ray"
+      ],
+      "correct_answer": "CRISPR"
+    },
+    {
+      "question": "In patients, was KLF5 more active in spreading tumors or original tumors?",
+      "options": [
+        "Spreading tumors",
+        "Original tumors",
+        "Both equally",
+        "Neither"
+      ],
+      "correct_answer": "Spreading tumors"
+    },
+    {
+      "question": "What does KLF5 control to help cancer cells grow and resist treatment?",
+      "options": [
+        "Other genes",
+        "Blood cells",
+        "Organs",
+        "Vitamins"
+      ],
+      "correct_answer": "Other genes"
+    },
+    {
+      "question": "Where was this research done?",
+      "options": [
+        "Johns Hopkins Medicine",
+        "A school",
+        "A hospital",
+        "A lab at home"
+      ],
+      "correct_answer": "Johns Hopkins Medicine"
+    }
+  ],
+  "background_read": [
+    "Pancreatic cancer is a serious illness where cells in the pancreas grow out of control and can spread to other parts of the body. Genes are like instructions in our cells that tell them what to do. Sometimes, genes like KLF5 can act in ways that help cancer spread by changing how other genes work, without altering the DNA itself. Scientists use tools like CRISPR to study these genes and find new treatments. This research helps us understand how to stop cancer from spreading and save lives."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at Johns Hopkins Medicine",
+    "WHAT: Found a gene called KLF5 that helps pancreatic cancer spread by changing DNA packaging",
+    "WHERE: In laboratory-grown cells and patient samples",
+    "WHY: To develop new treatments for cancer by targeting this gene"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "This research shows how genes like KLF5 can drive cancer spread through epigenetic changes, offering new targets for therapy."
+    }
+  ],
+  "image_url": "/article_images/article_3f8e02b2dfad768f_618a6eb85c24.webp"
+}
