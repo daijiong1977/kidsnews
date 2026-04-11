@@ -1,0 +1,108 @@
+{
+  "title": "Flawed Solar Cells That Work Better",
+  "summary": "Scientists have discovered that some solar cells made from a material called lead-halide perovskites work really well even though they have many flaws. These solar cells are cheap to make and can turn sunlight into electricity almost as good as the expensive silicon solar cells we use today. Researchers at ISTA found that the flaws in perovskites actually help electricity move through them better. This is surprising because silicon solar cells need to be very pure to work. The study shows that internal forces in perovskites push electrical charges apart, so they don't get stuck. This could help make better and cheaper solar panels in the future. Perovskites were discovered a long time ago but only recently became popular for solar energy. They are also used in lights and X-ray machines. The research helps solve a mystery about why these flawed materials are so efficient.",
+  "keywords": [
+    {
+      "term": "solar cells",
+      "explanation": "devices that turn sunlight into electricity"
+    },
+    {
+      "term": "flaws",
+      "explanation": "imperfections or mistakes in a material"
+    },
+    {
+      "term": "perovskites",
+      "explanation": "a type of material used to make solar cells"
+    },
+    {
+      "term": "electricity",
+      "explanation": "energy that powers things like lights and gadgets"
+    },
+    {
+      "term": "internal forces",
+      "explanation": "hidden pushes or pulls inside a material"
+    },
+    {
+      "term": "cheap",
+      "explanation": "not expensive, low cost"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What do solar cells made from perovskites have that helps them work well?",
+      "options": [
+        "They are very pure",
+        "They have many flaws",
+        "They are made of silicon",
+        "They are very old"
+      ],
+      "correct_answer": "They have many flaws"
+    },
+    {
+      "question": "How do perovskites compare to silicon solar cells in cost?",
+      "options": [
+        "They are more expensive",
+        "They are cheaper",
+        "They cost the same",
+        "They are not used"
+      ],
+      "correct_answer": "They are cheaper"
+    },
+    {
+      "question": "What did researchers find inside perovskites that pushes charges apart?",
+      "options": [
+        "External voltage",
+        "Internal forces",
+        "Sunlight",
+        "Electrodes"
+      ],
+      "correct_answer": "Internal forces"
+    },
+    {
+      "question": "What is the main job of a solar cell?",
+      "options": [
+        "To make light",
+        "To turn sunlight into electricity",
+        "To store energy",
+        "To create flaws"
+      ],
+      "correct_answer": "To turn sunlight into electricity"
+    },
+    {
+      "question": "Where did the researchers work who studied perovskites?",
+      "options": [
+        "ISTA",
+        "NASA",
+        "A school",
+        "A factory"
+      ],
+      "correct_answer": "ISTA"
+    },
+    {
+      "question": "Why are perovskites surprising to scientists?",
+      "options": [
+        "They are very pure",
+        "They work well with flaws",
+        "They are made of gold",
+        "They don't use sunlight"
+      ],
+      "correct_answer": "They work well with flaws"
+    }
+  ],
+  "background_read": [
+    "Solar cells are devices that capture sunlight and convert it into electricity to power homes and devices. Silicon solar cells are common but expensive because they need to be very pure. Perovskites are a new type of material that can be made cheaply and have flaws, yet they perform almost as well as silicon. Researchers are studying how these flaws help electricity move, which could lead to cheaper and more efficient solar energy in the future."
+  ],
+  "Article_Structure": [
+    "WHO: Researchers at ISTA studied perovskites.",
+    "WHAT: They found that flaws in perovskites help solar cells work better.",
+    "WHERE: The study was done at the Institute of Science and Technology Austria.",
+    "WHY: To understand why cheap, flawed materials can be efficient for solar energy."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "Researchers solved a mystery about why perovskites work well despite flaws."
+    }
+  ],
+  "image_url": "/article_images/article_833b1adbc5a76e35_530df8a4ad8d.webp"
+}
