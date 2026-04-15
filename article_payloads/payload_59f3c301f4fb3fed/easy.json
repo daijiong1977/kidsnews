@@ -1,0 +1,108 @@
+{
+  "title": "How Robots Work Better Together",
+  "summary": "Imagine a group of robots trying to do a job, like cleaning up a mess or building something. At first, more robots make the work faster. But if there are too many robots in a small space, they get in each other's way and slow down. Scientists at Harvard found a clever way to fix this. They discovered that adding a little bit of randomness, or small changes, to how the robots move can help them avoid traffic jams and work better together. This idea was tested using computer games and math, and it could help design better robot teams in the future. The study was led by a student named Lucy Liu and published in a science journal.",
+  "keywords": [
+    {
+      "term": "robots",
+      "explanation": "machines that can move and do tasks"
+    },
+    {
+      "term": "randomness",
+      "explanation": "small, unpredictable changes in movement"
+    },
+    {
+      "term": "traffic jams",
+      "explanation": "when robots get stuck and can't move"
+    },
+    {
+      "term": "efficiency",
+      "explanation": "how well and quickly robots do their job"
+    },
+    {
+      "term": "scientists",
+      "explanation": "people who study and discover new things"
+    },
+    {
+      "term": "Harvard",
+      "explanation": "a famous university where the research happened"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What happens when too many robots are in a small space?",
+      "options": [
+        "They work faster",
+        "They get in each other's way and slow down",
+        "They stop moving completely",
+        "They become friends"
+      ],
+      "correct_answer": "They get in each other's way and slow down"
+    },
+    {
+      "question": "What did scientists add to help robots move better?",
+      "options": [
+        "More robots",
+        "Randomness or small changes",
+        "Bigger spaces",
+        "Loud noises"
+      ],
+      "correct_answer": "Randomness or small changes"
+    },
+    {
+      "question": "Where was this research done?",
+      "options": [
+        "At a school",
+        "At Harvard University",
+        "In a factory",
+        "In a park"
+      ],
+      "correct_answer": "At Harvard University"
+    },
+    {
+      "question": "Who led the study?",
+      "options": [
+        "A teacher",
+        "A robot",
+        "Lucy Liu",
+        "A scientist named John"
+      ],
+      "correct_answer": "Lucy Liu"
+    },
+    {
+      "question": "What did the scientists use to test their idea?",
+      "options": [
+        "Real robots only",
+        "Computer games and math",
+        "Only math",
+        "Only experiments with people"
+      ],
+      "correct_answer": "Computer games and math"
+    },
+    {
+      "question": "Why is randomness helpful for robots?",
+      "options": [
+        "It makes them move in straight lines",
+        "It helps them avoid traffic jams",
+        "It makes them slower",
+        "It makes them noisy"
+      ],
+      "correct_answer": "It helps them avoid traffic jams"
+    }
+  ],
+  "background_read": [
+    "Robots are machines that can be programmed to do tasks like cleaning, building, or exploring. Sometimes, many robots work together in groups called swarms. When too many robots are in one place, they can bump into each other and get stuck, just like cars in a traffic jam. Scientists study how to make robots work better without getting stuck. This research helps us understand how to design robots for jobs like cleaning up spills or helping in emergencies."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at Harvard, led by Lucy Liu",
+    "WHAT: Found that adding randomness to robot movement helps them avoid traffic jams",
+    "WHERE: At Harvard University and in computer simulations",
+    "WHY: To make robot swarms work better and faster in crowded spaces"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Science view",
+      "description": "Using randomness can improve how robots move and work together in groups."
+    }
+  ],
+  "image_url": "/article_images/article_59f3c301f4fb3fed_2c807beb44d5.webp"
+}

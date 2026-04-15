@@ -1,0 +1,132 @@
+{
+  "title": "Graphene Challenges Physics with Quantum Fluid Discovery",
+  "summary": "Researchers from the Indian Institute of Science and the National Institute for Materials Science in Japan have made a groundbreaking discovery in graphene, a single-layer carbon material. They observed that electrons in graphene can behave as a frictionless fluid, specifically at the Dirac point where graphene transitions between metal and insulator states. This fluid-like motion, known as the Dirac fluid, defies the Wiedemann-Franz law, which states that electrical and thermal conductivity should be proportional in metals. In their experiments, the team found that as electrical conductivity increased, thermal conductivity decreased by over 200 times at low temperatures, indicating a separation in how charge and heat move. The behavior follows a universal quantum constant related to conductance, suggesting a fundamental connection. This discovery positions graphene as a key platform for studying quantum phenomena, such as those in high-energy physics, and could lead to applications in quantum sensors for detecting weak signals. The research, published in Nature Physics, highlights graphene's potential for exploring extreme physics in accessible lab settings.",
+  "keywords": [
+    {
+      "term": "Dirac fluid",
+      "explanation": "a state where electrons flow collectively like a liquid in graphene"
+    },
+    {
+      "term": "Wiedemann-Franz law",
+      "explanation": "a principle stating heat and electrical conduction are proportional in metals"
+    },
+    {
+      "term": "universal constant",
+      "explanation": "a fixed value in quantum physics that describes electron movement"
+    },
+    {
+      "term": "quantum phenomena",
+      "explanation": "effects observed at very small scales, like in atoms and particles"
+    },
+    {
+      "term": "thermal conductivity",
+      "explanation": "how well a material conducts heat"
+    },
+    {
+      "term": "electrical conductivity",
+      "explanation": "how well a material conducts electricity"
+    },
+    {
+      "term": "graphene samples",
+      "explanation": "clean pieces of graphene used in experiments"
+    },
+    {
+      "term": "quantum sensors",
+      "explanation": "devices that use quantum effects to detect tiny signals"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the Dirac fluid in graphene?",
+      "options": [
+        "Electrons moving like a liquid",
+        "A type of gas",
+        "Solid carbon",
+        "Magnetic field"
+      ],
+      "correct_answer": "Electrons moving like a liquid"
+    },
+    {
+      "question": "Which law does the discovery contradict?",
+      "options": [
+        "Wiedemann-Franz law",
+        "Ohm's law",
+        "Boyle's law",
+        "Archimedes' principle"
+      ],
+      "correct_answer": "Wiedemann-Franz law"
+    },
+    {
+      "question": "What did researchers measure to find the unusual behavior?",
+      "options": [
+        "Electrical and thermal conductivity",
+        "Color and weight",
+        "Sound and light",
+        "Temperature and pressure"
+      ],
+      "correct_answer": "Electrical and thermal conductivity"
+    },
+    {
+      "question": "How much did the deviation from the law exceed at low temperatures?",
+      "options": [
+        "Over 200 times",
+        "Exactly 100 times",
+        "Less than 50 times",
+        "No deviation"
+      ],
+      "correct_answer": "Over 200 times"
+    },
+    {
+      "question": "What is the universal constant related to in this study?",
+      "options": [
+        "Quantum of conductance",
+        "Speed of light",
+        "Gravity constant",
+        "Atomic mass"
+      ],
+      "correct_answer": "Quantum of conductance"
+    },
+    {
+      "question": "Where does the Dirac fluid occur in graphene?",
+      "options": [
+        "At the Dirac point",
+        "At high temperatures",
+        "In impurities",
+        "On the surface"
+      ],
+      "correct_answer": "At the Dirac point"
+    },
+    {
+      "question": "What potential application is mentioned for this discovery?",
+      "options": [
+        "Quantum sensors",
+        "Solar panels",
+        "Batteries",
+        "Robots"
+      ],
+      "correct_answer": "Quantum sensors"
+    },
+    {
+      "question": "Why is graphene considered a good platform for this research?",
+      "options": [
+        "It's accessible and cost-effective",
+        "It's heavy and expensive",
+        "It's only theoretical",
+        "It's found in space"
+      ]
+    }
+  ],
+  "background_read": [
+    "Graphene is a two-dimensional material composed of carbon atoms in a hexagonal lattice, discovered in 2004. It has unique properties like high strength and conductivity. Quantum physics deals with subatomic particles and their behaviors, often challenging classical laws. The Wiedemann-Franz law, established in the 19th century, describes the relationship between thermal and electrical conductivity in metals. This article discusses how graphene, by exhibiting electron fluid behavior, breaks this law, offering insights into quantum fluid dynamics and potential technological advances in sensing. The research involves international collaboration and advanced measurement techniques."
+  ],
+  "Article_Structure": [
+    "Main Points: The discovery of Dirac fluid in graphene shows electrons moving collectively, defying the Wiedemann-Franz law with over 200 times deviation at low temperatures, and following a universal quantum constant. Purpose: To explore quantum phenomena and establish graphene as a lab platform for extreme physics. Evidence Evaluation: High-quality evidence from clean graphene samples and precise measurements published in Nature Physics. Author Credibility: Researchers from reputable institutions like IISc and NIMS with expertise in physics. Methodology: Created clean graphene samples and measured electrical and thermal conductivity to observe fluid-like behavior."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Technological innovation",
+      "description": "This could lead to advanced quantum sensors for practical applications."
+    }
+  ],
+  "image_url": "/article_images/article_ad70a71a4fb821ef_3a66675feeaf.webp"
+}

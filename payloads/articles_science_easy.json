@@ -1,3 +1,58 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "id": "ad70a71a4fb821ef",
+      "title": "Graphene Breaks a Physics Rule",
+      "summary": "Scientists have found something amazing in graphene, a material made of just one layer of carbon atoms. They discovered that electrons, tiny particles that carry electricity, can move like a smooth, frictionless fluid in graphene. This happens at a special point called the Dirac point. Usually, when electricity flows better, heat flows better too, but in graphene, they found the opposite: as electricity flow increased, heat flow decreased. This breaks an old physics rule called the Wiedemann-Franz law. The researchers made very clean graphene samples to see this. This discovery helps us learn more about quantum effects and could lead to new technologies like super-sensitive sensors. It's exciting because graphene is easy to work with in labs.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_ad70a71a4fb821ef_3a66675feeaf.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1a0e02b94272d660",
+      "title": "Scientists Find a Way to Stop a Common Virus",
+      "summary": "Scientists have made an exciting discovery to stop a virus called Epstein Barr virus (EBV). This virus is very common and affects about 95% of people around the world. It can cause serious health problems like cancer and other illnesses. The researchers used special mice that make human antibodies to create new antibodies. Antibodies are like tiny soldiers that fight viruses. They found one antibody that can completely prevent EBV from infecting cells in mice. This is important because it could help protect people who are sick or have had organ transplants. The scientists hope this will lead to new treatments to keep people healthy.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_1a0e02b94272d660_d885aec1eec2.webp",
+      "category": "Science"
+    },
+    {
+      "id": "17f81cfde24bfea3",
+      "title": "Scientists Find Old Sea Sponge Fossil That Solves a Big Mystery",
+      "summary": "Scientists have found a very old fossil of a sea sponge that helps solve a big mystery. Sea sponges are simple animals without brains or guts, and scientists thought they first lived about 700 million years ago. But the oldest clear fossils were only 540 million years old, leaving a gap of 160 million years. A team led by Shuhai Xiao discovered a 550 million-year-old sponge fossil in China. This fossil fits in the missing time and shows that early sponges might not have had hard parts, making them hard to fossilize. This discovery helps explain why we haven't found older sponge fossils and connects to questions about when animal life began on Earth.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_17f81cfde24bfea3_81178e4e7e90.webp",
+      "category": "Science"
+    },
+    {
+      "id": "e8f510f9f91f5477",
+      "title": "Butterfly Changes in the UK",
+      "summary": "In the UK, some butterflies are doing better while others are having a hard time. A big study called the UK Butterfly Monitoring Scheme has watched butterflies for many years with help from volunteers. They found that 33 types of butterflies are fewer now, but 25 types are more common. Warmer weather from climate change helps some butterflies like the Red admiral, Comma, Orange tip, Black hairstreak, and Large Blue. These butterflies can live in many places like gardens and farms. But butterflies that need special homes, like in woods or grasslands, are struggling. Scientists say this shows a difference between butterflies that can adapt and those that cannot.",
+      "source": "BBC Science",
+      "time_ago": "13 hours ago",
+      "image_url": "/article_images/article_e8f510f9f91f5477_549ac8bbbf38.webp",
+      "category": "Science"
+    },
+    {
+      "id": "fc84fc2e0f53f8b7",
+      "title": "Scientists Solve the Proton Size Mystery",
+      "summary": "Scientists have been trying to figure out how big a tiny part of an atom called a proton is. For many years, different experiments gave different answers, which was confusing. Some said it was one size, and others said it was smaller. This made scientists wonder if there was new science to discover. Now, new experiments have shown that the proton is actually smaller than we thought. This helps solve the puzzle and means we don't need new science to explain it. The experiments used special atoms with muons, which are like heavy electrons, to measure the proton more accurately. The scientists are happy because they think this is the final answer. Protons are fuzzy clouds made of smaller particles, and measuring them is tricky, but these new results make things clearer.",
+      "source": "Ars Science",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_fc84fc2e0f53f8b7_08180d8dc2be.webp",
+      "category": "Science"
+    },
+    {
+      "id": "5bee2e5478e584d4",
+      "title": "Astronauts Return Safely from Space Adventure",
+      "summary": "A new video shows a happy moment when a recovery crew opened the hatch of the Orion capsule after it landed in the sea. The four astronauts inside—Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen—were all safe and well. They had traveled further from Earth than any humans before, making this a historic mission. The capsule splashed down on April 10, and everyone cheered when the astronauts were found to be okay. This event is part of the Artemis II mission, which aims to explore space and learn more about our universe. The astronauts are now back home, and scientists will study their journey to help plan future space trips.",
+      "source": "BBC Science",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_5bee2e5478e584d4_852700f13504.webp",
+      "category": "Science"
+    }
+  ]
 }

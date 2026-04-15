@@ -1,3 +1,58 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "id": "ad70a71a4fb821ef",
+      "title": "Graphene's Defiance of the Wiedemann-Franz Law Through Dirac Fluid Emergence",
+      "summary": "A collaborative study by researchers from the Indian Institute of Science and the National Institute for Materials Science in Japan has elucidated the emergence of a Dirac fluid in graphene, challenging foundational principles in condensed matter physics. By fabricating ultraclean graphene samples and conducting meticulous measurements of electrical and thermal conductivity at low temperatures, the team observed a pronounced deviation from the Wiedemann-Franz law, exceeding 200-fold, wherein electrical conductivity inversely correlates with thermal conductivity. This phenomenon occurs at the Dirac point, a critical regime where graphene exhibits ambipolar characteristics, transitioning between metallic and insulating states. The Dirac fluid represents a collective quantum state where electrons manifest hydrodynamic behavior, akin to a perfect fluid with minimal viscosity, analogous to quark-gluon plasma in high-energy physics. The behavior adheres to a universal constant tied to the quantum of conductance, underscoring a fundamental quantum mechanical framework. This discovery not only advances the understanding of quantum fluid dynamics but also positions graphene as a versatile experimental platform for investigating extreme physical concepts, such as black-hole thermodynamics and entanglement entropy, within controlled laboratory environments. Furthermore, it harbors potential for quantum technological applications, including the development of high-sensitivity sensors capable of amplifying weak electromagnetic signals.",
+      "source": "Science Daily",
+      "time_ago": "4 hours ago",
+      "image_url": "/article_images/article_ad70a71a4fb821ef_3a66675feeaf.webp",
+      "category": "Science"
+    },
+    {
+      "id": "1a0e02b94272d660",
+      "title": "Advancing Monoclonal Antibody Therapeutics to Inhibit Epstein Barr Virus Infection",
+      "summary": "A groundbreaking study from Fred Hutch Cancer Center has propelled efforts to combat Epstein Barr virus (EBV), a ubiquitous pathogen infecting roughly 95% of the global populace and implicated in malignancies such as lymphomas, neurodegenerative disorders like multiple sclerosis, and other chronic conditions. Employing a murine model engineered to synthesize human antibodies, investigators generated monoclonal antibodies that specifically target EBV's entry mechanisms. Published in Cell Reports Medicine, the research delineates that one antibody directed against the gp42 protein conferred complete protection against EBV in mice with humanized immune systems, while another targeting gp350 offered partial efficacy. The investigation centered on gp350, which mediates viral attachment to B cells, and gp42, crucial for membrane fusion and cellular ingress. This work not only identifies potent neutralizing antibodies but also establishes a novel paradigm for antibody discovery against diverse pathogens, leveraging advanced biotechnological platforms. Of particular clinical relevance, the findings address a critical gap in transplant medicine, where immunosuppressive regimens predispose patients to EBV reactivation and subsequent post-transplant lymphoproliferative disorders (PTLD), a major cause of morbidity. The researchers propose a prophylactic antibody infusion strategy to mitigate these risks, potentially revolutionizing preventive care for immunocompromised cohorts.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_1a0e02b94272d660_d885aec1eec2.webp",
+      "category": "Science"
+    },
+    {
+      "id": "17f81cfde24bfea3",
+      "title": "Resolving an Evolutionary Enigma: A 550-Million-Year-Old Sponge Fossil and the Implications for Early Animal Life",
+      "summary": "In a groundbreaking study published in Nature, geobiologist Shuhai Xiao and an international team have elucidated a persistent conundrum in evolutionary biology: the 160-million-year discrepancy between molecular clock predictions and the fossil record for sea sponges. Molecular clock analyses, which utilize genetic mutation rates, estimate sponge origins at approximately 700 million years ago, whereas definitive fossil evidence previously capped at 540 million years ago. The discovery of a 550 million-year-old sponge fossil from the Yangtze River region in China provides a critical intermediary, situating within this temporal void. The researchers hypothesize that primordial sponges may have been devoid of biomineralized spicules, rendering them less prone to fossilization—a theory bolstered by prior work from 2019. This finding not only mitigates the fossil-molecular discord but also enriches the narrative of early metazoan evolution, addressing inquiries seminal to Darwin regarding the emergence of animal life. The investigation entailed meticulous morphological comparisons to exclude alternative taxa such as sea squirts and corals, underscoring the fossil's unique attributes. By integrating paleontological and genomic data, this research advances our comprehension of evolutionary chronologies and preservation biases, highlighting the synergistic potential of interdisciplinary approaches in deciphering life's ancient history.",
+      "source": "Science Daily",
+      "time_ago": "6 hours ago",
+      "image_url": "/article_images/article_17f81cfde24bfea3_81178e4e7e90.webp",
+      "category": "Science"
+    },
+    {
+      "id": "e8f510f9f91f5477",
+      "title": "Divergent Butterfly Population Dynamics in the UK: Climate Change and Conservation Impacts",
+      "summary": "The UK Butterfly Monitoring Scheme, a seminal citizen science project initiated in 1976, provides critical insights into butterfly population trends, revealing a complex narrative of decline and recovery. Analysis of over 44 million records from 782,000 volunteer surveys indicates that 33 of 59 native species have experienced steep declines, while 25 have shown improvement, with one mountain species lacking sufficient data. Adaptable species, such as the Red admiral, Comma, Orange tip, Black hairstreak, and Large Blue, are flourishing due to warmer conditions associated with climate change, which enhance survival, extend geographic ranges, and prolong breeding seasons. These generalists thrive in varied environments, including farmland and urban areas. Conversely, specialist species, whose lifecycles are intrinsically linked to specific habitats like woodland clearings or chalk grasslands, are struggling, underscoring a growing ecological divide. Conservation efforts have been pivotal in the recovery of certain species, exemplified by the Large Blue's resurgence post-extinction. The data, described by experts as extraordinary, serves as a gold standard for global wildlife monitoring, highlighting the nuanced effects of environmental change on biodiversity.",
+      "source": "BBC Science",
+      "time_ago": "13 hours ago",
+      "image_url": "/article_images/article_e8f510f9f91f5477_549ac8bbbf38.webp",
+      "category": "Science"
+    },
+    {
+      "id": "fc84fc2e0f53f8b7",
+      "title": "The Resolution of the Proton Charge Radius Puzzle: Implications for Quantum Physics",
+      "summary": "The proton radius puzzle, a longstanding controversy in physics, has likely been resolved by recent experimental findings, favoring a smaller charge radius and negating the need for new physics beyond the Standard Model. Initiated in 2010 by muon spectroscopy measurements that indicated a proton radius of 0.841 femtometers—significantly smaller than the established 0.876 femtometers—the discrepancy challenged quantum electrodynamics (QED) and hinted at potential revisions or exotic phenomena. Subsequent research, including inconclusive follow-ups, has culminated in two recent papers in Nature and Physical Review Letters, which provide robust evidence for the smaller value through advanced muon-based techniques. This resolution underscores the precision of muon spectroscopy, where muons, being 200 times heavier than electrons, exhibit a 10-million-fold increased sensitivity due to their proximity to the proton, enhancing measurement accuracy. The puzzle's context involves fundamental quantum mechanics: protons are fuzzy clouds of quarks, and their radius is defined via charge density, measured through methods like electron scattering or Lamb shift spectroscopy. The findings critically assess QED's applicability, suggesting only minor tweaks rather than overhaul, and emphasize methodological rigor in experimental physics. This outcome has broader implications for particle physics, reinforcing the Standard Model's robustness and highlighting the iterative nature of scientific inquiry, where empirical evidence gradually resolves theoretical ambiguities.",
+      "source": "Ars Science",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_fc84fc2e0f53f8b7_08180d8dc2be.webp",
+      "category": "Science"
+    },
+    {
+      "id": "5bee2e5478e584d4",
+      "title": "Analysis of Artemis II Orion Capsule Recovery and Its Implications for Space Exploration",
+      "summary": "The article centers on newly released video footage depicting the recovery operation of the Orion capsule following the Artemis II mission's splashdown on April 10. In this historic event, astronauts Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen were successfully retrieved from the capsule, confirming their safety after a journey that took them further from Earth than any previous human spaceflight. This milestone underscores the Artemis program's objectives to test deep space capabilities and prepare for sustained lunar exploration. The recovery process, executed by a specialized crew, involved opening the hatch and conducting initial health assessments, highlighting the meticulous planning required for post-mission operations. While the article intersperses this narrative with unrelated news items—such as weather events and wildlife observations—the core analysis emphasizes the technological and collaborative achievements in space exploration. The mission represents a critical step in advancing human presence beyond low Earth orbit, with implications for future missions to the moon and Mars, and reflects broader trends in international space cooperation and public engagement with science.",
+      "source": "BBC Science",
+      "time_ago": "20 hours ago",
+      "image_url": "/article_images/article_5bee2e5478e584d4_852700f13504.webp",
+      "category": "Science"
+    }
+  ]
 }
