@@ -1,57 +1,57 @@
 {
   "articles": [
     {
-      "id": "ad70a71a4fb821ef",
-      "title": "Graphene Challenges Physics with Quantum Fluid Discovery",
-      "summary": "Researchers from the Indian Institute of Science and the National Institute for Materials Science in Japan have made a groundbreaking discovery in graphene, a single-layer carbon material. They observed that electrons in graphene can behave as a frictionless fluid, specifically at the Dirac point where graphene transitions between metal and insulator states. This fluid-like motion, known as the Dirac fluid, defies the Wiedemann-Franz law, which states that electrical and thermal conductivity should be proportional in metals. In their experiments, the team found that as electrical conductivity increased, thermal conductivity decreased by over 200 times at low temperatures, indicating a separation in how charge and heat move. The behavior follows a universal quantum constant related to conductance, suggesting a fundamental connection. This discovery positions graphene as a key platform for studying quantum phenomena, such as those in high-energy physics, and could lead to applications in quantum sensors for detecting weak signals. The research, published in Nature Physics, highlights graphene's potential for exploring extreme physics in accessible lab settings.",
+      "id": "ec252155906be338",
+      "title": "Targeting Senescent Macrophages to Reverse Liver Damage in Mice",
+      "summary": "Researchers at UCLA discovered that senescent macrophages, often called zombie cells, accumulate in aging tissues and the livers of individuals with fatty liver disease. These cells, which stop dividing but remain active, release inflammatory signals that cause tissue damage. By identifying a molecular signature involving p21 and TREM2 proteins, the team distinguished senescent macrophages from healthy ones. In experiments with mice fed a high-fat, high-cholesterol diet, they found that senescent macrophages increased from 5% in young mice to 60-80% in older mice, correlating with liver inflammation. Using a drug called ABT-263 to selectively remove these cells, the scientists observed significant improvements: liver size decreased, body weight dropped by about 25%, and liver damage was reversed, even without dietary changes. This study, published in Nature Aging, suggests that clearing senescent cells could treat metabolic diseases and highlights cholesterol as a key driver of macrophage senescence, potentially accelerating aging in organs like the brain and heart.",
       "source": "Science Daily",
-      "time_ago": "4 hours ago",
-      "image_url": "/article_images/article_ad70a71a4fb821ef_3a66675feeaf.webp",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_ec252155906be338_cc80b9c8dbdb.webp",
       "category": "Science"
     },
     {
-      "id": "1a0e02b94272d660",
-      "title": "Breakthrough in Blocking Epstein Barr Virus with Antibodies",
-      "summary": "Researchers at Fred Hutch Cancer Center have achieved a significant breakthrough in combating Epstein Barr virus (EBV), which infects approximately 95% of the global population and is associated with various cancers and neurodegenerative diseases. By utilizing mice engineered to produce human antibodies, the team developed monoclonal antibodies designed to inhibit EBV from attaching to and entering human immune cells. Published in Cell Reports Medicine, their findings demonstrate that one antibody completely prevented EBV infection in mice with human-like immune systems. The study focused on targeting two viral proteins, gp350 and gp42, which facilitate cell attachment and entry. This approach not only identified effective antibodies but also validated a novel method for discovering protective antibodies against other pathogens. The research holds particular promise for transplant patients, who are at high risk due to immunosuppressive drugs that can lead to EBV reactivation and conditions like post-transplant lymphoproliferative disorders (PTLD). The team envisions a preventive antibody therapy to reduce such risks and improve patient outcomes.",
+      "id": "7f30bf6375360ba9",
+      "title": "MIT Research Reveals Hidden Leaks Delaying Ozone Layer Recovery",
+      "summary": "MIT scientists have identified a significant hidden issue that is impeding the recovery of the ozone layer, which protects Earth from harmful ultraviolet radiation. The Montreal Protocol, established in 1987, successfully phased out most ozone-depleting substances, leading to gradual healing, with projections suggesting a return to 1980 levels by 2040. However, an exception allows certain chemicals to be used as feedstocks for manufacturing products like plastics and nonstick coatings, under the assumption that only 0.5% would escape into the atmosphere. Recent research challenges this, showing higher-than-expected leakage rates from these industrial processes. An international team, including MIT researchers, found that if unaddressed, this leakage could delay ozone recovery by approximately seven years. The study, to be published in Nature Communications, highlights the need to reduce both the use and emissions of these feedstocks, especially as global demand for plastics grows. Scientists argue that tightening regulations on these exemptions is crucial for the continued success of the Montreal Protocol and to prevent setbacks in environmental protection efforts.",
       "source": "Science Daily",
-      "time_ago": "5 hours ago",
-      "image_url": "/article_images/article_1a0e02b94272d660_d885aec1eec2.webp",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_7f30bf6375360ba9_3c06795dea07.webp",
       "category": "Science"
     },
     {
-      "id": "17f81cfde24bfea3",
-      "title": "Bridging the Gap: How a 550-Million-Year-Old Sponge Fossil Solves an Evolutionary Mystery",
-      "summary": "A recent study published in Nature by Virginia Tech geobiologist Shuhai Xiao and collaborators addresses a long-standing puzzle in evolutionary science: the 160-million-year gap in the sea sponge fossil record. Molecular clock estimates suggest sponges evolved around 700 million years ago, but the earliest clear fossils date to only 540 million years ago. The team discovered a 550 million-year-old sponge fossil from China's Yangtze River region, which falls within this missing interval. They propose that early sponges lacked mineral skeletons, specifically hard spicules, making them less likely to fossilize. This discovery not only bridges the gap but also offers an explanation for the scarcity of older fossils, resolving debates among paleontologists and connecting to broader questions about the emergence of animal life, as initially raised by Darwin. The research involved collaboration with institutions like the University of Cambridge and used careful analysis to rule out other organisms, highlighting the importance of fossil evidence in understanding evolutionary timelines.",
+      "id": "7504e3c46844ed4d",
+      "title": "Uncovering Lithium in Pyrite: A New Resource for Energy",
+      "summary": "Researchers from West Virginia University have discovered significant amounts of lithium within pyrite, a mineral commonly known as fool's gold, found in middle-Devonian shale rocks. This finding is surprising because lithium is typically associated with different types of deposits, such as pegmatites and volcanic clays, and there has been little prior research linking it to sulfur-rich minerals like pyrite. Lithium is crucial for modern technology, especially in lithium-ion batteries that power devices, electric vehicles, and store renewable energy from sources like solar and wind. As global demand for lithium increases due to the shift toward electrification and cleaner energy, finding new and sustainable sources is a major challenge. The study analyzed 15 shale samples from the Appalachian basin, revealing that organic-rich shale may host lithium in previously unrecognized ways. However, the research is preliminary, based on a limited sample from one location, and it's unclear if this pattern exists elsewhere. This discovery could potentially open up shale formations as a new lithium resource, but further investigation is needed to assess its viability and environmental impact.",
+      "source": "Science Daily",
+      "time_ago": "1 hour ago",
+      "image_url": "/article_images/article_7504e3c46844ed4d_5f2bf9f182b6.webp",
+      "category": "Science"
+    },
+    {
+      "id": "a313917f0501c6d1",
+      "title": "Balancing Blood Pressure Goals: Benefits and Risks in Modern Medicine",
+      "summary": "Recent research from Mass General Brigham explores whether more aggressive blood pressure control, targeting systolic pressure below 120 mm Hg, offers greater health benefits compared to traditional higher targets. Using simulation models based on data from the SPRINT trial and NHANES survey, the study analyzed lifetime outcomes for patients, including reductions in cardiovascular events like heart attacks, strokes, and heart failure. The findings indicate that the intensive target prevents more events than aiming for 130 mm Hg or 140 mm Hg, even when accounting for real-world measurement errors common in clinics. However, this approach comes with increased risks of treatment-related side effects, such as falls, kidney injury, hypotension, and bradycardia, and higher healthcare costs due to more medication use and doctor visits. Despite these downsides, the research concludes that the <120 mm Hg target is cost-effective, with an estimated cost of $42,000 per quality-adjusted life-year gained. Lead author Karen Smith emphasizes that while these results support intensive treatment at a population level, individual patient preferences and risks should guide decisions, as not all patients may benefit equally. This study highlights the need for personalized medicine in hypertension management.",
       "source": "Science Daily",
       "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_17f81cfde24bfea3_81178e4e7e90.webp",
+      "image_url": "/article_images/article_a313917f0501c6d1_06febd6efff4.webp",
       "category": "Science"
     },
     {
-      "id": "e8f510f9f91f5477",
-      "title": "Butterfly Population Trends in the UK: Winners and Losers",
-      "summary": "A long-term study by the UK Butterfly Monitoring Scheme reveals mixed trends in butterfly populations across the UK. Based on over 44 million records from volunteer surveys since 1976, the data shows that 33 out of 59 native species have declined, while 25 have improved. Species benefiting from climate change, such as the Red admiral, Comma, Orange tip, Black hairstreak, and Large Blue, are thriving due to warmer conditions that extend their ranges and breeding seasons. These adaptable butterflies can live in diverse environments like farmland and gardens. However, specialist species dependent on specific habitats, such as woodland clearings or chalk grasslands, are struggling. The findings highlight a growing divide between generalist and specialist butterflies, with conservation efforts playing a key role in recovery for some rare species. Experts note that this citizen science project provides valuable insights into how insects respond to environmental changes.",
+      "id": "28097c8499028329",
+      "title": "Community Efforts to Restore Local Wildlife",
+      "summary": "The Surrey Wildlife Trust has initiated a fundraising campaign to raise £40,000 aimed at restoring local wildlife populations, including species such as hedgehogs, frogs, and toads. This effort focuses on enhancing and connecting wildlife-rich environments in gardens, streets, and public spaces across residential areas like Farnham, Guildford, and Dorking. The trust cites factors like poorly-planned development, pesticide overuse, and sterile outdoor spaces as causes for wildlife decline, with a 2017 report indicating that a third of Surrey's species are in serious decline, including extinctions like the wryneck and pine marten. By engaging the public, the trust aims to facilitate safe movement for mammals and pollinators, support the return of species like swifts, and reconnect people with nature. The campaign emphasizes collaboration to bring back the ecological benefits and joys of wildlife to communities.",
       "source": "BBC Science",
-      "time_ago": "13 hours ago",
-      "image_url": "/article_images/article_e8f510f9f91f5477_549ac8bbbf38.webp",
+      "time_ago": "7 hours ago",
+      "image_url": "/article_images/article_28097c8499028329_9fabf7162451.webp",
       "category": "Science"
     },
     {
-      "id": "fc84fc2e0f53f8b7",
-      "title": "Resolving the Proton Radius Puzzle with New Experiments",
-      "summary": "For over 15 years, physicists have debated conflicting measurements of the proton's charge radius in hydrogen atoms, with some results aligning with theoretical models and others suggesting a smaller size, hinting at potential new physics. Recent experiments, detailed in papers published in Nature and Physical Review Letters, indicate that the proton radius is indeed smaller, likely resolving the puzzle without requiring new physics. The controversy began in 2010 when muon spectroscopy measurements, using muonic hydrogen where a muon replaces the electron, showed a significantly smaller radius of 0.841 femtometers compared to the accepted 0.876 femtometers. Muons are heavier than electrons, allowing for more sensitive measurements due to their closer proximity to the proton. Subsequent experiments were inconclusive, but the latest evidence supports the smaller value. This resolution involves understanding quantum mechanics, where protons are fuzzy clouds of quarks, and measurements rely on techniques like electron scattering or spectroscopy to assess charge density. The findings emphasize the importance of precise experimental methods in physics and help solidify our understanding of quantum electrodynamics (QED), the theory describing light-matter interactions, without major revisions.",
-      "source": "Ars Science",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_fc84fc2e0f53f8b7_08180d8dc2be.webp",
-      "category": "Science"
-    },
-    {
-      "id": "5bee2e5478e584d4",
-      "title": "Historic Recovery of Artemis II Astronauts After Deep Space Mission",
-      "summary": "Newly released footage captures the pivotal moment when a recovery crew opened the hatch of the Orion capsule following its splashdown in the ocean on April 10. The four astronauts aboard—Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen—were greeted with cheers as they were confirmed safe and well after completing a historic mission. This Artemis II journey marked a significant milestone, as the crew traveled further from Earth than any humans in history, testing capabilities for future deep space exploration. The recovery operation involved meticulous planning to ensure the astronauts' health and safety post-landing. The event underscores advancements in space technology and international collaboration in space missions. While the article mentions other unrelated news snippets, the core focus is on this successful space recovery, highlighting the excitement and scientific importance of human spaceflight achievements.",
+      "id": "4a205545b4c81feb",
+      "title": "Illegal Dumping of Liquid Waste Poses Environmental Threat",
+      "summary": "A significant fly-tipping incident occurred in Dorset, where large containers of liquid waste, suspected to be oil-based paint, were dumped on the A35 near Bloxworth and Morden. The waste leaked along the carriageway and into a drainage channel, posing a potential risk to the local environment. Dorset Council has initiated a complex cleanup operation, involving temporary traffic lights and lane closures to allow specialist contractors safe access. So far, less than half of the substance has been cleared due to its volume and spread. The council warns that the cost of cleanup could fall to the public if the responsible parties are not identified, as this waste is not household material and would not be accepted at recycling centers. Councillor Jon Andrews emphasized the seriousness of the incident, highlighting the disruption to a key route and the need for specialist work. The council is prioritizing responsible waste management and environmental protection while seeking to identify those responsible. They have urged the public to provide any information to assist in the investigation.",
       "source": "BBC Science",
-      "time_ago": "20 hours ago",
-      "image_url": "/article_images/article_5bee2e5478e584d4_852700f13504.webp",
+      "time_ago": "19 hours ago",
+      "image_url": "/article_images/article_4a205545b4c81feb_bc09f7e67ae8.webp",
       "category": "Science"
     }
   ]
