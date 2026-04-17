@@ -1,0 +1,108 @@
+{
+  "title": "OpenAI Makes a Smart Computer for Biology",
+  "summary": "OpenAI has created a new computer program called GPT-Rosalind that helps scientists with biology. It is named after Rosalind Franklin, a famous scientist. This program is special because it is trained to understand biology tasks, like how genes work or how proteins are made. It can read lots of scientific papers and data to help researchers find important information faster. For example, if a scientist is studying a gene in the brain, GPT-Rosalind can explain brain science terms. OpenAI made it to be careful and not always agree with people, so it might say if an idea is not good. Right now, only some people in the United States can use it because OpenAI wants to make sure it is safe. Other companies have similar programs, but this one is just for biology.",
+  "keywords": [
+    {
+      "term": "OpenAI",
+      "explanation": "a company that makes smart computer programs"
+    },
+    {
+      "term": "GPT-Rosalind",
+      "explanation": "a computer program that helps with biology"
+    },
+    {
+      "term": "biology",
+      "explanation": "the study of living things like plants and animals"
+    },
+    {
+      "term": "scientists",
+      "explanation": "people who study science to learn new things"
+    },
+    {
+      "term": "genes",
+      "explanation": "parts of living things that tell them how to grow"
+    },
+    {
+      "term": "safe",
+      "explanation": "not causing harm or danger"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the new computer program from OpenAI?",
+      "options": [
+        "GPT-Rosalind",
+        "GPT-Biology",
+        "Rosalind Franklin",
+        "Science Helper"
+      ],
+      "correct_answer": "GPT-Rosalind"
+    },
+    {
+      "question": "What does GPT-Rosalind help scientists with?",
+      "options": [
+        "Math problems",
+        "Biology tasks",
+        "History facts",
+        "Art projects"
+      ],
+      "correct_answer": "Biology tasks"
+    },
+    {
+      "question": "Who is GPT-Rosalind named after?",
+      "options": [
+        "A famous scientist",
+        "A computer inventor",
+        "A movie star",
+        "A sports player"
+      ],
+      "correct_answer": "A famous scientist"
+    },
+    {
+      "question": "Why did OpenAI make GPT-Rosalind careful?",
+      "options": [
+        "To be safe and not always agree",
+        "To make it faster",
+        "To use less electricity",
+        "To look prettier"
+      ],
+      "correct_answer": "To be safe and not always agree"
+    },
+    {
+      "question": "Who can use GPT-Rosalind right now?",
+      "options": [
+        "Everyone in the world",
+        "Only people in the United States",
+        "Only kids",
+        "Only teachers"
+      ],
+      "correct_answer": "Only people in the United States"
+    },
+    {
+      "question": "What is biology the study of?",
+      "options": [
+        "Rocks and minerals",
+        "Living things",
+        "Stars and planets",
+        "Machines and tools"
+      ],
+      "correct_answer": "Living things"
+    }
+  ],
+  "background_read": [
+    "Biology is the science of life, including how plants, animals, and humans work. Scientists use tools like computers to study genes and proteins, which are tiny parts that control how living things grow and behave. OpenAI is a company that creates artificial intelligence, which are computer programs that can think and learn like humans. They made a new program to help biologists understand complex information faster and more safely."
+  ],
+  "Article_Structure": [
+    "WHO: OpenAI, a company that makes smart computer programs",
+    "WHAT: Created GPT-Rosalind, a biology-focused program to help scientists",
+    "WHERE: Available only in the United States for now",
+    "WHY: To assist with biology tasks and ensure safety by being careful"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Helpful Tool",
+      "description": "GPT-Rosalind could make biology research easier and faster for scientists"
+    }
+  ],
+  "image_url": "/article_images/article_77903f4c62f452e9_eec2ce84dbaf.webp"
+}

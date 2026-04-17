@@ -1,57 +1,57 @@
 {
   "articles": [
     {
+      "id": "1f275797d44a48dc",
+      "title": "The Science Behind Sparkling Water and Weight Management",
+      "summary": "This article examines whether sparkling water can boost metabolism and aid in weight loss. It reports that carbonated water may slightly increase blood glucose uptake and metabolism, potentially helping the body use energy more efficiently. However, the effect is minimal, and the author concludes that sparkling water alone is insufficient for meaningful weight loss. The analysis compares drinking fizzy water to hemodialysis, a medical process where blood becomes more alkaline due to carbon dioxide, which might activate enzymes to speed up glucose absorption. Despite this, the real-world impact is small, with only about 9.5 grams of glucose used in a hemodialysis session. The author emphasizes that regular exercise and a balanced diet are essential for sustainable weight management, and notes that carbonated water can cause digestive side effects in some people. Overall, while sparkling water might offer minor benefits, it should not be relied upon as a primary weight loss tool.",
+      "source": "Science Daily",
+      "time_ago": "5 hours ago",
+      "image_url": "/article_images/article_1f275797d44a48dc_1297739a63a8.webp",
+      "category": "Science"
+    },
+    {
+      "id": "559c299d6c03e003",
+      "title": "Uncovering How a Natural Hormone Reverses Obesity Through Brain Signals",
+      "summary": "Researchers at the University of Oklahoma have discovered that the natural hormone FGF21 can reverse obesity in mice by acting on the brain, specifically the hindbrain region. This hormone sends signals to areas like the nucleus of the solitary tract and area postrema, which then communicate with the parabrachial nucleus to influence metabolism and reduce body weight. The findings, published in Cell Reports, reveal that FGF21 works in a similar brain region as GLP-1 weight loss drugs but through different mechanisms: while GLP-1 reduces appetite, FGF21 increases metabolic activity to burn more energy. Lead researcher Matthew Potthoff and his team were surprised because they expected the hormone to target the hypothalamus, but instead found it signaling to the hindbrain. This discovery could lead to new, targeted therapies for obesity and metabolic dysfunction-associated steatohepatitis (MASH), a serious liver disease, with fewer side effects like gastrointestinal issues or bone loss. The study highlights the potential for developing more effective treatments by understanding specific brain circuits.",
+      "source": "Science Daily",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_559c299d6c03e003_902fc2fdc528.webp",
+      "category": "Science"
+    },
+    {
+      "id": "efee5c6fcb0ad021",
+      "title": "The Rocky Road of Europe's Mars Rover Mission",
+      "summary": "The European Space Agency's Rosalind Franklin rover mission to Mars has experienced a complex history of delays and shifting partnerships over nearly 25 years. Initially planned for 2009 with Russia providing a Soyuz rocket, the mission evolved into the ExoMars program. In 2009, NASA joined as a partner, agreeing to launch an orbiter in 2016 and the rover in 2018 using Atlas V rockets, but withdrew in 2012 due to budget issues, including costs from the James Webb Space Telescope. ESA then turned back to Russia for Proton rocket launches and a descent system, successfully launching the Trace Gas Orbiter in 2016. However, the rover faced further delays to 2020 and then 2022 due to parachute test failures and the COVID-19 pandemic. The Russian invasion of Ukraine in 2022 led ESA to sever ties, ending the partnership and removing Russian instruments. NASA has now stepped in, formalizing an agreement in 2024 to provide a Falcon Heavy rocket launch, braking engines, and nuclear heaters, with a potential launch in late 2028. The rover, built by Airbus in the UK, aims to search for organic molecules in Martian soil, highlighting the challenges of international space collaboration amid political and financial hurdles.",
+      "source": "Ars Science",
+      "time_ago": "9 hours ago",
+      "image_url": "/article_images/article_efee5c6fcb0ad021_d5cf877f0a68.webp",
+      "category": "Science"
+    },
+    {
+      "id": "ddb02515b31091cb",
+      "title": "Artemis II Crew Bonds and Inspires Global Unity",
+      "summary": "The Artemis II mission, conducted by NASA, featured astronauts Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen, who returned from a nine-day journey around the far side of the Moon. They reported that their experience strengthened their friendship, transforming them from friends to best friends, and highlighted the mission's impact on global unity and hope. The crew emphasized that technical achievements, such as using the Orion spacecraft and Space Launch System, were secondary to the human elements of laughter, joy, and tears they shared. They expressed gratitude for international support and noted how the mission cut through divisions, with Koch's husband mentioning it united people. Glover reflected on the shared human effort, while Hansen found renewed faith in humanity. The astronauts aimed to demonstrate that Moon landings are achievable and can foster worldwide collaboration.",
+      "source": "BBC Science",
+      "time_ago": "15 hours ago",
+      "image_url": "/article_images/article_ddb02515b31091cb_f61956a3f075.webp",
+      "category": "Science"
+    },
+    {
+      "id": "77903f4c62f452e9",
+      "title": "OpenAI Launches Biology-Specific AI Model GPT-Rosalind",
+      "summary": "OpenAI has introduced GPT-Rosalind, a large language model tailored for biology workflows, named after scientist Rosalind Franklin. This model addresses challenges in biology research, such as handling massive datasets from genome sequencing and protein studies, and bridging gaps between specialized subfields like genetics and neurobiology. Trained on 50 common biological workflows and public databases, GPT-Rosalind can suggest biological pathways and prioritize drug targets by connecting genotype to phenotype. OpenAI has tuned it to be skeptical to reduce sycophancy, meaning it may warn against poor drug targets. The model is described as having reasoning abilities for multi-step processes and expert-level performance on benchmarks. However, concerns about hallucinations—where AI generates incorrect information—remain unaddressed. Access is currently limited to US-based entities through a trusted deployment structure due to risks like optimizing virus infectivity, with a more general Life Sciences Research Plugin planned. Compared to broader science-focused models from other companies, GPT-Rosalind's biology-specific focus may enhance utility, but its effectiveness awaits real-world evaluation.",
+      "source": "Ars Science",
+      "time_ago": "15 hours ago",
+      "image_url": "/article_images/article_77903f4c62f452e9_eec2ce84dbaf.webp",
+      "category": "Science"
+    },
+    {
       "id": "ec252155906be338",
       "title": "Targeting Senescent Macrophages to Reverse Liver Damage in Mice",
       "summary": "Researchers at UCLA discovered that senescent macrophages, often called zombie cells, accumulate in aging tissues and the livers of individuals with fatty liver disease. These cells, which stop dividing but remain active, release inflammatory signals that cause tissue damage. By identifying a molecular signature involving p21 and TREM2 proteins, the team distinguished senescent macrophages from healthy ones. In experiments with mice fed a high-fat, high-cholesterol diet, they found that senescent macrophages increased from 5% in young mice to 60-80% in older mice, correlating with liver inflammation. Using a drug called ABT-263 to selectively remove these cells, the scientists observed significant improvements: liver size decreased, body weight dropped by about 25%, and liver damage was reversed, even without dietary changes. This study, published in Nature Aging, suggests that clearing senescent cells could treat metabolic diseases and highlights cholesterol as a key driver of macrophage senescence, potentially accelerating aging in organs like the brain and heart.",
       "source": "Science Daily",
-      "time_ago": "1 hour ago",
+      "time_ago": "1 day ago",
       "image_url": "/article_images/article_ec252155906be338_cc80b9c8dbdb.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7f30bf6375360ba9",
-      "title": "MIT Research Reveals Hidden Leaks Delaying Ozone Layer Recovery",
-      "summary": "MIT scientists have identified a significant hidden issue that is impeding the recovery of the ozone layer, which protects Earth from harmful ultraviolet radiation. The Montreal Protocol, established in 1987, successfully phased out most ozone-depleting substances, leading to gradual healing, with projections suggesting a return to 1980 levels by 2040. However, an exception allows certain chemicals to be used as feedstocks for manufacturing products like plastics and nonstick coatings, under the assumption that only 0.5% would escape into the atmosphere. Recent research challenges this, showing higher-than-expected leakage rates from these industrial processes. An international team, including MIT researchers, found that if unaddressed, this leakage could delay ozone recovery by approximately seven years. The study, to be published in Nature Communications, highlights the need to reduce both the use and emissions of these feedstocks, especially as global demand for plastics grows. Scientists argue that tightening regulations on these exemptions is crucial for the continued success of the Montreal Protocol and to prevent setbacks in environmental protection efforts.",
-      "source": "Science Daily",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_7f30bf6375360ba9_3c06795dea07.webp",
-      "category": "Science"
-    },
-    {
-      "id": "7504e3c46844ed4d",
-      "title": "Uncovering Lithium in Pyrite: A New Resource for Energy",
-      "summary": "Researchers from West Virginia University have discovered significant amounts of lithium within pyrite, a mineral commonly known as fool's gold, found in middle-Devonian shale rocks. This finding is surprising because lithium is typically associated with different types of deposits, such as pegmatites and volcanic clays, and there has been little prior research linking it to sulfur-rich minerals like pyrite. Lithium is crucial for modern technology, especially in lithium-ion batteries that power devices, electric vehicles, and store renewable energy from sources like solar and wind. As global demand for lithium increases due to the shift toward electrification and cleaner energy, finding new and sustainable sources is a major challenge. The study analyzed 15 shale samples from the Appalachian basin, revealing that organic-rich shale may host lithium in previously unrecognized ways. However, the research is preliminary, based on a limited sample from one location, and it's unclear if this pattern exists elsewhere. This discovery could potentially open up shale formations as a new lithium resource, but further investigation is needed to assess its viability and environmental impact.",
-      "source": "Science Daily",
-      "time_ago": "1 hour ago",
-      "image_url": "/article_images/article_7504e3c46844ed4d_5f2bf9f182b6.webp",
-      "category": "Science"
-    },
-    {
-      "id": "a313917f0501c6d1",
-      "title": "Balancing Blood Pressure Goals: Benefits and Risks in Modern Medicine",
-      "summary": "Recent research from Mass General Brigham explores whether more aggressive blood pressure control, targeting systolic pressure below 120 mm Hg, offers greater health benefits compared to traditional higher targets. Using simulation models based on data from the SPRINT trial and NHANES survey, the study analyzed lifetime outcomes for patients, including reductions in cardiovascular events like heart attacks, strokes, and heart failure. The findings indicate that the intensive target prevents more events than aiming for 130 mm Hg or 140 mm Hg, even when accounting for real-world measurement errors common in clinics. However, this approach comes with increased risks of treatment-related side effects, such as falls, kidney injury, hypotension, and bradycardia, and higher healthcare costs due to more medication use and doctor visits. Despite these downsides, the research concludes that the <120 mm Hg target is cost-effective, with an estimated cost of $42,000 per quality-adjusted life-year gained. Lead author Karen Smith emphasizes that while these results support intensive treatment at a population level, individual patient preferences and risks should guide decisions, as not all patients may benefit equally. This study highlights the need for personalized medicine in hypertension management.",
-      "source": "Science Daily",
-      "time_ago": "6 hours ago",
-      "image_url": "/article_images/article_a313917f0501c6d1_06febd6efff4.webp",
-      "category": "Science"
-    },
-    {
-      "id": "28097c8499028329",
-      "title": "Community Efforts to Restore Local Wildlife",
-      "summary": "The Surrey Wildlife Trust has initiated a fundraising campaign to raise £40,000 aimed at restoring local wildlife populations, including species such as hedgehogs, frogs, and toads. This effort focuses on enhancing and connecting wildlife-rich environments in gardens, streets, and public spaces across residential areas like Farnham, Guildford, and Dorking. The trust cites factors like poorly-planned development, pesticide overuse, and sterile outdoor spaces as causes for wildlife decline, with a 2017 report indicating that a third of Surrey's species are in serious decline, including extinctions like the wryneck and pine marten. By engaging the public, the trust aims to facilitate safe movement for mammals and pollinators, support the return of species like swifts, and reconnect people with nature. The campaign emphasizes collaboration to bring back the ecological benefits and joys of wildlife to communities.",
-      "source": "BBC Science",
-      "time_ago": "7 hours ago",
-      "image_url": "/article_images/article_28097c8499028329_9fabf7162451.webp",
-      "category": "Science"
-    },
-    {
-      "id": "4a205545b4c81feb",
-      "title": "Illegal Dumping of Liquid Waste Poses Environmental Threat",
-      "summary": "A significant fly-tipping incident occurred in Dorset, where large containers of liquid waste, suspected to be oil-based paint, were dumped on the A35 near Bloxworth and Morden. The waste leaked along the carriageway and into a drainage channel, posing a potential risk to the local environment. Dorset Council has initiated a complex cleanup operation, involving temporary traffic lights and lane closures to allow specialist contractors safe access. So far, less than half of the substance has been cleared due to its volume and spread. The council warns that the cost of cleanup could fall to the public if the responsible parties are not identified, as this waste is not household material and would not be accepted at recycling centers. Councillor Jon Andrews emphasized the seriousness of the incident, highlighting the disruption to a key route and the need for specialist work. The council is prioritizing responsible waste management and environmental protection while seeking to identify those responsible. They have urged the public to provide any information to assist in the investigation.",
-      "source": "BBC Science",
-      "time_ago": "19 hours ago",
-      "image_url": "/article_images/article_4a205545b4c81feb_bc09f7e67ae8.webp",
       "category": "Science"
     }
   ]
