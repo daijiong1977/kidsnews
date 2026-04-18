@@ -1,0 +1,108 @@
+{
+  "title": "Bacteria Explode to Share Superpowers",
+  "summary": "Scientists found that bacteria can explode to share genes that help them fight antibiotics. They studied tiny particles called gene transfer agents (GTAs), which are like delivery trucks for DNA. These GTAs pick up DNA from one bacterial cell and carry it to others, allowing bacteria to quickly get new abilities, such as resisting antibiotics. A key part of this process is when the bacterial cell breaks open, or explodes, to release the GTAs. Researchers discovered a system called LypABC that controls this explosion. Surprisingly, LypABC looks like a defense system against viruses, but bacteria now use it to help share genes. This helps explain how antibiotic resistance spreads, which is a big problem for health. The study was done by scientists at the John Innes Centre and other universities.",
+  "keywords": [
+    {
+      "term": "bacteria",
+      "explanation": "tiny living things that can cause sickness"
+    },
+    {
+      "term": "explode",
+      "explanation": "to break open suddenly"
+    },
+    {
+      "term": "genes",
+      "explanation": "instructions inside cells that tell them how to work"
+    },
+    {
+      "term": "antibiotics",
+      "explanation": "medicines that kill bacteria to treat infections"
+    },
+    {
+      "term": "GTAs",
+      "explanation": "tiny particles that carry DNA between bacteria"
+    },
+    {
+      "term": "LypABC",
+      "explanation": "a system that makes bacteria explode to release GTAs"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What do GTAs do?",
+      "options": [
+        "Carry DNA between bacteria",
+        "Make bacteria sick",
+        "Kill viruses",
+        "Create new bacteria"
+      ],
+      "correct_answer": "Carry DNA between bacteria"
+    },
+    {
+      "question": "Why is it important that bacteria share genes?",
+      "options": [
+        "To help them resist antibiotics",
+        "To make them bigger",
+        "To change their color",
+        "To eat more food"
+      ],
+      "correct_answer": "To help them resist antibiotics"
+    },
+    {
+      "question": "What happens when a bacterial cell explodes?",
+      "options": [
+        "It releases GTAs",
+        "It dies forever",
+        "It becomes a virus",
+        "It makes new cells"
+      ],
+      "correct_answer": "It releases GTAs"
+    },
+    {
+      "question": "What system controls the explosion of bacteria?",
+      "options": [
+        "LypABC",
+        "GTAs",
+        "Antibiotics",
+        "Viruses"
+      ],
+      "correct_answer": "LypABC"
+    },
+    {
+      "question": "What did LypABC originally help bacteria do?",
+      "options": [
+        "Defend against viruses",
+        "Make food",
+        "Move faster",
+        "Grow bigger"
+      ],
+      "correct_answer": "Defend against viruses"
+    },
+    {
+      "question": "Who did the study on bacteria exploding?",
+      "options": [
+        "Scientists at John Innes Centre",
+        "Doctors at a hospital",
+        "Teachers at a school",
+        "Farmers in a field"
+      ],
+      "correct_answer": "Scientists at John Innes Centre"
+    }
+  ],
+  "background_read": [
+    "Bacteria are tiny organisms that can make people sick, but antibiotics are medicines that kill them. Sometimes, bacteria become resistant to antibiotics, meaning the medicines don't work anymore. This happens because bacteria can share genes, which are like instructions, with each other. In this article, scientists discovered that bacteria use a system to explode and release particles that carry these genes, helping resistance spread. Understanding this can help scientists find new ways to stop antibiotic resistance and keep people healthy."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at the John Innes Centre and other universities",
+    "WHAT: Discovered that bacteria explode to release GTAs that share genes for antibiotic resistance",
+    "WHERE: In laboratories studying bacteria like Caulobacter crescentus",
+    "WHY: To understand how antibiotic resistance spreads and find ways to fight it"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientific discovery",
+      "description": "Scientists found a new way bacteria share genes by exploding, which helps explain antibiotic resistance."
+    }
+  ],
+  "image_url": "/article_images/article_03f89f1f1eb7927d_849ca9e1d1b8.webp"
+}
