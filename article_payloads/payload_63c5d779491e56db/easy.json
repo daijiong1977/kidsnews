@@ -1,0 +1,108 @@
+{
+  "title": "Math Rule Broken by Donut Shapes",
+  "summary": "For over 150 years, a math rule by Pierre Ossian Bonnet said that if you know two things about a surface—how distances work and how it bends—you can figure out its exact shape. But now, mathematicians from three universities have found a surprise. They made two donut-shaped surfaces, called tori, that have the same distances and bending at every point, but the shapes are different. This breaks the old rule. It shows that even with all the local details, you can't always know the whole shape. The discovery solves a problem that people have been trying to solve for decades.",
+  "keywords": [
+    {
+      "term": "math rule",
+      "explanation": "a guiding idea in geometry that helps mathematicians understand shapes"
+    },
+    {
+      "term": "donut-shaped",
+      "explanation": "a surface that looks like a ring or a donut, also called a torus"
+    },
+    {
+      "term": "distances",
+      "explanation": "how far apart points are on a surface"
+    },
+    {
+      "term": "bending",
+      "explanation": "how a surface curves inward or outward in space"
+    },
+    {
+      "term": "local details",
+      "explanation": "information about small parts of a surface, like at each point"
+    },
+    {
+      "term": "whole shape",
+      "explanation": "the overall form or structure of a surface"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What shape did the mathematicians use to break the math rule?",
+      "options": [
+        "Sphere",
+        "Cube",
+        "Donut",
+        "Triangle"
+      ],
+      "correct_answer": "Donut"
+    },
+    {
+      "question": "How long had the math rule been around before it was broken?",
+      "options": [
+        "50 years",
+        "100 years",
+        "150 years",
+        "200 years"
+      ],
+      "correct_answer": "150 years"
+    },
+    {
+      "question": "What two things did the rule say you need to know about a surface?",
+      "options": [
+        "Color and size",
+        "Distances and bending",
+        "Weight and height",
+        "Temperature and speed"
+      ],
+      "correct_answer": "Distances and bending"
+    },
+    {
+      "question": "Who made the math rule that was broken?",
+      "options": [
+        "Albert Einstein",
+        "Pierre Ossian Bonnet",
+        "Isaac Newton",
+        "Tim Hoffmann"
+      ],
+      "correct_answer": "Pierre Ossian Bonnet"
+    },
+    {
+      "question": "What did the mathematicians find about the two donut shapes?",
+      "options": [
+        "They are the same shape",
+        "They have different distances",
+        "They have the same distances and bending but different shapes",
+        "They are not surfaces"
+      ],
+      "correct_answer": "They have the same distances and bending but different shapes"
+    },
+    {
+      "question": "Why is this discovery important?",
+      "options": [
+        "It makes math easier",
+        "It shows local details don't always determine the whole shape",
+        "It creates a new shape",
+        "It changes how we measure things"
+      ],
+      "correct_answer": "It shows local details don't always determine the whole shape"
+    }
+  ],
+  "background_read": [
+    "Geometry is the study of shapes and spaces. For a long time, mathematicians thought that if you knew how distances work and how a surface bends at every point, you could figure out its exact shape. This idea came from a French mathematician named Pierre Ossian Bonnet over 150 years ago. Surfaces can be things like spheres, planes, or donut shapes called tori. The new discovery shows that even with all this information, two donut shapes can look the same locally but be different overall, breaking the old rule and helping solve a big math problem."
+  ],
+  "Article_Structure": [
+    "WHO: Mathematicians from Technical University of Munich, Technical University of Berlin, and North Carolina State University",
+    "WHAT: Found two donut-shaped surfaces that break a 150-year-old math rule by having the same distances and bending but different shapes",
+    "WHERE: In geometry research at universities",
+    "WHY: To show that local details don't always determine the whole shape, solving a decades-old problem"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Mathematical Discovery",
+      "description": "This is an exciting breakthrough that changes how we understand surfaces in geometry."
+    }
+  ],
+  "image_url": "/article_images/article_63c5d779491e56db_0cb0a58df0cc.webp"
+}
