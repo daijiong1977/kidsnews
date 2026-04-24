@@ -1,0 +1,121 @@
+{
+  "title": "US Accuses China of Industrial-Scale AI Theft",
+  "summary": "The White House has issued a memo accusing foreign entities, primarily based in China, of conducting industrial-scale campaigns to steal US artificial intelligence (AI) technology. Michael Kratsios, Director of Science and Technology Policy, stated that these entities use a technique called 'distilling' to copy AI models. Distillation involves operating thousands of accounts to appear as normal users, then attempting to 'jailbreak' the AI to extract proprietary information. The memo outlines four unspecified actions to combat this exploitation. A representative from China's US embassy countered the accusations, claiming China's AI development is a result of its own efforts and international cooperation, and criticized US suppression of Chinese companies. Major AI firms like OpenAI and Anthropic have reported similar distillation activities. The memo emphasizes that as detection methods improve, foreign entities relying on stolen technology will produce unreliable models.",
+  "keywords": [
+    {
+      "term": "distillation",
+      "explanation": "a method of copying AI by using many fake accounts to extract information"
+    },
+    {
+      "term": "jailbreak",
+      "explanation": "tricking an AI into revealing hidden information or bypassing restrictions"
+    },
+    {
+      "term": "proprietary information",
+      "explanation": "secret or private data owned by a company"
+    },
+    {
+      "term": "industrial-scale",
+      "explanation": "very large, like a factory production line"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What technique does the White House say Chinese entities use to steal AI?",
+      "options": [
+        "Distillation",
+        "Evaporation",
+        "Condensation",
+        "Filtration"
+      ],
+      "correct_answer": "Distillation"
+    },
+    {
+      "question": "Who wrote the memo?",
+      "options": [
+        "The US President",
+        "Michael Kratsios",
+        "A White House spokesperson",
+        "OpenAI's CEO"
+      ],
+      "correct_answer": "Michael Kratsios"
+    },
+    {
+      "question": "How do distillation campaigns work?",
+      "options": [
+        "By hacking into servers",
+        "By operating many fake accounts",
+        "By bribing employees",
+        "By buying technology legally"
+      ],
+      "correct_answer": "By operating many fake accounts"
+    },
+    {
+      "question": "What did China's embassy representative say?",
+      "options": [
+        "China admits stealing",
+        "China develops its own technology",
+        "China will stop using AI",
+        "China needs US help"
+      ],
+      "correct_answer": "China develops its own technology"
+    },
+    {
+      "question": "Which AI companies have reported distillation activity?",
+      "options": [
+        "Google and Microsoft",
+        "OpenAI and Anthropic",
+        "IBM and Apple",
+        "Amazon and Facebook"
+      ],
+      "correct_answer": "OpenAI and Anthropic"
+    },
+    {
+      "question": "How many actions did the White House outline to stop the theft?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct_answer": "Four"
+    },
+    {
+      "question": "What does Kratsios say about the reliability of stolen models?",
+      "options": [
+        "They are very reliable",
+        "They are not reliable",
+        "They are as good as originals",
+        "They are better than originals"
+      ],
+      "correct_answer": "They are not reliable"
+    },
+    {
+      "question": "What is the main purpose of the memo?",
+      "options": [
+        "To announce new AI regulations",
+        "To accuse foreign entities of theft",
+        "To promote US AI companies",
+        "To start a trade war"
+      ],
+      "correct_answer": "To accuse foreign entities of theft"
+    }
+  ],
+  "background_read": [
+    "The article discusses US-China tensions over AI technology. AI is a strategic field for both countries. The US leads in AI innovation but faces competition from China. Distillation is a known method of copying AI models. The memo reflects US efforts to protect intellectual property."
+  ],
+  "Article_Structure": [
+    "Main Points: The White House accuses Chinese entities of industrial-scale AI theft via distillation. Purpose: To alert US AI firms and announce actions to protect technology. Evidence Evaluation: The memo cites new information but provides no specific evidence; major AI companies confirm similar activities. Author Credibility: Michael Kratsios is the Director of Science and Technology Policy, a high-ranking official. Methodology: The memo is a policy statement, not a research document; the claims are based on internal information."
+  ],
+  "perspectives": [
+    {
+      "perspective": "US Government",
+      "description": "Views Chinese AI theft as a threat to national security and economic competitiveness."
+    },
+    {
+      "perspective": "China's Embassy",
+      "description": "Rejects accusations, highlights China's own innovation, and criticizes US suppression."
+    }
+  ],
+  "image_url": "/article_images/article_49e1176012e9a838_a6a2b3c52830.webp"
+}

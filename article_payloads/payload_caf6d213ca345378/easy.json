@@ -1,0 +1,100 @@
+{
+  "title": "The Mystery of Big G",
+  "summary": "Scientists want to measure a number called Big G. Big G tells us how strong gravity is. Gravity is the force that keeps us on Earth and makes things fall. Even though we know about Big G for a long time, it is hard to measure it exactly. Different experiments give slightly different numbers. This is confusing for scientists. A group called NIST did a new experiment to try to get a better number. They used a special tool called a torsion balance. It has metal cylinders that twist when gravity pulls on them. They did the experiment with copper and sapphire masses and got the same result. But the new number still does not match other experiments. So the mystery of Big G continues. Scientists keep trying because knowing Big G helps us understand the universe better.",
+  "keywords": [
+    {
+      "term": "Big G",
+      "explanation": "A number that tells how strong gravity is"
+    },
+    {
+      "term": "gravity",
+      "explanation": "The force that pulls things toward each other"
+    },
+    {
+      "term": "torsion balance",
+      "explanation": "A tool that twists when gravity pulls on it"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Big G measure?",
+      "options": [
+        "The strength of gravity",
+        "The speed of light",
+        "The size of Earth",
+        "The weight of an apple"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What tool did scientists use in the new experiment?",
+      "options": [
+        "A telescope",
+        "A torsion balance",
+        "A thermometer",
+        "A microscope"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "What did NIST scientists use to make the masses?",
+      "options": [
+        "Copper and sapphire",
+        "Iron and gold",
+        "Wood and plastic",
+        "Glass and rubber"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Why is it hard to measure Big G?",
+      "options": [
+        "Gravity is very weak",
+        "Gravity is very strong",
+        "Gravity changes every day",
+        "Gravity only works in space"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Did the new experiment fix the problem with Big G?",
+      "options": [
+        "Yes, now we know the exact value",
+        "No, it still doesn't match other experiments",
+        "Yes, the number is now perfect",
+        "No, they stopped trying"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Who first measured Big G in a lab?",
+      "options": [
+        "Henry Cavendish",
+        "Isaac Newton",
+        "Albert Einstein",
+        "Marie Curie"
+      ],
+      "correct_answer": "A"
+    }
+  ],
+  "background_read": [
+    "Gravity is a force that pulls objects together. The strength of gravity depends on how much mass something has and how far away it is. Big G is a constant number that helps us calculate that force. Scientists have been trying to measure Big G very accurately for over 200 years. Different experiments give slightly different results, which is a puzzle."
+  ],
+  "Article_Structure": [
+    "WHO: Scientists at NIST and other labs",
+    "WHAT: Trying to measure Big G more precisely",
+    "WHERE: In laboratories using a torsion balance",
+    "WHY: To understand gravity better and resolve discrepancies"
+  ],
+  "perspectives": [
+    {
+      "perspective": "Scientists want precision",
+      "description": "They want a single accurate number for Big G"
+    },
+    {
+      "perspective": "Gravity is tricky",
+      "description": "It's weak and hard to measure without interference"
+    }
+  ],
+  "image_url": "/article_images/article_caf6d213ca345378_3f18eb1a3642.webp"
+}
