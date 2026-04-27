@@ -1,0 +1,129 @@
+{
+  "title": "Pesticide Exposure Linked to 150% Increase in Cancer Risk",
+  "summary": "A major study published in Nature Health has found a strong connection between environmental exposure to agricultural pesticides and an increased risk of cancer. Researchers from the IRD, Institut Pasteur, University of Toulouse, and the National Institute of Neoplastic Diseases in Peru combined environmental monitoring, national cancer registry data, and biological research. They focused on Peru because of its intensive agriculture and high pesticide use. The study modeled the dispersion of 31 widely used pesticides over six years (2014-2019) to create high-resolution exposure maps. Comparing these maps with health data from over 150,000 cancer patients (2007-2020) revealed that regions with higher pesticide exposure had about 150% greater likelihood of developing certain cancers. The research also showed that pesticides can cause early biological changes in the body, particularly in the liver, long before cancer is diagnosed. These changes may make tissues more susceptible to other harmful factors. The study highlights the need for better risk assessment and health policies to protect communities, especially Indigenous and rural farming populations who face higher exposure.",
+  "keywords": [
+    {
+      "term": "pesticide",
+      "explanation": "a chemical substance used to kill pests, especially insects that damage crops"
+    },
+    {
+      "term": "cancer",
+      "explanation": "a disease characterized by uncontrolled cell growth"
+    },
+    {
+      "term": "exposure",
+      "explanation": "contact with a substance that can affect health"
+    },
+    {
+      "term": "risk",
+      "explanation": "the probability of an adverse outcome"
+    },
+    {
+      "term": "biological changes",
+      "explanation": "alterations in the body's cells or functions"
+    },
+    {
+      "term": "liver",
+      "explanation": "an organ that processes chemicals in the body"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the main finding of the study?",
+      "options": [
+        "Pesticides are harmless",
+        "Pesticide exposure linked to 150% higher cancer risk",
+        "Pesticides only affect plants",
+        "Cancer is not related to pesticides"
+      ],
+      "correct_answer": "Pesticide exposure linked to 150% higher cancer risk"
+    },
+    {
+      "question": "How many pesticides were analyzed in the study?",
+      "options": [
+        "10",
+        "20",
+        "31",
+        "50"
+      ],
+      "correct_answer": "31"
+    },
+    {
+      "question": "What was the time period for modeling pesticide dispersion?",
+      "options": [
+        "2007-2020",
+        "2014-2019",
+        "2010-2015",
+        "2016-2021"
+      ],
+      "correct_answer": "2014-2019"
+    },
+    {
+      "question": "Which country was the focus of the study?",
+      "options": [
+        "France",
+        "Peru",
+        "United States",
+        "India"
+      ],
+      "correct_answer": "Peru"
+    },
+    {
+      "question": "What organ is mentioned as a marker for environmental exposure?",
+      "options": [
+        "Heart",
+        "Lungs",
+        "Liver",
+        "Kidneys"
+      ],
+      "correct_answer": "Liver"
+    },
+    {
+      "question": "How many cancer patients' data were used?",
+      "options": [
+        "50,000",
+        "100,000",
+        "150,000",
+        "200,000"
+      ],
+      "correct_answer": "150,000"
+    },
+    {
+      "question": "What does the study suggest about biological changes?",
+      "options": [
+        "They occur after cancer diagnosis",
+        "They occur early and silently",
+        "They are always reversible",
+        "They are not important"
+      ],
+      "correct_answer": "They occur early and silently"
+    },
+    {
+      "question": "Which populations face higher exposure according to the study?",
+      "options": [
+        "Urban residents",
+        "Indigenous and rural farming communities",
+        "Children only",
+        "Elderly"
+      ],
+      "correct_answer": "Indigenous and rural farming communities"
+    }
+  ],
+  "background_read": [
+    "Pesticides are widely used in agriculture to protect crops from pests. However, they can remain in the environment and enter the human body through food, water, and air. Previous studies have linked individual pesticides to health issues, but this new research examines real-world mixtures. The study in Peru is significant because it uses a large dataset and advanced modeling to show a clear association between pesticide exposure and cancer risk. The findings emphasize the need for stricter regulations and protective measures for farming communities."
+  ],
+  "Article_Structure": [
+    "Main Points: The study demonstrates a 150% increase in cancer risk associated with pesticide exposure, using data from Peru. It analyzed 31 pesticides and over 150,000 cancer cases. Purpose: To investigate the link between real-world pesticide mixtures and cancer, addressing limitations of previous single-chemical studies. Evidence Evaluation: The evidence is strong, combining environmental modeling, cancer registry data, and biological research. Author Credibility: The research involved reputable institutions like IRD, Institut Pasteur, and University of Toulouse. Methodology: Researchers modeled pesticide dispersion over six years and compared exposure maps with cancer incidence data, also conducting molecular studies on biological changes."
+  ],
+  "perspectives": [
+    {
+      "perspective": "Environmental Health Experts",
+      "description": "They see the study as a crucial step in understanding how chemical mixtures affect human health."
+    },
+    {
+      "perspective": "Agricultural Industry",
+      "description": "They may be concerned about implications for pesticide use and seek safer alternatives."
+    }
+  ],
+  "image_url": "/article_images/article_9fc0c6e5c41f660c_78342dd85ce0.webp"
+}
